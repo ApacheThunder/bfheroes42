@@ -1,0 +1,24 @@
+echo *****************************************************************************************
+echo *****************************************************************************************
+echo *****************************************************************************************
+echo AIdeault.con*****************************************************************************************
+echo *****************************************************************************************
+echo *****************************************************************************************
+echo *****************************************************************************************
+
+rem **** This line is really important, it forces the AITemplates information to be loaded! ****
+game.isAiLevel 1
+
+aiSettings.setNSides 2
+aiSettings.setBotSkill 1.0
+run AI/Conditions.con
+run AI/Prerequisites.con
+run AI/Strategies.con
+aiSettings.setMaxNBots 255
+aiSettings.createLODManager 200 2
+aiSettings.lodEnable 1
+run ai/radio.con
+game.showAIStats 0
+game.autospawnbots 1
+
+rem EOF

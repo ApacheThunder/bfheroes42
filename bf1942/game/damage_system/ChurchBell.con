@@ -1,0 +1,206 @@
+rem *** Church Bell Material ***
+MaterialManager.material 187
+MaterialManager.materialAttGroup 187
+MaterialManager.materialDefGroup 187
+MaterialManager.materialDamage 1
+
+
+rem -------------------------------------------------------
+
+
+rem *** Exppack/Granade - Direct ***
+MaterialManager.attGroup 70
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+
+
+rem *** Grant Heavy MG - Direct ***
+MaterialManager.attGroup 127
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetalHeavyChurchBell
+
+
+rem *** Colt Pistol - Direct ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+rem *** P38 - Direct ***
+MaterialManager.attGroup 215
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** Thomson - Direct ***
+MaterialManager.attGroup 216
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** k98 - Direct ***
+MaterialManager.attGroup 217
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** NO 4 Sniper - Direct ***
+MaterialManager.attGroup 218
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** k98 - Direct ***
+MaterialManager.attGroup 219
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** m1Garand Pistol - Direct ***
+MaterialManager.attGroup 220
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** MP40 - Direct ***
+MaterialManager.attGroup 224
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** MG42 ***
+MaterialManager.attGroup 225
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetalHeavyChurchBell
+
+
+rem ** Bar - Direct ***
+MaterialManager.attGroup 222
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem ** SG44 - Direct ***
+MaterialManager.attGroup 223
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem ** Bazooka (allied) - Direct ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+
+rem ** Bazooka (axis) - Direct ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem ** AA Gun - Direct ***
+MaterialManager.attGroup 228
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem *** Sherman Tank Shell - Direct ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+
+rem *** PanzerIV Tank Shell - Direct ***
+MaterialManager.attGroup 237
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+
+rem *** M10 Tank Shell - Direct ***
+MaterialManager.attGroup 238
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+
+rem *** Tiger Tank Shell - Direct ***
+MaterialManager.attGroup 239
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+
+rem *** Wespe (plane) Bombs - Direct ***
+MaterialManager.attGroup 241
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+
+rem *** Generic Bombs - Direct ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+rem *** B17 Bombs - Direct ***
+MaterialManager.attGroup 244
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+rem *** Grayhound Shell - Direct ***
+MaterialManager.attGroup 246
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+rem *** Destroyer Shell - Direct ***
+MaterialManager.attGroup 252
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+rem ** BB Gun - Direct ***
+MaterialManager.attGroup 254
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_exp_medium_ChurchBell
+
+
+rem ** DP Gun (plane) - Direct ***
+MaterialManager.attGroup 256
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem ** Elite Throw Knife - Direct ***
+MaterialManager.attGroup 257
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell
+
+
+rem ** ShotGun - Direct ***
+MaterialManager.attGroup 259
+MaterialManager.defGroup 187
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoChurchBell

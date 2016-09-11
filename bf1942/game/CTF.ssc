@@ -1,0 +1,63 @@
+###########################
+### Axis team stole flag ###
+###########################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Enemy_Stole_01.wav
+stereo
+priority 11
+
+############################
+### Allied team stole flag ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Friendly_Stole_01.wav
+stereo
+priority 11
+
+##################################
+### Axis team captured the flag ###
+##################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Enemy_Score_01.wav
+stereo
+priority 11
+	
+###################################
+### Allied team captured the flag ###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Friendly_Score_01.wav
+stereo
+priority 11
+
+##################################
+### Axis team returned the flag ###
+##################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Enemy_Return_01.wav
+stereo
+priority 11
+
+###################################
+### Allied team returned the flag ###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Friendly_Return_01.wav
+stereo
+priority 11
+
+##################################
+### Axis team dropped the flag ###
+##################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Enemy_Return_01.wav
+stereo
+priority 11
+	
+###################################
+### Allied team dropped the flag ###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/AUTO_RULES_Friendly_Return_01.wav
+stereo
+priority 11

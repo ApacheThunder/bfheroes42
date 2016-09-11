@@ -1,0 +1,49 @@
+rem
+rem *** Skidmarks, default setup ***
+rem
+skidMark.enable 0
+skidMark.showBump 1
+skidMark.numPatches 16
+skidMark.numSkidMarks 23
+skidMark.setTexture texture/Tracks
+skidMark.setBumpTexture texture/TracksBUMP
+skidMark.setMaterialTrigLevels 0 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 1 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 2 0.01 1 0.1 0.1
+skidMark.setMaterialTrigLevels 3 0.01 1 1 1
+skidMark.setMaterialTrigLevels 4 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 5 1 1 0.1 0.1
+skidMark.setMaterialTrigLevels 6 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 7 2 5 4 2
+skidMark.setMaterialTrigLevels 8 1 1 2 0.1
+skidMark.setMaterialTrigLevels 9 0.0 0.0 0.0 0.0
+skidMark.setMaterialTrigLevels 10 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 11 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 12 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 13 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 14 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 15 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 16 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 17 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 18 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 19 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 20 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 21 0.01 0.01 0.1 0.1
+skidMark.setMaterialTrigLevels 22 0.01 0.01 0.1 0.1
+skidMark.setMaterialSkidMarkExtraWidth 0 0.05
+skidMark.setMaterialSkidMarkExtraWidth 1 0
+skidMark.setMaterialSkidMarkExtraWidth 2 0.05
+skidMark.setMaterialSkidMarkExtraWidth 3 0.01
+skidMark.setMaterialSkidMarkExtraWidth 4 0.04
+skidMark.setMaterialSkidMarkExtraWidth 5 0.05
+skidMark.setMaterialSkidMarkExtraWidth 6 0
+skidMark.setMaterialSkidMarkExtraWidth 7 0.06
+skidMark.setMaterialSkidMarkExtraWidth 9 0.07
+skidMark.setMaterialSkidMarkExtraWidth 12 0.04
+skidMark.setMaterialSkidMarkExtraWidth 16 0.05
+skidMark.setMaterialSkidMarkExtraWidth 17 0.05
+skidMark.setMaterialSkidMarkExtraWidth 19 0.07
+skidMark.setMaterialSkidMarkExtraWidth 20 0.02
+skidMark.setMaterialSkidMarkExtraWidth 21 0.05
+skidMark.setMaterialSkidMarkExtraWidth 22 0.08
+skidMark.enable 1

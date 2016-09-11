@@ -1,0 +1,22 @@
+rem
+rem *** Weather: Lite Rain  ***
+rem
+Weather.initWeather
+WPart.active 1
+WPart.type 1
+WPart.radius 15
+wPart.partSize 0.5
+wPart.speed 3/-20/3.5
+WPart.random 1
+WPart.numParticles 1000
+WPart.pointSpriteMinSize 3
+WPart.pointSpriteMaxSize 10
+WPart.displacement 0/2/15
+wPart.color 0.5
+WPart.fadeZ 30
+wPart.fadeInValue 10
+WPart.scale 1.0/0.5/1
+wPart.acceleration 1
+WPart.setTexture 0 rain_lgt2
+WPart.setTexture 1 rain_lgt4
+WPart.active 0

@@ -1,0 +1,21 @@
+rem
+rem *** Weather: Heavy Rain  ***
+rem
+Weather.initWeather
+WPart.active 1
+WPart.type 1
+WPart.radius 30
+wPart.partSize 0.03/1.3
+WPart.speed 1/-25/1
+WPart.random 2
+WPart.numParticles 4000
+WPart.pointSpriteMinSize 3
+WPart.pointSpriteMaxSize 10
+wPart.color 0.75
+WPart.fadeZ 30
+wPart.fadeInValue 10
+wPart.acceleration 4
+wPart.displacement 0/3/20
+wPart.scale 0.7/0.5/0.7
+WPart.setTexture 0 rain_lgt4
+WPart.active 0

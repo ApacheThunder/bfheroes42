@@ -1,0 +1,544 @@
+rem ***************************************************
+rem * ***** Colt - DIRECT DAMAGE *****
+rem ***************************************************
+
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+MaterialManager.attGroup 214
+MaterialManager.defGroup 40
+MaterialManager.damageMod 6.5
+MaterialManager.setEffectTemplate e_blood01
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 41
+MaterialManager.damageMod 5
+MaterialManager.setEffectTemplate e_blood01
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 42
+MaterialManager.damageMod 3
+MaterialManager.setEffectTemplate e_blood01
+
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+rem *** Material 43 now used for destructible tires. ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 43
+MaterialManager.damageMod 3
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.2
+MaterialManager.setEffectTemplate e_RichoMetal
+
+rem * *************************************************
+rem *		Light Armor
+rem * *************************************************
+
+rem *** bri_jeep_willy/ger_jeep_kubelwagen ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.8
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+
+rem * *************************************************
+rem *		heavy Armor
+rem * *************************************************
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+rem *** bri_tank_sherman/ger_tank_panzeriv ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+rem * *************************************************
+rem *		Ship Armors
+rem * *************************************************
+
+rem *** Fishing Boat ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+rem * *************************************************
+rem *		Planes target
+rem * *************************************************
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.5
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.35
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_RichoMetal
+
+rem *** BOAT WOOD ARMOR ***
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 65
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoWood
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 66
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoWood
+
+rem * *************************************************
+rem *		Ptboat target
+rem * *************************************************
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoStone
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoWater
+
+rem * *************************************************
+rem *		Other Materials
+rem * *************************************************
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGrass
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGrass
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Mud ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Gravel ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Rock ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGround
+
+rem * *** Ice ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 16
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoIce
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Wood ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoWood
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichometalDecal
+
+rem * *** Metal ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichometalDecal
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichometalDecal
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richometal
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Concrete ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Flesh ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoStone
+
+rem * *** Rubber ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 95
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoStone
+
+rem * *** Stairs ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 96
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoStone
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 97
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoWood
+
+MaterialManager.attGroup 214
+MaterialManager.defGroup 98
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_richoMetal
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoSandbag
+
+rem * *** Grate ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoMetalDecal
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoMetalDecal
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoMetalDecal
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoMetalDecal
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoStoneDecal
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoGlass
+
+rem * *** Tree Trunk ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 165
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_RichoWood
+
+rem * *************************************************
+rem *		Special items
+rem * *************************************************
+
+rem * *** Target Dummy ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 190
+MaterialManager.damageMod 10.0
+MaterialManager.setEffectTemplate e_RichoWood
+
+rem * *** Metal Door ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 191
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoMetalDecal
+
+rem * *** Wooden Ladder ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 192
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoWoodDecal
+
+rem * *** Metal Ladder ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 193
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoMetalDecal
+
+rem * *** Switch/control panel ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 194
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate RichoMetalDecal
+
+rem * *** Climbing net ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 195
+MaterialManager.damageMod 0.0

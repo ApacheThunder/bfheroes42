@@ -1,0 +1,527 @@
+rem ***************************************************
+rem * ***** Tank - DIRECT DAMAGE *****
+rem ***************************************************
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+rem *** damageMod --> 1 = 10 HP ***
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 40
+MaterialManager.damageMod 15
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 41
+MaterialManager.damageMod 14.5
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 42
+MaterialManager.damageMod 14
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 43
+MaterialManager.damageMod 25
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 44
+MaterialManager.damageMod 24
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem * *************************************************
+rem *		Light Vehicle target
+rem * *************************************************
+
+rem *** bri_jeep_willy/ger_jeep_kubelwagen ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 45
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 46
+MaterialManager.damageMod 15
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 47
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 48
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 49
+MaterialManager.damageMod 9
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem * *************************************************
+rem *		Heavy Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 50
+MaterialManager.damageMod 9
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 51
+MaterialManager.damageMod 8
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 52
+MaterialManager.damageMod 7
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 53
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem *** bri_tank_sherman/ger_tank_panzieriv ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 54
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem * *************************************************
+rem *		Ship target
+rem * *************************************************
+
+rem *** Fishing Boat ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 55
+MaterialManager.damageMod 7
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 56
+MaterialManager.damageMod 2.0
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 57
+MaterialManager.damageMod 2.0
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 58
+MaterialManager.damageMod 1.0
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 59
+MaterialManager.damageMod 1.0
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem * *************************************************
+rem *		Planes target
+rem * *************************************************
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 60
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 61
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 62
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 63
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 64
+MaterialManager.damageMod 30
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem * *************************************************
+rem *		Ptboat target
+rem * *************************************************
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 72
+MaterialManager.damageMod 15
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+MaterialManager.attGroup 236
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_waterimpact
+
+rem * *************************************************
+rem *		Material Effects
+rem * *************************************************
+rem * *************************************************
+rem *		Other Materials
+rem * *************************************************
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Mud ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Gravel ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_ExplFrozenSnow
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Rock ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Ice ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 16
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem *** Fishing Boat Mast ***
+rem * *** Wood ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 81
+MaterialManager.damageMod 3
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Metal ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Concrete ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Flesh ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Rubber ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 95
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Grate ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Tree Trunk ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 165
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Tree Trunk ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 166
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *************************************************
+rem *		Special items
+rem * *************************************************
+
+rem * *** Target Dummy ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 190
+MaterialManager.damageMod 10.0
+MaterialManager.setEffectTemplate e_exp_tank_NoDecal
+
+rem * *** Metal Door ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 191
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Wooden Ladder ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 192
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Metal Ladder ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 193
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Switch/control panel ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 194
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank
+
+rem * *** Climbing net ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 195
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_exp_tank

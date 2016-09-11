@@ -1,0 +1,122 @@
+MaterialManager.material 2006
+MaterialManager.materialAttGroup 2006
+MaterialManager.materialDefGroup 2006
+MaterialManager.materialDamage 10
+
+rem *
+rem * ***** Plane Projectile Explosion *****
+rem *
+
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.35
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.15
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.3
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.25
+
+rem *** bri_jeep_willy/ger_jeep_kubelwagen ***
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.15
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.14
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.13
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.12
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.12
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.12
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.13
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.13
+
+rem *** bri_tank_sherman/ger_tank_panzeriv ***
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.2
+
+rem *** Fishing Boat ***
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.25
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 59
+MaterialManager.damageMod 1
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+rem *** Fishing Boat Mast ***
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.2
+
+rem *** Target Dummy ***
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 190
+MaterialManager.damageMod 0.1

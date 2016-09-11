@@ -1,0 +1,20 @@
+rem
+rem  *** Envmap for Cars ***
+rem
+ShaderManager.setTextureParam reflection textures\car\EnvReflector.rcm
+
+game.worldBorderFog 1
+
+lensflare.enable 1
+
+rem renderer.setVSyncEnabled 1 1
+
+renderer.numberOfActiveShadows 100
+shadow.numberOfActiveShadows 100
+
+Soldier.cameraShakeFactor 1
+
+rem *** 8 slot kit system. ***
+ControlMap.create defaultPlayerInputControlMap
+ControlMap.addKeyToTriggerMapping c_PIMenuSelect7 IDFKeyboard IDKey_7 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIMenuSelect8 IDFKeyboard IDKey_8 c_CMNonRepetive

@@ -1,0 +1,974 @@
+rem GCX
+rem *** Set number of behaviours and id/name mappings ***
+aiSettings.setNBehaviours 8
+
+aiSettings.setBehaviour 0 Avoid
+aiSettings.setBehaviour 1 MoveTo
+aiSettings.setBehaviour 2 Idle
+aiSettings.setBehaviour 3 Fire
+aiSettings.setBehaviour 4 Scout
+aiSettings.setBehaviour 5 TakeCover
+aiSettings.setBehaviour 6 Change
+aiSettings.setBehaviour 7 Special
+
+rem *** Set number of vehicles and id/name mappings ***
+aiSettings.setNVehiclesTypes 21
+aiSettings.setVehicle 0 Tank
+aiSettings.setVehicle 1 Plane
+aiSettings.setVehicle 2 Boat
+aiSettings.setVehicle 3 Infantery
+aiSettings.setVehicle 4 Fixed
+aiSettings.setVehicle 5 Car
+aiSettings.setVehicle 6 UnarmedTank
+aiSettings.setVehicle 7 LandingCraft
+aiSettings.setVehicle 8 Passenger
+aiSettings.setVehicle 9 BoatFixed
+aiSettings.setVehicle 10 LandingCraftPassenger
+aiSettings.setVehicle 11 LandingCraftFixed
+aiSettings.setVehicle 12 UnarmedBoat
+aiSettings.setVehicle 13 FixedLargeBore
+aiSettings.setVehicle 14 ArtilleryDriver
+aiSettings.setVehicle 15 UnarmedPlane
+aiSettings.setVehicle 16 AmphibiousCar
+aiSettings.setVehicle 17 FixedGuidedMissileLauncher
+aiSettings.setVehicle 18 Turret
+aiSettings.setVehicle 19 ArmedCar
+aiSettings.setVehicle 20 Capital
+
+
+rem *** IMPORTANT !!! **************************
+rem * NEVER ALLOW IDLE's urgency to become 0.  *
+rem * The AI will CRASH in that case.          *
+rem *** REMINDER *******************************
+
+rem *** Construct unit weights ***
+aiSettings.createBehaviourModifiers UnitWeights
+aiSettings.setBehaviourModifier Avoid       1.0
+aiSettings.setBehaviourModifier MoveTo      1.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        7.5
+aiSettings.setBehaviourModifier Special     1.0
+aiSettings.setBehaviourModifier Scout       1.0
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      1.0
+
+rem *** Construct unit weights ***
+aiSettings.createBehaviourModifiers TurretWeights
+aiSettings.setBehaviourModifier Avoid       0.0
+aiSettings.setBehaviourModifier MoveTo      0.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        7.5
+aiSettings.setBehaviourModifier Special     0.0
+aiSettings.setBehaviourModifier Scout       0.0
+aiSettings.setBehaviourModifier TakeCover   0.0
+aiSettings.setBehaviourModifier Change      0.0
+
+rem *** Construct unit weights ***
+aiSettings.createBehaviourModifiers UnarmedWeights
+aiSettings.setBehaviourModifier Avoid       1.0
+aiSettings.setBehaviourModifier MoveTo      1.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        0.0
+aiSettings.setBehaviourModifier Special     1.0
+aiSettings.setBehaviourModifier Scout       1.0
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      1.0
+
+rem *** Construct standard weights ***
+aiSettings.createBehaviourModifiers StandardWeights
+aiSettings.setBehaviourModifier Avoid       1.0
+aiSettings.setBehaviourModifier MoveTo      1.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        7.5
+aiSettings.setBehaviourModifier Special     1.0
+aiSettings.setBehaviourModifier Scout       1.0
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      1.0
+
+rem *** Construct standard weights ***
+aiSettings.createBehaviourModifiers TankWeights
+aiSettings.setBehaviourModifier Avoid       1.0
+aiSettings.setBehaviourModifier MoveTo      1.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        7.5
+aiSettings.setBehaviourModifier Special     1.0
+aiSettings.setBehaviourModifier Scout       1.0
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      1.0
+
+rem *** Construct standard weights ***
+aiSettings.createBehaviourModifiers InfantryWeights
+aiSettings.setBehaviourModifier Avoid       1.0
+aiSettings.setBehaviourModifier MoveTo      1.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        7.5
+aiSettings.setBehaviourModifier Special     2.0
+aiSettings.setBehaviourModifier Scout       1.0
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      1.0
+
+rem *** Construct plane weights ***
+aiSettings.createBehaviourModifiers PlaneWeights
+aiSettings.setBehaviourModifier Avoid       7.5
+aiSettings.setBehaviourModifier MoveTo      1.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        7.0
+aiSettings.setBehaviourModifier Special     1.0
+aiSettings.setBehaviourModifier Scout       1.0
+aiSettings.setBehaviourModifier TakeCover   0.0
+aiSettings.setBehaviourModifier Change      0.0
+
+rem *** Construct plane weights ***
+aiSettings.createBehaviourModifiers CapitalWeights
+aiSettings.setBehaviourModifier Avoid       0.0
+aiSettings.setBehaviourModifier MoveTo      0.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        1.0
+aiSettings.setBehaviourModifier Special     0.01
+aiSettings.setBehaviourModifier Scout       0.01
+aiSettings.setBehaviourModifier TakeCover   0.0
+aiSettings.setBehaviourModifier Change      0.0
+
+rem *** Construct submarine weights ***
+aiSettings.createBehaviourModifiers SubWeights
+aiSettings.setBehaviourModifier Avoid 1.0
+aiSettings.setBehaviourModifier MoveTo 2.0
+aiSettings.setBehaviourModifier Idle 0.01
+aiSettings.setBehaviourModifier Fire 7.5
+aiSettings.setBehaviourModifier Special 0.0
+aiSettings.setBehaviourModifier Scout 1.0
+aiSettings.setBehaviourModifier TakeCover 0.0
+aiSettings.setBehaviourModifier Change 0.01
+
+rem *** Construct Avoid inhibitors ***
+aiSettings.createBehaviourModifiers AvoidInhibit
+aiSettings.setBehaviourModifier Avoid       1.0
+aiSettings.setBehaviourModifier MoveTo      0.3
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        0.75
+aiSettings.setBehaviourModifier Special     1.0
+aiSettings.setBehaviourModifier Scout       1.0
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      1.0
+
+rem *** Construct Avoid inhibitors ***
+aiSettings.createBehaviourModifiers PlaneAvoidInhibit
+aiSettings.setBehaviourModifier Avoid       7.5
+aiSettings.setBehaviourModifier MoveTo      0.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        0.0
+aiSettings.setBehaviourModifier Special     1.0
+aiSettings.setBehaviourModifier Scout       0.0
+aiSettings.setBehaviourModifier TakeCover   0.0
+aiSettings.setBehaviourModifier Change      0.1
+
+rem *** Construct Change Inhibit ***
+aiSettings.createBehaviourModifiers ChangeInhibit
+aiSettings.setBehaviourModifier Avoid       0.8
+aiSettings.setBehaviourModifier MoveTo      0.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        0.75
+aiSettings.setBehaviourModifier Special     0.0
+aiSettings.setBehaviourModifier Scout       0.5
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      1.0
+
+rem *** Construct Change Inhibit ***
+aiSettings.createBehaviourModifiers PlaneChangeInhibit
+aiSettings.setBehaviourModifier Avoid       0.8
+aiSettings.setBehaviourModifier MoveTo      0.0
+aiSettings.setBehaviourModifier Idle        0.01
+aiSettings.setBehaviourModifier Fire        0.75
+aiSettings.setBehaviourModifier Special     0.0
+aiSettings.setBehaviourModifier Scout       0.5
+aiSettings.setBehaviourModifier TakeCover   1.0
+aiSettings.setBehaviourModifier Change      0.1
+
+rem *** Set basic weights for bot behaviour ***
+aiSettings.setBasicBotWeights UnitWeights
+aiSettings.setStandardPersonality StandardWeights 1
+aiSettings.setStandardPersonality StandardWeights 2
+aiSettings.setStandardMoralAdmin default 1
+aiSettings.setStandardMoralAdmin default 2
+
+rem ************************* Vehicle behaviour setup ******************************
+
+aiSettings.createUCConstant UCUnion 1.0
+aiSettings.createUCLinear UCFire -0.22 1.3
+aiSettings.createUCXInverse UCScout 2.5 0.9 1.0 0.5
+aiSettings.createUCConstant UCScoutLimit 1.0
+
+rem        setVehicleBehaviour VehicleName      Behaviour       UrgencyGenerator        PlanGenerator                   Prio ParallellMask UrgencyCurve Inhibitors
+
+rem *** Tank Behaviour setup ***
+aiSettings.setVehicleBehaviour Tank		Avoid		BBAvoid			BBPAvoidCollision2d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour Tank		MoveTo		BBMoveTo		BBPGotoWaypoint2d		4 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour Tank		Idle		BBIdle			BBPIdle2d			5 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour Tank		Fire		BBFireInfantery		BBPFireInfantery		4 0 UCFire  TankWeights
+aiSettings.setVehicleBehaviour Tank		Scout		BBScout			BBPScout			8 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour Tank		TakeCover	BBTakeCover		BBPTakeCover			6 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour Tank		Change		BBChange		BBPChange			6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour Tank             Idle
+aiSettings.addInterpreterEntry 		Tank 	MoveToMedium		Medium
+aiSettings.addInterpreterEntry          Tank    MoveToObjectMedium      Medium
+aiSettings.addInterpreterEntry		Tank	InfoWrapper
+aiSettings.addInterpreterEntry		Tank	TankMoveTo
+aiSettings.addInterpreterEntry		Tank	TankTurnTo
+aiSettings.addInterpreterEntry		Tank	TankMoveToDirection
+aiSettings.addInterpreterEntry		Tank 	TankMoveToObject
+aiSettings.addInterpreterEntry		Tank 	Trigger
+aiSettings.addInterpreterEntry		Tank 	TriggerContinously
+aiSettings.addInterpreterEntry		Tank 	MouseTurretAimAt
+aiSettings.addInterpreterEntry		Tank 	TankResetControls
+aiSettings.addInterpreterEntry		Tank 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		Tank 	Sense
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	Tank	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Tank	BAPSTIdle		Full
+
+rem *** Plane Behaviour setup ***
+aiSettings.setVehicleBehaviour Plane	Avoid		BBAvoid			BBPAvoidCollision3d		1 0 UCUnion PlaneAvoidInhibit
+aiSettings.setVehicleBehaviour Plane	MoveTo		BBMoveTo		BBPGotoWaypoint3d		4 0 UCUnion PlaneWeights
+aiSettings.setVehicleBehaviour Plane	Idle		BBIdle			BBPIdle3d			5 0 UCUnion PlaneWeights
+aiSettings.setVehicleBehaviour Plane	Fire		BBFire3d		BBPFire3d			4 0 UCFire  PlaneWeights
+rem aiSettings.setVehicleBehaviour Plane	Special		BBRoam			BBPRoam3d			6 0 UCUnion PlaneWeights
+aiSettings.setVehicleBehaviour Plane	Change		BBChange		BBPChange			6 0 UCUnion PlaneChangeInhibit
+aiSettings.setVehicleDefaultBehaviour Plane    Idle
+rem aiSettings.setVehicleBehaviour Plane	TakeCover	BBTakeCover3d		BBPTakeCover3d			4 0 UCUnion UnitWeights
+aiSettings.addInterpreterEntry		Plane	InfoWrapper
+aiSettings.addInterpreterEntry 		Plane 	PlaneMoveTo
+aiSettings.addInterpreterEntry 		Plane 	PlaneMoveToDirection
+aiSettings.addInterpreterEntry 		Plane 	PlaneMoveToObject
+aiSettings.addInterpreterEntry 		Plane	Trigger
+aiSettings.addInterpreterEntry 		Plane	TriggerContinously
+aiSettings.addInterpreterEntry 		Plane	PlaneAimAt
+aiSettings.addInterpreterEntry 		Plane	PlaneResetControls
+aiSettings.addInterpreterEntry 		Plane	PlaneRoll
+aiSettings.addInterpreterEntry 		Plane	Sense
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	Plane	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Plane	BAPSTIdle		Full
+
+rem *** Boat Behaviour setup ***
+aiSettings.setVehicleBehaviour Boat		Avoid		BBAvoid			BBPAvoidCollision2d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour Boat		MoveTo		BBMoveTo		BBPGotoWaypoint2d		4 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Boat		Idle		BBIdle			BBPIdle2d			5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Boat		Fire		BBFireLargeBore		BBPFire2d			4 0 UCFire  UnitWeights
+aiSettings.setVehicleBehaviour Boat		Scout		BBScout			BBPScout			8 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Boat		Change		BBChangeTeleport	BBPChangeTeleport		6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour Boat             Idle
+aiSettings.addInterpreterEntry		Boat	InfoWrapper
+aiSettings.addInterpreterEntry 		Boat 	BoatMoveTo
+aiSettings.addInterpreterEntry 		Boat 	BoatMoveToDirection
+aiSettings.addInterpreterEntry 		Boat 	BoatMoveToObject
+aiSettings.addInterpreterEntry 		Boat 	Trigger
+aiSettings.addInterpreterEntry 		Boat 	TriggerContinously
+aiSettings.addInterpreterEntry		Boat 	MouseTurretLookAt
+aiSettings.addInterpreterEntry		Boat 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		Boat 	Sense
+aiSettings.addInterpreterEntry 		Boat	BoatResetControls
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	Boat	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Boat	BAPSTIdle		Full
+
+
+rem *** Infantery Behaviour setup ***
+aiSettings.setVehicleBehaviour Infantery	Avoid		BBAvoid			BBPAvoidCollisionInfantery	1  0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour Infantery	MoveTo		BBMoveTo		BBPGotoWaypointInfantery	4  0 UCUnion InfantryWeights
+aiSettings.setVehicleBehaviour Infantery	Idle		BBIdle			BBPIdleInfantery		5  0 UCUnion InfantryWeights
+aiSettings.setVehicleBehaviour Infantery	Fire		BBFireInfantery		BBPFireInfantery		4  0 UCFire  InfantryWeights
+aiSettings.setVehicleBehaviour Infantery	Special		BBMedicAssist		BBPMedicAssist		       12  0 UCUnion InfantryWeights
+aiSettings.setVehicleBehaviour Infantery	Scout		BBScout			BBPScoutInfantery		8  0 UCUnion InfantryWeights
+aiSettings.setVehicleBehaviour Infantery	TakeCover	BBTakeCoverInfantry	BBPTakeCoverInfantry		4  0 UCUnion InfantryWeights
+aiSettings.setVehicleBehaviour Infantery	Change		BBChange		BBPChange			6  0 UCUnion InfantryWeights
+aiSettings.setVehicleDefaultBehaviour Infantery        Idle
+rem aiSettings.removeInterpreterEntry 	Infantery 	InfanteryMoveTo		Light 
+rem aiSettings.addInterpreterEntry 		Infantery 	MoveToLightSoldier	Light 
+aiSettings.addInterpreterEntry 		Infantery 	MoveToMediumSoldier	  Medium
+aiSettings.addInterpreterEntry          Infantery       MoveToObjectMediumSoldier Medium
+aiSettings.addInterpreterEntry		Infantery	InfoWrapper
+aiSettings.addInterpreterEntry 		Infantery 	InfanteryMoveTo		
+aiSettings.addInterpreterEntry 		Infantery 	InfanteryMoveToDirection
+aiSettings.addInterpreterEntry 		Infantery 	InfanteryMoveToObject
+aiSettings.addInterpreterEntry 		Infantery 	Trigger
+aiSettings.addInterpreterEntry 		Infantery 	TriggerContinously
+aiSettings.addInterpreterEntry 		Infantery 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		Infantery 	InfanteryResetControls
+aiSettings.addInterpreterEntry 		Infantery 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		Infantery 	Sense
+aiSettings.addInterpreterEntry 		Infantery 	SoldierPose
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	Infantery	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Infantery	BAPSTIdle		Full
+
+
+rem *** Fixed Behaviour setup ***
+aiSettings.setVehicleBehaviour Fixed	Idle		BBIdle			BBPIdle2d		5  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Fixed	Fire		BBFireInfantery		BBPFireInfantery	4  0 UCFire  UnitWeights
+aiSettings.setVehicleBehaviour Fixed	Scout		BBScout			BBPScout		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Fixed	MoveTo		BBMoveToFixed		UnRelated		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Fixed	Change		BBChangeTeleport        BBPChangeTeleport		6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour Fixed    Idle
+aiSettings.addInterpreterEntry		Fixed	InfoWrapper
+aiSettings.addInterpreterEntry 		Fixed 	Trigger
+aiSettings.addInterpreterEntry 		Fixed 	TriggerContinously
+aiSettings.addInterpreterEntry 		Fixed 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		Fixed 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		Fixed 	Sense
+aiSettings.addInterpreterEntry 		Fixed 	InfanteryResetControls
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	Fixed	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Fixed	BAPSTIdle		Full
+
+rem *** BoatFixed Behaviour setup ***
+aiSettings.setVehicleBehaviour BoatFixed	Idle		BBIdle			BBPIdle2d		5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour BoatFixed	Fire		BBFireLargeBore		BBPFire2d		4 0 UCFire  UnitWeights
+aiSettings.setVehicleBehaviour BoatFixed	Scout		BBScout			BBPScout		8 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour BoatFixed	MoveTo		BBMoveToFixed		UnRelated		8 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour BoatFixed	Change		BBChangeTeleport	BBPChangeTeleport	6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour BoatFixed        Idle
+aiSettings.addInterpreterEntry		BoatFixed	InfoWrapper
+aiSettings.addInterpreterEntry 		BoatFixed	Trigger
+aiSettings.addInterpreterEntry 		BoatFixed	TriggerContinously
+aiSettings.addInterpreterEntry 		BoatFixed	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		BoatFixed	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		BoatFixed	Sense
+aiSettings.addInterpreterEntry 		BoatFixed	InfanteryResetControls
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	BoatFixed	BAPSTIdle		Full
+
+
+rem *** Infantery Behaviour setup ***
+aiSettings.setVehicleBehaviour Car	Avoid		BBAvoid			BBPAvoidCollision2d	1  0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour Car	MoveTo		BBMoveTo		BBPGotoWaypoint2d	4  0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour Car	Idle		BBIdle			BBPIdle2d		5  0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour Car	Scout		BBScout			BBPScout		8  0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour Car	Change		BBChange		BBPChange		2  0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour Car	Fire		BBFireUnarmed		BBPFireDriveAttack	6  0 UCUnion UnarmedWeights
+aiSettings.setVehicleDefaultBehaviour Car      Idle
+aiSettings.addInterpreterEntry 		Car	CarResetControls
+aiSettings.addInterpreterEntry 		Car 	MoveToMedium		Medium
+aiSettings.addInterpreterEntry          Car     MoveToObjectMedium      Medium
+aiSettings.addInterpreterEntry		Car	InfoWrapper
+aiSettings.addInterpreterEntry 		Car 	CarMoveTo
+aiSettings.addInterpreterEntry 		Car 	CarMoveToDirection
+aiSettings.addInterpreterEntry 		Car 	CarMoveToObject
+aiSettings.addInterpreterEntry 		Car 	Trigger
+aiSettings.addInterpreterEntry 		Car 	TriggerContinously
+aiSettings.addInterpreterEntry 		Car 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		Car 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		Car 	Sense
+aiSettings.activateDefaultInterpreter 	Car	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Car	BAPSTIdle		Full
+
+rem *** ArmedCar Behaviour setup ***
+aiSettings.setVehicleBehaviour ArmedCar		Avoid		BBAvoid			BBPAvoidCollision2d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour ArmedCar		MoveTo		BBMoveTo		BBPGotoWaypoint2d		4 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour ArmedCar		Idle		BBIdle			BBPIdle2d			5 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour ArmedCar		Fire		BBFireInfantery		BBPFireInfantery		4 0 UCFire  TankWeights
+aiSettings.setVehicleBehaviour ArmedCar		Scout		BBScout			BBPScout			8 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour ArmedCar		TakeCover	BBTakeCover		BBPTakeCover			6 0 UCUnion TankWeights
+aiSettings.setVehicleBehaviour ArmedCar		Change		BBChange		BBPChange			6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour ArmedCar             Idle
+aiSettings.addInterpreterEntry		ArmedCar 	CarResetControls
+aiSettings.addInterpreterEntry 		ArmedCar 	MoveToMedium		Medium
+aiSettings.addInterpreterEntry          ArmedCar    MoveToObjectMedium      Medium
+aiSettings.addInterpreterEntry		ArmedCar	                InfoWrapper
+aiSettings.addInterpreterEntry		ArmedCar	                CarMoveTo
+aiSettings.addInterpreterEntry		ArmedCar 	CarMoveToDirection
+aiSettings.addInterpreterEntry 		ArmedCar 	CarMoveToObject
+aiSettings.addInterpreterEntry		ArmedCar 	Trigger
+aiSettings.addInterpreterEntry		ArmedCar 	TriggerContinously
+aiSettings.addInterpreterEntry		ArmedCar 	MouseTurretAimAt
+aiSettings.addInterpreterEntry		ArmedCar 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		ArmedCar 	Sense
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	ArmedCar	BAPSTIdle		Full
+
+
+rem *** UnarmedTank Behaviour setup ***
+aiSettings.setVehicleBehaviour 		UnarmedTank	Avoid		BBAvoid			BBPAvoidCollision2d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour 		UnarmedTank	MoveTo		BBMoveTo		BBPGotoWaypoint2d		4 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedTank	Idle		BBIdle			BBPIdle2d			5 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedTank	Scout		BBScout			BBPScout			8 0 UCUnion UnarmedWeights
+rem aiSettings.setVehicleBehaviour 		UnarmedTank	TakeCover	BBTakeCover		BBPTakeCover			6 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedTank	Change		BBChange		BBPChange			2 0 UCUnion ChangeInhibit
+aiSettings.setVehicleBehaviour 		UnarmedTank	Fire		BBFireUnarmed		UnRelated			6 0 UCUnion UnarmedWeights
+aiSettings.setVehicleDefaultBehaviour 	UnarmedTank     Idle
+aiSettings.addInterpreterEntry 		UnarmedTank 	MoveToMedium		Medium
+aiSettings.addInterpreterEntry 		UnarmedTank 	MoveToObjectMedium	Medium
+aiSettings.addInterpreterEntry		UnarmedTank	TankMoveTo
+aiSettings.addInterpreterEntry		UnarmedTank	TankMoveToDirection
+aiSettings.addInterpreterEntry		UnarmedTank	TankMoveToObject
+aiSettings.addInterpreterEntry		UnarmedTank	Trigger
+aiSettings.addInterpreterEntry		UnarmedTank	TriggerContinously
+aiSettings.addInterpreterEntry		UnarmedTank	MouseTurretAimAt
+aiSettings.addInterpreterEntry		UnarmedTank	TankResetControls
+aiSettings.addInterpreterEntry		UnarmedTank	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		UnarmedTank	Sense
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	UnarmedTank	BAPSTIdle		Full
+
+rem *** LandingCraft Behaviour setup ***
+aiSettings.setVehicleBehaviour 		LandingCraft	Avoid		BBAvoid			BBPAvoidCollision2d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour 		LandingCraft	MoveTo		BBMoveTo		BBPGotoWaypointBoat		4 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraft	Idle		BBIdle			BBPIdle2d			5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraft	Fire		BBFireUnarmed		UnRelated			6 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraft	Change		BBChangeLandingCraft	BBPChangeLandingCraft	        6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour   LandingCraft    Idle
+aiSettings.addInterpreterEntry 		LandingCraft 	MoveToMediumBoat	Medium
+aiSettings.addInterpreterEntry 		LandingCraft 	MoveToObjectMediumBoat	Medium
+aiSettings.addInterpreterEntry 		LandingCraft	BoatMoveTo
+aiSettings.addInterpreterEntry 		LandingCraft	BoatMoveToDirection
+aiSettings.addInterpreterEntry 		LandingCraft	BoatMoveToObject
+aiSettings.addInterpreterEntry 		LandingCraft	Trigger
+aiSettings.addInterpreterEntry 		LandingCraft	TriggerContinously
+aiSettings.addInterpreterEntry		LandingCraft 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		LandingCraft 	BoatResetControls
+aiSettings.addInterpreterEntry 		LandingCraft	Sense
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTIdle		Full
+aiSettings.activateDefaultInterpreter 	LandingCraft	BAPSTPhysicsEnable	Full
+
+
+
+rem *** Passenger Behaviour setup ***
+aiSettings.setVehicleBehaviour 		Passenger	Idle		BBIdle			BBPIdle2d	5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		Passenger	Fire		BBFireUnarmed		UnRelated	6 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		Passenger	Change		BBChange		BBPChange	6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleBehaviour 		Passenger	Scout		BBScout			BBPScout	8 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		Passenger	MoveTo		BBMoveToFixed		UnRelated	8 0 UCUnion UnitWeights
+aiSettings.setVehicleDefaultBehaviour   Passenger       Idle
+aiSettings.addInterpreterEntry 		Passenger	Trigger
+aiSettings.addInterpreterEntry 		Passenger	TriggerContinously
+aiSettings.addInterpreterEntry		Passenger 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		Passenger	InfanteryResetControls
+aiSettings.addInterpreterEntry 		Passenger	Sense
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Passenger	BAPSTIdle		Full
+
+rem *** Passenger Behaviour setup ***
+aiSettings.setVehicleBehaviour 		LandingCraftPassenger	Idle		BBIdle			BBPIdle2d		5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraftPassenger	Fire		BBFireUnarmed		UnRelated		6 0 UCScout UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraftPassenger	Change		BBChangeLandingCraft	BBPChangeLandingCraft	6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleBehaviour 		LandingCraftPassenger	Scout		BBScout			BBPScout		8 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraftPassenger	MoveTo		BBMoveToFixed		UnRelated		8 0 UCUnion UnitWeights
+aiSettings.setVehicleDefaultBehaviour   LandingCraftPassenger   Idle
+aiSettings.addInterpreterEntry 		LandingCraftPassenger	Trigger
+aiSettings.addInterpreterEntry 		LandingCraftPassenger	TriggerContinously
+aiSettings.addInterpreterEntry		LandingCraftPassenger 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		LandingCraftPassenger	InfanteryResetControls
+aiSettings.addInterpreterEntry 		LandingCraftPassenger	Sense
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftPassenger	BAPSTIdle		Full
+
+
+rem *** LandingCraftFixed Behaviour setup ***
+aiSettings.setVehicleBehaviour 		LandingCraftFixed	Idle		BBIdle			BBPIdle2d		5  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraftFixed	Fire		BBFireInfantery		BBPFireInfantery	4  0 UCFire  UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraftFixed	Scout		BBScout			BBPScout		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraftFixed	MoveTo		BBMoveToFixed		UnRelated		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		LandingCraftFixed	Change		BBChangeLandingCraft	BBPChangeLandingCraft	6  0 UCUnion UnitWeights
+aiSettings.setVehicleDefaultBehaviour   LandingCraftFixed       Idle
+aiSettings.addInterpreterEntry		LandingCraftFixed	InfoWrapper
+aiSettings.addInterpreterEntry 		LandingCraftFixed	Trigger
+aiSettings.addInterpreterEntry 		LandingCraftFixed	TriggerContinously
+aiSettings.addInterpreterEntry 		LandingCraftFixed	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		LandingCraftFixed	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		LandingCraftFixed	Sense
+aiSettings.addInterpreterEntry 		LandingCraftFixed	InfanteryResetControls
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	LandingCraftFixed	BAPSTIdle		Full
+
+rem *** UnarmedBoat Behaviour setup ***
+
+rem aiSettings.setVehicleBehaviour 		UnarmedBoat	Avoid		BBAvoid			BBPAvoidCollision2d		1 0 UCUnion AvoidInhibit
+rem aiSettings.setVehicleBehaviour 		UnarmedBoat	MoveTo		BBMoveTo		BBPGotoWaypoint2d		4 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedBoat	MoveTo		BBMoveToFixed		UnRelated		8 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedBoat	Idle		BBIdle			BBPIdle2d		5 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedBoat	Fire		BBFireUnarmed		UnRelated		6 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedBoat	Scout		BBScout			BBPScout		8 0 UCUnion UnarmedWeights
+aiSettings.setVehicleBehaviour 		UnarmedBoat	Change		BBChangeTeleport	BBPChangeTeleport	6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour          UnarmedBoat     Idle
+
+aiSettings.addInterpreterEntry 		UnarmedBoat 	BoatMoveTo
+aiSettings.addInterpreterEntry 		UnarmedBoat 	BoatMoveToDirection
+aiSettings.addInterpreterEntry 		UnarmedBoat 	BoatMoveToObject
+aiSettings.addInterpreterEntry 		UnarmedBoat 	Trigger
+aiSettings.addInterpreterEntry 		UnarmedBoat 	TriggerContinously
+aiSettings.addInterpreterEntry		UnarmedBoat 	MouseTurretLookAt
+aiSettings.addInterpreterEntry		UnarmedBoat 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		UnarmedBoat 	Sense
+aiSettings.addInterpreterEntry 		UnarmedBoat	BoatResetControls
+
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	UnarmedBoat	BAPSTIdle		Full
+
+rem *** FixedLargeBore Behaviour setup ***
+aiSettings.setVehicleBehaviour 		FixedLargeBore	Idle		BBIdle			BBPIdle2d		5  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		FixedLargeBore	Fire		BBFireLargeBore		BBPFire2d		4  0 UCFire  UnitWeights
+aiSettings.setVehicleBehaviour 		FixedLargeBore	Scout		BBScout			BBPScout		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		FixedLargeBore	MoveTo		BBMoveToFixed		UnRelated		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		FixedLargeBore	Change		BBChange		BBPChange		6  0 UCUnion UnitWeights
+aiSettings.setVehicleDefaultBehaviour 	FixedLargeBore    Idle
+aiSettings.addInterpreterEntry		FixedLargeBore	InfoWrapper
+aiSettings.addInterpreterEntry 		FixedLargeBore 	Trigger
+aiSettings.addInterpreterEntry 		FixedLargeBore 	TriggerContinously
+aiSettings.addInterpreterEntry 		FixedLargeBore 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		FixedLargeBore 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		FixedLargeBore 	Sense
+aiSettings.addInterpreterEntry 		FixedLargeBore 	InfanteryResetControls
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	FixedLargeBore	BAPSTIdle		Full
+
+
+rem *** ArtilleryDriver Behaviour setup ***
+aiSettings.setVehicleBehaviour 		ArtilleryDriver	Avoid		BBAvoid			BBPAvoidCollision2d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour 		ArtilleryDriver	MoveTo		BBMoveTo		BBPGotoWaypoint2d		4 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		ArtilleryDriver	Idle		BBIdle			BBPIdle2d			5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		ArtilleryDriver	Scout		BBScout			BBPScout			8 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		ArtilleryDriver	TakeCover	BBTakeCover		BBPTakeCover			6 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		ArtilleryDriver	Change		BBChange		BBPChange			2 0 UCUnion ChangeInhibit
+aiSettings.setVehicleBehaviour 		ArtilleryDriver	Fire		BBFireDriver		BBPFire2dDriver			6 0 UCUnion UnitWeights
+aiSettings.setVehicleDefaultBehaviour 	ArtilleryDriver Idle
+aiSettings.addInterpreterEntry 		ArtilleryDriver MoveToMedium		Medium
+aiSettings.addInterpreterEntry 		ArtilleryDriver MoveToObjectMedium	Medium
+aiSettings.addInterpreterEntry		ArtilleryDriver	TankMoveTo
+aiSettings.addInterpreterEntry		ArtilleryDriver	TankMoveToDirection
+aiSettings.addInterpreterEntry		ArtilleryDriver	TankMoveToObject
+aiSettings.addInterpreterEntry		ArtilleryDriver	TankTurnTo
+aiSettings.addInterpreterEntry		ArtilleryDriver	Trigger
+aiSettings.addInterpreterEntry		ArtilleryDriver	TriggerContinously
+aiSettings.addInterpreterEntry		ArtilleryDriver	MouseTurretAimAt
+aiSettings.addInterpreterEntry		ArtilleryDriver	TankResetControls
+aiSettings.addInterpreterEntry		ArtilleryDriver	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		ArtilleryDriver	Sense
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	ArtilleryDriver	BAPSTIdle		Full
+
+
+rem *** UnarmedPlane Behaviour setup ***
+rem aiSettings.setVehicleBehaviour Plane	Avoid		BBAvoid			BBPAvoidCollision3d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour UnarmedPlane	MoveTo		BBMoveTo		BBPGotoWaypoint3d		4 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour UnarmedPlane	Idle		BBIdle			BBPIdle3d			5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour UnarmedPlane	Fire		BBFireUnarmed		UnRelated		6 0 UCUnion UnitWeights
+rem aiSettings.setVehicleBehaviour Plane	Special		BBRoam			BBPRoam3d			6 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour UnarmedPlane	Change		BBChange		BBPChange			6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour UnarmedPlane    Idle
+rem aiSettings.setVehicleBehaviour Plane	TakeCover	BBTakeCover3d		BBPTakeCover3d			4 0 UCUnion UnitWeights
+aiSettings.addInterpreterEntry		UnarmedPlane	InfoWrapper
+aiSettings.addInterpreterEntry 		UnarmedPlane 	PlaneMoveTo
+aiSettings.addInterpreterEntry 		UnarmedPlane 	PlaneMoveToDirection
+aiSettings.addInterpreterEntry 		UnarmedPlane 	PlaneMoveToObject
+aiSettings.addInterpreterEntry 		UnarmedPlane	Trigger
+aiSettings.addInterpreterEntry 		UnarmedPlane	TriggerContinously
+aiSettings.addInterpreterEntry 		UnarmedPlane	PlaneAimAt
+aiSettings.addInterpreterEntry 		UnarmedPlane	PlaneResetControls
+aiSettings.addInterpreterEntry 		UnarmedPlane	PlaneRoll
+aiSettings.addInterpreterEntry 		UnarmedPlane	Sense
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	UnarmedPlane	BAPSTIdle		Full
+
+rem *** AmphibiousCar Behaviour setup ***
+aiSettings.setVehicleBehaviour 		AmphibiousCar	Avoid		BBAvoid			BBPAvoidCollision2d	1  0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour 		AmphibiousCar	MoveTo		BBMoveTo		BBPGotoWaypoint2d	4  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		AmphibiousCar	Idle		BBIdle			BBPIdle2d		5  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		AmphibiousCar	Scout		BBScout			BBPScout		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		AmphibiousCar	Change		BBChange		BBPChange		2  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		AmphibiousCar	Fire		BBFireUnarmed		BBPFireDriveAttack	6  0 UCUnion UnitWeights
+aiSettings.setVehicleDefaultBehaviour 	AmphibiousCar   Idle
+aiSettings.addInterpreterEntry 		AmphibiousCar	CarResetControls
+aiSettings.addInterpreterEntry 		AmphibiousCar 	MoveToMedium		Medium
+aiSettings.addInterpreterEntry          AmphibiousCar   MoveToObjectMedium      Medium
+aiSettings.addInterpreterEntry		AmphibiousCar	InfoWrapper
+aiSettings.addInterpreterEntry 		AmphibiousCar 	CarMoveTo
+aiSettings.addInterpreterEntry 		AmphibiousCar 	CarMoveToDirection
+aiSettings.addInterpreterEntry 		AmphibiousCar 	CarMoveToObject
+aiSettings.addInterpreterEntry 		AmphibiousCar 	Trigger
+aiSettings.addInterpreterEntry 		AmphibiousCar 	TriggerContinously
+aiSettings.addInterpreterEntry 		AmphibiousCar 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		AmphibiousCar 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		AmphibiousCar 	Sense
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTWhile		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	AmphibiousCar	BAPSTIdle		Full
+
+rem *** FixedGuidedMissileLauncher Behaviour setup ***
+aiSettings.setVehicleBehaviour 		FixedGuidedMissileLauncher	Idle		BBIdle			BBPIdle2d		5  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		FixedGuidedMissileLauncher	Fire		BBFireGuided            BBPFireGuided		4  0 UCFire  UnitWeights
+aiSettings.setVehicleBehaviour 		FixedGuidedMissileLauncher	Scout		BBScout			BBPScout		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		FixedGuidedMissileLauncher	MoveTo		BBMoveToFixed		UnRelated		8  0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour 		FixedGuidedMissileLauncher	Change		BBChange		BBPChange		6  0 UCUnion UnitWeights
+aiSettings.setVehicleDefaultBehaviour 	FixedGuidedMissileLauncher      Idle
+aiSettings.addInterpreterEntry		FixedGuidedMissileLauncher	InfoWrapper
+aiSettings.addInterpreterEntry 		FixedGuidedMissileLauncher 	Trigger
+aiSettings.addInterpreterEntry 		FixedGuidedMissileLauncher 	TriggerContinously
+aiSettings.addInterpreterEntry 		FixedGuidedMissileLauncher 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		FixedGuidedMissileLauncher 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		FixedGuidedMissileLauncher 	Sense
+aiSettings.addInterpreterEntry 		FixedGuidedMissileLauncher 	InfanteryResetControls
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	FixedGuidedMissileLauncher	BAPSTIdle		Full
+
+
+
+rem *** Turret Behaviour setup ***
+aiSettings.setVehicleBehaviour Turret	Idle		BBIdle			BBPIdle2d		5  0 UCUnion TurretWeights
+aiSettings.setVehicleBehaviour Turret	Fire		BBFireInfantery		BBPFireInfantery	4  0 UCFire  TurretWeights
+aiSettings.setVehicleBehaviour Turret	Scout		BBScout			BBPScout		8  0 UCUnion TurretWeights
+aiSettings.setVehicleBehaviour Turret	MoveTo		BBMoveToFixed		UnRelated		8  0 UCUnion TurretWeights
+aiSettings.setVehicleBehaviour Turret	Change		BBChangeTeleport	BBPChangeTeleport	1  0 UCUnion TurretWeights
+aiSettings.setVehicleDefaultBehaviour Turret    Idle
+aiSettings.addInterpreterEntry		Turret	InfoWrapper
+aiSettings.addInterpreterEntry 		Turret 	Trigger
+aiSettings.addInterpreterEntry 		Turret 	TriggerContinously
+aiSettings.addInterpreterEntry 		Turret 	MouseTurretAimAt
+aiSettings.addInterpreterEntry 		Turret 	MouseTurretLookAt
+aiSettings.addInterpreterEntry 		Turret 	Sense
+aiSettings.addInterpreterEntry 		Turret 	InfanteryResetControls
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTPlanEnd		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	Turret	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTAimingWrapper	Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Turret	BAPSTIdle		Full
+
+
+rem *** Capital Behaviour setup ***
+rem aiSettings.setVehicleBehaviour Plane	Avoid		BBAvoid			BBPAvoidCollision3d		1 0 UCUnion AvoidInhibit
+aiSettings.setVehicleBehaviour Capital	MoveTo		BBMoveTo		BBPGotoWaypoint3d		4 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Capital	Idle		BBIdle			BBPIdle3d			5 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Capital	Fire		BBFireUnarmed		UnRelated		6 0 UCUnion UnitWeights
+rem aiSettings.setVehicleBehaviour Plane	Special		BBRoam			BBPRoam3d			6 0 UCUnion UnitWeights
+aiSettings.setVehicleBehaviour Capital	Change		BBChangeTeleport	BBPChangeTeleport			6 0 UCUnion ChangeInhibit
+aiSettings.setVehicleDefaultBehaviour Capital    Idle
+rem aiSettings.setVehicleBehaviour Plane	TakeCover	BBTakeCover3d		BBPTakeCover3d			4 0 UCUnion UnitWeights
+aiSettings.addInterpreterEntry		Capital	InfoWrapper
+aiSettings.addInterpreterEntry 		Capital 	PlaneMoveTo
+aiSettings.addInterpreterEntry 		Capital 	PlaneMoveToDirection
+aiSettings.addInterpreterEntry 		Capital 	PlaneMoveToObject
+aiSettings.addInterpreterEntry 		Capital	Trigger
+aiSettings.addInterpreterEntry 		Capital	TriggerContinously
+aiSettings.addInterpreterEntry 		Capital	PlaneAimAt
+aiSettings.addInterpreterEntry 		Capital	PlaneResetControls
+aiSettings.addInterpreterEntry 		Capital	PlaneRoll
+aiSettings.addInterpreterEntry 		Capital	Sense
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTParallel		Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTSerial		Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTIf			Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTWait		Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTWhile		Full
+rem aiSettings.activateDefaultInterpreter 	Capital	BAPSTInfoWrapper	Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTWeaponWrapper	Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTFinishedWrapper	Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTUpdateVehicle	Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTChangeWeapon	Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTICTurnLock		Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTICChangeVehicle	Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTICScout		Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTEvaluate		Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTNotifyBot		Full
+aiSettings.activateDefaultInterpreter 	Capital	BAPSTIdle		Full
+
+
+
+
+
+
+

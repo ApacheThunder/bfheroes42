@@ -1,0 +1,158 @@
+rem *** Collision Material for Creek ***
+
+MaterialManager.material 2012
+MaterialManager.materialAttGroup 2012
+MaterialManager.materialDefGroup 2012
+MaterialManager.materialDamage 0
+MaterialManager.materialFriction 10
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 5
+
+rem *** Soldier ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0
+
+rem *** Soldier ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0
+
+rem *** Soldier ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0
+
+rem *** Jeeps ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0
+
+rem *** Tanks ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0
+
+rem *** Planes ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0
+
+rem *** TroopTraps ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 1035
+MaterialManager.damageMod 0
+
+
+rem *** Projectiles VS Creek Material ***
+
+
+rem *** Keg ***
+MaterialManager.attGroup 2005
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** StickyTNT Direct (no Effect assigned) ***
+MaterialManager.attGroup 188
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+
+rem *** Keg Collision ***
+MaterialManager.attGroup 189
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.materialElasticity 30
+MaterialManager.materialResistance 30
+
+rem ** Keg Collision ALT ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 189
+MaterialManager.damageMod 0
+MaterialManager.materialElasticity 30
+MaterialManager.materialResistance 30
+
+rem *** Grenade Spam ***
+MaterialManager.attGroup 190
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** Plane Projectile ***
+MaterialManager.attGroup 198
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoCreekWater
+
+rem *** RPG Splash ***
+MaterialManager.attGroup 200
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** StickyTNT Splash ***
+MaterialManager.attGroup 204
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** Grenades ***
+MaterialManager.attGroup 205
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** Pistol ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoCreekWater
+
+rem *** MG ***
+MaterialManager.attGroup 217
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoCreekWater
+
+rem *** RPG Direct ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** Tank Shell (Splash) ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** Tank Shell (Direct) ***
+MaterialManager.attGroup 237
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+
+rem *** Shotgun ***
+MaterialManager.attGroup 256
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoCreekWater
+
+rem *** SMG ***
+MaterialManager.attGroup 216
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoCreekWater
+
+rem *** Sniper Rifle ***
+MaterialManager.attGroup 218
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoCreekWater
+
+rem *** TroopTrap Explosion ***
+MaterialManager.attGroup 855
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_CreekWaterImpact
+

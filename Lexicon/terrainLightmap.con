@@ -1,0 +1,22 @@
+GeometryTemplate.active terrainGeometry
+GeometryTemplate.shadowPrecision 1.0
+
+raytracer.init
+raytracer.ambientIntensity 0.05
+raytracer.blockSize 16
+raytracer.OnlyNearest 0
+raytracer.shadowsNearCamera -1.0
+raytracer.light.create
+raytracer.light.direction 0.914123/0.327892/-0.238467
+raytracer.light.selfshadowing 1
+raytracer.light.objectShadows 1
+raytracer.light.shadowIntensity 0.8
+raytracer.light.intensity 0.6
+raytracer.light.fov 4
+raytracer.light.viewDistance 512
+raytracer.light.softness 0
+raytracer.traceObject track
+
+
+
+

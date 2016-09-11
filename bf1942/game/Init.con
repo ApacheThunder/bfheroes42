@@ -1,0 +1,14 @@
+Console.setAccess c_fullAccess
+
+run Init/Menu
+run Init/Settings
+rem run Init/SkidMarks
+
+run globalSpawnGroups
+
+console.showFps 0
+
+game.setMinorVictory 0.40
+game.setMajorVictory 0.80
+
+ShaderManager.lensFlareEnable 1

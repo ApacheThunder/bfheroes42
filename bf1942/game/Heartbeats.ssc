@@ -1,0 +1,4 @@
+newPatch
+load @ROOT/Sound/@RTD/AUTO_RULES_ticketbleedstart.wav
+loop
+priority 11

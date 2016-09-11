@@ -1,0 +1,519 @@
+MaterialManager.material 4015
+MaterialManager.materialAttGroup 4015
+MaterialManager.materialDefGroup 4015
+MaterialManager.materialDamage 0
+
+
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem *** bri_jeep_willy/ger_jeep_kubelwagen ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem *** No water effect. ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *************************************************
+rem *		Other Materials
+rem * *************************************************
+
+rem * *************************************************
+rem *		Light Armor
+rem * *************************************************
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+
+rem * *************************************************
+rem *		heavy Armor
+rem * *************************************************
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem *** bri_tank_sherman/ger_tank_panzeriv ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *************************************************
+rem *		Ship Armors
+rem * *************************************************
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+
+rem * *************************************************
+rem *		Planes target
+rem * *************************************************
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem *************************************************
+rem		Ptboat target
+rem *************************************************
+
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem ***************************
+rem * *** Other Materials ***
+rem ***************************
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Mud ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Gravel ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Rock ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Ice ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 16
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wood ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Metal ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Concrete ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Flesh ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Grate ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Tree Trunk ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 165
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *************************************************
+rem *		Special items
+rem * *************************************************
+
+rem * *** Wooden door ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 190
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Metal Door ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 191
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Wooden Ladder ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 192
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Metal Ladder ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 193
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice
+
+rem * *** Switch/control panel ***
+MaterialManager.attGroup 4015
+MaterialManager.defGroup 194
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_Collision_TriggerDevice

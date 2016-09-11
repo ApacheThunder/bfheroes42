@@ -1,0 +1,917 @@
+rem *** Collision Materials for Soccer Ball ***
+
+rem *** Extra bounce when it collides with soldiers/vehicles ***
+
+rem *** Soldier ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 30
+MaterialManager.materialResistance 30
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Soldier ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 30
+MaterialManager.materialResistance 30
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Soldier ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 30
+MaterialManager.materialResistance 30
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Jeeps ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Tanks ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Fishing Boat ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Planes ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** TroopTraps ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 1035
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Default ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Water ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0
+MaterialManager.materialFriction 0
+rem MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Mud ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 0.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Gravel ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Rock ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Ice ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 16
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+
+rem *** Fishing Boat Mast ***
+rem * *** Wood ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Metal ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Concrete ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Flesh ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Grate ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *************************************************
+rem *		Special items
+rem * *************************************************
+
+rem * *** Target Dummy ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 190
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Metal Door ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 191
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Wooden Ladder ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 192
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Metal Ladder ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 193
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem * *** Switch/control panel ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 194
+MaterialManager.damageMod 0.0
+rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+
+rem *** CTDs in multiplayer. Disabled for now. ***
+beginrem
+rem *** Spawn Effect for Projectile. Spawns the PCO on collision! ***
+
+rem *** Soccer Ball Spawner Material ***
+MaterialManager.material 2012
+MaterialManager.materialAttGroup 2012
+MaterialManager.materialDefGroup 2012
+MaterialManager.materialDamage 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+
+rem *** Default ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** Water ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 2
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 3
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 4
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 5
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Mud ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 6
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 7
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 0.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Gravel ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 8
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 9
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 10
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 11
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Rock ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 12
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 13
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 14
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 15
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+
+rem *** Extra bounce when it collides with soldiers/vehicles ***
+
+rem *** Soldier ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** Soldier ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** Soldier ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** Jeeps ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** Tanks ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** Planes ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 80
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wood ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 82
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 83
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 84
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Metal ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 85
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 86
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 87
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 88
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Concrete ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 92
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Reinforced Concrete ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 93
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Flesh ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 94
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 101
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 102
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 103
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 104
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 105
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 106
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 107
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Grate ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 108
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 109
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 110
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 111
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 112
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 113
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 114
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 115
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 116
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 117
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 118
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 119
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *************************************************
+rem *		Special items
+rem * *************************************************
+
+rem * *** Trees ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 165
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+
+rem * *** Wooden door ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 190
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Metal Door ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 191
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Wooden Ladder ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 192
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Metal Ladder ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 193
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.7
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Switch/control panel ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 194
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem * *** Switch/control panel ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 194
+MaterialManager.damageMod 0.0
+rem rem MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** WorldCup Football ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+
+rem *** WorldCup Football (inv) ***
+MaterialManager.attGroup 2011
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** TroopTrap ***
+MaterialManager.attGroup 2012
+MaterialManager.defGroup 1035
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 1.5
+MaterialManager.setEffectTemplate e_BouncingBall_SpawnBall
+endrem

@@ -1,0 +1,19 @@
+rem
+rem *** Instant Death from Vehicle Collisions ***
+rem
+
+MaterialManager.attGroup 60
+MaterialManager.defGroup 190
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 55
+MaterialManager.defGroup 190
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 54
+MaterialManager.defGroup 190
+MaterialManager.damageMod 10
+
+MaterialManager.attGroup 45
+MaterialManager.defGroup 190
+MaterialManager.damageMod 10

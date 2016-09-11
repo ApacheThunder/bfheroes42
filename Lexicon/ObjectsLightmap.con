@@ -1,0 +1,31 @@
+rem *** These were the best settings to produce lightmaps closest in appearence to BFHeroes ***
+
+raytracer.init
+raytracer.ambientIntensity 0.05
+raytracer.blockSize 16
+raytracer.sampleOffset 0.05
+raytracer.OnlyNearest 0
+raytracer.shadowsNearCamera -1
+
+raytracer.light.create
+raytracer.light.direction 0.914123/0.327892/-0.238467
+raytracer.light.selfshadowing 1
+raytracer.light.objectShadows 0
+raytracer.light.shadowIntensity 1.3
+raytracer.light.intensity 0.35
+raytracer.light.softness 0.5
+raytracer.light.fov 130
+raytracer.light.viewDistance 200
+
+raytracer.light.create
+raytracer.light.direction 0.914123/0.327892/-0.238467
+raytracer.light.selfshadowing 1
+raytracer.light.objectShadows 1
+raytracer.light.shadowIntensity 1.3
+raytracer.light.intensity 0.6
+raytracer.light.softness 0.0
+raytracer.light.fov 4
+raytracer.light.viewDistance 512
+
+raytracer.addIgnoreObject terrain
+raytracer.addIgnoreObject track

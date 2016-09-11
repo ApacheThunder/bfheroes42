@@ -1,0 +1,27 @@
+rem
+rem *** Weather Data Base  ***
+rem
+Weather.initWeather
+WPart.active 1
+WPart.type 0
+WPart.radius 20
+WPart.partSize 0.1/1
+WPart.speed 0/-4/-0
+WPart.random 1
+WPart.numParticles 3000
+WPart.pointSpriteMinSize 3
+WPart.pointSpriteMaxSize 10
+WPart.displacement 0/2/15
+wPart.color 0.3/0.3/0.3/1
+wPart.scale 1/0.55/0.8
+wPart.acceleration 2
+WPart.setTexture 0 snow1
+WPart.fadeZ 20
+WPart.setTexture 1 snow2
+WPart.setTexture 2 snow3
+WPart.setTexture 3 snow4
+WPart.setTexture 4 snow5
+WPart.setTexture 5 snow6
+WPart.setTexture 6 snow7
+WPart.setTexture 7 snow8
+WPart.active 0

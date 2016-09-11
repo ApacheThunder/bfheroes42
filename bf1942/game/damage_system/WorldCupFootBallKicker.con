@@ -1,0 +1,97 @@
+rem *********** SoccerBall Kicking Projectile (direct) **************
+MaterialManager.material 3002
+MaterialManager.materialAttGroup 3002
+MaterialManager.materialDefGroup 3002
+MaterialManager.materialDamage 0
+
+rem *********** SoccerBall Kicking Projectile (splash - The kick) **************
+MaterialManager.material 3001
+MaterialManager.materialAttGroup 3001
+MaterialManager.materialDefGroup 3001
+MaterialManager.materialDamage 10
+
+
+rem *** Kick Projectile Explosion VS Soldiers/Vehicles/SoccerBall ***
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.05
+MaterialManager.setEffectTemplate e_BouncingBall
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0
+
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0
+
+rem *** Fishing Boat ***
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0
+
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0
+
+rem *** Fishing Boat Mast ***
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 81
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 1035
+MaterialManager.damageMod 0
+
+
+rem *** Target Dummy ***
+MaterialManager.attGroup 3001
+MaterialManager.defGroup 190
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3002
+MaterialManager.defGroup 190
+MaterialManager.damageMod 0
+
+rem *** Creek Water ***
+MaterialManager.attGroup 3002
+MaterialManager.defGroup 2012
+MaterialManager.damageMod 0

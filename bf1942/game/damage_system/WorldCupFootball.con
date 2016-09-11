@@ -1,0 +1,309 @@
+rem *********** Soccer Ball PCO ***********
+MaterialManager.material 2011
+MaterialManager.materialAttGroup 2011
+MaterialManager.materialDefGroup 2011
+MaterialManager.materialDamage 0
+MaterialManager.materialElasticity 4
+MaterialManager.materialResistance 1
+MaterialManager.materialFriction 0
+
+rem ********* Projectiles VS. Soccer Ball **********
+
+rem *** Exppack/Granade - Direct ***
+MaterialManager.attGroup 70
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+MaterialManager.materialElasticity 0.5
+
+rem *** Grant Heavy MG - Direct ***
+MaterialManager.attGroup 127
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetalHeavy
+MaterialManager.materialElasticity 1
+
+rem *** Colt Pistol - Direct ***
+MaterialManager.attGroup 214
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+rem *** P38 - Direct ***
+MaterialManager.attGroup 215
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem *** Thomson - Direct ***
+MaterialManager.attGroup 216
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 1
+
+
+rem *** k98 - Direct ***
+MaterialManager.attGroup 217
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem *** NO 4 Sniper - Direct ***
+MaterialManager.attGroup 218
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 1
+
+
+rem *** k98 - Direct ***
+MaterialManager.attGroup 219
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem *** m1Garand Pistol - Direct ***
+MaterialManager.attGroup 220
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem *** MP40 - Direct ***
+MaterialManager.attGroup 224
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem *** MG42 ***
+MaterialManager.attGroup 225
+MaterialManager.defGroup 0
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetalHeavy
+MaterialManager.materialElasticity 0.5
+
+
+rem ** Bar - Direct ***
+MaterialManager.attGroup 222
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem ** SG44 - Direct ***
+MaterialManager.attGroup 223
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem ** Bazooka (allied) - Direct ***
+MaterialManager.attGroup 226
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+MaterialManager.materialElasticity 1
+
+
+rem ** Bazooka (axis) - Direct ***
+MaterialManager.attGroup 227
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 1
+
+
+rem ** AA Gun - Direct ***
+MaterialManager.attGroup 228
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 1
+
+
+rem *** Sherman Tank Shell - Direct ***
+MaterialManager.attGroup 236
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+MaterialManager.materialElasticity 1
+
+
+rem *** PanzerIV Tank Shell - Direct ***
+MaterialManager.attGroup 237
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+
+rem *** M10 Tank Shell - Direct ***
+MaterialManager.attGroup 238
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+
+rem *** Tiger Tank Shell - Direct ***
+MaterialManager.attGroup 239
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+
+rem *** Wespe (plane) Bombs - Direct ***
+MaterialManager.attGroup 241
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+rem *** Generic Bombs - Direct ***
+MaterialManager.attGroup 242
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+rem *** B17 Bombs - Direct ***
+MaterialManager.attGroup 244
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+rem *** Grayhound Shell - Direct ***
+MaterialManager.attGroup 246
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+rem *** Destroyer Shell - Direct ***
+MaterialManager.attGroup 252
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 0.5
+
+rem ** BB Gun - Direct ***
+MaterialManager.attGroup 254
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_exp_tank
+MaterialManager.materialElasticity 1
+
+
+rem ** DP Gun (plane) - Direct ***
+MaterialManager.attGroup 256
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+
+rem ** Elite Throw Knife - Direct ***
+MaterialManager.attGroup 257
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 1
+
+rem ** ShotGun - Direct ***
+MaterialManager.attGroup 259
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_RichoMetal
+MaterialManager.materialElasticity 0.5
+
+rem *** Explosions ***
+
+rem *** Grenade Spam ***
+MaterialManager.attGroup 189
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+
+rem *** RPG ***
+MaterialManager.attGroup 200
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+
+rem **** Sticky TNT ***
+MaterialManager.attGroup 204
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+
+rem *** Grenades ***
+MaterialManager.attGroup 205
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+
+rem *** Tank Shell (splash) ***
+MaterialManager.attGroup 206
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+
+rem *** TroopTraps ***
+MaterialManager.attGroup 855
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_exp_medium_NoDecal
+
+rem *** Keg (splash) ***
+MaterialManager.attGroup 2005
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_exp_keg_NoDecal
+
+rem *** Plane Bullets (splash) ***
+MaterialManager.attGroup 2006
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.01
+
+rem *** Soldier vs Ball ***
+MaterialManager.attGroup 40
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 15
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Soldier ***
+MaterialManager.attGroup 41
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 15
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Soldier ***
+MaterialManager.attGroup 42
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 15
+MaterialManager.setEffectTemplate e_BouncingBall
+
+rem *** Target Dummy ***
+MaterialManager.attGroup 190
+MaterialManager.defGroup 2011
+MaterialManager.damageMod 0.0
+MaterialManager.materialElasticity 15
+MaterialManager.setEffectTemplate e_BouncingBall

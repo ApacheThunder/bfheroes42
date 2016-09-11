@@ -1,0 +1,21 @@
+rem
+rem *** Weather Data Base  ***
+rem
+Weather.initWeather
+WPart.active 0
+WPart.type 1
+WPart.radius 30
+wPart.partSize 0.6
+WPart.speed 1/-20/2
+WPart.random 3
+WPart.numParticles 2000
+WPart.pointSpriteMinSize 1
+WPart.pointSpriteMaxSize 63
+wPart.color 0.15
+WPart.fadeZ 30
+wPart.fadeInValue 10
+wPart.acceleration 4
+wPart.displacement 0/2/20
+wPart.scale 0.7/0.5/0.7
+WPart.setTexture 0 rain_lgt99
+WPart.active 1

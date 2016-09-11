@@ -1,0 +1,31 @@
+newPatch
+load @ROOT/Sound/@RTD/AUTO_RULES_wecapturedacp.wav
+load @ROOT/Sound/@RTD/AUTO_RULES_wecapturedacp_alt.wav
+randomPlay 1
+priority 11
+
+newPatch
+load @ROOT/Sound/@RTD/AUTO_RULES_welostacp.wav
+load @ROOT/Sound/@RTD/AUTO_RULES_welostacp_alt.wav
+randomPlay 1
+priority 11
+
+newPatch
+load @ROOT/Sound/@RTD/AUTO_RULES_runninglowonreinforcements.wav
+load @ROOT/Sound/@RTD/AUTO_RULES_runninglowonreinforcements_alt.wav
+randomPlay 1
+priority 11
+
+newPatch
+load @ROOT/Sound/@RTD/AUTO_RULES_ticketbleedstart.wav
+priority 11
+
+newPatch
+load @ROOT/Sound/@RTD/AUTO_MOODGP_leavingcombatarea.wav
+load @ROOT/Sound/@RTD/AUTO_MOODGP_leavingcombatarea_alt.wav
+randomPlay 1
+priority 11
+
+newPatch
+load @ROOT/Sound/@RTD/radiomess.wav
+priority 11

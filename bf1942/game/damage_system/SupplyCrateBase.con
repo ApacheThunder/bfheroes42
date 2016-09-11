@@ -1,0 +1,402 @@
+rem * *************************************************
+rem *		Supply/Vehicle Crate Base Material
+rem * *************************************************
+
+MaterialManager.material 1085
+MaterialManager.materialAttGroup 1085
+MaterialManager.materialDefGroup 1085
+MaterialManager.materialDamage 100
+
+rem * *************************************************
+rem *		Infantry target
+rem * *************************************************
+MaterialManager.attGroup 40
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 41
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 42
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *************************************************
+rem *		scout cars target
+rem * *************************************************
+
+MaterialManager.attGroup 43
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 44
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *************************************************
+rem *		Light Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 45
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 46
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 47
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 48
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 49
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *************************************************
+rem *		Heavy Vehicle target
+rem * *************************************************
+
+MaterialManager.attGroup 50
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 51
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 52
+MaterialManager.defGroup 100
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 53
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 54
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *************************************************
+rem *		Ship target
+rem * *************************************************
+
+MaterialManager.attGroup 55
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 56
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 57
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 58
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 59
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *************************************************
+rem *		Planes target
+rem * *************************************************
+
+MaterialManager.attGroup 60
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 61
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 62
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 63
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 64
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+
+rem * *************************************************
+rem *		Default
+rem * *************************************************
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *************************************************
+rem *		Material Effects
+rem * *************************************************
+rem * *************************************************
+rem *		Other Materials
+rem * *************************************************
+
+rem * *** Dry Grass (yellow) ***
+MaterialManager.attGroup 2
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Juicy Grass (Green) ***
+MaterialManager.attGroup 3
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Dry Dirt ***
+MaterialManager.attGroup 4
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Wet Dirt ***
+MaterialManager.attGroup 5
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Mud ***
+MaterialManager.attGroup 6
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Deep Mud ***
+MaterialManager.attGroup 7
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Gravel ***
+MaterialManager.attGroup 8
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Frozen ground ***
+MaterialManager.attGroup 9
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Dry Sand ***
+MaterialManager.attGroup 10
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Wet Sand ***
+MaterialManager.attGroup 11
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Rock ***
+MaterialManager.attGroup 12
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Forest Floor ***
+MaterialManager.attGroup 13
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Dirt Road ***
+MaterialManager.attGroup 14
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Paved Road ***
+MaterialManager.attGroup 15
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Ice ***
+MaterialManager.attGroup 16
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Solid Wood ***
+MaterialManager.attGroup 80
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Wood ***
+MaterialManager.attGroup 81
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Thin Wood ***
+MaterialManager.attGroup 82
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Hollow Wood ***
+MaterialManager.attGroup 83
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Solid Metal ***
+MaterialManager.attGroup 84
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Metal ***
+MaterialManager.attGroup 85
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Thin Metal ***
+MaterialManager.attGroup 86
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Hollow Metal ***
+MaterialManager.attGroup 87
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Solid Stone (Rock) ***
+MaterialManager.attGroup 88
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Concrete ***
+MaterialManager.attGroup 92
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Reinforced Concrete ... Also SmokeGranade for SupplyCrate ***
+MaterialManager.attGroup 93
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Flesh ***
+MaterialManager.attGroup 94
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Exterior Stone Wall ***
+MaterialManager.attGroup 100
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Interior Stone Wall ***
+MaterialManager.attGroup 101
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Exterior brick Wall ***
+MaterialManager.attGroup 102
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Interior brick Wall ***
+MaterialManager.attGroup 103
+MaterialManager.defGroup 103
+MaterialManager.damageMod 100
+
+rem * *** Exterior wooden Wall ***
+MaterialManager.attGroup 104
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Interior wooden Wall ***
+MaterialManager.attGroup 105
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 106
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Sandbags ***
+MaterialManager.attGroup 107
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Grate ***
+MaterialManager.attGroup 108
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Wooden Fence ***
+MaterialManager.attGroup 109
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Wire Fence ***
+MaterialManager.attGroup 110
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Grated Fence ***
+MaterialManager.attGroup 111
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Mesh Fence ***
+MaterialManager.attGroup 112
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Bamboo Exterior wall ***
+MaterialManager.attGroup 113
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Bamboo Interior wall ***
+MaterialManager.attGroup 114
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 115
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Bamboo Fence ***
+MaterialManager.attGroup 116
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Wooden Floor ***
+MaterialManager.attGroup 117
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Stone Floor ***
+MaterialManager.attGroup 118
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100
+
+rem * *** Glass Pane ***
+MaterialManager.attGroup 119
+MaterialManager.defGroup 1085
+MaterialManager.damageMod 100

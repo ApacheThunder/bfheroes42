@@ -1,0 +1,4725 @@
+Run materialManagerdefine.con
+
+rem ***Ground ***
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem *** water  ***
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.000015
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.000015
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.000015
+
+rem ***Ground ***
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 2
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 3
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 4
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 5
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 6
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 7
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 8
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 9
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 10
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 11
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+rem ***Ground ***
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 12
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 13
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 14
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 15
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem *** Ice ***
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 16
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem *** Water ***
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.000015
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.000015
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.000015
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 61
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 63
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.010
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 1
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 0
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+rem ***Ground ***
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 65
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+rem ***Ground ***
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.001
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 66
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+
+
+
+rem
+rem **rem ***Large bomb explosion - allied heavy bomber explosion *****
+rem
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 40
+MaterialManager.damageMod 2.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 41
+MaterialManager.damageMod 2.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 42
+MaterialManager.damageMod 2.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 43
+MaterialManager.damageMod 2.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 44
+MaterialManager.damageMod 2.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.5
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.2
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 0
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 203
+MaterialManager.defGroup 1
+MaterialManager.damageMod 0.0
+
+
+
+
+rem *****************************************
+rem *rem ***objects colliding with planes  *****
+rem *****************************************
+rem DO NOT REMOVE!!!!
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 60
+MaterialManager.damageMod 0.1
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0.1
+
+
+
+rem *rem ***objects colliding with planes  *****
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0.1
+
+
+rem *rem ***objects colliding with planes  *****
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 46 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 47 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 48 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 49 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 50 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.01
+
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 51 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.01
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 52 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.01
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 53 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.01
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 54 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+MaterialManager.attGroup 166
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.01
+
+
+rem ************************************************
+rem ***
+rem ***		ARMOR 72 DAMAGE FROM OBJECTS
+rem ***
+rem ************************************************
+
+
+MaterialManager.attGroup 80
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 81
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 82
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 83
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 84
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 85
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 86
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 87
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 88
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 89
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 90
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 91
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 92
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 93
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 94
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 95
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+
+
+
+MaterialManager.attGroup 100
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 101
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 102
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 103
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 104
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 105
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 106
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 107
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 108
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 109
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 110
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 112
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 113
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 114
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 115
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 116
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 117
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 118
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 119
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+MaterialManager.attGroup 165
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0.1
+
+
+
+
+
+rem ***barbwire ****
+
+rem ***Ground ***
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0.15
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0.15
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0.15
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 60
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 61
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 62
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 63
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 64
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 120
+MaterialManager.defGroup 72
+MaterialManager.damageMod 0
+
+run damage_system/wespe
+run damage_system/Tiger
+run damage_system/m10
+run damage_system/priest
+
+run damage_system/MG42
+run damage_system/p38
+run damage_system/k98
+run damage_system/bar
+run damage_system/sg44
+run damage_system/Browning
+run damage_system/Bombs
+run damage_system/airplanes
+run damage_system/torpedo
+run damage_system/battleship
+run damage_system/destroyer
+run damage_system/katyusha
+run damage_system/mines
+run damage_system/big_bombs
+run damage_system/depth-charges
+run damage_system/m1garand
+run damage_system/greyhound
+run Collision_Armor/LightArmor
+run Collision_Armor/HeavyArmor
+run Collision_Armor/NoArmor
+run Collision_Armor/PlaneArmor
+run Collision_Armor/PTRaftArmor
+rem - Expack extra stuff - 
+run damage_system/AT
+run damage_system/BF110
+run damage_system/Carro_Armato_Gun
+run damage_system/CarroArmato_MG
+run damage_system/Grant_MG
+run damage_system/Grant_Gun
+run damage_system/M3GMC_Gun
+run damage_system/Mosquito
+run damage_system/Sturmgeschutz
+run damage_system/Bayonet
+
+
+rem *** BFHeroes Damage System ***
+
+run damage_system/AAProjectile
+run damage_system/AntiAir
+run damage_system/AntiAirSplash
+run damage_system/BlastingStrike
+run damage_system/CannonBall
+run damage_system/CannonBallSplash
+run damage_system/ChurchBell
+run damage_system/CreekWater
+run damage_system/Grenades
+run damage_system/GrenadeSpam
+run damage_system/HelicopterProjectile
+run damage_system/HelicopterProjectileSplash
+run damage_system/Keg
+run damage_system/KegCollision
+run damage_system/knife
+run damage_system/Landmines
+run damage_system/LandminesCollision
+run damage_system/LandmineTrigger
+run damage_system/MG
+run damage_system/MG_bc2
+run damage_system/MiniTankKeg
+run damage_system/MoonrakerLaser
+run damage_system/Pistol
+run damage_system/Pistol_Agent
+run damage_system/ProximityMine
+run damage_system/RemoteMine
+run damage_system/RPG
+run damage_system/Shotgun
+run damage_system/SMG
+run damage_system/SMG_BC2
+run damage_system/Sniper
+run damage_system/Sniper_AT
+run damage_system/StickyTNT
+run damage_system/SupplyCrateBase
+run damage_system/TankDirect
+run damage_system/TankSplash
+run damage_system/TargetDummy
+run damage_system/TNTSplash
+run damage_system/TroopTrap
+run damage_system/PlaneProjectile
+run damage_system/PlaneProjectileSplash
+run damage_system/WheelDeath
+run damage_system/WorldCupFootball
+run damage_system/WorldCupFootball_Collision
+run damage_system/WorldCupFootBallKicker
+
+rem EndOfFile

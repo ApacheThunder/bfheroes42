@@ -1,0 +1,201 @@
+rem ************** Spawn Groups for vehicle and objects ********************
+
+rem *** Fishing Boats ***
+
+rem *** Royal Boat ***
+spawnPointManager.group 22
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyforHuman 1
+
+rem *** Royal Boat Driver ***
+spawnPointManager.group 23
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyforHuman 1
+
+rem *** Royal Boat Cannon for AI ***
+spawnPointManager.group 30
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyForAi 1
+
+rem *** National Boat ***
+spawnPointManager.group 20
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyforHuman 1
+
+rem *** National Boat Driver ***
+spawnPointManager.group 21
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyforHuman 1
+
+rem *** National Boat Cannon for AI ***
+spawnPointManager.group 31
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyForAi 1
+
+
+rem -------------------------------------------------------------------
+
+rem *** Yamato ***
+spawnPointManager.group 64
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Yamato Driver ***
+spawnPointManager.group 65
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** PrinceOW Driver ***
+spawnPointManager.group 66
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** PrinceOW ***
+spawnPointManager.group 67
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Fletcher Driver ***
+spawnPointManager.group 68
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Fletcher ***
+spawnPointManager.group 69
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Hatsuzuki Driver ***
+spawnPointManager.group 70
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Hatsuzuki ***
+spawnPointManager.group 71
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Enterprise Driver ***
+spawnPointManager.group 72
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyForHuman 1
+rem spawnPointManager.groupStatus 0
+
+rem *** Enterprise Lcvp ***
+spawnPointManager.group 73
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Enterprise AirCraft ***
+spawnPointManager.group 74
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Shokaku Driver ***
+spawnPointManager.group 75
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+spawnPointManager.onlyForHuman 1
+rem spawnPointManager.groupStatus 0
+
+rem *** Shokaku Lcvp ***
+spawnPointManager.group 76
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Shokaku AirCraft ***
+spawnPointManager.group 77
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Sub7c Driver ***
+spawnPointManager.group 78
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Gato Driver ***
+spawnPointManager.group 79
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Alternative Fletcher Driver ***
+spawnPointManager.group 80
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Alternative Fletcher ***
+spawnPointManager.group 81
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Alternative Hatsuzuki Driver ***
+spawnPointManager.group 82
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** Alternative Hatsuzuki ***
+spawnPointManager.group 83
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem -------------------------------------------------------------------
+
+rem *** Captain Shop Soldier Spawns ***
+spawnPointManager.group 98
+spawnPointManager.groupTeam 2
+spawnPointManager.onlyforHuman 1
+spawnPointManager.groupActive 1
+spawnPointManager.groupEnableToChangeTeam 0
+spawnPointManager.groupIcon CaptainShopSpawnIcon.tga
+spawnPointManager.groupPos 0/0/0
+
+spawnPointManager.group 99
+spawnPointManager.groupTeam 1
+spawnPointManager.onlyforHuman 1
+spawnPointManager.groupActive 1
+spawnPointManager.groupEnableToChangeTeam 0
+spawnPointManager.groupIcon CaptainShopSpawnIcon.tgs
+spawnPointManager.groupPos 0/0/0

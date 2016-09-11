@@ -1,0 +1,943 @@
+rem *** Terrain ***
+
+rem Default
+MaterialManager.material 0
+MaterialManager.materialAttGroup 0
+MaterialManager.materialDefGroup 0
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 1.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.02
+
+rem Water
+MaterialManager.material 1
+MaterialManager.materialAttGroup 1
+MaterialManager.materialDefGroup 1
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.1
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.1
+
+rem Dry grass
+MaterialManager.material 2
+MaterialManager.materialAttGroup 2
+MaterialManager.materialDefGroup 2
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.8
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.06
+
+rem Juicy grass
+MaterialManager.material 3
+MaterialManager.materialAttGroup 3
+MaterialManager.materialDefGroup 3
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.8
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.08
+
+rem Dry dirt
+MaterialManager.material 4
+MaterialManager.materialAttGroup 4
+MaterialManager.materialDefGroup 4
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 1.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.04
+
+rem Wet dirt
+MaterialManager.material 5
+MaterialManager.materialAttGroup 5
+MaterialManager.materialDefGroup 5
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.8
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.06
+
+rem Mud
+MaterialManager.material 6
+MaterialManager.materialAttGroup 6
+MaterialManager.materialDefGroup 6
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.5
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.1
+
+rem Reserved (Outside map)
+MaterialManager.material 7
+MaterialManager.materialAttGroup 7
+MaterialManager.materialDefGroup 7
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.5
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.08
+
+rem Gravel
+MaterialManager.material 8
+MaterialManager.materialAttGroup 8
+MaterialManager.materialDefGroup 8
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 1.1
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.02
+
+rem Frozen ground
+MaterialManager.material 9
+MaterialManager.materialAttGroup 9
+MaterialManager.materialDefGroup 9
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.8
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.05
+
+rem Dry sand (El Alamein)
+MaterialManager.material 10
+MaterialManager.materialAttGroup 10
+MaterialManager.materialDefGroup 10
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.8
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.05
+
+rem Wet sand
+MaterialManager.material 11
+MaterialManager.materialAttGroup 11
+MaterialManager.materialDefGroup 11
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.8
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.04
+
+rem Rock  (Omaha beach)
+MaterialManager.material 12
+MaterialManager.materialAttGroup 12
+MaterialManager.materialDefGroup 12
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0.6
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.01
+
+rem Sand Road
+MaterialManager.material 13
+MaterialManager.materialAttGroup 13
+MaterialManager.materialDefGroup 13
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 1.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.02
+
+rem Dirt road
+MaterialManager.material 14
+MaterialManager.materialAttGroup 14
+MaterialManager.materialDefGroup 14
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 1.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.02
+
+rem Paved road
+MaterialManager.material 15
+MaterialManager.materialAttGroup 15
+MaterialManager.materialDefGroup 15
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 1.1
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0.01
+
+
+rem Ice (Frozen Water)
+MaterialManager.material 16
+MaterialManager.materialAttGroup 16
+MaterialManager.materialDefGroup 16
+MaterialManager.materialDamage 30
+MaterialManager.materialFriction 0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 0
+
+rem *** Armor ***
+
+MaterialManager.material 39
+MaterialManager.materialAttGroup 39
+MaterialManager.materialDefGroup 39
+MaterialManager.materialDamage 0
+
+MaterialManager.material 40
+MaterialManager.materialAttGroup 40
+MaterialManager.materialDefGroup 40
+MaterialManager.materialDamage 10
+
+MaterialManager.material 41
+MaterialManager.materialAttGroup 41
+MaterialManager.materialDefGroup 41
+MaterialManager.materialDamage 10
+
+MaterialManager.material 42
+MaterialManager.materialAttGroup 42
+MaterialManager.materialDefGroup 42
+MaterialManager.materialDamage 10
+
+MaterialManager.material 43
+MaterialManager.materialAttGroup 43
+MaterialManager.materialDefGroup 43
+MaterialManager.materialDamage 1
+
+MaterialManager.material 44
+MaterialManager.materialAttGroup 44
+MaterialManager.materialDefGroup 44
+MaterialManager.materialDamage 1
+
+MaterialManager.material 45
+MaterialManager.materialAttGroup 45
+MaterialManager.materialDefGroup 45
+MaterialManager.materialDamage 1
+
+MaterialManager.material 46
+MaterialManager.materialAttGroup 46
+MaterialManager.materialDefGroup 46
+MaterialManager.materialDamage 1
+
+MaterialManager.material 47
+MaterialManager.materialAttGroup 47
+MaterialManager.materialDefGroup 47
+MaterialManager.materialDamage 1
+
+MaterialManager.material 48
+MaterialManager.materialAttGroup 48
+MaterialManager.materialDefGroup 48
+MaterialManager.materialDamage 1
+
+MaterialManager.material 49
+MaterialManager.materialAttGroup 49
+MaterialManager.materialDefGroup 49
+MaterialManager.materialDamage 1
+
+MaterialManager.material 50
+MaterialManager.materialAttGroup 50
+MaterialManager.materialDefGroup 50
+MaterialManager.materialDamage 1
+
+MaterialManager.material 51
+MaterialManager.materialAttGroup 51
+MaterialManager.materialDefGroup 51
+MaterialManager.materialDamage 1
+
+MaterialManager.material 52
+MaterialManager.materialAttGroup 52
+MaterialManager.materialDefGroup 52
+MaterialManager.materialDamage 1
+
+MaterialManager.material 53
+MaterialManager.materialAttGroup 53
+MaterialManager.materialDefGroup 53
+MaterialManager.materialDamage 1
+
+MaterialManager.material 54
+MaterialManager.materialAttGroup 54
+MaterialManager.materialDefGroup 54
+MaterialManager.materialDamage 1
+
+MaterialManager.material 55
+MaterialManager.materialAttGroup 55
+MaterialManager.materialDefGroup 55
+MaterialManager.materialDamage 1
+
+MaterialManager.material 56
+MaterialManager.materialAttGroup 56
+MaterialManager.materialDefGroup 56
+MaterialManager.materialDamage 1
+
+MaterialManager.material 57
+MaterialManager.materialAttGroup 57
+MaterialManager.materialDefGroup 57
+MaterialManager.materialDamage 1
+
+MaterialManager.material 58
+MaterialManager.materialAttGroup 58
+MaterialManager.materialDefGroup 58
+MaterialManager.materialDamage 1
+
+MaterialManager.material 59
+MaterialManager.materialAttGroup 59
+MaterialManager.materialDefGroup 59
+MaterialManager.materialDamage 1
+
+MaterialManager.material 60
+MaterialManager.materialAttGroup 60
+MaterialManager.materialDefGroup 60
+MaterialManager.materialDamage 1
+
+MaterialManager.material 61
+MaterialManager.materialAttGroup 61
+MaterialManager.materialDefGroup 61
+MaterialManager.materialDamage 1
+
+MaterialManager.material 62
+MaterialManager.materialAttGroup 62
+MaterialManager.materialDefGroup 62
+MaterialManager.materialDamage 1
+
+MaterialManager.material 63
+MaterialManager.materialAttGroup 63
+MaterialManager.materialDefGroup 63
+MaterialManager.materialDamage 1
+
+MaterialManager.material 64
+MaterialManager.materialAttGroup 64
+MaterialManager.materialDefGroup 64
+MaterialManager.materialDamage 1
+
+MaterialManager.material 65
+MaterialManager.materialAttGroup 65
+MaterialManager.materialDefGroup 65
+MaterialManager.materialDamage 1
+
+MaterialManager.material 66
+MaterialManager.materialAttGroup 66
+MaterialManager.materialDefGroup 66
+MaterialManager.materialDamage 1
+
+MaterialManager.material 67
+MaterialManager.materialAttGroup 67
+MaterialManager.materialDefGroup 67
+MaterialManager.materialDamage 1
+
+MaterialManager.material 68
+MaterialManager.materialAttGroup 68
+MaterialManager.materialDefGroup 68
+MaterialManager.materialDamage 1
+
+MaterialManager.material 69
+MaterialManager.materialAttGroup 69
+MaterialManager.materialDefGroup 69
+MaterialManager.materialDamage 1
+
+rem **** Grenades *********
+MaterialManager.material 70
+MaterialManager.materialAttGroup 70
+MaterialManager.materialDefGroup 70
+MaterialManager.materialDamage 0
+MaterialManager.materialFriction 2.0
+MaterialManager.materialElasticity 2.0
+MaterialManager.materialResistance 2.0
+
+
+rem **** Ptboat Armor ****
+MaterialManager.material 72
+MaterialManager.materialAttGroup 72
+MaterialManager.materialDefGroup 72
+MaterialManager.materialDamage 1
+
+
+rem *** Basic Materials ***
+
+MaterialManager.material 79
+MaterialManager.materialAttGroup 79
+MaterialManager.materialDefGroup 79
+MaterialManager.materialDamage 0
+
+MaterialManager.material 80
+MaterialManager.materialAttGroup 80
+MaterialManager.materialDefGroup 80
+MaterialManager.materialDamage 1
+
+MaterialManager.material 81
+MaterialManager.materialAttGroup 81
+MaterialManager.materialDefGroup 81
+MaterialManager.materialDamage 1
+
+MaterialManager.material 82
+MaterialManager.materialAttGroup 82
+MaterialManager.materialDefGroup 82
+MaterialManager.materialDamage 1
+
+MaterialManager.material 83
+MaterialManager.materialAttGroup 83
+MaterialManager.materialDefGroup 83
+MaterialManager.materialDamage 1
+
+MaterialManager.material 84
+MaterialManager.materialAttGroup 84
+MaterialManager.materialDefGroup 84
+MaterialManager.materialDamage 1
+
+MaterialManager.material 85
+MaterialManager.materialAttGroup 85
+MaterialManager.materialDefGroup 85
+MaterialManager.materialDamage 1
+
+MaterialManager.material 86
+MaterialManager.materialAttGroup 86
+MaterialManager.materialDefGroup 86
+MaterialManager.materialDamage 1
+
+MaterialManager.material 87
+MaterialManager.materialAttGroup 87
+MaterialManager.materialDefGroup 87
+MaterialManager.materialDamage 1
+
+MaterialManager.material 88
+MaterialManager.materialAttGroup 88
+MaterialManager.materialDefGroup 88
+MaterialManager.materialDamage 1
+
+MaterialManager.material 89
+MaterialManager.materialAttGroup 89
+MaterialManager.materialDefGroup 89
+MaterialManager.materialDamage 1
+
+MaterialManager.material 90
+MaterialManager.materialAttGroup 90
+MaterialManager.materialDefGroup 90
+MaterialManager.materialDamage 1
+
+MaterialManager.material 91
+MaterialManager.materialAttGroup 91
+MaterialManager.materialDefGroup 91
+MaterialManager.materialDamage 1
+
+MaterialManager.material 92
+MaterialManager.materialAttGroup 92
+MaterialManager.materialDefGroup 92
+MaterialManager.materialDamage 1
+
+MaterialManager.material 93
+MaterialManager.materialAttGroup 93
+MaterialManager.materialDefGroup 93
+MaterialManager.materialDamage 1
+
+MaterialManager.material 94
+MaterialManager.materialAttGroup 94
+MaterialManager.materialDefGroup 94
+MaterialManager.materialDamage 1
+
+MaterialManager.material 95
+MaterialManager.materialAttGroup 95
+MaterialManager.materialDefGroup 95
+MaterialManager.materialDamage 1
+
+MaterialManager.material 96
+MaterialManager.materialAttGroup 96
+MaterialManager.materialDefGroup 96
+MaterialManager.materialDamage 1
+
+MaterialManager.material 97
+MaterialManager.materialAttGroup 97
+MaterialManager.materialDefGroup 97
+MaterialManager.materialDamage 1
+
+MaterialManager.material 98
+MaterialManager.materialAttGroup 98
+MaterialManager.materialDefGroup 98
+MaterialManager.materialDamage 1
+
+rem *** Building Materials ***
+
+rem Stone stairs
+MaterialManager.material 96
+MaterialManager.materialFriction 10.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 1
+
+rem Wood stairs
+MaterialManager.material 97
+MaterialManager.materialFriction 10.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 1
+
+rem Iron stairs
+MaterialManager.material 98
+MaterialManager.materialFriction 10.0
+MaterialManager.materialElasticity 0
+MaterialManager.materialResistance 1
+
+MaterialManager.material 100
+MaterialManager.materialAttGroup 100
+MaterialManager.materialDefGroup 100
+MaterialManager.materialDamage 1
+
+MaterialManager.material 101
+MaterialManager.materialAttGroup 101
+MaterialManager.materialDefGroup 101
+MaterialManager.materialDamage 1
+
+MaterialManager.material 102
+MaterialManager.materialAttGroup 102
+MaterialManager.materialDefGroup 102
+MaterialManager.materialDamage 1
+
+MaterialManager.material 103
+MaterialManager.materialAttGroup 103
+MaterialManager.materialDefGroup 103
+MaterialManager.materialDamage 1
+
+MaterialManager.material 104
+MaterialManager.materialAttGroup 104
+MaterialManager.materialDefGroup 104
+MaterialManager.materialDamage 1
+
+MaterialManager.material 105
+MaterialManager.materialAttGroup 105
+MaterialManager.materialDefGroup 105
+MaterialManager.materialDamage 1
+
+MaterialManager.material 106
+MaterialManager.materialAttGroup 106
+MaterialManager.materialDefGroup 106
+MaterialManager.materialDamage 1
+
+MaterialManager.material 107
+MaterialManager.materialAttGroup 107
+MaterialManager.materialDefGroup 107
+MaterialManager.materialDamage 0
+
+MaterialManager.material 108
+MaterialManager.materialAttGroup 108
+MaterialManager.materialDefGroup 108
+MaterialManager.materialDamage 1
+
+MaterialManager.material 109
+MaterialManager.materialAttGroup 109
+MaterialManager.materialDefGroup 109
+MaterialManager.materialDamage 1
+
+MaterialManager.material 110
+MaterialManager.materialAttGroup 110
+MaterialManager.materialDefGroup 110
+MaterialManager.materialDamage 0
+
+MaterialManager.material 111
+MaterialManager.materialAttGroup 111
+MaterialManager.materialDefGroup 111
+MaterialManager.materialDamage 1
+
+MaterialManager.material 112
+MaterialManager.materialAttGroup 112
+MaterialManager.materialDefGroup 112
+MaterialManager.materialDamage 1
+
+MaterialManager.material 113
+MaterialManager.materialAttGroup 113
+MaterialManager.materialDefGroup 113
+MaterialManager.materialDamage 1
+
+MaterialManager.material 114
+MaterialManager.materialAttGroup 114
+MaterialManager.materialDefGroup 114
+MaterialManager.materialDamage 1
+
+MaterialManager.material 115
+MaterialManager.materialAttGroup 115
+MaterialManager.materialDefGroup 115
+MaterialManager.materialDamage 1
+
+MaterialManager.material 115
+MaterialManager.materialAttGroup 115
+MaterialManager.materialDefGroup 115
+MaterialManager.materialDamage 1
+
+MaterialManager.material 116
+MaterialManager.materialAttGroup 116
+MaterialManager.materialDefGroup 116
+MaterialManager.materialDamage 1
+
+MaterialManager.material 116
+MaterialManager.materialAttGroup 116
+MaterialManager.materialDefGroup 116
+MaterialManager.materialDamage 1
+
+MaterialManager.material 117
+MaterialManager.materialAttGroup 117
+MaterialManager.materialDefGroup 117
+MaterialManager.materialDamage 1
+
+MaterialManager.material 118
+MaterialManager.materialAttGroup 118
+MaterialManager.materialDefGroup 118
+MaterialManager.materialDamage 1
+
+MaterialManager.material 119
+MaterialManager.materialAttGroup 119
+MaterialManager.materialDefGroup 119
+MaterialManager.materialDamage 1
+
+MaterialManager.material 120
+MaterialManager.materialAttGroup 119
+MaterialManager.materialDefGroup 119
+MaterialManager.materialDamage 1
+
+MaterialManager.material 165
+MaterialManager.materialAttGroup 165
+MaterialManager.materialDefGroup 165
+MaterialManager.materialDamage 1
+
+MaterialManager.material 166
+MaterialManager.materialAttGroup 165
+MaterialManager.materialDefGroup 165
+MaterialManager.materialDamage 1
+
+MaterialManager.material 178
+MaterialManager.materialAttGroup 178
+MaterialManager.materialDefGroup 178
+MaterialManager.materialDamage 1
+
+rem *** Target Dummy ***
+MaterialManager.material 190
+MaterialManager.materialAttGroup 190
+MaterialManager.materialDefGroup 190
+MaterialManager.materialDamage 1
+
+MaterialManager.material 192
+MaterialManager.materialAttGroup 192
+MaterialManager.materialDefGroup 192
+MaterialManager.materialDamage 1
+
+MaterialManager.material 193
+MaterialManager.materialAttGroup 193
+MaterialManager.materialDefGroup 193
+MaterialManager.materialDamage 1
+
+MaterialManager.material 195
+MaterialManager.materialAttGroup 195
+MaterialManager.materialDefGroup 195
+MaterialManager.materialDamage 0
+
+
+rem *********************************
+rem ***	 	SPLASH DAMAGE	*****
+rem *********************************
+
+MaterialManager.material 199
+MaterialManager.materialAttGroup 199
+MaterialManager.materialDefGroup 199
+MaterialManager.materialDamage 10
+
+rem *** RPG ***
+MaterialManager.material 200
+MaterialManager.materialAttGroup 200
+MaterialManager.materialDefGroup 200
+MaterialManager.materialDamage 10
+
+MaterialManager.material 201
+MaterialManager.materialAttGroup 201
+MaterialManager.materialDefGroup 201
+MaterialManager.materialDamage 10
+
+MaterialManager.material 202
+MaterialManager.materialAttGroup 202
+MaterialManager.materialDefGroup 202
+MaterialManager.materialDamage 10
+
+MaterialManager.material 203
+MaterialManager.materialAttGroup 203
+MaterialManager.materialDefGroup 203
+MaterialManager.materialDamage 10
+
+MaterialManager.material 204
+MaterialManager.materialAttGroup 204
+MaterialManager.materialDefGroup 204
+MaterialManager.materialDamage 20
+
+MaterialManager.material 205
+MaterialManager.materialAttGroup 205
+MaterialManager.materialDefGroup 205
+MaterialManager.materialDamage 10
+
+MaterialManager.material 206
+MaterialManager.materialAttGroup 206
+MaterialManager.materialDefGroup 206
+MaterialManager.materialDamage 10
+
+MaterialManager.material 207
+MaterialManager.materialAttGroup 207
+MaterialManager.materialDefGroup 207
+MaterialManager.materialDamage 4
+
+MaterialManager.material 208
+MaterialManager.materialAttGroup 208
+MaterialManager.materialDefGroup 208
+MaterialManager.materialDamage 8
+
+MaterialManager.material 209
+MaterialManager.materialAttGroup 209
+MaterialManager.materialDefGroup 209
+MaterialManager.materialDamage 8
+
+
+
+
+rem *********************************
+rem ***	 	HAND GUNS	*****
+rem *********************************
+
+rem *********** Knives **************
+MaterialManager.material 210
+MaterialManager.materialAttGroup 210
+MaterialManager.materialDefGroup 210
+MaterialManager.materialDamage 4
+
+MaterialManager.material 211
+MaterialManager.materialAttGroup 211
+MaterialManager.materialDefGroup 211
+MaterialManager.materialDamage 4
+
+rem *********** Shovels **************
+MaterialManager.material 212
+MaterialManager.materialAttGroup 212
+MaterialManager.materialDefGroup 212
+MaterialManager.materialDamage 4
+
+
+rem *********** Airplanes **************
+MaterialManager.material 213
+MaterialManager.materialAttGroup 213
+MaterialManager.materialDefGroup 213
+MaterialManager.materialDamage 8
+
+rem *********** Pistols **************
+MaterialManager.material 214
+MaterialManager.materialAttGroup 214
+MaterialManager.materialDefGroup 214
+MaterialManager.materialDamage 5
+
+MaterialManager.material 215
+MaterialManager.materialAttGroup 215
+MaterialManager.materialDefGroup 215
+MaterialManager.materialDamage 5
+
+rem *********** SMG **************
+MaterialManager.material 216
+MaterialManager.materialAttGroup 216
+MaterialManager.materialDefGroup 216
+MaterialManager.materialDamage 5
+
+MaterialManager.material 217
+MaterialManager.materialAttGroup 217
+MaterialManager.materialDefGroup 217
+MaterialManager.materialDamage 5
+
+rem *********** Rifle **************
+MaterialManager.material 218
+MaterialManager.materialAttGroup 218
+MaterialManager.materialDefGroup 218
+MaterialManager.materialDamage 5
+
+MaterialManager.material 219
+MaterialManager.materialAttGroup 219
+MaterialManager.materialDefGroup 219
+MaterialManager.materialDamage 5
+
+rem *********** Auto Rifles **************
+MaterialManager.material 220
+MaterialManager.materialAttGroup 220
+MaterialManager.materialDefGroup 220
+MaterialManager.materialDamage 5
+
+MaterialManager.material 221
+MaterialManager.materialAttGroup 221
+MaterialManager.materialDefGroup 221
+MaterialManager.materialDamage 5
+
+rem *********** Assault Rifles **************
+MaterialManager.material 222
+MaterialManager.materialAttGroup 222
+MaterialManager.materialDefGroup 222
+MaterialManager.materialDamage 9
+
+MaterialManager.material 223
+MaterialManager.materialAttGroup 223
+MaterialManager.materialDefGroup 223
+MaterialManager.materialDamage 7
+
+rem *********** Machine Guns **************
+MaterialManager.material 224
+MaterialManager.materialAttGroup 224
+MaterialManager.materialDefGroup 224
+MaterialManager.materialDamage 7
+
+MaterialManager.material 225
+MaterialManager.materialAttGroup 225
+MaterialManager.materialDefGroup 225
+MaterialManager.materialDamage 5
+
+rem *********** Bazookas **************
+MaterialManager.material 226
+MaterialManager.materialAttGroup 226
+MaterialManager.materialDefGroup 226
+MaterialManager.materialDamage 10
+
+MaterialManager.material 227
+MaterialManager.materialAttGroup 227
+MaterialManager.materialDefGroup 227
+MaterialManager.materialDamage 10
+
+rem *********** AA guns **************
+MaterialManager.material 228
+MaterialManager.materialAttGroup 228
+MaterialManager.materialDefGroup 228
+MaterialManager.materialDamage 5
+
+MaterialManager.material 229
+MaterialManager.materialAttGroup 229
+MaterialManager.materialDefGroup 229
+MaterialManager.materialDamage 3
+
+rem *********************************
+rem ***	 	VEHICLE GUNS	*****
+rem *********************************
+
+MaterialManager.material 230
+MaterialManager.materialAttGroup 230
+MaterialManager.materialDefGroup 230
+MaterialManager.materialDamage 0
+
+MaterialManager.material 231
+MaterialManager.materialAttGroup 231
+MaterialManager.materialDefGroup 231
+MaterialManager.materialDamage 10
+
+MaterialManager.material 232
+MaterialManager.materialAttGroup 232
+MaterialManager.materialDefGroup 232
+MaterialManager.materialDamage 30
+
+MaterialManager.material 233
+MaterialManager.materialAttGroup 233
+MaterialManager.materialDefGroup 233
+MaterialManager.materialDamage 10
+
+MaterialManager.material 234
+MaterialManager.materialAttGroup 234
+MaterialManager.materialDefGroup 234
+MaterialManager.materialDamage 3
+
+MaterialManager.material 235
+MaterialManager.materialAttGroup 235
+MaterialManager.materialDefGroup 235
+MaterialManager.materialDamage 3
+
+REM **** ALLIED LIGHT TANK ********
+MaterialManager.material 236
+MaterialManager.materialAttGroup 236
+MaterialManager.materialDefGroup 236
+MaterialManager.materialDamage 10
+
+REM **** AXIS LIGHT TANK ********
+MaterialManager.material 237
+MaterialManager.materialAttGroup 237
+MaterialManager.materialDefGroup 237
+MaterialManager.materialDamage 10
+
+REM **** ALLIED HEAVY TANK ********
+MaterialManager.material 238
+MaterialManager.materialAttGroup 238
+MaterialManager.materialDefGroup 238
+MaterialManager.materialDamage 13
+
+REM **** AXIS HEAVY TANK ********
+MaterialManager.material 239
+MaterialManager.materialAttGroup 239
+MaterialManager.materialDefGroup 239
+MaterialManager.materialDamage 11
+
+MaterialManager.material 240
+MaterialManager.materialAttGroup 240
+MaterialManager.materialDefGroup 240
+MaterialManager.materialDamage 7
+
+MaterialManager.material 241
+MaterialManager.materialAttGroup 241
+MaterialManager.materialDefGroup 241
+MaterialManager.materialDamage 10
+
+MaterialManager.material 242
+MaterialManager.materialAttGroup 242
+MaterialManager.materialDefGroup 242
+MaterialManager.materialDamage 10
+
+MaterialManager.material 243
+MaterialManager.materialAttGroup 243
+MaterialManager.materialDefGroup 243
+MaterialManager.materialDamage 10
+
+MaterialManager.material 244
+MaterialManager.materialAttGroup 244
+MaterialManager.materialDefGroup 244
+MaterialManager.materialDamage 10
+
+MaterialManager.material 245
+MaterialManager.materialAttGroup 245
+MaterialManager.materialDefGroup 245
+MaterialManager.materialDamage 10
+
+MaterialManager.material 246
+MaterialManager.materialAttGroup 246
+MaterialManager.materialDefGroup 246
+MaterialManager.materialDamage 10
+
+MaterialManager.material 247
+MaterialManager.materialAttGroup 247
+MaterialManager.materialDefGroup 247
+MaterialManager.materialDamage 10
+
+MaterialManager.material 248
+MaterialManager.materialAttGroup 248
+MaterialManager.materialDefGroup 248
+MaterialManager.materialDamage 10
+
+MaterialManager.material 249
+MaterialManager.materialAttGroup 249
+MaterialManager.materialDefGroup 249
+MaterialManager.materialDamage 10
+
+rem *********************************
+rem ***	 	NAVAL GUNS	*****
+rem *********************************
+
+MaterialManager.material 250
+MaterialManager.materialAttGroup 250
+MaterialManager.materialDefGroup 250
+MaterialManager.materialDamage 20
+
+MaterialManager.material 251
+MaterialManager.materialAttGroup 251
+MaterialManager.materialDefGroup 251
+MaterialManager.materialDamage 10
+
+MaterialManager.material 252
+MaterialManager.materialAttGroup 252
+MaterialManager.materialDefGroup 252
+MaterialManager.materialDamage 10
+
+MaterialManager.material 253
+MaterialManager.materialAttGroup 253
+MaterialManager.materialDefGroup 253
+MaterialManager.materialDamage 10
+
+MaterialManager.material 254
+MaterialManager.materialAttGroup 254
+MaterialManager.materialDefGroup 254
+MaterialManager.materialDamage 10
+
+MaterialManager.material 255
+MaterialManager.materialAttGroup 255
+MaterialManager.materialDefGroup 255
+MaterialManager.materialDamage 10
+
+rem *********************************
+rem ***	 	New WEAPONS	*****
+rem *********************************
+
+rem *** 	DP		****
+
+MaterialManager.material 256
+MaterialManager.materialAttGroup 256
+MaterialManager.materialDefGroup 256
+MaterialManager.materialDamage 5
+
+
+rem *** 	Bayonet		****
+
+MaterialManager.material 257
+MaterialManager.materialAttGroup 257
+MaterialManager.materialDefGroup 257
+MaterialManager.materialDamage 12
