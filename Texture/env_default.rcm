@@ -1,0 +1,8 @@
+[CubeMap]
+PositiveX = texture\env_default_02.dds
+NegativeX = texture\env_default_04.dds
+PositiveY = texture\env_default_05.dds
+NegativeY = texture\env_default_06.dds
+PositiveZ = texture\env_default_01.dds
+NegativeZ = texture\env_default_03.dds
+

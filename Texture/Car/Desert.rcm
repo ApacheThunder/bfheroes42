@@ -1,0 +1,8 @@
+[CubeMap]
+PositiveX = texture/car/DesertRight.tga
+NegativeX = texture/car/DesertLeft.tga
+PositiveY = texture/car/DesertUp.tga
+NegativeY = texture/car/DesertDown.tga
+PositiveZ = texture/car/DesertFront.tga
+NegativeZ = texture/car/DesertBack.tga
+

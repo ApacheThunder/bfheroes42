@@ -1,0 +1,8 @@
+[CubeMap]
+PositiveX = texture/car/EnvReflector_Right.tga
+NegativeX = texture/car/EnvReflector_Left.tga
+PositiveY = texture/car/EnvReflector_Up.tga
+NegativeY = texture/car/EnvReflector_Down.tga
+PositiveZ = texture/car/EnvReflector_Front.tga
+NegativeZ = texture/car/EnvReflector_Back.tga
+
