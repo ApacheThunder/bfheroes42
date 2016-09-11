@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh Decal_Metal_Laser_m1
+GeometryTemplate.file HandWeapons/Decal_Metal_Laser_m1
+
+GeometryTemplate.create StandardMesh Decal_LaserImpact_m1
+GeometryTemplate.file HandWeapons/Decal_LaserImpact_m1

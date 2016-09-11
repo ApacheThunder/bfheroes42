@@ -1,0 +1,12 @@
+rem *** AI Template. (Prevents bots from falling through meshes ***
+
+aiTemplatePlugIn.create Physical ShipwreckPhysical
+
+aiTemplate.create ShipwreckAI
+aiTemplate.addType ITStructure
+aiTemplate.addType ITScaleRender
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn ShipwreckPhysical

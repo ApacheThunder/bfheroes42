@@ -1,0 +1,5 @@
+NetworkableInfo.createNewInfo NAMiniTankInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NAMiniTank_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear

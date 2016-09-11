@@ -1,0 +1,16 @@
+ObjectTemplate.create SimpleObject buoy_01
+ObjectTemplate.geometry buoy_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject buoy_01_night
+ObjectTemplate.geometry buoy_01_night_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject buoy_01_glow
+ObjectTemplate.geometry buoy_01_glow_m1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

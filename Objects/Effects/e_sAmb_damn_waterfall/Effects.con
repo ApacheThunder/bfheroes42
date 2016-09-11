@@ -1,0 +1,155 @@
+rem
+rem *** ambstat_damn_waterfall ***
+rem
+
+ObjectTemplate.create Bundle ambstat_damn_waterfall
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_sAmb_damn_waterfall
+
+ObjectTemplate.create EffectBundle e_sAmb_damn_waterfall
+ObjectTemplate.saveInSeparateFile 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate em_sAmb_damn_waterfall_detailedSpray
+ObjectTemplate.setPosition 0/-0.692776/0.699383
+ObjectTemplate.addTemplate em_sAmb_damn_waterfall_spray
+ObjectTemplate.setPosition 0/-0.619239/0.433187
+ObjectTemplate.addTemplate em_sAmb_damn_waterfall_fallingsmoke
+ObjectTemplate.addTemplate em_sAmb_damn_waterfall_mp_waterfall
+ObjectTemplate.setPosition 0/-0.19/1.148
+ObjectTemplate.addTemplate em_sAmb_damn_waterfall_mp_waterfall2
+ObjectTemplate.setPosition 0/-0.19/1
+rem ----------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 50/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -50/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/50/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/-50/0
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.setStartOnEffects 0
+ObjectTemplate.setStopOnEffects 0
+
+
+ObjectTemplate.create Emitter em_sAmb_damn_waterfall_detailedSpray
+ObjectTemplate.template Fx_sAmb_damn_waterfall_detailedSpray
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 768
+ObjectTemplate.timeToLive CRD_UNIFORM/0.5/1/0
+ObjectTemplate.intensity CRD_NONE/5/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.1/-0.1/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/2/-2/0
+ObjectTemplate.positionalSpeedInDoF CRD_NONE/3/0/0
+
+ObjectTemplate.create Emitter em_sAmb_damn_waterfall_spray
+ObjectTemplate.template Fx_sAmb_damn_waterfall_Spray
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 768
+ObjectTemplate.timeToLive CRD_UNIFORM/0.5/1/0
+ObjectTemplate.intensity CRD_NONE/5/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.1/-0.1/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/2/-2/0
+ObjectTemplate.positionalSpeedInDoF CRD_NONE/3/0/0
+
+ObjectTemplate.create Emitter em_sAmb_damn_waterfall_fallingsmoke
+ObjectTemplate.template Fx_sAmb_damn_waterfall_fallingsmoke
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 768
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.intensity CRD_NONE/4/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.1/-0.1/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/2/-2/0
+ObjectTemplate.positionalSpeedInDoF CRD_NONE/4/0/0
+
+ObjectTemplate.create Emitter em_sAmb_damn_waterfall_mp_waterfall
+ObjectTemplate.template Fx_sAmb_damn_waterfall_mp_waterfall
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 1024
+ObjectTemplate.noPhysics 0
+ObjectTemplate.addChild 1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.intensity CRD_NONE/3/0/0
+ObjectTemplate.relativePositionInDoF CRD_UNIFORM/0/0.2/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/0.1/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/0.1/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/2/2.5/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/-0.4/0/0
+
+ObjectTemplate.create Emitter em_sAmb_damn_waterfall_mp_waterfall2
+ObjectTemplate.template Fx_sAmb_damn_waterfall_mp_waterfall
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 1024
+ObjectTemplate.noPhysics 0
+ObjectTemplate.addChild 1
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDoF CRD_UNIFORM/0/0.1/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/0.1/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/0.1/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/1/2/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/-0.4/0/0
+
+
+
+rem
+rem *** Begin Sprites/Particles ***
+rem
+ObjectTemplate.create SpriteParticle Fx_sAmb_damn_waterfall_detailedSpray
+ObjectTemplate.texture waterDetails
+ObjectTemplate.timeToLive CRD_UNIFORM/2/3/0
+ObjectTemplate.size CRD_NONE/2/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.7/0/0
+ObjectTemplate.sizeOverTime 0/0|50/0.5|75/0.73|100/1
+ObjectTemplate.drag CRD_NONE/0.12/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/128|25/255/255/255/255|50/255/255/255/255|75/255/255/255/100|100/255/255/255/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/-0.15/-0.25/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/1/0/0
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_damn_waterfall_Spray
+ObjectTemplate.texture waterSpray
+ObjectTemplate.timeToLive CRD_UNIFORM/2/3/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.7/0/0
+ObjectTemplate.sizeOverTime 0/0|50/0.5|75/0.73|100/1
+ObjectTemplate.drag CRD_NONE/0/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/128|25/255/255/255/255|50/255/255/255/255|75/255/255/255/100|100/255/255/255/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/-0.15/-0.25/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/1/0/0
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_damn_waterfall_fallingsmoke
+ObjectTemplate.texture Anim_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/1.5/2.5/0
+ObjectTemplate.size CRD_NONE/3/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/0|50/0.5|75/0.73|100/1
+ObjectTemplate.drag CRD_NONE/0.1/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/128|25/255/255/255/255|50/255/255/255/255|75/255/255/255/100|100/255/255/255/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/-0.15/-0.25/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/1/0/0
+
+ObjectTemplate.create Particle Fx_sAmb_damn_waterfall_mp_waterfall
+ObjectTemplate.geometry mp_waterfall_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/5/6/0
+ObjectTemplate.gravityModifier CRD_NONE/0.35/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/0|25/1|75/1|100/0
+ObjectTemplate.sizeOverTime 0/1|50/1|100/1.5

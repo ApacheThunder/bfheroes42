@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject web
+ObjectTemplate.geometry web_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.cullRadiusScale 1

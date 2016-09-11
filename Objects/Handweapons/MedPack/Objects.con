@@ -1,0 +1,42 @@
+ObjectTemplate.create HandFireArms MedPack
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript Sounds/MedPack.ssc
+ObjectTemplate.itemIndex 2
+ObjectTemplate.magType 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magSize 1800
+ObjectTemplate.GUIIndex 9
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHudAmmoType ATIconAndHeatBar
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/soundwave.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.aitemplate MedKitAI
+ObjectTemplate.soldierCameraPosition 0/-0.05/0.3
+rem *** Recover time
+ObjectTemplate.reloadtime 1
+rem *** Use medpack time
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.autoReload 0
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/MedPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate MedPackLod
+
+
+rem *** Objects ***
+ObjectTemplate.create SimpleObject MedPackSimple
+ObjectTemplate.geometry Shad_MedPack
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle MedPackComplex
+ObjectTemplate.geometry MedPack
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/MedPack.ske
+
+ObjectTemplate.create LodObject MedPackLod
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate MedPackComplex
+ObjectTemplate.addTemplate MedPackSimple

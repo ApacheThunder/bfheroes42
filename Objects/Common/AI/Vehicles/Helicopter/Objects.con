@@ -1,0 +1,168 @@
+rem ---------------------------------------------------------------------
+rem Helicopter
+rem ---------------------------------------------------------------------
+
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover HelicopterCover
+aiTemplatePlugIn.coverValue 2.0
+
+aiTemplatePlugIn.create Physical HelicopterPhysical
+aiTemplatePlugIn.setStrType Air
+
+aiTemplatePlugIn.create Unit HelicopterUnit
+aiTemplatePlugIn.equipmentType 1
+aiTemplatePlugIn.setStrategicStrength 0 5
+aiTemplatePlugIn.setStrategicStrength 1 3
+aiTemplatePlugIn.setSelectKey PIMenuSelect1
+
+aiTemplatePlugIn.create ControlInfo3d HelicopterCtrl
+aiTemplatePlugIn.driveTurnControl     PIYaw
+aiTemplatePlugIn.driveThrottleControl PIThrottle
+aiTemplatePlugIn.aimHorizontalControl PIYaw
+aiTemplatePlugIn.aimVerticalControl   PIPitch
+aiTemplatePlugIn.driveRollControl     PIRoll
+aiTemplatePlugIn.drivePitchControl    PIPitch
+aiTemplatePlugIn.aimRollControl       PIRoll
+aiTemplatePlugIn.aimThrottleControl   PIThrottle
+aiTemplatePlugIn.throttleSensitivity -3.0
+aiTemplatePlugIn.pitchSensitivity    -1.0
+aiTemplatePlugIn.rollSensitivity     -1.0
+aiTemplatePlugIn.yawSensitivity       1.0
+aiTemplatePlugIn.throttleLookAhead    1.0
+aiTemplatePlugIn.pitchLookAhead       1.0
+aiTemplatePlugIn.rollLookAhead        1.0
+aiTemplatePlugIn.yawLookAhead         1.0
+aiTemplatePlugIn.throttleScale        1.0
+aiTemplatePlugIn.pitchScale           0.1
+aiTemplatePlugIn.rollScale            3.0
+aiTemplatePlugIn.yawScale             2.0
+aiTemplatePlugIn.maxRollAngle         0.001
+aiTemplatePlugIn.maxClimbAngle       -0.35
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -30/-25/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 30/25/0
+
+aiTemplatePlugIn.create Mobile HelicopterMobile
+aiTemplatePlugIn.vehicleNumber 1
+aiTemplatePlugIn.maxSpeed 20
+aiTemplatePlugIn.turnRadius 5.0
+
+aiTemplatePlugIn.create Armament HelicopterArms
+aiTemplatePlugIn.setIsAntiAircraft 1
+
+
+rem *** AITemplate ***
+aiTemplate.create Helicopter
+aiTemplate.addType ITUnit
+aiTemplate.addType ITMobile
+aiTemplate.addType ITAir
+aiTemplate.degeneration 5
+aiTemplate.allowedTimeDiff 0.5
+aiTemplate.basicTemp 18
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn HelicopterUnit
+aiTemplate.addPlugIn HelicopterCover
+aiTemplate.addPlugIn HelicopterPhysical
+aiTemplate.addPlugIn HelicopterCtrl
+aiTemplate.addPlugIn HelicopterMobile
+aiTemplate.addPlugIn HelicopterArms
+
+aiTemplatePlugIn.create Unit HelicopterPassenger1Unit
+aiTemplatePlugIn.equipmentType 8
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 0
+aiTemplatePlugIn.setSelectKey PIMenuSelect2
+
+aiTemplatePlugIn.create ControlInfo HelicopterPassenger1Ctrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+aiTemplatePlugIn.pitchScale                 5.0
+aiTemplatePlugIn.rollScale                  5.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -80/-40/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 80/10/0
+
+
+rem *** AITemplate ***
+aiTemplate.create HelicopterPassenger1
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITAir
+aiTemplate.addType ITObstructedView
+aiTemplate.degeneration 20
+aiTemplate.allowedTimeDiff 1
+aiTemplate.basicTemp 4
+aiTemplate.commonKnowledge 0
+aiTemplate.secondary 1
+aiTemplate.addPlugIn HelicopterPassenger1Unit
+aiTemplate.addPlugIn HelicopterPassenger1Ctrl
+
+
+
+aiTemplatePlugIn.create Unit HelicopterPassenger2Unit
+aiTemplatePlugIn.equipmentType 8
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 0
+aiTemplatePlugIn.setSelectKey PIMenuSelect3
+
+aiTemplatePlugIn.create ControlInfo HelicopterPassenger2Ctrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+aiTemplatePlugIn.pitchScale                 5.0
+aiTemplatePlugIn.rollScale                  5.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -80/-40/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 80/10/0
+
+
+rem *** AITemplate ***
+aiTemplate.create HelicopterPassenger2
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITAir
+aiTemplate.addType ITObstructedView
+aiTemplate.degeneration 20
+aiTemplate.allowedTimeDiff 1
+aiTemplate.basicTemp 4
+aiTemplate.commonKnowledge 0
+aiTemplate.secondary 1
+aiTemplate.addPlugIn HelicopterPassenger2Unit
+aiTemplate.addPlugIn HelicopterPassenger2Ctrl
+

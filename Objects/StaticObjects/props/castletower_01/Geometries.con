@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh castletower_01_m1
+GeometryTemplate.file castletower_01_m1
+
+GeometryTemplate.create StandardMesh castletower_glow_01_m1
+GeometryTemplate.file castletower_glow_01_m1

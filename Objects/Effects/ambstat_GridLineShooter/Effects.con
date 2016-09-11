@@ -1,0 +1,137 @@
+rem
+rem *** ambstat_GridLineShooter ***
+rem
+
+ObjectTemplate.create Bundle ambstat_GridLineShooter
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.hasCollisionPhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 2048/0/2048
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/2048/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -2048/0/-2048
+rem -------------------------------------
+ObjectTemplate.addTemplate e_GridLineShooter
+
+ObjectTemplate.create Bundle ambstat_OffGridShooter
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.hasCollisionPhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 2048/0/2048
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/2048/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -2048/0/-2048
+rem -------------------------------------
+ObjectTemplate.addTemplate e_OffGridShooter
+
+ObjectTemplate.create Bundle ambstat_OffGridShooter2
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.hasCollisionPhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 2048/0/2048
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/2048/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -2048/0/-2048
+rem -------------------------------------
+ObjectTemplate.addTemplate e_OffGridShooter2
+ObjectTemplate.addTemplate e_OffGridShooter2
+ObjectTemplate.setPosition 0/2048/0
+ObjectTemplate.setRotation 0/90/0
+
+
+
+ObjectTemplate.create EffectBundle e_GridLineShooter
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.hasCollisionPhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate em_GridLineShooter
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_OffGridShooter
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.hasCollisionPhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate em_OffGridShooter
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_OffGridShooter2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.hasCollisionPhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate em_OffGridShooter2
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+ObjectTemplate.create Emitter em_GridLineShooter
+ObjectTemplate.template Fx_GridLineShooter
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.lodDistance 4096
+ObjectTemplate.delay CRD_UNIFORM/30/60/0
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/15/20/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_OffGridShooter
+ObjectTemplate.template Fx_GridLineShooter2
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.lodDistance 4096
+ObjectTemplate.delay CRD_UNIFORM/10/25/0
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/15/20/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/25/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_OffGridShooter2
+ObjectTemplate.template Fx_GridLineShooter3
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.lodDistance 4096
+ObjectTemplate.delay CRD_UNIFORM/20/30/0
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/20/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/20/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.5/20/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+
+ObjectTemplate.create Particle Fx_GridLineShooter
+ObjectTemplate.geometry GridParticle2_m1
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.timeToLive CRD_NONE/120/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+
+ObjectTemplate.create Particle Fx_GridLineShooter2
+ObjectTemplate.geometry GridParticle_m1
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.timeToLive CRD_NONE/125/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.sizeModifier 2/2/2
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+
+ObjectTemplate.create SpriteParticle Fx_GridLineShooter3
+ObjectTemplate.texture FLARE0
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.timeToLive CRD_NONE/360/0/0
+ObjectTemplate.size CRD_NONE/3/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0

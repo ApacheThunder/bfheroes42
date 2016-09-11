@@ -1,0 +1,14 @@
+GeometryTemplate.create standardMesh explosivetrap_bri_m1
+GeometryTemplate.file Abilities/explosivetrap_bri_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create standardMesh Shad_explosivetrap_bri_m1
+GeometryTemplate.file Abilities/Shad_explosivetrap_bri_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create standardMesh Shad_explosivetrap_bri_L1
+GeometryTemplate.file Abilities/Shad_explosivetrap_bri_L1
+GeometryTemplate.hasDynamicShadow 1

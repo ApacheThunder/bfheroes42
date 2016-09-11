@@ -1,0 +1,31 @@
+rem *** e_sold_swim ***
+ObjectTemplate.create EffectBundle e_sold_swim
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WaterTouchSoldier
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.minDistanceUnderwaterSurface 0.1
+ObjectTemplate.maxDistanceUnderwaterSurface 0.25
+ObjectTemplate.addWorkOnMaterial 1
+
+
+rem *** Em_waterTouchVecRing ***
+ObjectTemplate.create Emitter Em_waterTouchSoldier
+ObjectTemplate.template Fx_waterTouchVecRing
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.25/0/0
+ObjectTemplate.showInThirdPerson 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.looping 1
+
+ObjectTemplate.create Particle Fx_waterTouchSoldierVecRing
+ObjectTemplate.geometry watermesh_ring_m1
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.size CRD_UNIFORM/0.15/0.7/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 0.1/0.1/0.1
+ObjectTemplate.sizeOverTime 0/0.1|100/1
+

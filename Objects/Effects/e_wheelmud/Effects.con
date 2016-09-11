@@ -1,0 +1,46 @@
+
+
+rem *** e_wheelmud ***
+ObjectTemplate.create EffectBundle e_wheelmud
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addWorkOnMaterial 6
+ObjectTemplate.addTemplate Em_wheelmud
+
+
+rem *** Em_wheelmud ***
+ObjectTemplate.create Emitter Em_wheelmud
+ObjectTemplate.inertiaModifier 1.4013e-045/1.4013e-045/1.4013e-045
+ObjectTemplate.template Fx_wheelmud
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.intensity CRD_NONE/80/90/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.relativePositionInUp CRD_NONE/0.1/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.7/1/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.25/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_wheelmud ***
+ObjectTemplate.create SpriteParticle Fx_wheelmud
+ObjectTemplate.timeToLive CRD_UNIFORM/1/0.5/0
+ObjectTemplate.size CRD_UNIFORM/0.4/1/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/1/0.7/0
+ObjectTemplate.sizeOverTime 0/0.110004|20/0.410001|44/0.629994|100/0.730003
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_mud_mb_01
+ObjectTemplate.initRotation CRD_NONE/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|61/152/150/139/124|68/141/138/126/101|82/118/114/100/57|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1

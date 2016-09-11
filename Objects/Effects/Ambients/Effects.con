@@ -1,0 +1,283 @@
+ObjectTemplate.create ObjectSpawner e_dAmb_bats01
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_bats01
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 18
+ObjectTemplate.maxSpawnDelay 39
+
+ObjectTemplate.create SimpleObject amb_bats01
+ObjectTemplate.loadSoundScript Sounds/bats01.ssc
+ObjectTemplate.setNetworkableInfo AmbientBats_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_bats02
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_bats02
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 30
+
+ObjectTemplate.create SimpleObject amb_bats02
+ObjectTemplate.loadSoundScript Sounds/bats02.ssc
+ObjectTemplate.setNetworkableInfo AmbientBats_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_bats03
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_bats03
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 12
+ObjectTemplate.maxSpawnDelay 25
+
+ObjectTemplate.create SimpleObject amb_bats03
+ObjectTemplate.loadSoundScript Sounds/bats03.ssc
+ObjectTemplate.setNetworkableInfo AmbientBats_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_bats04
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_bats04
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 20
+ObjectTemplate.maxSpawnDelay 40
+
+ObjectTemplate.create SimpleObject amb_bats04
+ObjectTemplate.loadSoundScript Sounds/bats04.ssc
+ObjectTemplate.setNetworkableInfo AmbientBats_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_bats05
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_bats05
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 14
+ObjectTemplate.maxSpawnDelay 25
+
+ObjectTemplate.create SimpleObject amb_bats05
+ObjectTemplate.loadSoundScript Sounds/bats05.ssc
+ObjectTemplate.setNetworkableInfo AmbientBats_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_bats06
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_bats06
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 11
+ObjectTemplate.maxSpawnDelay 29
+
+ObjectTemplate.create SimpleObject amb_bats06
+ObjectTemplate.loadSoundScript Sounds/bats06.ssc
+ObjectTemplate.setNetworkableInfo AmbientBats_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+beginrem
+ObjectTemplate.create ObjectSpawner e_dAmb_bird
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_bird
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 30
+
+ObjectTemplate.create SimpleObject amb_bird
+ObjectTemplate.loadSoundScript Sounds/birds.ssc
+ObjectTemplate.setNetworkableInfo Ambient_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+endrem
+
+ObjectTemplate.create ObjectSpawner e_dAmb_Owl01
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_Owl01
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 35
+
+ObjectTemplate.create SimpleObject amb_Owl01
+ObjectTemplate.loadSoundScript Sounds/Owl01.ssc
+ObjectTemplate.setNetworkableInfo AmbientOwl_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_Owl02
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_Owl02
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 13
+ObjectTemplate.maxSpawnDelay 38
+
+ObjectTemplate.create SimpleObject amb_Owl02
+ObjectTemplate.loadSoundScript Sounds/Owl02.ssc
+ObjectTemplate.setNetworkableInfo AmbientOwl_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_Owl03
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_Owl03
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 20
+ObjectTemplate.maxSpawnDelay 30
+
+ObjectTemplate.create SimpleObject amb_Owl03
+ObjectTemplate.loadSoundScript Sounds/Owl03.ssc
+ObjectTemplate.setNetworkableInfo AmbientOwl_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_Owl04
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_Owl04
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 22
+ObjectTemplate.maxSpawnDelay 40
+
+ObjectTemplate.create SimpleObject amb_Owl04
+ObjectTemplate.loadSoundScript Sounds/Owl04.ssc
+ObjectTemplate.setNetworkableInfo AmbientOwl_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_Owl05
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_Owl05
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 21
+ObjectTemplate.maxSpawnDelay 31
+
+ObjectTemplate.create SimpleObject amb_Owl05
+ObjectTemplate.loadSoundScript Sounds/Owl05.ssc
+ObjectTemplate.setNetworkableInfo AmbientOwl_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_Owl06
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_Owl06
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 14
+ObjectTemplate.maxSpawnDelay 31
+
+ObjectTemplate.create SimpleObject amb_Owl06
+ObjectTemplate.loadSoundScript Sounds/Owl01.ssc
+ObjectTemplate.setNetworkableInfo AmbientOwl_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create ObjectSpawner e_dAmb_wolf
+ObjectTemplate.saveInSeparateFile 1
+rem -----------------------------------------
+ObjectTemplate.setObjectTemplate 0 amb_wolf
+rem -----------------------------------------
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.minSpawnDelay 17
+ObjectTemplate.maxSpawnDelay 36
+
+ObjectTemplate.create SimpleObject amb_wolf
+ObjectTemplate.loadSoundScript Sounds/wolf.ssc
+ObjectTemplate.setNetworkableInfo AmbientWolf_Info
+rem --------------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.destroyed 1
+
+
+ObjectTemplate.create AreaObject e_sAmb_Fountain
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 15
+ObjectTemplate.loadSoundScript Sounds/Fountain.ssc
+ObjectTemplate.addLinePoint 0/1
+ObjectTemplate.addLinePoint 0/-1
+ObjectTemplate.addLinePoint 1/0
+ObjectTemplate.addLinePoint -1/0
+
+ObjectTemplate.create AreaObject ambStat_Sound_fields
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 30
+ObjectTemplate.loadSoundScript Sounds/Fields.ssc
+ObjectTemplate.addLinePoint 0/1
+ObjectTemplate.addLinePoint 0/-1
+ObjectTemplate.addLinePoint 1/0
+ObjectTemplate.addLinePoint -1/0
+
+ObjectTemplate.create AreaObject ambStat_Sound_Owls
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 20
+ObjectTemplate.loadSoundScript Sounds/ambstatOwls.ssc
+ObjectTemplate.addLinePoint 0/1
+ObjectTemplate.addLinePoint 0/-1
+ObjectTemplate.addLinePoint 1/0
+ObjectTemplate.addLinePoint -1/0
+
+ObjectTemplate.create AreaObject ambStat_Sound_Creek
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 20
+ObjectTemplate.loadSoundScript Sounds/ambstatCreek.ssc
+ObjectTemplate.addLinePoint 0/1
+ObjectTemplate.addLinePoint 0/-1
+ObjectTemplate.addLinePoint 1/0
+ObjectTemplate.addLinePoint -1/0
+
+ObjectTemplate.create AreaObject ambstat_windmill
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 25
+ObjectTemplate.loadSoundScript Sounds/ambstatWindmill.ssc
+ObjectTemplate.addLinePoint 0/1
+ObjectTemplate.addLinePoint 0/-1
+ObjectTemplate.addLinePoint 1/0
+ObjectTemplate.addLinePoint -1/0

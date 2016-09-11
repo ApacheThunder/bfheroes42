@@ -1,0 +1,8 @@
+ObjectTemplate.create Bundle space_light_03
+ObjectTemplate.geometry space_light_03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_glow
+ObjectTemplate.setPosition 0/2.6/0
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

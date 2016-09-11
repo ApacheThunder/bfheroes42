@@ -1,0 +1,32 @@
+rem *** Royals ***
+
+rem *** bri_c_waistback001_arsroll001 ***
+ObjectTemplate.create SimpleObject bri_WaistItem1
+ObjectTemplate.geometry bri_m_waistback001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** bri_c_waistright004_machete001 ***
+ObjectTemplate.create SimpleObject bri_WaistItem2
+ObjectTemplate.geometry bri_m_waistright004_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** bri_c_waistright006_knife001 ***
+ObjectTemplate.create SimpleObject bri_WaistItem3
+ObjectTemplate.geometry bri_n_waistright006_knife001_m1
+
+rem *** Nationals ***
+
+rem *** ger_m_waistback001_arsroll001 ***
+ObjectTemplate.create SimpleObject ger_WaistItem1
+ObjectTemplate.geometry ger_m_waistback001_arsroll001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** ger_m_waistback002_mine001 ***
+ObjectTemplate.create SimpleObject ger_WaistItem2
+ObjectTemplate.geometry ger_m_waistback002_mine001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** ger_m_waistleft007_largebag001 ***
+ObjectTemplate.create SimpleObject ger_WaistItem3
+ObjectTemplate.geometry ger_m_waistleft007_largebag001_m1
+ObjectTemplate.hasDynamicShadow 1

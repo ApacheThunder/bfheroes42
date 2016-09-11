@@ -1,0 +1,80 @@
+ObjectTemplate.create EffectBundle e_glow
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------
+ObjectTemplate.addTemplate Em_glow
+rem ------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/1024/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/-1024/0
+rem ------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter Em_glow
+ObjectTemplate.template Fx_glow
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create SpriteParticle Fx_glow
+ObjectTemplate.texture glow
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+
+ObjectTemplate.create EffectBundle e_glow2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------
+ObjectTemplate.addTemplate Em_glow2
+rem ------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/1024/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/-1024/0
+rem ------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter Em_glow2
+ObjectTemplate.template Fx_glow2
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create SpriteParticle Fx_glow2
+ObjectTemplate.texture glow2
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1

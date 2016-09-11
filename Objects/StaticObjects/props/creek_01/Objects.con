@@ -1,0 +1,21 @@
+ObjectTemplate.create Bundle creek_01
+ObjectTemplate.geometry Creek_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasPointPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/1024/0
+ObjectTemplate.physicsFrequency 0.1
+beginRem
+ObjectTemplate.damage 0
+ObjectTemplate.damageMod 0
+ObjectTemplate.drag 0
+ObjectTemplate.grip c_PGFNoGrip
+ObjectTemplate.material 2015
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+endRem
+
+ObjectTemplate.create SimpleObject creek_01_frozen
+ObjectTemplate.geometry creek_01_frozen_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5

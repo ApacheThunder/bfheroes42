@@ -1,0 +1,53 @@
+NetworkableInfo.createNewInfo TankFireArmInfo
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo PlaneFireArmInfo
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo HelicopterFireArmInfo
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo StationaryFireArmInfo
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo BoatFireArmInfo
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo SpringInfo
+NetworkableInfo.setIsUnique 1
+
+NetworkableInfo.createNewInfo RAstationary_mg_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NAstationary_mg_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo RAboat_stationary_mg_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NAboat_stationary_mg_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo RAboat_stationary_mg_GunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NAboat_stationary_mg_GunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo TankWaterEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo JeepWaterEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo RAStationaryMGTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NAStationaryMGTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo RAStationaryMGGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NAStationaryMGGunInfo
+NetworkableInfo.setPredictionMode PMLinear

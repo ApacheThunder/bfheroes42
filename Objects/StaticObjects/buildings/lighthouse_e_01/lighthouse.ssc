@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Lighthouse01.wav
+loop
+minDistance 10
+priority 1
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 25
+	param 1
+	param -1	
+endEffect

@@ -1,0 +1,92 @@
+Rem *** Main wheels not on track mesh to ensure track doesn't move as it isn't supposed to (due to no suspension system)
+rem *** Mobile physics turned off for the tracks to preven any movement other then texture animation. **
+
+rem *** MiniTank_Engine ***
+ObjectTemplate.create Engine MiniTank_Engine
+ObjectTemplate.setNetworkableInfo MiniTank_EngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/MiniTank_Engine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -----------Tracks-with-Dummy-Wheels---
+ObjectTemplate.addTemplate MiniTank_TrackL
+ObjectTemplate.setPosition -0.338/0.065/-0.072
+ObjectTemplate.addTemplate MiniTank_TrackR
+ObjectTemplate.setPosition 0.338/0.065/-0.072
+rem ---------Wheel-Bundles----------------
+ObjectTemplate.addTemplate MiniTank_WheelsL
+ObjectTemplate.setPosition -0.338/0.065/-0.072
+ObjectTemplate.addTemplate MiniTank_WheelsR
+ObjectTemplate.setPosition 0.338/0.065/-0.072
+rem --------------------------------------
+ObjectTemplate.setMinRotation -1/0/-1
+ObjectTemplate.setMaxRotation 1/0/1
+ObjectTemplate.setMaxSpeed 5/0/10
+ObjectTemplate.setAcceleration 5/0/10
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 5.8
+ObjectTemplate.setDifferential 1.2
+
+
+ObjectTemplate.create Spring MiniTank_MainWheel
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry MiniTank_Wheel_m1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 18
+ObjectTemplate.setDamping 4
+
+ObjectTemplate.create Spring MiniTank_DummyWheel
+ObjectTemplate.geometry MiniTank_Wheel_m1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+ObjectTemplate.create Spring MiniTank_MainWheelR
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry MiniTank_Wheel_m1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 18
+ObjectTemplate.setDamping 4
+
+ObjectTemplate.create Spring MiniTank_DummyWheelR
+ObjectTemplate.geometry MiniTank_Wheel_m1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+ObjectTemplate.create SimpleObject MiniTank_DummyWheelStatic
+ObjectTemplate.geometry MiniTank_Wheel_m1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 0
+
+ObjectTemplate.create Spring MiniTank_ArmWheel
+ObjectTemplate.geometry MiniTank_Wheel_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.createInvisible 1
+ObjectTemplate.setStrength 10
+ObjectTemplate.setDamping 6

@@ -1,0 +1,272 @@
+newPatch
+############
+### Main ###
+############
+
+load @ROOT/Sound/@RTD/veaLcRUN.wav
+loop
+minDistance 15
+priority 9
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.5
+	param 0.45
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 180
+	param 240
+	param 1
+	param -1	
+endEffect
+
+###########
+### 2nd ###
+###########
+
+load @ROOT/Sound/@RTD/Willyengine3.wav
+loop
+volume .75
+minDistance 5
+priority 9
+** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.2
+	param 0.3
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param .2
+	param .5
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 40
+	param 70
+	param 1
+	param -1	
+endEffect
+
+#############
+### HiRPM ###
+#############
+
+load @ROOT/Sound/@RTD/WillyHiRPM2.wav
+loop
+volume .9
+minDistance 5
+priority 7
+** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.24
+	param 0.32
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param .4
+	param 1
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 25
+	param 1
+	param -1	
+endEffect
+
+#####################
+### HiRPM Water R ###
+#####################
+
+load @ROOT/Sound/@RTD/lcvpwaterhi.wav
+loop
+minDistance 9
+relativePosition 2/2.5/6.8
+priority 4
+** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.81
+	param 0.11
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Speed
+	envelope Ramp
+	param 0
+	param 15
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 70
+	param 100
+	param 1
+	param -1	
+endEffect
+
+
+#####################
+### HiRPM Water L ###
+#####################
+
+load @ROOT/Sound/@RTD/lcvpwaterhi.wav
+loop
+minDistance 9
+relativePosition -2/2.5/6.8
+priority 4
+** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.82
+	param 0.14
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Speed
+	envelope Ramp
+	param 0
+	param 15
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 70
+	param 100
+	param 1
+	param -1	
+endEffect
+
+#####################
+### LoRPM Water R ###
+#####################
+
+
+load @ROOT/Sound/@RTD/lcvpwaterlow.wav
+loop
+volume .8
+minDistance 1.5
+relativePosition 1.4/2/3
+priority 4
+** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.7
+	param 0.5
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Speed
+	envelope Ramp
+	param 0
+	param 2
+	param 1
+	param -1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect
+
+#####################
+### LoRPM Water L ###
+#####################
+
+load @ROOT/Sound/@RTD/lcvpwaterlow.wav
+loop
+volume .8
+minDistance 1.5
+relativePosition -1.4/2/3
+priority 4
+** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.9
+	param 0.5
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param 0
+	param 2
+	param 1
+	param -1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 10
+	param 1
+	param -1	
+endEffect

@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject castledoor_01
+ObjectTemplate.geometry castledoor_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

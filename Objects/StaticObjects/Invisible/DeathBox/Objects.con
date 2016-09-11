@@ -1,0 +1,7 @@
+ObjectTemplate.create Obstacle DeathBox
+ObjectTemplate.geometry DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

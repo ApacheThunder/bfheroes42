@@ -1,0 +1,50 @@
+ObjectTemplate.create HandFireArms COM_BALL
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 6
+ObjectTemplate.projectileTemplate SoccerBall_Projectile
+ObjectTemplate.projectilePosition 0/0/2.5
+ObjectTemplate.projectileVisible 0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 2
+ObjectTemplate.roundOfFire 5
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/Icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/grenades_tnt.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 10
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.fireDelay 0.4
+ObjectTemplate.soldierCameraPosition 0.02/-0.03/0.25
+ObjectTemplate.cantSelectWhenNoAmmo 1
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.AmmoType	2
+ObjectTemplate.autoReload 1
+ObjectTemplate.hideDuringFireTime 0.2
+ObjectTemplate.fireInCameraDof 1
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate COMBALL_Lod
+
+ObjectTemplate.create SimpleObject COMBALLSimple
+ObjectTemplate.geometry handheld_football_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle COMBALLComplex
+ObjectTemplate.geometry handheld_football_m1
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create LodObject COMBALL_Lod
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------
+ObjectTemplate.addTemplate COMBALLComplex
+ObjectTemplate.addTemplate COMBALLSimple
+rem --------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

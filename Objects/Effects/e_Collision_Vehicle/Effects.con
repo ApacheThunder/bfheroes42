@@ -1,0 +1,10 @@
+
+
+rem *** e_collision_metal ***
+ObjectTemplate.create EffectBundle e_collision_vehicle
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_Collision_vehicle.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_collision_metal_Smoke
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+rem -------------------------------------

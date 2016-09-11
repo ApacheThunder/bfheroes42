@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh DummyObject_m1
+GeometryTemplate.file DummyObject_m1

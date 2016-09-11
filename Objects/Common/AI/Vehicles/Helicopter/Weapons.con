@@ -1,0 +1,19 @@
+rem *** Helicopter Minigun *** 
+weaponTemplate.create HelicopterMinigun
+weaponTemplate.burst 1
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0
+weaponTemplate.maxRange 500.0
+weaponTemplate.exitVelocity 800
+weaponTemplate.useAimerOnly 0
+weaponTemplate.drag 0
+weaponTemplate.deviation 1
+weaponTemplate.deviationCorrectionTime 0.1
+weaponTemplate.weaponActivate PINone
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry    9.0
+weaponTemplate.setStrength LightArmour 7.0
+weaponTemplate.setStrength HeavyArmour 4.0
+weaponTemplate.setStrength NavalArmour 2.0
+weaponTemplate.setStrength Submarine   0.0
+weaponTemplate.setStrength Air         1.0

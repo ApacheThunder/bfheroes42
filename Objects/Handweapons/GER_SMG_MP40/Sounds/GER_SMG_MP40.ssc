@@ -1,0 +1,78 @@
+*** Unknown ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Reload ***
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Weapon_GB_SMG_CM_Reload_01.wav
+minDistance 1
+dopplerOff
+priority 1
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.77
+	param 0.77
+	param 0
+	param 1	
+endEffect
+trigger Volume
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1
+endEffect
+
+*** Release ***
+newPatch
+load @ROOT/Sound/@RTD/SMG_MP40_Release.wav
+minDistance 25
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1
+endEffect
+
+*** Shell Bounce ***
+newPatch
+#include ../../../Common/Sounds/ShellBounce.ssc
+
+*** Far Distance ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Fire Loop ***
+newPatch
+load @ROOT/Sound/@RTD/SMG_MP40_Fire.wav
+minDistance 25
+loop
+stop FinishSample
+dopplerOff
+priority 10
+randomStartPitch 0.01 / 0.01
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1
+endEffect

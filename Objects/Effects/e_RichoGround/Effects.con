@@ -1,0 +1,69 @@
+
+
+rem *** e_richoGround ***
+ObjectTemplate.create EffectBundle e_richoGround
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richoground.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_GroundDecalSmall
+ObjectTemplate.setPosition 0/0.001/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoGround
+ObjectTemplate.addTemplate Em_richoGround_smoke
+ObjectTemplate.addTemplate Em_richoSand1
+ObjectTemplate.addTemplate Em_richoGround_Base
+ObjectTemplate.setRotation 45/0/0.02
+ObjectTemplate.setStartOnEffects 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+rem -------------------------------------
+
+
+rem *** Em_richoGround ***
+ObjectTemplate.create Emitter Em_richoGround
+ObjectTemplate.template Fx_richoGround
+ObjectTemplate.lodDistance 350
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/20/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoGround ***
+ObjectTemplate.create SpriteParticle Fx_richoGround
+ObjectTemplate.timeToLive CRD_UNIFORM/0.1/0.1/0
+ObjectTemplate.size CRD_UNIFORM/0.4/0.5/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.310007|100/1
+ObjectTemplate.texture e_richoGitt_I
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/180/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/204|82/220/219/201/36|100/220/219/201/0
+
+
+rem *** Em_richoGround_smoke ***
+ObjectTemplate.create Emitter Em_richoGround_smoke
+ObjectTemplate.template Fx_richoGround_smoke
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 350
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.3/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.1/1/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.02/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoGround_smoke ***
+ObjectTemplate.create SpriteParticle Fx_richoGround_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/0.45/0.45/0
+ObjectTemplate.size CRD_UNIFORM/0.5/1/0
+ObjectTemplate.gravityModifier CRD_NONE/0.35/0/0
+ObjectTemplate.sizeOverTime 0/0.209998|100/0.709998
+ObjectTemplate.texture e_muzs3_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/20/50/1
+ObjectTemplate.colorRGBAOverTime 0/226/203/150/153|100/226/203/150/0
+

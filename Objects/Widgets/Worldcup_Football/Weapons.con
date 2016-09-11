@@ -1,0 +1,98 @@
+ObjectTemplate.create Projectile SoccerBall_Projectile
+ObjectTemplate.geometry worldcup_football_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/0.18/0/0
+ObjectTemplate.gravityModifier 1
+ObjectTemplate.damageType 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.forceOnExplosion 0
+ObjectTemplate.radius 0
+ObjectTemplate.material 70
+ObjectTemplate.noFFSound 1
+ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.invisible 1
+rem -----------------------------------------------
+ObjectTemplate.addTemplate SoccerBallSpawner
+
+ObjectTemplate.create PlayerControlObject worldcup_football
+ObjectTemplate.setNetworkableInfo SoccerBallInfo
+ObjectTemplate.cullRadiusScale 500
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.speedMod 0
+ObjectTemplate.damageMod 0
+ObjectTemplate.angleMod 0
+ObjectTemplate.drag 0.1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 120
+ObjectTemplate.maxHitPoints 120
+ObjectTemplate.material 2011
+ObjectTemplate.mass 50
+ObjectTemplate.criticalDamage 120
+ObjectTemplate.forceOnExplosion 0
+ObjectTemplate.explosionForceMod 150
+ObjectTemplate.explosionForceMax 600
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timeToLiveAfterDeath 10
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 1
+ObjectTemplate.damageFromWater 0
+rem ------------------------------------------
+ObjectTemplate.addTemplate worldcupFootballLod
+ObjectTemplate.addTemplate BallFloater
+rem ------------------------------------------
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setVehicleIcon "Empty.dds"
+ObjectTemplate.setMinimapIcon "Empty.dds"
+
+ObjectTemplate.create lodObject worldcupFootballLOD
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -----------------------------------------------
+ObjectTemplate.addTemplate worldcup_footballComplex
+ObjectTemplate.addTemplate worldcup_footballSimple
+ObjectTemplate.addTemplate worldcup_footballWreck
+rem -----------------------------------------------
+ObjectTemplate.lodSelector BallSelector
+
+
+LodSelectorTemplate.create DistCompareSelector2 BallSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 512
+
+ObjectTemplate.create Bundle worldcup_footballComplex
+ObjectTemplate.geometry worldcup_football_m1
+ObjectTemplate.cullRadiusScale 500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+
+ObjectTemplate.create SimpleObject worldcup_footballSimple
+ObjectTemplate.geometry worldcup_football_m1
+
+ObjectTemplate.create SimpleObject worldcup_footballWreck
+ObjectTemplate.geometry worldcup_football_m1
+
+ObjectTemplate.create ObjectSpawner SoccerBallSpawner
+ObjectTemplate.setObjectTemplate 0 worldcup_football
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.timeToLive 999
+ObjectTemplate.distance 999
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.spawnOffset 0/0/0
+ObjectTemplate.team 0

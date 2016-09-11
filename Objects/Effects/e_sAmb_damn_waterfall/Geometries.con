@@ -1,0 +1,6 @@
+GeometryTemplate.create StandardMesh mp_waterfall_m1
+GeometryTemplate.file mp_waterfall_m1
+GeometryTemplate.alphaLodDistance 1024
+
+rem GeometryTemplate.create StandardMesh EffectAnchor_m1
+rem GeometryTemplate.file EffectAnchor_m1

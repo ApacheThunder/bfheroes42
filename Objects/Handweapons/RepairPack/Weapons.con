@@ -1,0 +1,38 @@
+ObjectTemplate.create FireArms Landmine_Detonator
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+rem -------------------------------------
+ObjectTemplate.projectileTemplate LandmineTrigger
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.setHasMag 0
+ObjectTemplate.reloadtime 0
+ObjectTemplate.velocity 50
+ObjectTemplate.roundOfFire 6
+ObjectTemplate.autoReload 1
+ObjectTemplate.fireingForce 0
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.fireInCameraDoF 1
+ObjectTemplate.setInputFire c_PIAltFire
+
+ObjectTemplate.create Projectile LandmineTrigger
+ObjectTemplate.geometry Invisible_Geom_m1
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 4015
+ObjectTemplate.damageType 1
+ObjectTemplate.radius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.noFFSound 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 10
+ObjectTemplate.maxHitpoints 10
+ObjectTemplate.mass 90

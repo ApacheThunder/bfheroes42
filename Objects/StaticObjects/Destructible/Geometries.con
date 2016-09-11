@@ -1,0 +1,31 @@
+GeometryTemplate.create StandardMesh cone
+GeometryTemplate.file cone
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh cube
+GeometryTemplate.file cube
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh sphere
+GeometryTemplate.file sphere
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+
+
+GeometryTemplate.create StandardMesh sm_cone
+GeometryTemplate.file sm_cone
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh sm_cube
+GeometryTemplate.file sm_cube
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh sm_sphere
+GeometryTemplate.file sm_sphere
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+

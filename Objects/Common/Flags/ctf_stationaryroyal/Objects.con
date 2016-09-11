@@ -1,0 +1,21 @@
+ObjectTemplate.create AnimatedBundle ctf_stationaryroyal
+ObjectTemplate.geometry ctf_stationaryroyal_m1
+ObjectTemplate.createSkeleton animations/ctf_stationaryroyal_m1.ske
+ObjectTemplate.setAnimationState ctf_stationaryroyal_idle1
+ObjectTemplate.loadSoundScript ../flag_neutral/Sounds/flag.ssc
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+rem ----------------------------------------------
+ObjectTemplate.addTemplate ctf_stationaryroyal_ext
+
+ObjectTemplate.create AnimatedBundle ctf_stationaryroyal_ext
+ObjectTemplate.geometry ctf_stationaryroyal_ext_m1
+ObjectTemplate.createSkeleton Animations/ctf_stationaryroyal_m1.ske
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGProjectiles

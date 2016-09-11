@@ -1,0 +1,29 @@
+ObjectTemplate.create SimpleObject trench01_a
+ObjectTemplate.geometry trench01_a_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject trench01_b
+ObjectTemplate.geometry trench01_b_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject trench01_c
+ObjectTemplate.geometry trench01_c_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject trench01_d
+ObjectTemplate.geometry trench01_d_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject trench01_e
+ObjectTemplate.geometry trench01_e_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

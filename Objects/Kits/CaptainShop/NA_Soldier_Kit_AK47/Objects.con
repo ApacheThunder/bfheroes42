@@ -1,0 +1,33 @@
+ObjectTemplate.create Kit NA_Soldier_Kit_AK47
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry ger_smg_bc2_kit_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem --------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+rem --------------------------------------------
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Pistol_Agent.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Common_Medkit.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_AK47.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Generic_TNT.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/National_GS.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_Wrench.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/National_VehicleDrop.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Landmine.tga"
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 4 "Kits/Icon_SoldierTNTClass.tga"
+ObjectTemplate.setKitName 4 "SOLDIER(TNT)"
+ObjectTemplate.setKitActiveName 4 "ACTIVE SOLDIERS(TNT)"
+rem --------------------------------------------
+ObjectTemplate.addTemplate ger_smg_bc2
+ObjectTemplate.addTemplate ger_pistol_agent
+ObjectTemplate.addTemplate MedPack
+ObjectTemplate.addTemplate GER_GrenadeSpam
+ObjectTemplate.addTemplate COM_TNT
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate ger_vehicledrop
+ObjectTemplate.addTemplate ger_landmine
+rem --------------------------------------------
+ObjectTemplate.aiTemplate Engineer

@@ -1,0 +1,83 @@
+ObjectTemplate.create HandFireArms BRI_SMG_Thompson
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.setTracerTemplate SMGTracer CRD_NONE/2/0/0
+ObjectTemplate.projectileTemplate SMGProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.setHasMag 0
+ObjectTemplate.reloadtime 3.8
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.autoReload 1
+objectTemplate.aiTemplate COM_SMG
+objectTemplate.GUIIndex 2
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/smg.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6
+ObjectTemplate.soldierZoomPosition -0.05/-0.01/0.08
+ObjectTemplate.soldierCameraPosition -0.01/-0.04/0.09
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 60
+ObjectTemplate.distToMinDamage 100
+ObjectTemplate.velocity 500
+ObjectTemplate.setHasRecoilForce 0
+ObjectTemplate.setFireDev 2 0.35 0.06
+ObjectTemplate.setDevMod 1 0.75 0.5
+ObjectTemplate.setTurnDev 2 0 0 0
+ObjectTemplate.setSpeedDev 3 0 0 0
+ObjectTemplate.setMiscDev 3 2.5 0.1
+ObjectTemplate.setMinDev 0.6
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/BRI_SMG_Thompson.ssc
+ObjectTemplate.createSkeleton animations/Thompson.ske
+ObjectTemplate.useSkeletonPartAsMain Thompson
+rem -------------------------------------------------
+ObjectTemplate.addTemplate BRI_SMG_ThompsonLod
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.119/0.364
+ObjectTemplate.addTemplate e_ShellSMG
+ObjectTemplate.setInputId -1
+ObjectTemplate.startOnEffects 0
+ObjectTemplate.setPosition 0.017/0.116/0.009
+
+
+ObjectTemplate.create SimpleObject BRI_SMG_ThompsonSimple
+ObjectTemplate.geometry Shade_BRI_SMG_Thompson_m1
+
+ObjectTemplate.create AnimatedBundle BRI_SMG_ThompsonComplex
+ObjectTemplate.geometry BRI_SMG_Thompson_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Thompson.ske
+
+ObjectTemplate.create LodObject BRI_SMG_ThompsonLod1
+rem --------------------------------------------
+ObjectTemplate.addTemplate BRI_SMG_ThompsonComplex
+ObjectTemplate.addTemplate BRI_SMG_ThompsonSimple
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create SimpleObject BRI_SMG_Thompson_BadassSimple
+ObjectTemplate.geometry BRI_SMG_Thompson_Badass_m1
+
+ObjectTemplate.create AnimatedBundle BRI_SMG_Thompson_BadassComplex
+ObjectTemplate.geometry BRI_SMG_Thompson_Badass_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Thompson.ske
+
+ObjectTemplate.create LodObject BRI_SMG_ThompsonLod2
+rem --------------------------------------------
+ObjectTemplate.addTemplate BRI_SMG_Thompson_BadassComplex
+ObjectTemplate.addTemplate BRI_SMG_Thompson_BadassSimple
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

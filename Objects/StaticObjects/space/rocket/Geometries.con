@@ -1,0 +1,32 @@
+GeometryTemplate.create StandardMesh rocket_frontpanel_m1
+GeometryTemplate.file rocket_frontpanel_m1
+
+GeometryTemplate.create StandardMesh rocket_frontpanel_01_m1
+GeometryTemplate.file rocket_frontpanel_01_m1
+
+GeometryTemplate.create StandardMesh rocket_frontpanel_02_m1
+GeometryTemplate.file rocket_frontpanel_02_m1
+
+GeometryTemplate.create StandardMesh rocket_national_home_m1
+GeometryTemplate.file rocket_national_home_m1
+
+GeometryTemplate.create StandardMesh rocket_royal_home_m1
+GeometryTemplate.file rocket_royal_home_m1
+
+GeometryTemplate.create StandardMesh rocket_sidepanel_m1
+GeometryTemplate.file rocket_sidepanel_m1
+
+GeometryTemplate.create StandardMesh rocket_sidepanel_01_m1
+GeometryTemplate.file rocket_sidepanel_01_m1
+
+GeometryTemplate.create StandardMesh rocket_sidepanel_02_m1
+GeometryTemplate.file rocket_sidepanel_02_m1
+
+GeometryTemplate.create StandardMesh rocket_smallpanel_m1
+GeometryTemplate.file rocket_smallpanel_m1
+
+GeometryTemplate.create StandardMesh rocket_smallpanel_01_m1
+GeometryTemplate.file rocket_smallpanel_01_m1
+
+GeometryTemplate.create StandardMesh rocket_smallpanel_02_m1
+GeometryTemplate.file rocket_smallpanel_02_m1

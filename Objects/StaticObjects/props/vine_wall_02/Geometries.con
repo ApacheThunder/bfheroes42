@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh vine_wall_02_m1
+GeometryTemplate.file vine_wall_02_m1
+GeometryTemplate.alphaLodDistance 512

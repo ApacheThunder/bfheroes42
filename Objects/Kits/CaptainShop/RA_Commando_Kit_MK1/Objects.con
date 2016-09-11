@@ -1,0 +1,33 @@
+ObjectTemplate.create Kit RA_Commando_Kit_MK1
+ObjectTemplate.setType Scout
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry bri_at_rifle_kit_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem --------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+rem --------------------------------------------
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Knife.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Pistol_Agent.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Sniper_MK1.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Generic_TNT.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Royal_TroopTrap.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBall.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBallKick.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Royal_SupplyDrop.tga"
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 0 "Kits/Icon_CommandoClass.tga"
+ObjectTemplate.setKitName 0 "COMMANDO"
+ObjectTemplate.setKitActiveName 0 "ACTIVE COMMANDOS"
+rem --------------------------------------------
+ObjectTemplate.addTemplate bri_at_rifle
+ObjectTemplate.addTemplate bri_pistol_agent_slot2
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate explosivetrap_bri
+ObjectTemplate.addTemplate COM_TNT
+ObjectTemplate.addTemplate COM_BALL
+ObjectTemplate.addTemplate SoccerKick
+ObjectTemplate.addTemplate bri_supplydrop
+rem --------------------------------------------
+ObjectTemplate.aiTemplate  Scout

@@ -1,0 +1,44 @@
+renderer.beginGlobalCluster bri_jeep_willys
+
+GeometryTemplate.create StandardMesh bri_jeep_willys_m1
+GeometryTemplate.file Vehicles/bri_jeep_willys_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.alphaLodDistance 110
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_jeep_willys_steering_m1
+GeometryTemplate.file Vehicles/bri_jeep_willys_steering_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_jeep_willys_whl_L_m1
+GeometryTemplate.file Vehicles/bri_jeep_willys_whl_L_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+
+GeometryTemplate.create StandardMesh bri_jeep_willys_whl_R_m1
+GeometryTemplate.file Vehicles/bri_jeep_willys_whl_R_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh bri_jeep_willys_w_m1
+GeometryTemplate.file Vehicles/bri_jeep_willys_wreck_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_jeep_willys_L1
+GeometryTemplate.file Vehicles/bri_jeep_willys_L1
+
+GeometryTemplate.create StandardMesh bri_jeep_headlights_m1
+GeometryTemplate.file Vehicles/bri_jeep_headlights_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.alphaLodDistance 512
+GeometryTemplate.cullFactor 0

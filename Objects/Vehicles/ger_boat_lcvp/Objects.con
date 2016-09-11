@@ -1,0 +1,50 @@
+rem
+rem *** ger_boat_lcvp ***
+rem
+rem *** Shares Royal geometries for now ***
+rem
+rem
+ObjectTemplate.create PlayerControlObject ger_boat_lcvp
+ObjectTemplate.setNetworkableInfo NALVCPBoatInfo
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.drag 0.5
+ObjectTemplate.mass 30000
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 190
+ObjectTemplate.maxhitpoints 190
+ObjectTemplate.material 55
+ObjectTemplate.criticalDamage 40
+ObjectTemplate.hpLostWhileCriticalDamage 1.5
+ObjectTemplate.explosionForceMod 20
+ObjectTemplate.hpLostWhileUpSideDown 10
+ObjectTemplate.addArmorEffect 40 em_LcvpDamage 0/-0.3/0
+ObjectTemplate.addArmorEffect -1 e_WaterExplosion 0/0/0
+ObjectTemplate.aiTemplate LcvpAI
+rem -------------------------------------
+ObjectTemplate.addTemplate lodbri_boat_lcvp
+rem -------------------------------------
+ObjectTemplate.addTemplate Lcvp_Floater
+ObjectTemplate.setPosition 1.7/1.43/-4.5
+ObjectTemplate.addTemplate Lcvp_Floater
+ObjectTemplate.setPosition -1.7/1.43/-4.5
+ObjectTemplate.addTemplate Lcvp_Floater
+ObjectTemplate.setPosition 1.7/1.43/4.5
+ObjectTemplate.addTemplate Lcvp_Floater
+ObjectTemplate.setPosition -1.7/1.43/4.5
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -0.488/0.7/1.6 0/0/0
+ObjectTemplate.GUIIndex 42
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_lcvp_16x16.tga"
+ObjectTemplate.setVehicleIcon "Vehicle/vehicleIcon_lcvp.tga"
+ObjectTemplate.setVehicleIconPos 29/90
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCSea
+ObjectTemplate.setVehicleType VTLcvp
+ObjectTemplate.setToolTipType TTLcvp
+ObjectTemplate.exitTimer -0.5
+ObjectTemplate.exitSpeedMod 0

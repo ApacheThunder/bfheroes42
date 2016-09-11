@@ -1,0 +1,159 @@
+ObjectTemplate.create EffectBundle e_scrap_flattner
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exp_medium_NoDecal
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_flattner_w_body
+ObjectTemplate.addTemplate em_scrap_flettner_w_prop1
+ObjectTemplate.setPosition 0.4090/0.5030/-0.4090
+ObjectTemplate.addTemplate em_scrap_flettner_w_prop2
+ObjectTemplate.setPosition -0.2150/0.4540/-0.4010
+ObjectTemplate.addTemplate em_scrap_flettner_w_tail_left
+ObjectTemplate.setPosition -0.5390/-0.8550/-2.0980
+ObjectTemplate.addTemplate em_scrap_flettner_w_tail_top
+ObjectTemplate.setPosition -0.0460/-0.2960/-2.2540
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+ObjectTemplate.create Emitter em_scrap_flattner_w_body
+ObjectTemplate.template fx_scrap_flattner_w_body
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Emitter em_scrap_flettner_w_prop1
+ObjectTemplate.template fx_scrap_flettner_w_prop1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/15/18/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/10/15/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_flettner_w_prop2
+ObjectTemplate.template fx_scrap_flettner_w_prop2
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/15/18/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/10/15/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_flettner_w_tail_left
+ObjectTemplate.template fx_scrap_flettner_w_tail_left
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/6/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-10/-6/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/2/1/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/6/4/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Emitter em_scrap_flettner_w_tail_top
+ObjectTemplate.template fx_scrap_flettner_w_tail_top
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/6/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-10/-6/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/2/1/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/6/4/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Bundle fx_scrap_flattner_w_body
+ObjectTemplate.geometry ger_helicopter_flettner_wreck_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.mass 2000
+ObjectTemplate.drag 2
+ObjectTemplate.dragOffset 0.5/0.5/0.15
+ObjectTemplate.timeToLiveAfterDeath 25
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate e_WreckSmoke
+rem ------------------------------------
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition -1.099/-1.3/0.553
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition 1.099/-1.3/0.553
+ObjectTemplate.addTemplate sikorsky_rwheel
+ObjectTemplate.setPosition 0/-1.2/-2.33
+
+
+
+ObjectTemplate.create SimpleObject fx_scrap_flettner_w_prop1
+ObjectTemplate.geometry flettner_w_prop1_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.drag 1
+ObjectTemplate.mass 50
+ObjectTemplate.timeToLiveAfterDeath 15
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+
+ObjectTemplate.create SimpleObject fx_scrap_flettner_w_prop2
+ObjectTemplate.geometry flettner_w_prop2_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.drag 1
+ObjectTemplate.mass 50
+ObjectTemplate.timeToLiveAfterDeath 15
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+
+ObjectTemplate.create SimpleObject fx_scrap_flettner_w_tail_left
+ObjectTemplate.geometry flettner_w_tail_left_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.drag 1
+ObjectTemplate.mass 50
+ObjectTemplate.timeToLiveAfterDeath 15
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+
+ObjectTemplate.create SimpleObject fx_scrap_flettner_w_tail_top
+ObjectTemplate.geometry flettner_w_tail_top_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.drag 1
+ObjectTemplate.mass 50
+ObjectTemplate.timeToLiveAfterDeath 15
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1

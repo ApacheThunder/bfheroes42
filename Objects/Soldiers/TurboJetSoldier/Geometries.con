@@ -1,0 +1,21 @@
+GeometryTemplate.create AnimatedMesh ger_m_feet002_TurboJet_m1
+GeometryTemplate.setSkin animations/Items/ger_m_feet002_TurboJet.skn
+GeometryTemplate.file Items/ger_m_feet002_TurboJet_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh ger_m_hat001_TurboJet_m1
+GeometryTemplate.setSkin animations/Items/ger_m_hat001.skn
+GeometryTemplate.file Items/ger_m_hat001_helmet004_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh ger_m_faceobj010_m1
+GeometryTemplate.setSkin animations/Items/ger_m_faceobj010.skn
+GeometryTemplate.file Items/ger_m_faceobj010_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh ger_m_chestitem015_m1
+GeometryTemplate.setSkin animations/Items/ger_m_chestitem015.skn
+GeometryTemplate.file Items/ger_m_chestitem015_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0

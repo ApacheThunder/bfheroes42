@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh ger_aa_strela_m1
+GeometryTemplate.file HandWeapons/ger_aa_strela_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_aa_strela_m2
+GeometryTemplate.file HandWeapons/ger_aa_strela_m2

@@ -1,0 +1,328 @@
+rem
+rem *** ger_helicopter_flettner ***
+rem
+ObjectTemplate.create PlayerControlObject ger_helicopter_flettner
+ObjectTemplate.setNetworkableInfo flettner_info
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.drag 10
+ObjectTemplate.dragOffset 0.5/0.5/0.15
+ObjectTemplate.mass 2000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.hasArmor 1
+ObjectTemplate.angleMod 1
+ObjectTemplate.speedMod 1.5
+ObjectTemplate.hitpoints 190
+ObjectTemplate.maxhitpoints 190
+ObjectTemplate.material 60
+ObjectTemplate.criticalDamage 20
+ObjectTemplate.hpLostWhileCriticalDamage 0.2
+ObjectTemplate.explosionForceMod 15
+ObjectTemplate.hpLostWhileUpSideDown 30
+ObjectTemplate.hpLostWhileDamageFromWater 30
+ObjectTemplate.hpLostWhileDamageFromDeepWater 20
+ObjectTemplate.damageFromDeepWater 1
+ObjectTemplate.deepWaterDamageDelay 2
+ObjectTemplate.deepWaterLevel -0.3
+ObjectTemplate.addArmorEffect 70 e_StukaDamage 0/0.427/-0.355
+ObjectTemplate.addArmorEffect 20 e_StukaFire 0/0.427/-0.355
+ObjectTemplate.addArmorEffect 0 e_exp_large 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrap_flattner 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.addArmorEffect -1 e_scrap_flattner 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate Helicopter
+rem -------------------------------------
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.addTemplate lodflettner
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_leftrotor_shadow
+ObjectTemplate.setPosition -0.2/0.8/-0.008
+ObjectTemplate.setRotation 0/-90/-15
+ObjectTemplate.addTemplate flettner_rightrotor_shadow
+ObjectTemplate.setPosition 0.2/0.8/-0.008
+ObjectTemplate.setRotation 0/-90/15
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2.5/-0.5/2 0/0/0
+ObjectTemplate.GUIIndex 108
+ObjectTemplate.setVehicleIcon "Vehicle/vehicleIcon_helicopter_GER.tga"
+ObjectTemplate.setVehicleIconPos 43/96
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.crossHairIcon "Crosshair/plane.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_helicopter.dds"
+
+
+ObjectTemplate.create LodObject lodflettner
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate flettnerComplex
+ObjectTemplate.addTemplate flettnerSimple
+ObjectTemplate.addTemplate flettnerWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector HelicopterLodSelector
+
+ObjectTemplate.create Bundle flettnerComplex
+ObjectTemplate.geometry ger_helicopter_flettner_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate GerHelicopterCamera
+ObjectTemplate.setPosition 0/0.2/1.1
+ObjectTemplate.setRotation 0/1/0
+ObjectTemplate.addTemplate HelicopterSeat
+ObjectTemplate.setPosition 0/-0.2/1.133
+ObjectTemplate.addTemplate HelicopterEntry
+ObjectTemplate.setPosition 0/-0.2/1.2
+ObjectTemplate.addTemplate ger_helicopter_joystickAnchor
+ObjectTemplate.setPosition -0.02/0/1.5
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_miniguns
+ObjectTemplate.setPosition 0/2/0
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_leftpassenger
+ObjectTemplate.setPosition -0.7/-0.345/0.141
+ObjectTemplate.addTemplate flettner_rightpassenger
+ObjectTemplate.setPosition 0.7/-0.345/0.141
+rem ------------------------------------
+ObjectTemplate.addTemplate flettner_leftrotor
+ObjectTemplate.setPosition -0.2/0.8/-0.008
+ObjectTemplate.setRotation 0/90/0
+ObjectTemplate.addTemplate flettner_rightrotor
+ObjectTemplate.setPosition 0.2/0.8/-0.008
+ObjectTemplate.setRotation 0/-90/0
+ObjectTemplate.addTemplate flettner_Rudder
+ObjectTemplate.setPosition 0/0/-2.446
+rem ------------------------------------
+ObjectTemplate.addTemplate flettner_EngineRack1
+ObjectTemplate.setPosition 0/2/2.7
+ObjectTemplate.addTemplate flettner_EngineRack2
+ObjectTemplate.setPosition 0/2/-2.7
+ObjectTemplate.addTemplate flettner_EngineRack3
+ObjectTemplate.setPosition 0/2/0
+ObjectTemplate.addTemplate HelicopterDropEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/90/0
+rem ------------------------------------
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition -1.099/-1.3/0.553
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition 1.099/-1.3/0.553
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition 0/-1.3/-2.33
+ObjectTemplate.addTemplate sikorsky_rwheel
+ObjectTemplate.setPosition 0/-1.2/1.49
+rem ------------------------------------
+
+
+
+ObjectTemplate.create SimpleObject flettnerSimple
+ObjectTemplate.geometry ger_helicopter_flettner_m2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+ObjectTemplate.create SimpleObject flettnerWreck
+ObjectTemplate.geometry ger_helicopter_flettner_wreck_m1
+ObjectTemplate.createInvisible 1
+
+
+ObjectTemplate.create PlayerControlObject flettner_leftpassenger
+ObjectTemplate.setNetworkableInfo flettner_passenger_info
+ObjectTemplate.aiTemplate HelicopterPassenger1
+rem -------------------------------------
+ObjectTemplate.addTemplate HelicopterPassengerEntry
+ObjectTemplate.addTemplate HelicopterPassengerCamera
+ObjectTemplate.setPosition 0/0.6/0
+ObjectTemplate.setRotation -98/0/0
+ObjectTemplate.addTemplate HelicopterPassengerSeat
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.setRotation -98/0/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/0 -98/0/0
+ObjectTemplate.GUIIndex 108
+ObjectTemplate.setVehicleIcon "Vehicle/vehicleIcon_helicopter_GER.tga"
+ObjectTemplate.setVehicleIconPos 61/109
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_helicopter.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.create PlayerControlObject flettner_rightpassenger
+ObjectTemplate.setNetworkableInfo flettner_passenger_info
+ObjectTemplate.aiTemplate HelicopterPassenger2
+rem -------------------------------------
+ObjectTemplate.addTemplate HelicopterPassengerEntry
+ObjectTemplate.addTemplate HelicopterPassengerCamera
+ObjectTemplate.setPosition 0/0.6/0
+ObjectTemplate.setRotation 98/0/0
+ObjectTemplate.addTemplate HelicopterPassengerSeat
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.setRotation 98/0/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 2/0/0 98/0/0
+ObjectTemplate.GUIIndex 47
+ObjectTemplate.setVehicleIcon "Vehicle/vehicleIcon_helicopter_GER.tga"
+ObjectTemplate.setVehicleIconPos 61/85
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_helicopter.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+
+ObjectTemplate.create AnimatedBundle ger_helicopter_joystickAnchor
+rem -------------------------------------
+ObjectTemplate.addSkeletonIK Bip01_L_Hand 0/0/0 0/-60/-50
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0/0.05/0 0/60/50
+
+rem
+rem *** Engine Racks ***
+rem
+
+ObjectTemplate.create RotationalBundle flettner_EngineRack1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_HoverEngine1
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-10/-10
+ObjectTemplate.setMaxRotation 0/10/10
+ObjectTemplate.setMaxSpeed 0/75/-75
+ObjectTemplate.setAcceleration 0/75/-75
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle flettner_EngineRack2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_HoverEngine2
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-10/-10
+ObjectTemplate.setMaxRotation 0/10/10
+ObjectTemplate.setMaxSpeed 0/75/75
+ObjectTemplate.setAcceleration 0/75/75
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle flettner_EngineRack3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_HoverEngine3
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-15/-10
+ObjectTemplate.setMaxRotation 0/15/10
+ObjectTemplate.setMaxSpeed 0/250/-125
+ObjectTemplate.setAcceleration 0/250/-125
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+
+
+
+ObjectTemplate.create LodObject lodflettner_leftrotor
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_leftrotorStatic
+ObjectTemplate.addTemplate flettner_leftrotorBlurred
+rem -------------------------------------
+ObjectTemplate.lodSelector HelicopterPropSelector
+
+ObjectTemplate.create LodObject lodflettner_rightrotor
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate flettner_rightrotorStatic
+ObjectTemplate.addTemplate flettner_rightrotorBlurred
+rem -------------------------------------
+ObjectTemplate.lodSelector HelicopterPropSelector
+
+
+ObjectTemplate.create SimpleObject flettner_leftrotorStatic
+ObjectTemplate.geometry ger_helicopter_flettner_leftrotor_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+
+ObjectTemplate.create SimpleObject flettner_leftrotorBlurred
+ObjectTemplate.geometry ger_helicopter_flettner_leftrotor_blur_m1
+
+
+ObjectTemplate.create SimpleObject flettner_rightrotorStatic
+ObjectTemplate.geometry ger_helicopter_flettner_rightrotor_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+
+ObjectTemplate.create SimpleObject flettner_rightrotorBlurred
+ObjectTemplate.geometry ger_helicopter_flettner_rightrotor_blur_m1
+
+
+ObjectTemplate.create RotationalBundle flettner_Rudder
+ObjectTemplate.geometry ger_helicopter_flettner_tailrudder_m1
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.setMinRotation -25/0/0
+ObjectTemplate.setMaxRotation 25/0/0
+ObjectTemplate.setMaxSpeed 25/0/0
+ObjectTemplate.setAcceleration -30/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+
+
+ObjectTemplate.create RotationalBundle flettner_leftrotor_shadow
+ObjectTemplate.geometry ger_helicopter_flettner_leftrotor_m1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/-1000
+objectTemplate.setContinousRotationSpeed -500
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.createInvisible 1
+
+
+ObjectTemplate.create RotationalBundle flettner_rightrotor_shadow
+ObjectTemplate.geometry ger_helicopter_flettner_rightrotor_m1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/1000
+objectTemplate.setContinousRotationSpeed 500
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.createInvisible 1

@@ -1,0 +1,12 @@
+NetworkableInfo.createNewInfo sikorsky_engine_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo sikorsky_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo sikorsky_Wing_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo sikorsky_passenger_info
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority 0

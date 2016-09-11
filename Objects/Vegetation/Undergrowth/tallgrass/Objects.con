@@ -1,0 +1,22 @@
+ObjectTemplate.create Bundle tallgrass_yellow_m1
+ObjectTemplate.cullRadiusScale 2
+ObjectTemplate.addTemplate lodTallGrass_yellow
+
+ObjectTemplate.create lodObject lodTallGrass_yellow
+rem -----------------------------------------------
+ObjectTemplate.addTemplate tallGrassYellow_Animated
+ObjectTemplate.addTemplate tallGrassYellow_Static
+rem -----------------------------------------------
+ObjectTemplate.lodSelector TallGrassSelector
+
+ObjectTemplate.create AnimatedBundle tallGrassYellow_Animated
+ObjectTemplate.geometry tallgrass_yellow_animated_m1
+ObjectTemplate.createSkeleton animations/Grass/TallGrass.ske
+ObjectTemplate.setAnimationState TallGrassIdle
+
+ObjectTemplate.create SimpleObject tallGrassYellow_Static
+ObjectTemplate.geometry tallgrass_yellow_m1
+
+LodSelectorTemplate.create DistCompareSelector2 TallGrassSelector
+LodSelectorTemplate.hasDestroyedLod 0
+LodSelectorTemplate.addLodDistance 25

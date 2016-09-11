@@ -1,0 +1,18 @@
+GeometryTemplate.create StandardMesh national_boatcannon_gunbase_m1
+GeometryTemplate.file Vehicles/national_boatcannon_gunbase_m1
+
+renderer.beginGlobalCluster ger_boat_slingan
+GeometryTemplate.create StandardMesh National_fishingboat_e_01_m1
+GeometryTemplate.file Vehicles/National_fishingboat_e_01_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 65
+GeometryTemplate.setLodDistance 2 130
+GeometryTemplate.setLodDistance 3 195
+
+GeometryTemplate.create StandardMesh National_fishingboat_e_01_L1
+GeometryTemplate.file Vehicles/National_fishingboat_e_01_m1
+
+GeometryTemplate.create StandardMesh National_fishingboat_e_01_wreck_m1
+GeometryTemplate.file Vehicles/National_fishingboat_e_01_wreck_m1
+renderer.endGlobalCluster

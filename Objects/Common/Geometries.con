@@ -1,0 +1,89 @@
+rem
+rem  *** Type must be set to Sphere and Tesselation set to 2/2 for Invisiblity ***
+rem
+GeometryTemplate.create SimpleGeom Invisible_Geom_m1
+GeometryTemplate.shader Objects/Common/Invisible/Material0
+GeometryTemplate.scale 0
+GeometryTemplate.tesselation 2/2
+GeometryTemplate.type Sphere
+GeometryTemplate.color 0/0/0
+
+GeometryTemplate.create SimpleGeom WheelTest_m1
+GeometryTemplate.shader Objects/Vehicles/Land/m3a1/Art/M3A1_Wheel2_M1/Material0
+GeometryTemplate.scale 1/1/1
+GeometryTemplate.tesselation 4/4
+GeometryTemplate.type Plane
+GeometryTemplate.color 255/255/255
+
+GeometryTemplate.create SimpleGeom Water_m1
+GeometryTemplate.shader Objects/Common/WaterShader/Material0
+GeometryTemplate.scale 1/1/1
+GeometryTemplate.tesselation 4/4
+GeometryTemplate.type Plane
+GeometryTemplate.color 255/255/255
+
+GeometryTemplate.create StandardMesh AA_GroundPiece_m1
+GeometryTemplate.file AA_GroundPiece_m1
+
+GeometryTemplate.create StandardMesh hud_tank_m1
+GeometryTemplate.file HUDs/hud_tank_m1
+GeometryTemplate.scale 0.38
+
+GeometryTemplate.create StandardMesh hud_AA_m1
+GeometryTemplate.file HUDs/hud_AA_m1
+GeometryTemplate.scale 0.38
+
+GeometryTemplate.create StandardMesh hud_plane_m1
+GeometryTemplate.file HUDs/hud_plane_m1
+GeometryTemplate.scale 0.38
+
+GeometryTemplate.create StandardMesh hud_mg_m1
+GeometryTemplate.file HUDs/hud_mg_m1
+GeometryTemplate.scale 0.25
+
+GeometryTemplate.create StandardMesh tracklight_m1
+GeometryTemplate.file tracklight_m1
+GeometryTemplate.cullFactor 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh projectile_m1
+GeometryTemplate.file projectile_m1
+GeometryTemplate.cullFactor 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh tripod_stick_m1
+GeometryTemplate.file tripod_stick_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh tripod_stick_2_m1
+GeometryTemplate.file tripod_stick_2_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh tripod_stick_mg42_m1
+GeometryTemplate.file tripod_stick_mg42_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200

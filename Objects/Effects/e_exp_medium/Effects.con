@@ -1,0 +1,203 @@
+rem *** e_exp_medium ***
+ObjectTemplate.create EffectBundle e_exp_medium
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_exp_medium.ssc
+rem -------------------------------------
+ObjectTemplate.addtemplate e_GroundDecal
+ObjectTemplate.setPosition 0/0.1/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_medium_flash
+ObjectTemplate.addTemplate Em_exp_medium_Cloud
+ObjectTemplate.addTemplate Em_exp_medium_Smoke
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 20/0/0
+
+rem *** e_exp_medium_NoDecal ***
+ObjectTemplate.create EffectBundle e_exp_medium_NoDecal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_exp_medium.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_medium_flash
+ObjectTemplate.addTemplate Em_exp_medium_Cloud
+ObjectTemplate.addTemplate Em_exp_medium_Smoke
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 20/0/0
+
+
+ObjectTemplate.create EffectBundle e_exp_medium_ChurchBell
+ObjectTemplate.loadSoundScript ../e_RichoChurchBell/Sounds/churchbell.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exp_medium
+rem -------------------------------------
+ObjectTemplate.lodDistance 900
+
+
+rem *** Em_exp_medium ***
+ObjectTemplate.create Emitter Em_exp_medium
+ObjectTemplate.template Fx_exp_medium
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 700
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Fx_exp_medium ***
+ObjectTemplate.create SpriteParticle Fx_exp_medium
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.5/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.05/0/0
+ObjectTemplate.sizeOverTime 0/0.560045|3/1.80319|100/2
+ObjectTemplate.texture e_explani06
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/30/1
+ObjectTemplate.rotationSpeedOverTime 0/0.209998|100/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|46/255/255/255/120|65/255/255/255/59|100/0/0/0/0
+ObjectTemplate.numAnimationFrames 16
+ObjectTemplate.initAnimationFrame CRD_NONE/8/0/0
+ObjectTemplate.animationSpeed CRD_NONE/70/0/0
+
+
+rem *** Em_exp_medium_flash ***
+ObjectTemplate.create Emitter Em_exp_medium_flash
+ObjectTemplate.template Fx_exp_medium_flash
+ObjectTemplate.lodDistance 900
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/1/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Fx_exp_medium_flash ***
+ObjectTemplate.create SpriteParticle Fx_exp_medium_flash
+ObjectTemplate.timeToLive CRD_NONE/0.3/0.6/0
+ObjectTemplate.size CRD_NONE/0.3/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/1.4008|8/11.5201|100/12
+ObjectTemplate.texture e_fire4
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/255/224/159/255|49/255/255/192/200|100/255/255/128/0
+
+rem *** Em_exp_medium_Cloud ***
+ObjectTemplate.create Emitter Em_exp_medium_Cloud
+ObjectTemplate.template Fx_exp_medium_Cloud
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/1/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Fx_exp_medium_Cloud ***
+ObjectTemplate.create SpriteParticle Fx_exp_medium_Cloud
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1.5/0
+ObjectTemplate.size CRD_UNIFORM/2/3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0|15/2.4001|100/3.94989
+ObjectTemplate.texture e_smoke5
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/37/36/24/22|27/139/125/101/118|100/181/167/147/0
+
+rem *** Em_exp_medium_Smoke ***
+ObjectTemplate.create Emitter Em_exp_medium_Smoke
+ObjectTemplate.template Fx_exp_medium_Smoke
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.delay CRD_NONE/0.2/0/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/11/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/-1.2/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/100/0/0
+
+rem *** Fx_exp_medium_Smoke ***
+ObjectTemplate.create SpriteParticle Fx_exp_medium_Smoke
+ObjectTemplate.timeToLive CRD_NONE/2.5/0/0
+ObjectTemplate.size CRD_UNIFORM/2/3/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.3/0/0
+ObjectTemplate.sizeOverTime 0/0.39976|10/2|100/3
+ObjectTemplate.gravityModifierOverTime 0/0.199988|100/0.199988
+ObjectTemplate.texture e_muzs3_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.XYSizeRatio CRD_NONE/1.1/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeedOverTime 0/2.04004|26/3.36|64/3.84002|100/6
+ObjectTemplate.colorRGBAOverTime 0/214/185/141/102|55/255/255/255/45|100/0/0/0/0
+
+
+rem *** Em_exp_medium_Smoke2 ***
+ObjectTemplate.create Emitter Em_exp_medium_Smoke2
+ObjectTemplate.template Fx_exp_medium_Smoke2
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.delay CRD_NONE/0.1/0/0
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/100/100/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/6/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/100/0/0
+
+rem *** Fx_exp_medium_Smoke2 ***
+ObjectTemplate.create SpriteParticle Fx_exp_medium_Smoke2
+ObjectTemplate.timeToLive CRD_NONE/2.5/0/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.5/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.39976|10/2|100/3
+ObjectTemplate.texture e_muzs3_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeedOverTime 0/2.04004|26/3.36|64/3.84002|100/6
+ObjectTemplate.colorRGBAOverTime 0/214/185/141/232|55/155/155/155/145|100/0/0/0/0
+
+rem *** Em_exp_medium_Smoke3 ***
+ObjectTemplate.create Emitter Em_exp_medium_Smoke3
+ObjectTemplate.template Fx_exp_medium_Smoke3
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/80/120/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/7/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/100/0/0
+
+rem *** Fx_exp_medium_Smoke3 ***
+ObjectTemplate.create SpriteParticle Fx_exp_medium_Smoke3
+ObjectTemplate.timeToLive CRD_UNIFORM/1.5/2/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.8/0
+ObjectTemplate.drag CRD_NONE/1.5/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.03/0/0
+ObjectTemplate.sizeOverTime 0/0.39976|10/2|100/3.5
+ObjectTemplate.texture e_muzs3_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_NONE/0/2/0
+ObjectTemplate.rotationSpeedOverTime 0/2.04004|26/3.36|64/3.84002|100/6
+ObjectTemplate.colorRGBAOverTime 0/214/185/141/222|55/135/135/135/145|100/0/0/0/0

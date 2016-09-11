@@ -1,0 +1,17 @@
+ObjectTemplate.create SimpleObject space_crashed_rocket_01
+ObjectTemplate.geometry space_crashed_rocket_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject space_crashed_rocket_02
+ObjectTemplate.geometry space_crashed_rocket_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject space_crashed_rocket_03
+ObjectTemplate.geometry space_crashed_rocket_03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

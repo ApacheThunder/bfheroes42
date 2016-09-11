@@ -1,0 +1,223 @@
+ObjectTemplate.create PlayerControlObject bri_jeep_willys
+ObjectTemplate.setNetworkableInfo bri_jeep_willysInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.explosionForceMod 20
+ObjectTemplate.drag 1.5
+ObjectTemplate.mass 2500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 0.75
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 120
+ObjectTemplate.maxhitpoints 120
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 6
+ObjectTemplate.hpLostWhileCriticalDamage 2
+ObjectTemplate.hpLostWhileUpSideDown 5
+ObjectTemplate.hpLostWhileDamageFromDeepWater 5
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.damageFromDeepWater 1
+ObjectTemplate.deepWaterDamageDelay 2
+ObjectTemplate.deepWaterLevel -0.15
+ObjectTemplate.addArmorEffect 30 e_dstate_land_MediumSmoke 0/0.583/0.725
+ObjectTemplate.addArmorEffect 0 e_dstate_static_fire 0/0.5/0.725
+ObjectTemplate.addArmorEffect 0 e_exp_large 0/0.5/0
+ObjectTemplate.addArmorEffect 0 e_scrap_willy 0/0/0
+ObjectTemplate.addArmorEffect 0 e_GroundDecalLarge 0/-0.25/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion  0/0/0
+ObjectTemplate.addArmorEffect -1 e_scrap_willy_water 0/0/0
+ObjectTemplate.aiTemplate Jeep
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate lodbri_jeep_willys
+ObjectTemplate.centerOfMassOffset 0/-0.3/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 26
+ObjectTemplate.setVehicleIcon "Vehicle/VehicleIcon_Jeep.tga"
+ObjectTemplate.setVehicleIconPos 63/113
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.create LodObject lodbri_jeep_willys
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_jeep_willysComplex
+ObjectTemplate.addTemplate bri_jeep_willysSimple
+ObjectTemplate.addTemplate bri_jeep_willysWreck
+ObjectTemplate.setPosition 0/-0.15/0
+rem -------------------------------------
+ObjectTemplate.lodSelector JeepLodSelector
+
+
+ObjectTemplate.create Bundle bri_jeep_willysComplex
+ObjectTemplate.geometry bri_jeep_willys_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate JeepCamera
+ObjectTemplate.setPosition -0.386/0.75/-0.5
+ObjectTemplate.addTemplate JeepEntry
+ObjectTemplate.setPosition 0/0/1
+ObjectTemplate.addTemplate JeepEntry
+ObjectTemplate.setPosition 0/0/-1
+ObjectTemplate.addTemplate JeepSeat
+ObjectTemplate.setPosition -0.386/0.52/-0.299
+ObjectTemplate.addTemplate bri_jeep_willys_PCO1
+ObjectTemplate.setPosition 0.385/0.307/-0.299
+ObjectTemplate.addTemplate bri_jeep_willys_PCO2
+ObjectTemplate.setPosition 0/0.408/-1.21
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_jeep_willysEngine
+ObjectTemplate.addTemplate bri_jeep_willysSteeringDummy
+ObjectTemplate.setPosition -0.375/0.768/0
+ObjectTemplate.setRotation 0/-40.569/0
+ObjectTemplate.addTemplate carhorn
+ObjectTemplate.setPosition 0/0.63/0.76
+rem -------------------------------------
+ObjectTemplate.addTemplate JeepFloater
+ObjectTemplate.setPosition 1.5/0.7/1.5
+ObjectTemplate.addTemplate JeepFloater
+ObjectTemplate.setPosition -1.5/0.7/1.5
+ObjectTemplate.addTemplate JeepFloater
+ObjectTemplate.setPosition 1.5/0.7/-1.5
+ObjectTemplate.addTemplate JeepFloater
+ObjectTemplate.setPosition -1.5/0.7/-1.5
+rem -------------------------------------
+ObjectTemplate.addTemplate JeepWaterEngine
+ObjectTemplate.setPosition 0/-0.5/0
+ObjectTemplate.addTemplate COM_RudderStern 
+ObjectTemplate.setPosition 0/-0.5/2 
+ObjectTemplate.setRotation 0/0/-90 
+ObjectTemplate.addTemplate COM_RudderAft 
+ObjectTemplate.setPosition 0/-0.5/-2
+ObjectTemplate.setRotation 0/0/-90 
+
+
+ObjectTemplate.create PlayerControlObject bri_jeep_willys_PCO1
+ObjectTemplate.setNetworkableInfo bri_jeep_willysPassenger_info
+ObjectTemplate.NameTagOffset 0/-0.2/0
+ObjectTemplate.aiTemplate JeepPassenger
+rem -------------------------------------
+ObjectTemplate.addTemplate JeepPassengerEntry
+ObjectTemplate.addTemplate JeepCamera
+ObjectTemplate.setPosition 0/0.449/-0.22
+ObjectTemplate.addTemplate JeepPassengerSeat
+ObjectTemplate.setPosition 0/0.22/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 53
+ObjectTemplate.setVehicleIcon "Vehicle/VehicleIcon_Jeep.tga"
+ObjectTemplate.setVehicleIconPos 63/89
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+
+ObjectTemplate.create PlayerControlObject bri_jeep_willys_PCO2
+ObjectTemplate.setNetworkableInfo bri_jeep_willysPassenger_info
+ObjectTemplate.aiTemplate JeepPassenger2
+rem -------------------------------------
+ObjectTemplate.addTemplate JeepPassengerEntry
+ObjectTemplate.addTemplate JeepCamera
+ObjectTemplate.setPosition 0/0.449/-0.22
+ObjectTemplate.addTemplate JeepPassengerSeat
+ObjectTemplate.setPosition 0/0.22/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 53
+ObjectTemplate.setVehicleIcon "Vehicle/VehicleIcon_Jeep.tga"
+ObjectTemplate.setVehicleIconPos 90/101
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+
+ObjectTemplate.create RotationalBundle bri_jeep_willys_rack_R
+ObjectTemplate.setNetworkableInfo bri_jeep_willysSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_jeep_willysSpringR
+ObjectTemplate.setPosition 0.2/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -23/0/0
+ObjectTemplate.setMaxRotation 23/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle bri_jeep_willys_rack_L
+ObjectTemplate.setNetworkableInfo bri_jeep_willysSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate bri_jeep_willysSpringL
+ObjectTemplate.setPosition -0.2/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -23/0/0
+ObjectTemplate.setMaxRotation 23/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle bri_jeep_willysSteering
+ObjectTemplate.setNetworkableInfo bri_jeep_willysSteeringInfo
+ObjectTemplate.geometry bri_jeep_willys_steering_m1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.setMinRotation -46/0/0
+ObjectTemplate.setMaxRotation 46/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 250/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create SimpleObject bri_jeep_willysSimple
+ObjectTemplate.geometry bri_jeep_willys_L1
+
+ObjectTemplate.create SimpleObject bri_jeep_willysWreck
+ObjectTemplate.geometry bri_jeep_willys_w_m1
+
+rem *** This is added on a per map basis. Don't addtemplate it here. ***
+ObjectTemplate.create SimpleObject bri_jeep_headlights
+ObjectTemplate.geometry bri_jeep_headlights_m1
+
+ObjectTemplate.create AnimatedBundle bri_jeep_willysSteeringDummy
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_jeep_willysSteering
+rem -------------------------------------
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.24/-0.05/0 -80/60/50
+ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.24/-0.05/0 -80/-60/50

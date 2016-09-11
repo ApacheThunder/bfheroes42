@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh bri_smg_bc2_m1
+GeometryTemplate.file HandWeapons/bri_smg_bc2_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.hasDynamicShadow 1

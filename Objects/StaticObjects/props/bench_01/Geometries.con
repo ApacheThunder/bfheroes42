@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh bench_01_m1
+GeometryTemplate.file bench_01_m1

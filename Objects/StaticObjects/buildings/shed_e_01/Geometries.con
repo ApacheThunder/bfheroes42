@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh shed_e_01_m1
+GeometryTemplate.file shed_e_01_m1
+
+GeometryTemplate.create StandardMesh DeathBox_shed1_m1
+GeometryTemplate.file Invisible/DeathBox_Shed1_m1
+
+GeometryTemplate.create StandardMesh snow_shed_e_01_m1
+GeometryTemplate.file snow_shed_e_01_m1

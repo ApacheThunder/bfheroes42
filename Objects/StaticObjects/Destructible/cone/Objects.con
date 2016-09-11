@@ -1,0 +1,60 @@
+ObjectTemplate.create PlayerControlObject cone
+ObjectTemplate.cullRadiusScale 256
+ObjectTemplate.setNetworkableInfo coneInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.drag 5
+ObjectTemplate.mass 500
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 30
+ObjectTemplate.maxhitpoints 30
+ObjectTemplate.explosionRadius 5
+ObjectTemplate.explosionDamage 15
+ObjectTemplate.criticalDamage 0
+ObjectTemplate.explosionForceMod 20
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hpLostWhileDamageFromWater 5
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.material 45
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.timeToLiveAfterdeath 1
+ObjectTemplate.addArmorEffect 0 e_replicate3 0/0.6/0
+ObjectTemplate.addArmorEffect 0 e_exp_medium_NoDecal 0/0.3/0
+ObjectTemplate.addArmorEffect -1 e_replicate3 0/0.6/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.setMinimapIcon "Empty.dds"
+rem -----------------------------------------------
+ObjectTemplate.addTemplate lodcone
+
+ObjectTemplate.create LodObject lodcone
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------
+ObjectTemplate.addTemplate coneComplex
+ObjectTemplate.addTemplate NULL_OBJECT
+rem -----------------------------------
+ObjectTemplate.lodSelector StationaryMGSelector
+
+
+ObjectTemplate.create Bundle coneComplex
+ObjectTemplate.geometry cone
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem ***
+rem ***  These are the spring bundles that stabalize the object ***
+rem ***
+ObjectTemplate.addTemplate Geometric_Spring
+ObjectTemplate.setPosition 0.35/-0.2/-0.35
+ObjectTemplate.addTemplate Geometric_Spring
+ObjectTemplate.setPosition 0.35/-0.2/0.35
+ObjectTemplate.addTemplate Geometric_Spring
+ObjectTemplate.setPosition -0.35/-0.2/0.35
+ObjectTemplate.addTemplate Geometric_Spring
+ObjectTemplate.setPosition -0.35/-0.2/-0.35

@@ -1,0 +1,16 @@
+ObjectTemplate.create SimpleObject snowdrift_large_01
+ObjectTemplate.geometry snowdrift_large_01_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject snowdrift_medium_01
+ObjectTemplate.geometry snowdrift_medium_01_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject snowdrift_small_01
+ObjectTemplate.geometry snowdrift_small_01_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject snowpile_01
+ObjectTemplate.geometry snowpile_01_m1
+ObjectTemplate.cullRadiusScale 5
+

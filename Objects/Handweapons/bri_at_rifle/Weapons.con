@@ -1,0 +1,17 @@
+ObjectTemplate.create Projectile SniperProjectile_AT
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.tracerScaler 200
+ObjectTemplate.material 4009
+ObjectTemplate.loadSoundScript ..\..\Vehicles\Common\projectile.ssc
+rem ---------------------------------------
+ObjectTemplate.startEffectTemplate e_ProjectileTrail
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

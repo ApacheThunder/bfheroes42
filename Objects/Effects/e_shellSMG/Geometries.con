@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh e_ShellSMG_m1
+GeometryTemplate.file e_ShellMG_m1
+Geometrytemplate.scale 0.25

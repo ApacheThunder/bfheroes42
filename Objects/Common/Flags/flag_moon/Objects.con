@@ -1,0 +1,27 @@
+ObjectTemplate.create SimpleObject cq_stationaryneutral_moon
+ObjectTemplate.geometry cq_stationaryneutral_moon_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 0
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject cq_stationarynational_moon
+ObjectTemplate.geometry cq_stationarynational_moon_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 0
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject cq_stationaryroyal_moon
+ObjectTemplate.geometry cq_stationaryroyal_moon_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 0
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject cq_stationary_invisible_moon
+ObjectTemplate.geometry cq_stationary_invisible_moon_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1

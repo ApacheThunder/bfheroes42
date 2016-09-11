@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/WEST_Music_Flag_RA.wav
+loop
+minDistance 50
+priority 1
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 50
+	param 1
+	param -1	
+endEffect

@@ -1,0 +1,5 @@
+ObjectTemplate.create EffectBundle e_MikuNyan
+rem ---------------------------------------
+ObjectTemplate.loadSoundScript Sounds/MikuNyan.ssc
+rem ---------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0

@@ -1,0 +1,60 @@
+ObjectTemplate.create Bundle Clouds_2048
+ObjectTemplate.cullRadiusScale 500
+rem ------------------------------------
+ObjectTemplate.addTemplate Clouds_2048_Layer1
+ObjectTemplate.addTemplate Clouds_2048_Layer2
+ObjectTemplate.setPosition 0/40/0
+
+ObjectTemplate.create Bundle Clouds_2048_Single
+ObjectTemplate.cullRadiusScale 500
+rem ------------------------------------
+ObjectTemplate.addTemplate Clouds_2048_Layer1
+
+ObjectTemplate.create RotationalBundle Clouds_2048_Layer1
+ObjectTemplate.geometry CloudPlane2048_m1
+ObjectTemplate.cullRadiusScale 500
+rem ------------------------------------
+ObjectTemplate.setMaxSpeed 0.2/0/0
+ObjectTemplate.setAcceleration 0.1/0/0
+ObjectTemplate.setContinousRotationSpeed 0.2/0/0
+rem ------------------------------------
+ObjectTemplate.addTemplate CloudPlane2048_Layer1
+ObjectTemplate.addTemplate CloudPlane2048_Layer1
+ObjectTemplate.setPosition 0/0/-2048
+ObjectTemplate.addTemplate CloudPlane2048_Layer1
+ObjectTemplate.setPosition -2048/0/0
+ObjectTemplate.addTemplate CloudPlane2048_Layer1
+ObjectTemplate.setPosition -2048/0/-2048
+
+
+ObjectTemplate.create RotationalBundle Clouds_2048_Layer2
+ObjectTemplate.geometry CloudPlane2048_2_m1
+ObjectTemplate.cullRadiusScale 500
+rem ------------------------------------
+ObjectTemplate.setMaxSpeed 0.3/0/0
+ObjectTemplate.setAcceleration 0.15/0/0
+ObjectTemplate.setContinousRotationSpeed 0.3/0/0
+rem ------------------------------------
+ObjectTemplate.addTemplate CloudPlane2048_Layer2
+ObjectTemplate.setPosition 0/0/-2048
+ObjectTemplate.addTemplate CloudPlane2048_Layer2
+ObjectTemplate.setPosition -2048/0/0
+ObjectTemplate.addTemplate CloudPlane2048_Layer2
+ObjectTemplate.setPosition -2048/0/-2048
+
+
+ObjectTemplate.create SimpleObject CloudPlane512_Layer1
+ObjectTemplate.geometry CloudPlane512_m1
+ObjectTemplate.cullRadiusScale 500
+
+ObjectTemplate.create SimpleObject CloudPlane512_Layer2
+ObjectTemplate.geometry CloudPlane512_2_m1
+ObjectTemplate.cullRadiusScale 500
+
+ObjectTemplate.create SimpleObject CloudPlane2048_Layer1
+ObjectTemplate.geometry CloudPlane2048_m1
+ObjectTemplate.cullRadiusScale 500
+
+ObjectTemplate.create SimpleObject CloudPlane2048_Layer2
+ObjectTemplate.geometry CloudPlane2048_2_m1
+ObjectTemplate.cullRadiusScale 500

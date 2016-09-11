@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject pinetree_02
+ObjectTemplate.geometry pinetree_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

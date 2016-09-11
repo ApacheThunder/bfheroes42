@@ -1,0 +1,19 @@
+rem *** Battlecraft Friendly Name ***
+ObjectTemplate.create Bundle townhousemedium_storefront03
+ObjectTemplate.geometry townhousemedium_storefront03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 3
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ---------------------------------
+ObjectTemplate.addTemplate DeathBox_MedHouse3
+
+rem *** Original Name ***
+ObjectTemplate.create Bundle townhousemedium_e_03_storefront_01
+ObjectTemplate.geometry townhousemedium_e_03_storefront_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 3
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ---------------------------------
+ObjectTemplate.addTemplate DeathBox_MedHouse3

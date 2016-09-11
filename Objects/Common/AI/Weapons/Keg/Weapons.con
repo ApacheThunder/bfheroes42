@@ -1,0 +1,16 @@
+weaponTemplate.create ExplosiveKeg
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.isThrown 1
+weaponTemplate.minRange 10
+weaponTemplate.maxRange 80
+weaponTemplate.exitVelocity 20
+weaponTemplate.drag 1
+weaponTemplate.weaponActivate PIMenuSelect2
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry 4.45
+weaponTemplate.setStrength LightArmour 3.1
+weaponTemplate.setStrength HeavyArmour 2.7
+weaponTemplate.setStrength NavalArmour 1.6
+weaponTemplate.setStrength Submarine 0
+weaponTemplate.setStrength Air 0

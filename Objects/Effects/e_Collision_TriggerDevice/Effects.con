@@ -1,0 +1,41 @@
+ObjectTemplate.create EffectBundle e_Collision_TriggerDevice
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate fx_light_red
+ObjectTemplate.addTemplate em_light_red
+ObjectTemplate.addTemplate em_TriggerDevice
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate CarFlare
+ObjectTemplate.setPosition 0/0/-1
+
+ObjectTemplate.create Emitter em_light_red
+ObjectTemplate.template Fx_light_red
+ObjectTemplate.lodDistance 64
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.noPhysics 1
+ObjectTemplate.relativePositionInDoF CRD_NONE/-0.5/0/0
+
+ObjectTemplate.create Emitter Em_TriggerDevice
+ObjectTemplate.template Fx_TriggerDevice
+ObjectTemplate.lodDistance 64
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.noPhysics 1
+ObjectTemplate.relativePositionInDoF CRD_NONE/-0.5/0/0
+ObjectTemplate.useCameraOrientation 1
+
+ObjectTemplate.create Particle Fx_TriggerDevice
+ObjectTemplate.geometry MineTrigger_m1
+ObjectTemplate.mipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.sizeOverTime 0/0.1|50/1|100/1
+ObjectTemplate.gravityModifier CRD_NONE/-1/0/0
+ObjectTemplate.gravityModifierOvertime 0/0|25/1|50/-0.4
+ObjectTemplate.initRotation CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+
+ObjectTemplate.create Light fx_light_red
+ObjectTemplate.setAmbient 255/0/0

@@ -1,0 +1,8 @@
+rem *** e_ExFumeFact ***
+ObjectTemplate.create EffectBundle e_WreckSmoke
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/VehicleFire.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ExFumeFact
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------

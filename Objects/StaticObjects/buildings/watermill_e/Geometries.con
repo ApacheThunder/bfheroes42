@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh watermill_base_e_m1
+GeometryTemplate.file watermill_base_e_m1
+
+GeometryTemplate.create StandardMesh watermill_e_m1
+GeometryTemplate.file watermill_e_m1
+
+GeometryTemplate.create StandardMesh watermill_wheel_e_m1
+GeometryTemplate.file watermill_wheel_e_m1

@@ -1,0 +1,23 @@
+GeometryTemplate.create StandardMesh CaptainShop_m1
+GeometryTemplate.file Items/CaptainShop_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh TargetDummyIsland_m1
+GeometryTemplate.file Items/TargetDummyIsland_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh teleport_ammo_bri_m1
+GeometryTemplate.file HandWeapons/teleport_ammo_bri_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh teleport_ammo_ger_m1
+GeometryTemplate.file HandWeapons/teleport_ammo_ger_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh teleport_ammo_bri_inv_m1
+GeometryTemplate.file HandWeapons/teleport_ammo_bri_inv_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh teleport_ammo_ger_inv_m1
+GeometryTemplate.file HandWeapons/teleport_ammo_ger_inv_m1
+GeometryTemplate.hasDynamicShadow 1

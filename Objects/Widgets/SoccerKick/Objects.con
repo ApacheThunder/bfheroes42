@@ -1,0 +1,44 @@
+ObjectTemplate.create HandFireArms SoccerKick
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 7
+ObjectTemplate.projectileTemplate SoccerBallKick
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.projectileVisible 0
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.roundOfFire 5
+ObjectTemplate.fireOnce 1
+ObjectTemplate.autoReload 0
+ObjectTemplate.GUIIndex 10
+ObjectTemplate.setHudAmmoType ATNone
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.crossHairIcon "Crosshair/knife.tga"
+ObjectTemplate.velocity 49
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.2
+ObjectTemplate.AmmoType 2
+ObjectTemplate.fireDelay 0.2
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.setInputFire c_PIAltFire
+
+ObjectTemplate.createSkeleton animations/GrenadeAxis.ske
+ObjectTemplate.useSkeletonPartAsMain base
+
+
+ObjectTemplate.create Projectile SoccerBallKick
+ObjectTemplate.geometry ATMissile_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.timeToLive CRD_NONE/0.07/0/0
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.damageType 1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.forceOnExplosion 200
+ObjectTemplate.yModOnExplosion 2
+ObjectTemplate.radius 2
+ObjectTemplate.material 3002
+ObjectTemplate.material2 3001
+ObjectTemplate.noFFSound 1
+ObjectTemplate.invisible 1

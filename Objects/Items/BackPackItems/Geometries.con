@@ -1,0 +1,26 @@
+rem *** Skinned Soldier Parts. Addtemplate to soldier only! Not usable as kitparts! ***
+
+
+rem *** BackPack 001 ***
+GeometryTemplate.create AnimatedMesh bri_m_chestitem006_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_chestitem006.skn
+GeometryTemplate.file Items/bri_m_chestitem006_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Quiver 001 ***
+GeometryTemplate.create AnimatedMesh bri_m_chestitem010_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_chestitem010.skn
+GeometryTemplate.file Items/bri_m_chestitem010_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Rucksack 001 ***
+GeometryTemplate.create AnimatedMesh ger_m_chestitem006_rucksack001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_chestitem006.skn
+GeometryTemplate.file Items/ger_m_chestitem006_rucksack001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Parachute 001 ***
+GeometryTemplate.create AnimatedMesh ger_m_chestitem020_parachute001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_chestitem020.skn
+GeometryTemplate.file Items/ger_m_chestitem020_parachute001_m1
+GeometryTemplate.hasDynamicShadow 1

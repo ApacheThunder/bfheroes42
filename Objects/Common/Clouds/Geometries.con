@@ -1,0 +1,16 @@
+GeometryTemplate.create StandardMesh CloudPlane512_m1
+GeometryTemplate.file CloudPlane512_m1
+GeometryTemplate.alphaLodDistance 4096
+
+GeometryTemplate.create StandardMesh CloudPlane512_2_m1
+GeometryTemplate.file CloudPlane512_2_m1
+GeometryTemplate.alphaLodDistance 4096
+
+
+GeometryTemplate.create StandardMesh CloudPlane2048_m1
+GeometryTemplate.file CloudPlane2048_m1
+GeometryTemplate.alphaLodDistance 4096
+
+GeometryTemplate.create StandardMesh CloudPlane2048_2_m1
+GeometryTemplate.file CloudPlane2048_2_m1
+GeometryTemplate.alphaLodDistance 4096

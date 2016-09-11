@@ -1,0 +1,115 @@
+ObjectTemplate.create Engine sikorsky_mainroter
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodsikorsky_mainrotor
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/500
+ObjectTemplate.setMaxRotation 0/0/1000
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 1
+
+ObjectTemplate.create Engine sikorsky_tailrotor
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodsikorsky_tailrotor
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 90/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/2000
+ObjectTemplate.setMaxRotation 0/0/2000
+ObjectTemplate.setMaxSpeed 0/0/2000
+ObjectTemplate.setAcceleration 0/0/2000
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 1
+
+ObjectTemplate.create Engine sikorsky_HoverEngine1
+ObjectTemplate.setNetworkableInfo sikorsky_engine_info
+ObjectTemplate.setMinRotation 0/0/2725
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/22000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 17.2
+ObjectTemplate.setDifferential 3.9
+
+ObjectTemplate.create Engine sikorsky_HoverEngine2
+ObjectTemplate.setNetworkableInfo sikorsky_engine_info
+ObjectTemplate.setMinRotation 0/0/2725
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/22000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 17.2
+ObjectTemplate.setDifferential 3.9
+
+ObjectTemplate.create Engine sikorsky_HoverEngine3
+ObjectTemplate.setNetworkableInfo sikorsky_engine_info
+ObjectTemplate.loadSoundScript Sounds/SikorskyEngine.ssc
+ObjectTemplate.setMinRotation 0/0/2725
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/22000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 17.5
+ObjectTemplate.setDifferential 3.9
+
+ObjectTemplate.create Engine HelicopterDropEngine
+ObjectTemplate.setNetworkableInfo sikorsky_engine_info
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/2825
+ObjectTemplate.setMaxSpeed 0/0/15000
+ObjectTemplate.setAcceleration 0/0/-15000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 19.6
+ObjectTemplate.setDifferential 12
+
+
+ObjectTemplate.create Spring sikorsky_fwheel
+ObjectTemplate.geometry bri_helicopter_sikorsky_fwheel_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 10
+ObjectTemplate.createInvisible 1
+
+ObjectTemplate.create Spring sikorsky_rwheel
+ObjectTemplate.geometry bri_helicopter_sikorsky_rwheel_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGrip
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 10
+ObjectTemplate.createInvisible 1
+
+
+ObjectTemplate.create Wing HelicopterRudder
+ObjectTemplate.setNetworkableInfo sikorsky_Wing_info
+ObjectTemplate.setMinRotation 0/-5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/100/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 0
+ObjectTemplate.setWingLift 2
+ObjectTemplate.setFlapLift 3

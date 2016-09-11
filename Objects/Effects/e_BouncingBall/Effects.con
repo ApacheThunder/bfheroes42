@@ -1,0 +1,30 @@
+ObjectTemplate.create EffectBundle e_BouncingBall
+ObjectTemplate.loadSoundScript Sounds/BouncingBall.ssc
+rem ----------------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+ObjectTemplate.create EffectBundle e_BouncingBall_SpawnBall
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.loadSoundScript Sounds/BouncingBall.ssc
+rem ----------------------------------------------
+ObjectTemplate.addTemplate em_BouncingBall_SpawnBall
+rem ObjectTemplate.addTemplate SoccerBallSpawner
+rem ObjectTemplate.setPosition 0/100/0
+rem ----------------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+
+ObjectTemplate.create Emitter em_BouncingBall_SpawnBall
+ObjectTemplate.template worldcup_football
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 4096
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+rem ObjectTemplate.moveToWaterSurface 0
+rem ObjectTemplate.isSpawnEffect 1

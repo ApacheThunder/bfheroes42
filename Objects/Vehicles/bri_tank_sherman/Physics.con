@@ -1,0 +1,160 @@
+ObjectTemplate.create Engine bri_tank_Engine
+ObjectTemplate.setNetworkableInfo bri_tank_EngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/ShermanEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_tank_L_track
+ObjectTemplate.addTemplate bri_tank_R_track
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_tank_L_Suspension
+ObjectTemplate.addTemplate bri_tank_R_Suspension
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exhaust
+ObjectTemplate.setPosition 0/-0.4/-1.8
+ObjectTemplate.setRotation 0/-30/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-1
+ObjectTemplate.setMaxRotation 1/0/1
+ObjectTemplate.setMaxSpeed 4/0/10
+ObjectTemplate.setAcceleration 4/0/10
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 6
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 3
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.1
+
+ObjectTemplate.create Spring bri_tank_Wheel
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry bri_tank_Wheel_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFEngineGrip
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_treadgrass_PoE
+ObjectTemplate.addTemplate e_treadwetgrass_PoE
+ObjectTemplate.addTemplate e_treadDryDirt_PoE
+ObjectTemplate.addTemplate e_treadwetdirt_PoE
+ObjectTemplate.addTemplate e_treadmud_PoE
+ObjectTemplate.addTemplate e_treadStone_PoE
+ObjectTemplate.addTemplate e_treadsand_PoE
+ObjectTemplate.addTemplate e_treadwetsand_PoE
+rem ---------------------------------------
+ObjectTemplate.setStrength 18
+ObjectTemplate.setDamping 4
+
+ObjectTemplate.create Spring bri_tank_Wheel_D
+ObjectTemplate.geometry bri_tank_Wheel_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+ObjectTemplate.create Spring bri_tank_FrontWheel
+ObjectTemplate.geometry bri_tank_FrontWhl_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+
+ObjectTemplate.create Spring bri_tank_BackWheel
+ObjectTemplate.geometry bri_tank_BackWhl_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+rem
+rem *** Active Suspension ***
+rem
+
+ObjectTemplate.create Spring bri_tank_Wheel_Inv
+ObjectTemplate.geometry bri_tank_Wheel_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+ObjectTemplate.createInvisible 1
+
+
+ObjectTemplate.create AnimatedBundle bri_tank_L_Suspension
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.geometry bri_tank_L_Suspension_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/bri_tank_L_Suspension_m1.ske
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition -1.25/-0.95/1.296
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition -1.25/-0.95/0.687
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition -1.25/-0.95/0.244
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition -1.25/-0.95/-0.37
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition -1.25/-0.95/-0.794
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition -1.25/-0.95/-1.4m
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+
+ObjectTemplate.create AnimatedBundle bri_tank_R_Suspension
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.geometry bri_tank_R_Suspension_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.createSkeleton animations/bri_tank_R_Suspension_m1.ske
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition 1.25/-0.95/1.296
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition 1.25/-0.95/0.687
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition 1.25/-0.95/0.244
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition 1.25/-0.95/-0.37
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition 1.25/-0.95/-0.794
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0
+ObjectTemplate.addTemplate bri_tank_Wheel_Inv
+ObjectTemplate.setPosition 1.25/-0.95/-1.4m
+ObjectTemplate.useAsBone 0/0/0
+ObjectTemplate.setBoneOriginOffset 0/0/0

@@ -1,0 +1,56 @@
+#include ../../../Common/Sounds/EngineMap.ssc
+
+load @ROOT/Sound/@RTD/airplanedive.wav
+loop
+minDistance 10
+randomStartPitch .05/.05 
+priority 8
+*** Dive Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Extern #map<Engine::DiveAngle>
+	envelope Ramp
+	param 0.2
+	param 1
+	param 0.95
+	param 0.05
+	param 2
+	param 2
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Speed
+	envelope Ramp
+	param 20
+	param 40
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Engine::DiveAngle> 
+	envelope Ramp
+	param 0.2
+	param 0.7
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 400
+	param 1
+	param -1	
+endEffect

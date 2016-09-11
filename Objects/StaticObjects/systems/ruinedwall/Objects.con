@@ -1,0 +1,41 @@
+ObjectTemplate.create SimpleObject ruinedwall_arch_high
+ObjectTemplate.geometry ruinedwall_arch_high_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject ruinedwall_arch_low
+ObjectTemplate.geometry ruinedwall_arch_low_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject ruinedwall_ground_8m
+ObjectTemplate.geometry ruinedwall_ground_8m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject ruinedwall_high_8m
+ObjectTemplate.geometry ruinedwall_high_8m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject ruinedwall_low_4m
+ObjectTemplate.geometry ruinedwall_low_4m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject ruinedwall_medium_4m
+ObjectTemplate.geometry ruinedwall_medium_4m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject ruinedwall_medium_8m
+ObjectTemplate.geometry ruinedwall_medium_8m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

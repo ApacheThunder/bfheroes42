@@ -1,0 +1,299 @@
+ObjectTemplate.create PlayerControlObject bri_boat_elin
+ObjectTemplate.setNetworkableInfo RoyalBoatInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.drag 0.35
+ObjectTemplate.mass 40000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 600
+ObjectTemplate.maxhitpoints 600
+ObjectTemplate.material 55
+ObjectTemplate.criticalDamage 100
+ObjectTemplate.hpLostWhileCriticalDamage 20
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.speedMod 1.0
+ObjectTemplate.hpLostWhileUpSideDown 25
+ObjectTemplate.addArmorEffect 150 e_dstate_land_HeavySmoke 0/-2.33742/0
+ObjectTemplate.addArmorEffect 100 e_dstate_static_fire 0/-2.33742/0
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke -0.683319/-0.891796/-4.9827
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke 2.16818/-3.70705/2.43371
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke -2.76932/-2.49736/6.91878
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke -0.849821/-3.72525/-11.6364
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke 0.0/-2.33742/0.0
+ObjectTemplate.addArmorEffect 0 e_dstate_static_fire 0/-2.33742/0
+ObjectTemplate.addArmorEffect 0 e_scrap_boat 0/5.215/8.98
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke -0.683319/-0.891796/-4.9827
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke 2.16818/-3.70705/2.43371
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke -2.76932/-2.49736/6.91878
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke -0.849821/-3.72525/-11.6364
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke 0.0/-2.33742/0.0
+ObjectTemplate.addArmorEffect -1 e_dstate_static_fire 0/-2.33742/0
+ObjectTemplate.addArmorEffect -1 e_scrap_boat 0/5.215/8.98
+ObjectTemplate.addArmorEffect -1 e_WaterExplosion 0.0836935/-2.33539/0.0141748
+ObjectTemplate.timetoliveafterdeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.aiTemplate Boat
+rem ---------------------------------------
+ObjectTemplate.addTemplate lodbri_boat_elin
+rem ---------------------------------------
+ObjectTemplate.addTemplate BoatFloaterRear
+ObjectTemplate.setPosition 4.534/-2.2/-12.29
+ObjectTemplate.addTemplate BoatFloaterRear
+ObjectTemplate.setPosition -4.534/-2.2/-12.29
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition 4.534/-2.2/12.29
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition -4.534/-2.2/12.29
+rem --------------------------------------
+ObjectTemplate.dontClearTeamOnExit 1
+ObjectTemplate.setPcoId 0
+ObjectTemplate.setSoldierExitLocation -2.48148/-2.52589/-4.03464 0/0/0
+ObjectTemplate.altSoldierExitPosition 2.48148/-2.52589/-4.03464
+ObjectTemplate.GUIIndex 42
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_boat_16x16.tga"
+ObjectTemplate.setVehicleIcon "Vehicle/VehicleIcon_Boat.tga"
+ObjectTemplate.setVehicleIconPos 77/107
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCSea
+ObjectTemplate.setVehicleType VTBattleship
+ObjectTemplate.setToolTipType TTBattleship
+rem ObjectTemplate.exitTimer -0.5
+ObjectTemplate.exitSpeedMod 0
+
+
+ObjectTemplate.create PlayerControlObject RoyalBoatCannon
+ObjectTemplate.setNetworkableInfo RoyalBoatInfo
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setPcoId 1
+ObjectTemplate.aiTemplate BoatCannon
+rem -------------------------------------
+ObjectTemplate.addTemplate lodRoyalBoatCannon
+rem -------------------------------------
+ObjectTemplate.dontClearTeamOnExit 1
+ObjectTemplate.setSoldierExitLocation -2/0.6/0 0/0/0
+ObjectTemplate.altSoldierExitPosition 2/0.6/0
+ObjectTemplate.GUIIndex 26
+ObjectTemplate.setVehicleIcon "Vehicle/VehicleIcon_Boat.tga"
+ObjectTemplate.setVehicleIconPos 33/107
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_GenericAmmoVehicle.tga"
+ObjectTemplate.setPrimaryAmmoBar ABIconOnly
+ObjectTemplate.crossHairIcon "Crosshair/rocketLauncher.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCSea
+ObjectTemplate.setVehicleType VTDestroyer
+ObjectTemplate.setToolTipType  TTDestroyer
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.exitSpeedMod 0
+
+
+ObjectTemplate.create LodObject lodbri_boat_elin
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_boat_elinComplex
+ObjectTemplate.addTemplate bri_boat_elinSimple
+ObjectTemplate.addTemplate bri_boat_elinWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector BoatSelector
+
+ObjectTemplate.create Bundle bri_boat_elinComplex
+ObjectTemplate.geometry Royal_fishingboat_e_01_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate RoyalBoatCannon
+ObjectTemplate.setPosition 0/-2.515/6.62
+rem -------------------------------------
+ObjectTemplate.addTemplate fishingboat_e_01_flags
+rem -------------------------------------
+ObjectTemplate.addTemplate quaypart_ladder_short
+ObjectTemplate.setPosition 0/0.713553/-4.2752
+ObjectTemplate.addTemplate quaypart_ladder_short
+ObjectTemplate.setPosition 0/-1.62889/-10.867
+rem -------------------------------------
+ObjectTemplate.addTemplate BoatClimbingVine
+ObjectTemplate.setPosition 3.412/-3.866/0
+ObjectTemplate.setRotation -90/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate BoatDriverCamera
+ObjectTemplate.setPosition 0/0.639/-1.272
+ObjectTemplate.addTemplate BoatEngine
+ObjectTemplate.setPosition 0/-8.375/-9.091
+ObjectTemplate.addTemplate BoatEntry
+ObjectTemplate.setPosition -1.909/-2.52978/-4.0508
+ObjectTemplate.addTemplate BoatEntry
+ObjectTemplate.setPosition 1.909/-2.52978/-4.0508
+ObjectTemplate.addTemplate BoatRudder_Stern
+ObjectTemplate.setPosition 0.0/-6.82237/12.219
+ObjectTemplate.setRotation 0/0/-90
+ObjectTemplate.addTemplate BoatRudder_Aft
+ObjectTemplate.setPosition 0.0/-6.82237/-12.2191
+ObjectTemplate.setRotation 0/0/-90
+rem -------------------------------------
+ObjectTemplate.addTemplate e_WaterFrontFishingBoat
+ObjectTemplate.setPosition 0/-5.3/9.5
+ObjectTemplate.addTemplate e_waterbacksmall
+ObjectTemplate.setPosition 0/-5.3/-12
+rem -------------------------------------
+ObjectTemplate.addTemplate RoyalBoatAICannonSpawn
+ObjectTemplate.setPosition 0/-1.5/6.62
+ObjectTemplate.addTemplate RoyalBoatSoldierSpawn
+ObjectTemplate.setPosition 0/-1.25178/10.9128
+ObjectTemplate.addTemplate RoyalBoatSoldierSpawn
+ObjectTemplate.setPosition 0/2.07984/-2.552
+ObjectTemplate.addTemplate RoyalBoatSoldierSpawn
+ObjectTemplate.setPosition -0.0953463/-2.96609/-12.3201
+ObjectTemplate.setRotation 37.6834/0/0
+ObjectTemplate.addTemplate RoyalBoatSoldierSpawn
+ObjectTemplate.setPosition 0/-2.52589/4.35808
+ObjectTemplate.setRotation 0/0/-180
+ObjectTemplate.addTemplate RoyalBoatDriverSpawn
+ObjectTemplate.setPosition -2.48148/-2.52589/-4.03464
+rem --------------------------------------
+ObjectTemplate.addTemplate BoatFlag_Royals
+ObjectTemplate.setPosition 0.082/9.934/8.972
+
+ObjectTemplate.create Bundle bri_boat_elinSimple
+ObjectTemplate.geometry Royal_fishingboat_e_01_m1
+ObjectTEmplate.addTemplate fishingboat_e_01_flags_static
+
+ObjectTemplate.create AnimatedBundle bri_boat_elinWreck
+ObjectTemplate.geometry fishingboat_e_01_flags_m1
+ObjectTemplate.createSkeleton Animations/fishingboat_e_01_flags_m1.ske
+ObjectTemplate.setAnimationState fishingboatflags_death
+ObjectTemplate.hasDynamicShadow 1
+rem ---------------------------------------------------
+ObjectTemplate.addTemplate Royal_fishingboat_e_01_wreckHull
+ObjectTemplate.addTemplate BoatClimbingVine
+ObjectTemplate.setPosition 3.412/-3.866/0
+ObjectTemplate.setRotation -90/0/0
+
+
+ObjectTemplate.create SimpleObject Royal_fishingboat_e_01_wreckHull
+ObjectTemplate.geometry Royal_fishingboat_e_01_wreck_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject fishingboat_e_01_flags_static
+ObjectTemplate.geometry fishingboat_e_01_flags_static_m1
+
+
+ObjectTemplate.create AnimatedBundle fishingboat_e_01_flags
+ObjectTemplate.geometry fishingboat_e_01_flags_m1
+ObjectTemplate.createSkeleton Animations/fishingboat_e_01_flags_m1.ske
+ObjectTemplate.setAnimationState fishingboatflags_idle1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SpawnPoint RoyalBoatDriverSpawn
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 22
+ObjectTemplate.setEnterOnSpawn 1
+ObjectTemplate.setAIEnterOnSpawn 0
+ObjectTemplate.setSpawnAsParaTroper 0
+
+ObjectTemplate.create SpawnPoint RoyalBoatSoldierSpawn
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 23
+ObjectTemplate.setEnterOnSpawn 0
+ObjectTemplate.setAIEnterOnSpawn 0
+ObjectTemplate.setSpawnAsParaTroper 0
+
+ObjectTemplate.create SpawnPoint RoyalBoatAICannonSpawn
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 30
+ObjectTemplate.setEnterOnSpawn 0
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setSpawnAsParaTroper 0
+
+
+ObjectTemplate.create Bundle BoatFlag_Royals
+ObjectTemplate.geometry mini_flagpole_m1
+ObjectTemplate.addTemplate AnimatedRaFlag
+
+
+
+ObjectTemplate.create LodObject lodRoyalBoatCannon
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate RoyalBoatCannonComplex
+ObjectTemplate.addTemplate BoatCannonWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector BoatCannonSelector
+
+
+ObjectTemplate.create Bundle RoyalBoatCannonComplex
+ObjectTemplate.geometry com_aa_base_m1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem --------------------------------------
+ObjectTemplate.addTemplate RoyalBoatCannon_Turret
+ObjectTemplate.setPosition 0.0099/0.0454/0.0401
+ObjectTemplate.addTemplate BoatCannonEntry
+
+
+ObjectTemplate.create RotationalBundle RoyalBoatCannon_Turret
+ObjectTemplate.setNetworkableInfo royalboatcannonTurretInfo
+ObjectTemplate.geometry BoatCannon_turret_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript ../Common/TankTurret.ssc
+rem ------------------------------------------
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 450/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+rem ------------------------------------------
+ObjectTemplate.addTemplate COM_AA_Handle_Right
+ObjectTemplate.setPosition 0.46/0.819/0.281
+ObjectTemplate.addtemplate COM_AA_Handle_Left
+ObjectTemplate.setPosition 0.09/0.474/-0.141
+ObjectTemplate.addTemplate RoyalBoatCannon_Barrel
+ObjectTemplate.setPosition 0/0.965/0.308
+ObjectTemplate.addTemplate COM_AA_Seat
+ObjectTemplate.setPosition 0.637/0.62/-0.175
+ObjectTemplate.setRotation -8/0/10
+
+ObjectTemplate.create RotationalBundle RoyalBoatCannon_Barrel
+ObjectTemplate.setNetworkableInfo royalboatcannonGunInfo
+ObjectTemplate.geometry Royal_BoatCannon_gunBase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setAttachToListener 1
+rem ------------------------------------------
+ObjectTemplate.setMinRotation 0/-90/0
+ObjectTemplate.setMaxRotation 0/2/0
+ObjectTemplate.setMaxSpeed 0/40/0
+ObjectTemplate.setAcceleration 0/450/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+rem ------------------------------------------
+ObjectTemplate.addTemplate BoatCannon_FireArm
+ObjectTemplate.setPosition 0/-0.0159/1.1137
+ObjectTemplate.addTemplate BoatGunnerCamera
+ObjectTemplate.setPosition 0/0.6/-0.2
+
+
+ObjectTemplate.create SimpleObject BoatCannonWreck
+ObjectTemplate.geometry com_aa_base_m1

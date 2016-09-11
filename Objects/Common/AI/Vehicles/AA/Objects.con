@@ -1,0 +1,53 @@
+aiTemplatePlugIn.create Unit COM_AAUnit
+aiTemplatePlugIn.equipmentType 4
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 2
+aiTemplatePlugIn.setHasExposedSoldier 1
+aiTemplatePlugIn.setUseNoPathfindingToGetToObject 1
+
+aiTemplatePlugIn.create Armament COM_AAArmament
+aiTemplatePlugIn.setIsAntiAircraft 1
+
+aiTemplatePlugIn.create Physical COM_AAPhysical
+aiTemplatePlugIn.setStrType LightArmour
+
+aiTemplatePlugIn.create ControlInfo COM_AACtrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+aiTemplatePlugIn.pitchScale                 5.0
+aiTemplatePlugIn.rollScale                  5.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -360/-90/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 360/2/0
+
+aiTemplate.create COM_AA
+aiTemplate.addType ITUnit
+aiTemplate.addType ITGround
+aiTemplate.addType ITFixed
+aiTemplate.degeneration 20
+aiTemplate.allowedTimeDiff 3
+aiTemplate.basicTemp 12
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn COM_AAUnit
+aiTemplate.addPlugIn COM_AAPhysical
+aiTemplate.addPlugIn COM_AAArmament
+aiTemplate.addPlugIn COM_AACtrl

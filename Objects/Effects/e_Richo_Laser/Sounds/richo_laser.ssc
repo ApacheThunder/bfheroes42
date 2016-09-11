@@ -1,0 +1,32 @@
+newPatch
+load @ROOT/Sound/@RTD/Moonraker_Impact1.wav
+minDistance 6
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 6
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/Moonraker_Impact2.wav
+minDistance 6
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 6
+	param 30
+	param 1
+	param -1
+endEffect
+
+randomPlay 1

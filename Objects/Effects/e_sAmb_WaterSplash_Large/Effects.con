@@ -1,0 +1,68 @@
+rem 
+rem *** amdStat_WaterSplash_Large ***
+rem
+
+ObjectTemplate.create Bundle amdStat_WaterSplash_Large
+ObjectTemplate.geometry DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem --------------------------------------------------
+ObjectTemplate.addTemplate e_sAmb_WaterSplash_Large
+
+
+ObjectTemplate.create EffectBundle e_sAmb_WaterSplash_Large
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_sAmb_WaterSplash_Large_CircularRipples
+ObjectTemplate.addTemplate em_sAmb_WaterSplash_Large_Spray
+ObjectTemplate.setPosition 0/0.0137137/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter em_sAmb_WaterSplash_Large_CircularRipples
+ObjectTemplate.template Fx_sAmb_WaterSplash_Large_CircularRipples
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_UNIFORM/1/2/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/0.05/0
+
+ObjectTemplate.create Emitter em_sAmb_WaterSplash_Large_Spray
+ObjectTemplate.template Fx_sAmb_WaterSplash_Large_Spray
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.delay CRD_NONE/1.6/0/0
+ObjectTemplate.timeToLive CRD_UNIFORM/0.4/0.5/0
+ObjectTemplate.intensity CRD_NONE/22/0/0
+ObjectTemplate.relativePositionInDoF CRD_UNIFORM/0/0.1/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/0.1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/2/0
+
+
+ObjectTemplate.create Particle Fx_sAmb_WaterSplash_Large_CircularRipples
+ObjectTemplate.geometry WaterRipples2_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/3/4/0
+ObjectTemplate.size CRD_UNIFORM/0.5/1/0
+ObjectTemplate.sizeOverTime 0/0.75|50/1.5|100/3
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_WaterSplash_Large_Spray
+ObjectTemplate.texture waterSpray
+ObjectTemplate.timeToLive CRD_UNIFORM/0.4/0.5/0
+ObjectTemplate.size CRD_UNIFORM/0.8/1/0
+ObjectTemplate.gravityModifierOverTime 0/0|25/-0.3|35/1|60/1.5|100/2
+ObjectTemplate.sizeOverTime 0/0|50/0.8|75/1|100/0
+ObjectTemplate.drag CRD_NONE/0.25/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/128|25/255/255/255/255|50/255/255/255/255|75/255/255/255/100|100/255/255/255/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/-0.15/-0.25/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/1/0/0

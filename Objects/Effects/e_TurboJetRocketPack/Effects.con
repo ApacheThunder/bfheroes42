@@ -1,0 +1,46 @@
+ObjectTemplate.create EffectBundle e_TurboJetRocketPack
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_UNIFORM/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.107/0/-0.183
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_RocketPack_Smoker
+ObjectTemplate.setPosition 0.107/0/-0.183
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+rem *** e_RocketPackDefault ***
+ObjectTemplate.create EffectBundle e_TurboJetRocketPackDefault
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.107/0/-0.183
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+ObjectTemplate.create EffectBundle e_TurboJetRocketPack_alt
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_UNIFORM/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.05/-0.02/-0.24
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_RocketPack_Smoker
+ObjectTemplate.setPosition 0.05/-0.02/-0.24
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+ObjectTemplate.create EffectBundle e_TurboJetRocketPackDefault_alt
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.05/-0.01/-0.24
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1

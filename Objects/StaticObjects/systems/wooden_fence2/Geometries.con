@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh wooden_fence2_4m_m1
+GeometryTemplate.file wooden_fence2_4m_m1
+
+GeometryTemplate.create StandardMesh wooden_fence2_8m_m1
+GeometryTemplate.file wooden_fence2_8m_m1
+
+GeometryTemplate.create StandardMesh wooden_fence2_broken_m1
+GeometryTemplate.file wooden_fence2_broken_m1
+
+GeometryTemplate.create StandardMesh wooden_fence2_endpiece_m1
+GeometryTemplate.file wooden_fence2_endpiece_m1

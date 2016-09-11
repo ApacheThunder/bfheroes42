@@ -1,0 +1,51 @@
+NetworkableInfo.createNewInfo RASupplyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NASupplyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo SupplyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo RACrateInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NACrateInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo CrateInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo RAVehicleDropInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NAVehicleDropInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo CrateDummyEngine_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+rem
+rem *** BF2 Network Info Template ***
+rem
+
+NetworkableInfo.createNewInfo BasicInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo GhostAlwaysWOPrediction
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo GhostAlwaysWithPrediction
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo DestroyableObjectInfo
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo GroundPhysicsNodeInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo AirPhysicsNodeInfo
+NetworkableInfo.setPredictionMode PMLinear

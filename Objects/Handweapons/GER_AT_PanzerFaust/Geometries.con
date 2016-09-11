@@ -1,0 +1,20 @@
+GeometryTemplate.create StandardMesh GER_AT_PanzerFaust_m1
+GeometryTemplate.file HandWeapons/GER_AT_PanzerFaust_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh GER_AT_PanzerFaust_badass_m1
+GeometryTemplate.file HandWeapons/GER_AT_PanzerFaust_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 8
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.hasDynamicShadow 1
+
+
+GeometryTemplate.create StandardMesh Shade_GER_AT_PanzerFaust_m1
+GeometryTemplate.file HandWeapons/Shade_GER_AT_PanzerFaust_m1
+
+GeometryTemplate.create StandardMesh Shade_GER_AT_PanzerFaust_badass_m1
+GeometryTemplate.file HandWeapons/GER_AT_PanzerFaust_badass_m1
+GeometryTemplate.setLodDistance 0 17
+GeometryTemplate.setLodDistance 1 18
+GeometryTemplate.setLodDistance 2 19

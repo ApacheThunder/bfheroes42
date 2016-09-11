@@ -1,0 +1,31 @@
+rem *** Royals ***
+
+rem *** Backpack 001 ***
+ObjectTemplate.create SimpleObject Bri_BackPackItem1
+ObjectTemplate.geometry bri_m_chestitem006_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Quiver 001 ***
+ObjectTemplate.create SimpleObject Bri_BackPackItem2
+ObjectTemplate.geometry bri_m_chestitem010_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Nationals ***
+
+rem *** Rucksack 001 ***
+ObjectTemplate.create SimpleObject Ger_BackPackItem1
+ObjectTemplate.geometry ger_m_chestitem006_rucksack001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Parachute 001 ***
+ObjectTemplate.create SimpleObject Ger_BackPackItem2
+ObjectTemplate.geometry ger_m_chestitem020_parachute001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Dummy Items ***
+
+ObjectTemplate.create SimpleObject Bri_BackPackItem3
+ObjectTEmplate.geometry InvisibleKit_m1
+
+ObjectTemplate.create SimpleObject Ger_BackPackItem3
+ObjectTEmplate.geometry InvisibleKit_m1

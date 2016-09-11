@@ -1,0 +1,95 @@
+rem *** e_richoPHeavy ***
+ObjectTemplate.create EffectBundle e_richoPHeavy
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_GroundDecalSmall
+ObjectTemplate.setPosition 0/0.001/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoPHeavy
+ObjectTemplate.addTemplate Em_richoPHeavy_smoke
+ObjectTemplate.addTemplate Em_richoPHeavy_Base
+ObjectTemplate.setRotation 45/0/0.02
+ObjectTemplate.setStartOnEffects 1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+ObjectTemplate.create EffectBundle e_richoPHeavy_NoDecal
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoPHeavy
+ObjectTemplate.addTemplate Em_richoPHeavy_smoke
+ObjectTemplate.addTemplate Em_richoPHeavy_Base
+ObjectTemplate.setRotation 45/0/0.02
+ObjectTemplate.setStartOnEffects 1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+rem *** Em_richoPHeavy ***
+ObjectTemplate.create Emitter Em_richoPHeavy
+ObjectTemplate.template Fx_richoPHeavy
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/20/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoPHeavy ***
+ObjectTemplate.create SpriteParticle Fx_richoPHeavy
+ObjectTemplate.timeToLive CRD_NONE/0.1/0.1/0
+ObjectTemplate.size CRD_UNIFORM/0.2/1/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.gravityModifierOverTime 0/6.1e-005|100/0
+ObjectTemplate.texture e_richoGitt_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/180/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|5/220/219/201/216|82/220/219/201/198|100/220/219/201/0
+
+
+rem *** Em_richoPHeavy_smoke ***
+ObjectTemplate.create Emitter Em_richoPHeavy_smoke
+ObjectTemplate.template Fx_richoPHeavy_smoke
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.3/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.5/2/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.02/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_richoPHeavy_smoke ***
+ObjectTemplate.create SpriteParticle Fx_richoPHeavy_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/0.45/0.45/0
+ObjectTemplate.size CRD_UNIFORM/1/4/0
+ObjectTemplate.gravityModifier CRD_NONE/0.35/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.209998|100/0.709998
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/20/50/1
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|18/201/187/143/62|38/201/187/143/97|62/201/187/143/140|100/201/187/143/0
+
+
+rem *** Em_richoPHeavy_Base ***
+ObjectTemplate.create Emitter Em_richoPHeavy_Base
+ObjectTemplate.template Fx_richoPHeavy_Base
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.05/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/10/0
+ObjectTemplate.startRotation CRD_UNIFORM/2/-2/0
+
+
+rem *** Fx_richoPHeavy_Base ***
+ObjectTemplate.create Particle Fx_richoPHeavy_Base
+ObjectTemplate.geometry Richo_main_m1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.size CRD_NONE/20/20/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 5/2/3
+ObjectTemplate.sizeOverTime 0/0.200003|100/1.79994

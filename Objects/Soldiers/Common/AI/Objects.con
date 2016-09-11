@@ -1,0 +1,72 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Unit SoldierUnit
+aiTemplatePlugIn.equipmentType 3
+aiTemplatePlugIn.setBattleStrength Infantry    4.0
+aiTemplatePlugIn.setBattleStrength LightArmour 2.0
+aiTemplatePlugIn.setBattleStrength HeavyArmour 1.0
+aiTemplatePlugIn.setBattleStrength NavalArmour 0.0
+aiTemplatePlugIn.setBattleStrength Submarine   0.0
+aiTemplatePlugIn.setBattleStrength Air         1.5
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 1
+
+
+aiTemplatePlugIn.create Physical SoldierPhysical
+aiTemplatePlugIn.setStrType Infantry
+
+aiTemplatePlugIn.create Mobile SoldierMobile
+aiTemplatePlugIn.vehicleNumber 1
+aiTemplatePlugIn.maxSpeed 5.0
+aiTemplatePlugIn.turnRadius 0.1
+aiTemplatePlugIn.coverSearchRadius 20.0
+aiTemplatePlugIn.setSoundSphereRadius 0.0 15.0
+aiTemplatePlugIn.setHearingProbability 0.01 0.1
+aiTemplatePlugIn.lodHeight 1.0
+
+aiTemplatePlugIn.create ControlInfo SoldierCtrl
+aiTemplatePlugIn.driveTurnControl           PIMouseLookX
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity        1.0
+aiTemplatePlugIn.pitchSensitivity           0.4363323
+aiTemplatePlugIn.rollSensitivity           -0.5235988
+aiTemplatePlugIn.yawSensitivity             1.0
+aiTemplatePlugIn.lookVerticalSensitivity    0.4363323
+aiTemplatePlugIn.lookHorizontalSensitivity -0.5235988
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.pitchScale                 10.0
+aiTemplatePlugIn.rollScale                  6.0
+aiTemplatePlugIn.yawScale                   1.0
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+
+rem Armament plugin
+rem *** After adding the stinger handweapons, soldiers can now attach aircraft. ***
+aiTemplatePlugIn.create Armament SoldierArmament
+aiTemplatePlugIn.setIsAntiAircraft 1
+
+
+rem *** AITemplate ***
+aiTemplate.create Soldier
+aiTemplate.addPlugIn SoldierUnit
+aiTemplate.addPlugIn SoldierPhysical
+aiTemplate.addPlugIn SoldierMobile
+aiTemplate.addPlugIn SoldierCtrl
+aiTemplate.addPlugIn SoldierArmament
+aiTemplate.addType ITUnit
+aiTemplate.addType ITMobile
+aiTemplate.addType ITBiological
+aiTemplate.addType ITGround
+aiTemplate.addType ITSoldier
+aiTemplate.degeneration 15
+aiTemplate.allowedTimeDiff 0.5
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 0

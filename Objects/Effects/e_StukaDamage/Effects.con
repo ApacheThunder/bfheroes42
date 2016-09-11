@@ -1,0 +1,36 @@
+rem *** e_StukaDamage ***
+ObjectTemplate.create EffectBundle e_StukaDamage
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_StukaDamage
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+rem *** Em_StukaDamage ***
+ObjectTemplate.create Emitter Em_StukaDamage
+ObjectTemplate.template Fx_StukaDamage
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.IntensityAtSpeed 15
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/15/25/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/1/2/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/-1/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.hasOverDamage 1
+
+rem *** Fx_StukaDamage ***
+ObjectTemplate.create SpriteParticle Fx_StukaDamage
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.8/1/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.1/0/0
+ObjectTemplate.drag CRD_NONE/3/0/0
+ObjectTemplate.sizeOverTime 0/1.100018|32/0.439985|66/1.45999|100/1.77999
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/50/1
+ObjectTemplate.colorRGBAOverTime 0/128/128/128/0|29/194/194/194/73|55/255/255/255/139|62/0/0/0/117|80/0/0/0/61|100/0/0/0/0
+ObjectTemplate.hasStaticColor 1

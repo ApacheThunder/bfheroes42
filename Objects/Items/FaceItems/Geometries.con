@@ -1,0 +1,22 @@
+rem *** Skinned Soldier Parts. Addtemplate to soldier only! Not usable as kitparts! ***
+
+rem *** bri_m_faceobj001 ***
+GeometryTemplate.create AnimatedMesh bri_m_faceobj001_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_faceobj001.skn
+GeometryTemplate.file Items/bri_m_faceobj001_m1
+
+rem *** bri_m_faceobj028 ***
+GeometryTemplate.create AnimatedMesh bri_m_faceobj028_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_faceobj028.skn
+GeometryTemplate.file Items/bri_m_faceobj028_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Ear Ring 001 ***
+GeometryTemplate.create AnimatedMesh ger_m_faceobj006_earring001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_faceobj006.skn
+GeometryTemplate.file Items/ger_m_faceobj006_earring001_m1
+
+rem *** Eye Patch 002 ***
+GeometryTemplate.create AnimatedMesh ger_m_faceobj007_eyepatch002_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_faceobj007.skn
+GeometryTemplate.file Items/ger_m_faceobj007_eyepatch002_m1

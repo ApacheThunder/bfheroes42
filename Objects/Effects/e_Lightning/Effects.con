@@ -1,0 +1,60 @@
+ObjectTemplate.create Bundle Lightning
+ObjectTemplate.addTemplate e_Lightning
+
+ObjectTemplate.create EffectBundle e_Lightning
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_Lightning
+ObjectTemplate.addTemplate Em_LightningFlash
+ObjectTemplate.setPosition 0/-0.6/0
+rem -------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/2048/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/-2048/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/0/2048
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 2048/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 2048/0/2048
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter Em_Lightning
+ObjectTemplate.template Fx_Lightning
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 2048
+ObjectTemplate.timeToLive CRD_UNIFORM/15/30/0
+ObjectTemplate.intensity CRD_NONE/1.5/0/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/1024/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/1024/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/45/0
+
+ObjectTemplate.create Emitter Em_LightningFlash
+ObjectTemplate.template Fx_LightningFlash
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 2048
+ObjectTemplate.delay CRD_RANDOM/15/25/0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_UNIFORM/1/2/0
+
+ObjectTemplate.create Particle fx_Lightning
+ObjectTemplate.geometry mp_Lightning_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.5/1/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.alphaOverTime 0/0.7|25/1|75/1|100/1
+ObjectTemplate.sizeOverTime 0/0.7|25/1|75/1|100/0.7
+
+ObjectTemplate.create Particle fx_LightningFlash
+ObjectTemplate.geometry Fx_LightningFlash_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.4/0.8/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.alphaOverTime 0/0.8|25/1|50/0.5|75/1|100/0.8

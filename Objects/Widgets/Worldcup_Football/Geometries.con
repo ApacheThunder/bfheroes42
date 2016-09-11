@@ -1,0 +1,18 @@
+GeometryTemplate.create StandardMesh worldcup_football_m1
+GeometryTemplate.file Abilities/worldcup_football_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 5
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh worldcup_football_Phy_m1
+GeometryTemplate.file Invisible/worldcup_football_phy_m1
+
+GeometryTemplate.create StandardMesh handheld_football_m1
+GeometryTemplate.file Abilities/worldcup_football_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 5
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.scale 0.75

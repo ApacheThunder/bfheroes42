@@ -1,0 +1,274 @@
+rem
+rem  *** Hatsune Miku Easter Egg ***
+rem
+
+rem
+rem  *** BF1942 appears to have a limit on bones per skeleton, thus I split upper and lower body skeleton in order to avoid memory error ***
+rem
+
+ObjectTemplate.create Bundle Hatsune_Miku
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------------
+ObjectTemplate.addTemplate Hatsune_Miku_Upper
+ObjectTemplate.addTemplate Hatsune_Miku_Lower
+rem ----------------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 10/5/10
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -10/-5/-10
+rem ---------------------------------------------
+ObjectTemplate.cullRadiusScale 64
+
+ObjectTemplate.create Bundle Hatsune_Miku_WithLeek
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------------
+ObjectTemplate.addTemplate Hatsune_Miku_UpperLeek
+ObjectTemplate.addTemplate Hatsune_Miku_LowerLeek
+rem -------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 10/5/10
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -10/-5/-10
+rem ---------------------------------------------
+ObjectTemplate.cullRadiusScale 64
+
+
+
+
+ObjectTemplate.create AnimatedBundle Hatsune_Miku_Upper
+ObjectTemplate.createSkeleton animations/Hatsune_Miku_Upper.ske
+ObjectTemplate.setAnimationState Miku_Idle_Upper
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------------
+ObjectTemplate.addTemplate Hatsune_Miku_Head
+ObjectTemplate.addTemplate Hatsune_Miku_LArm
+ObjectTemplate.addTemplate Hatsune_Miku_LHair
+ObjectTemplate.addTemplate Hatsune_Miku_LHand
+ObjectTemplate.addTemplate Hatsune_Miku_Logo
+ObjectTemplate.addTemplate Hatsune_Miku_RArm
+ObjectTemplate.addTemplate Hatsune_Miku_RHair
+ObjectTemplate.addTemplate Hatsune_Miku_RHand
+ObjectTemplate.addTemplate Hatsune_Miku_Shirt
+ObjectTemplate.addTemplate Hatsune_Miku_Tie
+rem -----------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create AnimatedBundle Hatsune_Miku_Lower
+ObjectTemplate.createSkeleton animations/Hatsune_Miku_Lower.ske
+ObjectTemplate.setAnimationState Miku_Idle_Lower
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------------
+ObjectTemplate.addTemplate Hatsune_Miku_Feet
+ObjectTemplate.addTemplate Hatsune_Miku_LBody
+ObjectTemplate.addTemplate Hatsune_Miku_Skirt
+rem -----------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create AnimatedBundle Hatsune_Miku_UpperLeek
+ObjectTemplate.createSkeleton animations/Hatsune_Miku_Upper.ske
+ObjectTemplate.setAnimationState Miku_SitToStand_Upper
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------------
+ObjectTemplate.addTemplate Hatsune_Miku_Head
+ObjectTemplate.addTemplate Hatsune_Miku_LArm
+ObjectTemplate.addTemplate Hatsune_Miku_LHair
+ObjectTemplate.addTemplate Hatsune_Miku_LHand
+ObjectTemplate.addTemplate Hatsune_Miku_Logo
+ObjectTemplate.addTemplate Hatsune_Miku_RArm
+ObjectTemplate.addTemplate Hatsune_Miku_RHair
+ObjectTemplate.addTemplate Hatsune_Miku_RHand
+ObjectTemplate.addTemplate Hatsune_Miku_Leek
+ObjectTemplate.addTemplate Hatsune_Miku_Shirt
+ObjectTemplate.addTemplate Hatsune_Miku_Tie
+rem -----------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create AnimatedBundle Hatsune_Miku_LowerLeek
+ObjectTemplate.createSkeleton animations/Hatsune_Miku_Lower.ske
+ObjectTemplate.setAnimationState Miku_SitToStand_Lower
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------------
+ObjectTemplate.addTemplate Hatsune_Miku_Feet
+ObjectTemplate.addTemplate Hatsune_Miku_LBody
+ObjectTemplate.addTemplate Hatsune_Miku_Skirt
+rem -----------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+
+rem
+rem  *** Split into child objects due to 23 bone per mesh limit ***
+rem
+
+
+rem
+rem  *** Lower Body
+rem
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_Feet
+ObjectTemplate.geometry Hatsune_Miku_Feet_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_LBody
+ObjectTemplate.geometry Hatsune_Miku_LBody_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_Skirt
+ObjectTemplate.geometry Hatsune_Miku_Skirt_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem
+rem  *** Upper Body
+rem
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_Head
+ObjectTemplate.geometry Hatsune_Miku_Head_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_LArm
+ObjectTemplate.geometry Hatsune_Miku_LArm_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_LHair
+ObjectTemplate.geometry Hatsune_Miku_LHair_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_LHand
+ObjectTemplate.geometry Hatsune_Miku_LHand_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_Logo
+ObjectTemplate.geometry Hatsune_Miku_Logo_m1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_RArm
+ObjectTemplate.geometry Hatsune_Miku_RArm_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_RHair
+ObjectTemplate.geometry Hatsune_Miku_RHair_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_RHand
+ObjectTemplate.geometry Hatsune_Miku_RHand_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_Shirt
+ObjectTemplate.geometry Hatsune_Miku_Shirt_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_Tie
+ObjectTemplate.geometry Hatsune_Miku_Tie_m1
+ObjectTemplate.hasDynamicShadow 1
+
+
+rem
+rem  *** Leek Accessory :) ***
+rem
+
+ObjectTemplate.create SimpleObject Hatsune_Miku_Leek
+ObjectTemplate.geometry Hatsune_Miku_Leek_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Static Leeks ***
+ObjectTemplate.create SimpleObject Leek
+ObjectTemplate.geometry Leek_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+
+
+rem
+rem   *** Miku Spawner ***
+rem
+ObjectTemplate.create ObjectSpawner TestSpawner
+ObjectTemplate.setObjectTemplate 1 MikuSpawner_WithLeek
+ObjectTemplate.setObjectTemplate 2 MikuSpawner_NoLeek
+ObjectTemplate.minSpawnDelay 200
+ObjectTemplate.maxSpawnDelay 200
+ObjectTemplate.timeToLive 25
+ObjectTemplate.distance 25
+ObjectTemplate.damageWhenLost 0
+
+
+ObjectTemplate.create PlayerControlObject MikuSpawner_WithLeek
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 50
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 10
+ObjectTemplate.maxhitpoints 10
+ObjectTemplate.material 40
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 0.1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.timetoliveafterdeath 120
+ObjectTemplate.setMinimapIcon "Empty.tga"
+rem --------------------------------------------
+ObjectTemplate.addTemplate lodLeek
+rem --------------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 10/5/10
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -10/-5/-10
+
+ObjectTemplate.create PlayerControlObject MikuSpawner_NoLeek
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 50
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 10
+ObjectTemplate.maxhitpoints 10
+ObjectTemplate.material 40
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 0.1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.timetoliveafterdeath 120
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.addArmorEffect 0 e_MikuNyan 0/0.1/0
+rem --------------------------------------------
+ObjectTemplate.addTemplate lodNoLeek
+rem --------------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 10/5/10
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition -10/-5/-10
+
+ObjectTemplate.create lodObject lodNoLeek
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------
+ObjectTemplate.addTemplate Leek
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.addTemplate Hatsune_Miku
+ObjectTemplate.setRotation 180/0/0
+rem -----------------------------------
+ObjectTEmplate.lodSelector LeekSelector
+
+ObjectTemplate.create lodObject lodLeek
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------
+ObjectTemplate.addTemplate Leek
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.addTemplate Hatsune_Miku_WithLeek
+rem -----------------------------------
+ObjectTEmplate.lodSelector LeekSelector
+
+
+
+LodSelectorTemplate.create DistCompareSelector2 LeekSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodComparison 0

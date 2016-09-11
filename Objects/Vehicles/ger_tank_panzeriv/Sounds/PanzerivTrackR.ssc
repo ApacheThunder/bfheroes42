@@ -1,0 +1,39 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_DE_TNK_ger_panzeriv_Tracks.wav
+loop
+volume 0.35
+minDistance 3.8
+relativePosition 1/0/0
+
+priority 7
+*** Speed Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Speed
+	envelope Linear
+	param 0.75
+	param 0.025
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Speed
+	envelope Ramp
+	param 0
+	param 10
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 30
+	param 1
+	param -1
+endEffect
+

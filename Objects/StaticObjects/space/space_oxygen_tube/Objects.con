@@ -1,0 +1,11 @@
+ObjectTemplate.create SimpleObject space_oxygen_tube_red
+ObjectTemplate.geometry space_oxygen_tube_red_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject space_oxygen_tube_yellow
+ObjectTemplate.geometry space_oxygen_tube_yellow_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

@@ -1,0 +1,78 @@
+ObjectTemplate.create BFSoldier german_male_soldier
+ObjectTemplate.createSkeleton animations/BFSoldier.ske
+rem ----------------------------------------------------------
+include ../Common/CommonSoldierData.inc
+game.addLanguageRunTimeDirectory German
+include ../Common/Sounds/SoldierSound.inc
+rem ----------------------------------------------------------
+ObjectTemplate.setSoldierStandingIcon "Ingame/westXPBarFrameNational.tga"
+ObjectTemplate.setSoldierCrouchIcon "Ingame/westXPBarFrameNational.tga"
+ObjectTemplate.setSoldierProneIcon "Ingame/westXPBarFrameNational.tga"
+rem ----------------------------------------------------------
+ObjectTemplate.setMinimapIcon "flag_national.tga"
+ObjectTemplate.setControlPointIcon "conp_national.tga"
+ObjectTemplate.setTicketIcon "flag_ticket_national.tga"
+ObjectTemplate.setTeamFlagIcon "Icon_flag_national.tga"
+ObjectTemplate.setRadioLanguage "German"
+rem ----------------------------------------------------------
+ObjectTemplate.addTemplate german_male_soldier_3pBody
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate german_male_soldier_1pBody
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate german_male_soldier_3p_L_hand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.addTemplate german_male_soldier_3p_R_hand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.addTemplate german_male_soldier_1p_L_hand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.addTemplate german_male_soldier_1p_R_hand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.addTemplate german_male_soldier_head
+ObjectTemplate.setIsFirstPersonPart 0
+rem ------------------------Items------------------------------
+include RandomCustomization.inc
+rem -----------------------------------------------------------
+if v_arg1 == host
+ObjectTemplate.addTemplate SoldierMineTrigger
+ObjectTemplate.setPosition 0/2/0
+else
+endIf
+
+
+ObjectTemplate.create SimpleObject german_male_soldier_3pbody1
+ObjectTemplate.geometry german_male_soldier_3pbody_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject german_male_soldier_3pbody2
+ObjectTemplate.geometry german_male_soldier_3pbody_B_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject german_male_soldier_1pbody1
+ObjectTemplate.geometry german_male_soldier_1pbody_m1
+
+ObjectTemplate.create SimpleObject german_male_soldier_1pbody2
+ObjectTemplate.geometry german_male_soldier_1pbody_B_m1
+
+ObjectTemplate.create SimpleObject german_male_soldier_3p_L_hand
+ObjectTemplate.geometry german_male_soldier_3p_L_hand_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject german_male_soldier_3p_R_hand
+ObjectTemplate.geometry german_male_soldier_3p_R_hand_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject german_male_soldier_1p_L_hand
+ObjectTemplate.geometry german_male_soldier_1p_L_hand_m1
+
+ObjectTemplate.create SimpleObject german_male_soldier_1p_R_hand
+ObjectTemplate.geometry german_male_soldier_1p_R_hand_m1
+
+ObjectTemplate.create SimpleObject german_male_soldier_feet
+ObjectTemplate.geometry german_male_soldier_feet_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject german_male_soldier_head
+ObjectTemplate.geometry german_male_soldier_head_m1
+ObjectTemplate.hasDynamicShadow 1

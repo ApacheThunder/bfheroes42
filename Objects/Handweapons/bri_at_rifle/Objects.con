@@ -1,0 +1,72 @@
+rem *** MK1 Bad Boy **
+
+ObjectTemplate.create HandFireArms bri_at_rifle
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript Sounds/BRI_MG_MK1.ssc
+ObjectTemplate.itemIndex 3
+ObjectTemplate.zoomFov 0.1
+ObjectTemplate.projectileTemplate SniperProjectile_AT
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.magSize 2
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.setHasMag 0
+ObjectTemplate.reloadtime 3.8
+ObjectTemplate.roundOfFire 0.6
+ObjectTemplate.autoReload 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.GUIIndex 113
+objectTemplate.aiTemplate COM_Rifle_AT
+objectTemplate.GUIIndex 2
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.soldierCameraPosition 0.01/-0.1/0.01
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.velocity 1200
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 0
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/2/2.5/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.5/0.5/0
+ObjectTemplate.setSpeedDev 0.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.setScopeIcon "HUD/sniper_scope.tga"
+ObjectTemplate.setSightIcon "HUD/blank_scope.tga" 
+ObjectTemplate.setSniperSight 0
+ObjectTemplate.useScope 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition 0/0/0
+ObjectTemplate.timeToNotAllowChange 0.4
+rem -------------------------------------
+ObjectTemplate.loadSoundScript Sounds/BRI_AT_MK1.ssc
+ObjectTemplate.createSkeleton animations/MG.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate bri_at_rifleLod
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setPosition 0/0.1/0.964
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.addTemplate e_ShellRifle_Left
+ObjectTemplate.setPosition -0.044/0.095/-0.166
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+
+ObjectTemplate.create SimpleObject bri_at_rifleSimple
+ObjectTemplate.geometry bri_at_rifle_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle bri_at_rifleComplex
+ObjectTemplate.geometry bri_at_rifle_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/MG.ske
+
+ObjectTemplate.create LodObject bri_at_rifleLod
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate bri_at_rifleComplex
+ObjectTemplate.addTemplate bri_at_rifleSimple
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

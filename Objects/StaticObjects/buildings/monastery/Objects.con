@@ -1,0 +1,41 @@
+ObjectTemplate.create Bundle monasteryfront
+ObjectTemplate.geometry monasteryfront_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Bundle monasteryback
+ObjectTemplate.geometry monasteryback_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ObjectTemplate.aiTemplate buildingAI
+rem ---------------------------------------------
+ObjectTemplate.addTemplate DeathBox_MonasteryBack
+
+
+ObjectTemplate.create Obstacle DeathBox_MonasteryFront
+ObjectTemplate.geometry DeathBox_MonasteryFront_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Obstacle DeathBox_MonasteryBack
+ObjectTemplate.geometry DeathBox_MonasteryBack_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+rem *** Snow Add-On for Winter maps ***
+ObjectTemplate.create SimpleObject snow_monasteryfront
+ObjectTemplate.geometry snow_monasteryfront_m1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject snow_monasteryback
+ObjectTemplate.geometry snow_monasteryback_m1
+ObjectTemplate.cullRadiusScale 5

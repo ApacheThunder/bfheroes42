@@ -1,0 +1,10 @@
+GeometryTemplate.create StandardMesh mp_Lightning_m1
+GeometryTemplate.file mp_Lightning_m1
+GeometryTemplate.alphaLodDistance 2048
+
+GeometryTemplate.create StandardMesh CloudLightning_m1
+GeometryTemplate.file CloudLightning_m1
+GeometryTemplate.alphaLodDistance 2048
+
+GeometryTemplate.create StandardMesh Fx_LightningFlash_m1
+GeometryTemplate.file Fx_LightningFlash_m1

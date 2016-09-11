@@ -1,0 +1,138 @@
+newPatch
+load @ROOT/Sound/@RTD/@Language/Dying1.wav
+minDistance 10
+dopplerOff
+volume 1
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/Dying2.wav
+minDistance 10
+volume 1
+dopplerOff
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/Dying3.wav
+minDistance 10
+volume 1
+dopplerOff
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/Dying4.wav
+minDistance 10
+volume 1
+dopplerOff
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/Dying5.wav
+minDistance 10
+volume 1
+dopplerOff
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/Dying6.wav
+minDistance 10
+volume 1
+dopplerOff
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/Dying7.wav
+minDistance 10
+volume 1
+dopplerOff
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/@Language/Dying8.wav
+minDistance 2
+volume 1
+dopplerOff
+priority 11
+
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 30
+	param 1
+	param -1
+endEffect
+
+randomPlay 1

@@ -1,0 +1,36 @@
+ObjectTemplate.create Bundle space_container_national_closed
+ObjectTemplate.geometry space_container_national_closed_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem --------------------------------------------------------------
+ObjectTemplate.addTemplate DeathBox_SpaceContainer
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Bundle space_container_royal_closed
+ObjectTemplate.geometry space_container_royal_closed_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem -----------------------------------------------------------
+ObjectTemplate.addTemplate DeathBox_SpaceContainer
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create SimpleObject space_container_national_open
+ObjectTemplate.geometry space_container_national_open_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject space_container_royal_open
+ObjectTemplate.geometry space_container_royal_open_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create Obstacle DeathBox_SpaceContainer
+ObjectTemplate.geometry DeathBox_Space_Container_Closed_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+objectTemplate.material 7

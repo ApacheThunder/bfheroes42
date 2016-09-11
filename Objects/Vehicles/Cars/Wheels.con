@@ -1,0 +1,24 @@
+rem
+rem *** gAstraTire ***
+rem
+
+GeometryTemplate.create StandardMesh gAstraTire
+GeometryTemplate.file Wheels/Gravel5Grey
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh gAstraTire_Left
+GeometryTemplate.file Wheels/Gravel5Grey_L
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+rem
+rem *** gAstraWheelsWreck ***
+rem
+
+GeometryTemplate.create StandardMesh gAstraWheelsWreck
+GeometryTemplate.file Cars/Astra/Wheels[D]
+
+GeometryTemplate.create StandardMesh gAstraTireWreckSingle
+GeometryTemplate.file Wheels/Gravel5Grey[D]
+GeometryTemplate.hasDynamicShadow 1

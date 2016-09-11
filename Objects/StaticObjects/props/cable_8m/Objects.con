@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject cable_8m
+ObjectTemplate.geometry cable_8m_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 0

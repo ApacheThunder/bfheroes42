@@ -1,0 +1,51 @@
+ObjectTemplate.create HandFireArms COM_TNT
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript Sounds/TNT.ssc
+ObjectTemplate.itemIndex 4
+ObjectTemplate.projectileTemplate TNT_Projectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.projectileVisible 0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 5
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/grenades_tnt.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 10
+ObjectTemplate.addRootSpeed 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.2
+ObjectTemplate.fireDelay 0.4
+ObjectTemplate.soldierCameraPosition 0.02/-0.03/0.25
+ObjectTemplate.changeWeaponWhenNoAmmo 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.AmmoType	2
+ObjectTemplate.autoReload 1
+ObjectTemplate.aiTemplate COM_TNT
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate COM_TNTLod
+
+ObjectTemplate.create SimpleObject COM_TNTSimple
+ObjectTemplate.geometry Shade_COM_TNT_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle COM_TNTComplex
+ObjectTemplate.geometry COM_TNT_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+
+ObjectTemplate.create LodObject COM_TNTLod
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------
+ObjectTemplate.addTemplate COM_TNTComplex
+ObjectTemplate.addTemplate COM_TNTSimple
+rem --------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

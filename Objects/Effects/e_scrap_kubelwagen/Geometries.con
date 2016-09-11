@@ -1,0 +1,15 @@
+GeometryTemplate.create StandardMesh wreck_kubelwagen_wheel_m1
+GeometryTemplate.file Vehicles/wreck_kubelwagen_wheel_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_kubelwagen_chair_m1
+GeometryTemplate.file Vehicles/wreck_kubelwagen_chair_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_kubelwagen_hatch_m1
+GeometryTemplate.file Vehicles/wreck_kubelwagen_hatch_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_kubelwagen_exhaustpipe_m1
+GeometryTemplate.file Vehicles/wreck_kubelwagen_exhaustpipe_m1
+GeometryTemplate.hasDynamicShadow 1

@@ -1,0 +1,105 @@
+rem
+rem *** Piece of Terrain from Alpine Assault used to cover hole under river. ***
+rem
+
+ObjectTemplate.create SimpleObject AA_GroundPiece
+ObjectTemplate.geometry AA_GroundPiece_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.aiTemplate buildingAI
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create DummyObject NULL_OBJECT
+
+ObjectTemplate.create SimpleObject MG_tripodStick
+ObjectTemplate.geometry tripod_stick_m1
+
+
+
+ObjectTemplate.create ObjectSpawner TroopTrap_Trigger_Royals
+ObjectTemplate.setObjectTemplate 1 SoldierMineTriggerRoyals
+ObjectTemplate.minSpawnDelay 3
+ObjectTemplate.maxSpawnDelay 3
+ObjectTemplate.timeToLive 5
+ObjectTemplate.distance 10
+ObjectTemplate.setTeam 1
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.resetWhenRemoved 1
+ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner TroopTrap_Trigger_Nationals
+ObjectTemplate.setObjectTemplate 2 SoldierMineTriggerNationals
+ObjectTemplate.minSpawnDelay 3
+ObjectTemplate.maxSpawnDelay 3
+ObjectTemplate.timeToLive 5
+ObjectTemplate.distance 10
+ObjectTemplate.setTeam 2
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.resetWhenRemoved 1
+ObjectTemplate.holdObject 1
+
+
+beginRem
+ObjectTemplate.create SupplyDepot TroopTrap_Trigger_Royals
+ObjectTemplate.radius 8
+ObjectTemplate.team 1
+ObjectTemplate.addVehicleType TroopTrap_Nationals -1 -120 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0
+
+ObjectTemplate.create SupplyDepot TroopTrap_Trigger_Nationals
+ObjectTemplate.radius 8
+ObjectTemplate.team 2
+ObjectTemplate.addVehicleType TroopTrap_Royals -1 -120 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0
+endRem
+
+ObjectTemplate.create lodObject hud_Tank
+rem ----------------------------------------
+ObjectTemplate.addTemplate hud_tankVisible
+ObjectTemplate.setPosition -0.002/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+rem ----------------------------------------
+ObjectTemplate.lodSelector hudSelector
+
+ObjectTemplate.create lodObject hud_AA
+rem ----------------------------------------
+ObjectTemplate.addTemplate hud_AAVisible
+ObjectTemplate.setPosition -0.002/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+rem ----------------------------------------
+ObjectTemplate.lodSelector hudSelector
+
+ObjectTemplate.create lodObject hud_plane
+rem ----------------------------------------
+ObjectTemplate.addTemplate hud_PlaneVisible
+ObjectTemplate.setPosition -0.002/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+rem ----------------------------------------
+ObjectTemplate.lodSelector HudSelector
+
+
+ObjectTemplate.create lodObject hud_mg
+rem ----------------------------------------
+ObjectTemplate.addTemplate hud_MGVisible
+ObjectTemplate.setPosition -0.002/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+rem ----------------------------------------
+ObjectTemplate.lodSelector HudSelector
+
+ObjectTemplate.create SimpleObject hud_TankVisible
+ObjectTemplate.geometry hud_Tank_m1
+
+ObjectTemplate.create SimpleObject hud_AAVisible
+ObjectTemplate.geometry hud_AA_m1
+
+ObjectTemplate.create SimpleObject hud_PlaneVisible
+ObjectTemplate.geometry hud_Plane_m1
+
+ObjectTemplate.create SimpleObject hud_MGVisible
+ObjectTemplate.geometry hud_mg_m1
+
+LodSelectorTemplate.create DistanceSelector hudSelector
+LodSelectorTemplate.addLodDistance 0.31

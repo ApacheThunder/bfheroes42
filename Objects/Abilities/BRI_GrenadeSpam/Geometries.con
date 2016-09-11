@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh BRI_GrenadeSpam_m1
+GeometryTemplate.file Abilities/BRI_GrenadeSpam_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Shade_BRI_GrenadeSpam_m1
+GeometryTemplate.file Abilities/Shade_BRI_GrenadeSpam_m1
+GeometryTemplate.hasDynamicShadow 1

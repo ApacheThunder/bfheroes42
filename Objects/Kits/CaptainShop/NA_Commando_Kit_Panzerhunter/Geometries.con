@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh ger_at_rifle_kit_m1
+GeometryTemplate.file Kits/ger_at_rifle_kit_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.hasDynamicShadow 1

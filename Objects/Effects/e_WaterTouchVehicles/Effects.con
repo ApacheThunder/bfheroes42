@@ -1,0 +1,60 @@
+
+
+rem *** e_waterTouchVehicles ***
+ObjectTemplate.create EffectBundle e_waterTouchVehicles
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_waterTouchVecRing
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_waterTouchVecSprite
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 1
+
+
+rem *** Em_waterTouchVecRing ***
+ObjectTemplate.create Emitter Em_waterTouchVecRing
+ObjectTemplate.template Fx_waterTouchVecRing
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.5/0/0
+ObjectTemplate.startRotation CRD_NONE/90/0/0
+
+
+rem *** Fx_waterTouchVecRing ***
+ObjectTemplate.create Particle Fx_waterTouchVecRing
+ObjectTemplate.geometry watermesh_ring_m1
+ObjectTemplate.timeToLive CRD_NONE/0.8/0/0
+ObjectTemplate.size CRD_UNIFORM/5/5/0
+ObjectTemplate.gravityModifier CRD_NONE/0.2/0/0
+ObjectTemplate.sizeModifier 4/4/4
+ObjectTemplate.sizeOverTime 0/0.100024|100/1
+ObjectTemplate.gravityModifierOverTime 0/0.5|86/0.530015|100/1
+
+
+rem *** Em_waterTouchVecSprite ***
+ObjectTemplate.create Emitter Em_waterTouchVecSprite
+ObjectTemplate.template Fx_waterTouchVecSprite
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/60/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/2/0/1
+ObjectTemplate.positionalSpeedInUp CRD_NONE/5/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/2/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/1
+
+
+rem *** Fx_waterTouchVecSprite ***
+ObjectTemplate.create SpriteParticle Fx_waterTouchVecSprite
+ObjectTemplate.timeToLive CRD_NONE/2/2/0
+ObjectTemplate.size CRD_UNIFORM/15/12/0
+ObjectTemplate.sizeOverTime 0/0.299997|100/0.89996
+ObjectTemplate.texture water_ono_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/204|28/223/239/255/102|100/223/239/255/0

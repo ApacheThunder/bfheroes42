@@ -1,0 +1,15 @@
+GeometryTemplate.create StandardMesh flettner_w_prop1_m1
+GeometryTemplate.file Vehicles/flettner_w_prop1_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh flettner_w_prop2_m1
+GeometryTemplate.file Vehicles/flettner_w_prop2_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh flettner_w_tail_left_m1
+GeometryTemplate.file Vehicles/flettner_w_tail_left_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh flettner_w_tail_top_m1
+GeometryTemplate.file Vehicles/flettner_w_tail_top_m1
+GeometryTemplate.hasDynamicShadow 1

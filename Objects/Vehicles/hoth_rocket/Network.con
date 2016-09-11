@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo hoth_rocket_wingInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo hoth_rocket_EngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo hoth_rocket_BodyInfo
+NetworkableInfo.setPredictionMode PMLinear

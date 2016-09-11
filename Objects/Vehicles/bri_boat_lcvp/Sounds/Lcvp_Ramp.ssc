@@ -1,0 +1,40 @@
+newPatch
+############
+### Main ###
+############
+
+load @ROOT/Sound/@RTD/VETTRTYAW.wav
+loop
+minDistance 1
+dopplerOff
+priority -7
+*** Pitch Offset ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 0.7
+	param 0
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param 0.1
+	param 40
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 15
+	param 1
+	param -1
+endEffect

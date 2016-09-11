@@ -1,0 +1,161 @@
+rem ******************************************
+rem - BF242 Vehicle Drop
+rem - 
+rem - Vehicle drops for each team
+rem - 
+rem - called from the drop marker projectile
+rem ******************************************
+
+rem -----------------------------------------------
+rem Royals
+rem -----------------------------------------------
+
+ObjectTemplate.create ObjectSpawner RA_VehicleChuteSpawner
+ObjectTemplate.setObjectTemplate 2 RA_VehicleDrop
+rem ObjectTemplate.holdObject 1
+ObjectTemplate.minSpawnDelay 9999
+ObjectTemplate.maxSpawnDelay 9999
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.team 2
+
+rem -----------------------------------------------
+rem Nationals
+rem -----------------------------------------------
+
+ObjectTemplate.create ObjectSpawner NA_VehicleChuteSpawner
+ObjectTemplate.setObjectTemplate 1 NA_VehicleDrop
+rem ObjectTemplate.holdObject 1
+ObjectTemplate.minSpawnDelay 9999
+ObjectTemplate.maxSpawnDelay 9999
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.team 1
+
+rem --------------------------------------------
+rem Royals
+rem --------------------------------------------
+ObjectTemplate.create ObjectSpawner RA_VehicleCrateSpawner
+ObjectTemplate.setObjectTemplate 2 bri_jeep_willys
+ObjectTemplate.holdObject 1
+ObjectTemplate.minSpawnDelay 9999
+ObjectTemplate.maxSpawnDelay 9999
+ObjectTemplate.timeToLive 60
+ObjectTemplate.distance 0
+ObjectTemplate.damageWhenLost 15
+ObjectTemplate.spawnOffset 0/0/0
+ObjectTemplate.team 2
+ObjectTemplate.spawnDelayAtStart 6
+
+rem --------------------------------------------
+rem Nationals
+rem --------------------------------------------
+ObjectTemplate.create ObjectSpawner NA_VehicleCrateSpawner
+ObjectTemplate.setObjectTemplate 1 ger_jeep_kubelwagen
+ObjectTemplate.holdObject 1
+ObjectTemplate.minSpawnDelay 9999
+ObjectTemplate.maxSpawnDelay 9999
+ObjectTemplate.timeToLive 60
+ObjectTemplate.distance 0
+ObjectTemplate.damageWhenLost 15
+ObjectTemplate.spawnOffset 0/0/0
+ObjectTemplate.team 1
+ObjectTemplate.spawnDelayAtStart 6
+
+
+ObjectTemplate.create PlayerControlObject RA_VehicleDrop
+ObjectTemplate.setNetworkableInfo RAVehicleDropInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.geometry SupplyCrateBase_m1
+ObjectTemplate.drag 24
+ObjectTemplate.mass 700
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hpLostWhileUpSideDown 1
+ObjectTemplate.hpLostWhileDamageFromDeepWater 1
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.damageFromDeepWater 1
+ObjectTemplate.deepWaterDamageDelay 0
+ObjectTemplate.deepWaterLevel 1.22
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 1
+ObjectTemplate.maxhitpoints 1
+ObjectTemplate.material 1085
+ObjectTemplate.criticalDamage 0.9
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.timetoliveafterdeath 0
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.speedMod 100
+ObjectTemplate.angleMod 1
+rem -------------------------------------------
+ObjectTemplate.addTemplate ParachuteAnimated
+ObjectTemplate.setPosition 0/0.59/0.0
+ObjectTemplate.addTemplate SupplyDropWing
+ObjectTemplate.setPosition 0/2.0/-1.0
+ObjectTemplate.setRotation 10/90/7
+ObjectTemplate.addTemplate SupplyDropWing
+ObjectTemplate.setPosition -2.0/2.0/1.0
+ObjectTemplate.setRotation 130/90/7
+ObjectTemplate.addTemplate SupplyDropWing
+ObjectTemplate.setPosition 2.0/2.0/1.0
+ObjectTemplate.setRotation 250/90/7
+if v_arg1 == host
+ObjectTemplate.addTemplate RA_VehiclecrateSpawner
+ObjectTemplate.setPosition 0/0.716/0
+else
+endIf
+
+
+ObjectTemplate.create PlayerControlObject NA_VehicleDrop
+ObjectTemplate.setNetworkableInfo NAVehicleDropInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.geometry SupplyCrateBase_m1
+ObjectTemplate.drag 24
+ObjectTemplate.mass 700
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hpLostWhileUpSideDown 1
+ObjectTemplate.hpLostWhileDamageFromDeepWater 1
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.damageFromDeepWater 1
+ObjectTemplate.deepWaterDamageDelay 0
+ObjectTemplate.deepWaterLevel 1.22
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 1
+ObjectTemplate.maxhitpoints 1
+ObjectTemplate.material 1085
+ObjectTemplate.criticalDamage 0.9
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.timetoliveafterdeath 0
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.speedMod 100
+ObjectTemplate.angleMod 1
+rem -------------------------------------------
+ObjectTemplate.addTemplate ParachuteAnimated
+ObjectTemplate.setPosition 0/0.59/0.0
+ObjectTemplate.addTemplate SupplyDropWing
+ObjectTemplate.setPosition 0/2.0/-1.0
+ObjectTemplate.setRotation 10/90/7
+ObjectTemplate.addTemplate SupplyDropWing
+ObjectTemplate.setPosition -2.0/2.0/1.0
+ObjectTemplate.setRotation 130/90/7
+ObjectTemplate.addTemplate SupplyDropWing
+ObjectTemplate.setPosition 2.0/2.0/1.0
+ObjectTemplate.setRotation 250/90/7
+if v_arg1 == host
+ObjectTemplate.addTemplate NA_VehiclecrateSpawner
+ObjectTemplate.setPosition 0/0.716/0
+else
+endIf

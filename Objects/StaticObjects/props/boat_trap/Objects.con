@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject boat_trap
+ObjectTemplate.geometry boat_trap_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

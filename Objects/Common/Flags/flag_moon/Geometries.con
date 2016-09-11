@@ -1,0 +1,16 @@
+GeometryTemplate.create StandardMesh cq_stationaryneutral_moon_m1
+GeometryTemplate.file cq_stationaryneutral_moon_m1
+rem GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh cq_stationarynational_moon_m1
+GeometryTemplate.file cq_stationarynational_moon_m1
+rem GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh cq_stationaryroyal_moon_m1
+GeometryTemplate.file cq_stationaryroyal_moon_m1
+rem GeometryTemplate.hasDynamicShadow 1
+
+
+
+GeometryTemplate.create StandardMesh cq_stationary_invisible_moon_m1
+GeometryTemplate.file cq_stationaryneutral_moon_m1

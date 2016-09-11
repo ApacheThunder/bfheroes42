@@ -1,0 +1,43 @@
+ObjectTemplate.create Bundle watermill_e
+ObjectTemplate.geometry watermill_e_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -----------------------------
+ObjectTemplate.addTemplate watermill_wheel_e
+ObjectTemplate.setPosition -0.790996/-7.08619/-5.59275
+
+
+ObjectTemplate.create RotationalBundle watermill_wheel_e
+ObjectTemplate.geometry watermill_wheel_e_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.setMaxSpeed 0/1/0
+ObjectTemplate.setContinousRotationSpeed 0/15/0
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create SimpleObject watermill_base_e
+ObjectTemplate.geometry watermill_base_e_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.aiTemplate buildingAI
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create Bundle watermill_e_winter
+ObjectTemplate.geometry watermill_e_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -----------------------------
+ObjectTemplate.addTemplate watermill_wheel_e_winter
+ObjectTemplate.setPosition -0.790996/-7.08619/-5.59275
+
+ObjectTemplate.create SimpleObject watermill_wheel_e_winter
+ObjectTemplate.geometry watermill_wheel_e_m1
+ObjectTemplate.hasCollisionPhysics 1
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

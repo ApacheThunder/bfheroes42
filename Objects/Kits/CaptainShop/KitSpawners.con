@@ -1,0 +1,187 @@
+rem
+rem *** Kit spawners for Captain Shop
+rem
+ObjectTemplate.create ObjectSpawner NAMoonrakerSpawner
+ObjectTemplate.setObjectTemplate 1 NA_Moonraker_Kit
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.timeToLive 120
+ObjectTemplate.distance 128
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.radius 13
+
+ObjectTemplate.create ObjectSpawner RAMoonrakerSpawner
+ObjectTemplate.setObjectTemplate 2 RA_Moonraker_Kit
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.timeToLive 120
+ObjectTemplate.distance 128
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.radius 13
+
+ObjectTemplate.create ObjectSpawner NA_Gunner_Kit_MiniTankSpawner
+ObjectTemplate.setObjectTemplate 1 NA_Gunner_Kit_MiniTank
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 6
+
+ObjectTemplate.create ObjectSpawner RA_Gunner_Kit_MiniTankSpawner
+ObjectTemplate.setObjectTemplate 2 RA_Gunner_Kit_MiniTank
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 6
+
+ObjectTemplate.create ObjectSpawner RippinRocketSpawner_Commando
+ObjectTemplate.setObjectTemplate 2 RA_Commando_Kit_RippinRocket_CS
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner RippinRocketSpawner_Soldier
+ObjectTemplate.setObjectTemplate 2 RA_Soldier_Kit_RippinRocket_CS
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner RippinRocketSpawner_Gunner
+ObjectTemplate.setObjectTemplate 2 RA_Gunner_Kit_RippinRocket_CS
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.holdObject 1
+
+
+ObjectTemplate.create ObjectSpawner TurboJetSpawner_Commando
+ObjectTemplate.setObjectTemplate 1 NA_Commando_Kit_TurboJet_CS
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner TurboJetSpawner_Soldier
+ObjectTemplate.setObjectTemplate 1 NA_Soldier_Kit_TurboJet_CS
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner TurboJetSpawner_Gunner
+ObjectTemplate.setObjectTemplate 1 NA_Gunner_Kit_TurboJet_CS
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 6
+ObjectTemplate.holdObject 1
+
+
+ObjectTemplate.create ObjectSpawner Royal_AntiAirSpawner
+ObjectTemplate.setObjectTemplate 2 RA_Gunner_Kit_AntiAir
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 6
+
+
+ObjectTemplate.create ObjectSpawner National_AntiAirSpawner
+ObjectTemplate.setObjectTemplate 1 NA_Gunner_Kit_AntiAir
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 6
+
+ObjectTemplate.create ObjectSpawner Royal_MK1Spawner
+ObjectTemplate.setObjectTemplate 2 RA_Commando_Kit_MK1
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 6
+
+ObjectTemplate.create ObjectSpawner National_PanzerhunterSpawner
+ObjectTemplate.setObjectTemplate 1 NA_Commando_Kit_Panzerhunter
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 6
+
+ObjectTemplate.create ObjectSpawner Royal_M16Spawner
+ObjectTemplate.setObjectTemplate 2 RA_Soldier_Kit_M16
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.maxNrOfObjectSpawned 6
+
+ObjectTemplate.create ObjectSpawner National_AK47Spawner
+ObjectTemplate.setObjectTemplate 1 NA_Soldier_Kit_AK47
+ObjectTemplate.minSpawnDelay 15
+ObjectTemplate.maxSpawnDelay 20
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.maxNrOfObjectSpawned 6

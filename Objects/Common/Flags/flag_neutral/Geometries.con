@@ -1,0 +1,13 @@
+GeometryTemplate.create AnimatedMesh o_neutralflag_m1
+GeometryTemplate.setSkin animations/o_ARVNflag_m1.skn
+GeometryTemplate.file o_neutralflag_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.hasDynamicShadow 1
+
+
+
+GeometryTemplate.create AnimatedMesh flag_neutral_m1
+GeometryTemplate.file flag_neutral_m1
+GeometryTemplate.setSkin animations/CPFlag.skn
+GeometryTemplate.hasDynamicShadow 1

@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh shutter_black_m1
+GeometryTemplate.file shutter_black_m1
+
+GeometryTemplate.create StandardMesh shutter_brown_m1
+GeometryTemplate.file shutter_brown_m1
+
+GeometryTemplate.create StandardMesh shutter_green_m1
+GeometryTemplate.file shutter_green_m1
+
+GeometryTemplate.create StandardMesh shutter_red_m1
+GeometryTemplate.file shutter_red_m1

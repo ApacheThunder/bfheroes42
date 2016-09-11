@@ -1,0 +1,11 @@
+ObjectTemplate.create EffectBundle e_exp_tank_ice
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_exp_medium/Sounds/e_exp_medium.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_tank
+ObjectTemplate.addTemplate Em_exp_tank_Flash
+ObjectTemplate.addTemplate Em_exp_tank_Sparks
+ObjectTemplate.addtemplate e_groundDecal_Ice
+ObjectTemplate.setPosition 0/0.08/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/3/0/0

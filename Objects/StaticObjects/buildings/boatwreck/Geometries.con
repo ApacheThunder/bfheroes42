@@ -1,0 +1,17 @@
+GeometryTemplate.create StandardMesh boatwreck_back_m1
+GeometryTemplate.file boatwreck_back_m1
+
+GeometryTemplate.create StandardMesh boatwreck_back_rails_m1
+GeometryTemplate.file boatwreck_back_rails_m1
+
+GeometryTemplate.create StandardMesh boatwreck_back_props_m1
+GeometryTemplate.file boatwreck_back_props_m1
+
+GeometryTemplate.create StandardMesh boatwreck_front_m1
+GeometryTemplate.file boatwreck_front_m1
+
+GeometryTemplate.create StandardMesh boatwreck_front_props_m1
+GeometryTemplate.file boatwreck_front_props_m1
+
+GeometryTemplate.create StandardMesh boatwreck_m1
+GeometryTemplate.file boatwreck_m1

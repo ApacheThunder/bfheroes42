@@ -1,0 +1,47 @@
+ObjectTemplate.create HandFireArms ExpPack
+ObjectTemplate.loadSoundScript Sounds/ExpPack.ssc
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 4
+ObjectTemplate.projectileTemplate RemoteMineProjectile
+ObjectTemplate.projectilePosition 0/-0.1/1
+ObjectTemplate.projectileVisible 0
+ObjectTemplate.magSize 4
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/Icon_RemoteMineAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/grenades_tnt.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 10
+ObjectTemplate.addRootSpeed 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.2
+ObjectTemplate.fireDelay 0.5
+ObjectTemplate.soldierCameraPosition 0.02/-0.03/0.25
+ObjectTemplate.cantSelectWhenNoAmmo 1
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.material 70
+ObjectTemplate.hitpoints 10000
+ObjectTemplate.maxhitpoints 10000
+ObjectTemplate.ammoType	50
+ObjectTemplate.autoReload 0
+rem ------------------------------------------------
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+rem ------------------------------------------------
+ObjectTemplate.addTemplate RemoteMineSimple
+ObjectTemplate.setPosition 0.035/-0.033/0.065
+ObjectTemplate.setRotation 0/0/46.701
+
+
+ObjectTemplate.create SimpleObject RemoteMineSimple
+ObjectTemplate.geometry RemoteMine_m1
+ObjectTemplate.cullRadiusScale 5

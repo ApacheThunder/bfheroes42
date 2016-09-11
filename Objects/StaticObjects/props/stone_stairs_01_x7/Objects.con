@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject stone_stairs_01_x7
+ObjectTemplate.geometry stone_stairs_01_x7_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate bridgeAINoCover
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

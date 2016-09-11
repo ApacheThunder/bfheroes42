@@ -1,0 +1,32 @@
+ObjectTemplate.create Kit NA_Gunner_Kit_MiniTank
+ObjectTemplate.setType AT
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry ger_PirateKeg_Kit_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem --------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+rem --------------------------------------------
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Shotgun.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Common_KEG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_MG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_RPG.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_MiniTank.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Icon_Blank.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBallKick.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/National_SupplyDrop.tga"
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 2 "Kits/Icon_GunnerRPGClassAxis.tga"
+ObjectTemplate.setKitName 2 "GUNNER"
+ObjectTemplate.setKitActiveName 2 "ACTIVE GUNNERS"
+rem --------------------------------------------
+ObjectTemplate.addTemplate GER_MG_MG40
+ObjectTemplate.addTemplate GER_ShotGun
+ObjectTemplate.addTemplate ExplosiveKeg
+ObjectTemplate.addTemplate GER_AT_PanzerFaust
+ObjectTemplate.addTemplate Ger_miniTankKeg
+ObjectTemplate.addTemplate SoccerKick
+ObjectTemplate.addTemplate ger_supplydrop
+rem --------------------------------------------
+ObjectTemplate.aiTemplate AT

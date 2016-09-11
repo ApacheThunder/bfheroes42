@@ -1,0 +1,67 @@
+ObjectTemplate.create Engine BoatEngine
+ObjectTemplate.setNetworkableInfo BoatEngineInfo
+ObjectTemplate.loadSoundScript Sounds/BoatEngine.ssc
+ObjectTemplate.setMinRotation 0/0/-2000
+ObjectTemplate.setMaxRotation 0/0/3500
+ObjectTemplate.setMaxSpeed 0/0/3000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETShip
+ObjectTemplate.setTorque 7
+ObjectTemplate.setDifferential 3
+ObjectTemplate.setNoPropellerEffectAtSpeed 140
+rem ------------------------------------------
+ObjectTemplate.addTemplate e_BoatSmoke
+ObjectTemplate.setPosition 0/9.261/0.557
+
+
+ObjectTemplate.create Wing BoatRudder_Stern
+ObjectTemplate.setNetworkableInfo BoatWingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/10/0
+ObjectTemplate.setAcceleration 0/-15/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 3
+
+
+ObjectTemplate.create Wing BoatRudder_Aft
+ObjectTemplate.setNetworkableInfo BoatWingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/10/0
+ObjectTemplate.setAcceleration 0/15/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 3
+
+
+ObjectTemplate.create FloatingBundle BoatFloater
+ObjectTemplate.setHullHeight 3.5
+ObjectTemplate.setFloatMaxLift 8
+ObjectTemplate.setFloatMinLift 4
+ObjectTemplate.setSinkingSpeedMod 0.05
+
+ObjectTemplate.create FloatingBundle BoatFloaterRear
+ObjectTemplate.setHullHeight 3.5
+ObjectTemplate.setFloatMaxLift 8
+ObjectTemplate.setFloatMinLift 4
+ObjectTemplate.setSinkingSpeedMod 0.1
+
+
+ObjectTemplate.create Spring BoatWheel
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry bri_jeep_willys_whl_R_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1

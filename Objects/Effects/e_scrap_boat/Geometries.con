@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh fishingboat_e_01_wreckpiece_m1
+GeometryTemplate.file Vehicles/fishingboat_e_01_wreckpiece_m1
+GeometryTemplate.hasDynamicShadow 1

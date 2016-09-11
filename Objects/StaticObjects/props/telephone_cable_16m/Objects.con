@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject telephone_cable_16m
+ObjectTemplate.geometry telephone_cable_16m_m1
+ObjectTemplate.cullRadiusScale 5

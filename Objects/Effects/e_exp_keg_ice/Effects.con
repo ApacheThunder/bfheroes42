@@ -1,0 +1,12 @@
+ObjectTemplate.create EffectBundle e_exp_keg_ice
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_exp_large/Sounds/e_exp_large.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_keg
+ObjectTemplate.addTemplate Em_exp_keg_Smoke
+ObjectTemplate.addTemplate Em_exp_keg_Flash
+ObjectTemplate.addTemplate Em_exp_keg_Sparks
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.addTemplate e_GroundDecal_Ice
+ObjectTemplate.setPosition 0/-0.2/0
+rem -------------------------------------

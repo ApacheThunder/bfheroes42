@@ -1,0 +1,40 @@
+rem
+rem *** Vehicle Exhaust (Small) ***
+rem
+
+ObjectTemplate.create EffectBundle e_exhaust_small
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_exhaust_small
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.setStartOnEffects 32
+ObjectTemplate.setStopOnEffects 64
+ObjectTemplate.startAtCreation 0
+
+ObjectTemplate.create Emitter Em_exhaust_small
+ObjectTemplate.template Fx_exhaust_small
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 0
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 20
+ObjectTemplate.timeToLive CRD_UNIFORM/1/2/0
+ObjectTemplate.intensity CRD_UNIFORM/8/9/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-0.6/-0.8/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+ObjectTemplate.create SpriteParticle Fx_exhaust_small
+ObjectTemplate.texture Anim_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/0.6/0.8/0
+ObjectTemplate.size CRD_UNIFORM/0.35/0.7/0
+ObjectTemplate.gravityModifierOverTime 0/0|35/0|50/-0.05|75/-0.1|100/-0.2
+ObjectTemplate.sizeOverTime 0/0|50/0.5|75/0.65|85/0.75|100/1
+ObjectTemplate.drag CRD_NONE/0.35/0/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/15/0
+ObjectTemplate.colorRGBAOverTime 0/100/100/100/0|50/80/80/80/200|75/100/100/100/128|100/128/128/128/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/2/0/0

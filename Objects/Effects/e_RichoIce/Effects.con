@@ -1,0 +1,11 @@
+rem *** e_RichoGlassIce ***
+ObjectTemplate.create EffectBundle e_RichoIce
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_richoGround/Sounds/richoground.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoGlassBase
+ObjectTemplate.addTemplate Em_richoGlassGlint
+ObjectTemplate.addTemplate Em_RichoBase
+ObjectTemplate.setRotation 45/0/0.02
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+rem -------------------------------------

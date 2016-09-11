@@ -1,0 +1,52 @@
+ObjectTemplate.create Engine hoth_rocket_PhysicsEngine
+ObjectTemplate.setNetworkableInfo hoth_rocket_EngineInfo
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0.3/0/3000
+ObjectTemplate.setMaxRotation 0.3/0/3000
+ObjectTemplate.setMaxSpeed 1000/0/450
+ObjectTemplate.setAcceleration 500/0/5000
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETRocket
+ObjectTemplate.setTorque 100
+ObjectTemplate.setDifferential 20
+ObjectTemplate.setGearUp 0.7
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.setNoPropellerEffectAtSpeed 91
+
+
+ObjectTemplate.create Wing hoth_rocket_Physics_Rudder
+ObjectTemplate.setNetworkableInfo hoth_rocket_wingInfo
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 10
+ObjectTemplate.setFlapLift 3
+
+ObjectTemplate.create Wing hoth_rocket_Physics_BodyWingVertical
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 12
+ObjectTemplate.setFlapLift 0
+
+
+ObjectTemplate.create Wing hoth_rocket_Physics_PhyFlapsL
+ObjectTemplate.setNetworkableInfo hoth_rocket_wingInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/2.2
+ObjectTemplate.setWingLift 9
+ObjectTemplate.setFlapLift 8
+
+ObjectTemplate.create Wing hoth_rocket_Physics_PhyFlapsR
+ObjectTemplate.setNetworkableInfo hoth_rocket_wingInfo
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/2.2
+ObjectTemplate.setWingLift 9
+ObjectTemplate.setFlapLift 8

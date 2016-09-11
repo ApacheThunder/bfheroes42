@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject vine_wall_02
+ObjectTemplate.geometry vine_wall_02_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.cullRadiusScale 5

@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/MikuNyan.wav
+minDistance 20
+volume 1
+stereo
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 100
+	param 1
+	param -1
+endEffect

@@ -1,0 +1,126 @@
+rem *** GreenwoodEngine ***
+ObjectTemplate.create Engine GreenwoodEngine
+ObjectTemplate.setNetworkableInfo GreenwoodEngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/WillyEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Greenwood_Tire_FR_Rack
+ObjectTemplate.setPosition 0.7446/-0.209198/-0.020682
+ObjectTemplate.addTemplate Greenwood_Tire_FL_Rack
+ObjectTemplate.setPosition -0.74528/-0.209198/-0.020682
+ObjectTemplate.addTemplate Greenwood_Tire_RR
+ObjectTemplate.setPosition 0.74528/-0.209198/-3.51724
+ObjectTemplate.addTemplate Greenwood_Tire_RL
+ObjectTemplate.setPosition -0.74528/-0.209198/-3.51724
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-5000
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/55000
+ObjectTemplate.setAcceleration 0/0/55000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETCar
+ObjectTemplate.setTorque 14
+ObjectTemplate.setDifferential 9
+ObjectTemplate.setNumberOfGears 6
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.4
+
+
+
+rem *** Greenwood_Tire_FR ***
+ObjectTemplate.create Spring Greenwood_Tire_FR
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Greenwood_Tire_Right_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFRollGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustWheelFL
+ObjectTemplate.addTemplate e_wdustWheelF
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+rem *** Greenwood_Tire_FL ***
+ObjectTemplate.create Spring Greenwood_Tire_FL
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Greenwood_Tire_Left_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFRollGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustWheelFL
+ObjectTemplate.addTemplate e_wdustWheelF
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+rem *** Greenwood_Tire_RR ***
+ObjectTemplate.create Spring Greenwood_Tire_RR
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Greenwood_Tire_Right_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFEngineGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustWheelFL
+ObjectTemplate.addTemplate e_wdustWheelF
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+rem *** Greenwood_Tire_RL ***
+ObjectTemplate.create Spring Greenwood_Tire_RL
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry Greenwood_Tire_Left_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFEngineGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wdustWheelFL
+ObjectTemplate.addTemplate e_wdustWheelF
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+
+
+rem *** Steering Bundles ***
+
+ObjectTemplate.create RotationalBundle Greenwood_Tire_FR_Rack
+ObjectTemplate.setNetworkableInfo GreenwoodSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Greenwood_Tire_FR
+rem -------------------------------------
+ObjectTemplate.setMinRotation -23/0/0
+ObjectTemplate.setMaxRotation 23/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle Greenwood_Tire_FL_Rack
+ObjectTemplate.setNetworkableInfo GreenwoodSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Greenwood_Tire_FL
+rem -------------------------------------
+ObjectTemplate.setMinRotation -23/0/0
+ObjectTemplate.setMaxRotation 23/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1

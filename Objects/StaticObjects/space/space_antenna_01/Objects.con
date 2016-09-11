@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject space_antenna_01
+ObjectTemplate.geometry space_antenna_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

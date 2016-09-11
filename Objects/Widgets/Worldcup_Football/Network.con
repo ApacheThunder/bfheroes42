@@ -1,0 +1,3 @@
+NetworkableInfo.createNewInfo SoccerBallInfo
+NetworkableInfo.setPredictionMode PMLinear
+

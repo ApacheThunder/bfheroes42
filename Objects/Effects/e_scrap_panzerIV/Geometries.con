@@ -1,0 +1,15 @@
+GeometryTemplate.create StandardMesh ger_tank_w_tank_m1
+GeometryTemplate.file Vehicles/ger_tank_w_tank_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_tank_w_wheel_m1
+GeometryTemplate.file Vehicles/ger_tank_w_wheel_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_tank_w_barrel_m1
+GeometryTemplate.file Vehicles/ger_tank_w_barrel_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_tank_w_hatch_m1
+GeometryTemplate.file Vehicles/ger_tank_w_hatch_m1
+GeometryTemplate.hasDynamicShadow 1

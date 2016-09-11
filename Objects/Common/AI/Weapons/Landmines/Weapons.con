@@ -1,0 +1,13 @@
+weaponTemplate.create COM_Landmine
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0.0
+weaponTemplate.maxRange 5.0
+weaponTemplate.weaponActivate PIMenuSelect8
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 6.5
+weaponTemplate.setStrength HeavyArmour 11.0
+weaponTemplate.setStrength NavalArmour 5.5
+weaponTemplate.setStrength Submarine   0.0
+weaponTemplate.setStrength Air         0.0

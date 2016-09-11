@@ -1,0 +1,34 @@
+rem
+rem *** ambstat_Blinkinglight ***
+rem
+
+ObjectTemplate.create Bundle ambstat_Blinkinglight
+ObjectTemplate.geometry deathbox_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate e_sAmb_Blinkinglight
+
+ObjectTemplate.create EffectBundle e_sAmb_Blinkinglight
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_sAmb_Blinkinglight
+ObjectTemplate.setPosition 0/0.0642767/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+ObjectTemplate.create Emitter Em_sAmb_Blinkinglight
+ObjectTemplate.template Fx_sAmb_Blinkinglight
+ObjectTemplate.lodDistance 50
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_Blinkinglight
+ObjectTemplate.texture flare_star1
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+ObjectTemplate.size CRD_NONE/0.5/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0|25/1|75/1|100/0
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|25/255/1/1/255|75/255/1/1/255|100/0/0/0/0

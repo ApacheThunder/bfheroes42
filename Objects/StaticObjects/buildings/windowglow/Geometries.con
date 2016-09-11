@@ -1,0 +1,55 @@
+GeometryTemplate.create StandardMesh windowglow_01_m1
+GeometryTemplate.file windowglow_01_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 70
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_02_m1
+GeometryTemplate.file windowglow_02_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 60
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_03_m1
+GeometryTemplate.file windowglow_03_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 40
+rem GeometryTemplate.setLodDistance 2 55
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_04_m1
+GeometryTemplate.file windowglow_04_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 30
+rem GeometryTemplate.setLodDistance 2 55
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_05_m1
+GeometryTemplate.file windowglow_05_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 18
+rem GeometryTemplate.setLodDistance 2 22
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_06_m1
+GeometryTemplate.file windowglow_06_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 18
+rem GeometryTemplate.setLodDistance 2 22
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_07_m1
+GeometryTemplate.file windowglow_07_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 70
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_08_m1
+GeometryTemplate.file windowglow_08_m1
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh windowglow_09_m1
+GeometryTemplate.file windowglow_09_m1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 22
+GeometryTemplate.alphaLodDistance 512

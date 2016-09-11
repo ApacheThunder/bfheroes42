@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject mt_leaftree_cluster_02
+ObjectTemplate.geometry mt_leaftree_cluster_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

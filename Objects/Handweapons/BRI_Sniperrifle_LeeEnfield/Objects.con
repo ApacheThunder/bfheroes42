@@ -1,0 +1,83 @@
+ObjectTemplate.create HandFireArms BRI_Sniperrifle_LeeEnfield
+ObjectTemplate.itemIndex 3
+ObjectTemplate.zoomFov 0.1
+ObjectTemplate.projectileTemplate SniperProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.magSize 5
+ObjectTemplate.numOfMag -1
+ObjectTemplate.setHasMag 0
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 2.5
+ObjectTemplate.roundOfFire 1.0
+ObjectTemplate.autoReload 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.GUIIndex 113
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.setScopeIcon "HUD/sniper_scope.tga"
+ObjectTemplate.setSightIcon "HUD/blank_scope.tga" 
+ObjectTemplate.setSniperSight 0
+ObjectTemplate.useScope 1
+objectTemplate.aiTemplate COM_Rifle
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition 0.1/0/0
+ObjectTemplate.soldierCameraPosition -0.03/-0.04/0.1
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+ObjectTemplate.autoReload 1
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 0
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.35/0.75/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/0/0/0
+ObjectTemplate.timeToNotAllowChange 0.25
+ObjectTemplate.velocity 1200
+ObjectTemplate.setSpeedDev 0.8 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/RoyalSniperGun.ssc
+ObjectTemplate.createSkeleton animations/No4.ske
+ObjectTemplate.useSkeletonPartAsMain No4
+ObjectTemplate.addTemplate BRI_Sniperrifle_LeeEnfieldLod
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.052/0.956
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate e_ShellRifle_Left
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition -0.018/0.07/0.026
+
+
+ObjectTemplate.create SimpleObject BRI_Sniperrifle_LeeEnfieldSimple
+ObjectTemplate.geometry ShadeBRI_Sniperrifle_LeeEnfield_m1
+
+ObjectTemplate.create AnimatedBundle BRI_Sniperrifle_LeeEnfieldComplex
+ObjectTemplate.geometry BRI_Sniperrifle_LeeEnfield_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/No4.ske
+
+ObjectTemplate.create LodObject BRI_Sniperrifle_LeeEnfieldLod1
+rem ----------------------------------------
+ObjectTemplate.addTemplate BRI_Sniperrifle_LeeEnfieldComplex
+ObjectTemplate.addTemplate BRI_Sniperrifle_LeeEnfieldSimple
+rem ----------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create SimpleObject BRI_Sniperrifle_LeeEnfield_BadassSimple
+ObjectTemplate.geometry BRI_Sniperrifle_LeeEnfield_badass_m1
+
+ObjectTemplate.create AnimatedBundle BRI_Sniperrifle_LeeEnfield_BadassComplex
+ObjectTemplate.geometry BRI_Sniperrifle_LeeEnfield_badass_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/No4.ske
+
+ObjectTemplate.create LodObject BRI_Sniperrifle_LeeEnfieldLod2
+rem ----------------------------------------
+ObjectTemplate.addTemplate BRI_Sniperrifle_LeeEnfield_BadassComplex
+ObjectTemplate.addTemplate BRI_Sniperrifle_LeeEnfield_BadassSimple
+rem ----------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

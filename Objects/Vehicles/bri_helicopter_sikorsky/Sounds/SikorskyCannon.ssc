@@ -1,0 +1,115 @@
+*** Unknown ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Reload ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Release ***
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_HELI_Sikorsky_Browning1918_900RPM_Release.wav
+minDistance 25
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1
+endEffect
+
+*** Shell Bounce ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Far Distance ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Fire Loop ***
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_HELI_Sikorsky_Browning1918_900RPM_1.wav
+minDistance 25
+loop
+stop ImmediateReset
+dopplerOff
+priority 10
+randomStartPitch 0.01 / 0.01
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1
+endEffect
+
+
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_HELI_Sikorsky_Browning1918_900RPM_2.wav
+minDistance 25
+loop
+stop ImmediateReset
+dopplerOff
+priority 10
+randomStartPitch 0.01 / 0.01
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1
+endEffect
+
+
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_HELI_Sikorsky_Browning1918_900RPM_3.wav
+minDistance 25
+loop
+stop ImmediateReset
+dopplerOff
+priority 10
+randomStartPitch 0.01 / 0.01
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1
+endEffect
+
+
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_HELI_Sikorsky_Browning1918_900RPM_4.wav
+minDistance 25
+loop
+stop ImmediateReset
+dopplerOff
+priority 10
+randomStartPitch 0.01 / 0.01
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1
+endEffect
+
+randomPlay 1

@@ -1,0 +1,11 @@
+GeometryTemplate.create AnimatedMesh flagra_m1
+GeometryTemplate.setSkin animations/flag.skn
+GeometryTemplate.file flagra_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create AnimatedMesh flag_ra_m1
+GeometryTemplate.file flag_ra_m1
+GeometryTemplate.setSkin animations/CPFlag.skn
+GeometryTemplate.hasDynamicShadow 1

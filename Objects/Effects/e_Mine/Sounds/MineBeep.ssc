@@ -1,0 +1,15 @@
+newPatch
+load @ROOT/Sound/@RTD/MineBeep.wav
+minDistance 5
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 20
+	param 1
+	param -1
+endEffect

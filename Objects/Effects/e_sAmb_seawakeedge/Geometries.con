@@ -1,0 +1,15 @@
+GeometryTemplate.create StandardMesh WaterFoam01_m1
+GeometryTemplate.file WaterFoam01_m1
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh WaterFoam02_m1
+GeometryTemplate.file WaterFoam02_m1
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh WaterFoam03_m1
+GeometryTemplate.file WaterFoam03_m1
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh WaterFoam04_m1
+GeometryTemplate.file WaterFoam04_m1
+GeometryTemplate.alphaLodDistance 512

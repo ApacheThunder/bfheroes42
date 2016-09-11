@@ -1,0 +1,25 @@
+rem *** Skinned Soldier Parts. Addtemplate to soldier only! Not usable as kitparts! ***
+
+rem *** bri_m_feet002_boots002 ***
+GeometryTemplate.create AnimatedMesh bri_m_feet002_boots002_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_feet002.skn
+GeometryTemplate.file Items/bri_m_feet002_boots002_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** bri_m_feet004_fineshoes002 ***
+GeometryTemplate.create AnimatedMesh bri_m_feet004_fineshoes002_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_feet004.skn
+GeometryTemplate.file Items/bri_m_feet004_fineshoes002_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** ger_m_feet002_boots002 ***
+GeometryTemplate.create AnimatedMesh ger_m_feet002_boots002_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_feet002.skn
+GeometryTemplate.file Items/ger_m_feet002_boots002_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** ger_m_feet002_honor001 ***
+GeometryTemplate.create AnimatedMesh ger_m_feet002_honor001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_feet002.skn
+GeometryTemplate.file Items/ger_m_feet002_honor001_m1
+GeometryTemplate.hasDynamicShadow 1

@@ -1,0 +1,37 @@
+
+
+rem *** e_WaterTouchPlane ***
+ObjectTemplate.create EffectBundle e_WaterTouchPlane
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WaterTouchPlane
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.minDistanceUnderwaterSurface 0
+ObjectTemplate.maxDistanceUnderwaterSurface 0.01
+ObjectTemplate.addWorkOnMaterial 1
+
+rem *** Em_WaterTouchPlane ***
+ObjectTemplate.create Emitter Em_WaterTouchPlane
+ObjectTemplate.template Fx_WaterTouchPlane
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/60/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.IntensityAtSpeed 40
+ObjectTemplate.startRotation CRD_NONE/90/0/0
+ObjectTemplate.moveToWaterSurface 1
+
+
+rem *** Fx_WaterTouchPlane ***
+ObjectTemplate.create Particle Fx_WaterTouchPlane
+ObjectTemplate.geometry watermesh_streak_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/5/10/0
+ObjectTemplate.size CRD_NONE/10/0/0
+ObjectTemplate.sizeModifier 3/1/0.5
+ObjectTemplate.sizeOverTime 0/0.300012|27/0.9|100/1
+ObjectTemplate.alphaOverTime 0/1|60/1|100/0.0

@@ -1,0 +1,11 @@
+ObjectTemplate.create EffectBundle e_RichoWater_Laser
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_Richo_Laser/Sounds/richo_laser.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RichoWaterBase
+ObjectTemplate.setRotation 0/0/90
+ObjectTemplate.addTemplate Em_RichoWaterImpact
+ObjectTemplate.addTemplate Em_RichoWaterSprite
+ObjectTemplate.addTemplate Em_RichoImpactDecalLaser
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0

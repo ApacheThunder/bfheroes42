@@ -1,0 +1,40 @@
+ObjectTemplate.create EffectBundle e_WallLamp
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------
+ObjectTemplate.addTemplate Em_WallLamp
+rem ------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/1024/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/-1024/0
+rem ------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter Em_WallLamp
+ObjectTemplate.template Fx_WallLamp
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create SpriteParticle Fx_WallLamp
+ObjectTemplate.texture glow2_lamp
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+ObjectTemplate.useUVRotation 1

@@ -1,0 +1,115 @@
+ObjectTemplate.create Projectile Com_Knife_Projectile
+ObjectTemplate.geometry bullet_m1
+ObjectTemplate.timeToLive CRD_NONE/0.067/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 210
+
+
+rem *** These tracers are invisible and used for sound effect only. ***
+ObjectTemplate.create Projectile MGTracer
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.loadSoundScript ..\..\Vehicles\Common\projectile.ssc
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 4008
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.distToStartLoseDamage 40
+ObjectTemplate.distToMinDamage 80
+ObjectTemplate.noFFSound 1
+
+ObjectTemplate.create Projectile MGTracer_bc2
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.loadSoundScript ..\..\Vehicles\Common\projectile.ssc
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 4007
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.distToStartLoseDamage 50
+ObjectTemplate.distToMinDamage 80
+ObjectTemplate.noFFSound 1
+
+ObjectTemplate.create Projectile SMGTracer
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.loadSoundScript ..\..\Vehicles\Common\projectile.ssc
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.material 216
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.distToStartLoseDamage 40
+ObjectTemplate.distToMinDamage 80
+ObjectTemplate.noFFSound 1
+ObjectTemplate.invisible 1
+
+ObjectTemplate.create Projectile SMGTracer_bc2
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.loadSoundScript ..\..\Vehicles\Common\projectile.ssc
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.material 4010
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.distToStartLoseDamage 40
+ObjectTemplate.distToMinDamage 80
+ObjectTemplate.noFFSound 1
+ObjectTemplate.invisible 1
+
+ObjectTemplate.create Projectile ShotgunTracer
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.loadSoundScript ..\..\Vehicles\Common\projectile.ssc
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.material 256
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.minDamage 0.75
+ObjectTemplate.distToStartLoseDamage 15
+ObjectTemplate.distToMinDamage 25
+ObjectTemplate.noFFSound 1
+ObjectTemplate.invisible 1

@@ -1,0 +1,10 @@
+GeometryTemplate.create StandardMesh light_post_01_m1
+GeometryTemplate.file light_post_01_m1
+
+GeometryTemplate.create StandardMesh light_post_glow_01_m1
+GeometryTemplate.file light_post_glow_01_m1
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh light_post_glow_02_m1
+GeometryTemplate.file light_post_glow_02_m1
+GeometryTemplate.alphaLodDistance 512

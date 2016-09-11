@@ -1,0 +1,21 @@
+ObjectTemplate.create SimpleObject hoth_rocket_base
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry hoth_rocket_base_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject hoth_rocket_effects
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry hoth_rocket_effects_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject hoth_rocket_effects_nationals
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry hoth_rocket_effects_nationals_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject hoth_rocket_effects_royals
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry hoth_rocket_effects_royals_m1
+ObjectTemplate.cullRadiusScale 5

@@ -1,0 +1,22 @@
+GeometryTemplate.create StandardMesh lighthouse_e_01_m1
+GeometryTemplate.file lighthouse_e_01_m1
+
+GeometryTemplate.create StandardMesh lighthouse_ladder_e_01_m1
+GeometryTemplate.file lighthouse_ladder_e_01_m1
+
+GeometryTemplate.create StandardMesh DeathBox_lighthouse_m1
+GeometryTemplate.file Invisible/DeathBox_LightHouse_m1
+
+GeometryTemplate.create StandardMesh lighthouse_lightcone_e_01_m1
+GeometryTemplate.file lighthouse_lightcone_e_01_m1
+GeometryTemplate.alphaLodDistance 1024
+
+
+GeometryTemplate.create StandardMesh lighthouse_lightcone_m1
+GeometryTemplate.file lighthouse_lightcone_m1
+GeometryTemplate.alphaLodDistance 1024
+
+
+GeometryTemplate.create StandardMesh lighthouse_windowlights_e_01_m1
+GeometryTemplate.file lighthouse_windowlights_e_01_m1
+GeometryTemplate.alphaLodDistance 1024

@@ -1,0 +1,6 @@
+ObjectTemplate.create EffectBundle e_WillysDamage
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WillyDamage
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------

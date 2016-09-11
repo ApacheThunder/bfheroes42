@@ -1,0 +1,137 @@
+ObjectTemplate.create Projectile TroopTrap_Royals
+ObjectTemplate.loadSoundScript ../Sounds/TroopTrapBeep.ssc
+ObjectTemplate.geometry explosivetrap_bri_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 1
+ObjectTemplate.maxHitPoints 1
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.timeToLive CRD_NONE/360/0/0
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.radius 12
+ObjectTemplate.forceOnExplosion 25
+ObjectTemplate.explosionForce 25
+ObjectTemplate.explodeNearEnemyDistance 8
+ObjectTemplate.proximityFusePrimer 6
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.mass 20
+ObjectTemplate.material 1035
+ObjectTemplate.material2 855
+ObjectTemplate.damageType 1
+ObjectTemplate.endEffectTemplate e_exp_medium_NoDecal
+ObjectTemplate.noFFSound 1
+ObjectTemplate.isSticky 1
+ObjectTemplate.grip c_PGFDummyGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate e_BlueFlashingLight
+ObjectTemplate.setPosition 0/0.126/0.019
+ObjectTemplate.startOnEffects 1
+
+
+beginRem
+ObjectTemplate.create Projectile TTSpawnerProjectileBRI
+ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.saveInSeparateFile 1 
+ObjectTemplate.timeToLive CRD_NONE/0.12/0/0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.hasPointPhysics 1
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.damageType 1
+ObjectTemplate.ForceOnExplosion 0
+ObjectTemplate.radius 1
+ObjectTemplate.material 880
+ObjectTemplate.material2 880
+ObjectTemplate.minDamage 0.25
+rem -----------------------------------------------
+ObjectTemplate.addTemplate TTSpawnerRoyals
+ObjectTemplate.setPosition 0/0.2/0
+
+ObjectTemplate.create ObjectSpawner TTSpawnerRoyals
+ObjectTemplate.setObjectTemplate 2 TroopTrap_Royals
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.timeToLive 99999
+ObjectTemplate.distance 99999
+ObjectTemplate.maxNrOfObjectSpawned 1
+objectTemplate.maxNrOfObjectsToSpawn 1
+ObjectTemplate.spawnOffset 0/0.16/0
+ObjectTemplate.setTeam 2
+ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.resetWhenRemoved 1
+
+
+ObjectTemplate.create PlayerControlObject TroopTrap_Royals
+ObjectTemplate.networkableInfo TroopTrapBriInfo
+ObjectTemplate.loadSoundScript ../Sounds/TroopTrapBeep.ssc
+ObjectTemplate.geometry explosivetrap_bri_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.speedMod 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 260
+ObjectTemplate.maxHitPoints 260
+ObjectTemplate.material 1035
+ObjectTemplate.mass 200
+ObjectTemplate.drag 20
+ObjectTemplate.grip c_PGFContactGrip
+ObjectTemplate.criticalDamage 260
+ObjectTemplate.forceOnExplosion 25
+ObjectTemplate.explosionRadius 12
+ObjectTemplate.explosionMaterial 855
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hpLostWhileDamageFromWater 360
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timeToLiveAfterDeath 0.2
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.addArmorEffect 0 e_exp_medium 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_BlueFlashingLight
+ObjectTemplate.setPosition 0/0.126/0.019
+ObjectTemplate.startOnEffects 1
+rem -------------------------------------
+ObjectTemplate.addTemplate DummyWheelContact
+ObjectTemplate.setPosition -0.113/-0.005/0.159
+ObjectTemplate.addTemplate DummyWheelContact
+ObjectTemplate.setPosition 0.113/-0.005/0.159
+ObjectTemplate.addTemplate DummyWheelContact
+ObjectTemplate.setPosition -0.113/-0.005/-0.189
+ObjectTemplate.addTemplate DummyWheelContact
+ObjectTemplate.setPosition 0.113/-0.005/-0.189
+rem -------------------------------------
+ObjectTemplate.addTemplate DummyWheel
+ObjectTemplate.setPosition -0.113/0.126/0.159
+ObjectTemplate.addTemplate DummyWheel
+ObjectTemplate.setPosition 0.113/0.126/0.159
+ObjectTemplate.addTemplate DummyWheel
+ObjectTemplate.setPosition -0.113/0.126/-0.189
+ObjectTemplate.addTemplate DummyWheel
+ObjectTemplate.setPosition 0.113/0.126/-0.189
+rem -------------------------------------
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setVehicleIcon "Empty.dds"
+ObjectTemplate.setMinimapIcon "Empty.dds"
+
+endRem

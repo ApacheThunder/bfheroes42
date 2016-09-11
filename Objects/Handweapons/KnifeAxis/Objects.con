@@ -1,0 +1,50 @@
+ObjectTemplate.create HandFireArms KnifeAxis
+ObjectTemplate.itemIndex 1
+ObjectTemplate.projectileTemplate Com_Knife_Projectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 4
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 1
+ObjectTemplate.fireOnce c_True
+ObjectTemplate.roundOfFire 2
+ObjectTemplate.GUIIndex 83
+ObjectTemplate.setHudAmmoType ATNone
+ObjectTemplate.crossHairIcon "Crosshair/knife.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript ../KnifeAllies/Sounds/knife.ssc
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.1
+ObjectTemplate.aiTemplate Knife
+ObjectTemplate.velocity 50
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/KnifeAllies.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate ger_knifeLod
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create LodObject ger_knifeLod1
+ObjectTemplate.hasDynamicShadow 1
+rem ------------------------------------------
+ObjectTemplate.addTemplate COMKnifeComplex
+ObjectTemplate.addTemplate COMKnifeSimple
+rem ------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create LodObject ger_knifeLod2
+ObjectTemplate.hasDynamicShadow 1
+rem ------------------------------------------
+ObjectTemplate.addTemplate ger_knife_modComplex
+ObjectTemplate.addTemplate ger_knife_modSimple
+rem ------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create SimpleObject ger_knife_modSimple
+ObjectTemplate.geometry ger_knife_mod_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle ger_knife_modComplex
+ObjectTemplate.geometry ger_knife_mod_m1
+ObjectTemplate.createSkeleton animations/KnifeAllies.ske
+ObjectTemplate.hasDynamicShadow 1

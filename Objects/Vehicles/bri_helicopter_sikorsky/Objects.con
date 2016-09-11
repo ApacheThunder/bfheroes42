@@ -1,0 +1,331 @@
+rem
+rem *** bri_helicopter_sikorsky ***
+rem
+ObjectTemplate.create PlayerControlObject bri_helicopter_sikorsky
+ObjectTemplate.setNetworkableInfo sikorsky_info
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.drag 6
+ObjectTemplate.dragOffset 0.5/0.5/0.15
+ObjectTemplate.mass 2000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.hasArmor 1
+ObjectTemplate.angleMod 1
+ObjectTemplate.speedMod 1.5
+ObjectTemplate.hitpoints 190
+ObjectTemplate.maxhitpoints 190
+ObjectTemplate.material 60
+ObjectTemplate.criticalDamage 20
+ObjectTemplate.hpLostWhileCriticalDamage 0.2
+ObjectTemplate.explosionForceMod 15
+ObjectTemplate.hpLostWhileUpSideDown 30
+ObjectTemplate.hpLostWhileDamageFromWater 30
+ObjectTemplate.hpLostWhileDamageFromDeepWater 20
+ObjectTemplate.damageFromDeepWater 1
+ObjectTemplate.deepWaterDamageDelay 2
+ObjectTemplate.deepWaterLevel -0.5
+ObjectTemplate.addArmorEffect 70 e_StukaDamage 0/0.606/0.992
+ObjectTemplate.addArmorEffect 20 e_StukaFire 0/0.606/0.992
+ObjectTemplate.addArmorEffect 0 e_exp_large 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrap_sikorsky 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.addArmorEffect -1 e_scrap_sikorsky 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate Helicopter
+rem -------------------------------------
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.addTemplate lodsikorsky
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_mainrotor_shadow
+ObjectTemplate.setPosition 0/0.89673/0.93019
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2.5/-0.5/2 0/0/0
+ObjectTemplate.GUIIndex 108
+ObjectTemplate.setVehicleIcon "Vehicle/vehicleIcon_helicopter_BRI.tga"
+ObjectTemplate.setVehicleIconPos 30/90
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.crossHairIcon "Crosshair/plane.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_helicopter.dds"
+
+
+ObjectTemplate.create LodObject lodsikorsky
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorskyComplex
+ObjectTemplate.addTemplate sikorskySimple
+ObjectTemplate.addTemplate sikorskyWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector HelicopterLodSelector
+
+ObjectTemplate.create Bundle sikorskyComplex
+ObjectTemplate.geometry bri_helicopter_sikorsky_hull_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate BriHelicopterCamera
+ObjectTemplate.setPosition -0.25/-0.064/1.85
+ObjectTemplate.setRotation 0/1/0
+ObjectTemplate.addTemplate HelicopterSeat
+ObjectTemplate.setPosition 0/-0.5/1.65
+ObjectTemplate.addTemplate HelicopterEntry
+ObjectTemplate.setPosition 0/-0.5/0
+ObjectTemplate.addTemplate bri_helicopter_JoystickAnchor
+ObjectTemplate.setPosition 0/-0.5/1.95
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_miniguns
+ObjectTemplate.setPosition 0/-0.928/2.814
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_leftpassenger
+ObjectTemplate.setPosition -0.695/-0.802/1.085
+ObjectTemplate.addTemplate sikorsky_rightpassenger
+ObjectTemplate.setPosition 0.695/-0.802/1.085
+rem ------------------------------------
+ObjectTemplate.addTemplate sikorsky_mainroter
+ObjectTemplate.setPosition 0/0.89673/0.93019
+ObjectTemplate.setRotation 0/-90/0
+ObjectTemplate.addTemplate sikorsky_tailrotor
+ObjectTemplate.setPosition 0.18692/0.47338/-3.54908
+ObjectTemplate.setRotation 0/-90/0
+rem ------------------------------------
+ObjectTemplate.addTemplate sikorsky_EngineRack1
+ObjectTemplate.setPosition 0/2/2.7
+ObjectTemplate.addTemplate sikorsky_EngineRack2
+ObjectTemplate.setPosition 0/2/-2.7
+ObjectTemplate.addTemplate sikorsky_EngineRack3
+ObjectTemplate.setPosition 0/2/0
+ObjectTemplate.addTemplate HelicopterDropEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/90/0
+rem ------------------------------------
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition -1.181/-1.35/2.6
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition 1.181/-1.35/2.6
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition -1.181/-1.35/0.67
+ObjectTemplate.addTemplate sikorsky_fwheel
+ObjectTemplate.setPosition 1.181/-1.35/0.67
+ObjectTemplate.addTemplate sikorsky_rwheel
+ObjectTemplate.setPosition 0/-1.42/-1.896
+rem ------------------------------------
+ObjectTemplate.addTemplate sikorsky_fwheel_visible
+ObjectTemplate.setPosition -1.181/-1.233/0.67
+ObjectTemplate.addTemplate sikorsky_fwheel_visible
+ObjectTemplate.setPosition 1.181/-1.233/0.67
+ObjectTemplate.addTemplate sikorsky_rwheel_visible
+ObjectTemplate.setPosition 0/-1.302/-1.896
+
+
+ObjectTemplate.create SimpleObject sikorskySimple
+ObjectTemplate.geometry bri_helicopter_sikorsky_m2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+ObjectTemplate.create SimpleObject sikorskyWreck
+ObjectTemplate.geometry bri_helicopter_sikorsky_wreck_m1
+ObjectTemplate.createInvisible 1
+
+
+ObjectTemplate.create PlayerControlObject sikorsky_leftpassenger
+ObjectTemplate.setNetworkableInfo sikorsky_passenger_info
+ObjectTemplate.aiTemplate HelicopterPassenger1
+rem -------------------------------------
+ObjectTemplate.addTemplate HelicopterPassengerEntry
+ObjectTemplate.addTemplate HelicopterPassengerCamera
+ObjectTemplate.setPosition 0/0.7/0
+ObjectTemplate.setRotation -98/0/0
+ObjectTemplate.addTemplate HelicopterPassengerSeat
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.setRotation -98/0/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/0 -98/0/0
+ObjectTemplate.GUIIndex 108
+ObjectTemplate.setVehicleIcon "Vehicle/vehicleIcon_helicopter_BRI.tga"
+ObjectTemplate.setVehicleIconPos 42/99
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_helicopter.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.create PlayerControlObject sikorsky_rightpassenger
+ObjectTemplate.setNetworkableInfo sikorsky_passenger_info
+ObjectTemplate.aiTemplate HelicopterPassenger2
+rem -------------------------------------
+ObjectTemplate.addTemplate HelicopterPassengerEntry
+ObjectTemplate.addTemplate HelicopterPassengerCamera
+ObjectTemplate.setPosition 0/0.7/0
+ObjectTemplate.setRotation 98/0/0
+ObjectTemplate.addTemplate HelicopterPassengerSeat
+ObjectTemplate.setPosition 0/0.1/0
+ObjectTemplate.setRotation 98/0/0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 2/0/0 98/0/0
+ObjectTemplate.GUIIndex 47
+ObjectTemplate.setVehicleIcon "Vehicle/vehicleIcon_helicopter_BRI.tga"
+ObjectTemplate.setVehicleIconPos 42/81
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_helicopter.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+
+ObjectTemplate.create AnimatedBundle bri_helicopter_joystickAnchor
+rem -------------------------------------
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0/0.05/0 0/60/50
+ObjectTemplate.addSkeletonIK Bip01_L_Hand 0/0/0 0/-60/-50
+
+
+rem
+rem *** Engine Racks ***
+rem
+ObjectTemplate.create RotationalBundle Sikorsky_DummyEngineRack
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_helicopter_sikorsky_mainrotor
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -8/-8/-8
+ObjectTemplate.setMaxRotation 8/8/8
+ObjectTemplate.setMaxSpeed 150/150/-150
+ObjectTemplate.setAcceleration 150/150/-150
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+
+ObjectTemplate.create RotationalBundle sikorsky_EngineRack1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_HoverEngine1
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-10/-10
+ObjectTemplate.setMaxRotation 0/10/10
+ObjectTemplate.setMaxSpeed 0/75/-75
+ObjectTemplate.setAcceleration 0/75/-75
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle sikorsky_EngineRack2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_HoverEngine2
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-10/-10
+ObjectTemplate.setMaxRotation 0/10/10
+ObjectTemplate.setMaxSpeed 0/75/75
+ObjectTemplate.setAcceleration 0/75/75
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle sikorsky_EngineRack3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_HoverEngine3
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-15/-10
+ObjectTemplate.setMaxRotation 0/15/10
+ObjectTemplate.setMaxSpeed 0/250/-125
+ObjectTemplate.setAcceleration 0/250/-125
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+
+ObjectTemplate.create LodObject lodsikorsky_mainrotor
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_mainrotorStatic
+ObjectTemplate.addTemplate sikorsky_mainrotorBlurred
+rem -------------------------------------
+ObjectTemplate.lodSelector HelicopterPropSelector
+
+ObjectTemplate.create SimpleObject sikorsky_mainrotorStatic
+ObjectTemplate.geometry bri_helicopter_sikorsky_mainrotor_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject sikorsky_mainrotorBlurred
+ObjectTemplate.geometry bri_helicopter_sikorsky_mainrotor_blur_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+ObjectTemplate.create LodObject lodsikorsky_tailrotor
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate sikorsky_tailrotorStatic
+ObjectTemplate.addTemplate sikorsky_tailrotorBlurred
+rem -------------------------------------
+ObjectTemplate.lodSelector HelicopterPropSelector
+
+ObjectTemplate.create SimpleObject sikorsky_tailrotorStatic
+ObjectTemplate.geometry bri_helicopter_sikorsky_tailrotor_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+ObjectTemplate.create SimpleObject sikorsky_tailrotorBlurred
+ObjectTemplate.geometry bri_helicopter_sikorsky_tailrotor_blur_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create RotationalBundle sikorsky_mainrotor_shadow
+ObjectTemplate.geometry bri_helicopter_sikorsky_mainrotor_m1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/1000
+objectTemplate.setContinousRotationSpeed 500
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.createInvisible 1
+
+
+ObjectTemplate.create SimpleObject sikorsky_fwheel_visible
+ObjectTemplate.geometry bri_helicopter_sikorsky_fwheel_m1
+
+ObjectTemplate.create SimpleObject sikorsky_rwheel_visible
+ObjectTemplate.geometry bri_helicopter_sikorsky_rwheel_m1

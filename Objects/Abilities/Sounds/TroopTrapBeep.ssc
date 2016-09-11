@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Ability_Com_TroopTrap_Beep_01.wav
+minDistance 15
+loop
+dopplerOff
+volume 0.5
+priority 4
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 15
+	param 1
+	param -1	
+endEffect

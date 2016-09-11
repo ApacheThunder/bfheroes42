@@ -1,0 +1,2 @@
+NetworkableInfo.createNewInfo sphereInfo
+NetworkableInfo.setPredictionMode PMLinear

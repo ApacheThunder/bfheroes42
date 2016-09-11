@@ -1,0 +1,10 @@
+aiTemplatePlugIn.create Physical fountain_m1Physical
+
+rem *** AITemplate ***
+aiTemplate.create fountain_m1
+aiTemplate.addType ITScaleRender
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn fountain_m1Physical

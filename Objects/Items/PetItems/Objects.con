@@ -1,0 +1,32 @@
+rem *** Royal Pets ***
+
+rem *** Eagle ***
+ObjectTemplate.create SimpleObject bri_PetItem1
+ObjectTemplate.geometry bri_m_chestitem020_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Monkey ***
+ObjectTemplate.create SimpleObject bri_PetItem2
+ObjectTemplate.geometry bri_m_chestitem014_m1
+ObjectTemplate.hasDynamicShadow 1
+
+
+rem *** National Pets ***
+
+rem *** Cobra ***
+ObjectTemplate.create SimpleObject ger_PetItem1
+ObjectTemplate.geometry ger_m_chestitem019_Corba001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Parrot ***
+ObjectTemplate.create SimpleObject ger_PetItem2
+ObjectTemplate.geometry ger_m_chestitem009_parrot001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Dummy Items ***
+
+ObjectTemplate.create SimpleObject bri_PetItem3
+ObjectTEmplate.geometry InvisibleKit_m1
+
+ObjectTemplate.create SimpleObject ger_PetItem3
+ObjectTEmplate.geometry InvisibleKit_m1

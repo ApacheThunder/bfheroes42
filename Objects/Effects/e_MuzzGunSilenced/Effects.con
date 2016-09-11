@@ -1,0 +1,40 @@
+ObjectTemplate.create EffectBundle e_MuzzGunSilenced
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_MuzzGunSilenced
+ObjectTemplate.addTemplate em_MuzzGunSilenced_1p
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+ObjectTemplate.create Emitter em_MuzzGunSilenced_1p
+ObjectTemplate.template fx_MuzzGunSilenced
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.4/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.showInFirstPerson 1
+
+ObjectTemplate.create Emitter em_MuzzGunSilenced
+ObjectTemplate.template fx_MuzzGunSilenced
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.4/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.showInThirdPerson 1
+
+
+ObjectTemplate.create SpriteParticle fx_MuzzGunSilenced
+ObjectTemplate.timeToLive CRD_UNIFORM/0.5/0.5/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.2/0/0
+ObjectTemplate.drag CRD_NONE/0.2/0/0
+ObjectTemplate.sizeOverTime 0/0.01|100/0.25
+ObjectTemplate.gravityModifierOverTime 0/0|100/0.990005
+ObjectTemplate.texture e_muzs1_I
+ObjectTemplate.initRotation CRD_NONE/1/180/1
+ObjectTemplate.XYSizeRatio CRD_NORMAL/1.4/0/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/15/75/1
+ObjectTemplate.rotationSpeedOverTime 0/0.100009|100/1
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/204|87/33/33/33/51|100/0/0/0/0
+

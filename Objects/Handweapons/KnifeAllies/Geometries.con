@@ -1,0 +1,13 @@
+GeometryTemplate.create StandardMesh com_knife_m1
+GeometryTemplate.file HandWeapons/com_knife_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_knife_mod_m1
+GeometryTemplate.file HandWeapons/bri_knife_mod_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 7
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Shade_com_knife_m1
+GeometryTemplate.file HandWeapons/Shade_com_knife_m1
+GeometryTemplate.hasDynamicShadow 1

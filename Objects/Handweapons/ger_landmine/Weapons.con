@@ -1,0 +1,24 @@
+ObjectTemplate.create Projectile ger_landmine_projectile
+ObjectTemplate.geometry ger_landmine_m1
+ObjectTemplate.cullRadiusScale 10
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.timeToLive CRD_NONE/360/0/0
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.radius 5
+ObjectTemplate.forceOnExplosion 30
+ObjectTemplate.explodeNearEnemyDistance 3
+ObjectTemplate.proximityFusePrimer 6
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.mass 600
+ObjectTemplate.material 4013
+ObjectTemplate.material2 4014
+ObjectTemplate.damageType 4
+ObjectTemplate.endEffectTemplate e_exp_medium_NoDecal
+ObjectTemplate.noFFSound 1
+ObjectTemplate.isSticky 1

@@ -1,0 +1,76 @@
+ObjectTemplate.create EffectBundle e_scrap_spitfire
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exp_medium_NoDecal
+ObjectTemplate.setRotation 0/-60/0
+rem -------------------------------------
+ObjectTemplate.addTemplate em_bri_plane_spitfire_w_Rwing
+ObjectTemplate.setPosition 2.901/-0.545/0.763
+ObjectTemplate.addTemplate em_bri_plane_spitfire_w_Tail
+ObjectTemplate.setPosition 0/0.177/-1.577
+ObjectTemplate.addTemplate em_bri_plane_spitfire_w_wing
+ObjectTemplate.setPosition -1.686/-0.59/0.594
+ObjectTemplate.addTemplate em_bri_plane_spitfire_w_body
+ObjectTemplate.setPosition 0/0.498/1.012
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+ObjectTemplate.create EffectBundle e_scrap_spitfire_Water
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_bri_plane_spitfire_w_Rwing
+ObjectTemplate.setPosition 2.901/-0.545/0.763
+ObjectTemplate.addTemplate em_bri_plane_spitfire_w_Tail
+ObjectTemplate.setPosition 0/0.177/-1.577
+ObjectTemplate.addTemplate em_bri_plane_spitfire_w_body
+ObjectTemplate.setPosition 0/0.498/1.012
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+ObjectTemplate.create Emitter em_bri_plane_spitfire_w_Rwing
+ObjectTemplate.template bri_plane_spitfire_w_Rwing
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 300
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/9/5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/7/6/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/8/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/16/12/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_bri_plane_spitfire_w_Tail
+ObjectTemplate.template bri_plane_spitfire_w_Tail
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 400
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-15/-5/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/15/5/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/2/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_bri_plane_spitfire_w_wing
+ObjectTemplate.template bri_plane_spitfire_w_wing
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 150
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/6/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-10/-6/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/2/1/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/6/4/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_bri_plane_spitfire_w_body
+ObjectTemplate.template bri_plane_spitfire_w_body
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0

@@ -1,0 +1,102 @@
+rem *** MiniTank ***
+ObjectTemplate.create PlayerControlObject Ger_MiniTank
+ObjectTemplate.setNetworkableInfo NAMiniTankInfo
+ObjectTemplate.loadSoundScript ../bri_minitank/Sounds/MiniTankSpawn.ssc
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.drag 2
+ObjectTemplate.mass 500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 30
+ObjectTemplate.maxhitpoints 30
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 10
+ObjectTemplate.explosionRadius 0
+ObjectTEmplate.explosionDamage 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hpLostWhileCriticalDamage 0.5
+ObjectTemplate.hpLostWhileUpSideDown 10
+ObjectTemplate.hpLostWhileDamageFromWater 5
+ObjectTemplate.addArmorEffect 0 e_exp_medium 0/0.15/0
+ObjectTemplate.addArmorEffect 0 e_scrap_minitank 0/0.15/0
+ObjectTEmplate.addArmorEffect 0 e_GroundDecalLarge 0/0.15/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0.15/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.destroyOnExit 1
+ObjectTemplate.exitSpeedMod 0
+ObjectTemplate.speedMod 0.1
+ObjectTemplate.timetoliveafterdeath 1
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.aiTemplate MiniTank
+ObjectTemplate.vehicleFov 1
+ObjectTemplate.exitTimer 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodGer_MiniTank
+rem -------------------------------------
+ObjectTemplate.cameraDelayTime 5.0
+ObjectTemplate.cameraDelayDistance 15.0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.2/1/0 0/0/0
+ObjectTemplate.setVehicleIcon "Empty.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABIconOnly
+ObjectTemplate.setHasTurretIcon 1
+ObjectTemplate.crossHairIcon "HUD/MiniTankHUD.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_miniTank_32x32.tga"
+
+ObjectTemplate.create lodObject lodGer_MiniTank
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate Ger_MiniTankComplex
+ObjectTemplate.addTemplate NULL_OBJECT
+rem --------------------------------------------
+ObjectTemplate.lodSelector MiniTankLodSelector
+
+
+ObjectTemplate.create Bundle Ger_MiniTankComplex
+ObjectTemplate.geometry MiniTank_Hull_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate MiniTank_Engine
+ObjectTemplate.addTemplate Ger_MiniTank_Tower
+ObjectTemplate.setPosition 0/0.075/-0.196
+ObjectTemplate.addTemplate MiniTank_Arms
+ObjectTemplate.setPosition 0/0.068/-0.087
+ObjectTemplate.setRotation 0/-20/0
+ObjectTemplate.addTemplate MiniTank_Entry
+ObjectTemplate.addTemplate MiniTank_Detonator
+ObjectTemplate.setPosition 0/1/0
+
+rem *** MiniTank_Tower ***
+ObjectTemplate.create RotationalBundle Ger_MiniTank_Tower
+ObjectTemplate.setNetworkableInfo NAMiniTank_TurretInfo
+ObjectTemplate.geometry Ger_MiniTank_Tower_m1
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MiniTank_CameraTower
+ObjectTemplate.setPosition 0.096/0.758/0.285
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 35/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX

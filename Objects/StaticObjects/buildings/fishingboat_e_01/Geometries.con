@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh fishingboat_e_01_m1
+GeometryTemplate.file fishingboat_e_01_m1
+
+GeometryTemplate.create StandardMesh fishingboat_night_e_01_m1
+GeometryTemplate.file fishingboat_night_e_01_m1
+
+GeometryTemplate.create StandardMesh fishingboat_night_e_01_props_m1
+GeometryTemplate.file fishingboat_night_e_01_props_m1

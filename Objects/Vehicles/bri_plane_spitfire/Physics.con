@@ -1,0 +1,92 @@
+ObjectTemplate.create Engine Bri_Plane_Engine
+ObjectTemplate.setNetworkableInfo bri_plane_engine_info
+ObjectTemplate.loadSoundScript Sounds/spitfire_engine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation -0.3/0/-3000
+ObjectTemplate.setMaxRotation 0.3/0/5000
+ObjectTemplate.setMaxSpeed 1000/0/500
+ObjectTemplate.setAcceleration 500/0/1000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 25
+ObjectTemplate.setDifferential 20
+ObjectTemplate.setGearUp 0.7
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.setNoPropellerEffectAtSpeed 70
+
+ObjectTemplate.create Engine bri_plane_DummyEngine
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodbri_Plane_Propeller
+ObjectTemplate.setPosition 0/0.31/-0.5
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition 0.435/0.15/-1.4
+ObjectTemplate.setRotation -45/30/0
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.435/0.15/-1.4
+ObjectTemplate.setRotation 45/30/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/500
+ObjectTemplate.setMaxRotation 0/0/3500
+ObjectTemplate.setMaxSpeed 0/0/500
+ObjectTemplate.setAcceleration 0/0/500
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+
+
+ObjectTemplate.create Engine bri_plane_DummyEngine2
+rem ----------------------------------------------
+ObjectTemplate.addTemplate bri_plane_L_LandingGear
+ObjectTemplate.setPosition -0.613/0.241/1.281
+ObjectTemplate.addTemplate bri_plane_R_LandingGear
+ObjectTemplate.setPosition 0.608/0.241/1.281
+rem ----------------------------------------------
+ObjectTemplate.setMinRotation -0.3/0/-3000
+ObjectTemplate.setMaxRotation 0.3/0/5000
+ObjectTemplate.setMaxSpeed 1000/0/500
+ObjectTemplate.setAcceleration 500/0/1000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETCar
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+ObjectTemplate.create Spring bri_Plane_Wheel
+ObjectTemplate.geometry bri_plane_wheel_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+rem -------------------------------------
+ObjectTemplate.addTemplate e_WaterTouchPlane
+ObjectTemplate.addTemplate e_wheeldust
+ObjectTemplate.addTemplate e_wheelgrass
+ObjectTemplate.addTemplate e_wheelgravel
+ObjectTemplate.addTemplate e_wheelmud
+ObjectTemplate.addTemplate e_wheelsand
+ObjectTemplate.addTemplate e_wheelwetdirt
+ObjectTemplate.addTemplate e_wheelwetgrass
+ObjectTemplate.addTemplate e_wheelwetsand
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 15
+
+ObjectTemplate.create Spring bri_plane_backWheel
+ObjectTemplate.geometry bri_plane_backwheel_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 15

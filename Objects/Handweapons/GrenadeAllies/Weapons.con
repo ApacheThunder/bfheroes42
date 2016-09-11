@@ -1,0 +1,58 @@
+ObjectTemplate.create Projectile Bri_GrenadeProjectile
+ObjectTemplate.loadSoundScript Sounds/COM_GrenadeTicking.ssc
+ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.hasStartEffect 1
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.timeToLive CRD_NONE/2.8/0/0
+ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.gravityModifier 0.8
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.damageOwner 1
+ObjectTemplate.radius 15.0
+ObjectTemplate.damageType 1
+ObjectTemplate.proximityFusePrimer 0.5
+ObjectTemplate.explodeNearEnemyDistance 1.5
+ObjectTemplate.mass 2
+ObjectTemplate.material 70
+ObjectTemplate.material2 205
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.endEffectTemplate e_exp_medium
+ObjectTemplate.noFFSound 1
+rem -------------------------------------
+ObjectTemplate.startEffectTemplate e_GrenadeTrail
+
+
+rem *** Old Vanilla Projectile ***
+
+ObjectTemplate.create Projectile GrenadeAlliesProjectile
+ObjectTemplate.networkableInfo ProjectileInfo
+ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 9999
+ObjectTemplate.maxHitPoints 9999
+ObjectTemplate.explosionDamage 0
+rem *** MattiasH doesn't permit random time on projectiles. ask him about this.
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.radius 15.0
+ObjectTemplate.damageType 1
+ObjectTemplate.material 70
+ObjectTemplate.material2 205
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.endEffectTemplate e_ExplGranade
+ObjectTemplate.noFFSound 1

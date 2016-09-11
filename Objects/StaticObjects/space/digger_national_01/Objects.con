@@ -1,0 +1,19 @@
+ObjectTemplate.create SimpleObject digger_national_01
+ObjectTemplate.geometry digger_national_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject digger_national_cog
+ObjectTemplate.geometry digger_national_cog_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject digger_national_plate
+ObjectTemplate.geometry digger_national_plate_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject digger_national_trackpiece
+ObjectTemplate.geometry digger_national_trackpiece_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5

@@ -1,0 +1,23 @@
+GeometryTemplate.create StandardMesh wreck_bri_jeep_willy_wheel_m1
+GeometryTemplate.file Vehicles/wreck_bri_jeep_willy_wheel_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_bri_jeep_willy_leftdoor_m1
+GeometryTemplate.file Vehicles/wreck_bri_jeep_willy_leftdoor_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_bri_jeep_willy_gaspipe_m1
+GeometryTemplate.file Vehicles/wreck_bri_jeep_willy_gaspipe_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_bri_jeep_willy_gastank_m1
+GeometryTemplate.file Vehicles/wreck_bri_jeep_willy_gastank_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_bri_jeep_willy_underside_m1
+GeometryTemplate.file Vehicles/wreck_bri_jeep_willy_underside_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh wreck_bri_jeep_willy_engcap_m1
+GeometryTemplate.file Vehicles/wreck_bri_jeep_willy_engcap_m1
+GeometryTemplate.hasDynamicShadow 1

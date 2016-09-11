@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo Ambient_Info
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo AmbientBats_Info
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo AmbientOwl_Info
+NetworkableInfo.setPredictionMode PMNone
+
+NetworkableInfo.createNewInfo AmbientWolf_Info
+NetworkableInfo.setPredictionMode PMNone

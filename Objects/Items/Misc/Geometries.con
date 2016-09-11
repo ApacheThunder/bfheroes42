@@ -1,0 +1,109 @@
+renderer.beginGlobalCluster Hatsune_Miku_Upper
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_Head_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_Head.skn
+GeometryTemplate.file Items/Hatsune_Miku_Head_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_LArm_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_LArm.skn
+GeometryTemplate.file Items/Hatsune_Miku_LArm_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_LHair_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_LHair.skn
+GeometryTemplate.file Items/Hatsune_Miku_LHair_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_LHand_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_LHand.skn
+GeometryTemplate.file Items/Hatsune_Miku_LHand_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_Logo_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_Logo.skn
+GeometryTemplate.file Items/Hatsune_Miku_Logo_m1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_RArm_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_RArm.skn
+GeometryTemplate.file Items/Hatsune_Miku_RArm_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_RHair_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_RHair.skn
+GeometryTemplate.file Items/Hatsune_Miku_RHair_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_RHand_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_RHand.skn
+GeometryTemplate.file Items/Hatsune_Miku_RHand_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_Shirt_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_Shirt.skn
+GeometryTemplate.file Items/Hatsune_Miku_Shirt_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_Tie_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_Tie.skn
+GeometryTemplate.file Items/Hatsune_Miku_Tie_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+renderer.beginGlobalCluster Hatsune_Miku_Lower
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_Feet_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_Feet.skn
+GeometryTemplate.file Items/Hatsune_Miku_Feet_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_Skirt_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_Skirt.skn
+GeometryTemplate.file Items/Hatsune_Miku_Skirt_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_LBody_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_LBody.skn
+GeometryTemplate.file Items/Hatsune_Miku_LBody_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create AnimatedMesh Hatsune_Miku_Leek_m1
+GeometryTemplate.setSkin Animations/Items/Hatsune_Miku_Leek.skn
+GeometryTemplate.file Items/Hatsune_Miku_Leek_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh Leek_m1
+GeometryTemplate.file Items/Leek_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0

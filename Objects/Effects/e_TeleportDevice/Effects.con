@@ -1,0 +1,87 @@
+ObjectTemplate.create EffectBundle e_TeleportDeviceNational_idle
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/teleporter_idle.ssc
+rem ----------------------------------------
+ObjectTemplate.addTemplate em_TeleportDeviceNational_idle_rings
+ObjectTemplate.addTemplate em_TeleportDeviceNational_idle_streck
+ObjectTemplate.setPosition 0/-0.09/0
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_TeleportDeviceRoyal_idle
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/teleporter_idle.ssc
+rem ----------------------------------------
+ObjectTemplate.addTemplate em_TeleportDeviceRoyal_idle_rings
+ObjectTemplate.addTemplate em_TeleportDeviceRoyal_idle_streck
+ObjectTemplate.setPosition 0/-0.09/0
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+ObjectTemplate.create Emitter em_TeleportDeviceNational_idle_rings
+ObjectTemplate.template Fx_TeleportDeviceNational_idle_rings
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1.5/0/0
+
+ObjectTemplate.create Emitter em_TeleportDeviceNational_idle_streck
+ObjectTemplate.template Fx_TeleportDeviceNational_idle_streck
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/6/0/0
+
+ObjectTemplate.create Emitter em_TeleportDeviceRoyal_idle_rings
+ObjectTemplate.template Fx_TeleportDeviceRoyal_idle_rings
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1.5/0/0
+
+ObjectTemplate.create Emitter em_TeleportDeviceRoyal_idle_streck
+ObjectTemplate.template Fx_TeleportDeviceRoyal_idle_streck
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/6/0/0
+
+
+ObjectTemplate.create Particle Fx_TeleportDeviceNational_idle_rings
+ObjectTemplate.geometry StandardMesh:mp_tele_ring_red_m1
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.3|50/1|100/1
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 0.5/0.5/0.5
+ObjectTemplate.alphaOverTime 0/0|60/1|75/0.8|100/0
+
+ObjectTemplate.create Particle Fx_TeleportDeviceNational_idle_streck
+ObjectTemplate.geometry StandardMesh:mp_spark2_red_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/1|100/0.61
+
+ObjectTemplate.create Particle Fx_TeleportDeviceRoyal_idle_rings
+ObjectTemplate.geometry StandardMesh:mp_tele_ring_blue_m1
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.3|50/1|100/1
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 0.5/0.5/0.5
+ObjectTemplate.alphaOverTime 0/0|60/1|75/0.8|100/0
+
+ObjectTemplate.create Particle Fx_TeleportDeviceRoyal_idle_streck
+ObjectTemplate.geometry StandardMesh:mp_spark2_blue_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/1|100/0.61

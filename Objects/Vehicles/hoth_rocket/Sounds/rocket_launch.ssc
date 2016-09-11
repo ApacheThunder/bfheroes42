@@ -1,0 +1,32 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_CM_Rocket_Launch.wav
+minDistance 2
+dopplerOff
+priority 6
+stereo
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 2
+	param 1
+	param -1
+endEffect
+
+
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_CM_Rocket_Launch2.wav
+minDistance 3
+dopplerOff
+priority 6
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 200
+	param 1
+	param -1
+endEffect

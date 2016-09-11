@@ -1,0 +1,54 @@
+ObjectTemplate.create HandFireArms explosivetrap_bri
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript ../Sounds/KegAndTT.ssc
+ObjectTemplate.itemIndex 5
+ObjectTemplate.projectileTemplate TroopTrap_Royals
+ObjectTemplate.projectilePosition 0/-0.1/1.5
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/Icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/shotgun.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 10
+ObjectTemplate.addRootSpeed 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.fireDelay 0.4
+ObjectTemplate.soldierCameraPosition 0.02/-0.03/0.25
+ObjectTemplate.cantSelectWhenNoAmmo 0
+ObjectTemplate.changeWeaponWhenNoAmmo 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.AmmoType	2
+ObjectTemplate.autoReload 1
+ObjectTemplate.hideDuringFireTime 0.2
+ObjectTemplate.grip c_PGFDummyGrip
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate explosivetrap_briLod
+
+ObjectTemplate.create SimpleObject explosivetrap_briSimple
+ObjectTemplate.geometry Shad_explosivetrap_bri_L1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle explosivetrap_briComplex
+ObjectTemplate.geometry Shad_explosivetrap_bri_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+
+ObjectTemplate.create LodObject explosivetrap_briLod
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------
+ObjectTemplate.addTemplate explosivetrap_briComplex
+ObjectTemplate.setPosition -0.024/0/0.024
+ObjectTemplate.setRotation -45/0/0
+ObjectTemplate.addTemplate explosivetrap_briSimple
+ObjectTemplate.setPosition -0.024/0/0.024
+ObjectTemplate.setRotation -45/0/0
+rem --------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

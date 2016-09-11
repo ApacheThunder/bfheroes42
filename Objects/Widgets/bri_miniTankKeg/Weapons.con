@@ -1,0 +1,143 @@
+ObjectTemplate.create Projectile bri_MiniTankSpawnProjectile
+ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.saveInSeparateFile 1 
+ObjectTemplate.timeToLive CRD_NONE/0.12/0/0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasPointPhysics 1
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.damageType 1
+ObjectTemplate.forceOnExplosion 0
+ObjectTemplate.radius 0
+ObjectTemplate.material 2
+rem -----------------------------------------------
+if v_arg1 == host
+ObjectTemplate.addTemplate bri_minitank_tripod_spawner
+ObjectTemplate.setPosition 0/0.2/0
+else
+endIf
+
+ObjectTemplate.create FireArms Bri_MiniTank_Launcher
+ObjectTemplate.networkableInfo TankFireArmInfo
+ObjectTemplate.projectileTemplate Bri_MiniTank
+ObjectTemplate.visibleDummyProjectileTemplate bri_MiniTank_Dummy
+ObjectTemplate.aiTemplate MiniTank_TripodGun
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.velocity 0
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 12
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.fireonce 1
+ObjectTemplate.disableWhenFired 1
+ObjectTemplate.magType 0
+
+
+
+ObjectTemplate.create ObjectSpawner bri_minitank_tripod_spawner
+ObjectTemplate.setObjectTemplate 2 Bri_MiniTank_Tripod
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 5
+ObjectTemplate.timeToLive 999
+ObjectTemplate.distance 999
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.spawnOffset 0/-2/0
+ObjectTemplate.team 2
+ObjectTemplate.teamOnVehicle 1
+rem ObjectTemplate.removeAtRestart 1
+
+
+ObjectTemplate.create PlayerControlObject Bri_MiniTank_Tripod
+ObjectTemplate.setNetworkableInfo MiniTank_BodyInfo
+ObjectTemplate.geometry laptop_tripod_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.aiTemplate MinitankTripod
+ObjectTemplate.drag 10
+ObjectTemplate.mass 500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 40
+ObjectTemplate.maxhitpoints 40
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 10
+ObjectTemplate.explosionForce 4
+ObjectTemplate.explosionForceMod 8
+ObjectTemplate.explosionRadius 1
+ObjectTemplate.explosionDamage 10
+ObjectTemplate.hpLostWhileCriticalDamage 0.5
+ObjectTemplate.hpLostWhileUpSideDown 10
+ObjectTemplate.hpLostWhileDamageFromWater 5
+ObjectTemplate.addArmorEffect 0 e_exp_medium 0/0.15/0
+ObjectTEmplate.addArmorEffect 0 e_GroundDecalLarge 0/0.15/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0.15/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.speedMod 0.5
+ObjectTemplate.timetoliveafterdeath 0.1
+ObjectTemplate.noCollisionAsDestroyed 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.exitTimer 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MiniTank_Entry
+ObjectTemplate.addTemplate MiniTankTripod_Seat
+ObjectTemplate.setPosition 0/0.97/-0.464
+ObjectTemplate.addTemplate Bri_MiniTank_Launcher
+ObjectTemplate.setPosition 0.551/0.079/0.578
+ObjectTemplate.addTemplate MiniTank_TripodCamera
+ObjectTemplate.setPosition 0/1.436/-0.438
+rem -------------------------------------
+ObjectTemplate.addTemplate DummyWheel
+ObjectTemplate.setPosition 0.363/-0.01/-0.227
+ObjectTemplate.addTemplate DummyWheel
+ObjectTemplate.setPosition -0.363/-0.01/-0.227
+ObjectTemplate.addTemplate DummyWheel
+ObjectTemplate.setPosition 0/-0.01/0.425
+rem -------------------------------------
+ObjectTemplate.addTemplate Attach_L_Hand
+ObjectTemplate.setPosition -0.118/1.268/-0.102
+ObjectTemplate.addTemplate Attach_R_Hand
+ObjectTemplate.setPosition -0.118/1.268/-0.102
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/1/-0.438 0/0/0
+ObjectTemplate.setVehicleIcon "Empty.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_miniTank_32x32.tga"
+
+ObjectTemplate.create Camera MiniTank_TripodCamera
+ObjectTemplate.setMinRotation 80/-75/0
+ObjectTemplate.setMaxRotation 80/60/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+ObjectTemplate.create SeatObject MiniTankTripod_Seat
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
+rem ObjectTemplate.seatAnimationLowerBody Lb_PassengerInWilly
+ObjectTemplate.upAngleMultilplier 0.1
+ObjectTemplate.rightAngleMultilplier 0.1
+
+ObjectTemplate.create SimpleObject Bri_MiniTank_Dummy
+ObjectTemplate.geometry Bri_MiniTank_m2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.material 45

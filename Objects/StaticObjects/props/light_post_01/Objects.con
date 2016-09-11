@@ -1,0 +1,18 @@
+ObjectTemplate.create Bundle light_post_01
+ObjectTemplate.geometry light_post_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+rem *** This is added on a per-map basis. Don't addtemplate it here. ***
+ObjectTemplate.create Bundle light_post_glow_01
+ObjectTemplate.geometry light_post_glow_01_m1
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_glow2
+ObjectTemplate.setPosition 0/3.55/0
+
+ObjectTemplate.create Bundle light_post_glow_02
+ObjectTemplate.geometry light_post_glow_02_m1
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_glow2
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

@@ -1,0 +1,32 @@
+rem *** Royals ***
+
+rem *** bri_m_faceobj028 ***
+ObjectTemplate.create SimpleObject bri_FaceItem1
+ObjectTemplate.geometry bri_m_faceobj028_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** bri_m_faceobj001 ***
+ObjectTemplate.create Bundle bri_FaceItem2
+ObjectTemplate.geometry bri_m_faceobj001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+
+rem *** Nationals ***
+
+rem *** Ear Ring 001 ***
+ObjectTemplate.create SimpleObject ger_FaceItem1
+ObjectTemplate.geometry ger_m_faceobj006_earring001_m1
+
+rem *** Eye Patch 002 ***
+ObjectTemplate.create Bundle ger_FaceItem2
+ObjectTemplate.geometry ger_m_faceobj007_eyepatch002_m1
+ObjectTemplate.hasDynamicShadow 1
+
+
+rem *** Dummy Items ***
+
+ObjectTemplate.create SimpleObject bri_FaceItem3
+ObjectTemplate.geometry InvisibleKit_m1
+
+ObjectTemplate.create SimpleObject ger_FaceItem3
+ObjectTemplate.geometry InvisibleKit_m1

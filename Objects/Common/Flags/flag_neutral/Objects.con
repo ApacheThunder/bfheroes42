@@ -1,0 +1,15 @@
+ObjectTemplate.create AnimatedBundle flag_neutral_m1
+ObjectTemplate.geometry flag_neutral_m1
+ObjectTemplate.createSkeleton animations/CPFlag.ske
+ObjectTemplate.setAnimationState Flag_Idle
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create AnimatedBundle flag_neutralSilent_m1
+ObjectTemplate.geometry flag_neutral_m1
+ObjectTemplate.createSkeleton animations/CPFlag.ske
+ObjectTemplate.setAnimationState Flag_Idle
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5

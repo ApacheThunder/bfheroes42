@@ -1,0 +1,120 @@
+rem
+rem *** Common Rocket Pack ***
+rem
+ObjectTemplate.create ActiveKitPart bri_RocketPack_inv
+ObjectTemplate.setNetworkableInfo RocketPackEngineInfo
+ObjectTemplate.geometry Invisible_Kit_m1
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.loadSoundScript Sounds/RocketPack.ssc
+rem ---------------------------------------------
+ObjectTemplate.addTemplate e_RippenRocketPack
+ObjectTemplate.addTemplate e_RippenRocketPackDefault
+rem ---------------------------------------------
+ObjectTemplate.activeEffectPersistancePerFrame 0
+ObjectTemplate.activeHeatIncrement 30
+ObjectTemplate.addToNegativeMask Climbing
+ObjectTemplate.addToNegativeMask Crouching
+ObjectTemplate.addToNegativeMask Swimming
+ObjectTemplate.addToNegativeMask Lying
+ObjectTemplate.burstTime 1
+ObjectTemplate.burstFrequency 0.07
+ObjectTemplate.coolingFactor 0.07
+ObjectTemplate.damping 0
+ObjectTemplate.defaultEffectTemplate e_RippenRocketPackDefault
+ObjectTemplate.overrideAirMovementInhibitations 1
+ObjectTemplate.passiveHeatIncrement 0
+ObjectTemplate.setActiveAcceleration  0/500/0
+ObjectTemplate.setInAirAnimOverride GrenadeAxisFire
+ObjectTemplate.setInAirAnims Lb_RocketeeringIdle Empty
+ObjectTemplate.setPassiveAcceleration 0/0/0
+ObjectTemplate.setTrigger PIAction
+
+ObjectTemplate.create ActiveKitPart ger_RocketPack_inv
+ObjectTemplate.setNetworkableInfo RocketPackEngineInfo
+ObjectTemplate.geometry Invisible_Kit_m1
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.loadSoundScript Sounds/RocketPack.ssc
+rem ---------------------------------------------
+ObjectTemplate.addTemplate e_TurboJetRocketPack_alt
+ObjectTemplate.addtemplate e_TurboJetRocketPackDefault_alt
+rem ---------------------------------------------
+ObjectTemplate.activeEffectPersistancePerFrame 0
+ObjectTemplate.activeHeatIncrement 30
+ObjectTemplate.addToNegativeMask Climbing
+ObjectTemplate.addToNegativeMask Crouching
+ObjectTemplate.addToNegativeMask Swimming
+ObjectTemplate.addToNegativeMask Lying
+ObjectTemplate.burstTime 1
+ObjectTemplate.burstFrequency 0.07
+ObjectTemplate.coolingFactor 0.07
+ObjectTemplate.damping 0
+ObjectTemplate.defaultEffectTemplate e_TurboJetRocketPackDefault_alt
+ObjectTemplate.overrideAirMovementInhibitations 1
+ObjectTemplate.passiveHeatIncrement 0
+ObjectTemplate.setActiveAcceleration  0/500/0
+ObjectTemplate.setInAirAnimOverride GrenadeAxisFire
+ObjectTemplate.setInAirAnims Lb_RocketeeringIdle Empty
+ObjectTemplate.setPassiveAcceleration 0/0/0
+ObjectTemplate.setTrigger PIAction
+
+ObjectTemplate.create ActiveKitPart bri_RocketPack
+ObjectTemplate.setNetworkableInfo RocketPackEngineInfo
+ObjectTemplate.setTeamGeometry 1 TurboJet_KitPart_m1
+ObjectTemplate.setTeamGeometry 2 RippenRocket_KitPart_m1
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.loadSoundScript Sounds/RocketPack.ssc
+rem ---------------------------------------------
+ObjectTemplate.addTemplate e_RippenRocketPack_alt
+ObjectTemplate.addTemplate e_RippenRocketPackKitPart
+rem ---------------------------------------------
+ObjectTemplate.activeEffectPersistancePerFrame 0
+ObjectTemplate.activeHeatIncrement 30
+ObjectTemplate.addToNegativeMask Climbing
+ObjectTemplate.addToNegativeMask Crouching
+ObjectTemplate.addToNegativeMask Swiming
+ObjectTemplate.addToNegativeMask Lying
+ObjectTemplate.burstTime 1
+ObjectTemplate.burstFrequency 0.07
+ObjectTemplate.coolingFactor 0.07
+ObjectTemplate.damping 0
+ObjectTemplate.defaultEffectTemplate e_RippenRocketPackKitPart
+ObjectTemplate.overrideAirMovementInhibitations 1
+ObjectTemplate.passiveHeatIncrement 0
+ObjectTemplate.setActiveAcceleration  0/500/0
+ObjectTemplate.setInAirAnimOverride GrenadeAxisFire
+ObjectTemplate.setInAirAnims Lb_RocketeeringIdle Empty
+ObjectTemplate.setPassiveAcceleration 0/0/0
+ObjectTemplate.setTrigger PIAction
+
+ObjectTemplate.create ActiveKitPart ger_RocketPack
+ObjectTemplate.setNetworkableInfo RocketPackEngineInfo
+ObjectTemplate.setTeamGeometry 1 TurboJet_KitPart_m1
+ObjectTemplate.setTeamGeometry 2 RippenRocket_KitPart_m1
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.loadSoundScript Sounds/RocketPack.ssc
+rem ---------------------------------------------
+ObjectTemplate.addTemplate e_TurboJetRocketPack
+ObjectTemplate.addtemplate e_TurboJetRocketPackDefault
+rem ---------------------------------------------
+ObjectTemplate.activeEffectPersistancePerFrame 0
+ObjectTemplate.activeHeatIncrement 30
+ObjectTemplate.addToNegativeMask Climbing
+ObjectTemplate.addToNegativeMask Crouching
+ObjectTemplate.addToNegativeMask Swiming
+ObjectTemplate.addToNegativeMask Lying
+ObjectTemplate.burstTime 1
+ObjectTemplate.burstFrequency 0.07
+ObjectTemplate.coolingFactor 0.07
+ObjectTemplate.damping 0
+ObjectTemplate.defaultEffectTemplate e_TurboJetRocketPackDefault
+ObjectTemplate.overrideAirMovementInhibitations 1
+ObjectTemplate.passiveHeatIncrement 0
+ObjectTemplate.setActiveAcceleration  0/500/0
+ObjectTemplate.setInAirAnimOverride GrenadeAxisFire
+ObjectTemplate.setInAirAnims Lb_RocketeeringIdle Empty
+ObjectTemplate.setPassiveAcceleration 0/0/0
+ObjectTemplate.setTrigger PIAction

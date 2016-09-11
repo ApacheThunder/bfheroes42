@@ -1,0 +1,140 @@
+rem
+rem *** ambstat_damn_waterImpact ***
+rem
+
+ObjectTemplate.create Bundle ambstat_damn_waterImpact
+ObjectTemplate.geometry DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.loadSoundScript Sounds/WaterFall.ssc
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_sAmb_damn_waterImpact
+
+rem *** Alternate sound effects for Perilous Port ***
+ObjectTemplate.create Bundle ambstat_damn_waterImpact_RR
+ObjectTemplate.geometry DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.loadSoundScript Sounds/WaterFall_RR.ssc
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_sAmb_damn_waterImpact
+
+
+ObjectTemplate.create EffectBundle e_sAmb_damn_waterImpact
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ----------------------------------------
+ObjectTemplate.addTemplate em_sAmb_Damn_WaterImpact_RisingSmoke
+ObjectTemplate.setPosition -1.5/0/-1.5
+ObjectTemplate.addTemplate em_sAmb_Damn_WaterImpact_RisingSpray
+ObjectTemplate.setPosition -1.5/0/-1.5
+ObjectTemplate.addTemplate em_sAmb_Damn_WaterImpact_foumRipps
+ObjectTemplate.setPosition 0/-0.1/0
+ObjectTemplate.setRotation 0/0.25/-1
+ObjectTemplate.addTemplate em_sAmb_Damn_WaterImpact_Ripples2
+ObjectTemplate.setPosition 0/-0.1/0
+ObjectTemplate.setRotation 0/0.25/-1
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem ObjectTemplate.setStartOnEffects 0
+rem ObjectTemplate.setStopOnEffects 0
+
+
+ObjectTemplate.create Emitter em_sAmb_damn_WaterImpact_RisingSmoke
+ObjectTemplate.template Fx_sAmb_damn_WaterImpact_RisingSmoke
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/2.5/0/0
+ObjectTemplate.relativePositionInDoF CRD_UNIFORM/0/3/1
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/3/1
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/1/3/0
+ObjectTEmplate.positionalSpeedInRight CRD_UNIFORM/1/3/0
+
+ObjectTemplate.create Emitter em_sAmb_damn_WaterImpact_RisingSpray
+ObjectTemplate.template Fx_sAmb_damn_WaterImpact_RisingSpray
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/2.5/0/0
+ObjectTemplate.relativePositionInDoF CRD_UNIFORM/0/3/1
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/3/1
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/1/3/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1/3/0
+
+
+ObjectTemplate.create Emitter em_sAmb_damn_WaterImpact_foumRipps
+ObjectTemplate.template Fx_sAmb_damn_WaterImpact_foumRipps
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.noPhysics 0
+ObjectTemplate.addChild 1
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+
+ObjectTemplate.create Emitter em_sAmb_damn_WaterImpact_Ripples2
+ObjectTemplate.template Fx_sAmb_damn_WaterImpact_Ripples2
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.noPhysics 0
+ObjectTemplate.addChild 1
+ObjectTemplate.timeToLive CRD_NONE/4/0/0
+ObjectTemplate.intensity CRD_NONE/2.5/0/0
+
+
+
+rem
+rem *** Begin Sprites/Particles ***
+rem
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_damn_WaterImpact_RisingSmoke
+ObjectTemplate.texture Anim_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/1/2/0
+ObjectTemplate.size CRD_UNIFORM/3.25/4/0
+ObjectTemplate.gravityModifierOverTime 0/-0.65|50/-0.1|100/0
+ObjectTemplate.sizeOverTime 0/0|25/0.45|75/1|100/1.45
+ObjectTemplate.drag CRD_NONE/0.25/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/128|25/255/255/255/255|50/255/255/255/255|75/255/255/255/100|100/255/255/255/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/-0.15/-0.25/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/1/0/0
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_damn_WaterImpact_RisingSpray
+ObjectTemplate.texture waterDetails
+ObjectTemplate.timeToLive CRD_UNIFORM/2/3/0
+ObjectTemplate.size CRD_UNIFORM/2/2.5/0
+ObjectTemplate.gravityModifierOverTime 0/-0.65|50/0|75/0.65|100/1
+ObjectTemplate.sizeOverTime 0/0|50/0.5|75/0.73|100/1
+ObjectTemplate.drag CRD_NONE/0.25/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/128|25/255/255/255/255|50/255/255/255/255|75/255/255/255/100|100/255/255/255/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/-0.15/-0.25/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/1/0/0
+
+ObjectTemplate.create Particle Fx_sAmb_damn_WaterImpact_foumRipps
+ObjectTemplate.geometry WaterImpact_foumRipps_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/10/10.5/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.sizeOverTime 0/1|50/1.35|75/2|100/3
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+
+ObjectTemplate.create Particle Fx_sAmb_damn_WaterImpact_Ripples2
+ObjectTemplate.geometry WaterImpact_Ripples2_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/3/4/0
+ObjectTemplate.size CRD_UNIFORM/9.5/10/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.sizeOverTime 0/1|50/2|75/3|100/4
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0

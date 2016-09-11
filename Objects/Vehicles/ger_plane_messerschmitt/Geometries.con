@@ -1,0 +1,66 @@
+renderer.beginGlobalCluster ger_plane_messerschmitt
+
+GeometryTemplate.create StandardMesh ger_plane_messerschmitt_m1
+GeometryTemplate.file Vehicles/ger_plane_messerschmitt_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 90
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_plane_Propeller_m1
+GeometryTemplate.file Vehicles/ger_plane_propeller_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_PropBlur_m1
+GeometryTemplate.file Vehicles/ger_plane_PropBlur_m1
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_elevator_m1
+GeometryTemplate.file Vehicles/ger_plane_elevator_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_rudder_m1
+GeometryTemplate.file Vehicles/ger_plane_rudder_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_wheel_L_m1
+GeometryTemplate.file Vehicles/ger_plane_wheel_L_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_wheel_R_m1
+GeometryTemplate.file Vehicles/ger_plane_wheel_R_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_backwheel_m1
+GeometryTemplate.file Vehicles/ger_plane_backwheel_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_Aileron_L_m1
+GeometryTemplate.file Vehicles/ger_plane_Aileron_L_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_Aileron_R_m1
+GeometryTemplate.file Vehicles/ger_plane_Aileron_R_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_L_LandingGear_m1
+GeometryTemplate.file Vehicles/ger_plane_L_LandingGear_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_plane_R_LandingGear_m1
+GeometryTemplate.file Vehicles/ger_plane_R_LandingGear_m1
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh ger_plane_messerschmitt_m2
+GeometryTemplate.file Vehicles/ger_plane_messerschmitt_m2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 1024
+
+GeometryTemplate.create StandardMesh ger_plane_wreck_m1
+GeometryTemplate.file Vehicles/ger_plane_wreck_m1
+GeometryTemplate.hasDynamicShadow 1

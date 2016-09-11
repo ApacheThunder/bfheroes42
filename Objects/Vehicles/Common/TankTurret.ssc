@@ -1,0 +1,37 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_TNK_Bri_Panzeriv_Demo_Turret.wav
+loop
+minDistance 1
+dopplerOff
+priority -7
+
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Linear
+	param 1
+	param 0
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param 0.001
+	param 35
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 30
+	param 50
+	param 1
+	param -1	
+endEffect

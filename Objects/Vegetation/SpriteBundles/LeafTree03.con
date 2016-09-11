@@ -1,0 +1,303 @@
+rem *** Effect Bundle ***
+
+ObjectTemplate.create EffectBundle SpriteBundle_LeafTree03
+rem ------------------------------------
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition -2.17441/1.75852/1.29725
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition 1.93706/3.03495/1.52106
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition 2.65575/2.45615/0.796028
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition 3.11832/-0.169636/0.629033
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition 0.13931/3.84062/0.219938
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition -1.38045/0.491654/2.92867
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition -0.435844/0.924774/-1.89887
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition 1.45386/0.566627/-1.83153
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition 2.3109/5.24695/-0.870228
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition -0.0700951/3.03501/2.35038
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition 1.30067/3.46018/-1.57743
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition -2.77383/-0.692331/-1.08766
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition 3.34654/0.172781/2.21515
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition -3.45162/1.13413/1.86871
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition 3.15604/1.24596/-3.36242
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition 0.0967293/1.85056/1.52581
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition 1.20339/5.58314/1.02846
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition -3.44829/1.28462/-2.5086
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition -0.193513/2.42104/-2.58405
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition 2.29641/0.787371/-0.821592
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition -1.9246/3.45469/1.90492
+ObjectTemplate.addTemplate em_LeafTree_8
+ObjectTemplate.setPosition -3.2956/0.293032/0.824305
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition -1.25629/-0.35292/-1.41775
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition -3.15465/0.15322/-1.88246
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition -0.373516/6.18103/0.922521
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition -1.25057/3.05705/-1.51294
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition 1.71398/0.675426/1.27251
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition -1.09736/0.217248/0.80128
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition 3.00849/4.94556/-0.927845
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition 2.43634/4.8167/1.61249
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition -1.88151/-0.370322/-2.53882
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition 1.05549/2.80848/0.367738
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition 2.28189/1.14106/3.00968
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition -2.2343/-0.267305/1.26191
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition 0.186468/1.82376/-0.667278
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition 1.61839/0.402142/-3.21159
+ObjectTemplate.addTemplate em_LeafTree_8
+ObjectTemplate.setPosition 3.44608/0.304269/-2.23113
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition 1.53492/0.33153/2.40549
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition -0.910725/1.7434/0.596882
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition -1.89348/0.941154/-1.23398
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition 0.623758/3.7597/-1.08803
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition -2.46703/1.59418/2.96535
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition 1.0654/2.20971/-1.80068
+ObjectTemplate.addTemplate em_LeafTree_8
+ObjectTemplate.setPosition -2.2103/0.782476/-3.06312
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition -2.39371/2.8567/-0.78294
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition -1.32176/-0.266605/-2.8769
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition -0.832666/4.15346/-0.511555
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition -2.52174/4.75993/-0.668116
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition 2.56727/2.06477/-2.74355
+ObjectTemplate.addTemplate em_LeafTree_8
+ObjectTemplate.setPosition 4.02429/1.06748/1.3714
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition 2.95023/3.86735/0.507626
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition -2.909/0.208678/2.90056
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition 2.71109/1.73683/-1.25891
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition 3.66064/1.60038/0.367689
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition 2.13494/-0.499267/-2.56438
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition 0.0779257/0.382543/1.64865
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition -0.286737/5.95667/-0.33316
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition 1.53667/1.61112/-3.86292
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition -2.82428/3.86809/0.563431
+ObjectTemplate.addTemplate em_LeafTree_8
+ObjectTemplate.setPosition -0.391048/5.2243/1.52046
+ObjectTemplate.addTemplate em_LeafTree_5
+ObjectTemplate.setPosition 1.60224/4.62526/-0.153221
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition -1.99913/5.12596/0.875414
+ObjectTemplate.addTemplate em_LeafTree_7
+ObjectTemplate.setPosition -1.24384/3.60092/-3.04535
+ObjectTemplate.addTemplate em_LeafTree_1
+ObjectTemplate.setPosition 3.65919/1.56912/2.42465
+ObjectTemplate.addTemplate em_LeafTree_2
+ObjectTemplate.setPosition -0.836369/5.21733/-1.72022
+ObjectTemplate.addTemplate em_LeafTree_3
+ObjectTemplate.setPosition 0.192162/4.18491/-3.43198
+ObjectTemplate.addTemplate em_LeafTree_4
+ObjectTemplate.setPosition 0.18853/5.2103/-2.69529
+ObjectTemplate.addTemplate em_LeafTree_8
+ObjectTemplate.setPosition 1.97399/3.34771/-1.86023
+ObjectTemplate.addTemplate em_LeafTree_6
+ObjectTemplate.setPosition 0.079/0.383/1.649
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+rem *** Emitters ***
+
+ObjectTemplate.create Emitter em_LeafTree_1
+ObjectTemplate.template Sprite_LeafTree_1
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+
+ObjectTemplate.create Emitter em_LeafTree_2
+ObjectTemplate.template Sprite_LeafTree_2
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_LeafTree_3
+ObjectTemplate.template Sprite_LeafTree_3
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_LeafTree_4
+ObjectTemplate.template Sprite_LeafTree_4
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_LeafTree_5
+ObjectTemplate.template Sprite_LeafTree_5
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_LeafTree_6
+ObjectTemplate.template Sprite_LeafTree_6
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_LeafTree_7
+ObjectTemplate.template Sprite_LeafTree_7
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_LeafTree_8
+ObjectTemplate.template Sprite_LeafTree_8
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+
+rem *** Sprites ***
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_1
+ObjectTemplate.texture leftTreeSprite_01
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_2
+ObjectTemplate.texture leftTreeSprite_02
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_3
+ObjectTemplate.texture leftTreeSprite_03
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_4
+ObjectTemplate.texture leftTreeSprite_04
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_5
+ObjectTemplate.texture leftTreeSprite_05
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_6
+ObjectTemplate.texture leftTreeSprite_06
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_7
+ObjectTemplate.texture leftTreeSprite_07
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle Sprite_LeafTree_8
+ObjectTemplate.texture leftTreeSprite_08
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1

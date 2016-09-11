@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh ger_pistol_agent_m1
+GeometryTemplate.file HandWeapons/ger_pistol_agent_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.hasDynamicShadow 1

@@ -1,0 +1,33 @@
+ObjectTemplate.create EffectBundle e_scrap_AstraTire
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_AstraTire
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+ObjectTemplate.create Emitter em_scrap_AstraTire
+ObjectTemplate.template fx_scrap_AstraTire
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/8/15/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/5/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/5/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/60/90/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create SimpleObject fx_scrap_AstraTire
+ObjectTemplate.geometry gAstraTireWreckSingle
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.drag 1
+ObjectTemplate.mass 100
+ObjectTemplate.timeToLiveAfterDeath 15
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 1
+ObjectTemplate.timeToStartFadeAfterDeath 13
+ObjectTemplate.removeAtRestart 1

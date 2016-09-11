@@ -1,0 +1,10 @@
+GeometryTemplate.create StandardMesh ProximityMine_m1
+GeometryTemplate.file HandWeapons/ProximityMine_m1
+GeometryTemplate.hasDynamicShadow 1
+
+
+GeometryTemplate.create SimpleGeom DebugMesh_m1
+GeometryTemplate.type Sphere
+GeometryTemplate.scale 1
+GeometryTemplate.tesselation 8/8
+GeometryTemplate.color 1/0/0

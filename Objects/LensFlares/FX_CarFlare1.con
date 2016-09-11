@@ -1,0 +1,31 @@
+rem
+rem *** "CarFlare" of primitive LensFlare ***
+rem
+ObjectTemplate.create LensFlare CarFlare
+ObjectTemplate.setLensFlareCount 2
+ObjectTemplate.setCoronaCount 1
+ObjectTemplate.initLensFlares
+ObjectTemplate.flareScaleDistance 100
+ObjectTemplate.setOcclusionQuadWidthHeight 0.3 0.3
+
+rem
+rem *** streaks ***
+rem
+ObjectTemplate.setFlareTexture CarFlare_A01.tga 0
+ObjectTemplate.setFlareSize 0.040 0
+ObjectTemplate.setFlareSize2 0.010 0
+objectTemplate.setFlareRot 1 0
+ObjectTemplate.setFlareColor 255/255/255/255 0
+ObjectTemplate.setFlareColor2 200/180/50/0 0
+ObjectTemplate.setFlareFadeAngleFactor 0.7 0
+
+rem
+rem *** blur ***
+rem
+ObjectTemplate.setFlareTexture CarFlare_A02.tga 1
+ObjectTemplate.setFlareSize 0.025 1
+ObjectTemplate.setFlareSize2 0.010 1
+objectTemplate.setFlareRot -0.8 1
+ObjectTemplate.setFlareColor 255/255/200/255 1
+ObjectTemplate.setFlareColor2 220/220/100/0 1
+ObjectTemplate.setFlareFadeAngleFactor 0 1

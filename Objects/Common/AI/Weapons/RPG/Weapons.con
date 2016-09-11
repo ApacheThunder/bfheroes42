@@ -1,0 +1,16 @@
+weaponTemplate.create RPG
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 4.0
+weaponTemplate.maxRange 125.0
+weaponTemplate.drag 7
+weaponTemplate.exitVelocity 45
+weaponTemplate.weaponActivate PIMenuSelect4
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 6.5
+weaponTemplate.setStrength HeavyArmour 10.0
+weaponTemplate.setStrength NavalArmour 4.25
+weaponTemplate.setStrength Submarine   0.0
+weaponTemplate.setStrength Air         0.0
+weaponTemplate.setSoundSphereRadius 180.0

@@ -1,0 +1,22 @@
+GeometryTemplate.create AnimatedMesh bri_m_chestitem015_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_chestitem015.skn
+GeometryTemplate.file Items/bri_m_chestitem015_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh bri_m_waistleft002_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_waistleft002.skn
+GeometryTemplate.file Items/bri_m_waistleft002_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh bri_m_faceobj013_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_faceobj013.skn
+GeometryTemplate.file Items/bri_m_faceobj013_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh bri_m_feet002_boots006_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_feet002.skn
+GeometryTemplate.file Items/bri_m_feet002_boots006_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0

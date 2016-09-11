@@ -1,0 +1,33 @@
+ObjectTemplate.create Bundle windmill
+ObjectTemplate.geometry windmill_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -------------------------------------
+ObjectTemplate.addTemplate windmillblades
+ObjectTemplate.setPosition -0.915349/9.48764/4.80234
+ObjectTemplate.setRotation 0/0/-22
+ObjectTemplate.addTemplate DeathBox_Windmill
+
+ObjectTemplate.create RotationalBundle windmillblades
+ObjectTemplate.geometry windmillblades_m1
+ObjectTemplate.loadSoundScript Windmill.ssc
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ----------------------------------
+ObjectTemplate.setMaxSpeed 0/0/1
+ObjectTemplate.setContinousRotationSpeed 0/0/10
+
+ObjectTemplate.create Obstacle DeathBox_Windmill
+ObjectTemplate.geometry DeathBox_Windmill_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create SimpleObject snow_windmill
+ObjectTemplate.geometry snow_windmill_m1
+ObjectTemplate.cullRadiusScale 5

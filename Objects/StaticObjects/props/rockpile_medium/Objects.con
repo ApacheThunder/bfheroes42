@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject rockpile_medium
+ObjectTemplate.geometry rockpile_medium_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

@@ -1,0 +1,17 @@
+ObjectTemplate.create SimpleObject quaypart_ladder
+ObjectTemplate.geometry quaypart_ladder_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------------
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject quaypart_ladder_short
+ObjectTemplate.geometry quaypart_ladder_short_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------------
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

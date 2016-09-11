@@ -1,0 +1,76 @@
+ObjectTemplate.create Engine flettner_leftrotor
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodflettner_leftrotor
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 15/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/500
+ObjectTemplate.setMaxRotation 0/0/1000
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+ObjectTemplate.create Engine flettner_rightrotor
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodflettner_rightrotor
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 15/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/500
+ObjectTemplate.setMaxRotation 0/0/1000
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+
+
+ObjectTemplate.create Engine flettner_HoverEngine1
+ObjectTemplate.setNetworkableInfo flettner_engine_info
+ObjectTemplate.setMinRotation 0/0/2725
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/22000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 17.2
+ObjectTemplate.setDifferential 3.9
+
+ObjectTemplate.create Engine flettner_HoverEngine2
+ObjectTemplate.setNetworkableInfo flettner_engine_info
+ObjectTemplate.setMinRotation 0/0/2725
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/22000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 17.2
+ObjectTemplate.setDifferential 3.9
+
+ObjectTemplate.create Engine flettner_HoverEngine3
+ObjectTemplate.setNetworkableInfo flettner_engine_info
+ObjectTemplate.loadSoundScript Sounds/FlettnerEngine.ssc
+ObjectTemplate.setMinRotation 0/0/2725
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/22000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 17.5
+ObjectTemplate.setDifferential 3.9

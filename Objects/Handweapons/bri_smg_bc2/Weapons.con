@@ -1,0 +1,20 @@
+ObjectTemplate.create Projectile SMGProjectile_bc2
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 4010
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.distToStartLoseDamage 40
+ObjectTemplate.distToMinDamage 80
+ObjectTemplate.noFFSound 1
+rem -------- Armor Piercing -----------
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

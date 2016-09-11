@@ -1,0 +1,59 @@
+ObjectTemplate.create HandFireArms bri_supplydrop
+ObjectTemplate.itemIndex 8
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.projectileTemplate Bri_SupplyDropPRJ
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.forceOnExplosion 10
+ObjectTemplate.magSize 2
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTEmplate.setHasMag 0
+ObjectTemplate.reloadtime 6
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 13
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/shotgun.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.rotationalSpeed 0/0/0
+ObjectTemplate.velocity 12
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.08
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.4
+ObjectTemplate.fireDelay 1
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.2
+ObjectTemplate.cantSelectWhenNoAmmo 1
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+ObjectTemplate.createSkeleton animations/SmokeGrenade.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate SmokeGrenade_BLUELod
+ObjectTemplate.loadSoundScript Sounds/SupplyDrop.ssc
+ObjectTemplate.setAttachToListener 1
+
+ObjectTemplate.create LodObject SmokeGrenade_BLUELod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate SmokeGrenade_BLUEComplex
+ObjectTemplate.addTemplate SmokeGrenade_BLUESimple
+
+ObjectTemplate.create AnimatedBundle SmokeGrenade_BLUEComplex
+ObjectTemplate.createSkeleton animations/SmokeGrenade.ske
+ObjectTemplate.geometry SmokeGrenade_BLUE
+ObjectTemplate.addTemplate SmokeGrenade_BLUESprint
+ObjectTemplate.bindToSkeletonPart sprint
+ObjectTemplate.addTemplate SmokeGrenade_BLUEPigg
+ObjectTemplate.bindToSkeletonPart pigg
+
+
+ObjectTemplate.create SimpleObject SmokeGrenade_BLUEPigg
+ObjectTemplate.geometry SmokeGrenadePigg
+
+ObjectTemplate.create SimpleObject SmokeGrenade_BLUESprint
+ObjectTemplate.geometry SmokeGrenadeSprint
+
+ObjectTemplate.create SimpleObject SmokeGrenade_BLUESimple
+ObjectTemplate.geometry Shad_SmokeGrenade_BLUE

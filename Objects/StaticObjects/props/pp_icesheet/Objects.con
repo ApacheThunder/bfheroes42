@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject pp_icesheet
+ObjectTemplate.geometry pp_icesheet_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 100
+ObjectTemplate.aiTemplate bridgeAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

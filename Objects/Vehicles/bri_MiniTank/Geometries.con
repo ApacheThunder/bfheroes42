@@ -1,0 +1,37 @@
+renderer.beginGlobalCluster Bri_MiniTank
+
+GeometryTemplate.create StandardMesh Bri_MiniTank_m2
+GeometryTemplate.File Vehicles/Bri_MiniTank_m2
+
+GeometryTemplate.create StandardMesh Bri_MiniTank_Tower_m1
+GeometryTemplate.file Vehicles/Bri_MiniTank_Turret_m1
+GeometryTemplate.hasDynamicShadow 1
+
+renderer.endGlobalCluster
+
+
+renderer.beginGlobalCluster MiniTank
+
+GeometryTemplate.create StandardMesh MiniTank_Hull_m1
+GeometryTemplate.file Vehicles/MiniTank_Hull_m1
+GeometryTemplate.hasDynamicShadow 1
+
+
+GeometryTemplate.create StandardMesh MiniTank_Wheel_m1
+GeometryTemplate.file Vehicles/Minitank_wheel_m1
+
+GeometryTemplate.create StandardMesh MiniTank_Camera_m1
+GeometryTemplate.file Vehicles/MiniTank_Camera_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh MiniTank_Track_m1
+GeometryTemplate.setSkin animations/MiniTank.skn
+GeometryTemplate.file Vehicles/MiniTank_Track_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh MiniTank_Arms_m1
+GeometryTemplate.file Vehicles/MiniTank_Arms_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster

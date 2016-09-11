@@ -1,0 +1,51 @@
+ObjectTemplate.create EffectBundle e_MuzzHeavyFlettner
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_MuzzHeavy
+ObjectTemplate.addTemplate em_1P_MuzzHeavy
+ObjectTemplate.addTemplate em_MuzzHeavy_glow
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ShellMGFlettner_1p
+ObjectTemplate.setPosition 0/-0.096/-0.787
+ObjectTemplate.setRotation -9.994/-4.995/0
+ObjectTemplate.addTemplate Em_ShellMGFlettner_3p
+ObjectTemplate.setPosition 0/-0.096/-0.787
+ObjectTemplate.setRotation -9.994/-4.995/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+ObjectTemplate.create Emitter Em_ShellMGFlettner_1p
+ObjectTemplate.template Fx_ShellMGHelicopter_1p
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 10
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-1/-3/0
+ObjectTemplate.relativePositionInDoF CRD_UNIFORM/-0.2/0.2/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-0.2/0.2/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.5/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/-0.2/-0.4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-0.25/0.25/0
+ObjectTemplate.rotationalSpeedInDof CRD_EXPONENTIAL/-20/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/4/0/1
+ObjectTemplate.startRotation CRD_NONE/150/0/0
+ObjectTemplate.showInFirstPerson 1
+
+ObjectTemplate.create Emitter Em_ShellMGFlettner_3p
+ObjectTemplate.template Fx_ShellMGHelicopter_3p
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 40
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-1/-3/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/-0.2/-0.4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-0.25/0.25/0
+ObjectTemplate.rotationalSpeedInDof CRD_EXPONENTIAL/-20/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/4/0/1
+ObjectTemplate.startRotation CRD_NONE/150/0/0
+ObjectTemplate.showInThirdPerson 1

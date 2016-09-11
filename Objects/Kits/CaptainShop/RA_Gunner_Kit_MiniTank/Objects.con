@@ -1,0 +1,32 @@
+ObjectTemplate.create Kit RA_Gunner_Kit_MiniTank
+ObjectTemplate.setType AT
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry Bri_PirateKeg_Kit_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem --------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+rem --------------------------------------------
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Shotgun.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Common_KEG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_MG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_RPG.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_MiniTank.tga"
+ObjectTemplate.addWeaponIcon "Empty.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBallKick.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Royal_SupplyDrop.tga"
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 2 "Kits/Icon_GunnerRPGClassAxis.tga"
+ObjectTemplate.setKitName 2 "GUNNER"
+ObjectTemplate.setKitActiveName 2 "ACTIVE GUNNERS"
+rem --------------------------------------------
+ObjectTemplate.addTemplate BRI_MG_Lewis
+ObjectTemplate.addTemplate BRI_ShotGun
+ObjectTemplate.addTemplate ExplosiveKeg
+ObjectTemplate.addTemplate BRI_AT_PIAT
+ObjectTemplate.addTemplate Bri_miniTankKeg
+ObjectTemplate.addTemplate SoccerKick
+ObjectTemplate.addTemplate bri_supplydrop
+rem --------------------------------------------
+ObjectTemplate.aiTemplate AT

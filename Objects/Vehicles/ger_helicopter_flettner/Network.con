@@ -1,0 +1,12 @@
+NetworkableInfo.createNewInfo flettner_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo flettner_engine_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo flettner_Wing_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo flettner_passenger_info
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority 0

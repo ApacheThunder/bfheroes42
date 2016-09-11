@@ -1,0 +1,69 @@
+ObjectTemplate.create EffectBundle e_Blood_Laser
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_Richo_Laser/Sounds/richo_laser.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_blood_laser
+ObjectTemplate.addTemplate Em_blood_laser_g
+ObjectTemplate.addTemplate Em_RichoImpactDecalLaser
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+
+
+ObjectTemplate.create Emitter Em_blood_laser
+ObjectTemplate.template Fx_blood_laser
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 2
+ObjectTemplate.lodDistance 400
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0.1/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.25/0.75/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.showInThirdPerson 1
+
+
+ObjectTemplate.create SpriteParticle Fx_blood_laser
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.size CRD_NONE/0.25/0/0
+ObjectTemplate.sizeOverTime 0/0.9|100/1
+ObjectTemplate.gravityModifier CRD_NONE/0.1/0/0
+ObjectTemplate.texture e_Blood_subtl
+ObjectTemplate.initRotation CRD_UNIFORM/1/90/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/30/50/1
+ObjectTemplate.colorRGBAOverTime 0/255/128/128/255|43/245/106/87/167|100/255/192/192/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/20/0/0
+
+
+ObjectTemplate.create Emitter Em_blood_laser_g
+ObjectTemplate.template Fx_blood_laser_g
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 2
+ObjectTemplate.lodDistance 400
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0.1/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.25/0.75/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.showInThirdPerson 1
+
+
+ObjectTemplate.create SpriteParticle Fx_blood_laser_g
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.size CRD_NONE/0.25/0/0
+ObjectTemplate.sizeOverTime 0/0.9|100/1
+ObjectTemplate.gravityModifier CRD_NONE/0.1/0/0
+ObjectTemplate.texture e_Blood_subtl_g
+ObjectTemplate.initRotation CRD_UNIFORM/1/90/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/30/50/1
+ObjectTemplate.colorRGBAOverTime 0/255/128/128/255|43/245/106/87/167|100/255/192/192/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/20/0/0

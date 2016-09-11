@@ -1,0 +1,69 @@
+ObjectTemplate.create EffectBundle e_ShotgunShell
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../common/Sounds/shells.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ShotgunShell_1p
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation -9.993/-4.994/0.034
+ObjectTemplate.rotationalSpeed 120/0/0
+ObjectTemplate.addTemplate Em_ShotgunShell_3p
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation -9.993/-4.994/0.034
+ObjectTemplate.rotationalSpeed 120/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+ObjectTemplate.create Emitter Em_ShotgunShell_1p
+ObjectTemplate.template Fx_ShotgunShell_1p
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 10
+ObjectTemplate.delay CRD_UNIFORM/0.7/0.8/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/0.01/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.5/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/0.4/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.9/1.1/0
+ObjectTemplate.rotationalSpeedInDof CRD_EXPONENTIAL/-20/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/4/0/1
+ObjectTemplate.startRotation CRD_NONE/150/0/0
+ObjectTemplate.showInFirstPerson 1
+
+ObjectTemplate.create Emitter Em_ShotgunShell_3p
+ObjectTemplate.template Fx_ShotgunShell_3p
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 45
+ObjectTemplate.delay CRD_UNIFORM/0.7/0.8/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/0.01/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/0.5/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/0.4/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.9/1.1/0
+ObjectTemplate.rotationalSpeedInDof CRD_EXPONENTIAL/-20/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/4/0/1
+ObjectTemplate.startRotation CRD_NONE/150/0/0
+ObjectTemplate.showInThirdPerson 1
+
+
+ObjectTemplate.create Particle Fx_ShotgunShell_1p
+ObjectTemplate.geometry StandardMesh:e_ShellShotgun_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0/0
+
+ObjectTemplate.create SimpleObject Fx_ShotgunShell_3p
+ObjectTemplate.geometry StandardMesh:e_ShellShotgun_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.destroyed 1
+ObjectTemplate.damageMod 0
+ObjectTemplate.drag 2
+ObjectTemplate.mass 25
+ObjectTemplate.timeToLiveAfterDeath 10
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0

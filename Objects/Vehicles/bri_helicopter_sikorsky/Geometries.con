@@ -1,0 +1,52 @@
+renderer.beginGlobalCluster bri_helicopter_sikorsky
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_hull_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_hull_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.alphaLodDistance 1024
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_mainrotor_blur_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_mainrotor_blur_m1
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_mainrotor_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_mainrotor_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_tailrotor_blur_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_tailrotor_blur_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.cullFactor 0
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_tailrotor_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_tailrotor_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_rwheel_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_rwheel_m1
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_fwheel_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_fwheel_m1
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_m2
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_hull_m2
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_helicopter_sikorsky_wreck_m1
+GeometryTemplate.file Vehicles/bri_helicopter_sikorsky_wreck_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 256
+GeometryTemplate.hasDynamicShadow 1

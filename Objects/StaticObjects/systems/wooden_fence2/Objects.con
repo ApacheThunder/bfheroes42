@@ -1,0 +1,23 @@
+ObjectTemplate.create SimpleObject wooden_fence2_4m
+ObjectTemplate.geometry wooden_fence2_4m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject wooden_fence2_8m
+ObjectTemplate.geometry wooden_fence2_8m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject wooden_fence2_broken
+ObjectTemplate.geometry wooden_fence2_broken_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject wooden_fence2_endpiece
+ObjectTemplate.geometry wooden_fence2_endpiece_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

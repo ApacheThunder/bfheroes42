@@ -1,0 +1,15 @@
+newPatch
+load @ROOT/Sound/@RTD/tireblowout.wav
+minDistance 5
+priority -10
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 5
+	param 1
+	param -1	
+endEffect

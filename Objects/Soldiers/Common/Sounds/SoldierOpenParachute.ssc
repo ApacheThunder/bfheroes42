@@ -1,0 +1,28 @@
+newPatch
+
+load @ROOT/Sound/@RTD/West_SFX_Character_Common_Parachute_Open.wav
+minDistance 1
+dopplerOff
+priority 11
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 0.4
+	param 0
+	param 1	
+endEffect
+trigger Volume
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect

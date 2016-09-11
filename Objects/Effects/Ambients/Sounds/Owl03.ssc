@@ -1,0 +1,15 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Owl03.wav
+minDistance 10
+priority -10
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect

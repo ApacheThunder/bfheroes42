@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject digger_royal
+ObjectTemplate.geometry digger_royal_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5

@@ -1,0 +1,6 @@
+GeometryTemplate.create StandardMesh Creek_01_m1
+GeometryTemplate.file Creek_01_m1
+GeometryTemplate.alphaLodDistance 1024
+
+GeometryTemplate.create StandardMesh creek_01_frozen_m1
+GeometryTemplate.file creek_01_frozen_m1

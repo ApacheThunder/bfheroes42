@@ -1,0 +1,12 @@
+NetworkableInfo.createNewInfo bri_jeep_willysEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo bri_jeep_willysSteeringInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo bri_jeep_willysInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo bri_jeep_willysPassenger_info
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority 0

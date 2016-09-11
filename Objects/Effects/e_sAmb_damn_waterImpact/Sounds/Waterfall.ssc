@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_waterfall.wav
+loop
+minDistance 50
+priority 1
+volume 0.6
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 50
+	param 1
+	param -1	
+endEffect

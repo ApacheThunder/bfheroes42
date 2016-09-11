@@ -1,0 +1,6 @@
+GeometryTemplate.create StandardMesh townhousemedium_storefront01_m1
+GeometryTemplate.file townhousemedium_storefront01_m1
+
+
+GeometryTemplate.create StandardMesh townhousemedium_e_01_storefront_01_m1
+GeometryTemplate.file townhousemedium_storefront01_m1

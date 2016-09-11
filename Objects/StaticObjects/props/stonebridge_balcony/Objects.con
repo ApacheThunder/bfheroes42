@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject stonebridge_balcony
+ObjectTemplate.geometry stonebridge_balcony_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.aiTemplate bridgeAI
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

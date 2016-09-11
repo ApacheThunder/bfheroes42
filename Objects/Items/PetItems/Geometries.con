@@ -1,0 +1,26 @@
+rem *** Skinned Soldier Parts. Addtemplate to soldier only! Not usable as kitparts! ***
+
+
+rem *** Monkey ***
+GeometryTemplate.create AnimatedMesh bri_m_chestitem014_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_chestitem14.skn
+GeometryTemplate.file Items/bri_m_chestitem014_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Eagle ***
+GeometryTemplate.create AnimatedMesh bri_m_chestitem020_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_chestitem020.skn
+GeometryTemplate.file Items/bri_m_chestitem020_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Parrot ***
+GeometryTemplate.create AnimatedMesh ger_m_chestitem009_parrot001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_chestitem009.skn
+GeometryTemplate.file Items/ger_m_chestitem009_parrot001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Cobra ***
+GeometryTemplate.create AnimatedMesh ger_m_chestitem019_Corba001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_chestitem019.skn
+GeometryTemplate.file Items/ger_m_chestitem019_Corba001_m1
+GeometryTemplate.hasDynamicShadow 1

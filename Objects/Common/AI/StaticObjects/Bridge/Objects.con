@@ -1,0 +1,35 @@
+rem
+rem *** AI Plugins ***
+rem
+
+aiTemplatePlugIn.create Cover bridgeAICover
+aiTemplatePlugIn.coverValue 2.0
+
+aiTemplatePlugIn.create Physical GenericBuildingPhysical
+aiTemplatePlugIn.create Physical bridgeAIPhysical
+
+rem
+rem *** Generic Building AI (No Cover)***
+rem
+
+aiTemplate.create buildingAI
+aiTemplate.addType ITScaleRender
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn GenericBuildingPhysical
+
+rem
+rem *** Bridge AI ***
+rem
+
+aiTemplate.create bridgeAI
+aiTemplate.addType ITCover
+aiTemplate.addType ITScaleRender
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn bridgeAICover
+aiTemplate.addPlugIn bridgeAIPhysical

@@ -1,0 +1,6 @@
+GeometryTemplate.create StandardMesh ger_knife_mod_m1
+GeometryTemplate.file HandWeapons/ger_knife_mod_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 7
+GeometryTemplate.hasDynamicShadow 1

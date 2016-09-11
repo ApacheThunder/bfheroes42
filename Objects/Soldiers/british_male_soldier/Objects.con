@@ -1,0 +1,79 @@
+ObjectTemplate.create BFSoldier british_male_soldier
+ObjectTemplate.createSkeleton animations/BFSoldier.ske
+rem ----------------------------------------------------------
+include ../Common/CommonSoldierData.inc
+game.addLanguageRunTimeDirectory English
+include ../Common/Sounds/SoldierSound.inc
+rem ----------------------------------------------------------
+ObjectTemplate.setSoldierStandingIcon "Ingame/westXPBarFrameRoyal.tga"
+ObjectTemplate.setSoldierCrouchIcon "Ingame/westXPBarFrameRoyal.tga"
+ObjectTemplate.setSoldierProneIcon "Ingame/westXPBarFrameRoyal.tga"
+rem ----------------------------------------------------------
+ObjectTemplate.setMinimapIcon "flag_royal.tga"
+ObjectTemplate.setControlPointIcon "conp_royal.tga"
+ObjectTemplate.setTicketIcon "flag_ticket_royal.tga"
+ObjectTemplate.setTeamFlagIcon "Icon_flag_royal.tga"
+ObjectTemplate.setRadioLanguage "English"
+rem ----------------------------------------------------------
+ObjectTemplate.addTemplate british_male_soldier_3pBody
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate british_male_soldier_1pBody
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate british_male_soldier_3p_L_hand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.addTemplate british_male_soldier_3p_R_hand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.addTemplate british_male_soldier_1p_L_hand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.addTemplate british_male_soldier_1p_R_hand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.addTemplate british_male_soldier_head
+ObjectTemplate.setIsFirstPersonPart 0
+rem ------------------------Items------------------------------
+include RandomCustomization.inc
+rem ----------------------------------------------------------
+if v_arg1 == host
+ObjectTemplate.addTemplate SoldierMineTrigger
+ObjectTemplate.setPosition 0/2/0
+else
+endIf
+
+
+ObjectTemplate.create SimpleObject british_male_soldier_3pbody1
+ObjectTemplate.geometry british_male_soldier_3pbody_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject british_male_soldier_3pbody2
+ObjectTemplate.geometry british_male_soldier_3pbody_B_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject british_male_soldier_1pbody1
+ObjectTemplate.geometry british_male_soldier_1pbody_m1
+
+ObjectTemplate.create SimpleObject british_male_soldier_1pbody2
+ObjectTemplate.geometry british_male_soldier_1pbody_B_m1
+
+
+ObjectTemplate.create SimpleObject british_male_soldier_3p_L_hand
+ObjectTemplate.geometry british_male_soldier_3p_L_hand_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject british_male_soldier_3p_R_hand
+ObjectTemplate.geometry british_male_soldier_3p_R_hand_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject british_male_soldier_1p_L_hand
+ObjectTemplate.geometry british_male_soldier_1p_L_hand_m1
+
+ObjectTemplate.create SimpleObject british_male_soldier_1p_R_hand
+ObjectTemplate.geometry british_male_soldier_1p_R_hand_m1
+
+ObjectTemplate.create SimpleObject british_male_soldier_feet
+ObjectTemplate.geometry british_male_soldier_feet_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject british_male_soldier_head
+ObjectTemplate.geometry british_male_soldier_head_m1
+ObjectTemplate.hasDynamicShadow 1

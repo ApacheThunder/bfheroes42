@@ -1,0 +1,86 @@
+
+
+rem *** e_wheelgrass ***
+ObjectTemplate.create EffectBundle e_wheelgrass
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_wheelgrass
+ObjectTemplate.addTemplate em_wheelgrassdust
+
+
+rem *** Em_wheelgrass ***
+ObjectTemplate.create Emitter Em_wheelgrass
+ObjectTemplate.inertiaModifier 1.4013e-045/1.4013e-045/1.4013e-045
+ObjectTemplate.template Fx_wheelgrass
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/70/90/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.relativePositionInUp CRD_NONE/-0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.1/0/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.2/1.7/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_wheelgrass ***
+ObjectTemplate.create SpriteParticle Fx_wheelgrass
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/0.5/0
+ObjectTemplate.size CRD_UNIFORM/0.15/0.2/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.160024|25/0.552492|71/0.659993|100/0.129994
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_richoGrass_mb_01
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|6/244/244/243/255|82/118/114/100/255|100/106/102/89/255
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem *** em_wheelgrassdust ***
+ObjectTemplate.create Emitter em_wheelgrassdust
+ObjectTemplate.inertiaModifier 1.4013e-045/1.4013e-045/1.4013e-045
+ObjectTemplate.template fx_wheelgrassdust
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/10/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 2
+ObjectTemplate.relativePositionInUp CRD_NONE/-0.2/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/0.3/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** fx_wheelgrassdust ***
+ObjectTemplate.create SpriteParticle fx_wheelgrassdust
+ObjectTemplate.timeToLive CRD_UNIFORM/0.7/0.7/0
+ObjectTemplate.size CRD_UNIFORM/0.8/2/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.3/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.160024|44/0.5|100/0.700049
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_exp_Dirt9
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|24/214/213/209/51|25/212/211/207/50|68/141/137/126/21|82/118/114/100/12|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1

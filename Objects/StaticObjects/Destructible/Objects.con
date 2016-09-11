@@ -1,0 +1,41 @@
+ObjectTemplate.create ObjectSpawner cone_Spawner
+ObjectTemplate.setObjectTemplate 0 cone
+ObjectTemplate.minSpawnDelay 25
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 20
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 0
+ObjectTemplate.radius 20
+
+ObjectTemplate.create ObjectSpawner cube_Spawner
+ObjectTemplate.setObjectTemplate 0 cube
+ObjectTemplate.minSpawnDelay 25
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 20
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 0
+ObjectTemplate.radius 20
+
+ObjectTemplate.create ObjectSpawner sphere_Spawner
+ObjectTemplate.setObjectTemplate 0 sphere
+ObjectTemplate.minSpawnDelay 25
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 0
+ObjectTemplate.radius 20
+
+ObjectTemplate.create Spring Geometric_Spring
+ObjectTemplate.geometry StandardMesh:springE_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFDummyGrip
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 6

@@ -1,0 +1,33 @@
+rem *** Boatwreck segemented to improve lightmap quality ***
+
+ObjectTemplate.create Bundle boatwreck
+ObjectTemplate.geometry boatwreck_back_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem -------------------------------
+ObjectTemplate.addTemplate boatwreck_front
+ObjectTemplate.addTemplate boatwreck_front_props
+ObjectTemplate.addTemplate boatwreck_back_props
+ObjectTemplate.addTemplate boatwreck_back_rails
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject boatwreck_front
+ObjectTemplate.geometry boatwreck_front_m1
+
+ObjectTemplate.create SimpleObject boatwreck_front_props
+ObjectTemplate.geometry boatwreck_front_props_m1
+
+ObjectTemplate.create SimpleObject boatwreck_back_props
+ObjectTemplate.geometry boatwreck_back_props_m1
+
+ObjectTemplate.create SimpleObject boatwreck_back_rails
+ObjectTemplate.geometry boatwreck_back_rails_m1
+
+
+
+rem *** Original single mesh for night map rendered in 3DSMax ***
+ObjectTemplate.create Bundle boatwreck_Night
+ObjectTemplate.geometry boatwreck_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

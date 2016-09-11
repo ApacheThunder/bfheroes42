@@ -1,0 +1,143 @@
+rem
+rem *** 6point Streaky Sun ***
+rem
+ObjectTemplate.create LensFlare TSun7
+ObjectTemplate.setLensFlareCount 11
+ObjectTemplate.setCoronaCount 4
+ObjectTemplate.initLensFlares
+ObjectTemplate.setOcclusionQuadWidthHeight 200 200
+REM
+REM *** Falre no:0 Little Greein***
+REM
+ObjectTemplate.setFlareTexture P_Ring2.tga 0
+ObjectTemplate.setFlareSize 0.79 0
+ObjectTemplate.setFlareSize2 1 0
+ObjectTemplate.setFlareRot 0.6 0
+ObjectTemplate.setFlareColor 50/100/120/255 0
+objectTemplate.setFlareColor2 50/50/100/50 0
+REM
+REM *** Falre no:1 Big Blue***
+REM
+ObjectTemplate.setFlareTexture P_Ring1.tga 1
+ObjectTemplate.setFlareSize 1.5 1
+ObjectTemplate.setFlareSize2 1 1
+objectTemplate.setFlareRot 0.5 1
+ObjectTemplate.setFlareColor 0/150/100/20 1
+ObjectTemplate.setFlareColor2 0/150/100/0 1
+REM
+REM *** Falre no:2  Little dot ***
+REM
+ObjectTemplate.setFlareTexture Ring3.tga 2
+ObjectTemplate.setFlareSize 0.5 2
+ObjectTemplate.setFlareSize2 1 2
+ObjectTemplate.setFlareRot 0 2
+ObjectTemplate.setFlareColor 255/255/255/155 2
+ObjectTemplate.setFlareColor2 255/255/255/100 2
+REM
+REM *** Falre no:3 ***
+REM
+ObjectTemplate.setFlareTexture P_Ring1.tga 3
+ObjectTemplate.setFlareSize 1.5 3
+ObjectTemplate.setFlareSize2 1 3
+objectTemplate.setFlareRot 0.5 3
+ObjectTemplate.setFlareColor 0/150/100/20 3
+ObjectTemplate.setFlareColor2 0/150/100/0 3
+REM
+REM *** Falre no:4 ***
+REM
+ObjectTemplate.setFlareTexture P_Ring3.tga 4
+objectTemplate.setFlareSize 0.3 4
+ObjectTemplate.setFlareSize2 0.5 4
+ObjectTemplate.setFlareRot 0.6 4
+ObjectTemplate.setFlareColor 100/150/150/150 4
+ObjectTemplate.setFlareColor2 100/150/100/0 4
+REM
+REM *** Falre no:5 ***
+REM
+ObjectTemplate.setFlareTexture P_Ring3.tga 5
+objectTemplate.setFlareSize 0.3 5
+ObjectTemplate.setFlareSize2 0.5 5
+ObjectTemplate.setFlareRot 0.6 5
+ObjectTemplate.setFlareColor 100/150/150/200 5
+ObjectTemplate.setFlareColor2 100/150/150/50 5
+REM
+REM *** Falre no:6 ***
+REM
+ObjectTemplate.setFlareTexture Ring6.tga 6
+ObjectTemplate.setFlareSize 7 6
+ObjectTemplate.setFlareSize2 6 6
+ObjectTemplate.setFlareRot 0 6
+ObjectTemplate.setFlareColor 255/200/200/30 6
+ObjectTemplate.setFlareColor2 255/200/50/0 6
+REM
+REM *** Falre no:7 ***
+REM
+ObjectTemplate.setFlareTexture P_Ring2.tga 7
+ObjectTemplate.setFlareSize 0.7 7
+ObjectTemplate.setFlareSize2 1 7
+ObjectTemplate.setFlareRot 0.5 7
+objectTemplate.setFlareColor 255/25/255/100 7
+objectTemplate.setFlareColor2 255/20/200/20 7
+REM
+REM *** Falre no:8 ***
+REM
+ObjectTemplate.setFlareTexture P_Ring1.tga 8
+ObjectTemplate.setFlareSize 0.3 8
+ObjectTemplate.setFlareSize2 0.6 8
+ObjectTemplate.setFlareRot 0.5 8
+objectTemplate.setFlareColor 100/125/240/55 8
+objectTemplate.setFlareColor2 100/125/200/20 8
+REM
+REM *** Falre no:9 ***
+REM
+ObjectTemplate.setFlareTexture Ring3.tga 9
+ObjectTemplate.setFlareSize 0.75 9
+ObjectTemplate.setFlareSize2 1 9
+ObjectTemplate.setFlareRot 0.5 9
+objectTemplate.setFlareColor 100/100/240/100 9
+objectTemplate.setFlareColor2 100/100/150/75 9
+REM
+REM *** Falre no:10 ***
+REM
+ObjectTemplate.setFlareTexture P_Ring1.tga 10
+ObjectTemplate.setFlareSize 0.3 10
+ObjectTemplate.setFlareSize2 0.75 10
+ObjectTemplate.setFlareRot 0.5 10
+objectTemplate.setFlareColor 100/125/240/35 10
+objectTemplate.setFlareColor2 100/75/200/10 10
+REM
+REM *** Corona no:0 ***
+REM
+ObjectTemplate.setCoronaTexture sunflare9.tga 0
+ObjectTemplate.setCoronaSize 5 0
+ObjectTemplate.setCoronaSize2 4 0
+ObjectTemplate.setCoronaRot 0 0
+ObjectTemplate.setCoronaColor 200/160/100/40 0
+ObjectTemplate.setCoronaColor2 200/160/100/30 0
+REM
+REM *** Corona no:1 ***
+REM
+ObjectTemplate.setCoronaTexture sunflare1.tga 1
+ObjectTemplate.setCoronaSize 3 1
+ObjectTemplate.setCoronaSize2 3 1
+objectTemplate.setCoronaRot -0.05 1
+ObjectTemplate.setCoronaColor 255/150/0/50 1
+ObjectTemplate.setCoronaColor2 255/150/0/25 1
+REM
+REM *** Corona no:2 ***
+REM
+ObjectTemplate.setCoronaTexture sunflare1.tga 2
+ObjectTemplate.setCoronaSize 2.5 2
+ObjectTemplate.setCoronaSize2 2 2
+objectTemplate.setCoronaRot 0.1 2
+ObjectTemplate.setCoronaColor 255/255/255/100 2
+ObjectTemplate.setCoronaColor2 255/255/255/50 2
+REM
+REM *** Corona no:3 Disc ***
+REM
+ObjectTemplate.setCoronaTexture SunDisc.tga 3
+ObjectTemplate.setCoronaSize 1.5 3
+ObjectTemplate.setCoronasize2 1.5 3
+ObjectTemplate.setCoronaRot 0.1 3
+ObjectTemplate.setCoronaColor 255/255/255/200 3
+ObjectTemplate.setCoronaColor2 255/255/255/200 3

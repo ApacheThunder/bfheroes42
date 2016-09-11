@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh space_wall_01_m1
+GeometryTemplate.file space_wall_01_m1
+
+GeometryTemplate.create StandardMesh space_wall_02_m1
+GeometryTemplate.file space_wall_02_m1
+
+GeometryTemplate.create StandardMesh space_wall_03_m1
+GeometryTemplate.file space_wall_03_m1
+
+GeometryTemplate.create StandardMesh space_wall_04_m1
+GeometryTemplate.file space_wall_04_m1

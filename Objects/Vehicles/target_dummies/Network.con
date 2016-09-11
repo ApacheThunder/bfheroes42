@@ -1,0 +1,14 @@
+NetworkableInfo.createNewInfo bri_targetdummybase_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_targetdummybase_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo bri_targetdummy_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_targetdummy_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo targetdummy_Engine_Info
+NetworkableInfo.setPredictionMode PMLinear

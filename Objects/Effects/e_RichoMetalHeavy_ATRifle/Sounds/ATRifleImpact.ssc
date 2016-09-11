@@ -1,0 +1,66 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_AT_Impact_01.wav
+minDistance 25
+dopplerOff
+priority 4
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 26
+	param 50
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_AT_Impact_02.wav
+minDistance 25
+dopplerOff
+priority 4
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 26
+	param 50
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_AT_Impact_03.wav
+minDistance 25
+dopplerOff
+priority 4
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 26
+	param 50
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_AT_Impact_04.wav
+minDistance 25
+dopplerOff
+priority 4
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 26
+	param 50
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1

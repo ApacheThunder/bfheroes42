@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject webnet
+ObjectTemplate.geometry webnet_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.cullRadiusScale 1

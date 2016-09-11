@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh space_oxygen_tube_red_m1
+GeometryTemplate.file space_oxygen_tube_red_m1
+
+GeometryTemplate.create StandardMesh space_oxygen_tube_yellow_m1
+GeometryTemplate.file space_oxygen_tube_yellow_m1

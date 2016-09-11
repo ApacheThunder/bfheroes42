@@ -1,0 +1,40 @@
+GeometryTemplate.create StandardMesh RippenRocket_Kit_m1
+GeometryTemplate.file Kits/RippenRocket_Kit_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh RippenRocket_KitPart_m1
+GeometryTemplate.file Items/RippenRocket_KitPart_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh RippenRocket_Kit_Commando_m1
+GeometryTemplate.file Kits/RippenRocket_Kit_Commando_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh RippenRocket_Kit_Soldier_m1
+GeometryTemplate.file Kits/RippenRocket_Kit_Soldier_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh RippenRocket_Kit_Gunner_m1
+GeometryTemplate.file Kits/RippenRocket_Kit_Gunner_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh TurboJet_Kit_m1
+GeometryTemplate.file Kits/TurboJet_Kit_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh TurboJet_KitPart_m1
+GeometryTemplate.file Items/TurboJet_KitPart_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh TurboJet_Kit_Commando_m1
+GeometryTemplate.file Kits/TurboJet_Kit_Commando_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh TurboJet_Kit_Soldier_m1
+GeometryTemplate.file Kits/TurboJet_Kit_Soldier_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh TurboJet_Kit_Gunner_m1
+GeometryTemplate.file Kits/TurboJet_Kit_Gunner_m1
+GeometryTemplate.hasDynamicShadow 1
+

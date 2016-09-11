@@ -1,0 +1,14 @@
+ObjectTemplate.create Bundle backdrop_boat_anchor
+rem ---------------------------------------------
+ObjectTemplate.addTemplate backdrop_boat_e_01
+rem ---------------------------------------------
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.cullRadiusScale 256
+
+
+ObjectTemplate.create RotationalBundle backdrop_boat_e_01
+ObjectTemplate.geometry backdrop_boat_e_01_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.cullRadiusScale 256
+ObjectTemplate.setMaxSpeed 0.15/0/0
+ObjectTemplate.setContinousRotationSpeed 0.15/0/0

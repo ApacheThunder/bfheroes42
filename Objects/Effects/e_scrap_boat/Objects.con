@@ -1,0 +1,18 @@
+ObjectTemplate.create Bundle fishingboat_e_01_wreckpiece
+ObjectTemplate.geometry fishingboat_e_01_wreckpiece_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.mass 1000
+ObjectTemplate.drag 1.5
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+rem ---------------------------------------
+ObjectTemplate.addTemplate BoatWreckPieceFloater
+ObjectTemplate.setPosition 0/-3.545/0
+ObjectTemplate.addTemplate BoatWreckPieceFloater
+ObjectTemplate.setPosition -2.567/2.508/0
+ObjectTemplate.addTemplate BoatWreckPieceFloater
+ObjectTemplate.setPosition 2.567/2.508/0

@@ -1,0 +1,88 @@
+
+
+rem *** e_wheelwetgrass ***
+ObjectTemplate.create EffectBundle e_wheelwetgrass
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addWorkOnMaterial 2
+ObjectTemplate.addWorkOnMaterial 3
+ObjectTemplate.addTemplate Em_wheelwetgrass
+ObjectTemplate.addTemplate em_wheelwetgrassdust
+
+
+rem *** Em_wheelwetgrass ***
+ObjectTemplate.create Emitter Em_wheelwetgrass
+ObjectTemplate.inertiaModifier 1.4013e-045/1.4013e-045/1.4013e-045
+ObjectTemplate.template Fx_wheelwetgrass
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/70/90/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.relativePositionInUp CRD_NONE/-0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.1/0/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.2/1.7/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_wheelwetgrass ***
+ObjectTemplate.create SpriteParticle Fx_wheelwetgrass
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/0.8/0
+ObjectTemplate.size CRD_UNIFORM/0.15/0.2/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.160024|25/0.552492|71/0.659993|100/0.129994
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_richoGrass_mb_01
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|6/244/244/243/255|82/118/114/100/255|100/106/102/89/255
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem *** em_wheelwetgrassdust ***
+ObjectTemplate.create Emitter em_wheelwetgrassdust
+ObjectTemplate.inertiaModifier 1.4013e-045/1.4013e-045/1.4013e-045
+ObjectTemplate.template fx_wheelwetgrassdust
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/10/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 2
+ObjectTemplate.relativePositionInUp CRD_NONE/-0.2/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.3/0.6/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** fx_wheelwetgrassdust ***
+ObjectTemplate.create SpriteParticle fx_wheelwetgrassdust
+ObjectTemplate.timeToLive CRD_UNIFORM/0.7/0.7/0
+ObjectTemplate.size CRD_UNIFORM/0.5/1/0
+ObjectTemplate.gravityModifier CRD_NONE/0.5/0.2/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.160024|44/0.5|100/0.700049
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_mixmud_mb_02
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/198|24/214/213/209/150|68/141/137/126/63|82/118/114/100/35|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1

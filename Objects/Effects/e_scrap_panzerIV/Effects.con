@@ -1,0 +1,83 @@
+ObjectTemplate.create EffectBundle e_scrap_panzerIV
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_ger_tank_w_tank
+ObjectTemplate.setPosition -1.3/0.275/-1.777
+ObjectTemplate.addTemplate em_ger_tank_w_wheel
+ObjectTEmplate.setPosition -1.2/0/0
+ObjectTemplate.addTemplate em_ger_tank_w_barrel
+ObjectTemplate.setPosition 1.3/1.057/0.83
+ObjectTemplate.addTemplate em_ger_tank_w_hatch
+ObjectTemplate.setPosition -1.3/0.191/1.804
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+ObjectTemplate.create Emitter em_ger_tank_wreck
+ObjectTemplate.template panzeriv_wreck
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_tank_w_tank
+ObjectTemplate.template ger_tank_w_tank
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_tank_w_wheel
+ObjectTemplate.template ger_tank_w_wheel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_tank_w_barrel
+ObjectTemplate.template ger_tank_w_barrel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_tank_w_hatch
+ObjectTemplate.template ger_tank_w_hatch
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0

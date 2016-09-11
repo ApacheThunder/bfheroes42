@@ -1,0 +1,56 @@
+ObjectTemplate.create HandFireArms GrenadeAxis
+ObjectTemplate.loadSoundScript Sounds/GrenadeAxis.ssc
+ObjectTemplate.itemIndex 4
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.projectileTemplate GER_GrenadeProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.AmmoType	2
+ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 12
+ObjectTemplate.AmmoType	2
+ObjectTemplate.setHudAmmoType ATIconAndStrengthBar
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/grenades_tnt.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.rotationalSpeed 8/0/0
+ObjectTemplate.velocity 23
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.08
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.4
+ObjectTemplate.fireDelay 0.8
+objectTemplate.aiTemplate COM_Grenade
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.2
+ObjectTemplate.cantSelectWhenNoAmmo 0
+ObjectTemplate.changeWeaponWhenNoAmmo 0
+ObjectTemplate.velocityDependentOnHeat 1
+ObjectTemplate.heatAddWhenFire 0.03
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/GrenadeAxis.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate GrenadeAxisLod
+
+ObjectTemplate.create AnimatedBundle GrenadeAxisComplex
+ObjectTemplate.createSkeleton animations/GrenadeAxis.ske
+ObjectTemplate.geometry GrenadeAxis
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject GrenadeAxisSimple
+ObjectTemplate.geometry Shad_GrenadeAxis
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create LodObject GrenadeAxisLod
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------------
+ObjectTemplate.addTemplate GrenadeAxisComplex
+ObjectTemplate.addTemplate GrenadeAxisSimple
+rem -------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

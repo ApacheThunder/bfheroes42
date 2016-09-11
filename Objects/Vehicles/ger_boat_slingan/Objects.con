@@ -1,0 +1,283 @@
+ObjectTemplate.create PlayerControlObject ger_boat_slinganC
+ObjectTemplate.setNetworkableInfo NationalBoatInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.drag 0.35
+ObjectTemplate.mass 40000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 600
+ObjectTemplate.maxhitpoints 600
+ObjectTemplate.material 55
+ObjectTemplate.criticalDamage 100
+ObjectTemplate.hpLostWhileCriticalDamage 20
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.speedMod 1.0
+ObjectTemplate.hpLostWhileUpSideDown 25
+ObjectTemplate.addArmorEffect 150 e_dstate_land_HeavySmoke 0/-2.33742/0
+ObjectTemplate.addArmorEffect 100 e_dstate_static_fire 0/-2.33742/0
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke -0.683319/-0.891796/-4.9827
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke 2.16818/-3.70705/2.43371
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke -2.76932/-2.49736/6.91878
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke -0.849821/-3.72525/-11.6364
+ObjectTemplate.addArmorEffect 0 e_dstate_land_HeavySmoke 0.0/-2.33742/0.0
+ObjectTemplate.addArmorEffect 0 e_dstate_static_fire 0/-2.33742/0
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke -0.683319/-0.891796/-4.9827
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke 2.16818/-3.70705/2.43371
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke -2.76932/-2.49736/6.91878
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke -0.849821/-3.72525/-11.6364
+ObjectTemplate.addArmorEffect -1 e_dstate_land_HeavySmoke 0.0/-2.33742/0.0
+ObjectTemplate.addArmorEffect -1 e_dstate_static_fire 0/-2.33742/0
+ObjectTemplate.addArmorEffect -1 e_WaterExplosion 0.0836935/-2.33539/0.0141748
+ObjectTemplate.timetoliveafterdeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.aiTemplate Boat
+rem -------------------------------------
+ObjectTemplate.addTemplate lodger_boat_slingan
+rem -------------------------------------
+ObjectTemplate.addTemplate BoatFloaterRear
+ObjectTemplate.setPosition 4.534/-2.2/-12.29
+ObjectTemplate.addTemplate BoatFloaterRear
+ObjectTemplate.setPosition -4.534/-2.2/-12.29
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition 4.534/-2.2/12.29
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition -4.534/-2.2/12.29
+rem ------------------------------------
+ObjectTemplate.setPcoId 0
+ObjectTemplate.dontClearTeamOnExit 1
+ObjectTemplate.setSoldierExitLocation -2.48148/-2.52589/-4.03464 0/0/0
+ObjectTemplate.altSoldierExitPosition 2.48148/-2.52589/-4.03464
+ObjectTemplate.GUIIndex 42
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_boat_16x16.tga"
+ObjectTemplate.setVehicleIcon "Vehicle/VehicleIcon_Boat.tga"
+ObjectTemplate.setVehicleIconPos 77/107
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCSea
+ObjectTemplate.setVehicleType VTBattleship
+ObjectTemplate.setToolTipType TTBattleship
+rem ObjectTemplate.exitTimer -0.5
+ObjectTemplate.exitSpeedMod 0
+
+
+ObjectTemplate.create PlayerControlObject NationalBoatCannon
+ObjectTemplate.setNetworkableInfo NationalBoatInfo
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setPcoId 1
+ObjectTemplate.aiTemplate BoatCannon
+rem -------------------------------------
+ObjectTemplate.addTemplate lodNationalBoatCannon
+rem -------------------------------------
+ObjectTemplate.dontClearTeamOnExit 1
+ObjectTemplate.setSoldierExitLocation -2/0.6/0 0/0/0
+ObjectTemplate.altSoldierExitPosition 2/0.6/0
+ObjectTemplate.GUIIndex 26
+ObjectTemplate.setVehicleIcon "Vehicle/VehicleIcon_Boat.tga"
+ObjectTemplate.setVehicleIconPos 33/107
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_GenericAmmoVehicle.tga"
+ObjectTemplate.setPrimaryAmmoBar ABIconOnly
+ObjectTemplate.crossHairIcon "Crosshair/rocketLauncher.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCSea
+ObjectTemplate.setVehicleType VTDestroyer
+ObjectTemplate.setToolTipType  TTDestroyer
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.exitSpeedMod 0
+
+
+ObjectTemplate.create LodObject lodger_boat_slingan
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_boat_slinganComplex
+ObjectTemplate.addTemplate ger_boat_slinganSimple
+ObjectTemplate.addTemplate ger_boat_slinganWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector BoatSelector
+
+ObjectTemplate.create Bundle ger_boat_slinganComplex
+ObjectTemplate.geometry National_fishingboat_e_01_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate NationalBoatCannon
+ObjectTemplate.setPosition 0/-2.515/6.62
+rem -------------------------------------
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition 4.534/-2.2/-12.29
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition -4.534/-2.2/-12.29
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition 4.534/-2.2/12.29
+ObjectTemplate.addTemplate BoatFloater
+ObjectTemplate.setPosition -4.534/-2.2/12.29
+rem ObjectTemplate.addTemplate BoatFloaterMiddle
+rem ObjectTemplate.setPosition 4.534/-2.2/0
+rem ObjectTemplate.addTemplate BoatFloaterMiddle
+rem ObjectTemplate.setPosition -4.534/-2.2/0
+rem -------------------------------------
+ObjectTemplate.addTemplate quaypart_ladder_short
+ObjectTemplate.setPosition 0/0.713553/-4.2752
+ObjectTemplate.addTemplate quaypart_ladder_short
+ObjectTemplate.setPosition 0/-1.62889/-10.867
+rem -------------------------------------
+ObjectTemplate.addTemplate BoatClimbingVine
+ObjectTemplate.setPosition 3.412/-3.866/0
+ObjectTemplate.setRotation -90/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate BoatDriverCamera
+ObjectTemplate.setPosition 0/0.639/-1.272
+ObjectTemplate.addTemplate BoatEngine
+ObjectTemplate.setPosition 0/-8.375/-9.091
+ObjectTemplate.addTemplate BoatEntry
+ObjectTemplate.setPosition -1.909/-2.52978/-4.0508
+ObjectTemplate.addTemplate BoatEntry
+ObjectTemplate.setPosition 1.909/-2.52978/-4.0508
+ObjectTemplate.addTemplate BoatRudder_Stern
+ObjectTemplate.setPosition 0.0/-6.82237/12.219
+ObjectTemplate.setRotation 0/0/-90
+ObjectTemplate.addTemplate BoatRudder_Aft
+ObjectTemplate.setPosition 0.0/-6.82237/-12.2191
+ObjectTemplate.setRotation 0/0/-90
+rem -------------------------------------
+ObjectTemplate.addTemplate e_WaterFrontPTBoat
+ObjectTemplate.setPosition 0/-4.7/12.6
+ObjectTemplate.addTemplate e_WaterBackMedium
+ObjectTemplate.setPosition 0/-4.7/-14.4
+rem -------------------------------------
+ObjectTemplate.addTemplate NationalBoatAICannonSpawn
+ObjectTemplate.setPosition 0/-1.5/6.62
+ObjectTemplate.addTemplate NationalBoatSoldierSpawn
+ObjectTemplate.setPosition 0/-1.25178/10.9128
+ObjectTemplate.addTemplate NationalBoatSoldierSpawn
+ObjectTemplate.setPosition 0/2.07984/-2.552
+ObjectTemplate.addTemplate NationalBoatSoldierSpawn
+ObjectTemplate.setPosition -0.0953463/-2.96609/-12.3201
+ObjectTemplate.setRotation 37.6834/0/0
+ObjectTemplate.addTemplate NationalBoatSoldierSpawn
+ObjectTemplate.setPosition 0/-2.52589/4.35808
+ObjectTemplate.setRotation 0/0/-180
+ObjectTemplate.addTemplate NationalBoatDriverSpawn
+ObjectTemplate.setPosition -2.48148/-2.52589/-4.03464
+rem --------------------------------------
+ObjectTemplate.addTemplate BoatFlag_Nationals
+ObjectTemplate.setPosition -1.448/3.364/-3.701
+
+
+ObjectTemplate.create Simple ger_boat_slinganSimple
+ObjectTemplate.geometry National_fishingboat_e_01_m1
+
+ObjectTemplate.create Bundle ger_boat_slinganWreck
+ObjectTemplate.geometry National_fishingboat_e_01_wreck_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate BoatClimbingVine
+ObjectTemplate.setPosition 3.412/-3.866/0
+ObjectTemplate.setRotation -90/0/0
+
+ObjectTemplate.create SpawnPoint NationalBoatDriverSpawn
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 21
+ObjectTemplate.setEnterOnSpawn 1
+ObjectTemplate.setAIEnterOnSpawn 0
+ObjectTemplate.setSpawnAsParaTroper 0
+
+ObjectTemplate.create SpawnPoint NationalBoatSoldierSpawn
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 20
+ObjectTemplate.setEnterOnSpawn 0
+ObjectTemplate.setAIEnterOnSpawn 0
+ObjectTemplate.setSpawnAsParaTroper 0
+
+ObjectTemplate.create SpawnPoint NationalBoatAICannonSpawn
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 31
+ObjectTemplate.setEnterOnSpawn 0
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setSpawnAsParaTroper 0
+
+ObjectTemplate.create Bundle BoatFlag_Nationals
+ObjectTemplate.geometry mini_flagpole_m1
+ObjectTemplate.addTemplate AnimatedNaFlag
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create LodObject lodNationalBoatCannon
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate NationalBoatCannonComplex
+ObjectTemplate.addTemplate BoatCannonWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector BoatCannonSelector
+
+
+ObjectTemplate.create Bundle NationalBoatCannonComplex
+ObjectTemplate.geometry com_aa_base_m1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem --------------------------------------
+ObjectTemplate.addTemplate NationalBoatCannon_Turret
+ObjectTemplate.setPosition 0.0099/0.0454/0.0401
+ObjectTemplate.addTemplate BoatCannonEntry
+
+
+ObjectTemplate.create RotationalBundle NationalBoatCannon_Turret
+ObjectTemplate.setNetworkableInfo nationalboatcannonTurretInfo
+ObjectTemplate.geometry BoatCannon_turret_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript ../Common/TankTurret.ssc
+rem ------------------------------------------
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 450/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+rem ------------------------------------------
+ObjectTemplate.addTemplate COM_AA_Handle_Right
+ObjectTemplate.setPosition 0.46/0.819/0.281
+ObjectTemplate.addtemplate COM_AA_Handle_Left
+ObjectTemplate.setPosition 0.09/0.474/-0.141
+ObjectTemplate.addTemplate NationalBoatCannon_Barrel
+ObjectTemplate.setPosition 0/0.965/0.308
+ObjectTemplate.addTemplate COM_AA_Seat
+ObjectTemplate.setPosition 0.637/0.62/-0.175
+ObjectTemplate.setRotation -8/0/10
+
+ObjectTemplate.create RotationalBundle NationalBoatCannon_Barrel
+ObjectTemplate.setNetworkableInfo nationalboatcannonGunInfo
+ObjectTemplate.geometry National_BoatCannon_gunBase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setAttachToListener 1
+rem ------------------------------------------
+ObjectTemplate.setMinRotation 0/-90/0
+ObjectTemplate.setMaxRotation 0/2/0
+ObjectTemplate.setMaxSpeed 0/40/0
+ObjectTemplate.setAcceleration 0/450/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+rem ------------------------------------------
+ObjectTemplate.addTemplate BoatCannon_FireArm
+ObjectTemplate.setPosition 0/-0.0159/1.1137
+ObjectTemplate.addTemplate BoatGunnerCamera
+ObjectTemplate.setPosition 0/0.6/-0.2

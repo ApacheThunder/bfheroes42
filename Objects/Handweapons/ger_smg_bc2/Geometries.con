@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh ger_smg_bc2_m1
+GeometryTemplate.file HandWeapons/ger_smg_bc2_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.hasDynamicShadow 1

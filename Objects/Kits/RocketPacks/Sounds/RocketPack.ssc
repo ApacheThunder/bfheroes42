@@ -1,0 +1,108 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Ability_Com_Rocket_Jump_Launch.wav
+minDistance 5
+relativePosition 0/0/0
+dopplerOff
+priority -2
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 25
+	param 1
+	param -1	
+endEffect
+
+
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+mono
+volume 0
+loop
+minDistance 10
+relativePosition 0/0/-2
+priority 9
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .4
+	param 1.2
+	param 0
+	param 0.5
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 5
+	param 1
+	param -1	
+	
+endEffect
+
+/*
+load @ROOT/Sound/@RTD/silence.wav
+loop
+minDistance 20
+randomStartPitch .05/.05 
+relativePosition 0/0/-1
+priority 9
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .4
+	param 1.2
+	param 0
+	param 0.5
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 5
+	param 1
+	param -1	
+	
+endEffect
+
+
+*/
+newPatch
+/*
+load @ROOT/Sound/@RTD/silence.wav
+loop
+minDistance 20
+randomStartPitch .05/.05 
+volume 0
+priority 9
+
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .4
+	param 1.2
+	param 0
+	param 0.5
+endEffect
+
+beginEffect
+	controlDestination Volume
+	envelope Ramp
+	param 0.01
+	param 0.5
+	param 0
+	param 1
+endEffect

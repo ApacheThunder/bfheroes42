@@ -1,0 +1,152 @@
+ObjectTemplate.create EffectBundle e_scrap_kubelwagen
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_kubelwagen_wheel
+ObjectTemplate.addTemplate em_scrap_kubelwagen_chair
+ObjectTemplate.setPosition -0.342/0.268/0.02
+ObjectTemplate.addTemplate em_scrap_kubelwagen_exhaustpipe
+ObjectTemplate.setPosition -0.674/0.04/-1.302
+ObjectTemplate.addTemplate em_scrap_kubelwagen_hatch
+ObjectTemplate.setPosition 0.017/0.788/-1.326
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+rem *** Water Explosion with less pieces/speed ***
+
+ObjectTemplate.create EffectBundle e_scrap_kubelwagen_water
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_kubelwagen_wheel_water
+ObjectTemplate.addTemplate em_scrap_kubelwagen_chair_water
+ObjectTemplate.setPosition -0.342/0.268/0.02
+ObjectTemplate.addTemplate em_scrap_kubelwagen_exhaustpipe_water
+ObjectTemplate.setPosition -0.674/0.04/-1.302
+ObjectTemplate.addTemplate em_scrap_kubelwagen_hatch_water
+ObjectTemplate.setPosition 0.017/0.788/-1.326
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+
+ObjectTemplate.create Emitter em_kubelwagen_wreck
+ObjectTemplate.template kubelwagen_wreck
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_wheel
+ObjectTemplate.template kubelwagen_wreck_wheel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/10/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/5/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/5/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/15/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/5/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_chair
+ObjectTemplate.template kubelwagen_wreck_chair
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/10/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/20/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/5/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/5/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_exhaustpipe
+ObjectTemplate.template kubelwagen_wreck_exhaustpipe
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-8/-6/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/8/15/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/20/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_hatch
+ObjectTemplate.template kubelwagen_wreck_hatch
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/5/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+rem *** Water explosion emitters with less speed ****
+
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_wheel_water
+ObjectTemplate.template kubelwagen_wreck_wheel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/3.5/5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/3.5/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3.5/5/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_chair_water
+ObjectTemplate.template kubelwagen_wreck_chair
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/3.5/5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/5/10/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/3.5/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_exhaustpipe_water
+ObjectTemplate.template kubelwagen_wreck_exhaustpipe
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-3/-4/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/4/7.5/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/3.5/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_kubelwagen_hatch_water
+ObjectTemplate.template kubelwagen_wreck_hatch
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0

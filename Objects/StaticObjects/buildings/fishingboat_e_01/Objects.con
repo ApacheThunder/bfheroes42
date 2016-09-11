@@ -1,0 +1,17 @@
+ObjectTemplate.create SimpleObject fishingboat_e_01
+ObjectTemplate.geometry fishingboat_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Bundle fishingboat_night_e_01
+ObjectTemplate.geometry fishingboat_night_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ---------------------------------------------
+ObjectTemplate.addTemplate fishingboat_night_e_01_props
+
+
+ObjectTemplate.create SimpleObject fishingboat_night_e_01_props
+ObjectTemplate.geometry fishingboat_night_e_01_props_m1

@@ -1,0 +1,105 @@
+ObjectTemplate.create EffectBundle e_exp_tank
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_exp_medium/Sounds/e_exp_medium.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_tank
+ObjectTemplate.addTemplate Em_exp_tank_Flash
+ObjectTemplate.addTemplate Em_exp_tank_Sparks
+ObjectTemplate.addtemplate Em_GroundDecalKeg
+ObjectTemplate.setPosition 0/0.1/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+
+ObjectTemplate.create EffectBundle e_exp_tank_NoDecal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_exp_medium/Sounds/e_exp_medium.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_tank
+ObjectTemplate.addTemplate Em_exp_tank_Flash
+ObjectTemplate.addTemplate Em_exp_tank_Sparks
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+
+
+
+rem *** Em_exp_tank ***
+ObjectTemplate.create Emitter Em_exp_tank
+ObjectTemplate.template Fx_exp_tank
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 900
+ObjectTemplate.delay CRD_UNIFORM/0/0.3/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/50/0/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/2/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/2/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.2/0.7/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/2.5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.2/0.7/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_exp_tank ***
+ObjectTemplate.create SpriteParticle Fx_exp_tank
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/3/3.5/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.2/-0.1/0
+ObjectTemplate.sizeOverTime 0/0.539995|7/1.56001|100/1.95996
+ObjectTemplate.texture e_ExplAni06
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/20/40/1
+ObjectTemplate.colorRGBAOverTime 0/255/245/245/0|62/192/152/152/76|100/0/0/0/0
+ObjectTemplate.numAnimationFrames 16
+ObjectTemplate.initAnimationFrame CRD_NONE/8/0/0
+ObjectTemplate.animationSpeed CRD_NONE/70/0/0
+
+
+rem *** Em_exp_tank_Flash ***
+ObjectTemplate.create Emitter Em_exp_tank_Flash
+ObjectTemplate.template Fx_exp_tank_Flash
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 900
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_exp_tank_Flash ***
+ObjectTemplate.create SpriteParticle Fx_exp_tank_Flash
+ObjectTemplate.timeToLive CRD_NONE/1.7/1.7/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.500122|3/10.3499|100/13.1998
+ObjectTemplate.texture e_Fire4
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/255/255/128/176|27/255/220/110/190|100/255/128/64/0
+
+
+rem *** Em_exp_tank_Sparks ***
+ObjectTemplate.create Emitter Em_exp_tank_Sparks
+ObjectTemplate.template Fx_exp_tank_Sparks
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/50/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/7/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/5/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/4/7/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/0
+
+
+rem *** Fx_exp_tank_Sparks ***
+ObjectTemplate.create SpriteParticle Fx_exp_tank_Sparks
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1/0
+ObjectTemplate.size CRD_NONE/3/3.5/0
+ObjectTemplate.sizeOverTime 0/0.500015|100/1.2
+ObjectTemplate.texture e_dirtAni03
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/50/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/128/0|10/255/242/115/255|74/255/161/33/140|100/255/128/0/0

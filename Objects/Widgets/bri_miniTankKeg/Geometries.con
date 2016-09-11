@@ -1,0 +1,15 @@
+GeometryTemplate.create StandardMesh Laptop_m1
+GeometryTemplate.file HandWeapons/Laptop_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh laptop_shad_m1
+GeometryTemplate.file HandWeapons/laptop_shad_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh laptop_tripod_shad_m1
+GeometryTemplate.file HandWeapons/laptop_tripod_shad_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh laptop_tripod_m1
+GeometryTemplate.file HandWeapons/laptop_tripod_m1
+GeometryTemplate.hasDynamicShadow 1

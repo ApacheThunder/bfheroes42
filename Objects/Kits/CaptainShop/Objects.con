@@ -1,0 +1,1094 @@
+rem *** Captain Shop Kit Store - 3/23/2013 - Apache Thunder ***
+
+rem
+rem *** Use these bundles to place CaptainShop on a map. ***
+rem
+ObjectTemplate.create Bundle Bri_CaptainShopBundle
+rem ---------------------------------------------
+if v_arg1 == host
+ObjectTemplate.addTemplate CaptainShopSpawnerBri
+ObjectTemplate.addTemplate CaptainShopExitSpawnerBri
+ObjectTemplate.addTemplate CaptainShopEntrySpawnerBri
+else
+endIf
+
+ObjectTemplate.create Bundle Ger_CaptainShopBundle
+rem ---------------------------------------------
+if v_arg1 == host
+ObjectTemplate.addTemplate CaptainShopSpawnerGer
+ObjectTemplate.addTemplate CaptainShopExitSpawnerGer
+ObjectTemplate.addTemplate CaptainShopEntrySpawnerGer
+else
+endIf
+
+rem
+rem  *** Kit Bundles ***
+rem
+
+ObjectTemplate.create Bundle CaptainShop_Kits_Bri
+if v_arg1 == host
+rem ---------- Kits ---------------------
+ObjectTemplate.addTemplate RAMoonrakerSpawner
+ObjectTemplate.setPosition 3.8/0/-4.67
+ObjectTemplate.addTemplate RA_Gunner_Kit_MiniTankSpawner
+ObjectTemplate.setPosition 4.466/0.758/-2.628
+ObjectTemplate.addTemplate RippinRocketSpawner_Commando
+ObjectTemplate.setPosition 0.0/1.26849/-6.32614
+ObjectTemplate.setRotation -90/-90/0
+ObjectTemplate.addTemplate RippinRocketSpawner_Soldier
+ObjectTemplate.setPosition 0.868402/1.26849/-6.32614
+ObjectTemplate.setRotation -90/-90/0
+ObjectTemplate.addTemplate RippinRocketSpawner_Gunner
+ObjectTemplate.setPosition 1.73567/1.26849/-6.32614
+ObjectTemplate.setRotation -90/-90/0
+ObjectTemplate.addTemplate Royal_AntiAirSpawner
+ObjectTemplate.setPosition 0.261/0.735/-2.61
+ObjectTemplate.setRotation -90/0/0
+ObjectTemplate.addTemplate Royal_MK1Spawner
+ObjectTemplate.setPosition 1.567/0.731/-2.562
+ObjectTemplate.setRotation 132.676/0/0
+ObjectTemplate.addTemplate Royal_M16Spawner
+ObjectTemplate.setPosition 2.372/0.736/-2.476
+ObjectTemplate.setRotation 143/0/0
+else
+endIf
+
+ObjectTemplate.create Bundle CaptainShop_Kits_Ger
+if v_arg1 == host
+rem ---------- Kits ---------------------
+ObjectTemplate.addTemplate NAMoonrakerSpawner
+ObjectTemplate.setPosition 3.8/0/-4.67
+ObjectTemplate.addTemplate NA_Gunner_Kit_MiniTankSpawner
+ObjectTemplate.setPosition 4.466/0.758/-2.628
+ObjectTemplate.addTemplate TurboJetSpawner_Commando
+ObjectTemplate.setPosition 0.0/1.26849/-6.32614
+ObjectTemplate.setRotation -90/-90/0
+ObjectTemplate.addTemplate TurboJetSpawner_Soldier
+ObjectTemplate.setPosition 0.868402/1.26849/-6.32614
+ObjectTemplate.setRotation -90/-90/0
+ObjectTemplate.addTemplate TurboJetSpawner_Gunner
+ObjectTemplate.setPosition 1.73567/1.26849/-6.32614
+ObjectTemplate.setRotation -90/-90/0
+ObjectTemplate.addTemplate National_AntiAirSpawner
+ObjectTemplate.setPosition 0.261/0.735/-2.61
+ObjectTemplate.setRotation -90/0/0
+ObjectTemplate.addTemplate National_PanzerhunterSpawner
+ObjectTemplate.setPosition 1.567/0.731/-2.562
+ObjectTemplate.setRotation 132.676/0/0
+ObjectTemplate.addTemplate National_AK47Spawner
+ObjectTemplate.setPosition 2.372/0.736/-2.476
+ObjectTemplate.setRotation 143/0/0
+else
+endIf
+
+rem
+rem *** Soldier Spawns ***
+rem
+
+ObjectTemplate.create SpawnPoint Bri_CaptainShop_SoldierSpawn
+ObjectTemplate.setSpawnId 98
+ObjectTemplate.setGroup 98
+
+ObjectTemplate.create SpawnPoint Ger_CaptainShop_SoldierSpawn
+ObjectTemplate.setSpawnId 99
+ObjectTemplate.setGroup 99
+
+
+rem
+rem *** Captain Shop Spawners ***
+rem
+
+ObjectTemplate.create ObjectSpawner CaptainShopSpawnerGer
+ObjectTemplate.setObjectTemplate 1 CaptainShop_Ger
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2000
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.spawnOffset 0/1000/0
+ObjectTemplate.setTeam 1
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner CaptainShopSpawnerBri
+ObjectTemplate.setObjectTemplate 2 CaptainShop_Bri
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2000
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.spawnOffset 0/1000/0
+ObjectTemplate.setTeam 2
+ObjectTemplate.teamOnVehicle 1
+
+
+ObjectTemplate.create ObjectSpawner CaptainShopEntrySpawnerBri
+ObjectTemplate.setObjectTemplate 2 CaptainShopEntry_Bri
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner CaptainShopEntrySpawnerGer
+ObjectTemplate.setObjectTemplate 1 CaptainShopEntry_Ger
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.teamOnVehicle 1
+
+
+ObjectTemplate.create ObjectSpawner CaptainShopEntry2SpawnerBri
+ObjectTemplate.setObjectTemplate 2 CaptainShopEntry2_Bri
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner CaptainShopEntry2SpawnerGer
+ObjectTemplate.setObjectTemplate 1 CaptainShopEntry2_Ger
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.teamOnVehicle 1
+
+
+ObjectTemplate.create ObjectSpawner CaptainShopExitSpawnerGer
+ObjectTemplate.setObjectTemplate 1 CaptainShopExit_Ger
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2000
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.spawnOffset -1.466/1000.055/-5.895
+ObjectTemplate.setTeam 1
+ObjectTemplate.teamOnVehicle 1
+rem ObjectTemplate.removeAtRestart 1
+
+ObjectTemplate.create ObjectSpawner CaptainShopExitSpawnerBri
+ObjectTemplate.setObjectTemplate 2 CaptainShopExit_Bri
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2000
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.spawnOffset -1.466/1000.055/-5.895
+ObjectTemplate.setTeam 2
+ObjectTemplate.teamOnVehicle 1
+rem ObjectTemplate.removeAtRestart 1
+
+
+ObjectTemplate.create ObjectSpawner CaptainShopExit2SpawnerBri
+ObjectTemplate.setObjectTemplate 2 CaptainShopExit2_Bri
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2000
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+ObjectTemplate.teamOnVehicle 1
+rem ObjectTemplate.removeAtRestart 1
+
+
+ObjectTemplate.create ObjectSpawner CaptainShopExit2SpawnerGer
+ObjectTemplate.setObjectTemplate 1 CaptainShopExit2_Ger
+ObjectTemplate.minSpawnDelay 5
+ObjectTemplate.maxSpawnDelay 10
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 2000
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+ObjectTemplate.teamOnVehicle 1
+rem ObjectTemplate.removeAtRestart 1
+
+rem
+rem *** Target Dummy Spawners ***
+rem
+
+ObjectTemplate.create ObjectSpawner bri_target_dummySpawner
+ObjectTemplate.setObjectTemplate 2 bri_target_dummy
+ObjectTemplate.minSpawnDelay 20
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 2
+rem ObjectTemplate.removeAtRestart 1
+ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner ger_target_dummySpawner
+ObjectTemplate.setObjectTemplate 1 ger_target_dummy
+ObjectTemplate.minSpawnDelay 20
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+rem ObjectTemplate.removeAtRestart 1
+ObjectTemplate.holdObject 1
+
+rem
+rem  *** Anti-Aircraft Spawner for CaptainShop ***
+rem
+
+ObjectTemplate.create ObjectSpawner CaptainShop_AASpawner
+ObjectTemplate.setObjectTemplate 1 COM_AA
+ObjectTemplate.minSpawnDelay 30
+ObjectTemplate.maxSpawnDelay 40
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 30
+ObjectTemplate.distance 10
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.setTeam 1
+rem ObjectTemplate.removeAtRestart 1
+
+
+rem
+rem  *** Captain Shop Parts ***
+rem
+
+ObjectTemplate.create PlayerControlObject CaptainShopEntry_Bri
+ObjectTemplate.setNetworkableInfo CaptainShopEntryBri_BodyInfo
+ObjectTemplate.geometry teleport_ammo_bri_m1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 12
+ObjectTemplate.explosionDamage 10
+ObjectTemplate.explosionForce 5
+ObjectTemplate.explosionForceMod 5
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 85
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 18
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.dontClearTeamOnExit 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition -1.466/1001.5/-5.338
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_TeleportDeviceRoyal_idle
+rem -------------------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.466/1001/-5.338 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_shop_32x32.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+ObjectTemplate.create PlayerControlObject CaptainShopEntry_Ger
+ObjectTemplate.setNetworkableInfo CaptainShopEntryGer_BodyInfo
+ObjectTemplate.geometry teleport_ammo_ger_m1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 12
+ObjectTemplate.explosionDamage 10
+ObjectTemplate.explosionForce 5
+ObjectTemplate.explosionForceMod 5
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 85
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 18
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.dontClearTeamOnExit 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition -1.466/1001.5/-5.338
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_TeleportDeviceNational_idle
+rem -------------------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.466/1001/-5.338 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_shop_32x32.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+
+ObjectTemplate.create PlayerControlObject CaptainShopEntry2_Bri
+ObjectTemplate.setNetworkableInfo CaptainShopEntry2Bri_BodyInfo
+ObjectTemplate.geometry teleport_ammo_bri_m1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 85
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.dontClearTeamOnExit 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry2
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition -8.307/1.6/-0.616
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_TeleportDeviceRoyal_idle
+rem -------------------------------------------------
+ObjectTemplate.setSoldierExitLocation -8.307/1/-1.439 180/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+ObjectTemplate.create PlayerControlObject CaptainShopEntry2_Ger
+ObjectTemplate.setNetworkableInfo CaptainShopEntry2Ger_BodyInfo
+ObjectTemplate.geometry teleport_ammo_ger_m1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 85
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.dontClearTeamOnExit 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry2
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition -8.307/1.6/-0.616
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_TeleportDeviceNational_idle
+rem -------------------------------------------------
+ObjectTemplate.setSoldierExitLocation -8.307/1/-1.439 180/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+
+ObjectTemplate.create PlayerControlObject CaptainShopExit_Bri
+ObjectTemplate.setNetworkableInfo CaptainShopExitBri_BodyInfo
+ObjectTemplate.geometry teleport_ammo_bri_m1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 85
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition 1.466/-998.0/5.895
+ObjectTemplate.addTemplate e_TeleportDeviceRoyal_idle
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 1.466/-999.2/5.338 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+ObjectTemplate.create PlayerControlObject CaptainShopExit_Ger
+ObjectTemplate.setNetworkableInfo CaptainShopExitGer_BodyInfo
+ObjectTemplate.geometry teleport_ammo_ger_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 85
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 18
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition 1.466/-998.0/5.895
+ObjectTemplate.addTemplate e_TeleportDeviceNational_idle
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 1.466/-999.2/5.338 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+ObjectTemplate.create PlayerControlObject CaptainShopExit2_Ger
+ObjectTemplate.setNetworkableInfo CaptainShopExit2Bri_BodyInfo
+ObjectTemplate.geometry teleport_ammo_ger_m1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 86
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.dontClearTeamOnExit 1
+rem -------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry2
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition 8.307/1.1/0.616
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate e_TeleportDeviceNational_idle
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 9.185/0.633/0.616 90/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+
+ObjectTemplate.create PlayerControlObject CaptainShopExit2_Bri
+ObjectTemplate.setNetworkableInfo CaptainShopExit2Ger_BodyInfo
+ObjectTemplate.geometry teleport_ammo_bri_m1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 0
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.material 86
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.dontClearTeamOnExit 1
+rem -------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry2
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition 8.307/1.1/0.616
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate e_TeleportDeviceRoyal_idle
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 9.185/0.633/0.616 90/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Teleporter.tga"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 0
+
+rem
+rem  *** Child Objects ***
+rem
+
+
+ObjectTemplate.create EntryPoint CaptainShopEntry
+ObjectTemplate.setEntryRadius 3
+
+ObjectTemplate.create EntryPoint CaptainShopEntry2
+ObjectTemplate.setEntryRadius 1.5
+
+
+ObjectTemplate.create Bundle teleport_ammo_static_bri
+ObjectTemplate.geometry teleport_ammo_bri_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_TeleportDeviceRoyal_idle
+rem -------------------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create Bundle teleport_ammo_static_ger
+ObjectTemplate.geometry teleport_ammo_ger_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_TeleportDeviceNational_idle
+rem -------------------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create Camera CaptainShopCamera
+ObjectTemplate.setMinRotation -80/-80/0
+ObjectTEmplate.setMaxRotation 80/80/0
+ObjectTemplate.setMaxSpeed 50/50/0
+ObjectTemplate.setAcceleration 1000/1000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.CVMInside 1
+ObjectTemplate.CVMChase 0
+ObjectTemplate.CVMFrontChase 0
+ObjectTemplate.CVMFlyBy 0
+ObjectTemplate.CVMTrace 0
+ObjectTemplate.CVMExternTrace 0
+
+
+ObjectTemplate.create RotationalBundle Bri_TargetIsland_Spinner
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem -------------------------------------------------
+ObjectTemplate.setMaxSpeed 10/0/0
+ObjectTemplate.setAcceleration 10/0/0
+ObjectTemplate.setContinousRotationSpeed 10/0/0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate Bri_TargetIsland
+ObjectTemplate.setPosition 100/0/0
+
+ObjectTemplate.create RotationalBundle Ger_TargetIsland_Spinner
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem -------------------------------------------------
+ObjectTemplate.setMaxSpeed 10/0/0
+ObjectTemplate.setAcceleration 10/0/0
+ObjectTemplate.setContinousRotationSpeed 10/0/0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate Ger_TargetIsland
+ObjectTemplate.setPosition 100/0/0
+
+
+ObjectTemplate.create Bundle Bri_TargetIsland
+ObjectTemplate.setNetworkableInfo Bri_TargetIsland_BodyInfo
+ObjectTemplate.geometry TargetDummyIsland_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate space_antenna_01
+ObjectTemplate.setPosition 0/-9.521/0
+ObjectTemplate.setRotation 0/0/-180
+ObjectTemplate.addTemplate space_antenna_01
+ObjectTemplate.setPosition -100/-26.879/0
+ObjectTemplate.setRotation 0/0/-180
+rem -------------------------------------------------
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 0/-0.075066/0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 4.19748/-0.075066/1.47582
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition -5.95699/-0.075066/1.8296
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition -0.486466/-0.075066/5.68632
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 0.554977/0.0531096/-5.6923
+rem -------------------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create Bundle Ger_TargetIsland
+ObjectTemplate.setNetworkableInfo Ger_TargetIsland_BodyInfo
+ObjectTemplate.geometry TargetDummyIsland_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate space_antenna_01
+ObjectTemplate.setPosition 0/-9.521/0
+ObjectTemplate.setRotation 0/0/-180
+ObjectTemplate.addTemplate space_antenna_01
+ObjectTemplate.setPosition -100/-26.879/0
+ObjectTemplate.setRotation 0/0/-180
+rem -------------------------------------------------
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 0/-0.075066/0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 4.19748/-0.075066/1.47582
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition -5.95699/-0.075066/1.8296
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition -0.486466/-0.075066/5.68632
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 0.554977/0.0531096/-5.6923
+rem -------------------------------------------------
+ObjectTemplate.cullRadiusScale 5
+
+
+
+
+ObjectTemplate.create Bundle captainshop_props_bri
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem ------------------------------------------------
+ObjectTemplate.addTemplate CaptainShop_AASpawner
+ObjectTemplate.setPosition -11.8457/14.7927/-13.8173
+ObjectTemplate.setRotation -149.419/0/0
+rem ------------------------------------------------
+ObjectTemplate.addTemplate crate_03
+ObjectTemplate.setPosition 3.10744/0.1752/-0.553755
+ObjectTemplate.setRotation -124.338/0/0
+ObjectTemplate.addTemplate basket_01_empty
+ObjectTemplate.setPosition -3.66317/0.0579039/1.9182
+ObjectTemplate.addTemplate basket_01_grain
+ObjectTemplate.setPosition -5.67247/-0.0539797/-4.93324
+ObjectTemplate.addTemplate bench_01
+ObjectTemplate.setPosition -5.38151/0.184885/-2.48045
+ObjectTemplate.setRotation 180.0/0/0
+ObjectTemplate.addTemplate cable_8m
+ObjectTemplate.setPosition -7.72882/4.17392/5.086
+ObjectTemplate.setRotation -17.8822/0.0/-5.19075
+ObjectTemplate.addTemplate cable_8m
+ObjectTemplate.setPosition -0.778981/3.65815/3.96236
+ObjectTemplate.setRotation 35.3204/4.16061/-2.06526
+ObjectTemplate.addTemplate cablepole_01
+ObjectTemplate.setPosition -13.5841/0.438998/-3.3653
+ObjectTemplate.setRotation -160.101/0/0
+ObjectTemplate.addTemplate cablepole_02
+ObjectTemplate.setPosition -4.23014/-3.74198/5.83768
+ObjectTemplate.setRotation -60.6303/0/0
+ObjectTemplate.addTemplate castle_banner_02
+ObjectTemplate.setPosition 3.88596/2.57662/-7.36586
+ObjectTemplate.setRotation -180.0/0/0
+ObjectTemplate.addTemplate castle_banner_03
+ObjectTemplate.setPosition -11.3105/8.66266/-9.35424
+ObjectTemplate.setRotation 31.4784/-1.10547/-0.0948728
+ObjectTemplate.addTemplate castletower_01
+ObjectTemplate.setPosition -13.2693/-1.20592/-12.5567
+ObjectTemplate.setRotation -48.1344/0/0
+ObjectTemplate.addTemplate ctf_flagbase
+ObjectTemplate.setPosition -14.2996/14.872/-12.619
+ObjectTemplate.addTemplate ctf_stationaryroyal
+ObjectTemplate.setPosition -14.2996/15.2396/-12.619
+ObjectTemplate.setRotation -48.134/0/0
+ObjectTemplate.addTemplate lighthouse_ladder_e_01
+ObjectTemplate.setPosition -8.76713/2.498/-11.2015
+ObjectTemplate.setRotation -106.103/0/0
+ObjectTemplate.addTemplate prop_cluster_01
+ObjectTemplate.setPosition 10.2437/1.57979/14.1263
+ObjectTemplate.setRotation -35.2618/-2.04965/4.65762
+ObjectTemplate.addTemplate prop_cluster_04
+ObjectTemplate.setPosition 4.24805/0.724142/-1.06539
+ObjectTemplate.setRotation 165.698/0/0
+ObjectTemplate.addTemplate space_antenna_01
+ObjectTemplate.setPosition 4.21286/5.61912/-3.05449
+ObjectTemplate.setRotation 136.533/0/0
+ObjectTemplate.addTemplate space_generator_royal
+ObjectTemplate.setPosition -1.42058/-27.3871/-3.6196
+ObjectTemplate.setRotation -121.608/0/180
+ObjectTemplate.addTemplate space_oxygen_station
+ObjectTemplate.setPosition 3.70804/-27.4117/-11.1511
+ObjectTemplate.setRotation -52.8885/0/180
+ObjectTemplate.addTemplate space_oxygen_tube_red
+ObjectTemplate.setPosition 0.753298/-27.3719/0
+ObjectTemplate.setRotation 0/0/180
+ObjectTemplate.addTemplate space_oxygen_tube_yellow
+ObjectTemplate.setPosition 2.22167/-27.3769/-0.159683
+ObjectTemplate.setRotation 35.8451/0.0/180
+ObjectTemplate.addTemplate space_oxygen_tube_yellow
+ObjectTemplate.setPosition 2.84446/-27.3769/-0.552992
+ObjectTemplate.setRotation 35.8451/0/180
+ObjectTemplate.addTemplate space_radardish
+ObjectTemplate.setPosition -1.83469/-24.3929/-8.85583
+ObjectTemplate.setRotation 133.314/-0.902304/179.98
+ObjectTemplate.addTemplate telephone_light
+ObjectTemplate.setPosition -16.8393/4.51949/-10.8057
+ObjectTemplate.addTemplate telephone_light
+ObjectTemplate.setPosition 2.49836/3.59963/1.19166
+ObjectTemplate.addTemplate tombstone_01
+ObjectTemplate.setPosition -12.6716/-0.28572/-7.10249
+ObjectTemplate.setRotation -77.3903/3.36155/3.9467
+ObjectTemplate.addTemplate tombstone_01
+ObjectTemplate.setPosition -10.596/-0.143862/-7.95878
+ObjectTemplate.setRotation -54.5774/4.43448/0.611978
+ObjectTemplate.addTemplate wooden_fence2_4m
+ObjectTemplate.setPosition 20.9365/0.20751/-15.2273
+ObjectTemplate.setRotation -147.106/-6.0175/-1.95154
+ObjectTemplate.addTemplate wooden_fence2_4m
+ObjectTemplate.setPosition 22.1157/0.225761/-11.7111
+ObjectTemplate.setRotation -176.242/-4.26887/0
+ObjectTemplate.addTemplate wooden_fence2_4m
+ObjectTemplate.setPosition 22.3836/0.377113/-7.84424
+ObjectTemplate.setRotation -176.242/-4.26887/0
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition -16.0936/0.207439/-17.3833
+ObjectTemplate.setRotation -45.7876/11.1649/1.39718
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition -10.5656/1.72962/-22.7613
+ObjectTemplate.setRotation -45.7876/11.1649/1.39718
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition -3.9029/2.70934/-25.9444
+ObjectTemplate.setRotation -83.6588/3.02423/-5.09043
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition 3.94196/2.91624/-26.4029
+ObjectTemplate.setRotation -89.9139/1.03826/-5.30445
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition 11.1292/2.28378/-24.3762
+ObjectTemplate.setRotation -120.566/-9.19836/-6.1531
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition 17.1848/1.25731/-19.6077
+ObjectTemplate.setRotation -136.202/-10.5022/-3.46176
+ObjectTemplate.addTemplate wooden_fence2_endpiece
+ObjectTemplate.setPosition 22.4738/0.311298/-5.885
+ObjectTemplate.setRotation -176.242/0/0
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition 6.9623/0.994001/15.3143
+ObjectTemplate.setRotation 90.3172/-7.82712/0.0
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition -8.57194/-0.690004/13.5733
+ObjectTemplate.setRotation 45.9155/6.53894/5.59223
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition -4.84395/-0.628933/15.3277
+ObjectTemplate.setRotation 90.3172/-7.82712/0.0
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition -11.4346/-0.221708/10.8018
+ObjectTemplate.setRotation 45.9155/6.53894/5.59223
+ObjectTemplate.addTemplate wooden_fence_8m
+ObjectTemplate.setPosition 1.05244/0.170953/15.355
+ObjectTemplate.setRotation 90.317/-7.827/0.0
+ObjectTemplate.addTemplate wooden_fence_endpiece
+ObjectTemplate.setPosition 8.99916/1.27621/15.3045
+ObjectTemplate.setRotation 0.0/-8.4582e-007/7.82699
+ObjectTemplate.addTemplate wooden_fence_endpiece
+ObjectTemplate.setPosition -7.12429/-0.939925/15.0396
+ObjectTemplate.setRotation 42.711/4.96511/5.32572
+ObjectTemplate.addTemplate haystack01
+ObjectTemplate.setPosition 13.285/0.534021/-8.24096
+rem -------------------------------------------------
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 1.47927/0.0237207/-1.88293
+ObjectTemplate.setRotation -90.0/2.73208e-005/0.0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition -3.78528/-1.38081/14.3985
+ObjectTemplate.setRotation -88.3313/9.06983/5.96703
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 4.34722/-0.247434/14.2079
+ObjectTemplate.setRotation -88.2329/9.05914/6.59151
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 12.4059/0.230751/10.8519
+ObjectTemplate.setRotation -30.0339/-5.81804/6.96187
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 13.5587/-0.00891964/8.65956
+ObjectTemplate.setRotation -30.0339/-5.81804/6.96187
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 16.7278/-0.16386/3.17314
+ObjectTemplate.setRotation -30.6648/0/0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 18.3703/-0.16386/0.403005
+ObjectTemplate.setRotation -30.6648/0/0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 20.2336/-0.16386/-2.73962
+ObjectTemplate.setRotation -30.6648/0/0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 12.2877/-0.161445/-18.3503
+ObjectTemplate.setRotation 142.49/0/0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 1.36688/-0.161445/-8.15002
+ObjectTemplate.setRotation -92.0164/0/0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 3.33376/-0.161445/2.11452
+ObjectTemplate.setRotation 91.0193/0/0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition -10.722/-0.28304/-17.0286
+ObjectTemplate.setRotation -86.7026/4.36283/-6.35558
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition -12.5283/-0.400918/2.30298
+ObjectTemplate.setRotation -150.123/3.4143/0.0
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition -9.02099/-0.251867/6.41071
+ObjectTemplate.setRotation -136.099/1.9488/2.8867
+
+
+ObjectTemplate.create Bundle captainshop_props_ger
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate CaptainShop_AASpawner
+ObjectTemplate.setPosition -11.8457/14.7927/-13.8173
+ObjectTemplate.setRotation -149.419/0/0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate crate_03
+ObjectTemplate.setPosition 3.10744/0.1752/-0.553755
+ObjectTemplate.setRotation -124.338/0/0
+ObjectTemplate.addTemplate basket_01_empty
+ObjectTemplate.setPosition -3.66317/0.0579039/1.9182
+ObjectTemplate.addTemplate basket_01_grain
+ObjectTemplate.setPosition -5.67247/-0.0539797/-4.93324
+ObjectTemplate.addTemplate bench_01
+ObjectTemplate.setPosition -5.38151/0.184885/-2.48045
+ObjectTemplate.setRotation 180.0/0/0
+ObjectTemplate.addTemplate cable_8m
+ObjectTemplate.setPosition -7.72882/4.17392/5.086
+ObjectTemplate.setRotation -17.8822/0.0/-5.19075
+ObjectTemplate.addTemplate cable_8m
+ObjectTemplate.setPosition -0.778981/3.65815/3.96236
+ObjectTemplate.setRotation 35.3204/4.16061/-2.06526
+ObjectTemplate.addTemplate cablepole_01
+ObjectTemplate.setPosition -13.5841/0.438998/-3.3653
+ObjectTemplate.setRotation -160.101/0/0
+ObjectTemplate.addTemplate cablepole_02
+ObjectTemplate.setPosition -4.23014/-3.74198/5.83768
+ObjectTemplate.setRotation -60.6303/0/0
+ObjectTemplate.addTemplate castle_banner_02
+ObjectTemplate.setPosition 3.88596/2.57662/-7.36586
+ObjectTemplate.setRotation -180.0/0/0
+ObjectTemplate.addTemplate castle_banner_03
+ObjectTemplate.setPosition -11.3105/8.66266/-9.35424
+ObjectTemplate.setRotation 31.4784/-1.10547/-0.0948728
+ObjectTemplate.addTemplate castletower_01
+ObjectTemplate.setPosition -13.2693/-1.20592/-12.5567
+ObjectTemplate.setRotation -48.1344/0/0
+ObjectTemplate.addTemplate ctf_flagbase
+ObjectTemplate.setPosition -14.2996/14.872/-12.619
+ObjectTemplate.addTemplate ctf_stationarynational
+ObjectTemplate.setPosition -14.2996/15.2396/-12.619
+ObjectTemplate.setRotation -48.134/0/0
+ObjectTemplate.addTemplate lighthouse_ladder_e_01
+ObjectTemplate.setPosition -8.76713/2.498/-11.2015
+ObjectTemplate.setRotation -106.103/0/0
+ObjectTemplate.addTemplate prop_cluster_01
+ObjectTemplate.setPosition 10.2437/1.57979/14.1263
+ObjectTemplate.setRotation -35.2618/-2.04965/4.65762
+ObjectTemplate.addTemplate prop_cluster_04
+ObjectTemplate.setPosition 4.24805/0.724142/-1.06539
+ObjectTemplate.setRotation 165.698/0/0
+ObjectTemplate.addTemplate space_antenna_01
+ObjectTemplate.setPosition 4.21286/5.61912/-3.05449
+ObjectTemplate.setRotation 136.533/0/0
+ObjectTemplate.addTemplate space_generator_national
+ObjectTemplate.setPosition -1.42058/-27.3871/-3.6196
+ObjectTemplate.setRotation -121.608/0/180
+ObjectTemplate.addTemplate space_oxygen_station
+ObjectTemplate.setPosition 3.70804/-27.4117/-11.1511
+ObjectTemplate.setRotation -52.8885/0/180
+ObjectTemplate.addTemplate space_oxygen_tube_red
+ObjectTemplate.setPosition 0.753298/-27.3719/0
+ObjectTemplate.setRotation 0/0/180
+ObjectTemplate.addTemplate space_oxygen_tube_yellow
+ObjectTemplate.setPosition 2.22167/-27.3769/-0.159683
+ObjectTemplate.setRotation 35.8451/0.0/180
+ObjectTemplate.addTemplate space_oxygen_tube_yellow
+ObjectTemplate.setPosition 2.84446/-27.3769/-0.552992
+ObjectTemplate.setRotation 35.8451/0/180
+ObjectTemplate.addTemplate space_radardish
+ObjectTemplate.setPosition -1.83469/-24.3929/-8.85583
+ObjectTemplate.setRotation 133.314/-0.902304/179.98
+ObjectTemplate.addTemplate telephone_light
+ObjectTemplate.setPosition -16.8393/4.51949/-10.8057
+ObjectTemplate.addTemplate telephone_light
+ObjectTemplate.setPosition 2.49836/3.59963/1.19166
+ObjectTemplate.addTemplate tombstone_01
+ObjectTemplate.setPosition -12.6716/-0.28572/-7.10249
+ObjectTemplate.setRotation -77.3903/3.36155/3.9467
+ObjectTemplate.addTemplate tombstone_01
+ObjectTemplate.setPosition -10.596/-0.143862/-7.95878
+ObjectTemplate.setRotation -54.5774/4.43448/0.611978
+ObjectTemplate.addTemplate wooden_fence2_4m
+ObjectTemplate.setPosition 20.9365/0.20751/-15.2273
+ObjectTemplate.setRotation -147.106/-6.0175/-1.95154
+ObjectTemplate.addTemplate wooden_fence2_4m
+ObjectTemplate.setPosition 22.1157/0.225761/-11.7111
+ObjectTemplate.setRotation -176.242/-4.26887/0
+ObjectTemplate.addTemplate wooden_fence2_4m
+ObjectTemplate.setPosition 22.3836/0.377113/-7.84424
+ObjectTemplate.setRotation -176.242/-4.26887/0
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition -16.0936/0.207439/-17.3833
+ObjectTemplate.setRotation -45.7876/11.1649/1.39718
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition -10.5656/1.72962/-22.7613
+ObjectTemplate.setRotation -45.7876/11.1649/1.39718
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition -3.9029/2.70934/-25.9444
+ObjectTemplate.setRotation -83.6588/3.02423/-5.09043
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition 3.94196/2.91624/-26.4029
+ObjectTemplate.setRotation -89.9139/1.03826/-5.30445
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition 11.1292/2.28378/-24.3762
+ObjectTemplate.setRotation -120.566/-9.19836/-6.1531
+ObjectTemplate.addTemplate wooden_fence2_8m
+ObjectTemplate.setPosition 17.1848/1.25731/-19.6077
+ObjectTemplate.setRotation -136.202/-10.5022/-3.46176
+ObjectTemplate.addTemplate wooden_fence2_endpiece
+ObjectTemplate.setPosition 22.4738/0.311298/-5.885
+ObjectTemplate.setRotation -176.242/0/0
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition 6.9623/0.994001/15.3143
+ObjectTemplate.setRotation 90.3172/-7.82712/0.0
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition -8.57194/-0.690004/13.5733
+ObjectTemplate.setRotation 45.9155/6.53894/5.59223
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition -4.84395/-0.628933/15.3277
+ObjectTemplate.setRotation 90.3172/-7.82712/0.0
+ObjectTemplate.addTemplate wooden_fence_4m
+ObjectTemplate.setPosition -11.4346/-0.221708/10.8018
+ObjectTemplate.setRotation 45.9155/6.53894/5.59223
+ObjectTemplate.addTemplate wooden_fence_8m
+ObjectTemplate.setPosition 1.05244/0.170953/15.355
+ObjectTemplate.setRotation 90.317/-7.827/0.0
+ObjectTemplate.addTemplate wooden_fence_endpiece
+ObjectTemplate.setPosition 8.99916/1.27621/15.3045
+ObjectTemplate.setRotation 0.0/-8.4582e-007/7.82699
+ObjectTemplate.addTemplate wooden_fence_endpiece
+ObjectTemplate.setPosition -7.12429/-0.939925/15.0396
+ObjectTemplate.setRotation 42.711/4.96511/5.32572
+ObjectTemplate.addTemplate haystack01
+ObjectTemplate.setPosition 13.285/0.534021/-8.24096
+rem -------------------------------------------------
+ObjectTemplate.addTemplate ger_target_dummySpawner
+ObjectTemplate.setPosition 1.47927/0.0237207/-1.88293
+ObjectTemplate.setRotation -90/0/0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition -3.78528/-1.38081/14.3985
+ObjectTemplate.setRotation -88.3313/9.06983/5.96703
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 4.34722/-0.247434/14.2079
+ObjectTemplate.setRotation -88.2329/9.05914/6.59151
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 12.4059/0.230751/10.8519
+ObjectTemplate.setRotation -30.0339/-5.81804/6.96187
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 13.5587/-0.00891964/8.65956
+ObjectTemplate.setRotation -30.0339/-5.81804/6.96187
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 16.7278/-0.16386/3.17314
+ObjectTemplate.setRotation -30.6648/0/0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 18.3703/-0.16386/0.403005
+ObjectTemplate.setRotation -30.6648/0/0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 20.2336/-0.16386/-2.73962
+ObjectTemplate.setRotation -30.6648/0/0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 12.2877/-0.161445/-18.3503
+ObjectTemplate.setRotation 142.49/0/0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 1.36688/-0.161445/-8.15002
+ObjectTemplate.setRotation -92.0164/0/0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition 3.33376/-0.161445/2.11452
+ObjectTemplate.setRotation 91.0193/0/0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition -10.722/-0.28304/-17.0286
+ObjectTemplate.setRotation -86.7026/4.36283/-6.35558
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition -12.5283/-0.400918/2.30298
+ObjectTemplate.setRotation -150.123/3.4143/0.0
+ObjectTemplate.addTemplate bri_target_dummySpawner
+ObjectTemplate.setPosition -9.02099/-0.251867/6.41071
+ObjectTemplate.setRotation -136.099/1.9488/2.8867
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_sAmb_FireFlies
+ObjectTemplate.setPosition 8.181/0/4.813
+ObjectTemplate.addTemplate e_sAmb_FireFlies
+ObjectTemplate.setPosition 4.33/0/-15.368

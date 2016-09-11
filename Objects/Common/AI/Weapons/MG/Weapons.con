@@ -1,0 +1,16 @@
+weaponTemplate.create COM_MG
+weaponTemplate.burst 1
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0.0
+weaponTemplate.maxRange 85.0
+weaponTemplate.weaponActivate PIMenuSelect3
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry    5.0
+weaponTemplate.setStrength LightArmour 2.5
+weaponTemplate.setStrength HeavyArmour 0.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Submarine   0.0
+weaponTemplate.setStrength Air         0.0
+weaponTemplate.setSoundSphereRadius 100.0
+
+

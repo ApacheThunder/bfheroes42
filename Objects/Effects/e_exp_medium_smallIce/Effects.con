@@ -1,0 +1,18 @@
+rem *** e_exp_medium_ice ***
+ObjectTemplate.create EffectBundle e_exp_medium_smallIce
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_exp_medium/Sounds/e_exp_medium.ssc
+rem -------------------------------------
+ObjectTemplate.addtemplate e_GroundDecal_SmallIce
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_medium_flash
+ObjectTemplate.addTemplate Em_exp_medium_Cloud
+ObjectTemplate.addTemplate Em_exp_medium_Smoke
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_exp_medium_Smoke3
+ObjectTemplate.setRotation 20/0/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0

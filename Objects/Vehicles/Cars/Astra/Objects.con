@@ -1,0 +1,152 @@
+ObjectTemplate.create PlayerControlObject Astra
+ObjectTemplate.setNetworkableInfo AstraInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.explosionForceMod 20
+ObjectTemplate.drag 1
+ObjectTemplate.mass 1120
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 0.75
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 120
+ObjectTemplate.maxhitpoints 120
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 6
+ObjectTemplate.hpLostWhileCriticalDamage 2
+ObjectTemplate.hpLostWhileUpSideDown 5
+ObjectTemplate.hpLostWhileDamageFromDeepWater 10
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.damageFromDeepWater 1
+ObjectTemplate.deepWaterDamageDelay 3
+ObjectTemplate.addArmorEffect 30 e_dstate_land_MediumSmoke 0/0.5/1.3
+ObjectTemplate.addArmorEffect 0 e_dstate_static_fire 0/0.5/1.3
+ObjectTemplate.addArmorEffect 0 e_exp_large 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrap_AstraTire 1/0/-1.3
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion  0/0/0
+ObjectTemplate.addArmorEffect -1 e_scrap_AstraTire 1/0/-1.3
+ObjectTemplate.aiTemplate Car
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 1
+ObjectTemplate.timeToStartFadeAfterDeath 18
+rem ------------------------------------------
+ObjectTemplate.addTemplate lodAstra
+ObjectTemplate.setRandomGeometries 2
+rem ------------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.5/0.3/0 0/0/0
+ObjectTemplate.altSoldierExitPosition 0/0.3/-2.5
+ObjectTemplate.setVehicleIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.create PlayerControlObject AstraCoDriver
+ObjectTemplate.setNetworkableInfo AstraPassengerInfo
+ObjectTemplate.aiTemplate CarPassenger
+rem -------------------------------------
+ObjectTemplate.addTemplate CarEntry
+ObjectTemplate.addTemplate CarPassengerCamera
+ObjectTemplate.setPosition 0/0.5/-0.22
+ObjectTemplate.addTemplate CarPassengerSeat
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 1.1/-0.25/0.131 0/0/0
+ObjectTemplate.altSoldierExitPosition -0.4/0.3/-2.369
+ObjectTemplate.setVehicleIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+
+ObjectTemplate.create lodObject lodAstra1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Astra1Complex
+ObjectTemplate.addTemplate Astra1Wreck
+rem -------------------------------------
+ObjectTemplate.lodSelector CarSelector
+
+ObjectTemplate.create lodObject lodAstra2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Astra2Complex
+ObjectTemplate.addTemplate Astra2Wreck
+rem -------------------------------------
+ObjectTemplate.lodSelector CarSelector
+
+
+ObjectTemplate.create Bundle Astra1Complex
+ObjectTemplate.geometry gAstraBody
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------------
+run LensFlares.inc
+rem ------------------------------------------
+ObjectTemplate.addTemplate AstraInterior
+rem ------------------------------------------
+ObjectTemplate.addTemplate CarSeat
+ObjectTemplate.setPosition -0.4/0.1/-0.131
+ObjectTemplate.addTemplate CarCamera
+ObjectTemplate.setPosition -0.4/0.72/-0.131
+ObjectTemplate.addTemplate AstraCoDriver
+ObjectTemplate.setPosition 0.4/0.1/-0.131
+ObjectTemplate.addTemplate AstraEngine
+ObjectTemplate.addTemplate CarSteeringDummy
+ObjectTemplate.setPosition -0.392/0.315/0.382
+
+ObjectTemplate.create Bundle Astra2Complex
+ObjectTemplate.geometry gAstraBodyAlt
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -----------------------------------------
+run LensFlares.inc
+rem ------------------------------------------
+ObjectTemplate.addTemplate AstraInterior
+rem ------------------------------------------
+ObjectTemplate.addTemplate CarSeat
+ObjectTemplate.setPosition -0.4/0.1/-0.131
+ObjectTemplate.addTemplate CarCamera
+ObjectTemplate.setPosition -0.4/0.72/-0.131
+ObjectTemplate.addTemplate AstraCoDriver
+ObjectTemplate.setPosition 0.4/0.1/-0.131
+ObjectTemplate.addTemplate AstraEngine
+ObjectTemplate.addTemplate CarSteeringDummy
+ObjectTemplate.setPosition -0.392/0.315/0.382
+
+
+ObjectTemplate.create Bundle Astra1Wreck
+ObjectTemplate.geometry gAstraBodyWreck
+rem ------------------------------------
+ObjectTemplate.addTemplate AstraInterior
+ObjectTemplate.addTemplate AstraWheelsWreck
+
+ObjectTemplate.create Bundle Astra2Wreck
+ObjectTemplate.geometry gAstraBodyWreckAlt
+rem ------------------------------------
+ObjectTemplate.addTemplate AstraInterior
+ObjectTemplate.addTemplate AstraWheelsWreck
+
+ObjectTemplate.create SimpleObject AstraInterior
+ObjectTemplate.geometry gAstraInterior

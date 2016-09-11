@@ -1,0 +1,53 @@
+renderer.beginGlobalCluster ger_helicopter_flettner
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_m1
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_leftrotor_m1
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_leftrotor_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_rightrotor_m1
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_rightrotor_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_leftrotor_blur_m1
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_leftrotor_blur_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.cullFactor 0
+
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_rightrotor_blur_m1
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_rightrotor_blur_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.cullFactor 0
+
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_tailrudder_m1
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_tailrudder_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 128
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_m2
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_m2
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_helicopter_flettner_wreck_m1
+GeometryTemplate.file Vehicles/ger_helicopter_flettner_wreck_m1
+GeometryTemplate.hasDynamicShadow 1

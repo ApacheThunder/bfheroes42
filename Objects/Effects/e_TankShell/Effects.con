@@ -1,0 +1,6 @@
+ObjectTemplate.create EffectBundle e_TankShell
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_ATRocketFire
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0

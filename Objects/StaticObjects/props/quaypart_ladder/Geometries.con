@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh quaypart_ladder_m1
+GeometryTemplate.file quaypart_ladder_m1
+
+GeometryTemplate.create StandardMesh quaypart_ladder_short_m1
+GeometryTemplate.file quaypart_ladder_short_m1

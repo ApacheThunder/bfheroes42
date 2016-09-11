@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh buoy_01_m1
+GeometryTemplate.file buoy_01_m1
+
+GeometryTemplate.create StandardMesh buoy_01_night_m1
+GeometryTemplate.file buoy_01_night_m1
+
+GeometryTemplate.create StandardMesh buoy_01_glow_m1
+GeometryTemplate.file buoy_01_glow_m1
+GeometryTemplate.alphaLodDistance 1024

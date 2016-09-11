@@ -1,0 +1,12 @@
+NetworkableInfo.createNewInfo ger_jeep_kubelwagenInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_jeep_kubelwagenPassenger_info
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority 0
+
+NetworkableInfo.createNewInfo ger_jeep_kubelwagenEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_jeep_kubelwagenSteeringInfo
+NetworkableInfo.setPredictionMode PMLinear

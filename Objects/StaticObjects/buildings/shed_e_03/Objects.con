@@ -1,0 +1,20 @@
+ObjectTemplate.create Bundle shed_e_03
+ObjectTemplate.geometry shed_e_03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ----------------------------------------
+ObjectTemplate.addTemplate DeathBOx_Shed3
+
+ObjectTemplate.create Obstacle DeathBox_Shed3
+ObjectTemplate.geometry DeathBox_Shed3_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+rem *** Snow Add-On for Winter maps ***
+ObjectTemplate.create SimpleObject snow_shed_e_03
+ObjectTemplate.geometry snow_shed_e_03_m1
+ObjectTemplate.cullRadiusScale 5

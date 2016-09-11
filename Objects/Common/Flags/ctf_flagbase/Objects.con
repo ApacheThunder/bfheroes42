@@ -1,0 +1,14 @@
+ObjectTemplate.create SimpleObject ctf_flagbase
+ObjectTemplate.geometry ctf_flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject ctf_flagbase_moon
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

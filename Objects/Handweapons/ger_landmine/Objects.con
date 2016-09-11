@@ -1,0 +1,49 @@
+ObjectTemplate.create HandFireArms ger_landmine
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript ../COM_TNT/Sounds/TNT.ssc
+ObjectTemplate.itemIndex 8
+ObjectTemplate.projectileTemplate ger_landmine_projectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 5
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/grenades_tnt.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 10
+ObjectTemplate.addRootSpeed 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.2
+ObjectTemplate.fireDelay 0.4
+ObjectTemplate.soldierCameraPosition 0/-0.05/0.3
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.ammoType	2
+ObjectTemplate.autoReload 1
+ObjectTemplate.aiTemplate COM_Landmine
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/Landmine.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate ger_landmineLod
+
+ObjectTemplate.create LodObject ger_landmineLod
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------
+ObjectTemplate.addTemplate ger_landmineComplex
+ObjectTemplate.addTemplate ger_landmineSimple
+rem --------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create AnimatedBundle ger_landmineComplex
+ObjectTemplate.geometry shade_ger_landmine_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Landmine.ske
+
+ObjectTemplate.create SimpleObject ger_landmineSimple
+ObjectTemplate.geometry shade_ger_landmine_m1
+ObjectTemplate.hasDynamicShadow 1

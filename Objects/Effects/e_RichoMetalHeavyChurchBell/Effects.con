@@ -1,0 +1,6 @@
+ObjectTemplate.create EffectBundle e_RichoMetalHeavyChurchBell
+ObjectTemplate.loadSoundScript ../e_RichoChurchBell/Sounds/churchbell.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate e_RichoMetalHeavy
+rem -------------------------------------
+ObjectTemplate.lodDistance 900

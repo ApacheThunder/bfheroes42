@@ -1,0 +1,77 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Explosion_Large_01.wav
+minDistance 20
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 400
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Explosion_Large_02.wav
+minDistance 20
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 400
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Explosion_Large_03.wav
+minDistance 20
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 400
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Explosion_Large_04.wav
+minDistance 20
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 400
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Explosion_Large_05.wav
+minDistance 20
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 400
+	param 1
+	param -1
+endEffect
+
+randomPlay 1

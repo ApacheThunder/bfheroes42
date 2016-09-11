@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh snowdrift_large_01_m1
+GeometryTemplate.file snowdrift_large_01_m1
+
+GeometryTemplate.create StandardMesh snowdrift_medium_01_m1
+GeometryTemplate.file snowdrift_medium_01_m1
+
+GeometryTemplate.create StandardMesh snowdrift_small_01_m1
+GeometryTemplate.file snowdrift_small_01_m1
+
+GeometryTemplate.create StandardMesh snowpile_01_m1
+GeometryTemplate.file snowpile_01_m1

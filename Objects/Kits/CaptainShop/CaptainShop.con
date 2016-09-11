@@ -1,0 +1,93 @@
+rem
+rem *** Captain Shop PCOs ***
+rem
+
+
+ObjectTemplate.create PlayerControlObject CaptainShop_Bri
+ObjectTemplate.setNetworkableInfo CaptainShopBri_BodyInfo
+ObjectTemplate.geometry CaptainShop_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.exitTimer 0.5
+ObjectTemplate.hasArmor 1
+rem -------------------------------------
+ObjectTemplate.hitpoints 99999
+ObjectTemplate.maxhitpoints 99999
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.material 2
+ObjectTemplate.criticalDamage 0
+ObjectTemplate.hpLostWhileCriticalDamage 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+rem -------------------------------------
+ObjectTemplate.timeToLiveAfterDeath 0
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry2SpawnerBri
+ObjectTemplate.setPosition 6.841/0/0
+ObjectTemplate.addTemplate CaptainShopExit2SpawnerBri
+ObjectTemplate.setPosition -1.466/0.146/-0.616
+rem -------------------------------------
+ObjectTemplate.addTemplate Bri_CaptainShop_SoldierSpawn
+ObjectTemplate.setPosition 0.125/0.3/-5.662
+rem ---------- Props ---------------------
+ObjectTemplate.addTemplate captainshop_props_bri
+ObjectTemplate.addTemplate Bri_TargetIsland_Spinner
+rem -------- Kit Bundle ------------------
+ObjectTemplate.addTemplate CaptainShop_Kits_Bri
+rem -------------------------------------
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"
+
+ObjectTemplate.create PlayerControlObject CaptainShop_Ger
+ObjectTemplate.setNetworkableInfo CaptainShopGer_BodyInfo
+ObjectTemplate.geometry CaptainShop_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.5
+rem -------------------------------------
+ObjectTemplate.hitpoints 99999
+ObjectTemplate.maxhitpoints 99999
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionForce 0
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.material 2
+ObjectTemplate.criticalDamage 0
+ObjectTemplate.hpLostWhileCriticalDamage 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+rem -------------------------------------
+ObjectTemplate.addTemplate CaptainShopEntry2SpawnerGer
+ObjectTemplate.setPosition 6.841/0/0
+ObjectTemplate.addTemplate CaptainShopExit2SpawnerGer
+ObjectTemplate.setPosition -1.466/0.146/-0.616
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_CaptainShop_SoldierSpawn
+ObjectTemplate.setPosition 0.125/0.3/-5.662
+rem ---------- Props ---------------------
+ObjectTemplate.addTemplate captainshop_props_ger
+ObjectTemplate.addTemplate Ger_TargetIsland_Spinner
+rem -------- Kit Bundle ------------------
+ObjectTemplate.addTemplate CaptainShop_Kits_Ger
+rem -------------------------------------
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Empty.tga"

@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh DeathBox_m1
+GeometryTemplate.file Invisible/DeathBox_m1

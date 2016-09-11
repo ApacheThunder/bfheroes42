@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh ctf_stationarynational_moon_m1
+GeometryTemplate.file ctf_stationarynational_moon_m1
+GeometryTemplate.hasDynamicShadow 1

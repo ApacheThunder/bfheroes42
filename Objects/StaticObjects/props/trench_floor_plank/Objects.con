@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject trench_floor_plank
+ObjectTemplate.geometry trench_floor_plank_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

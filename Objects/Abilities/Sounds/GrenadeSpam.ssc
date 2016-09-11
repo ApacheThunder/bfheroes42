@@ -1,0 +1,41 @@
+*** Unknown ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Reload ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Release ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Shell Bounce ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Far Distance ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Fire Loop ***
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Ability_Sol_Bomb_Activate_01.wav
+minDistance 2
+dopplerOff
+priority 6
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 2
+	param 1
+	param -1
+endEffect

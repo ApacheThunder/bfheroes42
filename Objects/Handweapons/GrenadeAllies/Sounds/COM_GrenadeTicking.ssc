@@ -1,0 +1,36 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_GrenadeBeeps01.wav
+minDistance 40
+volume 1
+dopplerOff
+priority 6
+loop
+stop ImmediateReset
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 40
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Weapon_GB_GRE_Grenade_Default_Fuse_Loop.wav
+minDistance 40
+volume 1
+dopplerOff
+priority 6
+loop
+stop ImmediateReset
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 40
+	param 1
+	param -1	
+endEffect

@@ -1,0 +1,602 @@
+rem ****************************
+rem ********* Dry Grass ID2 ********
+rem ****************************
+
+rem *** e_treadgrass_PoE ***
+ObjectTemplate.create EffectBundle e_treadgrass_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadgrass_PoE
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate em_treadgrassdust_PoE
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_treadDirtClot
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 2
+ObjectTemplate.addWorkOnMaterial 7
+
+rem *** Em_treadgrass_PoE ***
+ObjectTemplate.create Emitter Em_treadgrass_PoE
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadgrass_PoE
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/70/90/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 25
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.4/0.2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.2/1.7/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_treadgrass_PoE ***
+ObjectTemplate.create SpriteParticle Fx_treadgrass_PoE
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.3/0
+ObjectTemplate.size CRD_UNIFORM/0.15/0.2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.3/0.1/0
+ObjectTemplate.drag CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.16|25/0.55|71/0.84|100/0.86
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_richoGrass_mb_01
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|6/244/244/243/255|82/118/114/100/255|100/106/102/89/255
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem *** em_treadgrassdust_PoE ***
+ObjectTemplate.create Emitter em_treadgrassdust_PoE
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template fx_treadgrassdust_PoE
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/10/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 2
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.2/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.4/0.2/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.2/0.5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+rem *** fx_treadgrassdust_PoE ***
+ObjectTemplate.create SpriteParticle fx_treadgrassdust_PoE
+ObjectTemplate.timeToLive CRD_UNIFORM/0.7/1.5/0
+ObjectTemplate.size CRD_UNIFORM/1/2.5/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/-0.3/0/0
+ObjectTemplate.drag CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.16|44/0.5|100/0.7
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_mixmud_mb_04
+rem ObjectTemplate.texture PoE/e_exp_Dirt9
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|24/214/213/209/51|25/212/211/207/50|68/141/137/126/21|82/118/114/100/12|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+
+rem *************************
+rem ******* Wet Grass ID3 ***
+rem *************************
+
+
+rem *** e_treadwetgrass_PoE ***
+ObjectTemplate.create EffectBundle e_treadwetgrass_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadwetgrass_PoE
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate em_treadwetgrassdust_PoE
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_treadDirtClot
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 3
+
+
+rem *** Em_treadwetgrass_PoE ***
+ObjectTemplate.create Emitter Em_treadwetgrass_PoE
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadwetgrass_PoE
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/70/90/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.relativePositionInUp CRD_NONE/-0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.3/0.2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.5/2.2/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+rem *** Fx_treadwetgrass_PoE ***
+ObjectTemplate.create SpriteParticle Fx_treadwetgrass_PoE
+ObjectTemplate.timeToLive CRD_UNIFORM/1.2/2/0
+ObjectTemplate.size CRD_UNIFORM/0.15/0.2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.5/0.2/0
+ObjectTemplate.drag CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.16|25/0.55|71/0.86|100/0.91
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_richoGrass_mb_01
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|6/244/244/243/255|82/118/114/100/255|100/106/102/89/255
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem *** em_treadwetgrassdust_PoE ***
+ObjectTemplate.create Emitter em_treadwetgrassdust_PoE
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template fx_treadwetgrassdust_PoE
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/10/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 2
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.3/0.2/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.7/1/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+rem *** fx_treadwetgrassdust_PoE ***
+ObjectTemplate.create SpriteParticle fx_treadwetgrassdust_PoE
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.5/0
+ObjectTemplate.size CRD_UNIFORM/0.5/1/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.3/0.2/0
+ObjectTemplate.drag CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.16|44/0.5|100/0.7
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_mixmud_mb_02
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/198|24/214/213/209/150|68/141/137/126/63|82/118/114/100/35|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem **************************************
+rem ********* DryDirt,DirtRoad ID4,14 ****
+rem **************************************
+
+
+rem *** e_treadDryDirt_PoE ***
+ObjectTemplate.create EffectBundle e_treadDryDirt_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadDirtClot
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_treadStone_Smoke_Poe
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 4
+ObjectTemplate.addWorkOnMaterial 14
+
+
+rem *** Em_treadDirtClot ***
+ObjectTemplate.create Emitter Em_treadDirtClot
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadDirtClot
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_UNIFORM/40/60/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.05/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.3/0.2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.3/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/1.7/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1.4/0.4/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_treadDirtClot ***
+ObjectTemplate.create SpriteParticle Fx_treadDirtClot
+ObjectTemplate.timeToLive CRD_UNIFORM/0.45/.65/0
+ObjectTemplate.size CRD_UNIFORM/0.08/0.1/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.3/0.2/0
+ObjectTemplate.drag CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.16|25/0.55|71/0.84|100/0.86
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+rem ObjectTemplate.texture PoE/e_DirtClot
+ObjectTemplate.texture PoE/e_mudsplatter_mb_01
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|6/244/244/243/255|82/118/114/100/255|100/106/102/89/255
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+
+rem ****************************
+rem ********* Wet Dirt ID5 *****
+rem ****************************
+
+
+rem *** e_treadwetdirt_PoE ***
+ObjectTemplate.create EffectBundle e_treadwetdirt_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadwetdirt_PoE
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_treadDirtClot
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 5
+
+
+rem *** Em_treadwetdirt_PoE ***
+ObjectTemplate.create Emitter Em_treadwetdirt_PoE
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadwetdirt_PoE
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.intensity CRD_NONE/80/90/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.4/0.2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.7/1.2/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.4/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_treadwetdirt_PoE ***
+ObjectTemplate.create SpriteParticle Fx_treadwetdirt_PoE
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.6/1.2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.7/0.3/0
+ObjectTemplate.drag CRD_NONE/0.5/0/0
+ObjectTemplate.sizeOverTime 0/0.11|20/0.41|44/0.63|100/0.73
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_mixmud_mb_02
+ObjectTemplate.initRotation CRD_NONE/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/128/64/0/255|61/114/87/54/124|68/113/89/60/101|82/109/95/72/57|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+rem *************************
+rem *********  Mud ID6  *****
+rem *************************
+
+rem *** e_treadmud_PoE ***
+ObjectTemplate.create EffectBundle e_treadmud_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadmud_PoE
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_treadDirtClot
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 6
+
+
+rem *** Em_treadmud_PoE ***
+ObjectTemplate.create Emitter Em_treadmud_PoE
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadmud_PoE
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.intensity CRD_NONE/80/90/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.5/0/1
+rem ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.2/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+rem ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.4/0.2/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.7/1/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.35/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_treadmud_PoE ***
+ObjectTemplate.create SpriteParticle Fx_treadmud_PoE
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1/0
+ObjectTemplate.size CRD_UNIFORM/1/1.5/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.5/0.2/0
+ObjectTemplate.drag CRD_NONE/0.3/0/0
+ObjectTemplate.sizeOverTime 0/0.11|20/0.41|44/0.63|100/0.73
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_mud_mb_01
+ObjectTemplate.initRotation CRD_NONE/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|61/152/150/139/124|68/141/138/126/101|82/118/114/100/57|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem **************************************************
+rem ********* Gravel,Rock,PavedRoad ID8,12,13 ********
+rem **************************************************
+
+rem *** e_treadStone_PoE ***
+ObjectTemplate.create EffectBundle e_treadStone_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadStone_Poe
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.addTemplate Em_treadStone_Smoke_Poe
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 8
+ObjectTemplate.addWorkOnMaterial 12
+ObjectTemplate.addWorkOnMaterial 15
+
+
+
+
+rem *** Em_treadStone_Poe ***
+ObjectTemplate.create Emitter Em_treadStone_Poe
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadStone_Poe
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/40/60/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.05/0/1
+rem ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.05/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.3/0.2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.3/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/1.7/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1.4/0.4/1
+rem ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1.4/0.5/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+rem *** Fx_treadStone_Poe ***
+ObjectTemplate.create SpriteParticle Fx_treadStone_Poe
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.1/0.15/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.5/0.3/0
+ObjectTemplate.drag CRD_NONE/0.4/0/0
+ObjectTemplate.sizeOverTime 0/0.16|25/0.39|47/0.65|73/0.43|100/0.11
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_gravel_mb_01
+ObjectTemplate.initRotation CRD_NONE/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|6/244/244/243/247|50/129/125/113/200|75/129/125/113/200|82/118/114/100/180|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem *** Em_treadStone_Smoke_Poe ***
+ObjectTemplate.create Emitter Em_treadStone_Smoke_Poe
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadStone_Smoke_Poe
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/35/55/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/1
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.4/0.3/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.2/0/1
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1/1.6/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.5/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_treadStone_Smoke_Poe ***
+ObjectTemplate.create SpriteParticle Fx_treadStone_Smoke_Poe
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.6/0
+ObjectTemplate.size CRD_UNIFORM/1/2.5/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.5/0.2/0
+ObjectTemplate.drag CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.16|44/0.3|77/0.51|100/0.83
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|6/244/244/243/71|18/224/223/220/215|82/118/114/100/47|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+rem ***********************************
+rem *********  Forzen Ground ID9  *****
+rem ***********************************
+
+
+
+rem ************************************
+rem ******* DrySand,SandRoad ID10,13 ***
+rem ************************************
+
+rem *** e_treadsand_PoE ***
+ObjectTemplate.create EffectBundle e_treadsand_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadSand_Sprite
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_treadSand_Cloud
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 10
+ObjectTemplate.addWorkOnMaterial 13
+
+
+rem *** Em_treadSand_Cloud ***
+ObjectTemplate.create Emitter Em_treadSand_Cloud
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadSand_Cloud
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.intensity CRD_UNIFORM/55/50/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 25
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.5/0/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.4/0.2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.2/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1.8/1.5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1/0.3/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+rem *** Fx_treadSand_Cloud ***
+ObjectTemplate.create SpriteParticle Fx_treadSand_Cloud
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1/0
+ObjectTemplate.size CRD_UNIFORM/1.2/2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.2/0/0
+ObjectTemplate.drag CRD_NONE/0.3/0/0
+ObjectTemplate.sizeOverTime 0/0.16|44/0.34|74/0.6|100/0.8
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/249/247/238/0|6/255/247/244/71|18/255/239/207/215|82/194/174/115/30|100/168/149/74/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+
+rem *** Em_treadSand_Sprite ***
+ObjectTemplate.create Emitter Em_treadSand_Sprite
+ObjectTemplate.inertiaModifier 1.4/1.4/1.4
+ObjectTemplate.template Fx_treadSand_Sprite
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/75/55/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 15
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0.2/0/1
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.4/0.3/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.3/0/1
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1/1.6/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.3/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem *** Fx_treadSand_Sprite ***
+ObjectTemplate.create SpriteParticle Fx_treadSand_Sprite
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.6/0
+ObjectTemplate.size CRD_UNIFORM/1/2.5/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.5/0.2/0
+ObjectTemplate.drag CRD_NONE/2/0/0
+ObjectTemplate.sizeOverTime 0/0.16|44/0.3|77/0.51|100/0.83
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_sand_mb_02
+ObjectTemplate.initRotation CRD_UNIFORM/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|6/244/244/243/71|18/224/223/220/215|82/118/114/100/47|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem ************************
+rem ******* WetSand ID11 ***
+rem ************************
+
+rem *** e_treadwetsand_PoE ***
+ObjectTemplate.create EffectBundle e_treadwetsand_PoE
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_treadSand_Sprite
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addWorkOnMaterial 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

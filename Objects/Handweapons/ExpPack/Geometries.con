@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh RemoteMine_m1
+GeometryTemplate.file HandWeapons/RemoteMine_m1
+GeometryTemplate.hasDynamicShadow 1

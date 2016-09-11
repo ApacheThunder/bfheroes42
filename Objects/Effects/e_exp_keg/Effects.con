@@ -1,0 +1,157 @@
+rem *** e_exp_keg ***
+ObjectTemplate.create EffectBundle e_exp_keg
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_exp_large/Sounds/e_exp_large.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_keg
+ObjectTemplate.addTemplate Em_exp_keg_Smoke
+ObjectTemplate.addTemplate Em_exp_keg_Flash
+ObjectTemplate.addTemplate Em_exp_keg_Sparks
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.addTemplate Em_GroundDecalKeg
+ObjectTemplate.setPosition 0/-0.24/0
+rem -------------------------------------
+
+
+rem *** e_exp_keg_NoDecal ***
+ObjectTemplate.create EffectBundle e_exp_keg_NoDecal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_exp_large/Sounds/e_exp_large.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_exp_keg
+ObjectTemplate.addTemplate Em_exp_keg_Smoke
+ObjectTemplate.addTemplate Em_exp_keg_Flash
+ObjectTemplate.addTemplate Em_exp_keg_Sparks
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+rem -------------------------------------
+
+rem *** Em_exp_keg ***
+ObjectTemplate.create Emitter Em_exp_keg
+ObjectTemplate.template Fx_exp_keg
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 900
+ObjectTemplate.delay CRD_UNIFORM/0/0.3/0
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/50/0/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/2/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/2/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.2/0.7/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/2.5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.2/0.7/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_exp_keg ***
+ObjectTemplate.create SpriteParticle Fx_exp_keg
+ObjectTemplate.timeToLive CRD_NONE/1/1/0
+ObjectTemplate.size CRD_UNIFORM/2/2.5/0
+ObjectTemplate.gravityModifier CRD_NONE/-0.2/-0.1/0
+ObjectTemplate.sizeOverTime 0/0.539995|7/1.56001|100/1.95996
+ObjectTemplate.texture e_ExplAni06
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/20/40/1
+ObjectTemplate.colorRGBAOverTime 0/255/245/245/0|62/192/152/152/76|100/0/0/0/0
+ObjectTemplate.numAnimationFrames 16
+ObjectTemplate.initAnimationFrame CRD_NONE/8/0/0
+ObjectTemplate.animationSpeed CRD_NONE/70/0/0
+
+
+rem *** Em_exp_keg_Smoke ***
+ObjectTemplate.create Emitter Em_exp_keg_Smoke
+ObjectTemplate.template Fx_exp_keg_Smoke
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 900
+ObjectTemplate.delay CRD_UNIFORM/0.3/0.4/0
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0/2/1
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/1/3/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0/2/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0/1.5/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.1/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/1.5/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_exp_keg_Smoke ***
+ObjectTemplate.create SpriteParticle Fx_exp_keg_Smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/3/3/0
+ObjectTemplate.size CRD_UNIFORM/1/2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0/-0.3/0
+ObjectTemplate.sizeOverTime 0/1.52|100/2.40004
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/10/50/1
+ObjectTemplate.colorRGBAOverTime 0/128/0/0/0|11/28/4/4/75|79/0/0/0/125|100/0/0/0/0
+
+
+rem *** Em_exp_keg_Flash ***
+ObjectTemplate.create Emitter Em_exp_keg_Flash
+ObjectTemplate.template Fx_exp_keg_Flash
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 900
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_exp_keg_Flash ***
+ObjectTemplate.create SpriteParticle Fx_exp_keg_Flash
+ObjectTemplate.timeToLive CRD_NONE/1.7/1.7/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.500122|3/10.3499|100/13.1998
+ObjectTemplate.texture e_Fire4
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/255/255/128/176|27/255/220/110/190|100/255/128/64/0
+
+
+rem *** Em_exp_keg_Sparks ***
+ObjectTemplate.create Emitter Em_exp_keg_Sparks
+ObjectTemplate.template Fx_exp_keg_Sparks
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/50/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/7/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/5/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/4/7/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/0
+
+
+rem *** Fx_exp_keg_Sparks ***
+ObjectTemplate.create SpriteParticle Fx_exp_keg_Sparks
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1/0
+ObjectTemplate.size CRD_NONE/2/2.5/0
+ObjectTemplate.sizeOverTime 0/0.500015|100/1.2
+ObjectTemplate.texture e_dirtAni03
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/1/50/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/128/0|10/255/242/115/255|74/255/161/33/140|100/255/128/0/0
+
+
+ObjectTemplate.create Emitter Em_GroundDecalKeg
+ObjectTemplate.template Fx_GroundDecalKeg
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.001/0/0
+
+ObjectTemplate.create Particle Fx_GroundDecalKeg
+ObjectTemplate.geometry decal_scorch01_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/20/25/0
+ObjectTemplate.size CRD_UNIFORM/7/5/0
+ObjectTemplate.sizeOverTime 0/1|75/1|100/0
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.removeAtRestart 1

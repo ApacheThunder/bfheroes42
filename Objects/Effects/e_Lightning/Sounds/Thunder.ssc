@@ -1,0 +1,32 @@
+newPatch
+load @ROOT/Sound/@RTD/FX_Lightning1.wav
+minDistance 15
+dopplerOff
+priority 4
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 100
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/FX_Lightning2.wav
+minDistance 15
+dopplerOff
+priority 4
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 100
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1

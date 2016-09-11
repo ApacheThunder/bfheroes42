@@ -1,0 +1,2 @@
+NetworkableInfo.createNewInfo ExtraInfo
+NetworkableInfo.setPredictionMode PMLinear

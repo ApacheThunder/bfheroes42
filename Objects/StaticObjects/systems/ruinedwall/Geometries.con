@@ -1,0 +1,20 @@
+GeometryTemplate.create StandardMesh ruinedwall_arch_high_m1
+GeometryTemplate.file ruinedwall_arch_high_m1
+
+GeometryTemplate.create StandardMesh ruinedwall_arch_low_m1
+GeometryTemplate.file ruinedwall_arch_low_m1
+
+GeometryTemplate.create StandardMesh ruinedwall_ground_8m_m1
+GeometryTemplate.file ruinedwall_ground_8m_m1
+
+GeometryTemplate.create StandardMesh ruinedwall_high_8m_m1
+GeometryTemplate.file ruinedwall_high_8m_m1
+
+GeometryTemplate.create StandardMesh ruinedwall_low_4m_m1
+GeometryTemplate.file ruinedwall_low_4m_m1
+
+GeometryTemplate.create StandardMesh ruinedwall_medium_4m_m1
+GeometryTemplate.file ruinedwall_medium_4m_m1
+
+GeometryTemplate.create StandardMesh ruinedwall_medium_8m_m1
+GeometryTemplate.file ruinedwall_medium_8m_m1

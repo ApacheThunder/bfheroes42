@@ -1,0 +1,152 @@
+rem
+rem *** Mini Flag pole shown when flag is dropped. When on main pole it is hidden withen the large pole mesh ***
+rem
+ObjectTemplate.create SimpleObject mini_flagpole
+ObjectTemplate.geometry mini_flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+rem 
+rem *** Define flags ***
+rem
+ObjectTemplate.create Flag RAFlag
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.team 2
+ObjectTemplate.radius 2
+ObjectTemplate.TimeToReSpawn 20
+ObjectTemplate.addTemplate ctf_stationaryroyal
+ObjectTemplate.hasDynamicShadow 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create Flag NAFlag
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.team 1
+ObjectTemplate.radius 2
+ObjectTemplate.TimeToReSpawn 20
+ObjectTemplate.addTemplate ctf_stationarynational
+ObjectTemplate.hasDynamicShadow 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create FlagBase RABase
+ObjectTemplate.loadSoundScript FlagMusic/Sounds/FlagMusic_RA.ssc
+ObjectTemplate.team 2
+ObjectTemplate.flagTemplate RAFlag
+ObjectTemplate.radius 2
+ObjectTemplate.geometry ctf_flagbase_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+
+
+ObjectTemplate.create FlagBase NAbase
+ObjectTemplate.loadSoundScript FlagMusic/Sounds/FlagMusic_NA.ssc
+ObjectTemplate.team 1
+ObjectTemplate.flagTemplate NAFlag
+ObjectTemplate.radius 2
+ObjectTemplate.geometry ctf_flagbase_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+
+
+rem 
+rem *** Define Silent flags ***
+rem
+ObjectTemplate.create Flag RAFlagNight
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.team 2
+ObjectTemplate.radius 2
+ObjectTemplate.TimeToReSpawn 20
+ObjectTemplate.addTemplate ctf_stationaryroyal
+ObjectTemplate.hasDynamicShadow 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create Flag NAFlagNight
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.team 1
+ObjectTemplate.radius 2
+ObjectTemplate.TimeToReSpawn 20
+ObjectTemplate.addTemplate ctf_stationarynational
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create FlagBase RABaseNight
+ObjectTemplate.team 2
+ObjectTemplate.flagTemplate RAFlagNight
+ObjectTemplate.radius 2
+ObjectTemplate.geometry ctf_flagbase_m1
+ObjectTemplate.sethasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+
+
+ObjectTemplate.create FlagBase NAbaseNight
+ObjectTemplate.team 1
+ObjectTemplate.flagTemplate NAFlagNight
+ObjectTemplate.radius 2
+ObjectTemplate.geometry ctf_flagbase_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+
+
+rem 
+rem *** Define Moon flags ***
+rem
+ObjectTemplate.create Flag RAFlag_Moon
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.team 2
+ObjectTemplate.radius 2
+ObjectTemplate.TimeToReSpawn 20
+ObjectTemplate.addTemplate ctf_stationaryroyal_moon
+ObjectTemplate.hasDynamicShadow 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create Flag NAFlag_Moon
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.team 1
+ObjectTemplate.radius 2
+ObjectTemplate.TimeToReSpawn 20
+ObjectTemplate.addTemplate ctf_stationarynational_moon
+ObjectTemplate.hasDynamicShadow 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create FlagBase RABase_Moon
+ObjectTemplate.team 2
+ObjectTemplate.flagTemplate RAFlag_Moon
+ObjectTemplate.radius 2
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.sethasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+
+
+ObjectTemplate.create FlagBase NAbase_Moon
+ObjectTemplate.team 1
+ObjectTemplate.flagTemplate NAFlag_Moon
+ObjectTemplate.radius 2
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1

@@ -1,0 +1,16 @@
+ObjectTemplate.create EffectBundle e_scrap_boat
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_boat_mast
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+ObjectTemplate.create Emitter em_scrap_boat_mast
+ObjectTemplate.template fishingboat_e_01_wreckpiece
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0

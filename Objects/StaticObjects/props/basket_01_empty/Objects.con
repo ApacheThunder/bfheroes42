@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject basket_01_empty
+ObjectTemplate.geometry basket_01_empty_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh boat_lcvp_static_m1
+GeometryTemplate.file boat_lcvp_static_m1

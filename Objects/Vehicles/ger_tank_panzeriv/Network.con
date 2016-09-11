@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo ger_tank_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_tank_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_tank_GunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_tank_EngineInfo
+NetworkableInfo.setPredictionMode PMLinear

@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo COM_AA_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo COM_AA_GunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo COM_AA_Info
+NetworkableInfo.setPredictionMode PMLinear

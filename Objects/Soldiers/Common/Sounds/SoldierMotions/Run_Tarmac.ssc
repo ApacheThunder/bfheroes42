@@ -1,0 +1,275 @@
+newPatch
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_01.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_02.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_03.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+dopplerOff
+priority 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_04.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_05.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_06.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_07.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_08.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_09.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_10.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_11.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_12.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_13.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_14.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_15.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Tarmac_Male_Walk_16.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1

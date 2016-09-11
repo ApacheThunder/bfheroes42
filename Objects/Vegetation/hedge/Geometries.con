@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh mt_hedge01_m1
+GeometryTemplate.file mt_hedge01_m1
+
+GeometryTemplate.create StandardMesh mt_hedge01_end_m1
+GeometryTemplate.file mt_hedge01_end_m1

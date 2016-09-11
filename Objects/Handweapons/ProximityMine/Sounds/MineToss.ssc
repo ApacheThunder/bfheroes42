@@ -1,0 +1,15 @@
+newPatch
+load @ROOT/Sound/@RTD/MineToss.wav
+minDistance 2
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 8
+	param 1
+	param -1
+endEffect

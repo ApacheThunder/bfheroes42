@@ -1,0 +1,52 @@
+ObjectTemplate.create Bundle bri_plane_spitfire_w_body
+ObjectTemplate.geometry bri_plane_wreck_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.drag 2.5
+ObjectTemplate.mass 2500
+ObjectTemplate.inertiaModifier 0.5/1/0.5
+ObjectTemplate.timeToLiveAfterDeath 30
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate e_WreckSmoke
+rem ----------------------------------------
+ObjectTemplate.addTemplate WreckPieceFloater
+
+
+ObjectTemplate.create SimpleObject bri_plane_spitfire_w_Rwing
+ObjectTemplate.geometry bri_plane_spitfire_w_Rwing_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.mass 20
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+
+ObjectTemplate.create SimpleObject bri_plane_spitfire_w_Tail
+ObjectTemplate.geometry bri_plane_spitfire_w_Tail_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.mass 30
+ObjectTemplate.timeToLiveAfterDeath 25
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1
+
+ObjectTemplate.create SimpleObject bri_plane_spitfire_w_wing
+ObjectTemplate.geometry bri_plane_spitfire_w_wing_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.destroyed 1
+ObjectTemplate.mass 20
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.removeAtRestart 1

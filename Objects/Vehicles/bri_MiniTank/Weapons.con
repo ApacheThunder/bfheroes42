@@ -1,0 +1,42 @@
+rem *** Vehicle self destructs after running out of ammo for primary weapon! ***
+ObjectTemplate.create FireArms MiniTank_Detonator
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.aiTemplate MiniTank_MainGun
+rem -------------------------------------
+ObjectTemplate.projectileTemplate MiniTank_Projectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.setHasMag 0
+ObjectTemplate.reloadtime 0
+ObjectTemplate.velocity 10
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.autoReload 1
+ObjectTemplate.fireingForce 0
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.destroyVehicleWhenNoAmmo 0
+
+ObjectTemplate.create Projectile MiniTank_Projectile
+ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.timeToLive CRD_NONE/0/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 4004
+ObjectTemplate.material2 4004
+ObjectTemplate.damageType 4
+ObjectTemplate.radius 20
+ObjectTemplate.explosionDamage 0
+rem ObjectTemplate.explosionForce 50
+ObjectTemplate.explosionForceMax 600
+ObjectTemplate.noFFSound 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 10
+ObjectTemplate.maxHitpoints 10
+ObjectTemplate.endEffectTemplate e_exp_large

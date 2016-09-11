@@ -1,0 +1,161 @@
+rem **************
+rem *** Terrain **
+rem **************
+SoldierSound.addMaterialToSound 0 Grass
+SoldierSound.addMaterialToSound 1 Water
+SoldierSound.addMaterialToSound 2 Grass
+SoldierSound.addMaterialToSound 3 Grass
+SoldierSound.addMaterialToSound 4 Gravel
+SoldierSound.addMaterialToSound 5 Mud
+SoldierSound.addMaterialToSound 6 Mud
+SoldierSound.addMaterialToSound 8 Gravel
+SoldierSound.addMaterialToSound 9 Frozen
+SoldierSound.addMaterialToSound 10 Sand
+SoldierSound.addMaterialToSound 11 Sand
+SoldierSound.addMaterialToSound 12 Concrete
+SoldierSound.addMaterialToSound 13 Gravel
+SoldierSound.addMaterialToSound 14 Gravel
+SoldierSound.addMaterialToSound 15 Concrete
+SoldierSound.addMaterialToSound 16 Concrete
+
+rem *************
+rem *** Armour **
+rem *************
+SoldierSound.addMaterialToSound 38 Mud
+SoldierSound.addMaterialToSound 39 Mud
+SoldierSound.addMaterialToSound 40 Mud
+SoldierSound.addMaterialToSound 41 Mud
+SoldierSound.addMaterialToSound 42 Mud
+SoldierSound.addMaterialToSound 43 Mud
+SoldierSound.addMaterialToSound 44 Mud
+SoldierSound.addMaterialToSound 45 Metal
+SoldierSound.addMaterialToSound 46 Metal
+SoldierSound.addMaterialToSound 47 Metal
+SoldierSound.addMaterialToSound 48 Metal
+SoldierSound.addMaterialToSound 49 Metal
+SoldierSound.addMaterialToSound 50 Metal
+SoldierSound.addMaterialToSound 51 Metal
+SoldierSound.addMaterialToSound 52 Metal
+SoldierSound.addMaterialToSound 54 Metal
+SoldierSound.addMaterialToSound 55 Metal
+SoldierSound.addMaterialToSound 56 Metal
+SoldierSound.addMaterialToSound 57 Metal
+SoldierSound.addMaterialToSound 58 Metal
+SoldierSound.addMaterialToSound 59 Metal
+
+rem ***************************
+rem *** Plane armor strength **
+rem ***************************
+SoldierSound.addMaterialToSound 60 Metal
+SoldierSound.addMaterialToSound 61 Metal
+SoldierSound.addMaterialToSound 62 Metal
+SoldierSound.addMaterialToSound 63 Metal
+SoldierSound.addMaterialToSound 64 Metal
+
+rem **********************
+rem *** Ship Wood Armor **
+rem **********************
+SoldierSound.addMaterialToSound 65 Wood
+SoldierSound.addMaterialToSound 66 Wood
+SoldierSound.addMaterialToSound 67 Wood
+SoldierSound.addMaterialToSound 68 Wood
+SoldierSound.addMaterialToSound 69 Wood
+
+
+rem ***********************
+rem *** Tank Metal Armor **
+rem ***********************
+SoldierSound.addMaterialToSound 71 Metal
+
+rem ************
+rem *** Basic **
+rem ************
+SoldierSound.addMaterialToSound 80 Wood
+SoldierSound.addMaterialToSound 81 Wood
+SoldierSound.addMaterialToSound 82 Wood
+SoldierSound.addMaterialToSound 83 Wood
+
+SoldierSound.addMaterialToSound 84 Metal
+SoldierSound.addMaterialToSound 85 Metal
+SoldierSound.addMaterialToSound 86 Metal
+SoldierSound.addMaterialToSound 87 Metal
+
+SoldierSound.addMaterialToSound 88 Concrete
+SoldierSound.addMaterialToSound 89 Concrete
+SoldierSound.addMaterialToSound 90 Concrete
+SoldierSound.addMaterialToSound 91 Concrete
+SoldierSound.addMaterialToSound 92 Concrete
+SoldierSound.addMaterialToSound 93 Concrete
+
+SoldierSound.addMaterialToSound 94 Mud
+
+rem *************
+rem *** Stairs **
+rem *************
+SoldierSound.addMaterialToSound 96 Concrete
+SoldierSound.addMaterialToSound 97 Wood
+SoldierSound.addMaterialToSound 98 Metal
+
+
+rem ************************
+rem *** Building Material **
+rem ************************
+SoldierSound.addMaterialToSound 100 Concrete
+SoldierSound.addMaterialToSound 101 Concrete
+SoldierSound.addMaterialToSound 102 Concrete
+SoldierSound.addMaterialToSound 103 Concrete
+
+SoldierSound.addMaterialToSound 104 Wood
+SoldierSound.addMaterialToSound 105 Wood
+SoldierSound.addMaterialToSound 106 Wood
+
+SoldierSound.addMaterialToSound 107 Sand
+SoldierSound.addMaterialToSound 108 Gravel
+SoldierSound.addMaterialToSound 109 Wood
+
+SoldierSound.addMaterialToSound 110 Metal
+SoldierSound.addMaterialToSound 111 Wood
+SoldierSound.addMaterialToSound 112 Metal
+
+SoldierSound.addMaterialToSound 111 Wood
+SoldierSound.addMaterialToSound 112 Wood
+SoldierSound.addMaterialToSound 113 Wood
+SoldierSound.addMaterialToSound 114 Wood
+
+SoldierSound.addMaterialToSound 115 Wood
+SoldierSound.addMaterialToSound 116 Wood
+SoldierSound.addMaterialToSound 117 Wood
+SoldierSound.addMaterialToSound 118 Concrete
+
+SoldierSound.addMaterialToSound 120 Metal
+
+rem ********************
+rem *** Misc Material **
+rem ********************
+SoldierSound.addMaterialToSound 140 Gravel
+SoldierSound.addMaterialToSound 143 Metal
+SoldierSound.addMaterialToSound 145 Grass
+
+rem *****************
+rem *** Vegetation **
+rem *****************
+SoldierSound.addMaterialToSound 160 Grass
+SoldierSound.addMaterialToSound 161 Grass
+SoldierSound.addMaterialToSound 162 Grass
+SoldierSound.addMaterialToSound 163 Grass
+
+SoldierSound.addMaterialToSound 164 Wood
+SoldierSound.addMaterialToSound 165 Wood
+SoldierSound.addMaterialToSound 166 Wood
+SoldierSound.addMaterialToSound 167 Wood
+
+rem ********************
+rem *** Special Items **
+rem ********************
+SoldierSound.addMaterialToSound 190 Wood
+SoldierSound.addMaterialToSound 191 Metal
+SoldierSound.addMaterialToSound 192 Wood
+SoldierSound.addMaterialToSound 193 Metal
+SoldierSound.addMaterialToSound 194 Metal
+SoldierSound.addMaterialToSound 195 Grass
+

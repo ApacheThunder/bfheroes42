@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject cable_flags_16m
+ObjectTemplate.geometry cable_flags_16m_m1
+ObjectTemplate.cullRadiusScale 5

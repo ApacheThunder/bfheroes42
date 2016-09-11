@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh flower_box_red_m1
+GeometryTemplate.file flower_box_red_m1
+
+GeometryTemplate.create StandardMesh flower_box_white_m1
+GeometryTemplate.file flower_box_white_m1
+
+GeometryTemplate.create StandardMesh flower_box_yellow_m1
+GeometryTemplate.file flower_box_yellow_m1

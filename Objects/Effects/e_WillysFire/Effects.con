@@ -1,0 +1,10 @@
+rem *** e_WillysFire ***
+ObjectTemplate.create EffectBundle e_WillysFire
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../Common/Sounds/fire.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WillyFire
+ObjectTemplate.addTemplate Em_WillyFireSmoke
+ObjectTemplate.addTemplate Em_WilBlackSmoke
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------

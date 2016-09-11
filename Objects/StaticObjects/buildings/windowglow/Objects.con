@@ -1,0 +1,35 @@
+ObjectTemplate.create SimpleObject windowglow_01
+ObjectTemplate.geometry windowglow_01_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_02
+ObjectTemplate.geometry windowglow_02_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_03
+ObjectTemplate.geometry windowglow_03_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_04
+ObjectTemplate.geometry windowglow_04_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_05
+ObjectTemplate.geometry windowglow_05_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_06
+ObjectTemplate.geometry windowglow_06_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_07
+ObjectTemplate.geometry windowglow_07_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_08
+ObjectTemplate.geometry windowglow_08_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject windowglow_09
+ObjectTemplate.geometry windowglow_09_m1
+ObjectTemplate.cullRadiusScale 5

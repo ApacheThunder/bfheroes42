@@ -1,0 +1,13 @@
+rem
+rem *** Add to telephone poles on night maps to add streetlights.
+rem
+
+ObjectTemplate.create Bundle telephone_light
+ObjectTemplate.geometry telephone_light_m1
+rem ----------------------------------
+ObjectTemplate.addTemplate e_WallLamp
+ObjectTemplate.setPosition 0/-0.05/0.396
+rem ----------------------------------
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

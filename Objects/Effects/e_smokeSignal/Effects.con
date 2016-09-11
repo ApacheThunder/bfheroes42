@@ -1,0 +1,166 @@
+rem ***************************
+rem *** Smoke Signal Effect ***
+rem ***************************
+
+ObjectTemplate.create EffectBundle e_SmokeSignal_Royal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/SmokeSignal.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_SmokeSignal_SmokeBlue
+ObjectTEmplate.setPosition 0/0.1/0
+ObjectTemplate.addTemplate Em_SmokeSignal_Glow
+ObjectTemplate.setPosition 0/0.1/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/30/0/0
+
+ObjectTemplate.create EffectBundle e_SmokeSignal_National
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/SmokeSignal.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_SmokeSignal_SmokeRed
+ObjectTEmplate.setPosition 0/0.1/0
+ObjectTemplate.addTemplate Em_SmokeSignal_Glow
+ObjectTemplate.setPosition 0/0.176/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/30/0/0
+
+ObjectTemplate.create EffectBundle e_SmokeSignal_White
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/SmokeSignal.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_SmokeSignal_SmokeWhite
+ObjectTEmplate.setPosition 0/0.1/0
+ObjectTemplate.addTemplate Em_SmokeSignal_Glow
+ObjectTemplate.setPosition 0/0.1/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/30/0/0
+
+
+ObjectTemplate.create Emitter Em_SmokeSignal_Glow
+ObjectTemplate.template Fx_SmokeSignal_Glow
+ObjectTemplate.lodDistance 20
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/100/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.startProbability 1
+
+ObjectTemplate.create Emitter Em_SmokeSignal_SmokeBlue
+ObjectTemplate.template Fx_SmokeSignal_SmokeBlue
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 400
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/40/0/0
+ObjectTemplate.intensity CRD_NONE/40/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/0/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/0/0/1
+
+ObjectTemplate.create Emitter Em_SmokeSignal_SmokeRed
+ObjectTemplate.template Fx_SmokeSignal_SmokeRed
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 400
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/40/0/0
+ObjectTemplate.intensity CRD_NONE/40/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/0/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/0/0/1
+
+ObjectTemplate.create Emitter Em_SmokeSignal_SmokeWhite
+ObjectTemplate.template Fx_SmokeSignal_SmokeWhite
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 400
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/40/0/0
+ObjectTemplate.intensity CRD_NONE/40/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/0/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/0/0/1
+
+
+
+ObjectTemplate.create SpriteParticle Fx_SmokeSignal_Glow
+ObjectTemplate.texture metal_spark
+ObjectTemplate.useMipmaps 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.size CRD_UNIFORM/0.01/0.1/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+objectTemplate.rotationSpeed CRD_UNIFORM/25/75/1
+ObjectTemplate.destBlendMode BMOne
+
+ObjectTemplate.create SpriteParticle Fx_SmokeSignal_SmokeBlue
+ObjectTemplate.texture Anim_smoke2
+ObjectTemplate.timeToLive CRD_UNIFORM/1.4/1.6/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.3/0
+ObjectTemplate.gravityModifier CRD_NONE/-1/0/0
+ObjectTemplate.drag CRD_UNIFORM/1/2/0
+ObjectTemplate.sizeOverTime 0/0|10/0|15/1|30/3|75/4|100/3.5
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/10/50/1
+ObjectTemplate.colorRGBAOverTime 0/0/0/255/0|10/0/0/255/0|80/0/0/255/200|100/0/0/255/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/0/0/0
+ObjectTemplate.drag 0.5
+
+ObjectTemplate.create SpriteParticle Fx_SmokeSignal_SmokeRed
+ObjectTemplate.texture Anim_smoke2
+ObjectTemplate.timeToLive CRD_UNIFORM/1.25/1.5/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.3/0
+ObjectTemplate.gravityModifier CRD_NONE/-1/0/0
+ObjectTemplate.drag CRD_UNIFORM/1/2/0
+ObjectTemplate.sizeOverTime 0/0|10/0|15/1|30/3|75/4|100/3.5
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/10/50/1
+ObjectTemplate.colorRGBAOverTime 0/255/0/0/0|10/255/0/0/0|80/255/0/0/200|100/255/0/0/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/0/0/0
+ObjectTemplate.drag 0.5
+
+ObjectTemplate.create SpriteParticle Fx_SmokeSignal_SmokeWhite
+ObjectTemplate.texture Anim_smoke2
+ObjectTemplate.timeToLive CRD_UNIFORM/1.4/1.6/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.3/0
+ObjectTemplate.gravityModifier CRD_NONE/-1/0/0
+ObjectTemplate.drag CRD_UNIFORM/1/2/0
+ObjectTemplate.sizeOverTime 0/0|10/0|15/1|30/3|75/4|100/3.5
+ObjectTemplate.useMipMaps 0
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/10/50/1
+ObjectTemplate.colorRGBAOverTime 0/250/250/250/0|10/250/250/250/0|80/250/250/250/200|100/250/250/250/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/0/0/0
+ObjectTemplate.drag 0.5

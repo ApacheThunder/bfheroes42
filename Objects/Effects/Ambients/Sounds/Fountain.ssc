@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Fountain01.wav
+minDistance 5
+priority 1
+dopplerOff
+loop
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 20
+	param 1
+	param -1	
+endEffect

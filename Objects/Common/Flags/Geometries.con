@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh mini_flagpole_m1
+GeometryTemplate.file mini_flagpole_m1
+GeometryTemplate.hasDynamicShadow 1

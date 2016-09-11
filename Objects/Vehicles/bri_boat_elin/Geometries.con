@@ -1,0 +1,29 @@
+GeometryTemplate.create StandardMesh royal_boatcannon_gunbase_m1
+GeometryTemplate.file Vehicles/royal_boatcannon_gunbase_m1
+
+GeometryTemplate.create StandardMesh boatcannon_turret_m1
+GeometryTemplate.file Vehicles/boatcannon_turret_m1
+
+renderer.beginGlobalCluster bri_boat_elin
+GeometryTemplate.create StandardMesh Royal_fishingboat_e_01_m1
+GeometryTemplate.file Vehicles/Royal_fishingboat_e_01_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 65
+GeometryTemplate.setLodDistance 2 130
+GeometryTemplate.setLodDistance 3 195
+
+GeometryTemplate.create StandardMesh Royal_fishingboat_e_01_L1
+GeometryTemplate.file Vehicles/Royal_fishingboat_e_01_m1
+
+GeometryTemplate.create StandardMesh Royal_fishingboat_e_01_wreck_m1
+GeometryTemplate.file Vehicles/Royal_fishingboat_e_01_wreck_m1
+
+GeometryTemplate.create AnimatedMesh fishingboat_e_01_flags_m1
+GeometryTemplate.setSkin Animations/fishingboat_e_01_flags_m1.skn
+GeometryTemplate.file Vehicles/fishingboat_e_01_flags_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh fishingboat_e_01_flags_static_m1
+GeometryTemplate.file Vehicles/fishingboat_e_01_flags_m1
+renderer.endGlobalCluster

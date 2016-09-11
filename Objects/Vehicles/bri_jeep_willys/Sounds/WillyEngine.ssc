@@ -1,0 +1,244 @@
+#include ../../Common/Sounds/EngineMap.ssc
+
+newPatch
+####################
+### Engine Start ###
+####################
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_JEP_Bri_Jeep_Willys_Start.wav
+minDistance 1
+dopplerOff
+priority -2
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 50
+	param 100
+	param 1
+	param -1	
+endEffect
+
+############
+### Main ###
+############
+*** low rpm up to almost full rpm ***
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_JEP_Bri_Jeep_Willys_Idle.wav
+loop
+volume 1
+minDistance 5
+relativePosition 0/0/0
+priority 8
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.2
+	param 0.8
+	param 0
+	param 1
+endEffect
+
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Ramp
+	param 0
+	param 0.9
+	param 0.8
+	param 0.45
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 40
+	param 100
+	param 1
+	param -1	
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param 0
+	param 0.75
+	param 0
+	param 1
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param 0.25
+	param 1
+	param 1
+	param 0.25
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+################
+### Hi RPM 1 ###
+################
+*** slowly pick up volume and pitch to high rpm sound ***
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_JEP_Bri_Jeep_Willys_Drive_01.wav
+volume 0.7
+loop
+minDistance 10
+relativePosition 0/0/0
+priority 7
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.2
+	param 0.8
+	param 0
+	param 1
+endEffect
+
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Ramp
+	param 0
+	param 1
+	param 0.7
+	param 0.3
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param 0
+	param 0.6
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 200
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+############
+### Idle ###
+############
+
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_JEP_Bri_Jeep_Willys_Idle.wav
+loop
+minDistance 2
+relativePosition 0/0/0
+priority 5
+volume 0.5
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.2
+	param 0.8
+	param 0
+	param 1
+endEffect
+
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Default
+	envelope Ramp
+	param 0
+	param 0.75
+	param 1
+	param 0.45
+endEffect
+
+*** Engine Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Default
+	envelope Ramp
+	param 0.25
+	param 0.75
+	param 1
+	param -1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 25
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+###################
+### Engine Stop ###
+###################
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_JEP_Bri_Jeep_Willys_Stop.wav
+minDistance 2
+trigger Release
+dopplerOff
+priority -2
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 50
+	param 100
+	param 1
+	param -1	
+endEffect

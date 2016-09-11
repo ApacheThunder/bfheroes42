@@ -1,0 +1,124 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Mobile MiniTank_Mobile
+aiTemplatePlugIn.vehicleNumber 1
+aiTemplatePlugIn.maxSpeed 20.0
+aiTemplatePlugIn.turnRadius 5.0
+aiTemplatePlugIn.coverSearchRadius 500.0
+aiTemplatePlugIn.lodHeight 0.35
+aiTemplatePlugIn.isTurnable 1
+
+aiTemplatePlugIn.create Physical MiniTank_Physical
+aiTemplatePlugIn.setStrType LightArmour
+
+aiTemplatePlugIn.create Cover MiniTank_Cover
+aiTemplatePlugIn.coverValue 4.0
+
+aiTemplatePlugIn.create Armament MiniTank_Turret
+aiTemplatePlugIn.setIsAntiAircraft 0
+
+aiTemplatePlugIn.create Unit MiniTank_Unit
+aiTemplatePlugIn.equipmentType 0
+aiTemplatePlugIn.setStrategicStrength 0 3
+aiTemplatePlugIn.setStrategicStrength 1 3
+
+aiTemplatePlugIn.create ControlInfo MiniTank_Ctrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+aiTemplatePlugIn.pitchScale                 5.0
+aiTemplatePlugIn.rollScale                  5.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          5.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -360/-30/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 360/30/0
+
+rem *** AITemplate ***
+aiTemplate.create MiniTank
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITGround
+aiTemplate.addType ITMobile
+aiTemplate.addType ITUnmanned
+aiTemplate.degeneration 15
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 12
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn MiniTank_Mobile
+aiTemplate.addPlugIn MiniTank_Physical
+aiTemplate.addPlugIn MiniTank_Cover
+aiTemplate.addPlugIn MiniTank_Turret
+aiTemplate.addPlugIn MiniTank_Unit
+aiTemplate.addPlugIn MiniTank_Ctrl
+
+
+
+aiTemplatePlugIn.create Unit MinitankTripodUnit
+aiTemplatePlugIn.equipmentType 4
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 2
+aiTemplatePlugIn.setHasExposedSoldier 1
+aiTemplatePlugIn.setUseNoPathfindingToGetToObject 1
+
+aiTemplatePlugIn.create Armament MinitankTripodArmament
+aiTemplatePlugIn.setIsAntiAircraft 0
+
+aiTemplatePlugIn.create Physical MinitankTripodPhysical
+aiTemplatePlugIn.setStrType LightArmour
+
+aiTemplatePlugIn.create ControlInfo MinitankTripodCtrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+aiTemplatePlugIn.pitchScale                 5.0
+aiTemplatePlugIn.rollScale                  5.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg 80/-75/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 80/60/0
+
+aiTemplate.create MinitankTripod
+aiTemplate.addType ITUnit
+aiTemplate.addType ITGround
+aiTemplate.addType ITFixed
+aiTemplate.degeneration 20
+aiTemplate.allowedTimeDiff 3
+aiTemplate.basicTemp 12
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn MinitankTripodUnit
+aiTemplate.addPlugIn MinitankTripodPhysical
+aiTemplate.addPlugIn MinitankTripodArmament
+aiTemplate.addPlugIn MinitankTripodCtrl

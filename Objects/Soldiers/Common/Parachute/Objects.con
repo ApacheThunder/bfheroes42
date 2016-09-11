@@ -1,0 +1,14 @@
+ObjectTemplate.create Bundle Parachute
+ObjectTemplate.name Parachute
+rem ----------------------------------
+ObjectTemplate.addTemplate ParachuteAnimated
+
+
+ObjectTemplate.create AnimatedBundle ParachuteAnimated
+ObjectTemplate.setGeometry Parachute
+ObjectTemplate.createSkeleton animations/Parachute_m1.ske
+ObjectTemplate.setAnimationState OpenParachute
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create SimpleObject ParachuteStatic
+ObjectTemplate.setGeometry ParachuteStatic

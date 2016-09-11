@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/flag.wav
+loop
+minDistance 2
+randomStartPitch 0.25 / 0.0
+priority -9
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 15
+	param 1
+	param -1	
+endEffect

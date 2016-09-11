@@ -1,0 +1,11 @@
+ObjectTemplate.create SimpleObject space_generator_national
+ObjectTemplate.geometry space_generator_national_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject space_generator_royal
+ObjectTemplate.geometry space_generator_royal_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

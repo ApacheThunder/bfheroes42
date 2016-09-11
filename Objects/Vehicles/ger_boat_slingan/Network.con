@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo NationalBoatInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo nationalboatcannonTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo nationalboatcannonGunInfo
+NetworkableInfo.setPredictionMode PMLinear

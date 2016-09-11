@@ -1,0 +1,44 @@
+rem *** Skinned Soldier Parts. Addtemplate to soldier only! Not usable as kitparts! ***
+
+rem *** bri_m_hat001_helmet001 ***
+GeometryTemplate.create AnimatedMesh bri_m_hat001_helmet001_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_hat001.skn
+GeometryTemplate.file Items/bri_m_hat001_helmet001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** bri_m_hat001_helmet003 ***
+GeometryTemplate.create AnimatedMesh bri_m_hat001_helmet003_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_hat001.skn
+GeometryTemplate.file Items/bri_m_hat001_helmet003_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Rippin Rocket Helmet ***
+rem *** bri_m_hat001_helmet004 ***
+GeometryTemplate.create AnimatedMesh bri_m_hat001_helmet004_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_hat001.skn
+GeometryTemplate.file Items/bri_m_hat001_helmet004_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** bri_m_hat003_cap003 ***
+GeometryTemplate.create AnimatedMesh bri_m_hat003_cap003_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_hat003.skn
+GeometryTemplate.file Items/bri_m_hat003_cap003_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** ger_m_hat001_helmet001 ***
+GeometryTemplate.create AnimatedMesh ger_m_hat001_helmet001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_hat001.skn
+GeometryTemplate.file Items/ger_m_hat001_helmet001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Cap 001 ***
+GeometryTemplate.create AnimatedMesh ger_m_hat004_cap001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_hat004.skn
+GeometryTemplate.file Items/ger_m_hat004_cap001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** Paratrooper Cap 001 ***
+GeometryTemplate.create AnimatedMesh ger_m_hat007_paratroopercap004_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_hat007.skn
+GeometryTemplate.file Items/ger_m_hat007_paratroopercap004_m1
+GeometryTemplate.hasDynamicShadow 1

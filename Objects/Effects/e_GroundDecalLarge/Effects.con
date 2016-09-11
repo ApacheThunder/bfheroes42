@@ -1,0 +1,24 @@
+ObjectTemplate.create EffectBundle e_GroundDecalLarge
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_GroundDecalLarge
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+ObjectTemplate.create Emitter Em_GroundDecalLarge
+ObjectTemplate.template Fx_GroundDecalLarge
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.001/0/0
+
+ObjectTemplate.create Particle Fx_GroundDecalLarge
+ObjectTemplate.geometry decal_scorch01_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/15/25/0
+ObjectTemplate.size CRD_UNIFORM/15/10/0
+ObjectTemplate.sizeOverTime 0/1|75/1|100/0
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.removeAtRestart 1

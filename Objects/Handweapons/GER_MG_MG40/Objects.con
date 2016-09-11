@@ -1,0 +1,88 @@
+ObjectTemplate.create HandFireArms GER_MG_MG40
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 3
+ObjectTemplate.setTracerTemplate MGTracer CRD_NONE/2/0/0
+ObjectTemplate.projectileTemplate MGProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.magSize 120
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.setHasMag 0
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.autoReload 1
+objectTemplate.aiTemplate COM_MG
+objectTemplate.GUIIndex 2
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/mg.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.zoomFov 0.75
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.5
+ObjectTemplate.soldierZoomPosition -0.02/-0.13/0.03
+ObjectTemplate.soldierCameraPosition 0.01/-0.1/0.01
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.minDamage 0.7
+ObjectTemplate.distToStartLoseDamage 45
+ObjectTemplate.distToMinDamage 75
+ObjectTemplate.velocity 600
+ObjectTemplate.setHasRecoilForce 0
+ObjectTemplate.setFireDev 2 0.2 0.04
+ObjectTemplate.setDevMod 1 0.4 0.3
+ObjectTemplate.setTurnDev 1 0 0 0
+ObjectTemplate.setSpeedDev 1.5 0 0 0
+ObjectTemplate.setMiscDev 1.5 1.4 0.15
+ObjectTemplate.setMinDev 0.4
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/GER_MG_MG40.ssc
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/MG.ske
+ObjectTemplate.useSkeletonPartAsMain base
+rem ---------------------------------------
+ObjectTemplate.addTemplate GER_MG_MG40Lod
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.07/0.727
+ObjectTemplate.addTemplate e_ShellMG
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0.046/0.128/0.05
+
+ObjectTemplate.create SimpleObject GER_MG_MG40Simple
+ObjectTemplate.geometry Shade_GER_MG_MG40_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle GER_MG_MG40Complex
+ObjectTemplate.geometry GER_MG_MG40_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/MG.ske
+
+ObjectTemplate.create LodObject GER_MG_MG40Lod1
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate GER_MG_MG40Complex
+ObjectTemplate.addTemplate GER_MG_MG40Simple
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+
+ObjectTemplate.create SimpleObject GER_MG_MG40_badassSimple
+ObjectTemplate.geometry Shade_GER_MG_MG40_badass_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle GER_MG_MG40_badassComplex
+ObjectTemplate.geometry GER_MG_MG40_badass_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/MG.ske
+
+ObjectTemplate.create LodObject GER_MG_MG40Lod2
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate GER_MG_MG40_badassComplex
+ObjectTemplate.addTemplate GER_MG_MG40_badassSimple
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

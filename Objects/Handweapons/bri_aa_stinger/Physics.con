@@ -1,0 +1,31 @@
+ObjectTemplate.create Engine AAMissile_Engine
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/100000
+ObjectTemplate.setAcceleration 0/0/100000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setEngineType c_ETRocket
+ObjectTemplate.setTorque 30
+ObjectTemplate.setNoPropellerEffectAtSpeed 1000
+ObjectTemplate.setDifferential 15
+ObjectTemplate.addToCollisionGroup c_CGLandscape
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Wing AAMissile_Wing
+ObjectTemplate.setPitchOffset 0
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 0.1
+ObjectTemplate.setFlapLift 0
+ObjectTemplate.addToCollisionGroup c_CGLandscape
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Wing AAMissile_Wing2
+ObjectTemplate.setPitchOffset 0
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 0.5
+ObjectTemplate.setFlapLift 0
+ObjectTemplate.addToCollisionGroup c_CGLandscape
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

@@ -1,0 +1,17 @@
+ObjectTemplate.create FireArms ger_plane_guns
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript ../../handweapons/GER_MG_MG40/sounds/GER_MG_MG40.ssc
+ObjectTemplate.aiTemplate PlaneGun
+rem -------------------------------------
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
+rem -------------------------------------
+ObjectTemplate.setTracerTemplate PlaneTracer CRD_NONE/3/0/0
+ObjectTemplate.projectileTemplate PlaneGunProjectile
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 800
+ObjectTemplate.roundOfFire 6
+ObjectTemplate.addFireArmsPosition 2.17/0.349/1.52 -0.5/5/0
+ObjectTemplate.addFireArmsPosition -2.17/0.349/1.52 0.5/5/0
+ObjectTemplate.setMinDev 0.25

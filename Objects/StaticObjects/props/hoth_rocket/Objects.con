@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject hoth_rocket
+ObjectTemplate.geometry hoth_rocket_m1
+ObjectTemplate.cullRadiusScale 2.5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

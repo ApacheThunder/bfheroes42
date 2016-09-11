@@ -1,0 +1,15 @@
+ObjectTemplate.create Projectile PistolProjectile_Agent
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.loadSoundScript ..\..\Vehicles\Common\projectile.ssc
+ObjectTemplate.timeToLive CRD_NONE/0.427/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.material 4012
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.noFFSound 1

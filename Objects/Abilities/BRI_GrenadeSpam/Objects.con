@@ -1,0 +1,63 @@
+ObjectTemplate.create HandFireArms BRI_GrenadeSpam
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.itemIndex 5
+ObjectTemplate.loadSoundScript ../Sounds/GrenadeSpam.ssc
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.projectileTemplate BRI_GrenadeSpamProjectiles
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.AmmoType	2
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/grenades_tnt.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.rotationalSpeed 8/0/0
+ObjectTemplate.velocity 20
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.08
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.4
+ObjectTemplate.fireDelay 1
+objectTemplate.aiTemplate COM_GrenadeSpam
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.2
+ObjectTemplate.cantSelectWhenNoAmmo 0
+ObjectTemplate.changeWeaponWhenNoAmmo 0
+ObjectTemplate.addFireArmsPosition 0/0/0 -8/-0.5/0
+ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
+ObjectTemplate.addFireArmsPosition 0/0/0 8/-0.5/0
+ObjectTemplate.setBlastAmmoCount 1
+rem -----------------------------------------------------
+ObjectTemplate.createSkeleton animations/GrenadeAllies.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate BRI_GrenadeSpamLod
+
+
+ObjectTemplate.create SimpleObject BRI_GrenadeSpamSimple
+ObjectTemplate.geometry Shade_BRI_GrenadeSpam_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BRI_GrenadeSpamComplex
+ObjectTemplate.createSkeleton animations/GrenadeAllies.ske
+ObjectTemplate.geometry BRI_GrenadeSpam_m1
+ObjectTemplate.hasDynamicShadow 1
+
+
+ObjectTemplate.create LodObject BRI_GrenadeSpamLod
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate BRI_GrenadeSpamComplex
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate BRI_GrenadeSpamSimple
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 180/0/0
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

@@ -1,0 +1,483 @@
+rem
+rem *** Common templates used by other vehicles ***
+rem
+
+ObjectTemplate.create AnimatedBundle Attach_R_Hand
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0/0/0 0/0/0
+
+ObjectTemplate.create AnimatedBundle Attach_L_Hand
+ObjectTemplate.addSkeletonIK Bip01_L_Hand 0/0/0 0/0/0
+
+ObjectTemplate.create AnimatedBundle Attach_R_Foot
+ObjectTemplate.addSkeletonIK Bip01_R_Foot 0/0/0 0/0/0
+
+ObjectTemplate.create AnimatedBundle Attach_L_Foot
+ObjectTemplate.addSkeletonIK Bip01_L_Foot 0/0/0 0/0/0
+
+
+ObjectTemplate.create EntryPoint JeepEntry
+ObjectTemplate.setEntryRadius 2.3
+
+ObjectTemplate.create EntryPoint JeepPassengerEntry
+ObjectTemplate.setEntryRadius 1.3
+
+
+ObjectTemplate.create EntryPoint PlanePassengerEntry
+ObjectTemplate.setEntryRadius 2
+
+ObjectTemplate.create EntryPoint PlaneEntry
+ObjectTemplate.setEntryRadius 5
+
+
+ObjectTemplate.create EntryPoint HelicopterPassengerEntry
+ObjectTemplate.setEntryRadius 2
+
+ObjectTemplate.create EntryPoint HelicopterEntry
+ObjectTemplate.setEntryRadius 4
+
+
+ObjectTemplate.create EntryPoint BoatEntry
+ObjectTemplate.setEntryRadius 0.8
+
+ObjectTemplate.create EntryPoint BoatCannonEntry
+ObjectTemplate.setEntryRadius 2
+
+ObjectTemplate.create EntryPoint StationaryMGEntry
+ObjectTemplate.setEntryRadius 1.1
+
+
+ObjectTemplate.create SeatObject BoatGunnerSeat
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
+ObjectTemplate.upAngleMultilplier 0.1
+ObjectTemplate.rightAngleMultilplier 0.1
+
+ObjectTemplate.create SeatObject JeepSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_SitInVehicle
+ObjectTemplate.seatAnimationLowerBody Lb_SitInVehicle
+
+ObjectTemplate.create SeatObject JeepPassengerSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
+ObjectTemplate.seatAnimationLowerBody Lb_PassengerInWilly
+
+ObjectTemplate.create SeatObject TankPassengerSeat
+ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
+ObjectTemplate.seatAnimationLowerBody Lb_PassengerInWilly
+ObjectTemplate.upAngleMultilplier 0
+ObjectTemplate.rightAngleMultilplier 0
+
+ObjectTemplate.create SeatObject HelicopterSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_SitInVehicle
+ObjectTemplate.seatAnimationLowerBody Lb_SitInVehicle
+
+ObjectTemplate.create SeatObject HelicopterPassengerSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
+ObjectTemplate.seatAnimationLowerBody Lb_PassengerInWilly
+
+ObjectTemplate.create SeatObject StationaryMGSeat
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.upAngleMultilplier 0
+ObjectTemplate.rightAngleMultilplier 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create Camera JeepCamera
+ObjectTemplate.setMinRotation -110/-40/0
+ObjectTemplate.setMaxRotation 110/10/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+ObjectTemplate.create Camera TankPassengerCamera
+
+ObjectTemplate.create Camera GerTankDriverCamera
+ObjectTemplate.outsideHudOffset 0/1/-8
+
+ObjectTemplate.create Camera BriTankDriverCamera
+ObjectTemplate.outsideHudOffset 0/1/-8.5
+
+
+ObjectTemplate.create Camera BoatGunnerCamera
+
+ObjectTemplate.create Camera PlaneCamera
+ObjectTemplate.setMinRotation -70/-60/0
+ObjectTemplate.setMaxRotation 70/1/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+ObjectTemplate.outsideHudOffset 0/2/-10
+
+ObjectTemplate.create Camera PlanePassengerCamera
+ObjectTemplate.setMinRotation -110/-40/0
+ObjectTemplate.setMaxRotation 110/10/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+ObjectTemplate.create Camera BriHelicopterCamera
+ObjectTemplate.setMinRotation -30/-25/0
+ObjectTemplate.setMaxRotation 30/25/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+rem ObjectTemplate.outsideHudOffset 0/0/1.5
+ObjectTemplate.outsideHudOffset 0/2.5/-10
+rem --------------------------------------
+
+
+ObjectTemplate.create Camera GerHelicopterCamera
+ObjectTemplate.setMinRotation -30/-25/0
+ObjectTemplate.setMaxRotation 30/25/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+rem ObjectTemplate.outsideHudOffset 0/-1.1/1.5
+ObjectTemplate.outsideHudOffset 0/1.6/-10
+
+
+
+ObjectTemplate.create Camera HelicopterPassengerCamera
+ObjectTemplate.setMinRotation -80/-40/0
+ObjectTemplate.setMaxRotation 80/10/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+ObjectTemplate.create RotationalBundle BoatCameraTurret
+ObjectTemplate.setNetworkableInfo BoatTurretInfo
+rem ---------------------------------------------------
+ObjectTemplate.addTemplate BoatDriverCamera
+ObjectTemplate.setPosition 0/4.734/-34.8642
+rem ---------------------------------------------------
+ObjectTemplate.setMinRotation -90/-5/0
+ObjectTemplate.setMaxRotation 90/5/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/9000/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+ObjectTemplate.create Camera BoatDriverCamera
+ObjectTemplate.setMinRotation -80/-45/0
+ObjectTemplate.setMaxRotation 80/45/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/9000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setHasTarget 0
+ObjectTemplate.CVMInside 1
+ObjectTemplate.CVMChase 1
+ObjectTemplate.CVMFrontChase 1
+ObjectTemplate.CVMFlyBy 1
+ObjectTemplate.CVMTrace 0
+ObjectTemplate.CVMExternTrace 0
+
+ObjectTemplate.create Camera StationaryMGCamera
+
+
+LodSelectorTemplate.create DistCompareSelector2 AALodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 180
+
+LodSelectorTemplate.create DistCompareSelector2 PlaneLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 175
+
+LodSelectorTemplate.create DistCompareSelector2 HelicopterLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 256
+
+LodSelectorTemplate.create CompareSelector HelicopterPropSelector
+LodSelectorTemplate.addLodComparison 1
+
+LodSelectorTemplate.create DistCompareSelector2 JeepLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 150
+
+LodSelectorTemplate.create DistCompareSelector2 TankLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 100
+
+LodSelectorTemplate.create DistCompareSelector2 BoatSelector
+LodSelectorTEmplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 200
+
+LodSelectorTemplate.create DistCompareSelector2 BoatCannonSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodComparison 0
+
+LodSelectorTemplate.create DistCompareSelector2 StationaryMGSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodComparison 0
+
+ObjectTemplate.create SimpleObject BoatClimbingVine
+ObjectTemplate.geometry fishingboat_climbingvine_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject bri_boat_LcvpMGMount
+ObjectTemplate.geometry sherman_Mgun_con_m1
+
+ObjectTemplate.create SimpleObject bri_boat_LcvpMGHolder
+ObjectTemplate.geometry Sherman_MGun_mount_M1
+
+
+ObjectTemplate.create RotationalBundle bri_boat_Lcvp_MGBase
+ObjectTemplate.setNetworkableInfo RAboat_stationary_mg_Info
+ObjectTemplate.setAttachToListener 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_boat_LcvpMGRotation
+ObjectTemplate.setPosition 0/0.96/0.53
+ObjectTemplate.addTemplate bri_boat_LcvpMGMount
+ObjectTemplate.setPosition 0/0.86/0.13
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -60/0/0
+ObjectTemplate.setMaxRotation 60/0/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+
+ObjectTemplate.create RotationalBundle bri_boat_LcvpMGRotation
+ObjectTemplate.setNetworkableInfo RAboat_stationary_mg_GunInfo
+ObjectTemplate.setAttachToListener 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_stationary_MG
+ObjectTemplate.setPosition 0/0.1/0.4
+ObjectTemplate.addTemplate bri_boat_LcvpMGHolder
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-40/0
+ObjectTemplate.setMaxRotation 0/10/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+ObjectTemplate.create RotationalBundle ger_boat_LcvpMGRotation
+ObjectTemplate.setNetworkableInfo NAboat_stationary_mg_GunInfo
+ObjectTemplate.setAttachToListener 1
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_stationary_MG
+ObjectTemplate.setPosition 0/0/0.4
+ObjectTemplate.addTemplate bri_boat_LcvpMGHolder
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-40/0
+ObjectTemplate.setMaxRotation 0/10/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+ObjectTemplate.create PlayerControlObject bri_mg_stationary
+ObjectTemplate.networkableInfo RAstationary_mg_Info
+ObjectTemplate.setSoldierExitLocation -0.5/0/-0.8 0/0/0
+ObjectTemplate.aiTemplate StationaryMG
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setPcoId 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 45
+ObjectTemplate.maxHitPoints 45
+ObjectTemplate.material 45
+Objecttemplate.GUIIndex 80
+ObjectTemplate.setVehicleIcon "Empty"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.crossHairIcon "Crosshair/mg.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+ObjectTemplate.addArmorEffect 0 e_scrap_stationary_mg_bri 0/0.23/-0.151
+ObjectTemplate.addArmorEffect -1 e_scrap_stationary_mg_bri 0/0.23/-0.151
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodBriMGStationary
+
+ObjectTemplate.create PlayerControlObject ger_mg_stationary
+ObjectTemplate.networkableInfo NAstationary_mg_Info
+ObjectTemplate.setSoldierExitLocation -0.5/0/-0.8 0/0/0
+ObjectTemplate.aiTemplate StationaryMG
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setPcoId 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 45
+ObjectTemplate.maxHitPoints 45
+ObjectTemplate.material 45
+Objecttemplate.GUIIndex 80
+ObjectTemplate.setVehicleIcon "Empty"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Empty.tga"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.crossHairIcon "Crosshair/mg.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setToolTipType TTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+ObjectTemplate.addArmorEffect 0 e_scrap_stationary_mg_ger 0/0.23/-0.151
+ObjectTemplate.addArmorEffect -1 e_scrap_stationary_mg_ger 0/0.23/-0.151
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodGerMGStationary
+
+
+ObjectTemplate.create lodObject lodGerMGStationary
+rem ----------------------------------------------
+ObjectTemplate.addTemplate GerMGStationaryComplex
+ObjectTemplate.addTemplate GerMGStationaryWreck
+rem ----------------------------------------------
+ObjectTemplate.lodSelector StationaryMGSelector
+
+ObjectTemplate.create lodObject lodBriMGStationary
+rem ----------------------------------------------
+ObjectTemplate.addTemplate BriMGStationaryComplex
+ObjectTemplate.addTemplate GerMGStationaryWreck
+rem ----------------------------------------------
+ObjectTemplate.lodSelector StationaryMGSelector
+
+ObjectTemplate.create Bundle GerMGStationaryComplex
+ObjectTemplate.geometry tripod_stick_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem ------------------------------------------------
+ObjectTemplate.addTemplate ger_mg_stationary_HTurret
+ObjectTemplate.setPosition 0/-0.4/-0.01
+ObjectTemplate.addTemplate StationaryMGSeat
+ObjectTemplate.setPosition 0/0/-0.64
+ObjectTemplate.addTemplate StationaryMGEntry
+ObjectTemplate.setPosition 0/-0.1/-1
+
+ObjectTemplate.create Bundle BriMGStationaryComplex
+ObjectTemplate.geometry tripod_stick_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem ------------------------------------------------
+ObjectTemplate.addTemplate bri_mg_stationary_HTurret
+ObjectTemplate.setPosition 0/-0.4/-0.01
+ObjectTemplate.addTemplate StationaryMGSeat
+ObjectTemplate.setPosition 0/0/-0.64
+ObjectTemplate.addTemplate StationaryMGEntry
+ObjectTemplate.setPosition 0/-0.1/-1
+
+
+ObjectTemplate.create SimpleObject GerMGStationaryWreck
+ObjectTemplate.geometry tripod_stick_m1
+
+
+
+ObjectTemplate.create RotationalBundle bri_mg_stationary_HTurret
+ObjectTemplate.setNetworkableInfo RAStationaryMGTurretInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_mg_stationary_VTurret
+ObjectTemplate.setPosition 0/0.63/0.159
+ObjectTemplate.addTemplate bri_boat_LcvpMGMount
+ObjectTemplate.setPosition 0/0.52/-0.234
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -70/-40/0
+ObjectTemplate.setMaxRotation 70/25/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setAutomaticYawStabilization 1
+
+ObjectTemplate.create RotationalBundle bri_mg_stationary_VTurret
+ObjectTemplate.setNetworkableInfo RAStationaryMGGunInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_MG_stationary_Mount
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate StationaryMGCamera
+ObjectTemplate.setPosition 0/0.3/-0.1
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-40/0
+ObjectTemplate.setMaxRotation 0/25/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setAutomaticPitchStabilization 1
+
+ObjectTemplate.create Bundle bri_MG_stationary_Mount
+ObjectTemplate.geometry Sherman_MGun_mount_M1
+rem -----------------------------------------
+ObjectTemplate.addTemplate bri_stationary_MG
+ObjectTemplate.setPosition 0/0/-0.3
+ObjectTemplate.setRotation -180/0/0
+
+
+
+ObjectTemplate.create RotationalBundle ger_mg_stationary_HTurret
+ObjectTemplate.setNetworkableInfo NAStationaryMGTurretInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_mg_stationary_VTurret
+ObjectTemplate.setPosition 0/0.63/0.159
+ObjectTemplate.addTemplate bri_boat_LcvpMGMount
+ObjectTemplate.setPosition 0/0.52/-0.234
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -70/-40/0
+ObjectTemplate.setMaxRotation 70/25/0
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setAutomaticYawStabilization 1
+
+ObjectTemplate.create RotationalBundle ger_mg_stationary_VTurret
+ObjectTemplate.setNetworkableInfo NAStationaryMGGunInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_MG_stationary_Mount
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate StationaryMGCamera
+ObjectTemplate.setPosition 0/0.3/-0.1
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-40/0
+ObjectTemplate.setMaxRotation 0/25/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setAutomaticPitchStabilization 1
+
+
+ObjectTemplate.create Bundle ger_MG_stationary_Mount
+ObjectTemplate.geometry Sherman_MGun_mount_M1
+rem -----------------------------------------
+ObjectTemplate.addTemplate ger_stationary_MG
+ObjectTemplate.setPosition 0/0/-0.3
+ObjectTemplate.setRotation -180/0/0

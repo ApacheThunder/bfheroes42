@@ -1,0 +1,22 @@
+ObjectTemplate.create FireArms COM_AA_Barrel
+ObjectTemplate.setNetworkableInfo StationaryFireArmInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.geometry com_aa_gun_m1
+ObjectTemplate.loadSoundScript ../Common/AACannon.ssc
+ObjectTemplate.projectileTemplate AAProjectile
+ObjectTemplate.projectilePosition 0/0/3
+ObjectTemplate.aiTemplate COM_AA_Cannon
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 1
+ObjectTEmplate.ammoType 3
+ObjectTemplate.magType 0
+ObjectTemplate.minDiv 0.8
+ObjectTemplate.reloadtime 2
+ObjectTemplate.roundOfFire 3.5
+ObjectTemplate.velocity 300
+ObjectTemplate.recoilSpeed 20
+ObjectTemplate.recoilSize 2
+rem ---------------------------------
+ObjectTemplate.addTemplate e_MuzzAAgunB
+ObjectTemplate.setPosition 0/0/1

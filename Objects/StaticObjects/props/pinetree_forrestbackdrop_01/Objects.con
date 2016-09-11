@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject pinetree_forrestbackdrop_01
+ObjectTemplate.geometry pinetree_forrestbackdrop_01_m1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

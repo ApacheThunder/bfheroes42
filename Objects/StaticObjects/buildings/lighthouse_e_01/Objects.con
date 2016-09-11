@@ -1,0 +1,56 @@
+ObjectTemplate.create Bundle lighthouse_e_01
+ObjectTemplate.geometry lighthouse_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -------------------------------------
+ObjectTemplate.addTemplate lighthouse_ladder_e_01
+ObjectTemplate.setPosition 3.48529/-3.62518/1.9621e-006
+ObjectTemplate.setRotation -90/0/0
+ObjectTemplate.addTemplate DeathBox_Lighthouse
+
+ObjectTemplate.create Bundle lighthouse_e_02
+ObjectTemplate.geometry lighthouse_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -------------------------------------
+ObjectTemplate.addTemplate lighthouse_ladder_e_01
+ObjectTemplate.setPosition 3.48529/-3.62518/1.9621e-006
+ObjectTemplate.setRotation -90/0/0
+ObjectTemplate.addTemplate DeathBox_Lighthouse
+
+ObjectTemplate.create SimpleObject lighthouse_ladder_e_01
+ObjectTemplate.geometry lighthouse_ladder_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------------
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Obstacle DeathBox_lighthouse
+ObjectTemplate.geometry DeathBox_lighthouse_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+rem *** This is added on a per-map basis. Don't addtemplate it here. ***
+ObjectTemplate.create Bundle lighthouse_windowlights_e_01
+ObjectTemplate.geometry lighthouse_windowlights_e_01_m1
+rem -------------------------------------
+ObjectTemplate.addTemplate lighthouse_lightcone_e_01
+ObjectTemplate.setPosition 0.3246/0/0.0779
+
+ObjectTemplate.create RotationalBundle lighthouse_lightcone_e_01
+rem ObjectTemplate.geometry lighthouse_lightcone_m1
+ObjectTemplate.geometry lighthouse_lightcone_e_01_m1
+ObjectTemplate.loadSoundScript lighthouse.ssc
+ObjectTemplate.cullRadiusScale 5
+rem ----------------------------------
+ObjectTemplate.setMaxSpeed 10/0/0
+ObjectTemplate.setContinousRotationSpeed 10/0/0

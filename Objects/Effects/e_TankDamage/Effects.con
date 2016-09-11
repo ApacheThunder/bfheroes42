@@ -1,0 +1,6 @@
+ObjectTemplate.create EffectBundle e_TankDamage
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_PanzDamage
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------

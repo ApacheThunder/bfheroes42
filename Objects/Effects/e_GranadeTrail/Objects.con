@@ -1,0 +1,32 @@
+ObjectTemplate.create EffectBundle e_GrenadeTrail
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_GrenadeTrail
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1.5/0/0
+
+ObjectTemplate.create Emitter Em_GrenadeTrail
+ObjectTemplate.template Fx_GrenadeTrail
+ObjectTemplate.lodDistance 50
+ObjectTemplate.looping 1
+rem ObjectTemplate.noPhysics 0
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/150/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+
+ObjectTemplate.create SpriteParticle Fx_GrenadeTrail
+ObjectTemplate.texture e_sprite64
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.3/0.5/0
+rem ------------------------------------------
+ObjectTemplate.size CRD_NONE/0.1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/20/0/0
+ObjectTemplate.sizeOverTime 0/0.25|100/0.15|50/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha

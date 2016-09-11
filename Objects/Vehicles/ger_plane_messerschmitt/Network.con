@@ -1,0 +1,12 @@
+NetworkableInfo.createNewInfo ger_plane_wing_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_plane_engine_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_plane_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo ger_plane_Passenger_info
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority 0

@@ -1,0 +1,24 @@
+ObjectTemplate.create FireArms ger_tank_GunBarrel
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.loadSoundScript ../Common/TankCannon.ssc
+ObjectTemplate.geometry ger_tank_Gun_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.aiTemplate TankGun
+rem -------------------------------------
+ObjectTemplate.addTemplate e_MuzzPanz
+ObjectTemplate.setPosition 0/0/0.45
+ObjectTemplate.setRotation -180/0/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate TankProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 100
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 0.35
+ObjectTemplate.roundOfFire 0.35
+ObjectTemplate.fireingForce 60
+ObjectTemplate.recoilSpeed 10
+ObjectTemplate.recoilSize 15

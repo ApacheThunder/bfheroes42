@@ -1,0 +1,59 @@
+rem Bundles by USAF 777, so it doesn't take 81 separate objects for the smallest map or the 1024 object.
+rem SnowStorm1024 fills 1024x1024 size map when placed in center, SnowStorm2048 for 2048x2048 maps.
+
+rem -------------------------------------
+ObjectTemplate.create Bundle SnowStorm1024
+rem -------------------------------------
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/500
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/375
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/250
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/125
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/-125
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/-250
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/-375
+ObjectTemplate.addTemplate SnowRow
+ObjectTemplate.setPosition 0/0/-500
+
+rem -------------------------------------
+ObjectTemplate.create Bundle SnowStorm2048
+rem -------------------------------------
+ObjectTemplate.addTemplate SnowStorm1024
+ObjectTemplate.setPosition 562.5/0/562.5
+ObjectTemplate.addTemplate SnowStorm1024
+ObjectTemplate.setPosition -562.5/0/-562.5
+ObjectTemplate.addTemplate SnowStorm1024
+ObjectTemplate.setPosition 562.5/0/-562.5
+ObjectTemplate.addTemplate SnowStorm1024
+ObjectTemplate.setPosition -562.5/0/562.5
+
+
+rem -------------------------------------
+ObjectTemplate.create Bundle SnowRow
+rem -------------------------------------
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition 500/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition 375/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition 250/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition 125/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition -125/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition -250/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition -375/0/0
+ObjectTemplate.addTemplate SnowHeavyBundle
+ObjectTemplate.setPosition -500/0/0

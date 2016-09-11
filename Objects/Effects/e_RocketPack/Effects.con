@@ -1,0 +1,96 @@
+rem *** e_RocketPack ***
+ObjectTemplate.create EffectBundle e_RocketPack
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_UNIFORM/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RocketPack_mesh
+ObjectTemplate.setPosition 0.048/0/-0.267
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_RocketPack_Smoker
+ObjectTemplate.setPosition 0.048/0/-0.267
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+rem *** e_RocketPackDefault ***
+ObjectTemplate.create EffectBundle e_RocketPackDefault
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RocketPackDefault_mesh
+ObjectTemplate.setPosition 0.048/0/-0.267
+ObjectTemplate.setRotation 180/0/0
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+
+rem *** Em_RocketPack_mesh ***
+ObjectTemplate.create Emitter Em_RocketPack_mesh
+ObjectTemplate.template Fx_RocketPack_mesh
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/11/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.looping 1
+
+rem *** Em_RocketPack_Smoker ***
+ObjectTemplate.create Emitter Em_RocketPack_Smoker
+ObjectTemplate.template Fx_RocketPack_Smoker
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/50/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/7/12/0
+
+rem *** Em_RocketPackDefault_mesh ***
+ObjectTemplate.create Emitter Em_RocketPackDefault_mesh
+ObjectTemplate.template Fx_RocketPackDefault_mesh
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.looping 1
+
+rem *** Fx_RocketPack_mesh ***
+ObjectTemplate.create Particle fx_RocketPack_mesh
+ObjectTemplate.geometry e_jetfire_m1
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.size CRD_NONE/1.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 0.15/0.15/0.18
+ObjectTemplate.sizeOverTime 0/1|100/0.1
+ObjectTemplate.alphaOverTime 0/0.1|100/0
+
+rem *** Fx_RocketPack_Smoker ***
+ObjectTemplate.create SpriteParticle Fx_RocketPack_Smoker
+ObjectTemplate.timeToLive CRD_UNIFORM/0.4/0.7/0
+ObjectTemplate.size CRD_NONE/0.5/0/0
+ObjectTemplate.gravityModifier CRD_NONE/1/0/0
+ObjectTemplate.drag CRD_UNIFORM/0/5/0
+ObjectTemplate.sizeOverTime 0/0.2|100/1.5
+ObjectTemplate.texture e_muzs1_I
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMone
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/50/100/1
+ObjectTemplate.colorRGBAOverTime 0/200/200/200/50|10/155/155/150/250|40/102/102/102/195|60/34/34/34/253|100/0/0/0/0
+
+rem *** Fx_RocketPackDefault_mesh ***
+ObjectTemplate.create Particle fx_RocketPackDefault_mesh
+ObjectTemplate.geometry e_jetfire_m1
+ObjectTemplate.timeToLive CRD_NONE/0.03/0/0
+ObjectTemplate.size CRD_NONE/1.2/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 0.15/0.15/0.05
+ObjectTemplate.sizeOverTime 1
+ObjectTemplate.alphaOverTime 1

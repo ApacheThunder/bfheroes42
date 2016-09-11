@@ -1,0 +1,17 @@
+ObjectTemplate.create FireArms bri_plane_guns
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript ../../handweapons/BRI_MG_Lewis/sounds/BRI_MG_Lewis.ssc
+ObjectTemplate.aiTemplate PlaneGun
+rem -------------------------------------
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
+rem -------------------------------------
+ObjectTemplate.setTracerTemplate PlaneTracer CRD_NONE/3/0/0
+ObjectTemplate.projectileTemplate PlaneGunProjectile
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 800
+ObjectTemplate.roundOfFire 6
+ObjectTemplate.addFireArmsPosition 1.46/0.32/2.07 -0.5/5/0
+ObjectTemplate.addFireArmsPosition -1.46/0.32/2.07 0.5/5/0
+ObjectTemplate.setMinDev 0.25

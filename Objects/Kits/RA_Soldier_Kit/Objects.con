@@ -1,0 +1,66 @@
+ObjectTemplate.create Kit RA_Soldier_Kit
+ObjectTemplate.setType Medic
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry InvisibleKit_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem --------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Shotgun.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Common_Medkit.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_SMG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Grenade.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Royal_GS.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_Wrench.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Royal_VehicleDrop.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Landmine.tga"
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 3 "Kits/Icon_SoldierGrenadeClass.tga"
+ObjectTemplate.setKitName 3 "SOLDIER"
+ObjectTemplate.setKitActiveName 3 "ACTIVE SOLDIERS"
+rem --------------------------------------------
+ObjectTemplate.addTemplate BRI_SMG_Thompson
+ObjectTemplate.addTemplate BRI_ShotGun
+ObjectTemplate.addTemplate MedPack
+ObjectTemplate.addTemplate BRI_GrenadeSpam
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate bri_vehicledrop
+ObjectTemplate.addTemplate bri_landmine
+rem --------------------------------------------
+ObjectTemplate.aiTemplate Medic
+
+
+ObjectTemplate.create Kit RA_Soldier_Kit_TNT
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry InvisibleKit_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem --------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Shotgun.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Common_Medkit.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_SMG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Generic_TNT.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Royal_GS.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_Wrench.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Royal_VehicleDrop.tga"
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 4 "Kits/Icon_SoldierTNTClass.tga"
+ObjectTemplate.setKitName 4 "SOLDIER(TNT)"
+ObjectTemplate.setKitActiveName 4 "ACTIVE SOLDIERS(TNT)"
+rem --------------------------------------------
+ObjectTemplate.addTemplate BRI_SMG_Thompson
+ObjectTemplate.addTemplate BRI_ShotGun
+ObjectTemplate.addTemplate MedPack
+ObjectTemplate.addTemplate BRI_GrenadeSpam
+ObjectTemplate.addTemplate COM_TNT
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate bri_vehicledrop
+rem --------------------------------------------
+ObjectTemplate.aiTemplate Engineer

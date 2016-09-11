@@ -1,0 +1,23 @@
+ObjectTemplate.create SimpleObject mt_leaftree_04
+ObjectTemplate.geometry mt_leaftree_04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -------------------------------------------
+rem ObjectTemplate.addTemplate lodLeafTree04
+rem ObjectTemplate.addTemplate SpriteBundle_LeafTree04
+
+ObjectTemplate.create lodObject lodLeafTree04
+rem ----------------------------------------
+ObjectTemplate.addTemplate leafTree04Complex
+ObjectTemplate.addTemplate leafTree04Simple
+rem ----------------------------------------
+ObjectTemplate.lodSelector TreeSelector
+
+ObjectTemplate.create SimpleObject leafTree04Complex
+ObjectTemplate.geometry mt_leaftree_04_Trunk_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject leafTree04Simple
+ObjectTemplate.geometry mt_leaftree_04_m1

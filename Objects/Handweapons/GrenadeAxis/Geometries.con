@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh GrenadeAxis
+GeometryTemplate.file HandWeapons/GER_HGrenade_StielHandGranate_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh Shad_GrenadeAxis
+GeometryTemplate.file HandWeapons/ShadGER_HGrenade_StielHandGranate_m1

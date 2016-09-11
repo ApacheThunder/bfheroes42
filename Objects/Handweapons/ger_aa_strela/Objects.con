@@ -1,0 +1,74 @@
+ObjectTemplate.create HandFireArms ger_aa_strela
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript ../bri_aa_stinger/Sounds/AA.ssc
+ObjectTemplate.aiTemplate STINGER
+ObjectTemplate.itemIndex 5
+ObjectTemplate.projectileTemplate aa_Ammo2
+ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.forceOnExplosion 8
+ObjectTemplate.soldierCameraPosition 0.1/-0.08/0.3
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.setHasMag 0
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 8
+ObjectTemplate.fireOnce 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.fireDelay 0.2
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/homingMG_default.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setScopeIcon "HUD/StingerHUD_Scope.tga"
+ObjectTemplate.setSightIcon "HUD/blank_scope.tga" 
+ObjectTemplate.setSniperSight 0
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.useScope 1
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition 0/0/0
+ObjectTemplate.velocity 100
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0
+ObjectTemplate.addDevWalk 0
+ObjectTemplate.addDevRun 0
+ObjectTemplate.addDevJump 0
+ObjectTemplate.addDevYaw 0
+ObjectTemplate.addDevPitch 0
+ObjectTemplate.addDevStrafe 0
+ObjectTemplate.addDevFire 0
+ObjectTemplate.subDev 0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.8/1.5/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.45/0.45/0
+ObjectTemplate.createSkeleton animations/Bazooka.ske
+ObjectTemplate.useSkeletonPartAsMain Bazooka
+ObjectTemplate.addTemplate ger_aa_strelaLOD
+rem ----------------------------------------
+ObjectTemplate.addTemplate e_rocketFumeBack
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.118/-1.09
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create LodObject ger_aa_strelalod
+rem -----------------------------------------
+ObjectTemplate.addTemplate ger_aa_strelaComplex
+ObjectTemplate.addTemplate ger_aa_strelaSimple	
+rem -----------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create AnimatedBundle ger_aa_strelaComplex
+ObjectTemplate.geometry ger_aa_strela_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Bazooka.ske
+ObjectTemplate.addTemplate AARocket
+ObjectTemplate.bindToSkeletonPart rocket
+
+ObjectTemplate.create SimpleObject ger_aa_strelaSimple
+ObjectTemplate.geometry ger_aa_strela_m1

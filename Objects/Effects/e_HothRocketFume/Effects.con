@@ -1,0 +1,76 @@
+ObjectTemplate.create EffectBundle e_HothRocketFume
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/60/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_HothRocketFume_Smoke
+ObjectTemplate.addTemplate Em_HothRocketFume_Fire
+ObjectTemplate.setStartOnEffects 1
+rem -------------------------------------
+
+
+ObjectTemplate.create Emitter Em_HothRocketFume_Smoke
+ObjectTemplate.template Fx_HothRocketFume_Smoke
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.intensity CRD_NONE/40/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/0.2/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.2/1
+
+ObjectTemplate.create Emitter Em_HothRocketFume_Fire
+ObjectTemplate.template Fx_HothRocketFume_Fire
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/30/0/0
+ObjectTemplate.intensityOverTime 
+ObjectTemplate.relativePositionInDof CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/-7/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+ObjectTemplate.create SpriteParticle Fx_HothRocketFume_Smoke
+ObjectTemplate.timeToLive CRD_NORMAL/2/3.5/0
+ObjectTemplate.size CRD_NONE/1.2/1.4/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/10/0/0
+ObjectTemplate.sizeOverTime 0/0.400006|100/1
+ObjectTemplate.texture e_difus1
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.initRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/50/100/1
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|2/255/255/206/192|10/172/172/172/255|30/34/34/34/63|100/0/0/0/0
+
+ObjectTemplate.create SpriteParticle Fx_HothRocketFume_Fire
+ObjectTemplate.timeToLive CRD_NONE/0.2/0.2/0
+ObjectTemplate.size CRD_NONE/0.8/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.400006|21/0.789987|100/0.460005
+ObjectTemplate.texture e_fire4
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/200/300/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/0|4/255/255/221/56|15/255/255/128/212|55/255/195/67/208|100/255/128/0/204
+
+

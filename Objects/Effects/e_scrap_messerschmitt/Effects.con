@@ -1,0 +1,134 @@
+ObjectTemplate.create EffectBundle e_scrap_messerschmitt
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exp_medium_NoDecal
+ObjectTemplate.setRotation 0/-60/0
+rem -------------------------------------
+ObjectTemplate.addTemplate em_ger_plane_w_rudder
+ObjectTemplate.setPosition 0.11/1.11/-2.71
+ObjectTemplate.addTemplate em_ger_plane_w_BackWheel
+ObjectTemplate.setPosition 0/0.23/-2.47
+ObjectTemplate.addTemplate em_ger_plane_w_Aileron
+ObjectTemplate.setPosition -2.16/0.32/0.1
+ObjectTemplate.addTemplate em_ger_plane_w_Wheel
+ObjectTemplate.setPosition 0.99/0.24/1
+ObjectTemplate.addTemplate em_ger_plane_w_tail
+ObjectTemplate.setPosition 0.33/0.79/-1.54
+ObjectTemplate.addTemplate em_ger_plane_w_wing_R
+ObjectTemplate.setPosition 1.89/0.32/0.58
+ObjectTemplate.addTemplate em_ger_plane_w_body
+ObjectTemplate.setPosition 0/0.65/0.79
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_scrap_messerschmitt_Water
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_ger_plane_w_tail
+ObjectTemplate.setPosition 0.33/0.79/-1.54
+ObjectTemplate.addTemplate em_ger_plane_w_wing_R
+ObjectTemplate.setPosition 1.89/0.32/0.58
+ObjectTemplate.addTemplate em_ger_plane_w_body
+ObjectTemplate.setPosition 0/0.65/0.79
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter em_ger_plane_w_rudder
+ObjectTemplate.template ger_plane_w_rudder
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 300
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/30/20/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_plane_w_BackWheel
+ObjectTemplate.template ger_plane_w_BackWheel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 150
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_plane_w_Aileron
+ObjectTemplate.template ger_plane_w_Aileron
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 300
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/10/1
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_plane_w_Wheel
+ObjectTemplate.template ger_plane_w_Wheel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 150
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/30/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/15/5/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/10/5/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Emitter em_ger_plane_w_tail
+ObjectTemplate.template ger_plane_w_tail
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 400
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-20/-12/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/9/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/10/0/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_plane_w_wing_R
+ObjectTemplate.template ger_plane_w_wing_R
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 300
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/20/15/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/5/0/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_ger_plane_w_body
+ObjectTemplate.template ger_plane_w_body
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0

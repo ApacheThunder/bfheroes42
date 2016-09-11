@@ -1,0 +1,3 @@
+NetworkableInfo.createNewInfo TroopTrapGerInfo
+NetworkableInfo.setPredictionMode PMLinear
+

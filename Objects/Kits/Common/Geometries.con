@@ -1,0 +1,119 @@
+GeometryTemplate.create StandardMesh InvisibleKit_m1
+GeometryTemplate.file Items/InvisibleKit_m1
+
+GeometryTemplate.create StandardMesh brit_assault_bacpac_ds
+GeometryTemplate.file brit_assult_bacpac_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh brit_helmet_ds
+GeometryTemplate.file brit_helmet_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Brit_Scouthelm_ds
+GeometryTemplate.file brit_scouthelm_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh german_helmet_ds
+GeometryTemplate.file germ_helmet_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_Scouthelm_ds
+GeometryTemplate.file germ_scouthelm_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh german_hippack_ds
+GeometryTemplate.file german_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh german_medic_hippack_ds
+GeometryTemplate.file german_medic_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Medic_helm_ger_ds
+GeometryTemplate.file Medichelm_ger_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh radio_ds
+GeometryTemplate.file radio_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh us_britt_bacpac_ds
+GeometryTemplate.file us_britt_bacpac_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh BacpacBig_us_Bri_ds
+GeometryTemplate.file BacpacBig_us_Bri_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh BacpacBig_ger_ds
+GeometryTemplate.file BacpacBig_ger_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Medic_helm_brit_ds
+GeometryTemplate.file Medichelm_brit_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh British_hippack_ds
+GeometryTemplate.file British_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh brit_Medic_hippack_ds
+GeometryTemplate.file british_medic_hippack_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.hasDynamicShadow 1

@@ -1,0 +1,96 @@
+ObjectTemplate.create Engine ger_jeep_kubelwagenEngine
+ObjectTemplate.setNetworkableInfo ger_jeep_kubelwagenEngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/kubelwagenEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_jeep_kubelwagen_rack_R
+ObjectTemplate.setPosition 0.5/-0.12/1.15
+ObjectTemplate.addTemplate ger_jeep_kubelwagen_rack_L
+ObjectTemplate.setPosition -0.5/-0.12/1.15
+ObjectTemplate.addTemplate ger_jeep_kubelwagenSpringR
+ObjectTemplate.setPosition 0.77/-0.12/-1.01
+ObjectTemplate.addTemplate ger_jeep_kubelwagenSpringL
+ObjectTemplate.setPosition -0.77/-0.12/-1.01
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition 0.634/-0.05/-1.6
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.634/-0.05/-1.6
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/10000
+ObjectTemplate.setAcceleration 0/0/18
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETCar
+ObjectTemplate.setTorque 7
+ObjectTemplate.setDifferential 5
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.4
+
+
+ObjectTemplate.create Spring ger_jeep_kubelwagenSpringR
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry ger_jeep_kubelwagen_whl_R_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.grip c_PGFEngineGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_jeep_kubelwagenDummySpringR
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wheeldust
+ObjectTemplate.addTemplate e_wheelgrass
+ObjectTemplate.addTemplate e_wheelgravel
+ObjectTemplate.addTemplate e_wheelmud
+ObjectTemplate.addTemplate e_wheelsand
+ObjectTemplate.addTemplate e_wheelwetdirt
+ObjectTemplate.addTemplate e_wheelwetgrass
+ObjectTemplate.addTemplate e_wheelwetsand
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+
+ObjectTemplate.create Spring ger_jeep_kubelwagenSpringL
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry ger_jeep_kubelwagen_whl_L_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.grip c_PGFEngineGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_jeep_kubelwagenDummySpringL
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wheeldust
+ObjectTemplate.addTemplate e_wheelgrass
+ObjectTemplate.addTemplate e_wheelgravel
+ObjectTemplate.addTemplate e_wheelmud
+ObjectTemplate.addTemplate e_wheelsand
+ObjectTemplate.addTemplate e_wheelwetdirt
+ObjectTemplate.addTemplate e_wheelwetgrass
+ObjectTemplate.addTemplate e_wheelwetsand
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+
+ObjectTemplate.create SimpleObject ger_jeep_kubelwagenDummySpringL
+ObjectTemplate.geometry ger_jeep_kubelwagen_whl_L_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+
+ObjectTemplate.create SimpleObject ger_jeep_kubelwagenDummySpringR
+ObjectTemplate.geometry ger_jeep_kubelwagen_whl_R_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1

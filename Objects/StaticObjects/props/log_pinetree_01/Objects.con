@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject log_pinetree_01
+ObjectTemplate.geometry log_pinetree_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

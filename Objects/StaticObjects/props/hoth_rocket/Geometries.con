@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh hoth_rocket_m1
+GeometryTemplate.file hoth_rocket_m1

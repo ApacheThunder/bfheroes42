@@ -1,0 +1,13 @@
+GeometryTemplate.create StandardMesh BRI_Sniperrifle_LeeEnfield_m1
+GeometryTemplate.file handweapons/BRI_Sniperrifle_LeeEnfield_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh BRI_Sniperrifle_LeeEnfield_badass_m1
+GeometryTemplate.file handweapons/bri_sniperrifle_lee_enfield_badass_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 7
+GeometryTemplate.setLodDistance 2 17
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ShadeBRI_Sniperrifle_LeeEnfield_m1
+GeometryTemplate.file HandWeapons/Shade_BRI_Sniperrifle_LeeEnfield_m1

@@ -1,0 +1,9 @@
+GeometryTemplate.create AnimatedMesh ctf_stationaryroyal_m1
+GeometryTemplate.file ctf_stationaryroyal_m1
+GeometryTemplate.setSkin Animations/ctf_stationaryroyal_m1.skn
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create AnimatedMesh ctf_stationaryroyal_ext_m1
+GeometryTemplate.file ctf_stationaryroyal_ext_m1
+GeometryTemplate.setSkin Animations/ctf_stationaryroyal_ext_m1.skn
+GeometryTemplate.hasDynamicShadow 1

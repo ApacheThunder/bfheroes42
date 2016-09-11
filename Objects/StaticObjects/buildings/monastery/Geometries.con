@@ -1,0 +1,17 @@
+GeometryTemplate.create StandardMesh monasteryfront_m1
+GeometryTemplate.file monasteryfront_m1
+
+GeometryTemplate.create StandardMesh monasteryback_m1
+GeometryTemplate.file monasteryback_m1
+
+GeometryTemplate.create StandardMesh DeathBox_MonasteryBack_m1
+GeometryTemplate.file Invisible/DeathBox_MonasteryBack_m1
+
+GeometryTemplate.create StandardMesh DeathBox_MonasteryFront_m1
+GeometryTemplate.file Invisible/DeathBox_MonasteryFront_m1
+
+GeometryTemplate.create StandardMesh snow_monasteryfront_m1
+GeometryTemplate.file snow_monasteryfront_m1
+
+GeometryTemplate.create StandardMesh snow_monasteryback_m1
+GeometryTemplate.file snow_monasteryback_m1

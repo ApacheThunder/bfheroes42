@@ -1,0 +1,28 @@
+ObjectTemplate.create Projectile Ger_VehicleDropPRJ
+ObjectTemplate.geometry SmokeGrenade_RED
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+ObjectTemplate.setHasPointPhysics 0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.timeToLive CRD_NONE/30/0/0
+ObjectTemplate.dieAfterColl 0
+ObjectTemplate.radius 0.0
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.material 93
+ObjectTemplate.material2 93
+ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.damageType 1
+ObjectTemplate.startEffectTemplate e_SmokeSignal_National
+ObjectTemplate.noFFSound 1
+ObjectTemplate.mass 15
+ObjectTemplate.drag 1.1
+rem -----------------------------------------------------
+if v_arg1 == host
+ObjectTemplate.addTemplate NA_VehicleChuteSpawner
+ObjectTemplate.setPosition 0/170/7
+else
+endIf

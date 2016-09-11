@@ -1,0 +1,96 @@
+ObjectTemplate.create HandFireArms BRI_ShotGun
+ObjectTemplate.loadSoundScript Sounds/RoyalShotGun.ssc
+ObjectTemplate.itemIndex 1
+ObjectTemplate.setTracerTemplate ShotgunTracer CRD_NONE/2/0/0
+ObjectTemplate.projectileTemplate ShotgunProjectile
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 8
+ObjectTemplate.numOfMag -1
+ObjectTemplate.setHasMag 0
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 1.1
+ObjectTemplate.autoReload 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.GUIIndex 113
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/shotgun.tga"
+ObjectTemplate.setSniperSight 0
+ObjectTemplate.useScope 0
+objectTemplate.aiTemplate COM_Shotgun
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.AmmoType	1
+ObjectTemplate.autoReload 1
+ObjectTemplate.setHasRecoilForce 0
+ObjectTemplate.velocity 350
+ObjectTemplate.setSpeedDev 0 0 0 0
+ObjectTemplate.setMiscDev 0 0 0
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.soldierCameraPosition 0.04/-0.04/0.15
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/No4.ske
+ObjectTemplate.useSkeletonPartAsMain BRI_Shotgun
+rem -------------------------------------------------
+ObjectTemplate.addTemplate BRI_ShotGunLod
+ObjectTemplate.setRandomGeometries 2
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.079/0.821
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate e_ShotgunShell
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0.039/0.079/0.099
+rem -------------------------------------------------
+ObjectTemplate.addFireArmsPosition 0/0/0 1.25/-0.8/0
+ObjectTemplate.addFireArmsPosition 0/0/0 0.5/-0.7/0
+ObjectTemplate.addFireArmsPosition 0/0/0 -0.35/1.25/0
+ObjectTemplate.addFireArmsPosition 0/0/0 0.4/0.26/0
+ObjectTemplate.addFireArmsPosition 0/0/0 -0.22/1/0
+ObjectTemplate.addFireArmsPosition 0/0/0 -1.5/0.35/0
+ObjectTemplate.addFireArmsPosition 0/0/0 1/0.22/0
+ObjectTemplate.addFireArmsPosition 0/0/0 -0.85/-1.25/0
+rem -------------------------------------------------
+ObjectTemplate.setBlastAmmoCount 1
+ObjectTemplate.minDamage 0.75
+ObjectTemplate.distToStartLoseDamage 15
+ObjectTemplate.distToMinDamage 24
+
+ObjectTemplate.create SimpleObject BRI_ShotGunSimple
+ObjectTemplate.geometry Shade_BRI_ShotGun_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BRI_ShotGunComplex
+ObjectTemplate.geometry BRI_ShotGun_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/No4.ske
+
+ObjectTemplate.create LodObject BRI_ShotGunLod1
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate BRI_ShotGunComplex
+ObjectTemplate.addTemplate BRI_ShotGunSimple
+rem ----------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create SimpleObject BRI_ShotGun_BadassSimple
+ObjectTemplate.geometry BRI_ShotGun_Badass_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BRI_ShotGun_BadassComplex
+ObjectTemplate.geometry BRI_ShotGun_Badass_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/No4.ske
+
+ObjectTemplate.create LodObject BRI_ShotGunLod2
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate BRI_ShotGun_BadassComplex
+ObjectTemplate.addTemplate BRI_ShotGun_BadassSimple
+rem ----------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

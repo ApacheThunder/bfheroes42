@@ -1,0 +1,112 @@
+ObjectTemplate.create Engine Ger_Plane_Engine
+ObjectTemplate.setNetworkableInfo ger_plane_engine_info
+ObjectTemplate.loadSoundScript Sounds/messerschmitt_engine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation -0.3/0/-3000
+ObjectTemplate.setMaxRotation 0.3/0/5000
+ObjectTemplate.setMaxSpeed 1000/0/500
+ObjectTemplate.setAcceleration 500/0/1000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 25
+ObjectTemplate.setDifferential 20
+ObjectTemplate.setGearUp 0.7
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.setNoPropellerEffectAtSpeed 70
+
+ObjectTemplate.create Engine ger_plane_DummyEngine
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodger_Plane_Propeller
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition 0.5/-0.08/-1.6
+ObjectTemplate.setRotation -10/5/0
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.5/-0.08/-1.6
+ObjectTemplate.setRotation 10/5/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -0.3/0/600
+ObjectTemplate.setMaxRotation 0.3/0/3500
+ObjectTemplate.setMaxSpeed 1000/0/500
+ObjectTemplate.setAcceleration 500/0/1000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+
+
+ObjectTemplate.create Engine ger_plane_DummyEngine2
+rem ----------------------------------------------
+ObjectTemplate.addTemplate ger_plane_L_LandingGear
+ObjectTemplate.setPosition -0.556/0.122/1.188
+ObjectTemplate.addTemplate ger_plane_R_LandingGear
+ObjectTemplate.setPosition 0.556/0.122/1.188
+rem ----------------------------------------------
+ObjectTemplate.setMinRotation -0.3/0/-3000
+ObjectTemplate.setMaxRotation 0.3/0/5000
+ObjectTemplate.setMaxSpeed 1000/0/500
+ObjectTemplate.setAcceleration 500/0/1000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 0.001
+ObjectTemplate.setDifferential 0
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+ObjectTemplate.create Spring ger_Plane_Wheel_L
+ObjectTemplate.geometry ger_plane_wheel_L_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+rem -------------------------------------
+ObjectTemplate.addTemplate e_WaterTouchPlane
+ObjectTemplate.addTemplate e_wheeldust
+ObjectTemplate.addTemplate e_wheelgrass
+ObjectTemplate.addTemplate e_wheelgravel
+ObjectTemplate.addTemplate e_wheelmud
+ObjectTemplate.addTemplate e_wheelsand
+ObjectTemplate.addTemplate e_wheelwetdirt
+ObjectTemplate.addTemplate e_wheelwetgrass
+ObjectTemplate.addTemplate e_wheelwetsand
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 15
+
+ObjectTemplate.create Spring ger_Plane_Wheel_R
+ObjectTemplate.geometry ger_plane_wheel_R_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+rem -------------------------------------
+ObjectTemplate.addTemplate e_WaterTouchPlane
+ObjectTemplate.addTemplate e_wheeldust
+ObjectTemplate.addTemplate e_wheelgrass
+ObjectTemplate.addTemplate e_wheelgravel
+ObjectTemplate.addTemplate e_wheelmud
+ObjectTemplate.addTemplate e_wheelsand
+ObjectTemplate.addTemplate e_wheelwetdirt
+ObjectTemplate.addTemplate e_wheelwetgrass
+ObjectTemplate.addTemplate e_wheelwetsand
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 15
+
+ObjectTemplate.create Spring ger_plane_backWheel
+ObjectTemplate.geometry ger_plane_backwheel_m1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 15

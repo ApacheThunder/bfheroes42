@@ -1,0 +1,14 @@
+GeometryTemplate.create StandardMesh hoth_rocket_base_m1
+GeometryTemplate.file hoth_rocket_base_m1
+
+GeometryTemplate.create StandardMesh hoth_rocket_effects_royals_m1
+GeometryTemplate.file hoth_rocket_effects_royals
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh hoth_rocket_effects_nationals_m1
+GeometryTemplate.file hoth_rocket_effects_nationals
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh hoth_rocket_effects_m1
+GeometryTemplate.file hoth_rocket_effects
+GeometryTemplate.alphaLodDistance 512

@@ -1,0 +1,19 @@
+ObjectTemplate.create Projectile LaserProjectile
+ObjectTemplate.geometry LaserProjectile_m1
+ObjectTemplate.loadSoundScript Sounds/LaserProjectile.ssc
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.material 2021
+rem *** Mine Trigger Ability Added. ***
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 15
+ObjectTemplate.maxHitPoints 15
+ObjectTemplate.mass 500

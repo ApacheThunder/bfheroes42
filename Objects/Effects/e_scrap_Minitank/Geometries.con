@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh MiniTank_wreckpiece_01_m1
+GeometryTemplate.file Vehicles/MiniTank_wreckpiece_01_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh MiniTank_wreckpiece_02_m1
+GeometryTemplate.file Vehicles/MiniTank_wreckpiece_02_m1
+GeometryTemplate.hasDynamicShadow 1

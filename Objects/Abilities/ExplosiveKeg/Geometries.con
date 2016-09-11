@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh ExplosiveKeg_m1
+GeometryTemplate.file Abilities/ExplosiveKeg_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ExplosiveKegSmall_m1
+GeometryTemplate.file Abilities/ExplosiveKeg_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.scale 0.45

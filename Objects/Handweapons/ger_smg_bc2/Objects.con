@@ -1,0 +1,76 @@
+rem *** AK47 ***
+
+ObjectTemplate.create HandFireArms ger_smg_bc2
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.setTracerTemplate SMGTracer_bc2 CRD_NONE/2/0/0
+ObjectTemplate.projectileTemplate SMGProjectile_bc2
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.magSize 45
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.setHasMag 0
+ObjectTemplate.reloadtime 3.8
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.autoReload 1
+objectTemplate.aiTemplate COM_SMG_BC2
+ObjectTemplate.GUIIndex 3
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/smg.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.minDamage 0.7
+ObjectTemplate.distToStartLoseDamage 70
+ObjectTemplate.distToMinDamage 120
+ObjectTemplate.velocity 450
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 0
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.28/0.32/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/0.2/0
+ObjectTemplate.setFireDev 2 0.35 0.06
+ObjectTemplate.setDevMod 1 0.75 0.5
+ObjectTemplate.setTurnDev 2 0 0 0
+ObjectTemplate.setSpeedDev 3 0 0 0
+ObjectTemplate.setMiscDev 3 2.5 0.1
+ObjectTemplate.setMinDev 0.6
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.04/-0.01/0
+ObjectTemplate.soldierCameraPosition 0.025/0.0/0.06
+ObjectTemplate.loadSoundScript Sounds/ger_smg_ak47.ssc
+ObjectTemplate.createSkeleton animations/Thompson.ske
+ObjectTemplate.useSkeletonPartAsMain Thompson
+rem -------------------------------------------------
+ObjectTemplate.addTemplate ger_smg_bc2Lod
+rem -------------------------------------------------
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.089/0.594
+ObjectTemplate.addTemplate e_ShellSMG
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0.034/0.12/0.112
+
+
+ObjectTemplate.create LodObject ger_smg_bc2Lod
+rem --------------------------------------------
+ObjectTemplate.addTemplate ger_smg_bc2Complex
+ObjectTemplate.setPosition 0/0.013/0.162
+ObjectTemplate.addTemplate ger_smg_bc2Simple
+ObjectTemplate.setPosition 0/0.013/0.162
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+
+ObjectTemplate.create AnimatedBundle ger_smg_bc2Complex
+ObjectTemplate.geometry ger_smg_bc2_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Thompson.ske
+
+ObjectTemplate.create SimpleObject ger_smg_bc2Simple
+ObjectTemplate.geometry ger_smg_bc2_m1

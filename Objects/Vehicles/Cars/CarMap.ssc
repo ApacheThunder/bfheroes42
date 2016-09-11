@@ -1,0 +1,12 @@
+#beginMap Car
+	Rpm
+	Gear
+	Throttle
+	SlipX
+	SlipZ
+	Whine
+	Speed
+	Impulse
+	Wheels
+	Ouside
+#endMap

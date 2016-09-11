@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh fogplane_m1
+GeometryTemplate.file fogplane_m1
+GeometryTemplate.alphaLodDistance 2048

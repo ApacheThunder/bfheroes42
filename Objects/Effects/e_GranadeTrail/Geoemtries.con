@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh mp_sphear_m1
+GeometryTemplate.file mp_sphear_m1

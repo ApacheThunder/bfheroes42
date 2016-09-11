@@ -1,0 +1,99 @@
+ObjectTemplate.create Engine bri_jeep_willysEngine
+ObjectTemplate.setNetworkableInfo bri_jeep_willysEngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/WillyEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_jeep_willys_rack_R
+ObjectTemplate.setPosition 0.369/-0.156/0.905
+ObjectTemplate.addTemplate bri_jeep_willys_rack_L
+ObjectTemplate.setPosition -0.369/-0.156/0.905
+ObjectTemplate.addTemplate bri_jeep_willysSpringR
+ObjectTemplate.setPosition 0.599/-0.156/-0.9
+ObjectTemplate.addTemplate bri_jeep_willysSpringL
+ObjectTemplate.setPosition -0.595/-0.156/-0.9
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition 0.16/-0.1/-1.46
+ObjectTemplate.setRotation 0/-90/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/10000
+ObjectTemplate.setAcceleration 0/0/18
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETCar
+ObjectTemplate.setTorque 7
+ObjectTemplate.setDifferential 5
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.4
+
+
+ObjectTemplate.create Spring bri_jeep_willysSpringR
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry bri_jeep_willys_whl_R_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.grip c_PGFEngineGrip
+rem -------------------------------------
+ObjectTemplate.addArmorEffect 0 e_TireBlowout 0/0/0
+ObjectTemplate.deathEffectName e_TireBlowout
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_jeep_willysDummySpringR
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wheeldust
+ObjectTemplate.addTemplate e_wheelgrass
+ObjectTemplate.addTemplate e_wheelgravel
+ObjectTemplate.addTemplate e_wheelmud
+ObjectTemplate.addTemplate e_wheelsand
+ObjectTemplate.addTemplate e_wheelwetdirt
+ObjectTemplate.addTemplate e_wheelwetgrass
+ObjectTemplate.addTemplate e_wheelwetsand
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+
+ObjectTemplate.create Spring bri_jeep_willysSpringL
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry bri_jeep_willys_whl_L_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.grip c_PGFEngineGrip
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_jeep_willysDummySpringL
+rem -------------------------------------
+ObjectTemplate.addTemplate e_wheeldust
+ObjectTemplate.addTemplate e_wheelgrass
+ObjectTemplate.addTemplate e_wheelgravel
+ObjectTemplate.addTemplate e_wheelmud
+ObjectTemplate.addTemplate e_wheelsand
+ObjectTemplate.addTemplate e_wheelwetdirt
+ObjectTemplate.addTemplate e_wheelwetgrass
+ObjectTemplate.addTemplate e_wheelwetsand
+rem -------------------------------------
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.create SimpleObject bri_jeep_willysDummySpringL
+ObjectTemplate.geometry bri_jeep_willys_whl_L_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1
+
+ObjectTemplate.create SimpleObject bri_jeep_willysDummySpringR
+ObjectTemplate.geometry bri_jeep_willys_whl_R_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1

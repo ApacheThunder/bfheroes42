@@ -1,0 +1,29 @@
+ObjectTemplate.create FireArms flettner_miniguns
+ObjectTemplate.setNetworkableInfo HelicopterFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/FlettnerCannon.ssc
+ObjectTemplate.setAsynchronyFire 1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.aiTemplate HelicopterMinigun
+ObjectTemplate.projectileTemplate HelicopterProjectile
+ObjectTemplate.setTracerTemplate HelicopterTracer CRD_NONE/1/0/0
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 100
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 3
+ObjectTemplate.recoilSpeed 8
+ObjectTemplate.roundOfFire 18
+ObjectTemplate.autoReload 1
+ObjectTemplate.addDevFire 1
+ObjectTemplate.delayToUse 0.5
+ObjectTemplate.setInputFire c_PIFire
+objectTemplate.inputReload c_PIReload
+ObjectTemplate.velocity 800
+ObjectTemplate.setFireDev 0.75 0.175 0.06
+ObjectTemplate.setMinDev 0.6
+rem ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.allowReloadOnEmptyClipOnly 0
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavyFlettner
+ObjectTemplate.addFireArmsPosition -0.86288/-2.46653/0.942 0.35/0/0
+ObjectTemplate.addFireArmsPosition 0.86288/-2.46653/0.942 -0.35/0/0
+rem --------------------------------------------------

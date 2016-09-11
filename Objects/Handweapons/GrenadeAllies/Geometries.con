@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh GrenadeAllies
+GeometryTemplate.file HandWeapons/BRI_HGrenade_Millsbomb_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh Shad_GrenadeAllies
+GeometryTemplate.file HandWeapons/ShadBRI_HGrenade_Millsbomb_m1
+GeometryTemplate.hasDynamicShadow 1

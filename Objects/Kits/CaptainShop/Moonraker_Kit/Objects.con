@@ -1,0 +1,72 @@
+ObjectTemplate.create Kit RA_Moonraker_Kit
+ObjectTemplate.geometry Moonraker_Kit_m1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.yawSpeed 1
+rem -------------------------------------------------------------------------
+ObjectTemplate.setHasCollisionPhysics 1
+rem -------------------------------------------------------------------------
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 2
+rem -------------------------------------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+rem -------------------------------------------------------------------------
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Royal_Knife.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Icon_ProximityMine.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Icon_Moonraker.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Icon_RemoteMine.tga"
+ObjectTemplate.addWeaponIcon "Empty.tga"
+ObjectTemplate.addWeaponIcon "Empty.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBallKick.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Royal_SupplyDrop.tga"
+rem -------------------------------------------------------------------------
+ObjectTemplate.setKitIcon 4 "Kits/Icon_SoldierTNTClass.tga"
+ObjectTemplate.setKitName 4 "SOLDIER(TNT)"
+ObjectTemplate.setKitActiveName 4 "ACTIVE SOLDIERS(TNT)"
+rem -------------------------------------------------------------------------
+ObjectTemplate.addTemplate Moonraker
+ObjectTemplate.addTemplate ProximityMine
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate bri_supplydrop
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+ObjectTemplate.addTemplate SoccerKick
+rem -------------------------------------------------------------------------
+ObjectTemplate.aiTemplate Engineer
+
+
+ObjectTemplate.create Kit NA_Moonraker_Kit
+ObjectTemplate.geometry Moonraker_Kit_m1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.yawSpeed 1
+rem -------------------------------------------------------------------------
+ObjectTemplate.setHasCollisionPhysics 1
+rem -------------------------------------------------------------------------
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 2
+rem -------------------------------------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+rem -------------------------------------------------------------------------
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Knife.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Icon_ProximityMine.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Icon_Moonraker.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Icon_RemoteMine.tga"
+ObjectTemplate.addWeaponIcon "Empty.tga"
+ObjectTemplate.addWeaponIcon "Empty.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBallKick.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/National_SupplyDrop.tga"
+rem -------------------------------------------------------------------------
+ObjectTemplate.setKitIcon 4 "Kits/Icon_SoldierTNTClass.tga"
+ObjectTemplate.setKitName 4 "SOLDIER(TNT)"
+ObjectTemplate.setKitActiveName 4 "ACTIVE SOLDIERS(TNT)"
+rem -------------------------------------------------------------------------
+ObjectTemplate.addTemplate Moonraker
+ObjectTemplate.addTemplate ProximityMine
+ObjectTemplate.addTemplate KnifeAxis
+ObjectTemplate.addTemplate ger_supplydrop
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+ObjectTemplate.addTemplate SoccerKick
+rem -------------------------------------------------------------------------
+ObjectTemplate.aiTemplate Engineer

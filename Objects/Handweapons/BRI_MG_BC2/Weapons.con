@@ -1,0 +1,19 @@
+ObjectTemplate.create Projectile MGProjectile_bc2
+ObjectTemplate.geometry TLight_m1
+ObjectTemplate.timeToLive CRD_NONE/0.5/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.hasStartEffect 0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 4007
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.tracerScaler 100
+ObjectTemplate.distToStartLoseDamage 40
+ObjectTemplate.distToMinDamage 80
+ObjectTemplate.noFFSound 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

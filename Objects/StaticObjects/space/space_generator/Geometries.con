@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh space_generator_national_m1
+GeometryTemplate.file space_generator_national_m1
+
+GeometryTemplate.create StandardMesh space_generator_royal_m1
+GeometryTemplate.file space_generator_royal_m1

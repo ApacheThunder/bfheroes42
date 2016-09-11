@@ -1,0 +1,14 @@
+GeometryTemplate.create StandardMesh trench01_a_m1
+GeometryTemplate.file trench01_a_m1
+
+GeometryTemplate.create StandardMesh trench01_b_m1
+GeometryTemplate.file trench01_b_m1
+
+GeometryTemplate.create StandardMesh trench01_c_m1
+GeometryTemplate.file trench01_c_m1
+
+GeometryTemplate.create StandardMesh trench01_d_m1
+GeometryTemplate.file trench01_d_m1
+
+GeometryTemplate.create StandardMesh trench01_e_m1
+GeometryTemplate.file trench01_e_m1

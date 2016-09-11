@@ -1,0 +1,46 @@
+weaponTemplate.create MiniTank_MainGun
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0
+weaponTemplate.maxRange 5
+weaponTemplate.exitVelocity 25
+weaponTemplate.weaponActivate PINone
+weaponTemplate.weaponFire PIAltFire
+weaponTemplate.setStrength Infantry     10.0
+weaponTemplate.setStrength LightArmour  8.0
+weaponTemplate.setStrength HeavyArmour  4.0
+weaponTemplate.setStrength NavalArmour  0.0
+weaponTemplate.setStrength Submarine    0.0
+weaponTemplate.setStrength Air          0.0
+
+weaponTemplate.create MiniTank_Handweapon
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0.0
+weaponTemplate.maxRange 256.0
+weaponTemplate.exitVelocity 10
+weaponTemplate.weaponActivate PIMenuSelect5
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry    6.5
+weaponTemplate.setStrength LightArmour 2.8
+weaponTemplate.setStrength HeavyArmour 1.5
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Submarine   0.0
+weaponTemplate.setStrength Air         0.0
+weaponTemplate.setSoundSphereRadius 100.0
+
+
+weaponTemplate.create MiniTank_TripodGun
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0
+weaponTemplate.maxRange 10
+weaponTemplate.exitVelocity 10
+weaponTemplate.weaponActivate PINone
+weaponTemplate.weaponFire PIAltFire
+weaponTemplate.setStrength Infantry     10.0
+weaponTemplate.setStrength LightArmour  8.0
+weaponTemplate.setStrength HeavyArmour  4.0
+weaponTemplate.setStrength NavalArmour  0.0
+weaponTemplate.setStrength Submarine    0.0
+weaponTemplate.setStrength Air          0.0

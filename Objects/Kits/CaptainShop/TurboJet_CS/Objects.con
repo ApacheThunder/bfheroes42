@@ -1,0 +1,104 @@
+ObjectTemplate.create Kit NA_Commando_Kit_TurboJet_CS
+ObjectTemplate.setType Scout
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry TurboJet_Kit_Commando_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem -----------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Knife.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Pistol.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Sniper.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Generic_TNT.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/National_TroopTrap.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBall.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBallKick.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/National_SupplyDrop.tga"
+rem -----------------------------------------------
+ObjectTemplate.addTemplate GER_SniperRifle_Gewehr43
+ObjectTemplate.addTemplate GER_Pistol_Luger
+ObjectTemplate.addTemplate KnifeAxis
+ObjectTemplate.addTemplate explosivetrap_ger
+ObjectTemplate.addTemplate COM_TNT
+ObjectTemplate.addTemplate COM_BALL
+ObjectTemplate.addTemplate SoccerKick
+ObjectTemplate.addTemplate ger_supplydrop
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 0 "Kits/Icon_CommandoClass.tga"
+ObjectTemplate.setKitName 0 "COMMANDO"
+ObjectTemplate.setKitActiveName 0 "ACTIVE COMMANDOS"
+rem --------------------------------------------
+ObjectTemplate.addTemplate Ger_RocketPack
+rem -----------------------------------------------
+ObjectTemplate.aiTemplate Scout
+
+ObjectTemplate.create Kit NA_Gunner_Kit_TurboJet_CS
+ObjectTemplate.setType AT
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry TurboJet_Kit_Gunner_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem -----------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Shotgun.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Common_KEG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_MG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_RPG.tga"
+ObjectTemplate.addWeaponIcon "Empty.tga"
+ObjectTemplate.addWeaponIcon "Empty.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_SoccerBallKick.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/National_SupplyDrop.tga"
+rem -----------------------------------------------
+ObjectTemplate.addTemplate GER_MG_MG40
+ObjectTemplate.addTemplate GER_ShotGun
+ObjectTemplate.addTemplate ExplosiveKeg
+ObjectTemplate.addTemplate GER_AT_PanzerFaust
+ObjectTemplate.addTemplate SoccerKick
+ObjectTemplate.addTemplate ger_supplydrop
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 2 "Kits/Icon_GunnerRPGClassAxis.tga"
+ObjectTemplate.setKitName 2 "GUNNER"
+ObjectTemplate.setKitActiveName 2 "ACTIVE GUNNERS"
+rem --------------------------------------------
+ObjectTemplate.addTemplate Ger_RocketPack
+rem -----------------------------------------------
+ObjectTemplate.aiTemplate AT
+
+ObjectTemplate.create Kit NA_Soldier_Kit_TurboJet_CS
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry TurboJet_Kit_Soldier_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasMobilePhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem --------------------------------------------
+ObjectTemplate.setHealthBarIcon "Health/SoldierHealth_Empty.tga"
+ObjectTemplate.setHealthBarFullIcon "Health/SoldierHealth_Full.tga"
+rem --------------------------------------------
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_Shotgun.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/Common_Medkit.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/National_SMG.tga"
+ObjectTemplate.addWeaponIcon "Icon_HandWeapons/Generic_TNT.tga"
+ObjectTemplate.addWeaponIcon "Icon_Abilities/National_GS.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/Common_Wrench.tga"
+ObjectTemplate.addWeaponIcon "Icon_Widgets/National_VehicleDrop.tga"
+rem --------------------------------------------
+ObjectTemplate.setKitIcon 4 "Kits/Icon_SoldierTNTClass.tga"
+ObjectTemplate.setKitName 4 "SOLDIER(TNT)"
+ObjectTemplate.setKitActiveName 4 "ACTIVE SOLDIERS(TNT)"
+rem --------------------------------------------
+ObjectTemplate.addTemplate GER_SMG_MP40
+ObjectTemplate.addTemplate GER_ShotGun
+ObjectTemplate.addTemplate MedPack
+ObjectTemplate.addTemplate GER_GrenadeSpam
+ObjectTemplate.addTemplate COM_TNT
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate ger_vehicledrop
+rem --------------------------------------------
+ObjectTemplate.addTemplate Ger_RocketPack
+rem -----------------------------------------------
+ObjectTemplate.aiTemplate Engineer

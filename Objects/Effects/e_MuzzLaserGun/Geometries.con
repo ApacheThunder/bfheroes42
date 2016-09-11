@@ -1,0 +1,10 @@
+GeometryTemplate.create StandardMesh muzzLaserGun_m1
+GeometryTemplate.file HandWeapons/muzzLaserGun_m1
+
+GeometryTemplate.create StandardMesh LaserBeamParticle_m1
+GeometryTemplate.file HandWeapons/LaserBeamParticle_m1
+GeometryTemplate.scale 2/2/4
+
+GeometryTemplate.create StandardMesh 1p_LaserBeamParticle_m1
+GeometryTemplate.file HandWeapons/LaserBeamParticle_m1
+GeometryTemplate.scale 2/2/4

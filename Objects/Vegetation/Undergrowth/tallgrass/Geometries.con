@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh tallgrass_yellow_m1
+GeometryTemplate.file Undergrowth/tallgrass_yellow_m1
+
+
+GeometryTemplate.create AnimatedMesh tallgrass_yellow_animated_m1
+GeometryTemplate.file Undergrowth/tallgrass_yellow_animated_m1
+GeometryTemplate.setSkin Animations/Grass/TallGrass.skn
+

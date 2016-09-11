@@ -1,0 +1,9 @@
+GeometryTemplate.create AnimatedMesh ctf_stationarynational_m1
+GeometryTemplate.file ctf_stationarynational_m1
+GeometryTemplate.setSkin Animations/ctf_stationarynational_m1.skn
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create AnimatedMesh ctf_stationarynational_ext_m1
+GeometryTemplate.file ctf_stationarynational_ext_m1
+GeometryTemplate.setSkin Animations/ctf_stationarynational_ext_m1.skn
+GeometryTemplate.hasDynamicShadow 1

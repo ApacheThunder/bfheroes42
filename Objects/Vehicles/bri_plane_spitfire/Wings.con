@@ -1,0 +1,117 @@
+ObjectTemplate.create RotationalBundle bri_plane_spitfire_Physics_PhyTailFlap_2
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_plane_spitfire_Physics_PhyTailFlap_3
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/2/0
+ObjectTemplate.setMaxSpeed 0/10/0
+ObjectTemplate.setAcceleration 0/5/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.rememberExcessInput 1
+
+ObjectTemplate.create RotationalBundle bri_plane_spitfire_Physics_PhyTailFlap_3
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate bri_plane_spitfire_Physics_PhyTailFlap
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/2/0
+ObjectTemplate.setMaxSpeed 0/10/0
+ObjectTemplate.setAcceleration 0/-5/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.rememberExcessInput 1
+
+
+ObjectTemplate.create Wing Plane_AirbreakLeft
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.setMinRotation 0/-2/0
+ObjectTemplate.setMaxRotation 0/2/0
+ObjectTemplate.setMaxSpeed 0/30/0
+ObjectTemplate.setAcceleration 0/120/0
+ObjectTemplate.setPitchOffset 0.5
+ObjectTemplate.setPositionOffset 1.539/-0.05/0.883
+ObjectTemplate.setFlapLift 2
+ObjectTemplate.setRegulateToLift 4.91
+ObjectTemplate.setWingToRegulatorRatio 1
+
+ObjectTemplate.create Wing Plane_AirbreakRight
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.setMinRotation 0/-2/0
+ObjectTemplate.setMaxRotation 0/2/0
+ObjectTemplate.setMaxSpeed 0/30/0
+ObjectTemplate.setAcceleration 0/120/0
+ObjectTemplate.setPitchOffset 0.5
+ObjectTemplate.setPositionOffset -1.539/-0.05/0.883
+ObjectTemplate.setFlapLift 2
+ObjectTemplate.setRegulateToLift 4.91
+ObjectTemplate.setWingToRegulatorRatio 1
+
+
+ObjectTemplate.create Wing bri_plane_spitfire_Physics_Rudder
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-30/0
+ObjectTemplate.setMaxRotation 0/30/0
+ObjectTemplate.setMaxSpeed 0/60/0
+ObjectTemplate.setAcceleration 0/150/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 2
+ObjectTemplate.setFlapLift 1.25
+
+ObjectTemplate.create Wing bri_plane_spitfire_Physics_PhyTailFlap
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-35/0
+ObjectTemplate.setMaxRotation 0/45/0
+ObjectTemplate.setMaxSpeed 0/60/0
+ObjectTemplate.setAcceleration 0/-60/0
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 4
+ObjectTemplate.setFlapLift 2
+
+ObjectTemplate.create Wing bri_plane_spitfire_Physics_PhyFlapsL
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-30/0
+ObjectTemplate.setMaxRotation 0/30/0
+ObjectTemplate.setMaxSpeed 0/200/0
+ObjectTemplate.setAcceleration 0/-150/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/2.2
+ObjectTemplate.setWingLift 2
+ObjectTemplate.setFlapLift 1.7
+
+ObjectTemplate.create Wing bri_plane_spitfire_Physics_PhyFlapsR
+ObjectTemplate.setNetworkableInfo bri_plane_wing_info
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-30/0
+ObjectTemplate.setMaxRotation 0/30/0
+ObjectTemplate.setMaxSpeed 0/200/0
+ObjectTemplate.setAcceleration 0/150/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/2.2
+ObjectTemplate.setWingLift 2
+ObjectTemplate.setFlapLift 1.7
+
+
+ObjectTemplate.create Wing bri_plane_spitfire_Physics_BodyWingVertical
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 2
+ObjectTemplate.setFlapLift 0

@@ -1,0 +1,71 @@
+newPatch
+
+load @ROOT/Sound/@RTD/SOWAWD1.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+dopplerOff
+priority 1
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SOWAWD2.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 6
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SOWAWD3.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/SOWAWD4.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1

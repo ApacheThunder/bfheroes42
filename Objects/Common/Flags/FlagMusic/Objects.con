@@ -1,0 +1,17 @@
+ObjectTemplate.create AreaObject S_flag_ra_Start
+ObjectTemplate.loadSoundScript Sounds/FlagMusic_RA.ssc
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 50
+ObjectTemplate.addLinePoint 0/0
+ObjectTemplate.addLinePoint 0/1
+ObjectTemplate.addLinePoint 1/0
+ObjectTemplate.addLinePoint 0/0
+
+ObjectTemplate.create AreaObject S_flag_na_Start
+ObjectTemplate.loadSoundScript Sounds/FlagMusic_NA.ssc
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 50
+ObjectTemplate.addLinePoint 0/0
+ObjectTemplate.addLinePoint 0/1
+ObjectTemplate.addLinePoint 1/0
+ObjectTemplate.addLinePoint 0/0

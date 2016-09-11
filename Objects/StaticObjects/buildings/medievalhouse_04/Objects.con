@@ -1,0 +1,5 @@
+ObjectTemplate.create Bundle medievalhouse_04
+ObjectTemplate.geometry medievalhouse_04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

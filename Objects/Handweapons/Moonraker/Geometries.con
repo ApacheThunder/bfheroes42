@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh Moonraker_m1
+GeometryTemplate.file HandWeapons/Moonraker_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh LaserProjectile_m1
+GeometryTemplate.file HandWeapons/LaserProjectile_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+GeometryTemplate.scale 6/6/8

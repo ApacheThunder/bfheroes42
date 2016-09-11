@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject road_post_8m
+ObjectTemplate.geometry road_post_8m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

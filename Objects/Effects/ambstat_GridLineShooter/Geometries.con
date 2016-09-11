@@ -1,0 +1,13 @@
+TextureManager.mipmaps 0
+
+GeometryTemplate.create StandardMesh GridParticle_m1
+GeometryTemplate.file GridParticle_m1
+GeometryTemplate.alphaLodDistance 4096
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh GridParticle2_m1
+GeometryTemplate.file GridParticle2_m1
+GeometryTemplate.alphaLodDistance 4096
+GeometryTemplate.cullFactor 0
+
+TextureManager.mipmaps 1

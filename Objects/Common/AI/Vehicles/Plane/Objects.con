@@ -1,0 +1,136 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Unit PlaneUnit
+aiTemplatePlugIn.equipmentType 1
+aiTemplatePlugIn.setStrategicStrength 0 3
+aiTemplatePlugIn.setStrategicStrength 1 3
+aiTemplatePlugIn.setSelectKey PIMenuSelect1
+
+aiTemplatePlugIn.create Cover PlaneCover
+aiTemplatePlugIn.coverValue 2.0
+
+aiTemplatePlugIn.create Physical PlanePhysical
+aiTemplatePlugIn.setStrType Air
+
+aiTemplatePlugIn.create ControlInfo3d PlaneCtrl
+aiTemplatePlugIn.driveTurnControl     PIYaw
+aiTemplatePlugIn.driveThrottleControl PIThrottle
+aiTemplatePlugIn.aimHorizontalControl PIYaw
+aiTemplatePlugIn.aimVerticalControl   PIPitch
+aiTemplatePlugIn.driveRollControl     PIRoll
+aiTemplatePlugIn.drivePitchControl    PIPitch
+aiTemplatePlugIn.aimRollControl       PIRoll
+aiTemplatePlugIn.aimThrottleControl   PIThrottle
+aiTemplatePlugIn.throttleSensitivity -3.0
+aiTemplatePlugIn.pitchSensitivity    -3.0
+aiTemplatePlugIn.rollSensitivity     -3.0
+aiTemplatePlugIn.yawSensitivity       1.0
+aiTemplatePlugIn.throttleLookAhead    1.0
+aiTemplatePlugIn.pitchLookAhead       1.2
+aiTemplatePlugIn.rollLookAhead        1.5
+aiTemplatePlugIn.yawLookAhead         0.3
+aiTemplatePlugIn.throttleScale        1.0
+aiTemplatePlugIn.pitchScale           1.0
+aiTemplatePlugIn.rollScale            1.0
+aiTemplatePlugIn.yawScale             0.5
+aiTemplatePlugIn.maxRollAngle         1.0
+aiTemplatePlugIn.maxClimbAngle        1.2
+
+aiTemplatePlugIn.create Mobile PlaneMobile
+aiTemplatePlugIn.vehicleNumber 1
+aiTemplatePlugIn.maxSpeed 40
+aiTemplatePlugIn.turnRadius 5
+
+aiTemplatePlugIn.create Armament PlaneArms
+aiTemplatePlugIn.setIsAntiAircraft 1
+
+rem *** AITemplate ***
+aiTemplate.create Plane
+aiTemplate.addType ITUnit
+aiTemplate.addType ITMobile
+aiTemplate.addType ITAir
+aiTemplate.degeneration 5
+aiTemplate.allowedTimeDiff 0.5
+aiTemplate.basicTemp 15
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn PlaneUnit
+aiTemplate.addPlugIn PlaneCover
+aiTemplate.addPlugIn PlanePhysical
+aiTemplate.addPlugIn PlaneCtrl
+aiTemplate.addPlugIn PlaneMobile
+aiTemplate.addPlugIn PlaneArms
+
+
+
+aiTemplatePlugIn.create Unit PlanePassengerUnit
+aiTemplatePlugIn.equipmentType 8
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 0
+aiTemplatePlugIn.setSelectKey PIMenuSelect2
+aiTemplatePlugIn.setHasExposedSoldier 1
+
+aiTemplatePlugIn.create ControlInfo PlanePassengerCtrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+aiTemplatePlugIn.pitchScale                 5.0
+aiTemplatePlugIn.rollScale                  5.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -110/40/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 110/-10/0
+
+rem *** AITemplate ***
+aiTemplate.create PlanePassenger
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITAir
+aiTemplate.addType ITTransportation
+aiTemplate.degeneration 10
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 6
+aiTemplate.commonKnowledge 0
+aiTemplate.secondary 1
+aiTemplate.addPlugIn PlanePassengerUnit
+aiTemplate.addPlugIn PlanePassengerCtrl
+
+rem ******************************************************************
+rem ******************************************************************
+
+aiTemplatePlugIn.create Unit PlanePassenger2Unit
+aiTemplatePlugIn.equipmentType 8
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 0
+aiTemplatePlugIn.setSelectKey PIMenuSelect3
+aiTemplatePlugIn.setHasExposedSoldier 1
+
+rem *** AITemplate ***
+aiTemplate.create PlanePassenger2
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITAir
+aiTemplate.addType ITTransportation
+aiTemplate.degeneration 10
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 6
+aiTemplate.commonKnowledge 0
+aiTemplate.secondary 1
+aiTemplate.addPlugIn PlanePassenger2Unit
+aiTemplate.addPlugIn PlanePassengerCtrl
+

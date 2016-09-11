@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh church_m1
+GeometryTemplate.file church_m1
+
+GeometryTemplate.create StandardMesh church_ladder_e_01_m1
+GeometryTemplate.file church_ladder_e_01_m1
+
+GeometryTemplate.create StandardMesh DeathBox_Church_m1
+GeometryTemplate.file Invisible/DeathBox_Church_m1
+
+GeometryTemplate.create StandardMesh snow_church_m1
+GeometryTemplate.file snow_church_m1

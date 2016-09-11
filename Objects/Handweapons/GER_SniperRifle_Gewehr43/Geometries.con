@@ -1,0 +1,19 @@
+GeometryTemplate.create StandardMesh GER_SniperRifle_Gewehr43_m1
+GeometryTemplate.file HandWeapons/GER_SniperRifle_Gewehr43_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh GER_SniperRifle_Gewehr43_badass_m1
+GeometryTemplate.file HandWeapons/GER_SniperRifle_Gewehr43_badass_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 7
+GeometryTemplate.setLodDistance 2 17
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ShadeGER_SniperRifle_Gewehr43_m1
+GeometryTemplate.file HandWeapons/Shade_GER_SniperRifle_Gewehr43_m1
+
+GeometryTemplate.create StandardMesh ShadeGER_SniperRifle_Gewehr43_badass_m1
+GeometryTemplate.file HandWeapons/GER_SniperRifle_Gewehr43_badass_m1
+GeometryTemplate.setLodDistance 0 14
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 16

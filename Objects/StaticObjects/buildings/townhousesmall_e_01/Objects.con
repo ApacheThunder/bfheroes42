@@ -1,0 +1,33 @@
+ObjectTemplate.create Bundle townhousesmall_e_01_Winter
+ObjectTemplate.geometry townhousesmall_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ------------------------------------
+ObjectTemplate.addTemplate DeathBox_HouseSmall1
+ObjectTemplate.addTemplate townhousesmall_e_01_WinterBundle
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate snow_townhousesmall_e_01
+
+ObjectTemplate.create Bundle townhousesmall_e_01
+ObjectTemplate.geometry townhousesmall_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.aiTemplate buildingAI
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ------------------------------------
+ObjectTemplate.addTemplate DeathBox_HouseSmall1
+
+
+ObjectTemplate.create Obstacle DeathBox_HouseSmall1
+ObjectTemplate.geometry DeathBox_HouseSmall1_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+rem *** Snow Add-On for Winter maps ***
+ObjectTemplate.create SimpleObject snow_townhousesmall_e_01
+ObjectTemplate.geometry snow_townhousesmall_e_01_m1
+ObjectTemplate.cullRadiusScale 5

@@ -1,0 +1,25 @@
+ObjectTemplate.create Projectile ATMissile
+ObjectTemplate.geometry ATMissile_m1
+ObjectTemplate.cullRadiusScale 100
+ObjectTemplate.loadSoundScript Sounds/ATMissile.ssc
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.timeOnEndEffect 0.5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasPointPhysics 1
+ObjectTemplate.hasStartEffect 1
+ObjectTemplate.gravityModifier 0.25
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.damageType 1
+ObjectTemplate.damageOwner 1
+ObjectTemplate.drag 7
+ObjectTemplate.mass 10
+ObjectTemplate.material 226
+ObjectTemplate.material2 200
+ObjectTemplate.radius 9
+ObjectTemplate.forceOnExplosion 80
+rem -----------------------------------------------
+ObjectTemplate.startEffectTemplate e_ATRocketTrail

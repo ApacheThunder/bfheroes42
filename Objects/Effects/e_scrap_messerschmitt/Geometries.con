@@ -1,0 +1,23 @@
+GeometryTemplate.create StandardMesh ger_plane_w_rudder_m1
+GeometryTemplate.file Vehicles/ger_plane_w_rudder_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_plane_w_BackWheel_m1
+GeometryTemplate.file Vehicles/ger_plane_w_backWhl_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_plane_w_Aileron_m1
+GeometryTemplate.file Vehicles/ger_plane_w_Aileron_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_plane_w_Wheel_m1
+GeometryTemplate.file Vehicles/ger_plane_w_Wheel_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_plane_w_tail_m1
+GeometryTemplate.file Vehicles/ger_plane_w_tail_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_plane_w_wing_R_m1
+GeometryTemplate.file Vehicles/ger_plane_w_wing_R_m1
+GeometryTemplate.hasDynamicShadow 1

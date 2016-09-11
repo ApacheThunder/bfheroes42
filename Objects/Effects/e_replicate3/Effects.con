@@ -1,0 +1,41 @@
+rem *** e_ScrapSA3 ***
+ObjectTemplate.create EffectBundle e_replicate3
+ObjectTemplate.saveInSeparateFile 1
+rem ------------------------------------
+ObjectTemplate.addTemplate Em_replicate3
+ObjectTemplate.addTemplate Em_replicate3
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.addTemplate Em_replicate3
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 180/0/0
+rem ------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
+
+ObjectTemplate.create Emitter Em_replicate3
+ObjectTemplate.template fx_replicate3
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 1024
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/15/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/5/0/1
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+rem ***
+rem *** This is the effect bundle that produces smaller cones after death ***
+rem ***
+
+ObjectTemplate.create Bundle fx_replicate3
+ObjectTemplate.geometry sm_cone
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.removeAtRestart 1
+ObjectTemplate.cullRadiusScale 512
+ObjectTemplate.mass 100
+rem --------------------------------------
+ObjectTemplate.addTemplate BallFloater

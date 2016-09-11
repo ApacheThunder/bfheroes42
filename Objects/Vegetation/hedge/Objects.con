@@ -1,0 +1,21 @@
+ObjectTemplate.create SimpleObject mt_hedge01
+ObjectTemplate.geometry mt_hedge01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create SimpleObject mt_hedge01_end
+ObjectTemplate.geometry mt_hedge01_end_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create Bundle mt_hedgerow
+ObjectTemplate.geometry mt_leaftree_cluster_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -------------------------------------
+ObjectTemplate.addTemplate mt_leaftree_03
+ObjectTemplate.setPosition -20.3534/-0.19/-0.102535
+ObjectTemplate.addTemplate mt_leaftree_cluster_01
+ObjectTemplate.setPosition -20.5287/-0.273742/0

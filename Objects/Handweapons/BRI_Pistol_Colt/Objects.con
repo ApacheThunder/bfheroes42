@@ -1,0 +1,92 @@
+ObjectTemplate.create HandFireArms BRI_Pistol_Colt
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.loadSoundScript Sounds/RoyalPistol.ssc
+ObjectTemplate.itemIndex 2
+ObjectTemplate.projectileTemplate PistolProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 8
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 6
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate COM_Pistol
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.zoomFov 0.7
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.5 
+ObjectTemplate.soldierZoomPosition -0.01/-0.01/0.1
+ObjectTemplate.soldierCameraPosition 0.02/-0.05/0.2
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 16
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/pistol.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 300
+ObjectTemplate.setRecoilForceUp CRD_NONE/0/0/0
+ObjectTemplate.setRecoilForceLeftRight CRD_NONE/0/0/0
+ObjectTemplate.setHasRecoilForce 0
+ObjectTemplate.setFireDev 0 0 0
+ObjectTemplate.setMinDev 0
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 0 0 0 0
+ObjectTemplate.setMiscDev 0 0 0
+ObjectTemplate.fireInCameraDof 1
+rem ---------------------------------------------
+ObjectTemplate.createSkeleton animations/Colt.ske
+ObjectTemplate.useSkeletonPartAsMain Colt
+rem ---------------------------------------------
+ObjectTemplate.addTemplate BRI_Pistol_ColtLod
+ObjectTemplate.setRandomGeometries 2
+rem ---------------------------------------------
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.02/0.14
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate e_Shell9mm
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.01/0.29
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create SimpleObject BRI_Pistol_ColtSimple
+ObjectTemplate.geometry Shade_BRI_Pistol_Colt_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BRI_Pistol_ColtComplex
+ObjectTemplate.createSkeleton animations/Colt.ske
+ObjectTemplate.geometry BRI_Pistol_Colt_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create LodObject BRI_Pistol_ColtLod1
+ObjectTemplate.hasDynamicShadow 1
+rem ---------------------------------------------
+ObjectTemplate.addTemplate BRI_Pistol_ColtComplex
+ObjectTemplate.addTemplate BRI_Pistol_ColtSimple
+rem ---------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create SimpleObject BRI_Pistol_Colt_BadassSimple
+ObjectTemplate.geometry BRI_Pistol_Colt_Badass_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create AnimatedBundle BRI_Pistol_Colt_BadassComplex
+ObjectTemplate.createSkeleton animations/Colt.ske
+ObjectTemplate.geometry BRI_Pistol_Colt_Badass_m1
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create LodObject BRI_Pistol_ColtLod2
+ObjectTemplate.hasDynamicShadow 1
+rem ---------------------------------------------
+ObjectTemplate.addTemplate BRI_Pistol_Colt_BadassComplex
+ObjectTemplate.addTemplate BRI_Pistol_Colt_BadassSimple
+rem ---------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector

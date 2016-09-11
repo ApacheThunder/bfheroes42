@@ -1,0 +1,22 @@
+GeometryTemplate.create StandardMesh GER_ShotGun_m1
+GeometryTemplate.file handweapons/GER_ShotGun_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh GER_ShotGun_badass_m1
+GeometryTemplate.file handweapons/GER_ShotGun_badass_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 5
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.hasDynamicShadow 1
+
+
+GeometryTemplate.create StandardMesh Shade_GER_ShotGun_m1
+GeometryTemplate.file HandWeapons/Shade_GER_ShotGun_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Shade_GER_ShotGun_badass_m1
+GeometryTemplate.file handweapons/GER_ShotGun_badass_m1
+GeometryTemplate.setLodDistance 0 12
+GeometryTemplate.setLodDistance 1 13
+GeometryTemplate.setLodDistance 2 14
+GeometryTemplate.hasDynamicShadow 1

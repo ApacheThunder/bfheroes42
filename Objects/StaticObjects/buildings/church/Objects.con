@@ -1,0 +1,35 @@
+ObjectTemplate.create Bundle church
+ObjectTemplate.geometry church_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ObjectTemplate.aiTemplate buildingAI
+rem -------------------------------------
+ObjectTemplate.addTemplate church_ladder_e_01
+ObjectTemplate.setPosition 5.79432/-0.55874/-8.79333
+ObjectTemplate.addTemplate church_ladder_e_01
+ObjectTemplate.setPosition 5.8421/6.23151/-4.13802
+ObjectTemplate.addTemplate DeathBox_Church
+
+ObjectTemplate.create SimpleObject church_ladder_e_01
+ObjectTemplate.geometry church_ladder_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------------
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create Obstacle DeathBox_Church
+ObjectTemplate.geometry DeathBox_Church_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.damage 300
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+rem *** Snow Add-On for Winter maps ***
+ObjectTemplate.create SimpleObject snow_church
+ObjectTemplate.geometry snow_church_m1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

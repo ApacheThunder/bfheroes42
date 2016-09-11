@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh eyes_01_m1
+GeometryTemplate.file eyes_01_m1
+rem GeometryTemplate.textureFadeMaxDist 5
+GeometryTemplate.alphaLodDistance 1024
+

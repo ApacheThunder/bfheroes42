@@ -1,0 +1,58 @@
+############
+### SAND ###
+############
+
+#include SoldierMotions/Run_Dirt.ssc
+
+#############
+### METAL ###
+#############
+
+#include SoldierMotions/Run_Metal.ssc
+
+############
+### WOOD ###
+############
+
+#include SoldierMotions/Run_Tarmac.ssc
+
+################
+### CONCRETE ###
+################
+
+#include SoldierMotions/Run_Tarmac.ssc
+
+#############
+### GRASS ###
+#############
+
+#include SoldierMotions/Run_Dirt.ssc
+
+##############
+### Gravel ###
+##############
+#include SoldierMotions/Run_Tarmac.ssc
+
+##############
+### Frozen ###
+##############
+
+#include SoldierMotions/Run_Ice.ssc
+
+############
+### SAND ###
+############
+
+#include SoldierMotions/Run_Dirt.ssc
+
+##############
+### FABRIC ###
+##############
+
+#include SoldierMotions/Run_Tarmac.ssc
+
+###############
+### HARNESS ###
+###############
+
+#include SoldierMotions/Run_Tarmac.ssc

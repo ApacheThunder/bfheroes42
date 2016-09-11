@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_TireBlowout
+ObjectTemplate.loadSoundScript Sounds/TireBlowout.ssc
+rem --------------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/6/0/0

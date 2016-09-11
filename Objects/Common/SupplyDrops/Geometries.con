@@ -1,0 +1,31 @@
+GeometryTemplate.create TreeMesh LocationArrow_Blue_m1
+GeometryTemplate.file Billboard_m1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 0
+GeometryTemplate.billboardResolution 64/64/1
+GeometryTemplate.scale 0.5
+
+GeometryTemplate.create TreeMesh LocationArrow_Red_m1
+GeometryTemplate.file Billboard_m1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 0
+GeometryTemplate.billboardResolution 64/64/1
+GeometryTemplate.scale 0.5
+
+GeometryTemplate.create StandardMesh SupplyCrateAllied_M1
+GeometryTemplate.file SupplyDrops/SupplycrateAllied_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh SupplyCrateAxis_M1
+GeometryTemplate.file SupplyDrops/SupplycrateAxis_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh SupplyCrateSpring_m1
+GeometryTemplate.file Vehicles\bri_helicopter_sikorsky_fwheel_m1
+
+GeometryTemplate.create StandardMesh supplycratebase_m1
+GeometryTemplate.file SupplyDrops/supplycratebase_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ve_nullwheel_m1
+GeometryTemplate.file SupplyDrops/ve_nullwheel_m1

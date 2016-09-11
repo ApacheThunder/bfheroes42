@@ -1,0 +1,10 @@
+NetworkableInfo.createNewInfo NetSoldierInfo
+NetworkableInfo.setIsControlledBy 0
+NetworkableInfo.setHasOrientation 1
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo MineTriggerInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo DummyEngineInfo
+NetworkableInfo.setPredictionMode PMLinear

@@ -1,0 +1,37 @@
+rem
+rem *** Amdstat_WaterRipples ***
+rem ***(typo is EA's fault) ***
+
+ObjectTemplate.create Bundle amdstat_waterripples
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_sAmb_WaterRipples
+
+
+ObjectTemplate.create EffectBundle e_sAmb_WaterRipples
+ObjectTemplate.saveInSeparateFile 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate em_sAmb_WaterRipples
+ObjectTemplate.setPosition 0/0.025/0
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter em_sAmb_WaterRipples
+ObjectTemplate.template Fx_sAmb_WaterRipples
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+
+ObjectTemplate.create Particle Fx_sAmb_WaterRipples
+ObjectTemplate.geometry WaterRipples2_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/0.75|50/1|100/1.3
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0

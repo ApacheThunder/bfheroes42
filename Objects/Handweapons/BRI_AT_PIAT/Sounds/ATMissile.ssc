@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Weapon_GB_ANV_Piat_Loop.wav
+loop
+minDistance 16
+priority 9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 50
+	param 1
+	param -1
+endEffect

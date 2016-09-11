@@ -1,0 +1,115 @@
+rem Rain FX by BunnySnot
+rem Snow FX by Apache Thunder
+rem Speed edited by USAF 777
+rem -------------------------------------
+rem Effect: e_SnowHeavy
+rem -------------------------------------
+ObjectTemplate.create EffectBundle e_SnowHeavy
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_SnowHeavy
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+
+rem -------------------------------------
+rem Em_SnowHeavy
+rem -------------------------------------
+ObjectTemplate.create Emitter Em_SnowHeavy
+ObjectTemplate.template Fx_SnowHeavy
+ObjectTemplate.lodDistance 60
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/20/0/0
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/-30/-45/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/-20/20/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/-20/20/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2.5/8/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-5/5/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/180/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.cullRadiusScale 1
+
+
+ObjectTemplate.create SpriteParticle Fx_SnowHeavy
+ObjectTemplate.texture e_Snow
+ObjectTemplate.mipMaps 0
+objectTemplate.drag CRD_NONE/0.1/0/0
+ObjectTemplate.timeToLive CRD_UNIFORM/5/8/0
+ObjectTemplate.size CRD_UNIFORM/0.08/0.15/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/0.1/0.2/0
+ObjectTemplate.destBlendMode BMOne
+objectTemplate.hasStaticColor 1
+
+rem *** Bundles ***
+
+rem *** SnowHeavy FX by Apache Thunder. Original Rain FX code by BunnySnot ***
+ObjectTemplate.create Bundle SnowHeavyBundle
+rem -------------------------------------
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition -50/0/50
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition -50/0/25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition -50/0/0
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition -50/0/-25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition -50/0/-50
+ObjectTemplate.setRotation 0/75/0
+rem -------------------------------------
+
+
+rem -------------------------------------
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 0/0/50
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 0/0/25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 0/0/-25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 0/0/-50
+ObjectTemplate.setRotation 0/75/0
+rem -------------------------------------
+
+
+rem -------------------------------------
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 50/0/50
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition -50/0/25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 50/0/0
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 50/0/-25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_SnowHeavy
+ObjectTemplate.setPosition 50/0/-50
+ObjectTemplate.setRotation 0/75/0
+rem -------------------------------------

@@ -1,0 +1,18 @@
+GeometryTemplate.create StandardMesh shortGrass_Green_m1
+GeometryTemplate.file Undergrowth/shortGrass_Green_m1
+
+GeometryTemplate.create StandardMesh shortGrass_Green_Flowers_m1
+GeometryTemplate.file Undergrowth/shortGrass_Green_Flowers_m1
+
+GeometryTemplate.create StandardMesh mediumGrass_Green_m1
+GeometryTemplate.file Undergrowth/mediumGrass_Green_m1
+
+
+GeometryTemplate.create AnimatedMesh shortGrass_Green_animated_m1
+GeometryTemplate.file Undergrowth/shortGrass_Green_animated_m1
+GeometryTemplate.setSkin Animations/Grass/ShortGrass.skn
+
+GeometryTemplate.create AnimatedMesh mediumGrass_Green_animated_m1
+GeometryTemplate.file Undergrowth/mediumGrass_Green_animated_m1
+GeometryTemplate.setSkin Animations/Grass/MediumGrass.skn
+

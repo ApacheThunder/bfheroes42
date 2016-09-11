@@ -1,0 +1,87 @@
+
+
+rem *** e_wheelgravel ***
+ObjectTemplate.create EffectBundle e_wheelgravel
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addWorkOnMaterial 8
+ObjectTemplate.addTemplate Em_wheelgravel
+ObjectTemplate.addTemplate Em_wheelgravel_smoke
+
+
+rem *** Em_wheelgravel ***
+ObjectTemplate.create Emitter Em_wheelgravel
+ObjectTemplate.inertiaModifier 1.4013e-045/1.4013e-045/1.4013e-045
+ObjectTemplate.template Fx_wheelgravel
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/40/60/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInDof CRD_UNIFORM/0.05/0/1
+ObjectTemplate.relativePositionInUp CRD_NONE/-0.2/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.2/0/1
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/0.1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/1.7/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1.4/0.3/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_wheelgravel ***
+ObjectTemplate.create SpriteParticle Fx_wheelgravel
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.1/0.2/0
+ObjectTemplate.gravityModifier CRD_UNIFORM/1/0.7/0
+ObjectTemplate.sizeOverTime 0/0.160024|25/0.389996|47/0.5|71/0.370006|100/0.110004
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_gravel_mb_01
+ObjectTemplate.initRotation CRD_NONE/1/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|6/244/244/243/247|75/129/125/113/165|82/118/114/100/118|100/106/102/89/0
+ObjectTemplate.alphaTestRefOverTime 0/1
+
+
+rem *** Em_wheelgravel_smoke ***
+ObjectTemplate.create Emitter Em_wheelgravel_smoke
+ObjectTemplate.inertiaModifier 1.4013e-045/1.4013e-045/1.4013e-045
+ObjectTemplate.template Fx_wheelgravel_smoke
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 75
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/30/40/0
+ObjectTemplate.intensityOverTime 0/1
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/0.1/0/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.3/2/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0.5/0/1
+ObjectTemplate.startRotation CRD_UNIFORM/1/360/1
+
+
+rem *** Fx_wheelgravel_smoke ***
+ObjectTemplate.create SpriteParticle Fx_wheelgravel_smoke
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1/0
+ObjectTemplate.size CRD_UNIFORM/0.5/3/0
+ObjectTemplate.gravityModifier CRD_NONE/0.35/0/0
+ObjectTemplate.drag CRD_UNIFORM/4/8/0
+ObjectTemplate.sizeOverTime 0/0.209998|100/0.709998
+ObjectTemplate.gravityModifierOverTime 0/1
+ObjectTemplate.dragOverTime 0/1
+ObjectTemplate.texture PoE/e_muzs3_I
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/20/50/1
+ObjectTemplate.XYSizeRatioOverTime 0/1
+ObjectTemplate.rotationSpeedOverTime 0/1
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/3|20/179/179/179/126|100/128/128/128/0
+ObjectTemplate.alphaTestRefOverTime 0/1

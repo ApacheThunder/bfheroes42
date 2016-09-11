@@ -1,0 +1,41 @@
+renderer.beginGlobalCluster Greenwood
+
+GeometryTemplate.create StandardMesh Greenwood_m1
+GeometryTemplate.file Vehicles/Greenwood_m1
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Greenwood_Tire_Left_m1
+GeometryTemplate.file Vehicles/Greenwood_Tire_Left_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh Greenwood_Tire_Right_m1
+GeometryTemplate.file Vehicles/Greenwood_Tire_Right_m1
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh Greenwood_m2
+GeometryTemplate.file Vehicles/Greenwood_m2
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Greenwood_wreck_m1
+GeometryTemplate.file Vehicles/Greenwood_wreck_m1
+GeometryTemplate.alphaLodDistance 1024
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Greenwood_Steeringwheel_m1
+GeometryTemplate.file Vehicles/Greenwood_Steeringwheel_m1
+GeometryTemplate.cullFactor 0
+
+rem *** Armor Effects ***
+
+GeometryTemplate.create StandardMesh Greenwood_Tire_Wreck_m1
+GeometryTemplate.file Vehicles/Greenwood_Tire_Wreck_m1
+
+GeometryTemplate.create StandardMesh Greenwood_Hood_Wreck_m1
+GeometryTemplate.file Vehicles/Greenwood_Hood_Wreck_m1
+
+GeometryTemplate.create StandardMesh Greenwood_Door_Wreck_m1
+GeometryTemplate.file Vehicles/Greenwood_Door_Wreck_m1
+GeometryTemplate.alphaLodDistance 512

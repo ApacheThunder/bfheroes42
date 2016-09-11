@@ -1,0 +1,18 @@
+newPatch
+load @ROOT/Sound/@RTD/west_sfx_weapon_gb_gre_grenade_default_fuse_loop.wav
+minDistance 10
+volume 1
+loop
+dopplerOff
+priority 6
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 25
+	param 1
+	param -1	
+endEffect

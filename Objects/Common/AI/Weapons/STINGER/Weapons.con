@@ -1,0 +1,17 @@
+weaponTemplate.create STINGER
+weaponTemplate.burst 0
+weaponTemplate.indirect 0
+weaponTemplate.minRange 4.0
+weaponTemplate.maxRange 256.0
+weaponTemplate.drag 0.5
+weaponTemplate.exitVelocity 100
+weaponTemplate.weaponActivate PIMenuSelect5
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry    0
+weaponTemplate.setStrength LightArmour 0
+weaponTemplate.setStrength HeavyArmour 0
+weaponTemplate.setStrength NavalArmour 0
+weaponTemplate.setStrength Submarine   0
+weaponTemplate.setStrength Air         10.0
+weaponTemplate.setSoundSphereRadius 180.0
+weaponTemplate.precision 30.0

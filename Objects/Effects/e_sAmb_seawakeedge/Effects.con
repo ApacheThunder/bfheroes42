@@ -1,0 +1,96 @@
+rem
+rem *** ambstat_seawakeedge ***
+rem
+
+ObjectTemplate.create Bundle ambstat_seawakeedge
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_sAmb_seawakeedge
+
+ObjectTemplate.create EffectBundle e_sAmb_seawakeedge
+ObjectTemplate.saveInSeparateFile 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate em_sAmb_seawakeedge
+ObjectTemplate.setPosition 0/0.025/0
+ObjectTemplate.setRandomGeometries 4
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+ObjectTemplate.create Emitter em_sAmb_seawakeedge1
+ObjectTemplate.template Fx_sAmb_seawakeedge1
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/0/-0.25/0
+
+ObjectTemplate.create Emitter em_sAmb_seawakeedge2
+ObjectTemplate.template Fx_sAmb_seawakeedge2
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/0/-0.25/0
+
+ObjectTemplate.create Emitter em_sAmb_seawakeedge3
+ObjectTemplate.template Fx_sAmb_seawakeedge3
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/0/-0.25/0
+
+ObjectTemplate.create Emitter em_sAmb_seawakeedge4
+ObjectTemplate.template Fx_sAmb_seawakeedge4
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/0/-0.25/0
+
+ObjectTemplate.create Particle Fx_sAmb_seawakeedge1
+ObjectTemplate.geometry WaterFoam01_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/2/2.4/0
+ObjectTemplate.sizeOverTime 0/1|50/1.25|100/1.4
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1.5/1.5/1.5
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+
+ObjectTemplate.create Particle Fx_sAmb_seawakeedge2
+ObjectTemplate.geometry WaterFoam02_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/2/2.4/0
+ObjectTemplate.sizeOverTime 0/1|50/1.25|100/1.4
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1.5/1.5/1.5
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+
+ObjectTemplate.create Particle Fx_sAmb_seawakeedge3
+ObjectTemplate.geometry WaterFoam03_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/2/2.4/0
+ObjectTemplate.sizeOverTime 0/1|50/1.25|100/1.4
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1.5/1.5/1.5
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+
+ObjectTemplate.create Particle Fx_sAmb_seawakeedge4
+ObjectTemplate.geometry WaterFoam04_m1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/2/2.4/0
+ObjectTemplate.sizeOverTime 0/1|50/1.25|100/1.4
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1.5/1.5/1.5
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0

@@ -1,0 +1,72 @@
+ObjectTemplate.create Bundle shortGrass_Green_m1
+ObjectTemplate.cullRadiusScale 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate ShortGrass
+ObjectTemplate.setRandomGeometries 5
+
+ObjectTemplate.create Bundle mediumGrass_Green_m1
+ObjectTemplate.cullRadiusScale 1
+rem ---------------------------------------------
+ObjectTemplate.addTemplate lodMediumGrass
+
+
+ObjectTemplate.create SimpleObject shortGrass1
+ObjectTemplate.geometry shortGrass_Green_Flowers_m1
+ObjectTemplate.cullRadiusScale 1
+
+ObjectTemplate.create lodObject shortGrass2
+rem ------------------------------------------------
+ObjectTemplate.addTemplate shortGrass_Animated
+ObjectTemplate.addTemplate shortGrass_Static
+rem ------------------------------------------------
+ObjectTemplate.lodSelector ShortGrassSelector
+
+ObjectTemplate.create lodObject shortGrass3
+rem ------------------------------------------------
+ObjectTemplate.addTemplate shortGrass_Animated
+ObjectTemplate.addTemplate shortGrass_Static
+rem ------------------------------------------------
+ObjectTemplate.lodSelector ShortGrassSelector
+
+ObjectTemplate.create lodObject shortGrass4
+rem ------------------------------------------------
+ObjectTemplate.addTemplate shortGrass_Animated
+ObjectTemplate.addTemplate shortGrass_Static
+rem ------------------------------------------------
+ObjectTemplate.lodSelector ShortGrassSelector
+
+ObjectTemplate.create lodObject shortGrass5
+rem ------------------------------------------------
+ObjectTemplate.addTemplate shortGrass_Animated
+ObjectTemplate.addTemplate shortGrass_Static
+rem ------------------------------------------------
+ObjectTemplate.lodSelector ShortGrassSelector
+
+ObjectTemplate.create lodObject lodMediumGrass
+rem ------------------------------------------------
+ObjectTemplate.addTemplate mediumGrass_Animated
+ObjectTemplate.addTemplate mediumGrass_Static
+rem ------------------------------------------------
+ObjectTemplate.lodSelector ShortGrassSelector
+
+ObjectTemplate.create SimpleObject shortGrass_Static
+ObjectTemplate.geometry shortGrass_Green_m1
+
+ObjectTemplate.create SimpleObject mediumGrass_Static
+ObjectTemplate.geometry mediumGrass_Green_m1
+
+ObjectTemplate.create AnimatedBundle shortGrass_Animated
+ObjectTemplate.geometry shortGrass_Green_animated_m1
+ObjectTemplate.createSkeleton animations/Grass/TallGrass.ske
+ObjectTemplate.setAnimationState ShortGrassIdle
+
+ObjectTemplate.create AnimatedBundle mediumGrass_Animated
+ObjectTemplate.geometry mediumGrass_Green_animated_m1
+ObjectTemplate.createSkeleton animations/Grass/TallGrass.ske
+ObjectTemplate.setAnimationState ShortGrassIdle
+
+
+
+LodSelectorTemplate.create DistCompareSelector2 ShortGrassSelector
+LodSelectorTemplate.hasDestroyedLod 0
+LodSelectorTemplate.addLodDistance 16

@@ -1,0 +1,64 @@
+ObjectTemplate.create Bundle ambstat_Light_Red
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.addTemplate e_sAmb_Light_Red
+
+ObjectTemplate.create Bundle ambstat_Light_Yellow
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.addTemplate e_sAmb_Light_Yellow
+
+
+ObjectTemplate.create EffectBundle e_sAmb_Light_Red
+ObjectTemplate.saveInSeparateFile 1
+rem ------------------------------------
+ObjectTemplate.addTemplate em_sAmb_Light_Red
+ObjectTemplate.setPosition 0/0.0642767/0
+rem ------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_sAmb_Light_Yellow
+ObjectTemplate.saveInSeparateFile 1
+rem ------------------------------------
+ObjectTemplate.addTemplate em_sAmb_Light_Yellow
+ObjectTemplate.setPosition 0/0.0642767/0
+rem ------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+ObjectTemplate.create Emitter em_sAmb_Light_Red
+ObjectTemplate.template Fx_sAmb_Light_Red_Glow
+ObjectTemplate.lodDistance 64
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.intensity CRD_UNIFORM/1/1.1/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_sAmb_Light_Yellow
+ObjectTemplate.template Fx_sAmb_Light_Yellow_Glow
+ObjectTemplate.lodDistance 64
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.intensity CRD_UNIFORM/1/1.1/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.startAtCreation 1
+
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_Light_Red_Glow
+ObjectTemplate.texture flare_star1
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/0/0/190|100/255/0/0/190
+ObjectTemplate.sizeOverTime 0/1|25/0.3|75/1|100/0.49
+
+ObjectTemplate.create SpriteParticle Fx_sAmb_Light_Yellow_Glow
+ObjectTemplate.texture flare_star1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.size CRD_UNIFORM/0.2/0.3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/151/190|75/191/191/149/175|100/255/255/151/190
+ObjectTemplate.sizeOverTime 0/1|25/0.3|75/1|100/0.49

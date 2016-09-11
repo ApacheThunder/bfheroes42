@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh townhousesmall_e_03_m1
+GeometryTemplate.file townhousesmall_e_03_m1
+
+GeometryTemplate.create StandardMesh DeathBox_HouseSmall3_m1
+GeometryTemplate.file Invisible/DeathBox_SHouse3_m1
+
+GeometryTemplate.create StandardMesh snow_townhousesmall_e_03_m1
+GeometryTemplate.file snow_townhousesmall_e_03_m1

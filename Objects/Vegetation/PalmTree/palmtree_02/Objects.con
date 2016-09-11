@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject palmtree_02
+ObjectTemplate.geometry palmtree_02_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

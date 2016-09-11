@@ -1,0 +1,35 @@
+ObjectTemplate.create SimpleObject highbrickwall_4m
+ObjectTemplate.geometry highbrickwall_4m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject highbrickwall_8m
+ObjectTemplate.geometry highbrickwall_8m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject highbrickwall_8m_arch
+ObjectTemplate.geometry highbrickwall_8m_arch_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject highbrickwall_16m
+ObjectTemplate.geometry highbrickwall_16m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject highbrickwall_endpiece
+ObjectTemplate.geometry highbrickwall_endpiece_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject highbrickwall_inverted_8m
+ObjectTemplate.geometry highbrickwall_inverted_8m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

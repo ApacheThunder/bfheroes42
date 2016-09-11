@@ -1,0 +1,48 @@
+ObjectTemplate.create EffectBundle e_RedFlashingLight
+ObjectTemplate.saveInSeparateFile 1
+rem ----------------------------------
+ObjectTemplate.addTemplate Em_RedFlashingLight_Small
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_BlueFlashingLight
+ObjectTemplate.saveInSeparateFile 1
+rem ----------------------------------
+ObjectTemplate.addTemplate Em_BlueFlashingLight_Small
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+ObjectTemplate.create Emitter em_RedFlashingLight_Small
+ObjectTemplate.template Fx_RedFlashingLight_Small
+ObjectTemplate.lodDistance 50
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_BlueFlashingLight_Small
+ObjectTemplate.template Fx_BlueFlashingLight_Small
+ObjectTemplate.lodDistance 50
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create SpriteParticle Fx_RedFlashingLight_Small
+ObjectTemplate.texture flare_star1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.9/1/0
+ObjectTemplate.size CRD_NONE/0.25/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0|25/1|75/1|100/0
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|25/255/1/1/255|75/255/1/1/255|100/0/0/0/0
+
+ObjectTemplate.create SpriteParticle Fx_BlueFlashingLight_Small
+ObjectTemplate.texture flare_star1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.9/1/0
+ObjectTemplate.size CRD_NONE/0.25/0/0
+ObjectTemplate.sizeOverTime 0/0|25/1|75/1|100/0
+ObjectTemplate.colorRGBAOverTime 0/0/0/0/0|25/1/1/255/255|75/1/1/255/255|100/0/0/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0

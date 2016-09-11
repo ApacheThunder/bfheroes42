@@ -1,0 +1,36 @@
+rem
+rem *** Damage State Land Medium Smoke ***
+rem
+
+ObjectTemplate.create EffectBundle e_dstate_land_MediumSmoke
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_dstate_land_MediumSmoke
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+
+ObjectTemplate.create Emitter Em_dstate_land_MediumSmoke
+ObjectTemplate.template Fx_dstate_land_MediumSmoke
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 128
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1/0
+ObjectTemplate.intensity CRD_NONE/4/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.19/0.42/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-0.1/0.1/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+ObjectTemplate.create SpriteParticle Fx_dstate_land_MediumSmoke
+ObjectTemplate.texture Anim_smoke2
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1/0
+ObjectTemplate.size CRD_UNIFORM/1.8/2/0
+ObjectTemplate.sizeOverTime 0/0|50/0.5|75/0.65|85/0.75|100/1
+ObjectTemplate.drag CRD_NONE/0.2/0/0
+ObjectTemplate.gravityModifierOverTime 0/0|50/-0.2|75/-0.4|100/0
+ObjectTemplate.initRotation CRD_UNIFORM/0/360/0
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/15/0
+ObjectTemplate.colorRGBAOverTime 0/100/100/100/0|50/70/70/70/200|75/70/70/70/155|100/100/100/100/0
+ObjectTemplate.numAnimationFrames 4
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/3/0/0

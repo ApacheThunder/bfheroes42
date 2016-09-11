@@ -1,0 +1,64 @@
+ObjectTemplate.create EffectBundle e_Richo_Laser
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richo_laser.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoMetalBase
+ObjectTemplate.addTemplate Em_richoMetal_Smoke
+ObjectTemplate.addTemplate Em_richoMetal_Glint
+ObjectTemplate.addTemplate Em_richoMetal_Glint1
+ObjectTemplate.addTemplate Em_RichoBase
+ObjectTemplate.setRotation 45/0/0
+ObjectTemplate.addTemplate Em_RichoImpactDecalLaser
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+
+ObjectTemplate.create EffectBundle e_Richo_LaserDecal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/richo_laser.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoMetalBase
+ObjectTemplate.addTemplate Em_richoMetal_Smoke
+ObjectTemplate.addTemplate Em_richoMetal_Glint
+ObjectTemplate.addTemplate Em_richoMetal_Glint1
+ObjectTemplate.addTemplate Em_RichoBase
+ObjectTemplate.setRotation 45/0/0
+ObjectTemplate.addTemplate Em_RichoDecalLaser
+ObjectTemplate.addTemplate Em_RichoImpactDecalLaser
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+
+ObjectTemplate.create Emitter Em_RichoDecalLaser
+ObjectTemplate.template Fx_RichoDecalLaser
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.004/0/0
+
+ObjectTemplate.create Emitter Em_RichoImpactDecalLaser
+ObjectTemplate.template Fx_RichoImpactDecalLaser
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.005/0/0
+
+
+ObjectTemplate.create Particle Fx_RichoDecalLaser
+ObjectTemplate.geometry Decal_Metal_Laser_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/15/1/0
+ObjectTemplate.size CRD_UNIFORM/0.25/0.35/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/1
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/1|70/1|100/0
+
+ObjectTemplate.create Particle Fx_RichoImpactDecalLaser
+ObjectTemplate.geometry Decal_LaserImpact_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.3/0.45/0
+ObjectTemplate.size CRD_UNIFORM/1/1.3/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/1
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.alphaOverTime 0/0.1|25/1|75/1|100/0
+ObjectTemplate.sizeOverTime 0/0.1|25/1|75/1|100/0

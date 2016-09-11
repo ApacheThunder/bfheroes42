@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Smoke.wav
+minDistance 7
+dopplerOff
+loop
+priority 4
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 7
+	param 25
+	param 1
+	param -1	
+endEffect

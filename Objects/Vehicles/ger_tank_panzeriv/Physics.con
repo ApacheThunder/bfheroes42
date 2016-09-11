@@ -1,0 +1,89 @@
+ObjectTemplate.create Engine ger_tank_Engine
+ObjectTemplate.setNetworkableInfo ger_tank_EngineInfo
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript Sounds/PanzerivEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate ger_tank_L_track
+ObjectTemplate.addTemplate ger_tank_R_track
+rem -------------------------------------
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.446/0.5/-1.978
+ObjectTemplate.setRotation 0.14/55.57/0.01
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/0/-1
+ObjectTemplate.setMaxRotation 1/0/1
+ObjectTemplate.setMaxSpeed 4/0/10
+ObjectTemplate.setAcceleration 4/0/10
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETTank
+ObjectTemplate.setTorque 6
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 3
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.45
+ObjectTemplate.setGearChangeTime 0.1
+
+ObjectTemplate.create Spring ger_tank_Wheel
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry ger_tank_Wheel_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_treadgrass_PoE
+ObjectTemplate.addTemplate e_treadwetgrass_PoE
+ObjectTemplate.addTemplate e_treadDryDirt_PoE
+ObjectTemplate.addTemplate e_treadwetdirt_PoE
+ObjectTemplate.addTemplate e_treadmud_PoE
+ObjectTemplate.addTemplate e_treadStone_PoE
+ObjectTemplate.addTemplate e_treadsand_PoE
+ObjectTemplate.addTemplate e_treadwetsand_PoE
+rem ---------------------------------------
+ObjectTemplate.setStrength 18
+ObjectTemplate.setDamping 4
+
+ObjectTemplate.create Spring ger_tank_Wheel_D
+ObjectTemplate.geometry ger_tank_Wheel_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 0
+ObjectTemplate.setDamping 0
+
+ObjectTemplate.create Spring ger_tank_L_Frontwhl_m1
+ObjectTemplate.geometry ger_tank_L_Frontwhl_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 1
+
+ObjectTemplate.create Spring ger_tank_R_Frontwhl_m1
+ObjectTemplate.geometry ger_tank_R_Frontwhl_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 1
+
+
+ObjectTemplate.create Spring ger_tank_BackWheel
+ObjectTemplate.geometry ger_tank_BackWhl_m1
+ObjectTemplate.cullRadiusScale 5 
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineDummyGrip
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 1

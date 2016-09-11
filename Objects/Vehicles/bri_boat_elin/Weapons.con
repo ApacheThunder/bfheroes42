@@ -1,0 +1,19 @@
+ObjectTemplate.create FireArms boatcannon_FireArm
+ObjectTemplate.setNetworkableInfo BoatFireArmInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.loadSoundScript ../Common/BoatCannon.ssc
+ObjectTemplate.projectileTemplate BoatCannonProjectile
+ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.minDiv 0
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 0.3
+ObjectTemplate.velocity 50
+ObjectTemplate.aiTemplate BoatWeapon
+rem ---------------------------------
+ObjectTemplate.addTemplate e_MuzzPanz
+ObjectTemplate.setPosition 0/0.155/0.749
+ObjectTemplate.setRotation -180/0/0

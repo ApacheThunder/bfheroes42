@@ -1,0 +1,170 @@
+ObjectTemplate.create EffectBundle e_scrap_willy
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_willy_wheel
+ObjectTemplate.setPosition 0/0.4375/0
+ObjectTemplate.addTemplate em_scrap_willy_leftdoor
+ObjectTemplate.setPosition -0.352/0.401/-0.353
+ObjectTemplate.addTemplate em_scrap_willy_gaspipe
+ObjectTemplate.setPosition 0/0.016/-0.96
+ObjectTemplate.addTemplate em_scrap_willy_gastank
+ObjectTemplate.setPosition -0.377/0.553/-1.613
+ObjectTemplate.addTemplate em_scrap_willy_underside
+ObjectTemplate.setPosition 0/0.006/0.427
+ObjectTemplate.addTemplate em_scrap_willy_engcap
+ObjectTemplate.setPosition -0.005/0.592/0.739
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+rem *** Effect with less speed/pieces for water explosions **
+
+ObjectTemplate.create EffectBundle e_scrap_willy_water
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_willy_wheel_water
+ObjectTemplate.setPosition 0/0.4375/0
+ObjectTemplate.addTemplate em_scrap_willy_leftdoor_water
+ObjectTemplate.setPosition -0.352/0.401/-0.353
+ObjectTemplate.addTemplate em_scrap_willy_gaspipe_water
+ObjectTemplate.setPosition 0/0.016/-0.96
+ObjectTemplate.addTemplate em_scrap_willy_gastank_water
+ObjectTemplate.setPosition -0.377/0.553/-1.613
+rem -------------------------------------
+
+
+ObjectTemplate.create Emitter em_scrap_willy
+ObjectTemplate.template wreck_bri_jeep_willy
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_wheel
+ObjectTemplate.template wreck_bri_jeep_willy_wheel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/10/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/3/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3/5/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/50/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/30/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_leftdoor
+ObjectTemplate.template wreck_bri_jeep_willy_leftdoor
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/15/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/1/20/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/2/10/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_gaspipe
+ObjectTemplate.template wreck_bri_jeep_willy_gaspipe
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-20/-30/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/2/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/6/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_gastank
+ObjectTemplate.template wreck_bri_jeep_willy_gastank
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-5/-20/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/4/16/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/3/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/1/3/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_underside
+ObjectTemplate.template wreck_bri_jeep_willy_underside
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/16/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/3/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/6/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_engcap
+ObjectTemplate.template wreck_bri_jeep_willy_engcap
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/20/15/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/5/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/5/2/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/3/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+
+rem *** Emitters with less speed for water explosions **
+
+ObjectTemplate.create Emitter em_scrap_willy_wheel_water
+ObjectTemplate.template wreck_bri_jeep_willy_wheel
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/1/5/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/3/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3/4/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_leftdoor_water
+ObjectTemplate.template wreck_bri_jeep_willy_leftdoor
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/5/2/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/20/1/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_gaspipe_water
+ObjectTemplate.template wreck_bri_jeep_willy_gaspipe
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-3/-5/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_scrap_willy_gastank_water
+ObjectTemplate.template wreck_bri_jeep_willy_gastank
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 450
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-3.5/-10/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/2/8/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0

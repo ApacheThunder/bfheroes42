@@ -1,0 +1,177 @@
+ObjectTemplate.create PlayerControlObject COM_AA
+ObjectTemplate.setNetworkableInfo COM_AA_Info
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.explosionForce 6
+ObjectTemplate.explosionForceMod 16
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 250
+ObjectTemplate.maxhitpoints 250
+ObjectTemplate.material 45
+ObjectTemplate.criticalDamage 20
+ObjectTemplate.hpLostWhileCriticalDamage 18
+ObjectTemplate.addArmorEffect 60 e_dstate_land_mediumSmoke 0/0.25/0
+ObjectTemplate.addArmorEffect 0 e_dstate_static_fire 0/0.1/0
+ObjectTemplate.addArmorEffect 0 e_exp_medium 0/0.05/0
+ObjectTemplate.addArmorEffect 0 e_scrap_AA 0/0/0
+ObjectTemplate.aiTemplate COM_AA
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+rem -------------------------------------
+ObjectTemplate.addTemplate lodCOM_AA
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0.09/0.92/-1.85 0/0/0
+ObjectTemplate.altSoldierExitPosition 0/2/0
+ObjectTemplate.GUIIndex 26
+ObjectTemplate.setVehicleIcon "Empty.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_GenericAmmoVehicle.tga"
+ObjectTemplate.setPrimaryAmmoBar ABIconOnly
+ObjectTemplate.crossHairIcon "Crosshair/aaGun.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTAAGun
+ObjectTemplate.setToolTipType TTAAGun
+ObjectTemplate.setMinimapIcon "Empty.tga"
+ObjectTemplate.hasRestrictedExit 1
+
+rem *** lodWilly ***
+ObjectTemplate.create LodObject lodCOM_AA
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate COM_AAComplex
+ObjectTemplate.addTemplate COM_AASimple
+ObjectTemplate.addTemplate NULL_OBJECT
+rem -------------------------------------
+ObjectTemplate.lodSelector AALodSelector
+
+
+ObjectTemplate.create Bundle COM_AAComplex
+ObjectTemplate.geometry com_aa_base_m1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem --------------------------------------
+ObjectTemplate.addTemplate COM_AA_Turret
+ObjectTemplate.setPosition 0.0099/0.0454/0.0401
+ObjectTemplate.addTemplate COM_AA_Entry
+
+
+ObjectTemplate.create RotationalBundle COM_AA_Turret
+ObjectTemplate.setNetworkableInfo COM_AA_TurretInfo
+ObjectTemplate.geometry com_aa_turret_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.loadSoundScript ../Common/TankTurret.ssc
+rem ------------------------------------------
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 450/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+rem ------------------------------------------
+ObjectTemplate.addTemplate COM_AA_Handle_Right
+ObjectTemplate.setPosition 0.46/0.819/0.281
+ObjectTemplate.addtemplate COM_AA_Handle_Left
+ObjectTemplate.setPosition 0.09/0.474/-0.141
+ObjectTemplate.addTemplate COM_AA_Cannon
+ObjectTemplate.setPosition 0/0.965/0.308
+ObjectTemplate.addTemplate COM_AA_Seat
+ObjectTemplate.setPosition 0.637/0.62/-0.175
+ObjectTemplate.setRotation -8/0/10
+
+ObjectTemplate.create RotationalBundle COM_AA_Cannon
+ObjectTemplate.setNetworkableInfo COM_AA_GunInfo
+ObjectTemplate.geometry com_aa_gunBase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setAttachToListener 1
+rem ------------------------------------------
+ObjectTemplate.setMinRotation 0/-90/0
+ObjectTemplate.setMaxRotation 0/2/0
+ObjectTemplate.setMaxSpeed 0/40/0
+ObjectTemplate.setAcceleration 0/450/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+rem ------------------------------------------
+ObjectTemplate.addTemplate COM_AA_Barrel
+ObjectTemplate.setPosition 0/-0.0159/1.1137
+ObjectTemplate.addTemplate COM_AA_Camera
+rem ObjectTemplate.setPosition 0/2.25/-2
+ObjectTemplate.setPosition 0/0.6/0.1
+
+ObjectTemplate.create RotationalBundle COM_AA_Handle_right
+ObjectTemplate.geometry com_aa_R_handle_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem ------------------------------------------
+ObjectTemplate.addTemplate COM_AA_R_Crank
+ObjectTemplate.setPosition 0.076/0/0.108
+rem ------------------------------------------
+ObjectTemplate.setMinRotation 0/-180/0
+ObjectTemplate.setMaxRotation 0/180/0
+ObjectTemplate.setMaxSpeed 0/200/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+ObjectTemplate.create RotationalBundle COM_AA_Handle_left
+ObjectTemplate.geometry com_aa_L_handle_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem ------------------------------------------
+ObjectTemplate.addTemplate COM_AA_L_Crank
+ObjectTemplate.setPosition 0/0.066/0.108
+rem ------------------------------------------
+ObjectTemplate.setMaxSpeed 500/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+ObjectTemplate.create RotationalBundle COM_AA_Handle_right_Reverse
+ObjectTemplate.hasResponsePhysics 1
+rem ------------------------------------------
+ObjectTemplate.setMinRotation 0/-180/0
+ObjectTemplate.setMaxRotation 0/180/0
+ObjectTemplate.setMaxSpeed 0/200/0
+ObjectTemplate.setAcceleration 0/-1000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+ObjectTemplate.create RotationalBundle COM_AA_Handle_left_Reverse
+ObjectTemplate.hasResponsePhysics 1
+rem ------------------------------------------
+ObjectTemplate.setMaxSpeed 500/0/0
+ObjectTemplate.setAcceleration -1000/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+
+
+ObjectTemplate.create AnimatedBundle COM_AA_R_Crank
+ObjectTemplate.addTemplate COM_AA_Handle_Right_Reverse
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0/0.01/-0.09 -90/180/-15
+
+ObjectTemplate.create AnimatedBundle COM_AA_L_Crank
+ObjectTemplate.addTemplate COM_AA_Handle_left_Reverse
+ObjectTemplate.addSkeletonIK Bip01_L_Hand 0.02/0/-0.1 -180/-60/50
+
+ObjectTemplate.create EntryPoint COM_AA_Entry
+ObjectTemplate.setEntryRadius 2.2
+
+ObjectTemplate.create Camera COM_AA_Camera
+rem --------------------------------------
+rem ObjectTemplate.addTemplate HUD_AA
+rem ObjectTemplate.setPosition 0/0/0.3
+rem ObjectTemplate.setHasTarget 0
+
+ObjectTemplate.create SeatObject COM_AA_Seat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
+ObjectTemplate.seatAnimationLowerBody Lb_PassengerInWilly
+
+
+ObjectTemplate.create SimpleObject COM_AASimple
+ObjectTemplate.geometry com_aa_m2

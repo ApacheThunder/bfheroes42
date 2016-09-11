@@ -1,0 +1,55 @@
+ObjectTemplate.create EntryPoint SoldierEntry
+ObjectTemplate.setEntryRadius 3
+
+ObjectTemplate.create Camera SoldierCamera
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setHasTarget 0
+ObjectTemplate.CVMInside 1
+ObjectTemplate.CVMChase 1
+ObjectTemplate.CVMFrontChase 1
+ObjectTemplate.CVMFlyBy 1
+ObjectTemplate.CVMExternTrace 1
+ObjectTemplate.CVMTrace 0
+
+
+ObjectTemplate.create ObjectSpawner SoldierMineTrigger
+ObjectTemplate.setObjectTemplate 0 SoldierMineTriggerPCO
+ObjectTemplate.minSpawnDelay 3
+ObjectTemplate.maxSpawnDelay 3
+ObjectTemplate.timeToLive 5
+ObjectTemplate.distance 10
+ObjectTemplate.setTeam 0
+ObjectTemplate.damageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.resetWhenRemoved 1
+ObjectTemplate.holdObject 1
+
+
+ObjectTemplate.create PlayerControlObject SoldierMineTriggerPCO
+ObjectTemplate.setNetworkableInfo MineTriggerInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.drag 0
+ObjectTemplate.mass 30
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 2
+ObjectTemplate.maxhitpoints 2
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hpLostWhileDamageFromWater 1
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.material 1035
+ObjectTemplate.timeToLiveAfterDeath 0.1
+ObjectTemplate.setMinimapIcon "Empty.dds"
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.addToCollisionGroup c_CGLandScape
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem -------------------------------------
+ObjectTemplate.addTemplate DummyEngine

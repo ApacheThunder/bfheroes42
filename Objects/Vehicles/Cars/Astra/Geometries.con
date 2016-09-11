@@ -1,0 +1,22 @@
+rem
+rem *** gAstraBody ***
+rem
+GeometryTemplate.create StandardMesh gAstraBody
+GeometryTemplate.file Cars/Astra/Body
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh gAstraBodyAlt
+GeometryTemplate.file Cars/Astra/BodyAlt
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh gAstraBodyWreck
+GeometryTemplate.file Cars/Astra/Body[D]
+
+GeometryTemplate.create StandardMesh gAstraBodyWreckAlt
+GeometryTemplate.file Cars/Astra/BodyAlt[D]
+
+rem
+rem *** gAstraInterior ***
+rem
+GeometryTemplate.create StandardMesh gAstraInterior
+GeometryTemplate.file Cars/Astra/Interior

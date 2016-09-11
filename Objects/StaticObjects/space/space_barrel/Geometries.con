@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh space_barrel_blue_m1
+GeometryTemplate.file space_barrel_blue_m1
+
+GeometryTemplate.create StandardMesh space_barrel_red_m1
+GeometryTemplate.file space_barrel_red_m1
+
+GeometryTemplate.create StandardMesh space_barrel_white_m1
+GeometryTemplate.file space_barrel_white_m1
+
+GeometryTemplate.create StandardMesh space_barrel_yellow_m1
+GeometryTemplate.file space_barrel_yellow_m1

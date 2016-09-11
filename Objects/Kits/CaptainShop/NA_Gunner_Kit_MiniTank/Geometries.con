@@ -1,0 +1,4 @@
+GeometryTemplate.create TreeMesh Ger_PirateKeg_Kit_m1
+GeometryTemplate.file Kits/VisibleKit_m1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 0

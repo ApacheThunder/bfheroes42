@@ -1,0 +1,242 @@
+newPatch
+load @ROOT/Sound/@RTD/Laser1.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect 
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+trigger Volume
+
+
+load @ROOT/Sound/@RTD/Laser2.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect
+trigger Volume
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/Laser3.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect
+trigger Volume
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/Laser4.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect
+trigger Volume
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/Laser5.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect
+trigger Volume
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/Laser6.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect
+trigger Volume
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/Laser7.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect
+trigger Volume
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+load @ROOT/Sound/@RTD/Laser8.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+priority -1
+dopplerOff
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1
+endEffect
+trigger Volume
+
+*** Time Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.075
+	param 0.075
+	param 0
+	param 1	
+endEffect
+
+randomPlay 1
+

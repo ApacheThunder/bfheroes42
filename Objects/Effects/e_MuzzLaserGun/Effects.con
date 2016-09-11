@@ -1,0 +1,124 @@
+ObjectTemplate.create EffectBundle e_MuzzLaserGun
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_MuzzLaserGun_Lazor
+ObjectTemplate.addTemplate em_1P_MuzzLaserGun_Lazor
+ObjectTemplate.setRotation 3.3/2/0
+ObjectTemplate.addTemplate em_MuzzLaserGun
+ObjectTemplate.addTemplate em_MuzzLaserGun_glow
+ObjectTemplate.addTemplate em_1P_MuzzLaserGun_glow
+ObjectTemplate.setPosition 0.1/-0.1/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_MuzzLaserGunDeLorean
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_MuzzLaserGun_Lazor
+ObjectTemplate.addTemplate em_MuzzLaserGun
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_MuzzLaserGunDeLoreanHeavy
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_MuzzLaserHeavy
+ObjectTemplate.addTemplate em_MuzzLaserGun_Lazor
+ObjectTemplate.addTemplate em_MuzzLaserGun
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter em_MuzzLaserHeavy
+ObjectTemplate.template fx_MuzzLaserHeavy
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+
+ObjectTemplate.create Particle fx_MuzzLaserHeavy
+ObjectTemplate.geometry muzzLaserGun_m1
+ObjectTemplate.timeToLive CRD_NONE/0.07/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.12009|100/9.40001
+
+
+ObjectTemplate.create EffectBundle e_MuzzLaserGunDeLoreanHeavy
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_MuzzLaserGun_Lazor
+ObjectTemplate.addTemplate em_MuzzLaserGun
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+ObjectTemplate.create Emitter em_MuzzLaserGun
+ObjectTemplate.template fx_MuzzLaserGun2
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.showInThirdPerson 1
+
+ObjectTemplate.create Emitter em_MuzzLaserGun_glow
+ObjectTemplate.template fx_MuzzLaserGun_glow
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.showInThirdPerson 1
+
+ObjectTemplate.create Emitter em_MuzzLaserGun_Lazor
+ObjectTemplate.template fx_MuzzLaserGun_Lazor
+ObjectTemplate.lodDistance 368
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.showInThirdPerson 1
+
+ObjectTemplate.create Emitter em_1p_MuzzLaserGun_Lazor
+ObjectTemplate.template fx_1p_MuzzLaserGun_Lazor
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.showInFirstPerson 1
+
+ObjectTemplate.create Emitter em_1P_MuzzLaserGun_glow
+ObjectTemplate.template fx_MuzzLaserGun_glow
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.showInFirstPerson 1
+
+ObjectTemplate.create Particle fx_MuzzLaserGun_Lazor
+ObjectTemplate.geometry LaserBeamParticle_m1
+ObjectTemplate.timeToLive CRD_NONE/0.07/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+
+ObjectTemplate.create Particle fx_1p_MuzzLaserGun_Lazor
+ObjectTemplate.geometry 1p_LaserBeamParticle_m1
+ObjectTemplate.timeToLive CRD_NONE/0.07/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+
+
+ObjectTemplate.create Particle fx_MuzzLaserGun2
+ObjectTemplate.geometry LaserBeamParticle_m1
+ObjectTemplate.timeToLive CRD_NONE/0.07/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+
+
+ObjectTemplate.create SpriteParticle fx_MuzzLaserGun_glow
+ObjectTemplate.texture e_fire4
+ObjectTemplate.timeToLive CRD_NONE/0.07/0.07/0
+ObjectTemplate.size CRD_NONE/0.12/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/168/195/244/255|77/157/184/255/172|100/138/165/255/65

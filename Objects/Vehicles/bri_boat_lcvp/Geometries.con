@@ -1,0 +1,37 @@
+renderer.beginGlobalCluster bri_boat_lcvp
+
+GeometryTemplate.create StandardMesh bri_boat_lcvp_m1
+GeometryTemplate.file Vehicles/bri_boat_lcvp_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_boat_lcvp_Steeringwheel_m1
+GeometryTemplate.file Vehicles/bri_boat_lcvp_Steeringwheel_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_boat_lcvp_Door_m1
+GeometryTemplate.file Vehicles/bri_boat_lcvp_Door_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_boat_lcvp_Propeller_m1
+GeometryTemplate.file Vehicles/bri_boat_lcvp_Propeller_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_boat_lcvp_Rudder_m1
+GeometryTemplate.file Vehicles/bri_boat_lcvp_Rudder_m1
+GeometryTemplate.setLodRange 0 0 1 50 2 100
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh bri_boat_lcvp_wreck_m1
+GeometryTemplate.file Vehicles/bri_boat_lcvp_wreck_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_boat_lcvp_m2
+GeometryTemplate.file Vehicles/bri_boat_lcvp_m2
+GeometryTemplate.cullFactor 0

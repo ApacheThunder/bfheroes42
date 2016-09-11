@@ -1,0 +1,10 @@
+renderer.beginGlobalCluster Ger_MiniTank
+
+GeometryTemplate.create StandardMesh Ger_MiniTank_m2
+GeometryTemplate.File Vehicles/Ger_MiniTank_m2
+
+GeometryTemplate.create StandardMesh Ger_MiniTank_Tower_m1
+GeometryTemplate.file Vehicles/Ger_MiniTank_Turret_m1
+GeometryTemplate.hasDynamicShadow 1
+
+renderer.endGlobalCluster

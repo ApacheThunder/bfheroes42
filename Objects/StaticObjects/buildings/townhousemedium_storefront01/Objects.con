@@ -1,0 +1,15 @@
+rem *** Battlecraft Friendly Name ***
+ObjectTemplate.create Bundle townhousemedium_storefront01
+ObjectTemplate.geometry townhousemedium_storefront01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ObjectTemplate.aiTemplate buildingAI
+
+
+rem *** Original Name ***
+ObjectTemplate.create Bundle townhousemedium_e_01_storefront_01
+ObjectTemplate.geometry townhousemedium_e_01_storefront_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

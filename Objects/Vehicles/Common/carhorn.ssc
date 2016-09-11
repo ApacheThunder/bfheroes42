@@ -1,0 +1,15 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Vehicle_GB_JEP_Bri_Jeep_Willys_Horn_01.wav
+minDistance 30
+dopplerOff
+priority -2
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 50
+	param 1
+	param -1	
+endEffect

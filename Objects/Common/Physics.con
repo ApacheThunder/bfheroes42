@@ -1,0 +1,142 @@
+ObjectTemplate.create FloatingBundle JeepFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.7
+ObjectTemplate.setFloatMaxLift 4
+ObjectTemplate.setFloatMinLift 2
+ObjectTemplate.setSinkingSpeedMod 1
+ObjectTemplate.setDragModifier 4
+
+ObjectTemplate.create FloatingBundle TankFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.3
+ObjectTemplate.setFloatMaxLift 4
+ObjectTemplate.setFloatMinLift 2
+ObjectTemplate.setSinkingSpeedMod 1
+ObjectTemplate.setDragModifier 6
+
+ObjectTemplate.create FloatingBundle PlaneFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 4
+ObjectTemplate.setFloatMinLift 2
+ObjectTemplate.setSinkingSpeedMod 4
+ObjectTemplate.setDragModifier 0.5
+
+ObjectTemplate.create FloatingBundle KegFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 15
+ObjectTemplate.setFloatMinLift 8
+ObjectTemplate.setSinkingSpeedMod 4
+ObjectTemplate.setDragModifier 0.5
+
+ObjectTemplate.create FloatingBundle BallFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 15
+ObjectTemplate.setFloatMinLift 15
+ObjectTemplate.setSinkingSpeedMod 0
+ObjectTemplate.setDragModifier 5
+
+ObjectTemplate.create FloatingBundle BallProjectileFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 25
+ObjectTemplate.setFloatMinLift 25
+ObjectTemplate.setSinkingSpeedMod 0
+ObjectTemplate.setDragModifier 2
+
+ObjectTemplate.create FloatingBundle WreckPieceFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 15
+ObjectTemplate.setFloatMinLift 15
+ObjectTemplate.setSinkingSpeedMod 0
+ObjectTemplate.setDragModifier 5
+
+ObjectTemplate.create FloatingBundle BoatWreckPieceFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.2
+ObjectTemplate.setFloatMaxLift 2
+ObjectTemplate.setFloatMinLift 2
+ObjectTemplate.setSinkingSpeedMod 0
+ObjectTemplate.setDragModifier 25
+
+ObjectTemplate.create FloatingBundle CrateFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.25
+ObjectTemplate.setFloatMaxLift 5
+ObjectTemplate.setFloatMinLift 3
+ObjectTemplate.setSinkingSpeedMod 4
+ObjectTemplate.setDragModifier 0.5
+
+ObjectTemplate.create Engine TankWaterEngine 
+ObjectTemplate.setNetworkableInfo TankWaterEngineInfo
+ObjectTemplate.setMinRotation 0/0/-5
+ObjectTemplate.setMaxRotation 0/0/20
+ObjectTemplate.setMaxSpeed 0/0/20
+ObjectTemplate.setAcceleration 0/0/15
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETShip
+ObjectTemplate.setTorque 2
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNoPropellerEffectAtSpeed 20
+
+ObjectTemplate.create Engine JeepWaterEngine 
+ObjectTemplate.setNetworkableInfo JeepWaterEngineInfo
+ObjectTemplate.setMinRotation 0/0/-5
+ObjectTemplate.setMaxRotation 0/0/20
+ObjectTemplate.setMaxSpeed 0/0/20
+ObjectTemplate.setAcceleration 0/0/15
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETShip
+ObjectTemplate.setTorque 3
+ObjectTemplate.setDifferential 5
+ObjectTemplate.setNoPropellerEffectAtSpeed 20
+
+
+ObjectTemplate.create Wing COM_RudderStern
+ObjectTemplate.setMinRotation 0/-7/0
+ObjectTemplate.setMaxRotation 0/7/0
+ObjectTemplate.setMaxSpeed 0/18/0
+ObjectTemplate.setAcceleration 0/-26/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 1
+
+ObjectTemplate.create Wing COM_RudderAft 
+ObjectTemplate.setMinRotation 0/-7/0 
+ObjectTemplate.setMaxRotation 0/7/0 
+ObjectTemplate.setMaxSpeed 0/18/0 
+ObjectTemplate.setAcceleration 0/26/0 
+ObjectTemplate.setInputToPitch c_PIYaw 
+ObjectTemplate.setAutomaticReset 1 
+ObjectTemplate.setPositionOffset 0/0/0 
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 1
+
+
+
+ObjectTemplate.create Spring DummyWheel
+ObjectTemplate.geometry bri_helicopter_sikorsky_rwheel_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFDummyGrip
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 10
+ObjectTemplate.createInvisible 1
+
+ObjectTemplate.create Spring DummyWheelContact
+ObjectTemplate.geometry bri_helicopter_sikorsky_rwheel_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.grip c_PGFContactGrip
+ObjectTemplate.setStrength 25
+ObjectTemplate.setDamping 10
+ObjectTemplate.createInvisible 1

@@ -1,0 +1,36 @@
+rem *** Skinned Soldier Parts. Addtemplate to soldier only! Not usable as kitparts! ***
+
+rem *** bri_m_faceobj001 ***
+GeometryTemplate.create AnimatedMesh bri_m_waistback001_arsroll001_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_waistback001.skn
+GeometryTemplate.file Items/bri_m_waistback001_arsroll001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** bri_m_faceobj028 ***
+GeometryTemplate.create AnimatedMesh bri_m_waistright004_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_waistright004.skn
+GeometryTemplate.file Items/bri_m_waistright004_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** bri_c_waistright006_knife001 ***
+GeometryTemplate.create AnimatedMesh bri_n_waistright006_knife001_m1
+GeometryTemplate.setSkin Animations/Items/bri_m_waistright006.skn
+GeometryTemplate.file Items/bri_m_waistright006_knife001_m1
+
+rem *** ger_m_waistback001_arsroll001 ***
+GeometryTemplate.create AnimatedMesh ger_m_waistback001_arsroll001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_waistback001.skn
+GeometryTemplate.file Items/ger_m_waistback001_arsroll001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** ger_m_waistback002_mine001 ***
+GeometryTemplate.create AnimatedMesh ger_m_waistback002_mine001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_waistback002.skn
+GeometryTemplate.file Items/ger_m_waistback002_mine001_m1
+GeometryTemplate.hasDynamicShadow 1
+
+rem *** ger_m_waistleft007_largebag001 ***
+GeometryTemplate.create AnimatedMesh ger_m_waistleft007_largebag001_m1
+GeometryTemplate.setSkin Animations/Items/ger_m_waistleft007.skn
+GeometryTemplate.file Items/ger_m_waistleft007_largebag001_m1
+GeometryTemplate.hasDynamicShadow 1

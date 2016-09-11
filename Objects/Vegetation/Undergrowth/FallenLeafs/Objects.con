@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject FallenLeafs_yellow_m1
+ObjectTemplate.geometry FallenLeafs_yellow_m1
+ObjectTemplate.cullRadiusScale 1

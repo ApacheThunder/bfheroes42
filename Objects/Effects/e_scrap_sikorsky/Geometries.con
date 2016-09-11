@@ -1,0 +1,15 @@
+GeometryTemplate.create StandardMesh sikorsky_w_prop_top_m1
+GeometryTemplate.file Vehicles/sikorsky_w_prop_top_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh sikorsky_w_prop_tail_m1
+GeometryTemplate.file Vehicles/sikorsky_w_prop_tail_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh sikorsky_w_landinggear_left_m1
+GeometryTemplate.file Vehicles/sikorsky_w_landinggear_left_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh sikorsky_w_landinggear_right_m1
+GeometryTemplate.file Vehicles/sikorsky_w_landinggear_right_m1
+GeometryTemplate.hasDynamicShadow 1

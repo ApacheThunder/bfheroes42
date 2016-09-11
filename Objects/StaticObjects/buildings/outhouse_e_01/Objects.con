@@ -1,0 +1,7 @@
+ObjectTemplate.create SimpleObject outhouse_e_01
+ObjectTemplate.geometry outhouse_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ObjectTemplate.aiTemplate buildingAI
+

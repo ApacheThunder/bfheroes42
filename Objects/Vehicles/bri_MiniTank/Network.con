@@ -1,0 +1,12 @@
+NetworkableInfo.createNewInfo RAMiniTankInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo RAMiniTank_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo MiniTank_CameraInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo MiniTank_EngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+

@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh space_crashed_rocket_01_m1
+GeometryTemplate.file space_crashed_rocket_01_m1
+
+GeometryTemplate.create StandardMesh space_crashed_rocket_02_m1
+GeometryTemplate.file space_crashed_rocket_02_m1
+
+GeometryTemplate.create StandardMesh space_crashed_rocket_03_m1
+GeometryTemplate.file space_crashed_rocket_03_m1

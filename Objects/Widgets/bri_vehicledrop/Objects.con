@@ -1,0 +1,39 @@
+ObjectTemplate.create HandFireArms bri_vehicledrop
+ObjectTemplate.itemIndex 7
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.projectileTemplate Bri_VehicleDropPRJ
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.forceOnExplosion 10
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTEmplate.setHasMag 0
+rem *** Only reloads from Supply Crate ***
+ObjectTemplate.ammoType 50
+ObjectTemplate.reloadtime 4
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.autoReload 1
+ObjectTemplate.GUIIndex 13
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/shotgun.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.rotationalSpeed 0/0/0
+ObjectTemplate.velocity 12
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.08
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.hideDuringFireTime 0.4
+ObjectTemplate.fireDelay 1
+ObjectTemplate.soldierCameraPosition 0/-0.03/0.2
+ObjectTemplate.cantSelectWhenNoAmmo 1
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+ObjectTemplate.createSkeleton animations/SmokeGrenade.ske
+ObjectTemplate.useSkeletonPartAsMain Base
+ObjectTemplate.addTemplate SmokeGrenade_BLUELod
+rem *** Loaded on per map basis ***
+rem ObjectTemplate.loadSoundScript ../bri_supplydrop/Sounds/SupplyDrop.ssc
+ObjectTemplate.setAttachToListener 1

@@ -1,0 +1,160 @@
+GeometryTemplate.create StandardMesh fishingboat_climbingvine_m1
+GeometryTemplate.file Vehicles/fishingboat_climbingvine_m1
+GeometryTemplate.alphaLodDistance 512
+
+GeometryTemplate.create StandardMesh CannonBall_m1
+GeometryTemplate.file Vehicles/CannonBall_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh bri_m249_stationary_m1
+GeometryTemplate.file Vehicles/bri_m249_stationary_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+
+GeometryTemplate.create StandardMesh ger_pkm_stationary_m1
+GeometryTemplate.file Vehicles/ger_pkm_stationary_m1
+GeometryTemplate.setLodRange 0 0 1 25 2 50
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+
+GeometryTemplate.create StandardMesh p_tracer2_eu_m1
+GeometryTemplate.file p_tracer2_eu_m1
+GeometryTemplate.cullFactor 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+GeometryTemplate.create StandardMesh p_tracer_tank_m1
+GeometryTemplate.file p_tracer_tank_m1
+GeometryTemplate.cullFactor 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+
+GeometryTemplate.create StandardMesh p_tracer_tank_x25_m1
+GeometryTemplate.file p_tracer_tank_m1
+GeometryTemplate.cullFactor 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+GeometryTemplate.scale 2.5
+
+
+rem
+rem *** Vanilla BF1942 stuff ***
+rem
+GeometryTemplate.create StandardMesh climbnet_6m_m1
+GeometryTemplate.file climbnet_6m_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh climbnet_6mx11m_m1
+GeometryTemplate.file climbnet_6mx11m_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh climbnet_3m_m1
+GeometryTemplate.file climbnet_3m_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh climbnet_3mx4m_m1
+GeometryTemplate.file climbnet_3mx4m_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh depth_charge_m1
+GeometryTemplate.file depth_charge_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh spawnbutton_m1
+GeometryTemplate.file spawnbutton_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh 1p_shipgun_m1
+GeometryTemplate.file 1p_shipgun_m1
+
+GeometryTemplate.create StandardMesh Ship_lad_01_m1
+GeometryTemplate.file Shokaku_lad_01_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh Ship_lad_02_m1
+GeometryTemplate.file Shokaku_lad_02_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh Ship_lad_03_m1
+GeometryTemplate.file Shokaku_lad_03_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh Ship_lad_04_m1
+GeometryTemplate.file Shokaku_lad_04_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh shokaku_sta_01_m1
+GeometryTemplate.file shokaku_sta_01_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh ship_medicbox_m1
+GeometryTemplate.file mediclocker_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 2
+GeometryTemplate.setLodDistance 2 5
+GeometryTemplate.setLodDistance 3 10
+GeometryTemplate.setLodDistance 4 20
+GeometryTemplate.setLodDistance 5 300

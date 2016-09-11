@@ -1,0 +1,67 @@
+ObjectTemplate.create EffectBundle e_scrap_AA
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate em_scrap_AA_w_wreck
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate em_com_aa_w_L_shield
+ObjectTemplate.setPosition -0.575/1.02/-0.422
+ObjectTemplate.addTemplate em_com_aa_w_R_shield
+ObjectTemplate.setPosition 0.582/1.022/-0.276
+ObjectTemplate.addTemplate em_com_aa_w_gunBase
+ObjectTemplate.setPosition 0.111/0.968/-0.663
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+ObjectTemplate.create Emitter em_scrap_AA_w_wreck
+ObjectTemplate.template scrap_AA_w_wreck
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_com_aa_w_L_shield
+ObjectTemplate.template com_aa_w_L_shield
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 300
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/3/1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/5/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/-5/-2/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/3/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/5/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_com_aa_w_R_shield
+ObjectTemplate.template com_aa_w_R_shield
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 300
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/3/1/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/10/4/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/3/1/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/3/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/3/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_com_aa_w_gunBase
+ObjectTemplate.template com_aa_w_gunBase
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 250
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/10/8/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/15/10/0
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/-3/-1/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0

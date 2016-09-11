@@ -1,0 +1,50 @@
+rem *** One bundle for a map. Chose one that matches your map size. ***
+rem *** Position at ground level at the center of the map. ***
+
+
+ObjectTemplate.create Bundle SnowFlurries512
+ObjectTemplate.cullRadiusScale 1
+rem ---------------------------------------
+ObjectTemplate.addtemplate SnowRotBundle
+ObjectTemplate.setPosition 0/90/128
+ObjectTemplate.addtemplate SnowRotBundle
+ObjectTemplate.setPosition 0/90/0
+ObjectTemplate.addtemplate SnowRotBundle
+ObjectTemplate.setPosition 128/90/0
+ObjectTemplate.addtemplate SnowRotBundle
+ObjectTemplate.setPosition 128/90/128
+
+ObjectTemplate.create Bundle SnowFlurries1024
+ObjectTemplate.cullRadiusScale 1
+rem ---------------------------------------
+ObjectTemplate.addTemplate SnowFlurries512
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate SnowFlurries512
+ObjectTemplate.setPosition 0/0/512
+ObjectTemplate.addTemplate SnowFlurries512
+ObjectTemplate.setPosition 512/0/0
+ObjectTemplate.addTemplate SnowFlurries512
+ObjectTemplate.setPosition 512/0/512
+
+
+ObjectTemplate.create Bundle SnowFlurries2048
+rem ---------------------------------------
+ObjectTemplate.addTemplate SnowFlurries1024
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate SnowFlurries1024
+ObjectTemplate.setPosition 0/0/1024
+ObjectTemplate.addTemplate SnowFlurries1024
+ObjectTemplate.setPosition 1024/0/0
+ObjectTemplate.addTemplate SnowFlurries1024
+ObjectTemplate.setPosition 1024/0/1024
+
+
+ObjectTemplate.create RotationalBundle SnowRotBundle
+ObjectTemplate.setMaxSpeed 130/0
+ObjectTemplate.setAcceleration 130/0
+ObjectTemplate.setContinousRotationSpeed 130/0/0
+ObjectTemplate.cullRadiusScale 1
+rem -------------------------------------------
+ObjectTemplate.addTemplate e_Snow
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-90/0

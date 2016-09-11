@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh stonewall_8m_m1
+GeometryTemplate.file stonewall_8m_m1
+
+GeometryTemplate.create StandardMesh stonewall_16m_m1
+GeometryTemplate.file stonewall_16m_m1
+
+GeometryTemplate.create StandardMesh stonewall_32m_m1
+GeometryTemplate.file stonewall_32m_m1

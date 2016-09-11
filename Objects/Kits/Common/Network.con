@@ -1,0 +1,2 @@
+NetworkableInfo.createNewInfo RocketPackEngineInfo
+NetworkableInfo.setPredictionMode PMLinear

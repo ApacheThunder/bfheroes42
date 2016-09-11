@@ -1,0 +1,521 @@
+#include ../../Common/Sounds/SoundMap.ssc
+#include ../../Common/Sounds/SideSqueak.ssc
+
+newPatch
+####################
+### Small impact ###
+####################
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_01.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume .6
+stop FinishSample
+dopplerOff
+priority 4
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 1
+	param 10
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_02.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume .6
+stop FinishSample
+dopplerOff
+priority 4
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 1
+	param 10
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_03.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume .6
+stop FinishSample
+dopplerOff
+priority 4
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 1
+	param 10
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_04.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume .6
+stop FinishSample
+dopplerOff
+priority 4
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 1
+	param 10
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_05.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume .6
+stop FinishSample
+dopplerOff
+priority 4
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 1
+	param 10
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_06.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume .6
+stop FinishSample
+dopplerOff
+priority 4
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 1
+	param 10
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+#################
+### RANDOMIZE ###
+#################
+randomPlay 1
+
+newPatch
+##################
+### Big impact ###
+##################
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_01.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume 1
+stop FinishSample
+dopplerOff
+priority 5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 3
+	param 12
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_02.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume 1
+stop FinishSample
+dopplerOff
+priority 5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 3
+	param 12
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_03.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume 1
+stop FinishSample
+dopplerOff
+priority 5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 3
+	param 12
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_04.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume 1
+stop FinishSample
+dopplerOff
+priority 5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 3
+	param 12
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_05.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume 1
+stop FinishSample
+dopplerOff
+priority 5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 3
+	param 12
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Surfaces_Vehicle_06.wav
+minDistance 10
+randomStartPitch 0.3 / 0.1
+volume 1
+stop FinishSample
+dopplerOff
+priority 5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 10
+	param 1
+	param -1	
+endEffect
+
+*** Speed Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Speed>
+	envelope Ramp
+	param 3
+	param 12
+	param 0
+	param 1
+	param 2
+	param 2
+endEffect
+
+*** Angle Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Effect::Angle>
+	envelope Ramp
+	param 0.3
+	param 1
+	param 0
+	param 1
+endEffect
+
+randomPlay 1

@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh quaypart_long_m1
+GeometryTemplate.file quaypart_long_m1

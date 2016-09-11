@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh WaterImpact_foumRipps_m1
+GeometryTemplate.file WaterImpact_foumRipps_m1
+GeometryTemplate.alphaLodDistance 1024
+
+GeometryTemplate.create StandardMesh WaterImpact_Ripples2_m1
+GeometryTemplate.file WaterImpact_Ripples2_m1
+GeometryTemplate.alphaLodDistance 1024

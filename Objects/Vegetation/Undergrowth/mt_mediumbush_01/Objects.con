@@ -1,0 +1,174 @@
+ObjectTemplate.create Bundle mt_mediumbush_01
+ObjectTemplate.geometry DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_mediumbush_Sprites
+
+
+ObjectTemplate.create EffectBundle e_mediumbush_Sprites
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem -------------------------------------
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 1024/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/0/1024
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/1024/0
+ObjectTemplate.addTemplate NULL_OBJECT
+ObjectTemplate.setPosition 0/-1024/0
+rem -------------------------------------
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.313382/-0.140538/-0.509941
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.586018/0.0413961/0.625179
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.0629005/0.0583673/-0.716824
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.410554/-0.193356/-0.532333
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.0249662/-0.31864/-0.352341
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.473843/0.26796/-0.207504
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.247365/-0.413054/0.43552
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.197303/-0.339903/0.304745
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.710355/0.0231695/-0.441574
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.325106/0.171402/-0.391729
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.667914/-0.369648/0.255587
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.0399494/-0.0227385/-0.0418262
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.75634/0.0173817/-0.290232
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.573445/-0.340188/-0.19359
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.298479/-0.105615/0.100435
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.578626/0.15258/0.119154
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.223209/0.121471/0.394136
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.252132/0.146418/-0.386082
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.449268/-0.35369/-0.0850029
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.289571/0.412937/-0.0578823
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition 0.821016/-0.0354171/-0.052494
+ObjectTemplate.setRandomGeometries 4
+ObjectTemplate.addTemplate em_mediumbush_sprite
+ObjectTemplate.setPosition -0.669043/-0.283026/0.328602
+ObjectTemplate.setRandomGeometries 4
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+
+rem *** Leaf Sprites ***
+
+rem *** Emitters ***
+ObjectTemplate.create Emitter em_mediumbush_sprite1
+ObjectTemplate.template mediumbush_sprite1
+ObjectTemplate.lodDistance 128
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_mediumbush_sprite2
+ObjectTemplate.template mediumbush_sprite2
+ObjectTemplate.lodDistance 128
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_mediumbush_sprite3
+ObjectTemplate.template mediumbush_sprite3
+ObjectTemplate.lodDistance 128
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+ObjectTemplate.create Emitter em_mediumbush_sprite4
+ObjectTemplate.template mediumbush_sprite4
+ObjectTemplate.lodDistance 128
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startProbability 100
+ObjectTemplate.startAtCreation 1
+
+
+rem *** Sprites ***
+
+ObjectTemplate.create SpriteParticle mediumbush_sprite1
+ObjectTemplate.texture sprite_mediumbush_1
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/0.84/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+
+ObjectTemplate.create SpriteParticle mediumbush_sprite2
+ObjectTemplate.texture sprite_mediumbush_1
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/0.65/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle mediumbush_sprite3
+ObjectTemplate.texture sprite_mediumbush_2
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/0.7/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1
+
+ObjectTemplate.create SpriteParticle mediumbush_sprite4
+ObjectTemplate.texture sprite_mediumbush_2
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.timeToLive CRD_NONE/1.001/0/0
+ObjectTemplate.size CRD_NONE/0.9/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.hasStaticColor 1

@@ -1,0 +1,25 @@
+ObjectTemplate.create EffectBundle e_GroundDecal_SmallIce
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_GroundDecal_SmallIce
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+ObjectTemplate.create Emitter Em_GroundDecal_SmallIce
+ObjectTemplate.template Fx_GroundDecal_SmallIce
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 375
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0.009/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/1/10/0
+
+ObjectTemplate.create Particle Fx_GroundDecal_SmallIce
+ObjectTemplate.geometry glacier_scorche_m1
+ObjectTemplate.timeToLive CRD_UNIFORM/25/40/0
+ObjectTemplate.size CRD_UNIFORM/0.8/1.6/0
+ObjectTemplate.sizeOverTime 0/1|90/1|100/0
+ObjectTemplate.alphaOverTime 0/1|90/1|100/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.removeAtRestart 1

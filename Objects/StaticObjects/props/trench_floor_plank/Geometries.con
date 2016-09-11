@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh trench_floor_plank_m1
+GeometryTemplate.file trench_floor_plank_m1

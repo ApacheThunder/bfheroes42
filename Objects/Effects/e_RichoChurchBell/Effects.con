@@ -1,0 +1,13 @@
+ObjectTemplate.create EffectBundle e_RichoChurchBell
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/churchbell.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_richoMetalBase
+ObjectTemplate.addTemplate Em_richoMetal_Smoke
+ObjectTemplate.addTemplate Em_richoMetal_Glint
+ObjectTemplate.addTemplate Em_richoMetal_Glint1
+ObjectTemplate.addTemplate Em_RichoBase
+ObjectTemplate.setRotation 45/0/0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+

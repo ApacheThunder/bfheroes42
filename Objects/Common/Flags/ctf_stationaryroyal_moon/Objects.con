@@ -1,0 +1,7 @@
+ObjectTemplate.create Bundle ctf_stationaryroyal_moon
+ObjectTemplate.geometry ctf_stationaryroyal_moon_m1
+ObjectTEmplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles

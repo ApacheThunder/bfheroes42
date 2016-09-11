@@ -1,0 +1,48 @@
+ObjectTemplate.create EffectBundle e_AAMissileEngine_bri
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_AARocketTrail
+rem ObjectTemplate.setPosition 0/0.118/-1.09
+ObjectTemplate.setPosition 0/0.118/0
+ObjectTemplate.addTemplate Em_ATRocketFire
+ObjectTemplate.setPosition 0/0.118/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create EffectBundle e_AAMissileEngine_ger
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_AARocketTrail
+ObjectTemplate.addTemplate Em_ATRocketFire
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter Em_AARocketTrail
+ObjectTemplate.template Fx_AARocketTrail
+ObjectTemplate.lodDistance 512
+ObjectTemplate.looping 1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.delay CRD_NONE/0.1/0/0
+ObjectTemplate.timeToLive CRD_NONE/0.2/0/0
+ObjectTemplate.intensity CRD_NONE/150/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+
+
+ObjectTemplate.create SpriteParticle Fx_AARocketTrail
+ObjectTemplate.texture e_sprite64
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.cullRadiusScale 100
+rem ------------------------------------------
+ObjectTemplate.timeToLive CRD_UNIFORM/2/2.5/0
+ObjectTemplate.size CRD_NONE/0.2/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.drag CRD_NONE/20/0/0
+ObjectTemplate.sizeOverTime 0/0.25|100/0.15|50/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/190/190/190/190|50/190/190/190/255|100/190/190/190/0

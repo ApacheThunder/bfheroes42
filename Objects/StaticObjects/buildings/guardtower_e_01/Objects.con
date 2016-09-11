@@ -1,0 +1,15 @@
+ObjectTemplate.create Bundle guardtower_e_01
+ObjectTemplate.geometry guardtower_e_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ObjectTemplate.aiTemplate buildingAI
+
+ObjectTemplate.create SimpleObject guardtower_ladder_01
+ObjectTemplate.geometry guardtower_ladder_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ------------------------------------------
+ObjectTemplate.addToCollisionGroup c_CGLadders
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

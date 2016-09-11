@@ -1,0 +1,25 @@
+GeometryTemplate.create StandardMesh bri_at_piat_m1
+GeometryTemplate.file HandWeapons/bri_at_piat_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_at_piat_badass_m1
+GeometryTemplate.file HandWeapons/bri_at_piat_badass_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 8
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.hasDynamicShadow 1
+
+
+GeometryTemplate.create StandardMesh Shade_bri_at_piat_m1
+GeometryTemplate.file HandWeapons/Shade_bri_at_piat_m1
+
+GeometryTemplate.create StandardMesh ATMissile_m1
+GeometryTemplate.file HandWeapons/ATMissile_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ATRocket_m1
+GeometryTemplate.file HandWeapons/1p_ATMissile_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 0.4
+GeometryTemplate.scale 0.75

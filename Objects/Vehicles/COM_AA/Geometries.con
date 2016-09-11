@@ -1,0 +1,34 @@
+renderer.beginGlobalCluster COM_AA
+
+GeometryTemplate.create StandardMesh com_aa_base_m1
+GeometryTemplate.file Vehicles/com_aa_base_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh com_aa_gun_m1
+GeometryTemplate.file Vehicles/com_aa_gun_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh com_aa_gunbase_m1
+GeometryTemplate.file Vehicles/com_aa_gunbase_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh com_aa_L_handle_m1
+GeometryTemplate.file Vehicles/com_aa_L_handle_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh com_aa_R_handle_m1
+GeometryTemplate.file Vehicles/com_aa_R_handle_m1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh com_aa_turret_m1
+GeometryTemplate.file Vehicles/com_aa_turret_m1
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh com_aa_m2
+GeometryTemplate.file Vehicles/com_aa_m2
+
+GeometryTemplate.create StandardMesh com_aa_wreck_m1
+GeometryTemplate.file Vehicles/com_aa_wreck_m1
+GeometryTemplate.hasDynamicShadow 1

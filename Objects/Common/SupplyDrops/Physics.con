@@ -1,0 +1,44 @@
+ObjectTemplate.create Wing SupplyDropWing
+ObjectTemplate.setPitchOffset 0
+ObjectTemplate.setPositionOffset 0/0/0
+rem ObjectTemplate.setWingLift 100
+rem ObjectTemplate.setFlapLift 100
+ObjectTemplate.setWingLift 15
+ObjectTemplate.setFlapLift 15
+
+
+ObjectTemplate.create Spring USMobileSpawn_Wheel
+ObjectTemplate.geometry ve_nullwheel_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.grip c_PGFDummyGrip
+ObjectTemplate.strength 15
+ObjectTemplate.damping 5	
+ObjectTemplate.createInvisible 1
+
+ObjectTemplate.create Engine CrateDummyEngine
+ObjectTemplate.setNetworkableInfo CrateDummyEngine_Info
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate USMobileSpawn_Wheel
+ObjectTemplate.setPosition -0.5/0/0.5
+ObjectTemplate.addTemplate USMobileSpawn_Wheel
+ObjectTemplate.setPosition -0.5/0/-0.5
+ObjectTemplate.addTemplate USMobileSpawn_Wheel
+ObjectTemplate.setPosition 0.5/0/0.5
+ObjectTemplate.addTemplate USMobileSpawn_Wheel
+ObjectTemplate.setPosition 0.5/0/-0.5
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/100
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETCar
+ObjectTemplate.setTorque 0.1
+ObjectTemplate.setDifferential 0.1
+ObjectTemplate.setNumberOfGears 1

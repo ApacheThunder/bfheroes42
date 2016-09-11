@@ -1,0 +1,96 @@
+ObjectTemplate.create HandFireArms BRI_AT_PIAT
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript Sounds/RPG.ssc
+ObjectTemplate.aiTemplate RPG
+ObjectTemplate.itemIndex 4
+ObjectTemplate.projectileTemplate ATMissile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.forceOnExplosion 8
+ObjectTemplate.soldierCameraPosition 0.1/-0.08/0.3
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.setHasMag 0
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 3.5
+ObjectTemplate.roundOfFire 8
+ObjectTemplate.fireOnce 1
+ObjectTemplate.setScopeIcon "HUD/RPGHUD_Scope.tga"
+ObjectTemplate.setSightIcon "HUD/blank_scope.tga" 
+ObjectTemplate.setSniperSight 0
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.useScope 1
+ObjectTemplate.zoomFov 0.3
+ObjectTemplate.soldierZoomFov 0.3
+ObjectTemplate.soldierZoomPosition 0/0/0
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.GUIIndex 17
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/rocketLauncher.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.velocity 45
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0
+ObjectTemplate.addDevWalk 0
+ObjectTemplate.addDevRun 0
+ObjectTemplate.addDevJump 0
+ObjectTemplate.addDevYaw 0
+ObjectTemplate.addDevPitch 0
+ObjectTemplate.addDevStrafe 0
+ObjectTemplate.addDevFire 0
+ObjectTemplate.subDev 0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/1/2/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.45/0.45/0
+ObjectTemplate.createSkeleton animations/Bazooka.ske
+ObjectTemplate.useSkeletonPartAsMain Bazooka
+ObjectTemplate.addTemplate BRI_AT_PIATlod
+ObjectTemplate.setRandomGeometries 2
+rem ----------------------------------------
+ObjectTemplate.addTemplate e_rocketFumeBack
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create LodObject BRI_AT_PIATlod1
+rem -----------------------------------------
+ObjectTemplate.addTemplate BRI_AT_PIATComplex
+ObjectTemplate.addTemplate BRI_AT_PIATSimple	
+rem -----------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create LodObject BRI_AT_PIATlod2
+rem -----------------------------------------
+ObjectTemplate.addTemplate BRI_AT_PIAT_badassComplex
+ObjectTemplate.addTemplate BRI_AT_PIAT_badassSimple	
+rem -----------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+
+ObjectTemplate.create AnimatedBundle BRI_AT_PIATComplex
+ObjectTemplate.geometry BRI_AT_PIAT_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Bazooka.ske
+ObjectTemplate.addTemplate ATRocket
+ObjectTemplate.bindToSkeletonPart rocket
+
+ObjectTemplate.create AnimatedBundle BRI_AT_PIAT_BadassComplex
+ObjectTemplate.geometry BRI_AT_PIAT_Badass_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Bazooka.ske
+ObjectTemplate.addTemplate ATRocket
+ObjectTemplate.bindToSkeletonPart rocket
+
+
+ObjectTemplate.create SimpleObject BRI_AT_PIAT_BadassSimple
+ObjectTemplate.geometry BRI_AT_PIAT_Badass_m1
+
+ObjectTemplate.create SimpleObject BRI_AT_PIATSimple
+ObjectTemplate.geometry Shade_BRI_AT_PIAT_m1
+
+ObjectTemplate.create SimpleObject ATRocket
+ObjectTemplate.geometry ATRocket_m1

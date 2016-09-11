@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh digger_national_01_m1
+GeometryTemplate.file digger_national_01_m1
+
+GeometryTemplate.create StandardMesh digger_national_cog_m1
+GeometryTemplate.file digger_national_cog_m1
+
+GeometryTemplate.create StandardMesh digger_national_plate_m1
+GeometryTemplate.file digger_national_plate_m1
+
+GeometryTemplate.create StandardMesh digger_national_trackpiece_m1
+GeometryTemplate.file digger_national_trackpiece_m1

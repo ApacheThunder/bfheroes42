@@ -1,0 +1,11 @@
+ObjectTemplate.create SimpleObject space_sandbags_4m
+ObjectTemplate.geometry space_sandbags_4m_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject space_sandbags_lshape
+ObjectTemplate.geometry space_sandbags_lshape_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

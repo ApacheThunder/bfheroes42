@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh com_aa_w_gunBase_m1
+GeometryTemplate.file Vehicles/com_aa_w_gunBase_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh com_aa_w_L_shield_m1
+GeometryTemplate.file Vehicles/com_aa_w_L_shield_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh com_aa_w_R_shield_m1
+GeometryTemplate.file Vehicles/com_aa_w_R_shield_m1
+GeometryTemplate.hasDynamicShadow 1

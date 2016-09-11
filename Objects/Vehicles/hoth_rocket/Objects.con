@@ -1,0 +1,79 @@
+beginRem
+ObjectTemplate.create PlayerControlObject hoth_Rocket_PCO
+ObjectTemplate.setNetworkableInfo hoth_rocket_BodyInfo
+ObjectTemplate.loadSoundScript Sounds/rocket_launch.ssc
+ObjectTemplate.cullRadiusScale 2.5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.maxHitPoints 1
+ObjectTemplate.hitPoints 1
+ObjectTemplate.material 45
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.explosionForce 15
+ObjectTemplate.explosionForceMod 7
+ObjectTemplate.explosionForceMax 1000
+ObjectTemplate.explosionDamage 25
+ObjectTemplate.explosionRadius 15
+ObjectTemplate.timeToLiveAfterDeath 1
+ObjectTemplate.criticalDamage 0.5
+ObjectTemplate.hpLostWhileDamageWater 1
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.drag 2
+ObjectTemplate.mass 10000
+ObjectTemplate.speedMod 2
+ObjectTemplate.angleMod 1
+ObjectTemplate.damageMod 2
+ObjectTemplate.inertiaModifier 0.1/0.1/0.1
+ObjectTemplate.setForwardMod 200
+rem -------------------------------------
+ObjectTemplate.addTemplate lodhoth_rocket
+rem -------------------------------------
+ObjectTemplate.addArmorEffect 0 e_exp_large 0/1/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion  0/0/0
+ObjectTemplate.setSoldierExitPosition 2/3/-2 0/0/0
+ObjectTemplate.altSoldierExitPosition 2/1.5/-4 0/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.vehicleCategory VCAir
+ObjectTemplate.controlsCategory VCAir
+ObjectTemplate.setVehicleType VTFighter
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.setMinimapIcon "Empty.tga"
+
+
+ObjectTemplate.create lodObject lodhoth_rocket
+rem ------------------------------------------
+ObjectTemplate.addTemplate hoth_rocketComplex
+ObjectTemplate.addTemplate hoth_rocketSimple
+ObjectTemplate.addTemplate NULL_OBJECT
+rem ------------------------------------------
+ObjectTemplate.lodSelector hothrocketselector
+
+LodSelectorTemplate.create DistCompareSelector2 hothrocketselector
+LodSelectorTemplate.addLodDistance 100
+LodSelectorTemplate.hasDestroyedLod 1
+
+ObjectTemplate.create Bundle hoth_rocketComplex
+ObjectTemplate.geometry hoth_rocket_pco_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate hoth_rocket_Physics_Rudder
+ObjectTemplate.setPosition 0/0/-3.678
+ObjectTemplate.addTemplate hoth_rocket_Physics_BodyWingVertical
+ObjectTemplate.setPosition 0/0/-3.678
+ObjectTemplate.addTemplate hoth_rocket_Physics_PhyFlapsL
+ObjectTemplate.setPosition -1/0/0
+ObjectTemplate.addTemplate hoth_rocket_Physics_PhyFlapsR
+ObjectTemplate.setPosition 1/0/0
+ObjectTemplate.addTemplate hoth_rocket_PhysicsEngine
+rem -------------------------------------
+ObjectTemplate.addTemplate e_HothRocketFume
+ObjectTemplate.setPosition 0/0/-3.678
+
+endRem
+
+ObjectTemplate.create SimpleObject hoth_RocketSimple
+ObjectTemplate.geometry hoth_rocket_pco_m1

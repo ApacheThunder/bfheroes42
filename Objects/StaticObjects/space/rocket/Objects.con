@@ -1,0 +1,64 @@
+ObjectTemplate.create SimpleObject rocket_frontpanel
+ObjectTemplate.geometry rocket_frontpanel_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_frontpanel_01
+ObjectTemplate.geometry rocket_frontpanel_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_frontpanel_02
+ObjectTemplate.geometry rocket_frontpanel_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_national_home
+ObjectTemplate.geometry rocket_national_home_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_royal_home
+ObjectTemplate.geometry rocket_royal_home_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_sidepanel
+ObjectTemplate.geometry rocket_sidepanel_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_sidepanel_01
+ObjectTemplate.geometry rocket_sidepanel_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_sidepanel_02
+ObjectTemplate.geometry rocket_sidepanel_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_smallpanel
+ObjectTemplate.geometry rocket_smallpanel_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_smallpanel_01
+ObjectTemplate.geometry rocket_smallpanel_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject rocket_smallpanel_02
+ObjectTemplate.geometry rocket_smallpanel_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5

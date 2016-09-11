@@ -1,0 +1,19 @@
+GeometryTemplate.create StandardMesh bri_tank_w_driveaxle_m1
+GeometryTemplate.file Vehicles/bri_tank_w_driveaxle_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_tank_w_hatch_m1
+GeometryTemplate.file Vehicles/bri_tank_w_hatch_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_tank_w_lamp_m1
+GeometryTemplate.file Vehicles/bri_tank_w_lamp_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_tank_w_rearplate_m1
+GeometryTemplate.file Vehicles/bri_tank_w_rearplate_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_tank_w_wheel_m1
+GeometryTemplate.file Vehicles/bri_tank_w_wheel_m1
+GeometryTemplate.hasDynamicShadow 1

@@ -1,0 +1,34 @@
+rem *** Royals ***
+
+rem *** bri_m_feet002_boots002 ***
+ObjectTemplate.create SimpleObject bri_FeetItem1
+ObjectTemplate.geometry bri_m_feet002_boots002_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** bri_m_feet004_fineshoes002 ***
+ObjectTemplate.create SimpleObject bri_FeetItem2
+ObjectTemplate.geometry bri_m_feet004_fineshoes002_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Default Feet***
+ObjectTemplate.create SimpleObject bri_FeetItem3
+ObjectTemplate.geometry british_male_soldier_feet_m1
+ObjectTemplate.hasDynamicShadow 1
+
+
+rem *** Nationals ***
+
+rem *** ger_m_feet002_boots002 ***
+ObjectTemplate.create SimpleObject ger_FeetItem1
+ObjectTemplate.geometry ger_m_feet002_boots002_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** ger_m_feet002_honor001 ***
+ObjectTemplate.create SimpleObject ger_FeetItem2
+ObjectTemplate.geometry ger_m_feet002_honor001_m1
+ObjectTemplate.hasDynamicShadow 1
+
+rem *** Default Feet***
+ObjectTemplate.create SimpleObject ger_FeetItem3
+ObjectTemplate.geometry german_male_soldier_feet_m1
+ObjectTemplate.hasDynamicShadow 1

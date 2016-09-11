@@ -1,0 +1,8 @@
+GeometryTemplate.create standardMesh COM_TNT_m1
+GeometryTemplate.file HandWeapons/COM_TNT_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create standardMesh Shade_COM_TNT_m1
+GeometryTemplate.file HandWeapons/Shade_COM_TNT_m1
+GeometryTemplate.hasDynamicShadow 1

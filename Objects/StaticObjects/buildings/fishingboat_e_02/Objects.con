@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject fishingboat_e_02
+ObjectTemplate.geometry fishingboat_e_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

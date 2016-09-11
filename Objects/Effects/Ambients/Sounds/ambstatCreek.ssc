@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_creek.wav
+loop
+minDistance 20
+priority 1
+volume 0.3
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 20
+	param 1
+	param -1	
+endEffect

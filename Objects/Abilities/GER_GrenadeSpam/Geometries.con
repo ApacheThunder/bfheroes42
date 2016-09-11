@@ -1,0 +1,6 @@
+GeometryTemplate.create StandardMesh GER_GrenadeSpam_m1
+GeometryTemplate.file Abilities/GER_GrenadeSpam_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Shade_GER_GrenadeSpam_m1
+GeometryTemplate.file Abilities/Shade_GER_GrenadeSpam_m1

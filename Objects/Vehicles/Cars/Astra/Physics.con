@@ -1,0 +1,146 @@
+ObjectTemplate.create Engine AstraEngine
+ObjectTemplate.setNetworkableInfo AstraEngineInfo
+ObjectTemplate.loadSoundScript Sound/Engine.ssc
+ObjectTemplate.setAttachToListener 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 128
+rem -------------------------------------------------
+ObjectTemplate.addTemplate AstraFrontWheelBundleLeft
+ObjectTemplate.setPosition -0.614/-0.25/1.292
+ObjectTemplate.addTemplate AstraFrontWheelBundleRight
+ObjectTemplate.setPosition 0.614/-0.25/1.292
+ObjectTemplate.addTemplate AstraWheelRearLeft
+ObjectTemplate.setPosition -0.814/-0.2/-1.303
+ObjectTemplate.addTemplate AstraWheelRear
+ObjectTemplate.setPosition 0.814/-0.2/-1.303
+rem -------------------------------------------------
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/10000
+ObjectTemplate.setAcceleration 0/0/1500
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETCar
+ObjectTemplate.setTorque 14
+ObjectTemplate.setDifferential 20
+ObjectTemplate.setNumberOfGears 6
+ObjectTemplate.setGearChangeTime 0.1
+ObjectTemplate.setGearUp 0.9
+ObjectTemplate.setGearDown 0.45
+
+
+ObjectTemplate.create RotationalBundle AstraFrontWheelBundleLeft
+ObjectTemplate.setNetworkableInfo AstraSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 128
+rem -------------------------------------
+ObjectTemplate.addTemplate AstraWheelFrontLeft
+ObjectTemplate.setPosition -0.2/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -22/0/0
+ObjectTemplate.setMaxRotation 22/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle AstraFrontWheelBundleRight
+ObjectTemplate.setNetworkableInfo AstraSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 128
+rem -------------------------------------
+ObjectTemplate.addTemplate AstraWheelFront
+ObjectTemplate.setPosition 0.2/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -22/0/0
+ObjectTemplate.setMaxRotation 22/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+
+ObjectTemplate.create Spring AstraWheelFront
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry gAstraTire
+ObjectTemplate.cullRadiusScale 128
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 40
+ObjectTemplate.setDamping 5
+rem ----------------------------
+ObjectTemplate.addTemplate AstraWheel_D
+
+ObjectTemplate.create Spring AstraWheelRear
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry gAstraTire
+ObjectTemplate.cullRadiusScale 128
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 40
+ObjectTemplate.setDamping 5
+rem ----------------------------
+ObjectTemplate.addTemplate AstraWheel_D
+
+ObjectTemplate.create Spring AstraWheelFrontLeft
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry gAstraTire_Left
+ObjectTemplate.cullRadiusScale 128
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 40
+ObjectTemplate.setDamping 5
+rem ----------------------------
+ObjectTemplate.addTemplate AstraWheelLeft_D
+
+ObjectTemplate.create Spring AstraWheelRearLeft
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.geometry gAstraTire_Left
+ObjectTemplate.cullRadiusScale 128
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 40
+ObjectTemplate.setDamping 5
+rem ----------------------------
+ObjectTemplate.addTemplate AstraWheelLeft_D
+
+
+ObjectTemplate.create SimpleObject AstraWheel_D
+ObjectTemplate.geometry gAstraTire
+ObjectTemplate.cullRadiusScale 128
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+ObjectTemplate.create SimpleObject AstraWheelLeft_D
+ObjectTemplate.geometry gAstraTire_Left
+ObjectTemplate.cullRadiusScale 128
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+ObjectTemplate.create SimpleObject AstraWheelsWreck
+ObjectTemplate.geometry gAstraWheelsWreck

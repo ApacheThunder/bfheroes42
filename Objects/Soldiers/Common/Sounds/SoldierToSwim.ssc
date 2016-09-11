@@ -1,0 +1,110 @@
+newPatch
+
+load @ROOT/Sound/@RTD/West_SFX_Character_swim_stroke_01.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+dopplerOff
+priority 1
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Character_swim_stroke_02.wav
+randomStartPitch 0.03 / 0.03
+minDistance 1
+dopplerOff
+priority 1
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Character_swim_stroke_03.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 30
+	param 1
+	param -1	
+endEffect
+
+randomPlay 1
+
+
+newPatch
+load @ROOT/Sound/@RTD/SOCRAWL4.wav
+randomStartPitch 0.05 / 0.05
+dopplerOff
+priority 1
+minDistance 1
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 5
+	param 1
+	param -1	
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .25
+	param .25
+	param 0
+	param 1
+endEffect
+
+trigger Volume
+
+
+load @ROOT/Sound/@RTD/SoMewa3.wav
+randomStartPitch 0.05 / 0.05
+dopplerOff
+priority 1
+minDistance 1
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 4
+	param 5
+	param 1
+	param -1	
+endEffect
+
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .35
+	param .35
+	param 0
+	param 1
+endEffect
+
+trigger Volume

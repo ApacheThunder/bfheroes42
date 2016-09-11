@@ -1,0 +1,101 @@
+ObjectTemplate.create EffectBundle e_WaterFrontFishingBoat
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript ../e_WaterFront/Sounds/e_WaterFront.ssc
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WaterFrontFishingBoat
+ObjectTemplate.setPosition 3.35/0/0
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_WaterFrontFishingBoatR
+ObjectTemplate.setPosition -3.35/0/0
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate Em_WaterFoamFishingBoatR
+ObjectTemplate.setPosition -3.2/0/0
+ObjectTemplate.addTemplate Em_WaterFoamFishingBoat
+ObjectTemplate.setPosition 3.2/0/0
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.minDistanceUnderwaterSurface 0
+ObjectTemplate.maxDistanceUnderwaterSurface 10
+
+
+ObjectTemplate.create Emitter Em_WaterFrontFishingBoat
+ObjectTemplate.template Fx_WaterFrontMesh
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/20/0
+ObjectTemplate.intensityAtSpeed 6
+ObjectTemplate.relativePositionInDof CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/1/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/4/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/-1/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/20/0/0
+
+ObjectTemplate.create Emitter Em_WaterFrontFishingBoatR
+ObjectTemplate.template Fx_WaterFrontMeshR
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/5/15/0
+ObjectTemplate.intensityAtSpeed 6
+ObjectTemplate.relativePositionInDof CRD_NONE/-1/0/0
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/0/1/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/4/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/-20/0/0
+
+ObjectTemplate.create Emitter Em_WaterFoamFishingBoat
+ObjectTemplate.template Fx_WaterFoam
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/15/0
+ObjectTemplate.intensityAtSpeed 6
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/2/1/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0.2/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/-10/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/2/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/-20/0/0
+
+ObjectTemplate.create Emitter Em_WaterFoamFishingBoatR
+ObjectTemplate.template Fx_WaterFoamR
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/11/15/0
+ObjectTemplate.intensityAtSpeed 6
+ObjectTemplate.relativePositionInUp CRD_UNIFORM/2/1/0
+ObjectTemplate.relativePositionInRight CRD_NONE/-0.2/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/-10/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/1/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/-2/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/-20/0/0

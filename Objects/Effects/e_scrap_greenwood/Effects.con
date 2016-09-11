@@ -1,0 +1,107 @@
+ObjectTemplate.create EffectBundle e_scrap_Greenwood
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------------
+ObjectTemplate.addTemplate em_greenwood_door_wreck
+ObjectTemplate.setPosition -1.04978/-0.185724/0.962945
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate em_Greenwood_hood_wreck
+ObjectTemplate.setPosition 0/0.315554/0.977333
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.addTemplate em_Greenwood_Tire_Wreck
+ObjectTemplate.setPosition 0.94384/-0.357/-1.74828
+rem ------------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+
+
+rem *** Greenwood_door_wreck ***
+ObjectTemplate.create Emitter em_Greenwood_door_wreck
+ObjectTemplate.template Greenwood_door_wreck
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.destroyed 1
+ObjectTemplate.removeAtRestart 1
+
+ObjectTemplate.create SimpleObject Greenwood_door_wreck
+ObjectTemplate.geometry Greenwood_door_wreck_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.drag 0.2
+ObjectTemplate.mass 150
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.destroyed 1
+ObjectTemplate.removeAtRestart 1
+
+rem *** Greenwood_hood_wreck ***
+ObjectTemplate.create Emitter em_Greenwood_hood_wreck
+ObjectTemplate.template Greenwood_hood_wreck
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/3/5/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/20/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create SimpleObject Greenwood_hood_wreck
+ObjectTemplate.geometry Greenwood_hood_wreck_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.drag 0.4
+ObjectTemplate.mass 100
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.destroyed 1
+ObjectTemplate.removeAtRestart 1
+
+rem *** Greenwood_Tire_Wreck ***
+ObjectTemplate.create Emitter em_Greenwood_Tire_Wreck
+ObjectTemplate.template Greenwood_Tire_Wreck
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 512
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/4/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create SimpleObject Greenwood_Tire_Wreck
+ObjectTemplate.geometry Greenwood_Tire_Wreck_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.drag 0.1
+ObjectTemplate.mass 100
+ObjectTemplate.timeToLiveAfterDeath 20
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.destroyed 1
+ObjectTemplate.removeAtRestart 1
+
+
+rem *** Modified version of e_WillyDamage
+
+ObjectTemplate.create EffectBundle e_GreenwoodDamage
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_WillyDamage
+ObjectTemplate.setPosition -0.5/0/-0.5
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_WillyDamage
+ObjectTemplate.setPosition 0/0/0.5
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_WillyDamage
+ObjectTemplate.setPosition 0.5/0/-0.5
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------

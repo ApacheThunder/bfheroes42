@@ -1,0 +1,105 @@
+ObjectTemplate.create EffectBundle e_RippenRocketPack
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_UNIFORM/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPack_mesh
+ObjectTemplate.setPosition 0.08/0.0797186/-0.17
+ObjectTemplate.setRotation 174.029/3.07307/-180.0
+ObjectTemplate.addTemplate Em_RippenRocketPack_mesh
+ObjectTemplate.setPosition 0.08/-0.0848398/-0.17
+ObjectTemplate.setRotation 175.164/-3.3888/-179.454
+ObjectTemplate.addTemplate Em_RocketPack_Smoker
+ObjectTemplate.setPosition 0.08/0.0797186/-0.17
+ObjectTemplate.setRotation 174.029/3.07307/-180.0
+ObjectTemplate.addTemplate Em_RocketPack_Smoker
+ObjectTemplate.setPosition 0.08/-0.0848398/-0.17
+ObjectTemplate.setRotation 175.164/-3.3888/-179.454
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+ObjectTemplate.create EffectBundle e_RippenRocketPack_alt
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_UNIFORM/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPack_mesh
+ObjectTemplate.setPosition 0.110905/0.0797186/-0.203
+ObjectTemplate.setRotation 174.029/3.07307/-180.0
+ObjectTemplate.addTemplate Em_RippenRocketPack_mesh
+ObjectTemplate.setPosition 0.110905/-0.0848398/-0.203
+ObjectTemplate.setRotation 175.164/-3.3888/-179.454
+ObjectTemplate.addTemplate Em_RocketPack_Smoker
+ObjectTemplate.setPosition 0.110905/0.0797186/-0.203
+ObjectTemplate.setRotation 174.029/3.07307/-180.0
+ObjectTemplate.addTemplate Em_RocketPack_Smoker
+ObjectTemplate.setPosition 0.110905/-0.0848398/-0.203
+ObjectTemplate.setRotation 175.164/-3.3888/-179.454
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+
+rem *** e_RocketPackDefault ***
+ObjectTemplate.create EffectBundle e_RippenRocketPackDefault
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.08/0.0797186/-0.17
+ObjectTemplate.setRotation 174.029/3.07307/-180.0
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.08/-0.0848398/-0.17
+ObjectTemplate.setRotation 175.164/-3.3888/-179.454
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+
+ObjectTemplate.create EffectBundle e_RippenRocketPackKitPart
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.110905/0.0797186/-0.203
+ObjectTemplate.setRotation 174.029/3.07307/-180.0
+ObjectTemplate.addTemplate Em_RippenRocketPackDefault_mesh
+ObjectTemplate.setPosition 0.110905/-0.0848398/-0.203
+ObjectTemplate.setRotation 175.164/-3.3888/-179.454
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 1
+
+
+ObjectTemplate.create Emitter Em_RippenRocketPack_mesh
+ObjectTemplate.template Fx_RippenRocketPack_mesh
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.intensity CRD_NONE/11/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.looping 1
+
+ObjectTemplate.create Emitter Em_RippenRocketPackDefault_mesh
+ObjectTemplate.template Fx_RippenRocketPackDefault_mesh
+ObjectTemplate.lodDistance 500
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_UNIFORM/0/180/1
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.looping 1
+
+ObjectTemplate.create Particle fx_RippenRocketPack_mesh
+ObjectTemplate.geometry e_jetfire_m1
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.size CRD_NONE/2.1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 0.15/0.15/0.18
+ObjectTemplate.sizeOverTime 0/1|100/0.1
+ObjectTemplate.alphaOverTime 0/0.1|100/0
+
+ObjectTemplate.create Particle fx_RippenRocketPackDefault_mesh
+ObjectTemplate.geometry e_jetfire_m1
+ObjectTemplate.timeToLive CRD_NONE/0.03/0/0
+ObjectTemplate.size CRD_NONE/1.6/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 0.15/0.15/0.05
+ObjectTemplate.sizeOverTime 1
+ObjectTemplate.alphaOverTime 1

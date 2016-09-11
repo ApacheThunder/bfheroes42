@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject mountains_01
+ObjectTemplate.geometry mountains_01_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.cullRadiusScale 5

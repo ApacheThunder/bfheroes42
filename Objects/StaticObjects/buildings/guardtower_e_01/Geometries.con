@@ -1,0 +1,5 @@
+GeometryTemplate.create StandardMesh guardtower_e_01_m1
+GeometryTemplate.file guardtower_e_01_m1
+
+GeometryTemplate.create StandardMesh guardtower_ladder_01_m1
+GeometryTemplate.file guardtower_ladder_01_m1

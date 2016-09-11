@@ -1,0 +1,350 @@
+newPatch
+###############
+### SOUND 1 ###
+###############
+load @ROOT/Sound/@RTD/dirtimpact1.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+###############
+### SOUND 2 ###
+###############
+load @ROOT/Sound/@RTD/dirtimpact2.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+###############
+### SOUND 3 ###
+###############
+load @ROOT/Sound/@RTD/dirtimpact3.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+
+###############
+### SOUND 4 ###
+###############
+load @ROOT/Sound/@RTD/stoneimpact6.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 4 ###
+###############
+load @ROOT/Sound/@RTD/stoneimpact5.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 4 ###
+###############
+load @ROOT/Sound/@RTD/stoneimpact7.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 4 ###
+###############
+load @ROOT/Sound/@RTD/stoneimpact8.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 15
+	param 1
+	param -1	
+endEffect
+
+################################
+
+###############
+### SOUND 1 ###
+###############
+load @ROOT/Sound/@RTD/richo1.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 2 ###
+###############
+load @ROOT/Sound/@RTD/richo2.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 3 ###
+###############
+load @ROOT/Sound/@RTD/richo3.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+
+###############
+### SOUND 4 ###
+###############
+load @ROOT/Sound/@RTD/richo4.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 5 ###
+###############
+load @ROOT/Sound/@RTD/richo5.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 6 ###
+###############
+load @ROOT/Sound/@RTD/richo6.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 7 ###
+###############
+load @ROOT/Sound/@RTD/richo7.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+###############
+### SOUND 8 ###
+###############
+load @ROOT/Sound/@RTD/richo8.wav
+priority -10
+minDistance 4
+randomStartPitch 0.05 / 0.05
+volume .9
+dopplerOff
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 9
+	param 15
+	param 1
+	param -1	
+endEffect
+
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+#################
+### RANDOMIZE ###
+#################
+randomPlay 1

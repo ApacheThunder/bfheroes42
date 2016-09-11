@@ -1,0 +1,79 @@
+rem
+rem *** Supply and repair depots ***
+rem
+
+ObjectTemplate.create SupplyDepot RA_SoldierSupplyDepot
+ObjectTemplate.radius 5
+ObjectTemplate.team 2
+ObjectTemplate.setHealth -1 4.0 0
+ObjectTemplate.addAmmoType 50 -1 1 0
+ObjectTemplate.workOnVehicles 0
+ObjectTemplate.workOnSoldiers 1
+
+ObjectTemplate.create SupplyDepot NA_SoldierSupplyDepot
+ObjectTemplate.radius 5
+ObjectTemplate.team 1
+ObjectTemplate.setHealth -1 4.0 0
+ObjectTemplate.addAmmoType 50 -1 1 0
+ObjectTemplate.workOnVehicles 0
+ObjectTemplate.workOnSoldiers 1
+
+ObjectTemplate.create SupplyDepot SoldierSupplyDepot
+ObjectTemplate.radius 5
+ObjectTemplate.team 2
+ObjectTemplate.setHealth -1 4.0 0
+ObjectTemplate.addAmmoType 50 -1 1 0
+ObjectTemplate.workOnVehicles 0
+ObjectTemplate.workOnSoldiers 1
+
+rem *** VehicleSupplyDepot ***
+ObjectTemplate.create SupplyDepot RA_VehicleSupplyDepot
+ObjectTemplate.radius 15
+ObjectTemplate.team 2
+ObjectTemplate.addVehicleType bri_boat_elin -1 4 0
+ObjectTemplate.addVehicleType bri_boat_lcvp -1 4 0
+ObjectTemplate.addVehicleType bri_helicopter_sikorsky -1 4 0
+ObjectTemplate.addVehicleType bri_jeep_willys -1 4 0
+ObjectTemplate.addVehicleType bri_MiniTank -1 4 0
+ObjectTemplate.addVehicleType bri_plane_spitfire -1 4 0
+ObjectTemplate.addVehicleType bri_tank_sherman -1 4 0
+ObjectTemplate.addVehicleType Astra -1 4 0
+ObjectTemplate.addVehicleType Greenwood -1 4 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0
+
+rem *** VehicleSupplyDepot ***
+ObjectTemplate.create SupplyDepot NA_VehicleSupplyDepot
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.addVehicleType ger_boat_lcvp -1 4 0
+ObjectTemplate.addVehicleType ger_boat_slingan -1 4 0
+ObjectTemplate.addVehicleType ger_helicopter_flettner -1 4 0
+ObjectTemplate.addVehicleType ger_jeep_kubelwagen -1 4 0
+ObjectTemplate.addVehicleType ger_MiniTank -1 4 0
+ObjectTemplate.addVehicleType ger_plane_messerschmitt -1 4 0
+ObjectTemplate.addVehicleType ger_tank_panzeriv -1 4 0
+ObjectTemplate.addVehicleType Astra -1 4 0
+ObjectTemplate.addVehicleType Greenwood -1 4 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0
+
+
+ObjectTemplate.create SupplyDepot VehicleSupplyDepot
+ObjectTemplate.radius 15
+ObjectTemplate.addVehicleType bri_boat_elin -1 4 0
+ObjectTemplate.addVehicleType bri_boat_lcvp -1 4 0
+ObjectTemplate.addVehicleType bri_helicopter_sikorsky -1 4 0
+ObjectTemplate.addVehicleType bri_jeep_willys -1 4 0
+ObjectTemplate.addVehicleType bri_MiniTank -1 4 0
+ObjectTemplate.addVehicleType bri_plane_spitfire -1 4 0
+ObjectTemplate.addVehicleType bri_tank_sherman -1 4 0
+ObjectTemplate.addVehicleType ger_boat_lcvp -1 4 0
+ObjectTemplate.addVehicleType ger_boat_slingan -1 4 0
+ObjectTemplate.addVehicleType ger_helicopter_flettner -1 4 0
+ObjectTemplate.addVehicleType ger_jeep_kubelwagen -1 4 0
+ObjectTemplate.addVehicleType ger_MiniTank -1 4 0
+ObjectTemplate.addVehicleType ger_plane_messerschmitt -1 4 0
+ObjectTemplate.addVehicleType ger_tank_panzeriv -1 4 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0

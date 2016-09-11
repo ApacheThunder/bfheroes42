@@ -1,0 +1,89 @@
+renderer.beginGlobalCluster ger_tank_panzeriv
+
+GeometryTemplate.create StandardMesh ger_tank_turret_m1
+GeometryTemplate.file Vehicles/ger_tank_turret_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_tank_turretShadow_m1
+GeometryTemplate.file Vehicles/ger_tank_turretShadow_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ger_tank_panzeriv_m1
+GeometryTemplate.file Vehicles/ger_tank_panzeriv_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create AnimatedMesh ger_tank_L_Track_m1
+GeometryTemplate.file Vehicles/ger_tank_L_Track_m1
+GeometryTemplate.setSkin animations/ger_tank_L_Track_m1.skn
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create AnimatedMesh ger_tank_R_Track_m1
+GeometryTemplate.file Vehicles/ger_tank_R_Track_m1
+GeometryTemplate.setSkin animations/ger_tank_R_Track_m1.skn
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_tank_GunBase_m1
+GeometryTemplate.file Vehicles/ger_tank_GunBase_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_tank_gun_m1
+GeometryTemplate.file Vehicles/ger_tank_gun_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_tank_Wheel_m1
+GeometryTemplate.file Vehicles/ger_tank_Wheel_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_tank_L_Frontwhl_m1
+GeometryTemplate.file Vehicles/ger_tank_L_Frontwhl_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_tank_R_Frontwhl_m1
+GeometryTemplate.file Vehicles/ger_tank_R_Frontwhl_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+GeometryTemplate.cullFactor 0
+
+GeometryTemplate.create StandardMesh ger_tank_BackWhl_m1
+GeometryTemplate.file Vehicles/ger_tank_BackWhl_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+GeometryTemplate.cullFactor 0
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh ger_tank_panzeriv_m2
+GeometryTemplate.file Vehicles/ger_tank_panzeriv_m2
+
+GeometryTemplate.create StandardMesh ger_tank_wreck_M1
+GeometryTemplate.file Vehicles/ger_tank_wreck_m1
+GeometryTemplate.hasDynamicShadow 1
+
+
+rem
+rem *** Space Geometries ***
+rem
+
+GeometryTemplate.create StandardMesh digger_national_hull_m2
+GeometryTemplate.file Vehicles/digger_national_hull_m2
+
+GeometryTemplate.create StandardMesh digger_national_hullparts_m1
+GeometryTemplate.file Vehicles/digger_national_hullparts_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh digger_national_turretparts_m1
+GeometryTemplate.file Vehicles/digger_national_turretparts_m1
+
+GeometryTemplate.create StandardMesh digger_national_wreck_m1
+GeometryTemplate.file Vehicles/digger_national_wreck_m1

@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject ruinblock_ramp_01
+ObjectTemplate.geometry ruinblock_ramp_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

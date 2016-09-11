@@ -1,0 +1,16 @@
+rem Rain FX by BunnySnot
+rem Textured by SupaFly and USAF 777
+
+rem renderer.beginGlobalCluster Rain
+
+GeometryTemplate.create StandardMesh Rain_m1
+GeometryTemplate.file rain_m1
+beginrem
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 600
+endrem
+rem renderer.endGlobalCluster

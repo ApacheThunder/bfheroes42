@@ -1,0 +1,17 @@
+GeometryTemplate.create StandardMesh highbrickwall_4m_m1
+GeometryTemplate.file highbrickwall_4m_m1
+
+GeometryTemplate.create StandardMesh highbrickwall_8m_m1
+GeometryTemplate.file highbrickwall_8m_m1
+
+GeometryTemplate.create StandardMesh highbrickwall_8m_arch_m1
+GeometryTemplate.file highbrickwall_8m_arch_m1
+
+GeometryTemplate.create StandardMesh highbrickwall_16m_m1
+GeometryTemplate.file highbrickwall_16m_m1
+
+GeometryTemplate.create StandardMesh highbrickwall_endpiece_m1
+GeometryTemplate.file highbrickwall_endpiece_m1
+
+GeometryTemplate.create StandardMesh highbrickwall_inverted_8m_m1
+GeometryTemplate.file highbrickwall_inverted_8m_m1

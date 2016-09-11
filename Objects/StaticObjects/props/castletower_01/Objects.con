@@ -1,0 +1,15 @@
+ObjectTemplate.create Bundle castletower_01
+ObjectTemplate.geometry castletower_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+rem
+rem *** Add This For Night Maps ***
+rem
+
+ObjectTemplate.create SimpleObject castletower_glow_01
+ObjectTemplate.geometry castletower_glow_01_m1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

@@ -1,0 +1,91 @@
+rem *** Modified vanilla meshes with shadows enabled. ***
+ObjectTemplate.create KitPart German_Helmet_ds
+ObjectTemplate.geometry German_Helmet_ds
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart German_hippack_ds
+ObjectTemplate.geometry German_hippack_ds
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart German_Medic_hippack_ds
+ObjectTemplate.geometry German_Medic_hippack_ds
+ObjectTemplate.setBoneName hippack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart Medic_helm_ger_ds
+ObjectTemplate.geometry Medic_helm_ger_ds
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart German_Scout_Helm_ds
+ObjectTemplate.geometry ger_Scouthelm_ds
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+
+ObjectTemplate.create KitPart Radio_ds
+ObjectTemplate.geometry Radio_ds
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart US_Britt_Bacpac_ds
+ObjectTemplate.geometry US_Britt_Bacpac_ds
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart Brit_Scout_helm_ds
+ObjectTemplate.geometry Brit_Scouthelm_ds
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart Brit_helmet_ds
+ObjectTemplate.geometry Brit_helmet_ds
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart British_hippack_ds
+ObjectTemplate.geometry British_hippack_ds
+ObjectTemplate.setBoneName HipPack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart Medic_helm_brit_ds
+ObjectTemplate.geometry Medic_helm_brit_ds
+ObjectTemplate.setBoneName A
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart GB_Medic_hippack_ds
+ObjectTemplate.geometry brit_Medic_hippack_ds
+ObjectTemplate.setBoneName hippack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart brit_Assault_BackPack_ds
+ObjectTemplate.geometry brit_Assault_Bacpac_ds
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart BacpacBig_us_Bri_ds
+ObjectTemplate.geometry BacpacBig_us_Bri_ds
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1
+
+ObjectTemplate.create KitPart BacpacBig_ger_ds
+ObjectTemplate.geometry BacpacBig_ger_ds
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.hasDynamicShadow 1

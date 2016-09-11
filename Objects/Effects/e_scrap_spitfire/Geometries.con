@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh bri_plane_spitfire_w_Rwing_m1
+GeometryTemplate.file Vehicles/bri_plane_spitfire_w_Rwing_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_plane_spitfire_w_Tail_m1
+GeometryTemplate.file Vehicles/bri_plane_spitfire_w_Tail_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh bri_plane_spitfire_w_wing_m1
+GeometryTemplate.file Vehicles/bri_plane_spitfire_w_wing_m1
+GeometryTemplate.hasDynamicShadow 1

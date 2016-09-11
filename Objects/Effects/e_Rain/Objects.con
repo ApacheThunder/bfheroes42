@@ -1,0 +1,130 @@
+rem Bundles by USAF 777, so it doesn't take 81 separate objects for the smallest map or the 1024 object.
+rem RainStorm1024 fills 1024x1024 size map when placed in center, RainStorm2048 for 2048x2048 maps.
+
+rem -------------------------------------
+ObjectTemplate.create Bundle RainStorm2048
+rem -------------------------------------
+ObjectTemplate.addTemplate RainStorm1024
+ObjectTemplate.setPosition 562.5/0/562.5
+ObjectTemplate.addTemplate RainStorm1024
+ObjectTemplate.setPosition -562.5/0/-562.5
+ObjectTemplate.addTemplate RainStorm1024
+ObjectTemplate.setPosition 562.5/0/-562.5
+ObjectTemplate.addTemplate RainStorm1024
+ObjectTemplate.setPosition -562.5/0/562.5
+
+rem -------------------------------------
+ObjectTemplate.create Bundle RainStorm1024
+rem -------------------------------------
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/500
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/375
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/250
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/125
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/-125
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/-250
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/-375
+ObjectTemplate.addTemplate RainRow
+ObjectTemplate.setPosition 0/0/-500
+
+rem -------------------------------------
+ObjectTemplate.create Bundle RainRow
+rem -------------------------------------
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition 500/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition 375/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition 250/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition 125/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition -125/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition -250/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition -375/0/0
+ObjectTemplate.addTemplate Rain
+ObjectTemplate.setPosition -500/0/0
+
+rem *** Bundles ***
+
+rem Rain FX by BunnySnot
+ObjectTemplate.create Bundle Rain
+rem -------------------------------------
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition -50/0/50
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition -50/0/25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition -50/0/0
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition -50/0/-25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition -50/0/-50
+ObjectTemplate.setRotation 0/75/0
+rem -------------------------------------
+
+
+rem -------------------------------------
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 0/0/50
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 0/0/25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 0/0/-25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 0/0/-50
+ObjectTemplate.setRotation 0/75/0
+rem -------------------------------------
+
+
+rem -------------------------------------
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 50/0/50
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition -50/0/25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 50/0/0
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 50/0/-25
+ObjectTemplate.setRotation 0/75/0
+
+ObjectTemplate.addTemplate e_Rain
+ObjectTemplate.setPosition 50/0/-50
+ObjectTemplate.setRotation 0/75/0
+rem -------------------------------------

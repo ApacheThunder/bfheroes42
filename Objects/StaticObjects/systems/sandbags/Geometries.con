@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh sandbags_4m_m1
+GeometryTemplate.file sandbags_4m_m1
+
+GeometryTemplate.create StandardMesh sandbags_lshape_4m_m1
+GeometryTemplate.file sandbags_lshape_4m_m1
+
+GeometryTemplate.create StandardMesh sandbags_ushape_m1
+GeometryTemplate.file sandbags_ushape_m1

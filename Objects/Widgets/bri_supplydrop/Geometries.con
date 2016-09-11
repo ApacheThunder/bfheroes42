@@ -1,0 +1,30 @@
+GeometryTemplate.create StandardMesh SmokeGrenade_BLUE
+GeometryTemplate.file HandWeapons\DCX_BLUESmokeGrenade
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 5
+GeometryTemplate.setLodDistance 2 60
+
+GeometryTemplate.create StandardMesh Shad_SmokeGrenade_BLUE
+GeometryTemplate.file HandWeapons\DCX_BLUESmokeGrenade
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 300
+
+GeometryTemplate.create StandardMesh SmokeGrenadePigg
+GeometryTemplate.file gran_al_Pigg_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 7
+GeometryTemplate.setLodDistance 3 10
+GeometryTemplate.setLodDistance 4 20
+GeometryTemplate.setLodDistance 5 40
+
+GeometryTemplate.create StandardMesh SmokeGrenadeSprint
+GeometryTemplate.file gran_al_Sprint_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 7
+GeometryTemplate.setLodDistance 3 10
+GeometryTemplate.setLodDistance 4 20
+GeometryTemplate.setLodDistance 5 40

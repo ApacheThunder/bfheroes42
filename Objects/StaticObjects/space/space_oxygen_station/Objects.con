@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject space_oxygen_station
+ObjectTemplate.geometry space_oxygen_station_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects

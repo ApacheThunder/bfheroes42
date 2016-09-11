@@ -1,0 +1,2 @@
+GeometryTemplate.create StandardMesh hoth_rocket_pco_m1
+GeometryTemplate.file Vehicles/hoth_rocket_pco_m1

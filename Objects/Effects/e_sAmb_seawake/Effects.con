@@ -1,0 +1,60 @@
+rem
+rem *** ambstat_seawake ***
+rem
+
+
+ObjectTemplate.create Bundle ambstat_seawake
+ObjectTemplate.geometry deathbox_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+rem ---------------------------------------
+ObjectTemplate.addTemplate e_sAmb_seawake
+
+
+ObjectTemplate.create EffectBundle e_sAmb_seawake
+ObjectTemplate.saveInSeparateFile 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate em_sAmb_seawakeSingle
+ObjectTemplate.addTemplate em_sAmb_seawakeBigChunk
+rem ----------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter em_sAmb_seawakeSingle
+ObjectTemplate.template Fx_sAmb_seawake
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 368
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/2/3/0
+ObjectTemplate.timeToLive CRD_NONE/4/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+
+ObjectTemplate.create Emitter em_sAmb_seawakeBigChunk
+ObjectTemplate.template Fx_sAmb_seawakeBigChunk
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 368
+ObjectTemplate.delay CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInRight CRD_UNIFORM/10/-10/0
+ObjectTemplate.positionalSpeedInDoF CRD_UNIFORM/2/3/0
+ObjectTemplate.timeToLive CRD_NONE/4/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+
+ObjectTemplate.create Particle Fx_sAmb_seawakeSingle
+ObjectTemplate.geometry seawake_m1
+ObjectTemplate.timeToLive CRD_NONE/4/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/1|50/1.25|100/2
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 10/10/10
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+
+ObjectTemplate.create Particle Fx_sAmb_seawakeBigChunk
+ObjectTemplate.geometry seawake_m1
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.sizeOverTime 0/1|50/1.15|100/1.3
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 5/5/5
+ObjectTemplate.alphaOverTime 0/1|75/1|100/0
+

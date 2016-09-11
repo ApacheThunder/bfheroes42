@@ -1,0 +1,7 @@
+GeometryTemplate.create AnimatedMesh Parachute
+GeometryTemplate.setSkin animations/Parachute_m1.skn
+GeometryTemplate.file Parachute_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh ParachuteStatic
+GeometryTemplate.file Parachute_m1

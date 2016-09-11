@@ -1,0 +1,52 @@
+ObjectTemplate.create HandFireArms bri_miniTankKeg
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.loadSoundScript ../../Abilities/Sounds/PocketTank.ssc
+ObjectTemplate.aiTemplate MiniTank_Handweapon
+ObjectTemplate.itemIndex 5
+ObjectTemplate.projectileTemplate bri_MiniTank
+ObjectTemplate.projectilePosition 0/3/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 5
+ObjectTemplate.roundOfFire 1
+rem ObjectTemplate.fireOnce 1
+ObjectTemplate.GUIIndex 14
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/icon_GenericBlastAmmo.tga"
+ObjectTemplate.crossHairIcon "Crosshair/shotgun.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 0
+ObjectTemplate.velocity 10
+ObjectTemplate.addRootSpeed 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.fireDelay 0.4
+ObjectTemplate.soldierCameraPosition 0.02/-0.03/0.25
+ObjectTemplate.changeWeaponWhenNoAmmo 0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.AmmoType	2
+ObjectTemplate.autoReload 1
+ObjectTemplate.disableWhenFired 1
+rem -------------------------------------
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate Laptop_ShadLod
+
+ObjectTemplate.create LodObject Laptop_shadLod
+ObjectTemplate.hasDynamicShadow 1
+rem --------------------------------------------
+ObjectTemplate.addTemplate Laptop_shadComplex
+ObjectTemplate.setPosition 0/0/-0.075
+ObjectTemplate.addTemplate Laptop_shadSimple
+ObjectTemplate.setPosition 0/0/-0.075
+rem --------------------------------------------
+ObjectTemplate.lodselector HandWeaponLodSelector
+
+ObjectTemplate.create AnimatedBundle Laptop_shadComplex
+ObjectTemplate.createSkeleton animations/ExpPack.ske
+ObjectTemplate.geometry laptop_shad_m1
+ObjectTemplate.hasDynamicShadow 1
+
+
+ObjectTemplate.create SimpleObject Laptop_shadSimple
+ObjectTemplate.geometry laptop_shad_m1

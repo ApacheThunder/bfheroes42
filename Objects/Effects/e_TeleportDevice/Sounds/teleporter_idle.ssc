@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Weapon_COM_Utility_Teleport_LoopSound_3P.wav
+loop
+minDistance 20
+priority 1
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 10
+	param 20
+	param 1
+	param -1	
+endEffect

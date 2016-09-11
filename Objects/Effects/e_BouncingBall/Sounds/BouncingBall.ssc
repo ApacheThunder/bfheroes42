@@ -1,0 +1,32 @@
+newPatch
+load @ROOT/Sound/@RTD/BallBounce01.wav
+minDistance 5
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 20
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/BallBounce02.wav
+minDistance 5
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 20
+	param 1
+	param -1
+endEffect
+
+randomPlay 1
