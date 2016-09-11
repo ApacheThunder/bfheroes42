@@ -1,0 +1,138 @@
+rem *** Fly forward
+AnimationStateMachine.createState Lb_ExplosionForward
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionFlyForwardLower.baf 1 c_AsmLooping
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 50.0
+AnimationStateMachine.addIdle Lb_ExplosionLandFront
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_ExplosionForward
+AnimationStateMachine.setOtherState c_AsmFaceState FaceScream
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionFlyForwardUpper.baf 1 c_AsmLooping
+AnimationStateMachine.addIdle Ub_ExplosionLandFront
+AnimationStateMachine.setMorphFactor 50.0
+
+rem *** Fly Backward
+AnimationStateMachine.createState Lb_ExplosionBackward
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionFlyBackwardLower.baf 1 c_AsmLooping
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 50.0
+AnimationStateMachine.addIdle Lb_ExplosionLandFront
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_ExplosionBackward
+AnimationStateMachine.setOtherState c_AsmFaceState FaceScream
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionFlyBackwardUpper.baf 1 c_AsmLooping
+AnimationStateMachine.addIdle Ub_ExplosionLandFront
+AnimationStateMachine.setMorphFactor 50.0
+
+rem *** land front
+AnimationStateMachine.createState Lb_ExplosionLandFront
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionLandFrontLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_ExplosionLandFront
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionLandFrontUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 10.0
+
+AnimationStateMachine.createState Lb_ExplosionLandFrontSurvive
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3pExplosionLandFrontLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Lb_ExplosionLandFrontSurviveStandUp
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Lb_ExplosionLandFrontSurviveStandUp
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3pExplosionGetUpFrontLower.baf 0.5 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Lb_Stand
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_ExplosionLandFrontSurvive
+AnimationStateMachine.addAnimation animations/DieHit/3p/EmptyHands/3pExplosionLandFrontUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Ub_ExplosionLandFrontSurviveStandUp
+
+AnimationStateMachine.createState Ub_ExplosionLandFrontSurviveStandUp
+AnimationStateMachine.addAnimation animations/DieHit/3p/EmptyHands/3pExplosionGetUpFrontUpper.baf 0.5 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Ub_StandAim
+
+rem *** land Back
+AnimationStateMachine.createState Lb_ExplosionLandBack
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionLandBackLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_ExplosionLandBack
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.addAnimation animations/Ragdoll/3pExplosionLandBackUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 10.0
+
+AnimationStateMachine.createState Lb_ExplosionLandBackSurvive
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3pExplosionLandBackLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.addTransitionWhenDone Lb_ExplosionLandBackSurviveStandUp
+
+AnimationStateMachine.createState Lb_ExplosionLandBackSurviveStandUp
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3pExplosionGetUpFrontLower.baf 0.5 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.addTransitionWhenDone Lb_Stand
+
+AnimationStateMachine.createState Ub_ExplosionLandBackSurvive
+AnimationStateMachine.addAnimation animations/DieHit/3p/EmptyHands/3pExplosionLandBackUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.addTransitionWhenDone Ub_ExplosionLandBackSurviveStandUp
+
+AnimationStateMachine.createState Ub_ExplosionLandBackSurviveStandUp
+AnimationStateMachine.addAnimation animations/DieHit/3p/EmptyHands/3pExplosionGetUpFrontUpper.baf 0.5 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.addTransitionWhenDone Ub_StandAim
+
+
+rem *** Bounce front
+AnimationStateMachine.createState Lb_ExplosionBounceFront
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3pExplosionBounceFrontLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.addTransitionWhenDone Lb_ExplosionBackward
+
+AnimationStateMachine.createState Ub_ExplosionBounceFront
+AnimationStateMachine.addAnimation animations/DieHit/3p/EmptyHands/3pExplosionBounceFrontUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.addTransitionWhenDone Ub_ExplosionBackward
+
+rem *** Bounce back
+AnimationStateMachine.createState Lb_ExplosionBounceBack
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3pExplosionBounceBackLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.addTransitionWhenDone Lb_ExplosionForward
+
+AnimationStateMachine.createState Ub_ExplosionBounceBack
+AnimationStateMachine.addAnimation animations/DieHit/3p/EmptyHands/3pExplosionBounceBackUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.addTransitionWhenDone Ub_ExplosionForward

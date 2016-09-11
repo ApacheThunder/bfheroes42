@@ -1,0 +1,648 @@
+rem
+rem **** Animation States ****
+rem
+
+
+AnimationStateMachine.createState Ub_IdleMoonraker1
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3pIdle1Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1pIdle1Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_RunBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionWhenDone Ub_StandAimMoonraker
+
+AnimationStateMachine.createState Ub_IdleMoonraker2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3pIdle2Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1pIdle2Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_RunBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionWhenDone Ub_StandAimMoonraker
+
+AnimationStateMachine.createState Ub_IdleMoonraker3
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3pIdle3Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1pIdle3Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_RunBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionWhenDone Ub_StandAimMoonraker
+
+rem ******* Crouch *****
+AnimationStateMachine.createState Ub_CrouchIdleMoonraker1
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3pIdle1Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1pIdle1Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_CrouchForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_CrouchBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionWhenDone Ub_CrouchMoonraker
+
+AnimationStateMachine.createState Ub_CrouchIdleMoonraker2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3pIdle2Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1pIdle2Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_CrouchForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_CrouchBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionWhenDone Ub_CrouchMoonraker
+
+AnimationStateMachine.createState Ub_CrouchIdleMoonraker3
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3pIdle3Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1pIdle3Moonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_CrouchForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_CrouchBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionWhenDone Ub_CrouchMoonraker
+
+
+AnimationStateMachine.createState Ub_StandRaiseWeaponMoonraker
+AnimationStateMachine.setOtherState c_AsmFaceState FaceLook2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PDeployMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PDeployMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.setMorphFactor 10000.0
+
+AnimationStateMachine.createState Ub_CrouchRaiseWeaponMoonraker
+AnimationStateMachine.setOtherState c_AsmFaceState FaceLook2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PDeployMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PDeployMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.setMorphFactor 10000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+
+AnimationStateMachine.createState Ub_LieRaiseWeaponMoonraker
+AnimationStateMachine.setOtherState c_AsmFaceState FaceLook2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PLieDeployMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PLieDeployMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.setMorphFactor 10000.0
+
+
+AnimationStateMachine.createState Ub_CrouchMoonraker
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Moonraker/3PCrouchBreathUpperMoonraker.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1PStandAimMoonraker.baf 0.5 1
+AnimationStateMachine.addIdle Ub_CrouchIdleMoonraker1
+AnimationStateMachine.addIdle Ub_CrouchIdleMoonraker2
+AnimationStateMachine.addIdle Ub_CrouchIdleMoonraker3
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_CrouchForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_CrouchBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionOne c_PICrouch  0.5 100.0 Ub_CrouchMoonraker
+AnimationStateMachine.returnToState Ub_CrouchToStand
+AnimationStateMachine.setMorphFactor 0.7
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Ub_CrouchTurnMoonraker
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Moonraker/3PCrouchForwardUpperMoonraker.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 9999 Ub_CrouchForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_CrouchBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_CrouchTurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_CrouchTurnMoonraker
+AnimationStateMachine.returnToState Ub_CrouchMoonraker 
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+
+AnimationStateMachine.createState Ub_CrouchForwardMoonraker
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Moonraker/3PCrouchForwardUpperMoonraker.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 9999 Ub_CrouchForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_CrouchBackwardMoonraker
+AnimationStateMachine.returnToState Ub_CrouchMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Ub_CrouchBackwardMoonraker
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Moonraker/3PCrouchForwardUpperMoonraker.baf -1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf -0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 9999 Ub_CrouchForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_CrouchBackwardMoonraker
+AnimationStateMachine.returnToState Ub_CrouchMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+
+AnimationStateMachine.createState Ub_CrouchStrafeLeftMoonraker
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Moonraker/3PCrouchForwardUpperMoonraker.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftMoonraker
+AnimationStateMachine.returnToState Ub_CrouchMoonraker 
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Ub_CrouchStrafeRightMoonraker
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Moonraker/3PCrouchForwardUpperMoonraker.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightMoonraker
+AnimationStateMachine.returnToState Ub_CrouchMoonraker 
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+
+rem *** Upper Body Lie
+
+AnimationStateMachine.createState Ub_CrouchToLieMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PCrouch2LieUpperMoonraker.baf 1.6 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setFlag c_AsmIsLying
+
+AnimationStateMachine.createState Ub_LieToCrouchMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PCrouch2LieUpperMoonraker.baf -2 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone Ub_CrouchMoonraker
+AnimationStateMachine.setMorphFactor 4.0
+
+AnimationStateMachine.createState Ub_LieToStandMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PCrouch2LieUpperMoonraker.baf -2 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.addTransitionWhenDone Ub_CrouchToStand
+AnimationStateMachine.setFlag c_AsmIsLying
+
+rem *** Upper Moonraker *****
+AnimationStateMachine.createState Ub_LieMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PLieBreathUpperMoonraker.baf 1 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pLieAimMoonraker.baf 0.2 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_LieForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_LieBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_LieStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_LieStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Ub_LieTurnLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Ub_LieTurnRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_LieAltFireMoonraker
+AnimationStateMachine.returnToState Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 0.7
+
+
+AnimationStateMachine.createState Ub_LieForwardMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PLieForwardUpperMoonraker.baf 1 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pCrawlMoonraker.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_LieAltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_LieForwardMoonraker
+AnimationStateMachine.returnToState Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_LieBackwardMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PLieForwardUpperMoonraker.baf -1 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pCrawlMoonraker.baf -1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_LieAltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_LieBackwardMoonraker
+AnimationStateMachine.returnToState Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+rem --- Turn ---
+AnimationStateMachine.createState Ub_LieTurnLeftMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PLieTurnLeftUpperMoonraker.baf 2 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pCrawlMoonraker.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_LieAltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_LieForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_LieBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Ub_LieTurnLeftMoonraker
+AnimationStateMachine.returnToState Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_LieTurnRightMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PLieTurnRightUpperMoonraker.baf 2 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pCrawlMoonraker.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_LieAltFireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_LieForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_LieBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Ub_LieTurnRightMoonraker
+AnimationStateMachine.returnToState Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+rem ----- Strafe ------
+AnimationStateMachine.createState Ub_LieStrafeLeftMoonraker
+AnimationStateMachine.setSoundTrigger c_SstCrawlMove
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PLieTurnLeftUpperMoonraker.baf 2 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pCrawlMoonraker.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_LieForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_LieBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_LieStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_LieStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Ub_LieTurnRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Ub_LieTurnLeftMoonraker
+AnimationStateMachine.returnToState Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_LieStrafeRightMoonraker
+AnimationStateMachine.setSoundTrigger c_SstCrawlMove
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PLieTurnRightUpperMoonraker.baf 2 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pCrawlMoonraker.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_LieForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_LieBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_LieStrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_LieStrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Ub_LieTurnRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Ub_LieTurnLeftMoonraker
+AnimationStateMachine.returnToState Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_RunStandToLieMoonraker
+AnimationStateMachine.addAnimation Animations/Lie/3p/Moonraker/3PJump2LieUpperMoonraker.baf 1.5 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone Ub_LieMoonraker
+AnimationStateMachine.setMorphFactor 4.0
+
+
+rem
+rem *** Hold and fire (2 parts animtions) weapon: Moonraker, Sg44 etc.
+rem
+
+AnimationStateMachine.createState Ub_FireMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PFireMoonraker.baf 5 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PFireMoonraker.baf 10 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.returnToState _POSE_
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Ub_FireEndMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PFireEndMoonraker.baf 2 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PFireEndMoonraker.baf 1.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_RunBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 12.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+
+AnimationStateMachine.createState Ub_LieFireMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PLieFireMoonraker.baf 5 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PLieFireMoonraker.baf 10 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.returnToState _POSE_
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setFlag c_AsmIsLying
+AnimationStateMachine.setOtherState c_AsmFaceState FaceAim2
+
+AnimationStateMachine.createState Ub_LieFireEndMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PLieFireEndMoonraker.baf 2 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PLieFireEndMoonraker.baf 1.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 12.0
+AnimationStateMachine.setFlag c_AsmIsLying
+
+
+rem ***************************
+rem *** Weapon is ejecting clip
+rem ***************************
+AnimationStateMachine.createState Ub_StandEjectClipMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PEjectClipMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponEjectClipMoonraker
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 10000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+
+AnimationStateMachine.createState Ub_LieEjectClipMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PLieEjectClipMoonraker.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponEjectClipMoonraker
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 10000.0
+
+rem ***************************
+rem *** Weapon is ejecting clip
+rem ***************************
+AnimationStateMachine.createState WeaponEjectClipMoonraker
+AnimationStateMachine.addAnimation Animations/Weapons/Moonraker/MoonrakerEjectClip.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 10000.0
+
+
+rem ***************************
+rem *** Fire Weapon Looping
+rem ***************************
+AnimationStateMachine.createState WeaponFireMoonraker
+AnimationStateMachine.addAnimation Animations/Weapons/Moonraker/MoonrakerFire.baf 1.0 c_AsmLooping
+AnimationStateMachine.addTransitionWhenDone StopDummyState
+AnimationStateMachine.setMorphFactor 10000.0
+
+
+
+AnimationStateMachine.createState Ub_StandMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PStandUpperMoonraker.baf 0.8 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1PStandMoonraker.baf 0.1 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_RunBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_TurnMoonraker
+AnimationStateMachine.returnToState Ub_StandMoonraker
+AnimationStateMachine.setMorphFactor 0.3
+
+AnimationStateMachine.createState Ub_TurnMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PRunUpperMoonraker.baf 1.6 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.7 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 1 0.5 Ub_RunBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  1 0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 1 0.01 Ub_TurnMoonraker
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.01 1 Ub_TurnMoonraker
+AnimationStateMachine.returnToState Ub_StandAimMoonraker 
+AnimationStateMachine.setMorphFactor 2.0
+
+AnimationStateMachine.createState Ub_StandAimMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PStandAimUpperMoonraker.baf 0.8 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1PStandAimMoonraker.baf 0.1 1
+AnimationStateMachine.addIdle Ub_IdleMoonraker1
+AnimationStateMachine.addIdle Ub_IdleMoonraker2
+AnimationStateMachine.addIdle Ub_IdleMoonraker3
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_RunBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.returnToState Ub_StandAimMoonraker
+AnimationStateMachine.setMorphFactor 0.7
+
+rem --- Walk ----
+AnimationStateMachine.createState Ub_WalkForwardMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PWalkUpperMoonraker.baf 0.7 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_WalkForwardMoonraker
+AnimationStateMachine.addToLatestTransition c_PIWalk 0.5 1
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_WalkBackwardMoonraker
+AnimationStateMachine.addToLatestTransition c_PIWalk 0.5 1
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpMoonraker
+AnimationStateMachine.returnToState Ub_StandAimMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_WalkBackwardMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PWalkUpperMoonraker.baf -0.7 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf -0.5 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_WalkForwardMoonraker
+AnimationStateMachine.addToLatestTransition c_PIWalk 0.5 1
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_WalkBackwardMoonraker
+AnimationStateMachine.addToLatestTransition c_PIWalk 0.5 1
+AnimationStateMachine.returnToState Ub_StandAimMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+rem --- Run ----
+AnimationStateMachine.createState Ub_RunForwardMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PRunUpperMoonraker.baf 1.6 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.7 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIWalk 0.5 9999 Ub_WalkForwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_RunJumpMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardMoonraker
+AnimationStateMachine.returnToState Ub_StandAimMoonraker 
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_RunBackwardMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PRunBackUpperMoonraker.baf -1.6 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf -0.7 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIWalk 0.5 9999 Ub_WalkBackwardMoonraker
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5  Ub_RunBackwardMoonraker
+AnimationStateMachine.returnToState Ub_StandAimMoonraker
+AnimationStateMachine.setMorphFactor 0.5
+
+rem --- Strafe ----
+AnimationStateMachine.createState Ub_StrafeLeftMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PRunUpperMoonraker.baf -1.6 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf -0.7 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftMoonraker
+AnimationStateMachine.returnToState Ub_StandAimMoonraker 
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_StrafeRightMoonraker
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PRunUpperMoonraker.baf 1.6 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.7 1
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_Fire
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFire
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightMoonraker
+AnimationStateMachine.returnToState Ub_StandAimMoonraker 
+AnimationStateMachine.setMorphFactor 0.5
+
+AnimationStateMachine.createState Ub_StandJumpMoonraker
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3pJumpStandUpperMoonraker.baf 0.8 0
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 0.4 1
+AnimationStateMachine.addTransitionWhenDone Ub_StandAimMoonraker
+AnimationStateMachine.setSpeed 1 1 1
+AnimationStateMachine.setMorphFactor 4.0
+
+AnimationStateMachine.createState Ub_RunJumpMoonraker
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/3p/Moonraker/3PJumpRunUpperMoonraker.baf 1 0
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Moonraker/1pRunMoonraker.baf 1.2 1
+AnimationStateMachine.addTransitionWhenDone Ub_RunForwardMoonraker
+AnimationStateMachine.setMorphFactor 100.0
+
+rem *** Upper Body Jump
+AnimationStateMachine.createState Ub_StandReloadMoonraker
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponReloadMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PReloadMoonraker.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PReloadMoonraker.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireMoonraker
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 10000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Ub_LieReloadMoonraker
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponReloadMoonraker
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Moonraker/3PReloadLieMoonraker.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Moonraker/1PLieReloadMoonraker.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireMoonraker
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 10000.0
+
+AnimationStateMachine.createState WeaponReloadMoonraker
+AnimationStateMachine.addAnimation Animations/Weapons/Moonraker/MoonrakerReload.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone StopDummyState
+AnimationStateMachine.setMorphFactor 10000.0
+
+AnimationStateMachine.createState WeaponOutOfAmmoMoonraker
+AnimationStateMachine.addAnimation Animations/Weapons/Moonraker/MoonrakerOutOfAmmo.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 10000.0
+
+
+rem
+rem *** Camera Shakes ***
+rem
+
+AnimationStateMachine.setactiveState Ub_FireMoonraker
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.05 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.05 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setactiveState Ub_LieFireMoonraker
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.05 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.05 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+
+rem
+rem *** Animation Tweaks ***
+rem
+
+rem *** 1P
+AnimationStateMachine.set1pAnimationSpeed Ub_StandMoonraker 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnMoonraker 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimMoonraker 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardMoonraker 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardMoonraker 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardMoonraker 1.48
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardMoonraker 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftMoonraker 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightMoonraker 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpMoonraker 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpMoonraker 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FireMoonraker 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireMoonraker 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleMoonraker1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleMoonraker2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleMoonraker3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleMoonraker1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleMoonraker2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleMoonraker3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchMoonraker 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnMoonraker 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardMoonraker 0.91
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardMoonraker 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftMoonraker 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightMoonraker 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLieMoonraker 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchMoonraker 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandMoonraker 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieMoonraker 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardMoonraker 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardMoonraker 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftMoonraker 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightMoonraker 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftMoonraker 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightMoonraker 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLieMoonraker 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadMoonraker 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadMoonraker 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponMoonraker 1.16
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponMoonraker 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponMoonraker 1.16
+
+rem *** 3P
+AnimationStateMachine.set3pAnimationSpeed Ub_StandMoonraker 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnMoonraker 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimMoonraker 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardMoonraker 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardMoonraker -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardMoonraker 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardMoonraker -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftMoonraker 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightMoonraker 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpMoonraker 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpMoonraker 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireMoonraker 2.4
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireMoonraker 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleMoonraker1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleMoonraker2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleMoonraker3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleMoonraker1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleMoonraker2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleMoonraker3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchMoonraker 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnMoonraker 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardMoonraker 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardMoonraker -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftMoonraker 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightMoonraker 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieMoonraker 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchMoonraker -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandMoonraker -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieMoonraker 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardMoonraker 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardMoonraker -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftMoonraker 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightMoonraker 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftMoonraker 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightMoonraker 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLieMoonraker 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadMoonraker 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadMoonraker 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponMoonraker -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponMoonraker -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponMoonraker -1.60
+AnimationStateMachine.set3pAnimationSpeed WeaponFireMoonraker 2

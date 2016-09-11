@@ -1,0 +1,149 @@
+rem *** Death animations ***
+rem *** Ragdoll animations by Apache Thunder - 12/18/2010 ***
+
+rem *** Die Stand Chest ***
+AnimationStateMachine.createState Lb_DieChestStand
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PChestHitDeathLower1.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_DieChestStand
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PChestHitDeathUpper1.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+
+
+rem *** Die Stand Back ***
+AnimationStateMachine.createState Lb_DieBackStand
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandBackLower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_DieBackStand
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandBackUpper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+
+rem *** Die Crouch Chest ***
+AnimationStateMachine.createState Lb_DieChestCrouch
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieCrouchChestLower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Ub_DieChestCrouch
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieCrouchChestUpper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+
+rem *** Die Crouch Back ***
+AnimationStateMachine.createState Lb_DieBackCrouch
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieCrouchBackLower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Ub_DieBackCrouch
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieCrouchBackUpper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+
+rem *** Die Lie ***
+AnimationStateMachine.createState Lb_DieLie
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieLie1Lower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.setFlag c_AsmIsLying
+
+AnimationStateMachine.createState Ub_DieLie
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieLie1Upper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+
+rem *** Die sitting/standing in vehicle ***
+
+AnimationStateMachine.createState Lb_DieInVehicle
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation animations/Vehicle/3PDie01WillyLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_DieInVehicle
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead2
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation animations/Vehicle/3PDie01WillyUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 3.0
+
+rem ***** Die head shot ****
+AnimationStateMachine.createState Lb_DieHead
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead2
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandHeadLower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_DieHead
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandHeadUpper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+
+rem ***** Die Slow ****
+AnimationStateMachine.createState Lb_DieSlow
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead2
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandSlowLower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_DieSlow
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandSlowUpper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+
+rem ***** Die Swim ****
+AnimationStateMachine.createState Lb_DieSwim
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead2
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieSwimLower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.setFlag c_AsmIsSwimming
+
+AnimationStateMachine.createState Ub_DieSwim
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieSwimUpper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmIsSwimming
+
+rem ***** Die hit by a vehicle ****
+AnimationStateMachine.createState Lb_DieByVehicle
+AnimationStateMachine.setOtherState c_AsmFaceState FaceDead1
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandHitLower.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_DieByVehicle
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.addAnimation Animations/Ragdoll/3PDieStandHitUpper.baf 1 0
+AnimationStateMachine.setMorphFactor 20.0

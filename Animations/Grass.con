@@ -1,0 +1,31 @@
+AnimationStateMachine.createState TallGrassIdle
+AnimationStateMachine.addAnimation animations/Grass/tallGrass_Idle1.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone TallGrassIdle1
+
+
+AnimationStateMachine.createState TallGrassIdle1
+AnimationStateMachine.addAnimation animations/Grass/tallGrass_Idle2.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addIdle TallGrassIdle
+
+
+AnimationStateMachine.createState ShortGrassIdle
+AnimationStateMachine.addAnimation animations/Grass/tallGrass_Idle1.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone ShortGrassIdle1
+
+AnimationStateMachine.createState ShortGrassIdle1
+AnimationStateMachine.addAnimation animations/Grass/tallGrass_Idle2.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addIdle ShortGrassIdle
+
+
+AnimationStateMachine.set3pAnimationSpeed TallGrassIdle 0.09
+AnimationStateMachine.set3pAnimationSpeed TallGrassIdle1 0.1
+AnimationStateMachine.set3pAnimationSpeed ShortGrassIdle 0.04
+AnimationStateMachine.set3pAnimationSpeed ShortGrassIdle1 0.05

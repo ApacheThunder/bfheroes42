@@ -1,0 +1,183 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+rem
+rem *** Shoot states ***
+rem 
+AnimationStateMachine.createState Ub_Fire
+AnimationStateMachine.addTransitionItem
+AnimationStateMachine.returnToState Ub_Stand
+AnimationStateMachine.setOtherState c_AsmFaceState FaceAim2
+
+AnimationStateMachine.createState Ub_LowerWeapon
+AnimationStateMachine.addTransitionItem	
+AnimationStateMachine.returnToState Ub_Stand
+
+
+rem
+rem *** Single fire animation weapon: Bazooka, Colt, Shotgun etc.
+rem 
+AnimationStateMachine.createState Ub_FireBazooka
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Bazooka/3PFireBazooka.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Bazooka/1PFireBazooka.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponFireBazooka
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 10000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include singleShotWeapons.inc Bazooka
+
+AnimationStateMachine.setActiveState Ub_FireColt
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireColt
+
+AnimationStateMachine.setActiveState Ub_FireWalterP38
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireWalterP38
+
+AnimationStateMachine.setActiveState Ub_FireExpPack
+AnimationStateMachine.addTransitionWhenDone Ub_StandRaiseWeaponExpPack
+
+AnimationStateMachine.setActiveState Ub_FireLandmine
+AnimationStateMachine.addTransitionWhenDone Ub_StandRaiseWeaponLandmine
+
+AnimationStateMachine.setActiveState Ub_FireGrenadeAllies
+AnimationStateMachine.addTransitionWhenDone Ub_StandResetRaiseWeaponGrenadeAllies
+AnimationStateMachine.setActiveState Ub_FireGrenadeAxis
+AnimationStateMachine.addTransitionWhenDone Ub_StandResetRaiseWeaponGrenadeAxis
+
+rem *** Standing, swing Allies Knife.
+AnimationStateMachine.createState Ub_FireKnifeAllies
+AnimationStateMachine.addRandomTransition Ub_FireKnifeAllies1
+AnimationStateMachine.addRandomTransition Ub_FireKnifeAllies2
+AnimationStateMachine.addRandomTransition Ub_FireKnifeAllies3
+AnimationStateMachine.addRandomTransition Ub_FireKnifeAllies4
+AnimationStateMachine.addRandomTransition Ub_FireKnifeAllies5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.copyState2 KnifeAxis KnifeAllies
+
+
+AnimationStateMachine.createState Ub_FireKnifeAllies1
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/KnifeAllies/3pFireKnifeAlliesA.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/KnifeAllies/1pFireKnifeAlliesA.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireKnifeAllies
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.copyState2 KnifeAxis KnifeAllies
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+AnimationStateMachine.createState Ub_FireKnifeAllies2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/KnifeAllies/3pFireKnifeAlliesB.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/KnifeAllies/1pFireKnifeAlliesB.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireKnifeAllies
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.copyState2 KnifeAxis KnifeAllies
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+AnimationStateMachine.createState Ub_FireKnifeAllies3
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/KnifeAllies/3pFireKnifeAlliesA.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/KnifeAllies/1pFireKnifeAlliesC.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireKnifeAllies
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.copyState2 KnifeAxis KnifeAllies
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+AnimationStateMachine.createState Ub_FireKnifeAllies4
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/KnifeAllies/3pFireKnifeAlliesB.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/KnifeAllies/1pFireKnifeAlliesD.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireKnifeAllies
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.copyState2 KnifeAxis KnifeAllies
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+AnimationStateMachine.createState Ub_FireKnifeAllies5
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/KnifeAllies/3pFireKnifeAlliesA.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/KnifeAllies/1pFireKnifeAlliesE.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireKnifeAllies
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 5000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.copyState2 KnifeAxis KnifeAllies
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+rem
+rem *** Hold and fire (2 parts animtions) weapon: Thompson, Sg44 etc.
+rem
+
+AnimationStateMachine.createState Ub_FireThompson
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Thompson/3PFireThompson.baf 5 c_AsmLooping
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Thompson/1PFireThompson.baf 10 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.returnToState _POSE_
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include multiShotWeapons.inc Thompson
+
+AnimationStateMachine.createState Ub_FireEndThompson
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Thompson/3PFireEndThompson.baf 2 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Thompson/1PFireEndThompson.baf 1.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_RunForwardThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_RunBackwardThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_StrafeLeftThompson
+AnimationStateMachine.addTransitionOne c_PIAction 0.5 1 Ub_StandJumpThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_StrafeRightThompson
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_TurnThompson
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_TurnThompson
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 12.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include multiShotWeapons.inc Thompson
+
+rem
+rem *** Special states
+rem
+rem
+rem Special weapon states
+rem
+
+rem No4 - Trigger reload after fire
+AnimationStateMachine.setActiveState Ub_FireNo4Sniper
+AnimationStateMachine.addTransitionWhenDone Ub_StandReloadNo4Sniper
+AnimationStateMachine.setActiveState Ub_FireNo4
+AnimationStateMachine.addTransitionWhenDone Ub_StandReloadNo4
+
+rem K98 - Trigger reload after fire
+AnimationStateMachine.setActiveState Ub_FireK98Sniper
+AnimationStateMachine.addTransitionWhenDone Ub_StandReloadK98Sniper
+AnimationStateMachine.setActiveState Ub_FireK98
+AnimationStateMachine.addTransitionWhenDone Ub_StandReloadK98
+
+
+Rem ---Facial expressions---
+AnimationStateMachine.setActiveState Ub_FireMedPack
+AnimationStateMachine.setOtherState c_AsmFaceState FaceHeal
+
+AnimationStateMachine.setActiveState Ub_FireGrenadeAllies
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+AnimationStateMachine.setActiveState Ub_FireGrenadeAxis
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+AnimationStateMachine.setActiveState Ub_FireBinoculars
+AnimationStateMachine.setOtherState c_AsmFaceState FaceLook
+
+AnimationStateMachine.setActiveState Ub_FireExpPack
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFun1
+
+AnimationStateMachine.setActiveState Ub_FireRepairPack
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFire1
+
+AnimationStateMachine.setActiveState Ub_FireLandmine
+AnimationStateMachine.setOtherState c_AsmFaceState FaceFun1
+
+rem
+rem *** AltFire weapons ***
+rem 
+AnimationStateMachine.createState Ub_AltFire
+AnimationStateMachine.addTransitionItem
+AnimationStateMachine.returnToState Ub_Stand
+AnimationStateMachine.setOtherState c_AsmFaceState FaceAim2

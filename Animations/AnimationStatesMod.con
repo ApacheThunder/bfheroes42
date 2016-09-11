@@ -1,0 +1,23 @@
+rem *** Each weapon group/type gets it's own con file to prevent excess clutter. :P ***
+
+run Moonraker
+
+run Pistols
+run Rifles
+run Shotguns
+run SMGs
+run RPGs
+run AntiAir
+run MGs
+run Flags
+run SoccerKick
+run Widgets
+run SmokeGrenade
+
+run RocketPack
+
+run SeatAnimations
+
+run Hatsune_Miku
+
+run Grass

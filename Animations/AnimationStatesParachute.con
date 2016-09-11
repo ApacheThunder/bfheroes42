@@ -1,0 +1,107 @@
+REM *************** Parachute and Fall animationstates ******** ******************
+
+rem *** Fall
+AnimationStateMachine.createState Lb_ParachuteFall
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3pExplosionFlyLower.baf 1 c_AsmLooping
+AnimationStateMachine.setSpeed 0 1 0
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setSoundTrigger c_SstFallingHigh
+
+AnimationStateMachine.createState Ub_ParachuteFall
+AnimationStateMachine.addAnimation animations/DieHit/3p/EmptyHands/3pExplosionFlyUpper.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.setSoundTrigger c_SstFallingHigh
+
+rem *** Soldier hit ground and die after falling
+AnimationStateMachine.createState Lb_DieHitGround
+AnimationStateMachine.addAnimation animations/ragdoll/3PParachuteSplatLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.setSoundTrigger c_SstKilled
+
+AnimationStateMachine.createState Ub_DieHitGround
+AnimationStateMachine.addAnimation animations/ragdoll/3PParachuteSplatUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setSoundTrigger c_SstKilled
+
+
+rem *** Soldier ParachuteOpen
+AnimationStateMachine.createState Lb_ParachuteOpen
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteOpenLower.baf 0.5 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0.5 0
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.addTransitionWhenDone Lb_ParachuteIdle
+AnimationStateMachine.setSoundTrigger c_SstOpenParachute
+
+AnimationStateMachine.createState Ub_ParachuteOpen
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteOpenUpper.baf 0.5 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.addTransitionWhenDone Ub_StandAim
+AnimationStateMachine.setSoundTrigger c_SstOpenParachute
+
+rem *** Soldier hang in Parachute Lower body Idle
+AnimationStateMachine.createState Lb_ParachuteIdle
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteGlideLower.baf 1 c_AsmLooping
+AnimationStateMachine.setSpeed 0 0.1 0
+AnimationStateMachine.setMorphFactor 1.0
+
+rem *** Soldier hang in Parachute Lower body and hit ground.
+AnimationStateMachine.createState Lb_ParachuteHitGround
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteGroundLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Lb_Stand
+AnimationStateMachine.setSoundTrigger c_SstParachuteLand
+
+AnimationStateMachine.createState Ub_ParachuteHitGround
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteGroundUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Ub_StandAim
+AnimationStateMachine.setSoundTrigger c_SstParachuteLand
+
+
+rem *** Soldier die in parachute
+AnimationStateMachine.createState Lb_ParachuteDie
+AnimationStateMachine.addAnimation animations/Ragdoll/3PParachuteDieLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.setSoundTrigger c_SstKilled
+
+AnimationStateMachine.createState Ub_ParachuteDie
+AnimationStateMachine.addAnimation animations/Ragdoll/3PParachuteDieUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setSoundTrigger c_SstKilled
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem *** Soldier die in parachute when hit gound
+AnimationStateMachine.createState Lb_ParachuteDeadHitGround
+AnimationStateMachine.addAnimation animations/Ragdoll/3PParachuteGroundDieLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+AnimationStateMachine.setSoundTrigger c_SstParachuteLand
+
+AnimationStateMachine.createState Ub_ParachuteDeadHitGround
+AnimationStateMachine.addAnimation animations/Ragdoll/3PParachuteGroundDieUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 4.0
+AnimationStateMachine.setSoundTrigger c_SstParachuteLand
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem
+rem ******* The parachute object
+rem 
+AnimationStateMachine.createState OpenParachute
+AnimationStateMachine.addAnimation animations/Vehicle/Parachute/Parachute_Open.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 10000.0
+AnimationStateMachine.addTransitionWhenDone IdleParachute
+
+AnimationStateMachine.createState IdleParachute
+AnimationStateMachine.addAnimation animations/Vehicle/Parachute/Parachute_Idle.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 3.0

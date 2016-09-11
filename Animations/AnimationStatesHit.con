@@ -1,0 +1,70 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+rem *** Hit animations
+
+
+rem
+rem Lower body
+rem 
+
+rem *** Crouch Back
+AnimationStateMachine.createState Lb_HitBackCrouch
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3PHitCrouchBackLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone Lb_Crouch
+AnimationStateMachine.setMorphFactor 30.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setSpeed 0 1 0
+
+rem *** Crouch Front
+AnimationStateMachine.createState Lb_HitChestCrouch
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3PHitCrouchChestLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone Lb_Crouch
+AnimationStateMachine.setMorphFactor 30.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setSpeed 0 1 0
+
+rem *** Stand Back
+AnimationStateMachine.createState Lb_HitBackStand
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3PHitStandBackLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone Lb_Stand
+AnimationStateMachine.setMorphFactor 30.0
+AnimationStateMachine.setSpeed 0 1 0
+
+rem *** Stand Chest
+AnimationStateMachine.createState Lb_HitChestStand
+AnimationStateMachine.addAnimation animations/DieHit/LowerBody/3PHitStandChestLower.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone Lb_Stand
+AnimationStateMachine.setMorphFactor 30.0
+AnimationStateMachine.setSpeed 0 1 0
+
+rem
+rem Upper body
+rem 
+
+rem *** Crouch Back
+AnimationStateMachine.createState Ub_HitBackCrouch
+AnimationStateMachine.setOtherState c_AsmFaceState FaceHit
+AnimationStateMachine.addAnimation animations/DieHit/3P/EmptyHands/3PHitCrouchBackUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 3000.0
+
+rem *** Crouch Chest
+AnimationStateMachine.createState Ub_HitChestCrouch
+AnimationStateMachine.setOtherState c_AsmFaceState FaceHit
+AnimationStateMachine.addAnimation animations/DieHit/3P/EmptyHands/3PHitCrouchChestUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 3000.0
+
+rem *** Stand Back
+AnimationStateMachine.createState Ub_HitBackStand
+AnimationStateMachine.setOtherState c_AsmFaceState FaceHit
+AnimationStateMachine.addAnimation animations/DieHit/3P/EmptyHands/3PHitStandBackUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 3000.0
+
+rem *** Stand Chest
+AnimationStateMachine.createState Ub_HitChestStand
+AnimationStateMachine.setOtherState c_AsmFaceState FaceHit
+AnimationStateMachine.addAnimation animations/DieHit/3P/EmptyHands/3PHitStandChestUpper.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 3000.0

@@ -1,0 +1,77 @@
+rem *** Flags on the flagpole ***
+
+AnimationStateMachine.createState Flag_Idle
+AnimationStateMachine.addAnimation animations/Flags/flag_idle.baf 0.05 c_AsmLooping
+AnimationStateMachine.setMorphFactor 3.0
+
+rem *** CTF Flags ***
+
+AnimationStateMachine.createState ctf_stationaryroyal_start
+AnimationStateMachine.addAnimation animations/Flags/ctf_stationaryroyal_start.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone ctf_stationaryroyal_idle1
+
+AnimationStateMachine.createState ctf_stationaryroyal_idle1
+AnimationStateMachine.addAnimation animations/Flags/ctf_stationaryroyal_idle1.baf 0.1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addIdle ctf_stationaryroyal_start
+AnimationStateMachine.addIdle ctf_stationaryroyal_idle2
+
+AnimationStateMachine.createState ctf_stationaryroyal_idle2
+AnimationStateMachine.addAnimation animations/Flags/ctf_stationaryroyal_idle2.baf 0.1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone ctf_stationaryroyal_idle1
+
+AnimationStateMachine.createState ctf_stationarynational_start
+AnimationStateMachine.addAnimation animations/Flags/ctf_stationarynational_start.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone ctf_stationarynational_idle1
+
+AnimationStateMachine.createState ctf_stationarynational_idle1
+AnimationStateMachine.addAnimation animations/Flags/ctf_stationarynational_idle1.baf 0.25 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addIdle ctf_stationarynational_start
+AnimationStateMachine.addIdle ctf_stationarynational_idle2
+
+AnimationStateMachine.createState ctf_stationarynational_idle2
+AnimationStateMachine.addAnimation animations/Flags/ctf_stationarynational_idle2.baf 0.25 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 0.1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone ctf_stationarynational_idle1
+
+
+rem *** Flags on the fishing boat ***
+AnimationStateMachine.createState fishingboatflags_idle1
+AnimationStateMachine.addAnimation animations/Flags/fishingboatflags_idle3.baf 0.1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addIdle fishingboatflags_idle2
+AnimationStateMachine.addIdle fishingboatflags_idle3
+AnimationStateMachine.addIdle fishingboatflags_idle4
+
+AnimationStateMachine.createState fishingboatflags_idle2
+AnimationStateMachine.addAnimation animations/Flags/fishingboatflags_idle2.baf 0.12 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone fishingboatflags_idle1
+
+AnimationStateMachine.createState fishingboatflags_idle3
+AnimationStateMachine.addAnimation animations/Flags/fishingboatflags_idle1.baf 0.1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone fishingboatflags_idle1
+
+AnimationStateMachine.createState fishingboatflags_idle4
+AnimationStateMachine.addAnimation animations/Flags/fishingboatflags_idle4.baf 0.08 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.setUserRandomStartTime true
+AnimationStateMachine.addTransitionWhenDone fishingboatflags_idle1
+
+AnimationStateMachine.createState fishingboatflags_death
+AnimationStateMachine.addAnimation animations/Flags/fishingboatflags_death.baf 0.45 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1

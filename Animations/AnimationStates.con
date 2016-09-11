@@ -1,0 +1,55 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+AnimationStateMachine.init
+
+rem *** .createState <name>
+rem *** .addAnimation <path> <speed> <isLooping>
+rem *** .addTransitionOne <inputId1> <greater than value> <lesser than value> <state name>
+rem *** .addToLatestTransition <inputId2> <greater than value> <lesser than value>
+rem *** .returnToState <state name>
+rem *** .setSpeed <forward> <turn> <strafe>
+rem *** .setMorphFactor <time to morph>
+rem 
+rem ** Example:    animationStateMachine.copyState Sg44 Thompson Sg44 2.0 Sg44 3.0
+rem 
+rem ** .setAnimationSpeed <weaponName> <3p speed> <1p speed>
+
+rem AnimationStateMachine.debugMode 1
+
+rem *** Dummy state
+AnimationStateMachine.createState StopDummyState
+AnimationStateMachine.resetSkeleton
+
+run AnimationStatesLower
+run AnimationStatesUpper
+run AnimationStatesJump
+run AnimationStatesClimb
+run AnimationStatesSwim
+run AnimationStatesShoot
+run AnimationStatesDie
+run AnimationStatesHit
+run AnimationStatesVehicle
+run AnimationStatesIdle
+run AnimationStatesCrouching
+run AnimationStatesReload
+run AnimationStatesChangeWeapon
+run AnimationStatesFace
+run AnimationStatesFireWeapon
+run AnimationStatesParachute
+run AnimationStatesExplosionFly
+run AnimationStatesEjectClip
+run AnimationStatesMisc
+
+rem *** Must run this here
+run AnimationStatesCameraShakes
+
+run 3pAnimationsTweaking
+run 1pAnimationsTweaking
+run MiscAnimationsTweaking
+
+rem
+rem *** Extra Add-on, Mod animations.
+rem 
+run AnimationStatesMod
+
+rem **** END OF FILE

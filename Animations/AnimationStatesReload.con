@@ -1,0 +1,49 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+rem ***************************
+rem *** Reload
+rem ***************************
+AnimationStateMachine.createState Ub_StandReload
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.addTransitionItem 
+
+rem AnimationStateMachine.createState Ub_LieReload
+rem AnimationStateMachine.addTransitionItem 
+
+rem
+rem ****** Thompson
+rem
+AnimationStateMachine.createState Ub_StandReloadThompson
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponReloadThompson
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Thompson/3PReloadThompson.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Thompson/1PReloadThompson.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 10000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
+beginrem
+AnimationStateMachine.createState Ub_LieReloadThompson
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponReloadThompson
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Thompson/3PReloadLieThompson.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Thompson/1PLieReloadThompson.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_LieFireThompson
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.setMorphFactor 10000.0
+include copyToallWeapons.inc Thompson
+endrem
+
+rem
+rem *** Weapon states ***
+rem
+AnimationStateMachine.createState WeaponReloadThompson
+AnimationStateMachine.addAnimation Animations/Weapons/Thompson/ThompsonReload.baf 0.4 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone StopDummyState
+AnimationStateMachine.setMorphFactor 10000.0
+include copyToallWeapons.inc Thompson
+
+AnimationStateMachine.setActiveState WeaponReloadNo4
+AnimationStateMachine.copyState2 No4Sniper No4
+AnimationStateMachine.setActiveState WeaponReloadK98
+AnimationStateMachine.copyState2 K98Sniper K98

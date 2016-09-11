@@ -1,0 +1,242 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+rem 
+rem ** Hit, Die, Explosion etc.
+rem
+
+AnimationStateMachine.createState BigExplosion
+AnimationStateMachine.setCameraShakePitch 0 2 300.0
+AnimationStateMachine.setCameraShakeRoll 0 0.8 200.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.7 400.0
+AnimationStateMachine.setCameraShakeUpDown 0 0.8 500.0
+AnimationStateMachine.setCameraShakeFadeOut 0 1.2
+
+AnimationStateMachine.createState SmallExplosion
+AnimationStateMachine.setCameraShakeUpDown 0 0 15
+AnimationStateMachine.setCameraShakeLeftRight 0 0 10
+AnimationStateMachine.setCameraShakePitch 0 1 100.0
+AnimationStateMachine.setCameraShakeRoll 0 0.5 100.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.3 100.0
+AnimationStateMachine.setCameraShakeUpDown 0 0.2 300.0
+AnimationStateMachine.setCameraShakeFadeOut 0 2.0
+
+AnimationStateMachine.createState HitShake
+AnimationStateMachine.setCameraShakeRoll 0 4.0 50.0
+AnimationStateMachine.setCameraShakePitch 0 1.5 200.00
+AnimationStateMachine.setCameraShakeFadeOut 0 5.0
+
+AnimationStateMachine.createState DieShake
+AnimationStateMachine.setCameraShakeRoll 0 4.0 50.0
+AnimationStateMachine.setCameraShakePitch 0 1.5 200.00
+AnimationStateMachine.setCameraShakeFadeOut 0 5.0
+
+rem
+rem ** Weapons ****
+rem
+rem *** bazooka, panzershreck
+
+AnimationStateMachine.setactiveState Ub_FireBazooka
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.5 100.0
+AnimationStateMachine.setCameraShakeUpDown 0 1 500
+AnimationStateMachine.setCameraShakeInOut 0 0.4 8
+AnimationStateMachine.setCameraShakeLeftRight 0 0.8 100
+AnimationStateMachine.setCameraShakeFadeOut 0 3
+
+AnimationStateMachine.setactiveState Ub_FirePanzershreck
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.5 100.0
+AnimationStateMachine.setCameraShakeUpDown 0 1 500
+AnimationStateMachine.setCameraShakeInOut 0 0.4 8
+AnimationStateMachine.setCameraShakeLeftRight 0 0.8 100
+AnimationStateMachine.setCameraShakeFadeOut 0 3
+
+rem *** colt, walter
+
+AnimationStateMachine.setactiveState Ub_FireWalterP38
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setactiveState Ub_FireColt
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+rem *** grenade
+
+AnimationStateMachine.setactiveState Ub_FireGrenadeAllies
+AnimationStateMachine.setCameraShakeRoll 0 0 800.0
+AnimationStateMachine.setCameraShakePitch 0 0 900.0
+
+AnimationStateMachine.setactiveState Ub_FireGrenadeAxis
+AnimationStateMachine.setCameraShakeRoll 0 0 800.0
+AnimationStateMachine.setCameraShakePitch 0 0 900.0
+
+rem *** Thompson, Mp40, MP18
+
+AnimationStateMachine.setactiveState Ub_FireThompson
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.05 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.05 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setactiveState Ub_FireMp40
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.05 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.05 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setactiveState Ub_FireMp18
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.05 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.05 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+rem *** Sg44, Bar1918, DP, Type99
+
+AnimationStateMachine.setactiveState Ub_FireBar1918
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.25 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.05 2000
+
+AnimationStateMachine.setactiveState Ub_FireSg44
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.25 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.05 2000
+
+AnimationStateMachine.setactiveState Ub_FireDP
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.25 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.05 2000
+
+AnimationStateMachine.setactiveState Ub_FireType99
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.25 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.05 2000
+
+rem *** riffle
+
+AnimationStateMachine.setactiveState Ub_FireNo4
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.5 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.08 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setactiveState Ub_FireK98
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.5 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.08 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+rem ** Sniper weapons
+
+AnimationStateMachine.setActiveState Ub_FireNo4Sniper
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_StandAimNo4Sniper
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchNo4Sniper
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_FireK98Sniper
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_StandAimK98Sniper
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchK98Sniper
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setactiveState Ub_FireJohnsonLMG
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.25 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.05 2000
+
+rem *** stationary machineguns *****
+AnimationStateMachine.createState FireMachineGunShake
+AnimationStateMachine.setCameraShakeTimeToShake 0 0.1
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.25 700.0
+
+
+AnimationStateMachine.setactiveState Ub_Firebri_smg_bc2
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.05 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.05 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setactiveState Ub_Fireger_smg_bc2
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.05 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.05 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setactiveState Ub_FireBRI_MG_BC2
+AnimationStateMachine.setCameraShakeRoll 0 0.3 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.1 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.1 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.02 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.02 2000
+
+AnimationStateMachine.setactiveState Ub_FireGER_MG_BC2
+AnimationStateMachine.setCameraShakeRoll 0 0.3 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.06 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.06 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.02 2000

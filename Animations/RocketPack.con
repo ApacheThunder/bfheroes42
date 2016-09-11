@@ -1,0 +1,25 @@
+rem *************** Parachute and Fall animationstates ******** ******************
+
+
+rem *** Soldier hang in Rocketeering Lower body Idle
+AnimationStateMachine.createState Lb_RocketeeringIdle
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteGlideLower.baf 1 c_AsmLooping
+AnimationStateMachine.setSpeed 1.0 0.5 0
+AnimationStateMachine.setMorphFactor 1.0
+
+rem *** Soldier hang in Rocketeering Lower body and hit ground.
+AnimationStateMachine.createState Lb_RocketeeringHitGround
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteGroundLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Lb_Stand
+AnimationStateMachine.setSoundTrigger c_SstParachuteLand
+
+AnimationStateMachine.createState Ub_RocketeeringHitGround
+AnimationStateMachine.addAnimation animations/3P_NoWeapon/3PParachuteGroundUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setMorphFactor 10.0
+AnimationStateMachine.addTransitionWhenDone Ub_StandAim
+AnimationStateMachine.setSoundTrigger c_SstParachuteLand
+
+

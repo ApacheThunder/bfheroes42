@@ -1,0 +1,75 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+AnimationStateMachine.set3pAnimationSpeed WeaponGrenadeAlliesRun 1.45
+AnimationStateMachine.set3pAnimationSpeed WeaponGrenadeAlliesWalk 1.00
+AnimationStateMachine.set3pAnimationSpeed WeaponGrenadeAlliesStand 0.30
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadThompson 0.21
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadSg44 0.28
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadBazooka 0.18
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadExpPack 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadDetonator 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadMedPack 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadLandmine 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadRepairPack 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadColt 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadNo4 0.60
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadBar1918 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadGrenadeAllies 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadGrenadeAxis 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadK98 0.60
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadMp40 0.22
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadMp18 0.23
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadPanzershreck 0.18
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadWalterP38 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadBinoculars 0.40
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadNo4Sniper 0.60
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadK98Sniper 0.60
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadDp 0.23
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadType99 0.24
+AnimationStateMachine.set3pAnimationSpeed FaceDead1 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceDead2 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceHit 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceAim1 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceAim2 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceFire1 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceLook 0.50
+AnimationStateMachine.set3pAnimationSpeed FaceBlink 2.00
+AnimationStateMachine.set3pAnimationSpeed FaceLook2 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceLook3 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceFun1 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceFun2 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceAngry2 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceScream 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceAngry1 1.00
+AnimationStateMachine.set3pAnimationSpeed FaceTalk 1.00
+AnimationStateMachine.set3pAnimationSpeed WeaponFireGrenadeAxis 1.00
+AnimationStateMachine.set3pAnimationSpeed WeaponFireGrenadeAllies 0.74
+AnimationStateMachine.set3pAnimationSpeed WeaponGrenadeAxisReset 1.00
+AnimationStateMachine.set3pAnimationSpeed WeaponGrenadeAlliesReset 1.00
+AnimationStateMachine.set3pAnimationSpeed WeaponFireDetonator 1.00
+AnimationStateMachine.set3pAnimationSpeed WeaponFireColt 2.00
+AnimationStateMachine.set3pAnimationSpeed WeaponFireWalterP38 2.00
+AnimationStateMachine.set3pAnimationSpeed WeaponFireBazooka 1.00
+AnimationStateMachine.set3pAnimationSpeed OpenParachute 0.40
+AnimationStateMachine.set3pAnimationSpeed IdleParachute 0.50
+AnimationStateMachine.set3pAnimationSpeed FlagBlow 0.80
+AnimationStateMachine.set3pAnimationSpeed FlagIdle1 0.80
+AnimationStateMachine.set3pAnimationSpeed FlagIdle2 0.80
+
+rem *** Added for Patch 1.5 ***
+
+rem --Thompson--
+AnimationStateMachine.set3pAnimationSpeed WeaponEjectClipThompson 1.00
+
+rem --M1Garand--
+AnimationStateMachine.set3pAnimationSpeed WeaponFireM1Garand 2
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadM1Garand .2
+AnimationStateMachine.set3pAnimationSpeed WeaponEjectClipM1Garand 2.2
+
+rem --Type5--
+AnimationStateMachine.set3pAnimationSpeed WeaponFireType5 2
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadType5 .2
+
+rem --JohnsonLmg--
+AnimationStateMachine.set3pAnimationSpeed WeaponFireJohnsonLmg .18
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadJohnsonLmg .18

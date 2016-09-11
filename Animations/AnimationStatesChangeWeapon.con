@@ -1,0 +1,72 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+rem ***************************
+rem *** ChangeWeapon
+rem ***************************
+
+AnimationStateMachine.createState Ub_StandRaiseWeapon
+AnimationStateMachine.addTransitionItem 
+
+AnimationStateMachine.createState Ub_CrouchRaiseWeapon
+AnimationStateMachine.addTransitionItem 
+
+rem
+rem ****** Thompson
+rem
+AnimationStateMachine.createState Ub_StandRaiseWeaponThompson
+AnimationStateMachine.setOtherState c_AsmFaceState FaceLook2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Thompson/3PDeployThompson.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Thompson/1PDeployThompson.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.setMorphFactor 10000.0
+include copyToallWeapons.inc Thompson
+
+AnimationStateMachine.createState Ub_CrouchRaiseWeaponThompson
+AnimationStateMachine.setOtherState c_AsmFaceState FaceLook2
+AnimationStateMachine.addAnimation Animations/WeaponHandling/3p/Thompson/3PDeployThompson.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addAnimation Animations/WeaponHandling/1p/Thompson/1PDeployThompson.baf 1.0 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone _POSE_
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.setMorphFactor 10000.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
+
+rem *** Animations to make the sprint in the Allies Grenade move.
+
+rem *** Allies grenade ***
+
+rem *** Stand ***
+AnimationStateMachine.createState Ub_StandResetRaiseWeaponGrenadeAllies
+AnimationStateMachine.resetSkeleton
+AnimationStateMachine.addTransitionWhenDone Ub_StandRaiseWeaponGrenadeAllies
+
+AnimationStateMachine.setActiveState Ub_StandRaiseWeaponGrenadeAllies
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponGrenadeAlliesDeploy
+
+rem *** Crouch **
+AnimationStateMachine.createState Ub_CrouchResetRaiseWeaponGrenadeAllies
+AnimationStateMachine.resetSkeleton
+AnimationStateMachine.addTransitionWhenDone Ub_CrouchRaiseWeaponGrenadeAllies
+
+AnimationStateMachine.setActiveState Ub_CrouchRaiseWeaponGrenadeAllies
+AnimationStateMachine.setOtherState c_AsmWeaponState WeaponGrenadeAlliesDeploy
+
+rem *** Axis grenade ***
+
+rem *** Stand ***
+AnimationStateMachine.createState Ub_StandResetRaiseWeaponGrenadeAxis
+AnimationStateMachine.resetSkeleton
+AnimationStateMachine.addTransitionWhenDone Ub_StandRaiseWeaponGrenadeAxis
+
+rem *** Crouch **
+AnimationStateMachine.createState Ub_CrouchResetRaiseWeaponGrenadeAxis
+AnimationStateMachine.resetSkeleton
+AnimationStateMachine.addTransitionWhenDone Ub_CrouchRaiseWeaponGrenadeAxis
+
+rem ** Weapon **
+
+AnimationStateMachine.createState WeaponGrenadeAlliesDeploy
+AnimationStateMachine.addAnimation Animations/Weapons/GrenadeAllies/GrenadeAlliesDeploy.baf 1 c_AsmPlayOnce
+AnimationStateMachine.addTransitionWhenDone StopDummyState

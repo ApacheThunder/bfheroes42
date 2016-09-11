@@ -1,0 +1,57 @@
+rem
+rem *** Idle Animations ***
+rem
+
+AnimationStateMachine.createState Lb_JeepDriverIdle
+AnimationStateMachine.addAnimation animations/Vehicle/SeatAnimations/3PJeepDriverIdleLower.baf 0 0
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 1 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_JeepDriverIdle
+AnimationStateMachine.addAnimation animations/Vehicle/SeatAnimations/3PJeepDriverIdleUpper.baf 0.6 1
+AnimationStateMachine.addTransitionOne c_PIYaw 1 1  Ub_JeepDriverSteerLeft
+AnimationStateMachine.addTransitionOne c_PIYaw -1 -1  Ub_JeepDriverSteerRight
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 1 0
+
+rem
+rem *** Steer and lean left  ***
+rem
+
+AnimationStateMachine.createState Ub_JeepDriverSteerLeft
+AnimationStateMachine.addAnimation animations/Vehicle/SeatAnimations/3PJeepDriverSteerLeftUpper.baf 1 0
+AnimationStateMachine.addTransitionOne c_PIYaw 0.5 1 Ub_JeepDriverSteerLeft
+AnimationStateMachine.returnToState Ub_JeepDriverSteerLeftTransitionBack
+AnimationStateMachine.setSpeed 1 1 1
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+AnimationStateMachine.createState Ub_JeepDriverSteerLeftTransitionBack
+AnimationStateMachine.addAnimation animations/Vehicle/SeatAnimations/3PJeepDriverSteerLeftTransitionBackUpper.baf 1 0
+AnimationStateMachine.returnToState Ub_JeepDriverIdle
+AnimationStateMachine.addTransitionOne c_PIYaw 0.5 1 Ub_JeepDriverSteerLeftTransitionBack
+AnimationStateMachine.returnToState Ub_JeepDriverSteerLeftTransitionBack
+AnimationStateMachine.setSpeed 1 1 1
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem
+rem *** Steer and lean right  ***
+rem
+
+AnimationStateMachine.createState Ub_JeepDriverSteerRight
+AnimationStateMachine.addAnimation animations/Vehicle/SeatAnimations/3PJeepDriverSteerRightUpper.baf 1 0
+AnimationStateMachine.addTransitionOne c_PIYaw -0.5 1 Ub_JeepDriverSteerRight
+AnimationStateMachine.returnToState Ub_JeepDriverSteerRightTransitionBack
+AnimationStateMachine.setSpeed 1 1 1
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+AnimationStateMachine.createState Ub_JeepDriverSteerRightTransitionBack
+AnimationStateMachine.addAnimation animations/Vehicle/SeatAnimations/3PJeepDriverSteerRightTransitionBackUpper.baf 1 0
+AnimationStateMachine.returnToState Ub_JeepDriverIdle
+AnimationStateMachine.setSpeed 1 1 1
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmHideWeapon

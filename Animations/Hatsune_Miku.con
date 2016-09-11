@@ -1,0 +1,51 @@
+rem *** Hatsune Miku Animations ***
+
+
+rem
+rem  *** Standing and Waving (No Leek)****
+rem
+AnimationStateMachine.createState Miku_Idle_Upper
+AnimationStateMachine.addAnimation animations/Items/miku_idle_Upper.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.5
+
+
+AnimationStateMachine.createState Miku_Idle_Lower
+AnimationStateMachine.addAnimation animations/Items/miku_idle_Lower.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.5
+
+
+rem
+rem  *** Sitting then stands up. ***
+rem
+AnimationStateMachine.createState Miku_SitToStand_Upper
+AnimationStateMachine.addAnimation animations/Items/Miku_StandFromSitUpper.baf 1 c_AsmPlayOnce
+AnimationStateMachine.addAnimation animations/Items/Miku_StandFromSitLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.addTransitionWhenDone Miku_IdleLeek_Upper
+
+
+AnimationStateMachine.createState Miku_SitToStand_Lower
+AnimationStateMachine.addAnimation animations/Items/Miku_StandFromSitLower.baf 1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.addTransitionWhenDone Miku_IdleLeek_Lower
+
+
+rem
+rem  *** Standing and Waving (With Leek) ****
+rem
+AnimationStateMachine.createState Miku_IdleLeek_Upper
+AnimationStateMachine.addAnimation animations/Items/Miku_IdleLeek_Upper.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.5
+
+
+AnimationStateMachine.createState Miku_IdleLeek_Lower
+AnimationStateMachine.addAnimation animations/Items/Miku_IdleLeek_Lower.baf 1 c_AsmLooping
+AnimationStateMachine.setMorphFactor 0.5
+
+
+AnimationStateMachine.set3pAnimationSpeed Miku_Idle_Upper 0.5
+AnimationStateMachine.set3pAnimationSpeed Miku_Idle_Lower 0.5
+AnimationStateMachine.set3pAnimationSpeed Miku_IdleLeek_Upper 0.5
+AnimationStateMachine.set3pAnimationSpeed Miku_IdleLeek_Lower 0.5
+AnimationStateMachine.set3pAnimationSpeed Miku_SitToStand_Upper 0.25
+AnimationStateMachine.set3pAnimationSpeed Miku_SitToStand_Lower 0.25

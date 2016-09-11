@@ -1,0 +1,111 @@
+rem *** Set number of behaviours and id/name mappings ***
+ai.setNBehaviours 6
+ai.setBehaviour 0 Avoid
+ai.setBehaviour 1 MoveTo
+ai.setBehaviour 2 Idle
+ai.setBehaviour 3 Fire
+ai.setBehaviour 4 Roam
+ai.setBehaviour 5 Scout
+
+rem *** Set number of vehicles and id/name mappings ***
+ai.setNVehiclesTypes 4
+ai.setVehicle 0 Tank
+ai.setVehicle 1 Plane
+ai.setVehicle 2 Boat
+ai.setVehicle 3 Infantery
+rem ai.setVehicle 4 Car
+
+rem *** Construct unit weights ***
+ai.createBehaviourModifiers UnitWeights
+ai.setBehaviourModifier Avoid  1.2
+ai.setBehaviourModifier MoveTo 1.0
+ai.setBehaviourModifier Idle   0.75
+ai.setBehaviourModifier Fire   5.0
+ai.setBehaviourModifier Roam   1.5
+ai.setBehaviourModifier Scout  2.0
+
+rem *** Set basic weights for bot behaviour ***
+ai.setBasicBotWeights UnitWeights
+
+rem ************************* Vehicle behaviour setup ******************************
+
+rem *** Tank Behaviour setup ***
+ai.setVehicleBehaviour Tank Avoid AvoidCollision2d 1 0
+ai.setVehicleBehaviour Tank MoveTo GotoWaypoint2d 4 0
+ai.setVehicleBehaviour Tank Idle Idle2d 5 0
+ai.setVehicleBehaviour Tank Fire Fire2d 4 0
+ai.setVehicleBehaviour Tank Scout Scout 8 0
+ai.addInterpreterEntry Tank TankMoveTo
+ai.addInterpreterEntry Tank TankMoveToDirection
+ai.addInterpreterEntry Tank TankMoveToObject
+ai.addInterpreterEntry Tank Trigger
+ai.addInterpreterEntry Tank TriggerContinously
+ai.addInterpreterEntry Tank MouseTurretAimAt
+ai.addInterpreterEntry Tank TankResetControls
+ai.addInterpreterEntry Tank MouseTurretLookAt
+ai.addInterpreterEntry Tank Sense
+
+rem *** Plane Behaviour setup ***
+ai.setVehicleBehaviour Plane Avoid AvoidCollision3d 2 0
+ai.setVehicleBehaviour Plane MoveTo GotoWaypoint3d 4 0
+ai.setVehicleBehaviour Plane Idle Idle3d 3 0
+ai.setVehicleBehaviour Plane Fire Fire3d 7 0
+ai.setVehicleBehaviour Plane Roam Roam3d 6 0
+ai.addInterpreterEntry Plane PlaneMoveTo
+ai.addInterpreterEntry Plane PlaneMoveToDirection
+ai.addInterpreterEntry Plane PlaneMoveToObject
+ai.addInterpreterEntry Plane Trigger
+ai.addInterpreterEntry Plane TriggerContinously
+ai.addInterpreterEntry Plane PlaneAimAt
+ai.addInterpreterEntry Plane PlaneResetControls
+
+rem *** Boat Behaviour setup ***
+ai.setVehicleBehaviour Boat Avoid AvoidCollision2d 1 0
+ai.setVehicleBehaviour Boat MoveTo GotoWaypoint2d 4 0
+ai.setVehicleBehaviour Boat Idle Idle2d 5 0
+ai.setVehicleBehaviour Boat Fire Fire2d 4 0
+ai.addInterpreterEntry Boat BoatMoveTo
+ai.addInterpreterEntry Boat BoatMoveToDirection
+ai.addInterpreterEntry Boat BoatMoveToObject
+ai.addInterpreterEntry Boat Trigger
+ai.addInterpreterEntry Boat TriggerContinously
+
+rem *** Infantery Behaviour setup ***
+ai.setVehicleBehaviour Infantery Avoid AvoidCollision2d 1 0
+ai.setVehicleBehaviour Infantery MoveTo GotoWaypoint2d 4 0
+ai.setVehicleBehaviour Infantery Idle Idle2d 5 0
+ai.setVehicleBehaviour Infantery Fire Fire2d 4 0
+ai.setVehicleBehaviour Infantery Roam Roam2d 8 0
+ai.addInterpreterEntry Infantery InfanteryMoveTo
+ai.addInterpreterEntry Infantery InfanteryMoveToDirection
+ai.addInterpreterEntry Infantery InfanteryMoveToObject
+ai.addInterpreterEntry Infantery Trigger
+ai.addInterpreterEntry Infantery TriggerContinously
+ai.addInterpreterEntry Infantery MouseTurretAimAt
+ai.addInterpreterEntry Infantery InfanteryResetControls
+
+beginRem
+rem *** Jeep Behaviour setup ***
+ai.setVehicleBehaviour Car Avoid AvoidCollision2d 1 0
+ai.setVehicleBehaviour Car MoveTo GotoWaypoint2d 5 0
+ai.setVehicleBehaviour Car Idle Idle2d 5 0
+ai.setVehicleBehaviour Car Fire Fire2d 1 0
+ai.setVehicleBehaviour Car Scout Scout 8 0
+ai.setVehicleBehaviour Car Roam Roam2d 9 0
+ai.addInterpreterEntry Car CarMoveTo
+ai.addInterpreterEntry Car CarMoveToDirection
+ai.addInterpreterEntry Car CarMoveToObject
+ai.addInterpreterEntry Car Trigger
+ai.addInterpreterEntry Car TriggerContinously
+ai.addInterpreterEntry Car CarResetControls
+endRem
+
+rem ********************************* Test ********************************
+
+ai.createBehaviourModifiers MoveToMods
+ai.setBehaviourModifier Avoid  1.0
+ai.setBehaviourModifier MoveTo 2.0
+ai.setBehaviourModifier Idle   0.1
+ai.setBehaviourModifier Fire   2.0
+ai.setBehaviourModifier Roam   0.5
+ai.setBehaviourModifier Scout  1.0

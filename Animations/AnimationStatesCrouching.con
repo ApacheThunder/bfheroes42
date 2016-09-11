@@ -1,0 +1,243 @@
+rem *** All prone animations disabled. 12/11/10 ***
+
+rem
+rem *** Crouch states ***
+rem 
+
+
+rem
+rem **** Transitions from stand/crouch
+rem 
+AnimationStateMachine.createState Lb_StandToCrouch
+AnimationStateMachine.setSoundTrigger c_SstToCrouch
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PStand2CrouchLower.baf 4 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.addTransitionWhenDone Lb_Crouch
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+AnimationStateMachine.createState Lb_CrouchToStand
+AnimationStateMachine.setSoundTrigger c_SstFromCrouch
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PStand2CrouchLower.baf -4 c_AsmPlayOnce
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.addTransitionWhenDone Lb_Stand
+
+rem ** Upper From/to crouch ***
+AnimationStateMachine.createState Ub_StandToCrouch
+rem AnimationStateMachine.addAnimation Animations/Crouch/3P/3PStand2CrouchUpper.baf 4 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.addTransitionWhenDone Ub_Crouch
+
+AnimationStateMachine.createState Ub_CrouchToStand
+rem AnimationStateMachine.addAnimation Animations/Crouch/3P/3PStand2CrouchUpper.baf 4 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.addTransitionWhenDone Ub_StandAim
+
+
+
+rem -----------------------------Lower Body----------------------------------
+rem
+rem **** Is Crouching
+rem 
+AnimationStateMachine.createState Lb_Crouch
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PCrouchBreathLower.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Lb_CrouchForward
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Lb_CrouchBackward
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Lb_CrouchStrafeLeft
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Lb_CrouchStrafeRight
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Lb_CrouchTurnLeft
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Lb_CrouchTurnRight
+AnimationStateMachine.addTransitionOne c_PICrouch  0.5 100.0 Lb_Crouch
+AnimationStateMachine.returnToState Lb_CrouchToStand
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+
+rem --- Crouch Walk---
+AnimationStateMachine.createState Lb_CrouchForward
+AnimationStateMachine.setSoundTrigger c_SstCrouchMove
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PCrouchForwardLower.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Lb_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Lb_CrouchForward
+AnimationStateMachine.returnToState Lb_Crouch
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setCameraShakeUpDown 0 0.07 10.0
+AnimationStateMachine.setCameraShakeFadeIn 0 0.3
+
+AnimationStateMachine.createState Lb_CrouchBackward
+AnimationStateMachine.setSoundTrigger c_SstCrouchMove
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PCrouchForwardLower.baf -1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Lb_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Lb_CrouchBackward
+AnimationStateMachine.returnToState Lb_Crouch
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setCameraShakeUpDown 0 0.07 10.0
+AnimationStateMachine.setCameraShakeFadeIn 0 0.3
+
+rem --- Crouch Strafe---
+AnimationStateMachine.createState Lb_CrouchStrafeRight
+AnimationStateMachine.setSoundTrigger c_SstCrouchMove
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PCrouchForwardLower.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Lb_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Lb_CrouchForward
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Lb_CrouchStrafeLeft
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Lb_CrouchStrafeRight
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Lb_CrouchTurnLeft
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Lb_CrouchTurnRight
+AnimationStateMachine.returnToState Lb_Crouch
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setCameraShakeUpDown 0 0.07 10.0
+AnimationStateMachine.setCameraShakeFadeIn 0 0.6
+
+AnimationStateMachine.createState Lb_CrouchStrafeLeft
+AnimationStateMachine.setSoundTrigger c_SstCrouchMove
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PCrouchForwardLower.baf -1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Lb_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Lb_CrouchBackward
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Lb_CrouchStrafeLeft
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Lb_CrouchStrafeRight
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Lb_CrouchTurnLeft
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Lb_CrouchTurnRight
+AnimationStateMachine.returnToState Lb_Crouch
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setMorphFactor 2.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setCameraShakeUpDown 0 0.07 10.0
+AnimationStateMachine.setCameraShakeFadeIn 0 0.6
+
+rem --- Turn ---
+AnimationStateMachine.createState Lb_CrouchTurnLeft
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PCrouchTurnLeftLower.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Lb_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Lb_CrouchForward
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Lb_CrouchBackward
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Lb_CrouchStrafeLeft
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Lb_CrouchStrafeRight
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  -1 -0.01 Lb_CrouchTurnLeft
+AnimationStateMachine.returnToState Lb_Crouch
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setCameraShakeUpDown 0 0.07 10.0
+AnimationStateMachine.setCameraShakeFadeIn 0 0.6
+
+AnimationStateMachine.createState Lb_CrouchTurnRight
+AnimationStateMachine.addAnimation Animations/Crouch/LowerBody/3PCrouchTurnRightLower.baf 1 c_AsmLooping
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Lb_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Lb_CrouchForward
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Lb_CrouchBackward
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Lb_CrouchStrafeLeft
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Lb_CrouchStrafeRight
+AnimationStateMachine.addTransitionOne c_PIMouseLookX  0.01 1 Lb_CrouchTurnRight
+AnimationStateMachine.returnToState Lb_Crouch
+AnimationStateMachine.setSpeed 1.0 1.0 1.0
+AnimationStateMachine.setFlag c_AsmIsCrouching
+AnimationStateMachine.setCameraShakeUpDown 0 0.07 10.0
+AnimationStateMachine.setCameraShakeFadeIn 0 0.6
+
+
+rem
+rem ***				 ------- UPPER BODY ------
+rem
+
+AnimationStateMachine.createState Ub_Crouch
+AnimationStateMachine.addTransitionItem
+
+rem
+rem 				*** Thompson
+rem
+AnimationStateMachine.createState Ub_CrouchThompson
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Thompson/3PCrouchBreathUpperThompson.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Thompson/1PStandAimThompson.baf 0.5 1
+AnimationStateMachine.addIdle Ub_CrouchIdleThompson1
+AnimationStateMachine.addIdle Ub_CrouchIdleThompson2
+AnimationStateMachine.addIdle Ub_CrouchIdleThompson3
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 1 Ub_CrouchForwardThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle -1 -0.5 Ub_CrouchBackwardThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightThompson
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_CrouchTurnThompson
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_CrouchTurnThompson
+AnimationStateMachine.addTransitionOne c_PICrouch  0.5 100.0 Ub_CrouchThompson
+AnimationStateMachine.returnToState Ub_CrouchToStand
+AnimationStateMachine.setMorphFactor 0.7
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
+AnimationStateMachine.createState Ub_CrouchTurnThompson
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Thompson/3PCrouchForwardUpperThompson.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Thompson/1pRunThompson.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 9999 Ub_CrouchForwardThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_CrouchBackwardThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightThompson
+AnimationStateMachine.addTransitionOne c_PIMouseLookX -1000 -0.0001 Ub_CrouchTurnThompson
+AnimationStateMachine.addTransitionOne c_PIMouseLookX 0.0001 1000 Ub_CrouchTurnThompson
+AnimationStateMachine.returnToState Ub_CrouchThompson 
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
+
+AnimationStateMachine.createState Ub_CrouchForwardThompson
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Thompson/3PCrouchForwardUpperThompson.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Thompson/1pRunThompson.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 9999 Ub_CrouchForwardThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_CrouchBackwardThompson
+AnimationStateMachine.returnToState Ub_CrouchThompson
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
+AnimationStateMachine.createState Ub_CrouchBackwardThompson
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Thompson/3PCrouchForwardUpperThompson.baf -1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Thompson/1pRunThompson.baf -0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle 0.5 9999 Ub_CrouchForwardThompson
+AnimationStateMachine.addTransitionOne c_PIThrottle -9999 -0.5 Ub_CrouchBackwardThompson
+AnimationStateMachine.returnToState Ub_CrouchThompson
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
+
+AnimationStateMachine.createState Ub_CrouchStrafeLeftThompson
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Thompson/3PCrouchForwardUpperThompson.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Thompson/1pRunThompson.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  -1 -0.01 Ub_CrouchStrafeLeftThompson
+AnimationStateMachine.returnToState Ub_CrouchThompson 
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
+AnimationStateMachine.createState Ub_CrouchStrafeRightThompson
+AnimationStateMachine.addAnimation Animations/Crouch/3p/Thompson/3PCrouchForwardUpperThompson.baf 1 1
+AnimationStateMachine.addAnimation Animations/StandWalkRun/1p/Thompson/1pRunThompson.baf 0.5 1
+AnimationStateMachine.addTransitionOne c_PICrouch  0.0 0.0 Ub_CrouchToStand
+AnimationStateMachine.addTransitionOne c_PIFire 0.5 1 Ub_FireThompson
+AnimationStateMachine.addTransitionOne c_PIAltFire 0.5 1 Ub_AltFireThompson
+AnimationStateMachine.addTransitionOne c_PIYaw  0.01 1 Ub_CrouchStrafeRightThompson
+AnimationStateMachine.returnToState Ub_CrouchThompson 
+AnimationStateMachine.setMorphFactor 0.5
+AnimationStateMachine.setFlag c_AsmIsCrouching
+include copyToallWeapons.inc Thompson
+
