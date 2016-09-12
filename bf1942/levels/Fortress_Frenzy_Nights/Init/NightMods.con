@@ -1,0 +1,24 @@
+ObjectTemplate.active bri_jeep_willysComplex
+ObjectTemplate.addTemplate bri_jeep_headlights
+
+ObjectTemplate.active bri_jeep_willysSimple
+ObjectTemplate.addTemplate bri_jeep_headlights
+
+
+ObjectTemplate.active ger_jeep_kubelwagenComplex
+ObjectTemplate.addTemplate ger_jeep_headlights
+
+ObjectTemplate.active ger_jeep_kubelwagenSimple
+ObjectTemplate.addTemplate ger_jeep_headlights
+
+ObjectTemplate.active light_post_01
+ObjectTemplate.addTemplate light_post_glow_01
+
+ObjectTemplate.active castletower_01
+ObjectTemplate.addTemplate castletower_glow_01
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc

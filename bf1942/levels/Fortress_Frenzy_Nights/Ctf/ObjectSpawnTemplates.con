@@ -1,0 +1,9 @@
+ObjectTemplate.create ObjectSpawner JeepSpawner
+ObjectTemplate.setObjectTemplate 1 ger_jeep_kubelwagen
+ObjectTemplate.setObjectTemplate 2 bri_jeep_willys
+ObjectTemplate.minSpawnDelay 10
+ObjectTemplate.maxSpawnDelay 15
+ObjectTemplate.timeToLive 15
+ObjectTemplate.distance 2
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.damageWhenLost 10

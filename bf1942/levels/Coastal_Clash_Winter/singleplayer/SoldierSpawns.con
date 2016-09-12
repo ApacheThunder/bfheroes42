@@ -1,0 +1,230 @@
+
+rem ***  
+Object.create cc_16_cliffs_0_0
+Object.absolutePosition 282.969/14.622/344.81
+Object.rotation -127.81/1.20401/-3.05396
+
+rem ***  
+Object.create cc_16_windmill_10
+Object.absolutePosition 364.038/13.132/239.318
+Object.rotation -5.33498/0.0/0.0
+
+rem ***  
+Object.create cc_16_windmill_9
+Object.absolutePosition 322.45/11.959/190.59
+Object.rotation 91.042/0.0/0.0
+
+rem ***  
+Object.create cc_16_windmill_8
+Object.absolutePosition 364.258/13.211/239.457
+Object.rotation -10.547/3.846/-0.377424
+
+rem ***  
+Object.create cc_16_windmill_7
+Object.absolutePosition 363.699/13.022/234.551
+Object.rotation 169.044/-7.798/-0.706098
+
+rem ***  
+Object.create cc_16_windmill_6
+Object.absolutePosition 327.846/10.933/287.289
+Object.rotation 169.03/0.0/0.0
+
+rem ***  
+Object.create cc_16_windmill_5
+Object.absolutePosition 338.186/12.142/281.8
+Object.rotation -144.959/0.355976/-1.32397
+
+rem ***  
+Object.create cc_16_windmill_4
+Object.absolutePosition 317.394/11.208/268.123
+Object.rotation 138.903/0.0/0.0
+
+rem ***  
+Object.create cc_16_windmill_3
+Object.absolutePosition 341.609/12.866/261.074
+Object.rotation -143.081/-1.387/-0.74782
+
+rem ***  
+Object.create cc_16_windmill_2
+Object.absolutePosition 364.229/13.045/234.378
+Object.rotation -177.871/0.666996/-6.21801
+
+rem ***  
+Object.create cc_16_windmill_1
+Object.absolutePosition 339.226/12.85/211.836
+Object.rotation -20.387/0.0/0.0
+
+rem ***  
+Object.create cc_16_windmill_0_12
+Object.absolutePosition 319.187/11.779/192.407
+Object.rotation -64.334/0.0/0.0
+
+rem ***  
+Object.create cc_16_windmill_0_11
+Object.absolutePosition 325.871/12.601/193.3
+Object.rotation 84.247/0.388992/1.52598
+
+rem ***  
+Object.create cc_16_lookout_9
+Object.absolutePosition 261.012/15.741/183.671
+Object.rotation 19.312/0.096005/0.104678
+
+rem ***  
+Object.create cc_16_lookout_7
+Object.absolutePosition 266.657/15.812/273.705
+Object.rotation 138.23/-1.826/-6.30098
+
+rem ***  
+Object.create cc_16_lookout_6
+Object.absolutePosition 259.182/15.621/254.955
+Object.rotation 129.58/0.0/0.0
+
+rem ***  
+Object.create cc_16_lookout_5
+Object.absolutePosition 277.597/16.456/276.136
+Object.rotation -175.541/0.0/0.0
+
+rem ***  
+Object.create cc_16_lookout_4
+Object.absolutePosition 273.681/16.251/278.987
+Object.rotation -150.541/0.0/0.0
+
+rem ***  
+Object.create cc_16_lookout_3
+Object.absolutePosition 280.907/13.398/275.57
+Object.rotation 172.723/0.0/0.0
+
+rem ***  
+Object.create cc_16_lookout_2
+Object.absolutePosition 289.133/15.731/189.336
+Object.rotation -9.54501/-2.862/1.64211
+
+rem ***  
+Object.create cc_16_lookout_1
+Object.absolutePosition 258.74/15.693/197.408
+Object.rotation 65.087/0.0/0.0
+
+rem ***  
+Object.create cc_16_lookout_0_11
+Object.absolutePosition 267.177/16.133/190.007
+Object.rotation -20.343/0.0/0.0
+
+rem ***  
+Object.create cc_16_lookout_0_10
+Object.absolutePosition 284.961/15.701/186.557
+Object.rotation -35.113/-0.267001/-8.43
+
+rem ***  
+Object.create cc_16_national_hq_3
+Object.absolutePosition 250.247/17.498/378.972
+Object.rotation 125.566/0.0/0.0
+
+rem ***  
+Object.create cc_16_royal_hq_3
+Object.absolutePosition 271.776/16.365/83.044
+Object.rotation 3.41999/2.38999/-0.102792
+
+rem ***  
+Object.create cc_16_national_hq_2_1
+Object.absolutePosition 248.486/17.266/375.481
+Object.rotation 110.392/0.0/0.0
+
+rem ***  
+Object.create cc_16_national_hq_2_0
+Object.absolutePosition 277.204/16.781/369.905
+Object.rotation -118.507/0.0/0.0
+
+rem ***  
+Object.create cc_16_national_hq_1
+Object.absolutePosition 275.348/16.669/380.411
+Object.rotation -130.89/0.0/0.0
+
+rem ***  
+Object.create cc_16_cliffs_4_0
+Object.absolutePosition 243.128/13.115/324.437
+Object.rotation 109.062/0.266/1.378
+
+rem ***  
+Object.create cc_16_cliffs_3_0
+Object.absolutePosition 252.608/13.171/333.004
+Object.rotation 158.821/-0.879/1.09307
+
+rem ***  
+Object.create cc_16_cliffs_2_0
+Object.absolutePosition 253.594/15.98/300.523
+Object.rotation 88.531/0.73201/1.19599
+
+rem ***  
+Object.create cc_16_royal_hq_2
+Object.absolutePosition 277.738/16.365/83.685
+Object.rotation -8.172/0.839998/-0.209357
+
+rem ***  
+Object.create cc_16_royal_hq_1_1
+Object.absolutePosition 261.175/16.38/82.755
+Object.rotation 23.203/0.82598/0.259443
+
+rem ***  
+Object.create cc_16_royal_hq_1_0
+Object.absolutePosition 285.467/16.288/89.237
+Object.rotation 33.158/0.769006/0.398113
+
+rem ***  
+Object.create cc_16_backyard_4
+Object.absolutePosition 321.974/10.995/115.023
+Object.rotation -19.91/-2.185/1.23305
+
+rem ***  
+Object.create cc_16_backyard_3
+Object.absolutePosition 348.905/9.595/140.971
+Object.rotation -52.216/-0.357/-0.339773
+
+rem ***  
+Object.create cc_16_backyard_2
+Object.absolutePosition 327.163/10.887/152.225
+Object.rotation -40.868/0.0/0.0
+
+rem ***  
+Object.create cc_16_royal_hq_0_4
+Object.absolutePosition 262.258/16.365/93.49
+Object.rotation 98.079/0.0/0.0
+
+rem ***  
+Object.create cc_16_national_hq_0_5
+Object.absolutePosition 260.799/17.054/382.093
+Object.rotation 175.097/-0.037/6.61302
+
+rem ***  
+Object.create cc_16_national_hq_0_4
+Object.absolutePosition 258.387/16.965/367.047
+Object.rotation 44.132/0.0/0.0
+
+rem ***  
+Object.create cc_16_backyard_1
+Object.absolutePosition 307.534/10.798/129.757
+Object.rotation 18.537/0.0/0.0
+
+rem ***  
+Object.create cc_16_backyard_0_6
+Object.absolutePosition 303.651/10.892/134.394
+Object.rotation 17.548/0.0/0.0
+
+rem ***  
+Object.create cc_16_backyard_0_5
+Object.absolutePosition 324.767/10.707/146.543
+Object.rotation -21.167/0.0/0.0
+
+rem ***  
+Object.create cc_16_cliffs_1_0
+Object.absolutePosition 255.782/13.634/336.555
+Object.rotation 157.657/0.0/0.0
+
+rem ***  
+Object.create cc_16_cliffs_6_0
+Object.absolutePosition 265.108/15.305/343.44
+Object.rotation -170.856/-1.208/-3.05396
+
+rem ***  
+Object.create cc_16_cliffs_5_0
+Object.absolutePosition 244.702/13.1/318.552
+Object.rotation 71.853/1.04499/0.936073

@@ -1,0 +1,119 @@
+rem
+rem ***  ***
+rem
+Object.create riverkeep_01
+Object.absolutePosition 523.241/55.8102/667.866
+Object.rotation -186/0/0
+rem
+rem ***  ***
+rem
+Object.create riverkeep_02
+Object.absolutePosition 518.084/62.0349/687.349
+Object.rotation -158/0/0
+rem
+rem ***  ***
+rem
+Object.create riverkeep_03
+Object.absolutePosition 520.528/64.01/704.365
+Object.rotation 113/0/0
+rem
+rem ***  ***
+rem
+Object.create riverkeep_04
+Object.absolutePosition 488.369/60.895/681.555
+Object.rotation -33/0/0
+rem
+rem ***  ***
+rem
+Object.create townspawn_01
+Object.absolutePosition 480.096/54.875/573.428
+Object.rotation 81/0/0
+rem
+rem ***  ***
+rem
+Object.create townspawn_02
+Object.absolutePosition 493.266/54.8658/568.063
+Object.rotation -65/0/0
+rem
+rem ***  ***
+rem
+Object.create townspawn_03
+Object.absolutePosition 474.028/54.875/566.545
+Object.rotation 96/0/0
+rem
+rem ***  ***
+rem
+Object.create townspawn_04
+Object.absolutePosition 480.913/54.875/586.684
+Object.rotation 151/0/0
+rem
+rem ***  ***
+rem
+Object.create backyard_01
+Object.absolutePosition 549.587/53.1129/512.682
+Object.rotation -18/0/0
+rem
+rem ***  ***
+rem
+Object.create backyard_02
+Object.absolutePosition 533.802/52.749/522.771
+Object.rotation 39/0/0
+rem
+rem ***  ***
+rem
+Object.create backyard_03
+Object.absolutePosition 525.407/53.085/499.477
+rem
+rem ***  ***
+rem
+Object.create backyard_04
+Object.absolutePosition 514.563/52.3179/522.624
+Object.rotation -72/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbase_01
+Object.absolutePosition 382.397/49.3/587.574
+Object.rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbase_02
+Object.absolutePosition 382.263/49.3285/611.096
+Object.rotation 110/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbase_03
+Object.absolutePosition 395.971/52.3764/626.814
+Object.rotation 223/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbase_04
+Object.absolutePosition 395.53/52.515/565.704
+Object.rotation 122/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbase_01
+Object.absolutePosition 665.491/49.0262/592.524
+Object.rotation -44/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbase_02
+Object.absolutePosition 663.349/48.5314/615.067
+Object.rotation -118/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbase_03
+Object.absolutePosition 635.88/52.0176/579.188
+Object.rotation 67/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbase_04
+Object.absolutePosition 648.935/52.8751/637.734
+Object.rotation -61/0/0

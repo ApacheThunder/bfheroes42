@@ -1,0 +1,7 @@
+newPatch
+load @ROOT/Sound/@RTD/west_sfx_ambience_lv01_horror.wav
+stereo
+loop
+minDistance 300000
+priority -10
+dopplerOff

@@ -1,0 +1,25 @@
+if v_arg1 == host
+Object.create cc_16_windmill
+Object.absolutePosition 337.235/12.567/235.506
+Object.rotation 81.755/0.0/0.0
+
+Object.create cc_16_lookout
+Object.absolutePosition 273.454/19.501/227.32
+Object.rotation 85.736/0.0/0.0
+
+Object.create cc_16_national_hq
+Object.absolutePosition 259.867/16.957/385.641
+Object.rotation 0.0/0.0/0.0
+
+Object.create cc_16_royal_hq
+Object.absolutePosition 264.984/16.365/83.47
+Object.rotation -89.621/-0.081/-0.861846
+
+Object.create cc_16_cliffs
+Object.absolutePosition 254.721/12.652/320.026
+Object.rotation 104.517/-3.748/1.76303
+
+Object.create cc_16_backyard
+Object.absolutePosition 328.776/10.842/138.526
+Object.rotation 0.0/0.0/0.0
+endIf

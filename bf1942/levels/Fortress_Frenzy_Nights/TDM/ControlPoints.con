@@ -1,0 +1,27 @@
+rem
+rem ***  ***
+rem
+Object.create cpname_west_16_tdm_river_town
+Object.absolutePosition 485.507/55.183/574.222
+rem
+rem ***  ***
+rem
+Object.create cpname_west_16_tdm_river_roybase
+Object.absolutePosition 679.201/48.8654/604.604
+Object.rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create cpname_west_16_tdm_river_natbase
+Object.absolutePosition 371.115/49.3026/593.334
+Object.rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create cpname_west_16_tdm_river_keep
+Object.absolutePosition 520.25/56.11/666.456
+rem
+rem ***  ***
+rem
+Object.create cpname_west_16_tdm_river_backyard
+Object.absolutePosition 537.714/53.312/523.224

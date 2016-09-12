@@ -1,0 +1,80 @@
+ObjectTemplate.create SpawnPoint nationalbase_03
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint nationalbase_04
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint royalbase_01
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint riverkeep_01
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint royalbase_02
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint backyard_01
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint townspawn_01
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint riverkeep_02
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint royalbase_03
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint backyard_02
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint townspawn_02
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint riverkeep_03
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint royalbase_04
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint backyard_03
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint townspawn_03
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint riverkeep_04
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint backyard_04
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint townspawn_04
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint nationalbase_01
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint nationalbase_02
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 1
+

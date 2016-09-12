@@ -1,0 +1,34 @@
+run Ctf/SpawnpointManagerSettings
+
+run Ctf/SoldierSpawnTemplates
+run Ctf/SoldierSpawns
+
+run Ctf/ObjectSpawnTemplates
+run Ctf/ControlPointTemplates
+
+run Ctf/ObjectSpawns v_arg1
+run Ctf/ControlPoints v_arg1
+	
+
+if v_arg1 == host
+
+Object.create RAbaseNight
+Object.absolutePosition 679.201/48.8654/604.604
+Object.rotation -180/0/0
+
+Object.create RAbaseNight
+Object.absolutePosition 371.115/49.3026/593.334
+Object.rotation -180/0/0
+
+else
+
+Object.create ctf_flagbase
+Object.absolutePosition 679.201/48.8654/604.604
+Object.rotation -180/0/0
+
+Object.create ctf_flagbase
+Object.absolutePosition 371.115/49.3026/593.334
+Object.rotation -180/0/0
+
+endIf
+

@@ -1,0 +1,39 @@
+Object.create jeepspawner
+Object.absolutePosition 667.976/48.652/596.106
+Object.rotation -91.986/0.0349926/0.999951
+Object.setTeam 2
+
+Object.create jeepspawner
+Object.absolutePosition 669.877/48.627/615.797
+Object.rotation -70.699/-0.33/0.943983
+Object.setTeam 2
+
+Object.create jeepspawner
+Object.absolutePosition 668.713/48.528/613.01
+Object.rotation -70.699/-0.33/0.943983
+Object.setTeam 2
+
+Object.create jeepspawner
+Object.absolutePosition 667.88/48.533/599.101
+Object.rotation -91.348/0.0239841/1.00034
+Object.setTeam 2
+
+Object.create jeepspawner
+Object.absolutePosition 376.233/48.738/608.509
+Object.rotation 73.324/0.0/0.0
+Object.setTeam 1
+
+Object.create jeepspawner
+Object.absolutePosition 376.824/48.682/595.576
+Object.rotation 112.943/0.0/0.0
+Object.setTeam 1
+
+Object.create jeepspawner
+Object.absolutePosition 376.596/49.043/603.488
+Object.rotation 73.324/0.0/0.0
+Object.setTeam 1
+
+Object.create jeepspawner
+Object.absolutePosition 375.654/48.75/590.429
+Object.rotation 110.594/0.0/0.0
+Object.setTeam 1

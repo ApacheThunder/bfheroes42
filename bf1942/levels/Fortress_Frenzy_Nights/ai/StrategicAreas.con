@@ -1,0 +1,84 @@
+aiSettings.createVehicleGroup land
+aiSettings.createVehicleGroup infantry
+aiSettings.createVehicleGroup any
+
+aiSettings.addVehicleToVehicleGroup 0  land
+aiSettings.addVehicleToVehicleGroup 1  any
+aiSettings.addVehicleToVehicleGroup 2  any
+aiSettings.addVehicleToVehicleGroup 3  infantry
+aiSettings.addVehicleToVehicleGroup 4  any
+aiSettings.addVehicleToVehicleGroup 5  land
+aiSettings.addVehicleToVehicleGroup 6  land
+aiSettings.addVehicleToVehicleGroup 7  any
+aiSettings.addVehicleToVehicleGroup 8  any
+aiSettings.addVehicleToVehicleGroup 9  any
+aiSettings.addVehicleToVehicleGroup 10 any
+aiSettings.addVehicleToVehicleGroup 11 any
+aiSettings.addVehicleToVehicleGroup 12 any
+aiSettings.addVehicleToVehicleGroup 13 any
+aiSettings.addVehicleToVehicleGroup 14 land
+
+aiStrategicArea.createNewCategory land
+
+aiStrategicArea.create cpname_west_16_tdm_river_roybase 659.2/564.6 679.2/584.6 20 land
+aiStrategicArea.create cpname_west_16_tdm_river_town 476/565 485.5/574.2 9 land
+aiStrategicArea.create cpname_west_16_tdm_river_natbase 351/573.3 371/593.3 20 land
+aiStrategicArea.create cpname_west_16_tdm_river_keep 505/651 520.2/666.4 15 land
+aiStrategicArea.create cpname_west_16_tdm_river_backyard 525/511 537.7/523.2 12 land
+
+aiStrategicArea.setActive cpname_west_16_tdm_river_roybase
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.setOrderPosition Infantry 679.2/604.6
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+aiStrategicArea.vehicleSearchRadius 75
+
+aiStrategicArea.setActive cpname_west_16_tdm_river_natbase
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.setOrderPosition Infantry 371.1/593.3
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+aiStrategicArea.vehicleSearchRadius 75
+
+aiStrategicArea.setActive cpname_west_16_tdm_river_town
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_roybase
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_natbase
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_keep
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_backyard
+AIStrategicArea.setOrderPosition Infantry 486.5/574.2
+AIStrategicArea.setOrderPosition Tank 486.5/574.2
+
+aiStrategicArea.setActive cpname_west_16_tdm_river_keep
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_roybase
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_natbase
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_town
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_backyard
+AIStrategicArea.setOrderPosition Infantry 520.2/666.4
+AIStrategicArea.setOrderPosition Tank 520.2/666.4
+
+aiStrategicArea.setActive cpname_west_16_tdm_river_backyard
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_roybase
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_natbase
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_town
+AIStrategicArea.addNeighbour cpname_west_16_tdm_river_keep
+AIStrategicArea.setOrderPosition Infantry 538.7/523.2
+AIStrategicArea.setOrderPosition Tank 538.7/523.2

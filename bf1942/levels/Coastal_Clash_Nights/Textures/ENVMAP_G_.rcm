@@ -1,0 +1,7 @@
+[CubeMap]
+PositiveX = bf1942\levels\Coastal_Clash_Nights\Textures\env_01.dds
+NegativeX = bf1942\levels\Coastal_Clash_Nights\Textures\env_02.dds
+PositiveY = bf1942\levels\Coastal_Clash_Nights\Textures\env_03.dds
+NegativeY = bf1942\levels\Coastal_Clash_Nights\Textures\env_04.dds
+PositiveZ = bf1942\levels\Coastal_Clash_Nights\Textures\env_05.dds
+NegativeZ = bf1942\levels\Coastal_Clash_Nights\Textures\env_06.dds

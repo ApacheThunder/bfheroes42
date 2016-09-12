@@ -1,0 +1,4 @@
+sound.reserve2dStereoChans 2/4/4
+sound.relaxHwReservations 0.5/0.5/0
+
+EnvironmentSound.load Sounds/GlobalAmbient.ssc

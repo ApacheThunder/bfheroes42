@@ -1,0 +1,73 @@
+*** Unknown ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Reload ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Release ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Shell Bounce ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Far Distance ***
+newPatch
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+*** Fire ***
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Text.wav
+minDistance 2
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 5
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Text2.wav
+minDistance 2
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 5
+	param 1
+	param -1
+endEffect
+
+load @ROOT/Sound/@RTD/West_SFX_Text3.wav
+minDistance 2
+dopplerOff
+priority 10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 5
+	param 1
+	param -1
+endEffect
+
+randomPlay 1
