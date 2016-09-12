@@ -1,0 +1,9 @@
+Object.create vv_16_tank
+Object.absolutePosition 172.42/24.995/150.675
+Object.rotation 78.589/0.0/0.0
+Object.setTeam 2
+
+Object.create vv_16_tank
+Object.absolutePosition 246.641/25.386/378.993
+Object.rotation 107.565/0.0/0.0
+Object.setTeam 1

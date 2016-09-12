@@ -1,0 +1,3188 @@
+rem
+rem *** Init Map Mods ***
+rem
+include Init/Mods.con
+rem
+rem ***  Init Map Undergrowth ***
+rem
+include Init/Undergrowth.con
+rem
+rem *** Captain Shop ***
+rem
+Object.create ger_captainshopbundle
+Object.absolutePosition 483.105/46.7566/962.089
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bri_captainshopbundle
+Object.absolutePosition 78.655/42.9391/273.104
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 676.233/46.288/593.432
+Object.Rotation -125/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 662.015/46.764/584.056
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 659.472/50.298/533.202
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 672.572/46.245/590.872
+Object.Rotation -35/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 703.224/51.848/314.437
+Object.Rotation -180/-6.7/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 614.862/49.263/360.542
+Object.Rotation -117.2/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 451.772/44.508/429.694
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 480.941/46.895/650.94
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 483.674/46.86/653.114
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 530.177/47.922/627.898
+Object.Rotation -178.8/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 547.649/47.965/610.429
+Object.Rotation -52.5/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 520.901/48.876/612.26
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 540.017/47.956/616.264
+Object.Rotation -86.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 525.894/47.169/627.56
+Object.Rotation 0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 550.934/47.298/605.332
+Object.Rotation -142.3/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 532.63/47.022/599.118
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 537.062/48.097/600.476
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01
+Object.absolutePosition 519.67/50.762/599.646
+Object.Rotation -0.799908/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 552.141/47.298/606.897
+Object.Rotation -142.3/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 527.815/47.17/629.472
+Object.Rotation 90.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 531.775/47.17/629.516
+Object.Rotation 90.4/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 600.511/49.261/598.812
+Object.Rotation -156.9/-3.7/-1.79994
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 679.851/46.487/600.979
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 677.893/46.484/612.921
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 654.074/46.621/616.878
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 674.224/47.237/601.728
+Object.Rotation -179.3/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 637.819/46.589/606.627
+Object.Rotation 3.79999/0.199988/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 658.065/46.619/615.023
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 673.021/46.492/610.781
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 679.851/46.487/608.974
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 677.968/46.607/596.961
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 512.421/48.103/605.531
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 526.676/47.143/599.128
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 674.316/47.189/608.808
+Object.Rotation 0.699975/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 488.127/45.152/418.79
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 503.199/46.786/434.879
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 656.983/49.883/350.659
+Object.Rotation 154.9/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 664.333/49.862/376.929
+Object.Rotation 47.8/-0.2/-0.999951
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 691.744/49.566/408.574
+Object.Rotation -36/-1.8/-2.30002
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 660.856/49.689/352.671
+Object.Rotation 143.8/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_e_01
+Object.absolutePosition 669.297/55.102/357.265
+Object.Rotation -87.3/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_e_01
+Object.absolutePosition 709.383/55.094/433.662
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_e_01
+Object.absolutePosition 670.781/55.1/370.118
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_e_01
+Object.absolutePosition 696.654/55.094/433.652
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 664.667/49.665/354.742
+Object.Rotation 149.4/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 669.752/49.535/369.335
+Object.Rotation 1.69996/-0.3/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 668.051/49.671/358.429
+Object.Rotation 94.4/0/2.10003
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 667.138/49.856/373.43
+Object.Rotation 57.8/-1.50565e-007/-5.19999
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 709.336/51.832/387.289
+Object.Rotation 2.49998/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 696.675/51.189/371.979
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 735.929/50.55/364.172
+Object.Rotation -179.1/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 678.552/48.145/387.275
+Object.Rotation 135.4/12.2/7.70001
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 712.456/49.606/438.481
+Object.Rotation -92.8/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 715.262/49.5/447.215
+Object.Rotation 87.2/2.7/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 687.359/49.722/408.472
+Object.Rotation -11.6/2.29999/-4.99999
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 708.394/49.602/435.191
+Object.Rotation 87.2/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 713.927/49.615/442.819
+Object.Rotation 84.8/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 693.169/50.078/436.294
+Object.Rotation 179/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 683.54/49.951/429.247
+Object.Rotation -85.4/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 697.672/49.651/434.65
+Object.Rotation 177.2/2.89999/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 688.713/50.134/436.094
+Object.Rotation 175.2/0/2.49998
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 726.095/51.008/360.245
+Object.Rotation -0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 685.212/49.577/421.014
+Object.Rotation -126.8/3.69999/4.29997
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 684.674/50.122/433.984
+Object.Rotation 78.6/-2.8/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 685.565/49.365/412.498
+Object.Rotation -83.4/1.39999/-6.49999
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 693.398/49.971/399.868
+Object.Rotation 90.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 725.229/50.336/354.4
+Object.Rotation 0.500068/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 733.867/50.496/352.425
+Object.Rotation -90.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 727.149/50.306/352.469
+Object.Rotation -89.1/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 741.438/45.92/302.102
+Object.Rotation -70.2/3.70001/6.70002
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 656.341/46.323/588.779
+Object.Rotation 25.8/0.500001/2.80002
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 683.341/49.686/426.189
+Object.Rotation 92/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 637.692/46.647/592.934
+Object.Rotation -165.7/0.499993/-1.59998
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 673.553/46.264/587.053
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 639.992/46.2/601.826
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 647.583/46.224/591.485
+Object.Rotation 10.2/0.199983/-1.39998
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 512.815/48.185/618.822
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 525.356/47.143/599.128
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 543.763/47.359/615.61
+Object.Rotation 127.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 530.662/47.117/599.138
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 510.873/47.368/607.01
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 512.775/47.368/620.67
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 514.826/47.337/620.67
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 510.873/47.368/616.733
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 510.873/47.368/610.98
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 525.524/46.913/613.554
+Object.Rotation -178.3/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 665.839/45.422/614.461
+Object.Rotation -161.5/-1.44819e-006/-82.6
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 661.729/45.286/617.752
+Object.Rotation 67.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 646.111/46.621/616.878
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 638.085/46.591/610.539
+Object.Rotation 91.1/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 655.264/46.612/609.842
+Object.Rotation -89.5/0/2.70001
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 658.065/46.619/612.952
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 651.477/46.449/590.79
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 693.625/49.842/495.923
+Object.Rotation 43/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 647.11/50.557/345.924
+Object.Rotation -156.7/0/0.999951
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 623.923/49.358/355.844
+Object.Rotation 33.5/0/-2.19998
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 620.019/49.309/358.039
+Object.Rotation 23.5/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 331.276/43.798/546.199
+Object.Rotation -88.9/-3.5/2.6
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 578.545/46.654/377.419
+Object.Rotation -16.9/-1.4/-0.600031
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 569.781/46.825/377.207
+Object.Rotation -161.2/0/-0.300014
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 574.08/46.741/376.624
+Object.Rotation -6.69999/0/-2.90003
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 586.386/42.732/359.684
+Object.Rotation 0/-22.1/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 593.25/42.247/357.55
+Object.Rotation 0/-17.9/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 594.441/41.226/353.112
+Object.Rotation 0/-11.6/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 586.76/40.833/351.482
+Object.Rotation 0/-8.4/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 579.492/41.084/355.079
+Object.Rotation 0/-10.6/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 573.127/41.298/357.088
+Object.Rotation 0/-16.2/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 576.298/43.511/364.877
+Object.Rotation 0/-17.5/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 578.769/45.033/369.442
+Object.Rotation 0/-19.2/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 327.902/43.531/544.698
+Object.Rotation -133.9/-0.7/4.30002
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 331.277/44.197/535.814
+Object.Rotation 141.7/-4.7/2.50006
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_ground_8m
+Object.absolutePosition 329.64/44.117/536.296
+Object.Rotation 136.1/-3.1/0.699975
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_ground_8m
+Object.absolutePosition 336.013/43.996/543.029
+Object.Rotation 136.1/1.99998/0.699975
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 499.844/45.159/412.485
+Object.Rotation -178.2/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 490.008/45.093/436.39
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 492.653/45.955/431.948
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 516.691/45.14/429.21
+Object.Rotation 141.3/-1.6/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 494.628/45.228/417.139
+Object.Rotation 94.8/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 497.83/44.958/436.578
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 507.127/45.181/408.414
+Object.Rotation -109.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 716.209/49.89/397.953
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 712.276/49.8/386.153
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 326.438/43.916/541.162
+Object.Rotation 1.20008/-2.6/-3.50001
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 702.895/47.267/481.947
+Object.Rotation -22.6/0.499985/-2.90003
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 706.95/47.13/483.176
+Object.Rotation 159.9/-1.1/2.90003
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 705.42/47.136/486.855
+Object.Rotation 157.4/-0.9/2.90003
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 705.559/47.407/480.776
+Object.Rotation -112.6/-2.9/2.29993
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_medium_4m
+Object.absolutePosition 589.471/44.375/362.155
+Object.Rotation -92.3/-1.2/3.69999
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 704.87/50.098/331.329
+Object.Rotation 93.3/-2/1.00015
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 643.209/50.67/356.315
+Object.Rotation 11.5/-1.8/-2.69994
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 644.597/50.637/350.293
+Object.Rotation -81.1/-2.6/-1.29996
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 642.592/50.609/352.384
+Object.Rotation 9.00001/-1.9/-2.59993
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 698.605/50.114/329.693
+Object.Rotation 3.40001/1/-2.70001
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 689.447/50.926/398.546
+Object.Rotation -179.1/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 688.097/50.188/398.091
+Object.Rotation 0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 699.714/50.961/319.824
+Object.Rotation 135/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 705.277/50.83/317.33
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 698.25/51.495/318.568
+Object.Rotation 44.4/-6.1/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_ground_8m
+Object.absolutePosition 698.459/51.588/324.334
+Object.Rotation 0/5.30001/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 708.411/50.799/318.606
+Object.Rotation -135/-1.7/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 677.498/46.018/613.628
+Object.Rotation -87.3/-0.7/0.799908
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 418.704/38.73/409.528
+Object.Rotation -21/-1.86693e-005/-179.98
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 554.867/41.113/580.553
+Object.Rotation 4.99999/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 551.764/47.359/609.548
+Object.Rotation 127.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 547.894/47.359/612.417
+Object.Rotation 127.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 543.32/47.359/615.953
+Object.Rotation 127.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 533.689/47.147/623.674
+Object.Rotation -179.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 533.657/47.229/621.634
+Object.Rotation -179.6/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 443.013/43.763/699.052
+Object.Rotation -88.9/-3.5/2.6
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 439.698/43.495/697.607
+Object.Rotation -133.9/-0.7/4.30002
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 446.885/43.835/695.232
+Object.Rotation 141.7/-4.7/2.50006
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_ground_8m
+Object.absolutePosition 441.386/43.807/689.136
+Object.Rotation 136.2/4.5/0.700254
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_ground_8m
+Object.absolutePosition 447.751/43.961/695.882
+Object.Rotation 136.1/-1.2/0.699695
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 438.176/43.881/694.016
+Object.Rotation 1.20008/-2.6/-3.50001
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 677.015/46.056/614.976
+Object.Rotation -128.3/0/0.999951
+rem
+rem ***  ***
+rem
+Object.create invisible_03_vehicles
+Object.absolutePosition 671.984/46.248/611.137
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 672.351/46.007/600.515
+Object.Rotation -1/90/1
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 666.142/46.677/584.24
+Object.Rotation 0/0/-8.9
+rem
+rem ***  ***
+rem
+Object.create ruinblock_01
+Object.absolutePosition 671.745/41.583/627.633
+Object.Rotation 90/5.36893e-007/33.3
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 632.448/46.781/594.306
+Object.Rotation -4.39997/9.59998/-1.59998
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 672.379/46.199/602.679
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 672.385/47.295/601.687
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 672.363/46.199/601.347
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 672.385/46.199/602.001
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 673.021/46.492/612.785
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 673.021/46.492/600.03
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 675.939/46.509/596.987
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 674.184/46.492/605.286
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 674.184/46.492/607.225
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 643.446/46.574/592.529
+Object.Rotation 3.20002/0/-7.30001
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 448.039/40.742/713.34
+Object.Rotation 90/9.8/5.00002
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 443.395/40.993/717.678
+Object.Rotation 0/18.1/-5.9
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 440.338/39.604/727.56
+Object.Rotation 0/18.2/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 429.395/40.711/724.607
+Object.Rotation 0/5.59999/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 422.819/41.461/714.49
+Object.Rotation 89.5/-5.2/5.4
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 415.245/40.984/702.726
+Object.Rotation 0.0989117/0.499985/7.19999
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 421.93/41.248/690.468
+Object.Rotation -0.399585/-4.3/5.09997
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 417.782/41.054/711.733
+Object.Rotation 88.9/-9.3/6.50002
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 423.585/40.94/719.967
+Object.Rotation 89.8/-1.8/6.49996
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 428.489/41.622/687.481
+Object.Rotation -0.799908/-5.6/8.50002
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 419.76/41.643/699.329
+Object.Rotation 0/0/7.39998
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 435.179/40.379/725.97
+Object.Rotation 0/11.5/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 451.048/40.94/707.243
+Object.Rotation -1.79994/10.1/-13.4
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 431.573/42.286/714.666
+Object.Rotation 0/11/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 431.564/42.653/708.563
+Object.Rotation -42.8/-6.7/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 545.295/47.359/614.426
+Object.Rotation 127.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 512.426/45.317/412.627
+Object.Rotation -141.3/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 517.232/45.126/421.64
+Object.Rotation -173/0.800006/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 517.722/45.189/425.632
+Object.Rotation -173/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 492.08/45.181/410.1
+Object.Rotation -77.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 511.156/45.317/411.042
+Object.Rotation -141.3/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 516.993/45.087/419.692
+Object.Rotation -173/1.8/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 498.639/46.183/415.58
+Object.Rotation 5.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 507.766/45.107/436.995
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 514.866/44.853/412.523
+Object.Rotation 89.2/5.90001/-8.20002
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 519.16/44.728/418.276
+Object.Rotation 0/-8.1/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 533.703/47.157/627.682
+Object.Rotation -179.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 538.033/47.19/620.676
+Object.Rotation 90.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 735.809/50.535/356.419
+Object.Rotation -179.1/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 725.288/50.33/366.264
+Object.Rotation 0.500068/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 558.617/46.648/376.783
+Object.Rotation 135/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 561.967/46.146/375.561
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 558.378/46.576/375.596
+Object.Rotation 44.4/8.29999/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_ground_8m
+Object.absolutePosition 557.411/47.275/382.287
+Object.Rotation 0/-3.5/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 565.273/46.605/376.767
+Object.Rotation -135/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 647.567/50.862/355.456
+Object.Rotation -171.2/-1.3/2.6
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 645.673/50.942/357.63
+Object.Rotation 98.9/2.59999/1.29996
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 700.813/50.109/331.567
+Object.Rotation 93.4/2.7/0.999951
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 548.261/39.886/579.054
+Object.Rotation 95/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 441.588/39.358/420.183
+Object.Rotation -59.7/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 430.241/38.784/413.903
+Object.Rotation -108.1/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 426.961/38.455/411.805
+Object.Rotation -18.1/1.10857e-006/90
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 433.813/39.73/415.7
+Object.Rotation 161.9/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 438.493/39.73/417.233
+Object.Rotation -59.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 488.107/45.061/422.793
+Object.Rotation -3.20002/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 687.818/50.188/392.414
+Object.Rotation 0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 687.787/50.188/394.355
+Object.Rotation 0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 527.372/44.068/421.534
+Object.Rotation 29.2/15.8/1.39998
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 485.869/40.675/453.51
+Object.Rotation -81.6/8.50001/-149.5
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 548.051/39.576/423.532
+Object.Rotation -71.5/0/-9.29999
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 473.635/42.421/448.404
+Object.Rotation 18.5/9.30001/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 512.396/45.032/434.183
+Object.Rotation 136.6/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 495.4/45.199/433.868
+Object.Rotation 96.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 488.127/45.093/432.39
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 511.002/45.089/435.658
+Object.Rotation 136.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 488.127/45.152/412.862
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 499.464/45.181/408.49
+Object.Rotation -77.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 503.335/45.181/407.913
+Object.Rotation -85.2/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 497.491/45.216/408.932
+Object.Rotation -171.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 499.714/45.159/408.446
+Object.Rotation -178.2/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 665.654/43.009/399.601
+Object.Rotation -71.5/82.6/-0.0484566
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 675.809/46.139/413.792
+Object.Rotation 62.5996/88/53.1994
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 663.89/40.404/406.849
+Object.Rotation -140.3/-2.7/-1.29996
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 670.509/43.132/405.145
+Object.Rotation -71.5001/82.6/-5.50135
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 667.948/41.933/402.985
+Object.Rotation -161.5/-1.44819e-006/-82.6
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 731.235/50.951/359.517
+Object.Rotation 5.99999/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_02
+Object.absolutePosition 733.977/50.452/358.915
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 725.496/49.946/351.656
+Object.Rotation -102.1/1.89998/3.29996
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_06
+Object.absolutePosition 724.615/49.604/366.552
+Object.Rotation 84.3/-4.5/-0.499677
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_06
+Object.absolutePosition 728.223/49.762/368.978
+Object.Rotation 167.6/-8.2/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 724.256/49.812/365.279
+Object.Rotation -90/5.09999/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_07
+Object.absolutePosition 714.902/49.39/316.921
+Object.Rotation -86.8/-1.3/1.00015
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_07
+Object.absolutePosition 730.625/49.576/383.744
+Object.Rotation 84.8/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 685.706/50.423/334.135
+Object.Rotation 35.2/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_02
+Object.absolutePosition 506.513/41.694/435.309
+Object.Rotation 0/0/-5.9
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 534.366/49.457/599.947
+Object.Rotation 109.2/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 549.5/49.45/594.679
+Object.Rotation 109.2/-0.2/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 564.403/49.104/589.577
+Object.Rotation 108.6/2.7/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 580.143/48.954/586.212
+Object.Rotation 95.2/-1.7/-0.700254
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 595.553/49.595/585.218
+Object.Rotation 92.4/-3.3/-0.799908
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 610.551/49.776/587.218
+Object.Rotation 71.8/2.19999/-1.69996
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 626.177/49.273/591.398
+Object.Rotation 78.6/0.499985/-1.39998
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 642.083/49.055/593.148
+Object.Rotation 89.6/0.800019/-1.29996
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 657.437/48.76/589.609
+Object.Rotation 118.1/1.30002/-0.699975
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 666.71/48.836/577.613
+Object.Rotation 168.9/-2.2/0.600031
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 668.825/49.466/561.741
+Object.Rotation 176.4/-2.3/0.300014
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 671.131/50.824/545.696
+Object.Rotation 166.9/-7.5/0.600031
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 672.263/52.214/530.233
+Object.Rotation -174.6/-2.3/-0.0989117
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 671.527/52.461/514.562
+Object.Rotation 179.5/0.59999/0.0989117
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 673.026/52.298/498.78
+Object.Rotation 169.1/0.599991/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 677.333/52.135/483.546
+Object.Rotation 158.7/0.59999/-0.0989117
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 685.21/52.749/469.644
+Object.Rotation 141.5/-4.9/-0.300014
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 693.241/53.207/456.39
+Object.Rotation 156.6/1.7/0.199792
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 698.018/52.399/441.287
+Object.Rotation 169.1/3.8/0.600031
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 515.047/45.835/430.094
+Object.Rotation -55.8/5.6/3.6
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 697.31/51.795/425.305
+Object.Rotation -161.1/0/0
+rem
+rem ***  ***
+rem
+Object.create warehousemedium_e_01
+Object.absolutePosition 711.477/53.17/413.346
+Object.Rotation -179.6/0/0
+rem
+rem ***  ***
+rem
+Object.create warehousemedium_e_01
+Object.absolutePosition 691.903/53.169/386.56
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 694.703/51.795/409.969
+Object.Rotation 179.2/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 696.814/51.795/394.399
+Object.Rotation 164.4/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 698.564/51.999/378.406
+Object.Rotation -179.899/-2.2/6.80002
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 691.113/52.406/368.646
+Object.Rotation -96.6/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 675.167/52.385/367.706
+Object.Rotation -91.3/0.0999934/2.99996
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 659.849/52.418/369.942
+Object.Rotation -72.6/0.700007/7.39998
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 644.536/52.31/374.542
+Object.Rotation -72.6/0.0999846/4.69999
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 629.466/52.368/380.031
+Object.Rotation -68.7/-0.5/7.49999
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 614.822/51.945/385.707
+Object.Rotation -72.4/3.70001/13.3
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 599.27/51.238/390.341
+Object.Rotation -74.2/0.80001/12.3
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 583.427/51.201/392.267
+Object.Rotation -84.8/-0.2/-2.10003
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 568.326/50.614/396.405
+Object.Rotation -68.5/3.8/7.50004
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 553.913/49.153/402.637
+Object.Rotation -64.7/6.70001/8.00001
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 539.647/47.741/410.204
+Object.Rotation -56.1/3.30001/3.40001
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 527.122/46.896/420.177
+Object.Rotation -46.1/2.7/3.89998
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_8m
+Object.absolutePosition 719.206/49.626/315.888
+Object.Rotation -92.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_4m
+Object.absolutePosition 730.309/49.819/384.292
+Object.Rotation 72.3/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_endpiece
+Object.absolutePosition 723.259/49.626/316.066
+Object.Rotation -92.5/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 726.234/49.858/384.85
+Object.Rotation 20.3/0/0
+rem
+rem ***  ***
+rem
+Object.create cable_8m
+Object.absolutePosition 702.361/55.04/386.871
+Object.Rotation -12/0.700023/-11.4
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 716.209/49.847/395.883
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 713.509/50.836/397.512
+Object.Rotation -177.8/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 697.394/49.994/399.873
+Object.Rotation 0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 695.79/49.812/419.192
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 693.819/49.812/421.105
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 519.748/46.85/924.849
+Object.Rotation 139.8/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 491.966/45.093/436.39
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 632.966/45.298/614.943
+Object.Rotation 150.6/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 423.28/38.364/410.6
+Object.Rotation -18.1/0/-90
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 612.892/39.375/414.962
+Object.Rotation 73.5/-0.300002/-91.3
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 612.874/39.185/418.766
+Object.Rotation 8.00008/-1.30001/-90.3
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 613.318/38.878/422.586
+Object.Rotation -71.6/-0.5/1.19992
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 613.372/39.497/426.663
+Object.Rotation 76.8/-0.2/-1.29996
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 614.255/39.052/429.82
+Object.Rotation -18.3001/-1.30006/90.3
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 633.937/38.344/452.649
+Object.Rotation 115.1/4.02431e-007/-15.4
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 650.102/39.398/476.141
+Object.Rotation -69.7/1.20175e-006/-90
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 647.842/39.12/473.087
+Object.Rotation -135.2/-1.54633e-007/-90
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 645.205/38.725/470.299
+Object.Rotation 145.2/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 640.849/39.249/467.869
+Object.Rotation -66.4/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 640.123/38.733/465.064
+Object.Rotation -161.5/-5.82843e-007/90
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 638.882/38.995/461.352
+Object.Rotation -71.5/1.41221e-006/-90
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 636.239/38.97/456.451
+Object.Rotation -71.9/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 464.328/37.294/586.863
+Object.Rotation 2.10003/-1.86693e-005/-180
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 489.558/40.047/587.675
+Object.Rotation -36.6/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 476.656/39.473/586.356
+Object.Rotation -85/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 472.816/37.188/585.714
+Object.Rotation 4.99999/0/90
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 480.647/40.029/586.606
+Object.Rotation -175/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 485.553/40.419/586.177
+Object.Rotation -36.6/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 468.957/37.402/586.052
+Object.Rotation 4.99999/0/-90
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 490.185/46.687/957.151
+Object.Rotation -179.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawake
+Object.absolutePosition 583.643/40/330.587
+Object.Rotation 10.4/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seasparks
+Object.absolutePosition 520.743/40/477.057
+Object.Rotation 21.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seasparks
+Object.absolutePosition 539.808/40/543.217
+Object.Rotation 21.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_sound_fields
+Object.absolutePosition 467.158/44.418/675.183
+Object.Rotation 49.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_sound_fields
+Object.absolutePosition 368.886/45.233/504.913
+Object.Rotation 49.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 437.192/40/419.094
+Object.Rotation -26.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 431.336/40/417.015
+Object.Rotation -26.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 427.236/40/413.981
+Object.Rotation -26.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 421.542/40/411.631
+Object.Rotation -26.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 614.428/40/440.217
+Object.Rotation -49.8/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 610.458/40/430.551
+Object.Rotation -96.9/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 610.689/40/420.596
+Object.Rotation -88.3/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 646.381/40/474.949
+Object.Rotation -56.8/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 642.802/40/469.468
+Object.Rotation -56.8/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 637.58/40/463.067
+Object.Rotation -56.8/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 633.367/40/453.569
+Object.Rotation -70.2/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawake
+Object.absolutePosition 281.814/40/577.942
+Object.Rotation 126.9/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawake
+Object.absolutePosition 413.267/40/731.819
+Object.Rotation 140.3/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seasparks
+Object.absolutePosition 484.882/40/560.971
+Object.Rotation 21.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seasparks
+Object.absolutePosition 463.62/40/497.885
+Object.Rotation 21.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seasparks
+Object.absolutePosition 440.058/40/619.272
+Object.Rotation 21.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seasparks
+Object.absolutePosition 397.367/40/550.999
+Object.Rotation 21.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seasparks
+Object.absolutePosition 375.389/40/620.839
+Object.Rotation 21.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 473.126/40/588.234
+Object.Rotation -26.1/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 466.233/40/587.413
+Object.Rotation -26.1/0/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 318.202/42.391/559.749
+Object.Rotation -125/-4.1/-0.300014
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 307.173/41.709/541.275
+Object.Rotation 0/0/13.1
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 303.595/41.348/550.944
+Object.Rotation 90/-13.1/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 303.898/40.649/562.906
+Object.Rotation -180/-6.6/0.300014
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 314.07/40.691/569.452
+Object.Rotation 144.6/-5.2/4.10002
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 335.088/40.75/566.342
+Object.Rotation -125/-4.1/1.49998
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 506.722/41.966/929.711
+Object.Rotation 150.6/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 104.785/45.104/277.439
+Object.Rotation 89.6/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 115.042/44.816/228.996
+Object.Rotation 89.6/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_medium_4m
+Object.absolutePosition 584.241/44.228/361.964
+Object.Rotation 87.7/1.20002/-3.69999
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_medium_8m
+Object.absolutePosition 591.4/45.107/366.357
+Object.Rotation 0/-5.6/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_medium_8m
+Object.absolutePosition 582.014/45.132/365.577
+Object.Rotation 0/-5.6/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_medium_4m
+Object.absolutePosition 583.72/45.494/369.704
+Object.Rotation 91.2/0/-8.8
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_4m
+Object.absolutePosition 735.586/49.699/375.496
+Object.Rotation 159.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_8m
+Object.absolutePosition 733.554/49.699/381.046
+Object.Rotation 159.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_endpiece
+Object.absolutePosition 728.29/49.727/383.647
+Object.Rotation 72.3/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 682.25/50.414/373.515
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 681.706/50.316/375.376
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_02
+Object.absolutePosition 680.592/49.776/373.952
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 651.62/50.217/362.239
+Object.Rotation 150.2/-2.2/6.30002
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 681.718/49.931/377.565
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_02
+Object.absolutePosition 682.308/49.677/373.396
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 694.376/50.752/414.783
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 716.257/49.802/390.263
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 688.716/50.822/430.897
+Object.Rotation -90.4/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 573.382/46.874/587.215
+Object.Rotation -172.3/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 731.812/50.496/352.411
+Object.Rotation -90.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 733.138/50.388/368.276
+Object.Rotation 89.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 729.188/50.388/368.242
+Object.Rotation 89.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 725.246/50.308/356.374
+Object.Rotation 0.500068/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 696.884/50.569/342.413
+Object.Rotation 81.9/0/-1.69996
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 569.238/40.441/351.106
+Object.Rotation 0/-5.7/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 584.33/40.286/345.084
+Object.Rotation 0/-5/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 598.01/40.284/343.678
+Object.Rotation 0/-4.1/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 610.965/39.677/343.153
+Object.Rotation -161.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 716.257/49.802/386.244
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_02
+Object.absolutePosition 695.995/49.64/396.821
+Object.Rotation 133.6/0/3.50001
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 702.765/47.047/487.341
+Object.Rotation 67.4/2.89998/-2.30002
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 716.17/49.837/401.881
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_02
+Object.absolutePosition 506.702/52.076/613.539
+Object.Rotation 105/0.199997/-3.50001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_02
+Object.absolutePosition 491.57/51.666/635.803
+Object.Rotation -119/-2.6/-0.199792
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_02
+Object.absolutePosition 482.167/51.611/963.793
+Object.Rotation -42.5/0/-1.49998
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_04
+Object.absolutePosition 676.678/54.867/527.299
+Object.Rotation -90/-6.9/-5.99999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_04
+Object.absolutePosition 679.722/50.417/591.7
+Object.Rotation -12.3/0.600004/-0.400074
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_03
+Object.absolutePosition 702.188/54.676/471.567
+Object.Rotation 75.2/1.99998/3.00003
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_03
+Object.absolutePosition 499.896/51.468/649.012
+Object.Rotation 38.3/3.00002/1.59998
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 484.062/46.233/641.057
+Object.Rotation -102.8/-50.3/-6.59998
+rem
+rem ***  ***
+rem
+Object.create wooden_bridge_02
+Object.absolutePosition 575.198/43.959/592.887
+Object.Rotation 98.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_bridge_02
+Object.absolutePosition 439.176/42.019/452.42
+Object.Rotation -58.2/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 710.212/50.205/396.887
+Object.Rotation -177/-1.5/-74.8
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 729.131/54.204/386.322
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 635.477/51.027/345.309
+Object.Rotation -143.3/11.5/-3.40001
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 714.909/53.86/401.516
+Object.Rotation 90/11.5/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 540.288/49.211/389.954
+Object.Rotation -45.4/15.3/1.90002
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 485.678/49.052/410.045
+Object.Rotation -89.4/5.3/6.90001
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 566.245/53.43/404.376
+Object.Rotation 170.5/-10.8/-2.90003
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 541.799/49.028/388.226
+Object.Rotation -135.3/0/0.400074
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 650.046/47.31/395.767
+Object.Rotation -180/0/4.10002
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 456.558/48.643/450.764
+Object.Rotation 90.9/-1.2/3.19996
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 472.42/46.868/453.127
+Object.Rotation 90.9/-8.2/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 543.272/47.073/417.79
+Object.Rotation 177.9/-7/-4.09997
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 474.439/46.072/454.464
+Object.Rotation -39.1/25.4/-23.1
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 270.149/46.399/280.788
+Object.Rotation 0/-16.8/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 625.352/51.003/601.488
+Object.Rotation -90/0/4.99999
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 593.69/52.669/582.459
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 555.405/50.839/604.714
+Object.Rotation 0/3.6/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 692.087/56.017/344.57
+Object.Rotation -20/3.10001/-0.899834
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 651.481/47.681/629.973
+Object.Rotation 112.9/-3.1/13.7
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 648.312/47.328/397.961
+Object.Rotation 180/-16/-6.90001
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 663.779/55.508/543.654
+Object.Rotation 0/16/6.70004
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 503.012/49.283/404.267
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 739.605/50.993/309.187
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 638.533/49.582/622.062
+Object.Rotation 23.3/6.90001/3.10003
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 685.708/54.606/404.896
+Object.Rotation 0/10.4/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 731.927/45.53/458.721
+Object.Rotation 0/12.5/-11.1
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 509.028/52.542/639.943
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 536.12/51.204/625.457
+Object.Rotation 0/3.40001/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 501.741/52.157/972.061
+Object.Rotation 0/10.4/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 625.449/54.397/368.127
+Object.Rotation -180/7.7/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 390.181/49.223/473.993
+Object.Rotation -134.2/26.7/-2.39996
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 460.474/46.44/931.274
+Object.Rotation -132.8/-8.6/-2.10003
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 545.352/45.73/420.492
+Object.Rotation -86.2/-8.3/-38.7
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_01
+Object.absolutePosition 471.675/49.931/431.15
+Object.Rotation -63/0/2.30002
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_03
+Object.absolutePosition 612.546/52.754/386.519
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_03
+Object.absolutePosition 605.913/52.981/374.8
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_03
+Object.absolutePosition 580.778/51.86/381.619
+Object.Rotation -1.69996/-2.4/-4.69999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_03
+Object.absolutePosition 593.784/52.531/395.926
+Object.Rotation 88.3/1.60976e-007/12.7
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_04
+Object.absolutePosition 592.692/51.787/378.757
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 526.971/51.661/599.836
+Object.Rotation 0/0/-6.69999
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 739.312/54.928/359.045
+Object.Rotation -48.5/1.29999/1.20008
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 519.459/50.093/432.731
+Object.Rotation 64/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 383.872/51.103/513.616
+Object.Rotation -68.9/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 727.519/53.145/311.747
+Object.Rotation 150.2/0.499997/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 553.471/50.859/589.792
+Object.Rotation 0/-8.8/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 499.883/45.181/413.84
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 497.161/45.254/416.954
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 499.632/44.88/436.596
+Object.Rotation 0/0/-1.69996
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 506.755/45.132/437.016
+Object.Rotation 0/0/1.99998
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 681.389/54.672/330.297
+Object.Rotation 26.8/-6.8/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 699.172/55.594/336.358
+Object.Rotation -10.2/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 696.529/49.504/414.381
+Object.Rotation 178.1/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 684.937/50.255/381.503
+Object.Rotation 178.2/0/-0.199792
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 511.76/44.901/412.877
+Object.Rotation 37.6/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 500.865/45.115/416.199
+Object.Rotation 0/0/-3.50001
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 691.897/49.778/368.498
+Object.Rotation -91.7/1.49999/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 712.853/49.784/386.14
+Object.Rotation 0/0/1.69996
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 691.088/49.952/399.881
+Object.Rotation 0/0/0.199792
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 688.091/50.185/396.978
+Object.Rotation 0/0.599988/0.199792
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 695.794/49.817/417.392
+Object.Rotation 0/-0.7/0.199792
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 708.165/49.736/406.499
+Object.Rotation -91.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 706.626/49.815/384.425
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 689.65/49.838/400.747
+Object.Rotation -87.6/-3.4/0.299361
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 688.829/49.879/400.664
+Object.Rotation 0/0/-1.69996
+rem
+rem ***  ***
+rem
+Object.create cablepole_02
+Object.absolutePosition 706.322/49.219/411.554
+Object.Rotation 56.4/-3.2/2.10003
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 705.1/54.977/348.583
+Object.Rotation 0/14.6/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 693.801/54.738/330.58
+Object.Rotation 0/-12.7/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 677.062/50.249/373.076
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 681.132/50.152/369.071
+Object.Rotation -88.1/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 680.966/50.239/381.284
+Object.Rotation 87/-0.4/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 693.069/50.28/368.882
+Object.Rotation 0/8.2/0.200769
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 694.222/50.152/369.196
+Object.Rotation -91.2/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 690.247/50.27/369.101
+Object.Rotation 0/0/0.199792
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 677.038/50.279/379.053
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 643.09/48.155/605.96
+Object.Rotation 95.4/0/0.300014
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 651.495/47.071/610.539
+Object.Rotation -178.2/1.30001/1.10003
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 640.162/46.641/616.934
+Object.Rotation 92/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 638.264/46.621/614.991
+Object.Rotation 0/1.49999/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_04
+Object.absolutePosition 669.038/50.606/616.414
+Object.Rotation 93.6/7.19999/2.20007
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 514.628/46.927/603.76
+Object.Rotation 127.3/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 207.056/46.229/412.508
+Object.Rotation 0/7.89999/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 210.735/51.258/405.296
+Object.Rotation 0/0/-9.40001
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 197.238/49.675/412.156
+Object.Rotation 56.3/-13.2/8.70001
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 60.001/49.532/268.899
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 63.997/49.227/276.109
+Object.Rotation 35.1/6.70001/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 60.623/52.063/230.589
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 58.869/50.347/240.493
+Object.Rotation -106.3/10.4/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 106.169/48.716/215.75
+Object.Rotation 0/-12.2/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 61.263/47.16/302.676
+Object.Rotation 20.2/14.6/5.29998
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 94.732/49.527/270.76
+Object.Rotation -52.9/-5.9/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 139.296/43.63/287.244
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 80.192/43.92/273.071
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 80.704/43.449/275.06
+Object.Rotation 64.1/1.99998/3.00003
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_07
+Object.absolutePosition 102.047/45.249/274.551
+Object.Rotation -60.4/-0.7/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_05
+Object.absolutePosition 112.613/45.116/224.972
+Object.Rotation 32.7/-2.30077e-007/-4.50002
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_05
+Object.absolutePosition 81.765/43.264/273.112
+Object.Rotation -86.7/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 558.131/43.254/359.784
+Object.Rotation 0/-12.1/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_02
+Object.absolutePosition 482.438/46.987/906.863
+Object.Rotation -103.9/-1/3.80004
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 494.221/47.062/958.417
+Object.Rotation -4.8/-3.4/1.19992
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_06
+Object.absolutePosition 459.926/42.894/932.837
+Object.Rotation 46.4/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 485.404/47.549/964.301
+Object.Rotation 51.7/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 461.276/43.069/931.339
+Object.Rotation 27.4/2.2/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 458.513/43.498/932.292
+Object.Rotation -10.8/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 522.803/46.91/608.188
+Object.Rotation -91.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 534.047/46.896/599.655
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 512.41/46.83/608.935
+Object.Rotation 176.3/0/0.500068
+rem
+rem ***  ***
+rem
+Object.create guardtower_ladder_01
+Object.absolutePosition 709.381/52.885/431.545
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_ladder_01
+Object.absolutePosition 696.635/52.88/431.553
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_ladder_01
+Object.absolutePosition 672.894/52.878/370.135
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_ladder_01
+Object.absolutePosition 671.375/52.882/357.161
+Object.Rotation -87.3/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 653.778/45.685/608.595
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_02
+Object.absolutePosition 595.886/48.215/362.473
+Object.Rotation 1.10003/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_02
+Object.absolutePosition 418.879/52.178/456.821
+Object.Rotation 90/0/-8.60001
+rem
+rem ***  ***
+rem
+Object.create palmtree_02
+Object.absolutePosition 448.218/52.626/681.618
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_03
+Object.absolutePosition 643.124/46.448/521.655
+Object.Rotation 87.7/-8.1/16.2
+rem
+rem ***  ***
+rem
+Object.create palmtree_02
+Object.absolutePosition 682.137/53.509/619.31
+Object.Rotation 0/0/-4.50002
+rem
+rem ***  ***
+rem
+Object.create palmtree_03
+Object.absolutePosition 572.262/46.503/356.969
+Object.Rotation -0.800153/-14.6/9.8
+rem
+rem ***  ***
+rem
+Object.create palmtree_02
+Object.absolutePosition 503.778/49.711/928.983
+Object.Rotation -133.1/0.299999/-2.10003
+rem
+rem ***  ***
+rem
+Object.create palmtree_02
+Object.absolutePosition 642.446/57.9/361.404
+Object.Rotation -2.80002/10.3/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_03
+Object.absolutePosition 498.037/46.255/588.963
+Object.Rotation 62.9/-14.1/-6.30002
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 692.432/49.268/453.217
+Object.Rotation 14.9/-15.2/10.9
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 666.795/46.159/561.961
+Object.Rotation 62.5996/88/53.1994
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 664.786/45.435/561.813
+Object.Rotation -46.0992/88/53.1994
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 529.145/43.661/392.357
+Object.Rotation -75.1/-15.2/10.9
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 690.501/43.273/552.85
+Object.Rotation -137.7/-8.5/17.2
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 709.092/42.994/519.651
+Object.Rotation 90.7/0/1.90002
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 707.889/42.258/512.016
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 709.834/42.264/510.108
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 558.209/46.768/602.041
+Object.Rotation -178.1/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 709.092/43.107/513.714
+Object.Rotation 90.7/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 715.407/42.066/514.913
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 715.383/42.08/520.64
+Object.Rotation -180/-2.1/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 713.43/41.703/526.421
+Object.Rotation 90/0/4.90001
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 715.376/41.902/524.519
+Object.Rotation -180/-5.1/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 707.912/42.299/512.133
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 715.382/42.061/510.915
+Object.Rotation 0/0/0

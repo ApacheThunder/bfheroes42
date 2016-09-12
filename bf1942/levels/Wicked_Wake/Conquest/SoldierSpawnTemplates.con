@@ -1,0 +1,132 @@
+ObjectTemplate.create SpawnPoint southvillagespawn01
+ObjectTemplate.setSpawnId 30
+ObjectTemplate.setGroup 7
+
+ObjectTemplate.create SpawnPoint airfieldspawn01
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint southvillagespawn02
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 7
+
+ObjectTemplate.create SpawnPoint airfieldspawn02
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint beachspawn0
+ObjectTemplate.setSpawnId 26
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint southvillagespawn03
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 7
+
+ObjectTemplate.create SpawnPoint northvillagespawn01
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint northbasespawn01
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint airfieldspawn03
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint southvillagespawn04
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 7
+
+ObjectTemplate.create SpawnPoint royalbasespawn01
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint northvillagespawn02
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint northbasespawn02
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint airfieldspawn04
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint royalbasespawn02
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint northvillagespawn03
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint northbasespawn03
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint airfieldspawn05
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint royalbasespawn03
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint northbasespawn04
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint airfieldspawn06
+ObjectTemplate.setSpawnId 24
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint royalbasespawn04
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint northvillagespawn05
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint airfieldspawn07
+ObjectTemplate.setSpawnId 25
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint royalbasespawn05
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint nationalbasespawn01
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint nationalbasespawn02
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint nationalbasespawn03
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint beachspawn02
+ObjectTemplate.setSpawnId 27
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint nationalbasespawn04
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint beachspawn03
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint nationalbasespawn05
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint beachspawn04
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 3
+

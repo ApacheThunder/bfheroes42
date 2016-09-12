@@ -1,0 +1,7 @@
+[CubeMap]
+PositiveX = bf1942\levels\Victory_Village\Textures\env_Victory_Village_04.dds
+NegativeX = bf1942\levels\Victory_Village\Textures\env_Victory_Village_02.dds
+PositiveY = bf1942\levels\Victory_Village\Textures\env_Victory_Village_05.dds
+NegativeY = bf1942\levels\Victory_Village\Textures\env_Victory_Village_06.dds
+PositiveZ = bf1942\levels\Victory_Village\Textures\env_Victory_Village_03.dds
+NegativeZ = bf1942\levels\Victory_Village\Textures\env_Victory_Village_01.dds

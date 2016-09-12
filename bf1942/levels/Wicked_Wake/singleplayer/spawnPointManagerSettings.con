@@ -1,0 +1,57 @@
+rem *** Bases ***
+
+spawnPointManager.group 1
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.onlyforAi 1
+
+spawnPointManager.group 2
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.onlyforAi 1
+
+rem *** The Rest ***
+
+spawnPointManager.group 3
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+spawnPointManager.group 4
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+spawnPointManager.group 5
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+spawnPointManager.group 6
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+spawnPointManager.group 7
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+
+rem *** AI only Paraspawns ***
+
+spawnPointManager.group 8
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.onlyforAi 1
+
+spawnPointManager.group 9
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.onlyforAi 1
+
+spawnPointManager.group 10
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.onlyforHuman 1
+
+rem *** Human only Base spawns ***
+spawnPointManager.group 11
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.onlyforHuman 1

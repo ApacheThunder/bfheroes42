@@ -1,0 +1,71 @@
+if v_arg1 == host
+
+aiStrategicArea.create allied_base 161/137 181/157 20
+aiStrategicArea.create axis_base 226/352 246/372 20
+aiStrategicArea.create church_square 245/246 260/261 15
+aiStrategicArea.create guardpost 255/289 270/304 15
+aiStrategicArea.create orchard 215/194 230/209 15
+aiStrategicArea.create road_block 307/223 322/238 15
+
+
+aiStrategicArea.setActive allied_base
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 178.5/157.8
+AIStrategicArea.setOrderPosition Tank 177.8/155.2
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive axis_base
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 252.4/373.8
+AIStrategicArea.setOrderPosition Tank 250.3/373.7
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive church_square
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour allied_base
+AIStrategicArea.addNeighbour axis_base
+AIStrategicArea.addNeighbour guardpost
+AIStrategicArea.addNeighbour orchard
+AIStrategicArea.addNeighbour road_block
+AIStrategicArea.setOrderPosition Infantry 257.74/257.8
+AIStrategicArea.setOrderPosition Tank 260.5/251.2
+
+aiStrategicArea.setActive guardpost
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour allied_base
+AIStrategicArea.addNeighbour axis_base
+AIStrategicArea.addNeighbour church_square
+AIStrategicArea.addNeighbour orchard
+AIStrategicArea.addNeighbour road_block
+AIStrategicArea.setOrderPosition Infantry 268.4/304.6
+AIStrategicArea.setOrderPosition Tank 275.4/308.1
+
+aiStrategicArea.setActive orchard
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour allied_base
+AIStrategicArea.addNeighbour axis_base
+AIStrategicArea.addNeighbour church_square
+AIStrategicArea.addNeighbour guardpost
+AIStrategicArea.addNeighbour road_block
+AIStrategicArea.setOrderPosition Infantry 230.3/215.5
+AIStrategicArea.setOrderPosition Tank 225.8/213.5
+
+aiStrategicArea.setActive road_block
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour allied_base
+AIStrategicArea.addNeighbour axis_base
+AIStrategicArea.addNeighbour church_square
+AIStrategicArea.addNeighbour guardpost
+AIStrategicArea.addNeighbour orchard
+AIStrategicArea.setOrderPosition Infantry 320.3/240.4
+AIStrategicArea.setOrderPosition Tank 316.1/241.5
+
+endIf

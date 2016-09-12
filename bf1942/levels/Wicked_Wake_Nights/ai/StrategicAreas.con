@@ -1,0 +1,93 @@
+if v_arg1 == host
+
+aiStrategicArea.create 16_cp_wake_royals 54/216 74/236 20
+aiStrategicArea.create 16_cp_wake_nationals 487/931 507/951 20
+aiStrategicArea.create 16_cp_wake_beach 564/340 582/358 18
+aiStrategicArea.create 16_cp_wake_north_village 516/600 528/612 12
+aiStrategicArea.create 16_cp_wake_north_base 642/590 657/605 15
+aiStrategicArea.create 16_cp_wake_airfield 684.5/387 697.5/400 13
+aiStrategicArea.create 16_cp_wake_south_village 487/407 502/422 15
+
+aiStrategicArea.setActive 16_cp_wake_royals
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.setOrderPosition Infantry 74/236
+AIStrategicArea.setOrderPosition Tank 74/236
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive 16_cp_wake_beach
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_wake_north_village
+AIStrategicArea.addNeighbour 16_cp_wake_north_base
+AIStrategicArea.addNeighbour 16_cp_wake_nationals
+AIStrategicArea.addNeighbour 16_cp_wake_royals
+AIStrategicArea.addNeighbour 16_cp_wake_airfield
+AIStrategicArea.addNeighbour 16_cp_wake_south_village
+AIStrategicArea.setOrderPosition Infantry 582/358
+AIStrategicArea.setOrderPosition Tank 582/358
+
+
+aiStrategicArea.setActive 16_cp_wake_north_village
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_wake_north_base
+AIStrategicArea.addNeighbour 16_cp_wake_nationals
+AIStrategicArea.addNeighbour 16_cp_wake_royals
+AIStrategicArea.addNeighbour 16_cp_wake_airfield
+AIStrategicArea.addNeighbour 16_cp_wake_beach
+AIStrategicArea.addNeighbour 16_cp_wake_south_village
+AIStrategicArea.setOrderPosition Infantry 528/612
+AIStrategicArea.setOrderPosition Tank 528/612
+
+
+aiStrategicArea.setActive 16_cp_wake_north_base
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_wake_north_village
+AIStrategicArea.addNeighbour 16_cp_wake_nationals
+AIStrategicArea.addNeighbour 16_cp_wake_royals
+AIStrategicArea.addNeighbour 16_cp_wake_airfield
+AIStrategicArea.addNeighbour 16_cp_wake_beach
+AIStrategicArea.addNeighbour 16_cp_wake_south_village
+AIStrategicArea.setOrderPosition Infantry 657/605
+AIStrategicArea.setOrderPosition Tank 657/605
+
+
+aiStrategicArea.setActive 16_cp_wake_nationals
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.setOrderPosition Infantry 507/46
+AIStrategicArea.setOrderPosition Tank 507/46
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive 16_cp_wake_airfield
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour 16_cp_wake_north_village
+AIStrategicArea.addNeighbour 16_cp_wake_north_base
+AIStrategicArea.addNeighbour 16_cp_wake_nationals
+AIStrategicArea.addNeighbour 16_cp_wake_royals
+AIStrategicArea.addNeighbour 16_cp_wake_beach
+AIStrategicArea.addNeighbour 16_cp_wake_south_village
+AIStrategicArea.setOrderPosition Infantry 698/400
+AIStrategicArea.setOrderPosition Tank 698/400
+
+
+aiStrategicArea.setActive 16_cp_wake_south_village
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_wake_north_village
+AIStrategicArea.addNeighbour 16_cp_wake_north_base
+AIStrategicArea.addNeighbour 16_cp_wake_nationals
+AIStrategicArea.addNeighbour 16_cp_wake_royals
+AIStrategicArea.addNeighbour 16_cp_wake_beach
+AIStrategicArea.setOrderPosition Infantry 502/422
+AIStrategicArea.setOrderPosition Tank 502/422
+
+endIf

@@ -1,0 +1,7 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Ambience_LV01_Winter.wav
+loop
+minDistance 300000
+priority -10
+dopplerOff
+volume 0.6

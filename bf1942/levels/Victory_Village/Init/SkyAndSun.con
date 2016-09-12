@@ -1,0 +1,11 @@
+TextureManager.mipmaps 0
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file skydome_vv_m1
+
+Sky.initSky
+sky.changeOfsSkyHeight 0
+sky.setRotAngle -65
+sky.sunLightDirectionVec -0.580668/0.580668/0.570657
+
+TextureManager.mipmaps 1

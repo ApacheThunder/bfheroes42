@@ -1,0 +1,198 @@
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn01
+Object.absolutePosition 78.736/41.943/247.802
+Object.rotation 84/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn02
+Object.absolutePosition 76.3462/41.5931/292.61
+Object.rotation 69/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn03
+Object.absolutePosition 100.376/44.6608/280.14
+Object.rotation 66/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn04
+Object.absolutePosition 138.668/43.8007/287.708
+Object.rotation 134/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn05
+Object.absolutePosition 110.308/44.6655/228.472
+Object.rotation 37/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn01
+Object.absolutePosition 521.395/44.4294/977.318
+Object.rotation 178/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn02
+Object.absolutePosition 462.15/42.3301/945.271
+Object.rotation 137/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn03
+Object.absolutePosition 520.578/46.2761/929.535
+Object.rotation 231/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn04
+Object.absolutePosition 490.848/46.3929/960.377
+Object.rotation 120/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn05
+Object.absolutePosition 497.602/40.6775/896.564
+Object.rotation 88/0/0
+rem
+rem ***  ***
+rem
+Object.create northvillagespawn01
+Object.absolutePosition 512.762/46.4429/614.595
+Object.rotation 76/0/0
+rem
+rem ***  ***
+rem
+Object.create northvillagespawn02
+Object.absolutePosition 514.462/46.3686/600.917
+Object.rotation 76/0/0
+rem
+rem ***  ***
+rem
+Object.create northvillagespawn03
+Object.absolutePosition 532.714/46.4885/627.478
+Object.rotation 179/0/0
+rem
+rem ***  ***
+rem
+Object.create northvillagespawn05
+Object.absolutePosition 550.385/46.4301/607.781
+Object.rotation 230/0/0
+rem
+rem ***  ***
+rem
+Object.create northbasespawn01
+Object.absolutePosition 677.669/45.7141/602.201
+Object.rotation 185/0/0
+rem
+rem ***  ***
+rem
+Object.create northbasespawn02
+Object.absolutePosition 660.492/46.2246/587.328
+Object.rotation 132/0/0
+rem
+rem ***  ***
+rem
+Object.create northbasespawn03
+Object.absolutePosition 647.11/45.7316/609.97
+Object.rotation 154/0/0
+rem
+rem ***  ***
+rem
+Object.create northbasespawn04
+Object.absolutePosition 638.735/45.618/603.115
+Object.rotation 177/0/0
+rem
+rem ***  ***
+rem
+Object.create airfieldspawn01
+Object.absolutePosition 692.952/49.1463/397.189
+Object.rotation 166/0/0
+rem
+rem ***  ***
+rem
+Object.create airfieldspawn02
+Object.absolutePosition 691.599/49.1034/372.1
+Object.rotation -46/0/0
+rem
+rem ***  ***
+rem
+Object.create airfieldspawn03
+Object.absolutePosition 679.056/49.2854/377.65
+Object.rotation 81/0/0
+rem
+rem ***  ***
+rem
+Object.create airfieldspawn04
+Object.absolutePosition 727.395/49.4618/355.149
+Object.rotation 27/0/0
+rem
+rem ***  ***
+rem
+Object.create airfieldspawn05
+Object.absolutePosition 703.894/50.0073/323.766
+Object.rotation 63/0/0
+rem
+rem ***  ***
+rem
+Object.create airfieldspawn06
+Object.absolutePosition 693.907/48.9743/418.832
+Object.rotation -95/0/0
+rem
+rem ***  ***
+rem
+Object.create airfieldspawn07
+Object.absolutePosition 714.739/49.1365/419.089
+Object.rotation 16/0/0
+rem
+rem ***  ***
+rem
+Object.create beachspawn0
+Object.absolutePosition 585.258/43.4469/365.693
+Object.rotation 58/0/0
+rem
+rem ***  ***
+rem
+Object.create beachspawn02
+Object.absolutePosition 577.898/41.3391/359.26
+Object.rotation -11/0/0
+rem
+rem ***  ***
+rem
+Object.create beachspawn03
+Object.absolutePosition 559.713/46.1069/379.076
+Object.rotation 42/0/0
+rem
+rem ***  ***
+rem
+Object.create beachspawn04
+Object.absolutePosition 606.544/42.2261/355.806
+Object.rotation -84/0/0
+rem
+rem ***  ***
+rem
+Object.create southvillagespawn01
+Object.absolutePosition 494.774/44.4833/414.761
+Object.rotation -97/0/0
+rem
+rem ***  ***
+rem
+Object.create southvillagespawn02
+Object.absolutePosition 501.603/44.4125/409.309
+Object.rotation 47/0/0
+rem
+rem ***  ***
+rem
+Object.create southvillagespawn03
+Object.absolutePosition 498.199/44.1167/434.584
+Object.rotation -167/0/0
+rem
+rem ***  ***
+rem
+Object.create southvillagespawn04
+Object.absolutePosition 516.316/44.3171/426.866
+Object.rotation -105/0/0

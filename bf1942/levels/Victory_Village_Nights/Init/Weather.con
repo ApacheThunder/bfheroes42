@@ -1,0 +1,18 @@
+rem
+rem *** Weather FX and Scrolling Clouds ***
+rem
+Object.create RainStorm1024
+Object.absolutePosition 256/35/256
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+rem Object.create clouds_vv
+rem Object.absolutePosition 0/80/0
+rem Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Lightning
+Object.absolutePosition 0/80/0
+Object.rotation 0/0/0

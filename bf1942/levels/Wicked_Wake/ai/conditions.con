@@ -1,0 +1,37 @@
+if v_arg1 == host
+
+rem ** common **
+aiStrategy.createConstantCondition timeCond Fuzzy EqualSmaller Friendly StartTime 120
+aiStrategy.setConditionStrength AdvisoryNegative
+aiStrategy.setIsAbortCondition 1
+
+rem ** west **
+aiStrategy.createConstantCondition westCond Crisp EqualGreater Enemy West 1
+aiStrategy.setConditionStrength Required
+
+rem ** east **
+aiStrategy.createConstantCondition eastCond Crisp EqualGreater Enemy East 1
+aiStrategy.setConditionStrength Required
+
+rem ** north **
+aiStrategy.createConstantCondition northCond Crisp EqualGreater Enemy North 1
+aiStrategy.setConditionStrength Required
+
+rem ** south **
+aiStrategy.createConstantCondition southCond Crisp EqualGreater Enemy South 1
+aiStrategy.setConditionStrength Required
+
+rem ** wideFlank ** 
+aiStrategy.createConstantCondition wideFrontCond Crisp EqualGreater Enemy Front 3
+aiStrategy.setConditionStrength Required
+
+rem ** finalPush **
+aiStrategy.createConstantCondition singleEnemyCpCond Crisp EqualSmaller Enemy ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+rem ** breakOut **
+aiStrategy.createConstantCondition oneCPOrLessCond Crisp Equal Friendly ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+endIf
+

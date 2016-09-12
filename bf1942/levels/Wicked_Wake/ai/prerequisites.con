@@ -1,0 +1,30 @@
+if v_arg1 == host
+
+aiStrategy.createPrerequisite westPrereq
+aiStrategy.addCondition enemyWestCond  10.0
+rem aiStrategy.addCondition timeCond        0.05
+
+aiStrategy.createPrerequisite eastPrereq
+aiStrategy.addCondition enemyEastCond  10.0
+rem aiStrategy.addCondition timeCond        0.05
+
+aiStrategy.createPrerequisite southPrereq
+aiStrategy.addCondition enemySouthCond 10.0
+rem aiStrategy.addCondition timeCond        0.05
+
+aiStrategy.createPrerequisite northPrereq
+aiStrategy.addCondition enemyNorthCond 10.0
+rem aiStrategy.addCondition timeCond        0.05
+
+aiStrategy.createPrerequisite widePrereq
+aiStrategy.addCondition wideFrontCond   8.0
+rem aiStrategy.addCondition timeCond        0.05
+
+aiStrategy.createPrerequisite finalPushPrereq
+aiStrategy.addCondition singleEnemyCpCond 5.0
+
+aiStrategy.createPrerequisite breakOutPrereq
+aiStrategy.addCondition oneCPOrLessCond 50.0
+
+endIf
+

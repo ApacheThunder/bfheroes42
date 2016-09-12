@@ -1,0 +1,29 @@
+rem
+rem *** Init Map Extensions ***
+rem
+run Init/Weather
+run Init/Undergrowth
+run Init/NightObjects
+run Init/NightMods
+
+Game.setNumberOfTickets 2 150
+Game.setNumberOfTickets 1 150
+Game.setTicketLostPerMin 2 10
+Game.setTicketLostPerMin 1 10
+
+run singleplayer/ControlPointTemplates
+run singleplayer/SpawnpointManagerSettings
+run singleplayer/SoldierSpawnTemplates
+run singleplayer/ObjectSpawnTemplates
+run singleplayer/SoldierSpawns
+run singleplayer/Bots
+
+if v_arg1 == host
+
+run ai
+run SinglePlayer/ObjectSpawns
+run singleplayer/ControlPoints
+
+game.timeToNextWave 6
+
+endIf

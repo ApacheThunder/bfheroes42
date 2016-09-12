@@ -1,0 +1,20 @@
+rem
+rem ***  ***
+rem
+Object.create 16_cp_wake_beach
+Object.absolutePosition 581.971/41.514/357.888
+rem
+rem ***  ***
+rem
+Object.create 16_cp_wake_north_village
+Object.absolutePosition 527.741/46.675/611.967
+Object.rotation -76.373/0/0
+rem
+rem ***  ***
+rem
+Object.create 16_cp_wake_airfield
+Object.absolutePosition 697.579/49.187/399.609
+Object.rotation -90/0/0
+rem
+rem ***  ***
+rem

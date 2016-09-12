@@ -1,0 +1,134 @@
+rem
+rem *** Night Mods ***
+rem
+ObjectTemplate.active bri_jeep_willysComplex
+ObjectTemplate.addTemplate bri_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active bri_jeep_willysSimple
+ObjectTemplate.addTemplate bri_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active ger_jeep_kubelwagenComplex
+ObjectTemplate.addTemplate ger_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active ger_jeep_kubelwagenSimple
+ObjectTemplate.addTemplate ger_jeep_headlights
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 494.466/53.6982/964.495
+Object.rotation -153.747/4.65457/0.723076
+rem
+rem ***   ***
+rem
+Object.create cablepole_02
+Object.absolutePosition 494.245/46.1373/965.01
+Object.rotation -64.1171/-3.2/2.10003
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 80.2379/50.5398/270.937
+Object.rotation 58.2948/4.65457/0.723076
+rem
+rem ***   ***
+rem
+Object.create cablepole_02
+Object.absolutePosition 80.1521/42.9789/270.383
+Object.rotation 147.925/-3.2/2.10003
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 527.31/53.5187/602.49
+Object.rotation 20.3037/1.36964/-1.35523
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 572.562/52.8057/586.945
+Object.rotation 5.83758/2.45024/-0.369565
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 603.583/54.1307/584.897
+Object.rotation -18.0155/-1.56843/-3.65307
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 650.919/52.9815/593.122
+Object.rotation 29.9864/2.62719/-3.50537
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 669.446/53.9021/553.49
+Object.rotation 68.8064/4.94927/8.29531
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 674.702/56.3623/490.527
+Object.rotation 68.5589/2.4905/-0.977588
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 696.771/56.92/448.401
+Object.rotation 79.0097/-0.494459/-4.91219
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 705.734/56.8074/411.586
+Object.rotation -63.0538/4.65457/0.723076
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 698.61/56.4756/369.433
+Object.rotation 140.622/0.20463/-0.973375
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 636.264/56.2636/376.727
+Object.rotation -161.072/12.2348/0.271962
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 606.169/55.3446/387.384
+Object.rotation -163.684/15.0248/-0.139882
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 520.688/50.6628/425.845
+Object.rotation -143.686/5.9446/-6.26926
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 545.485/52.1723/405.887
+Object.rotation -144.876/8.04189/-4.52961
+rem
+rem ***   ***
+rem
+Object.create telephone_light
+Object.absolutePosition 574.817/55.0575/393.182
+Object.rotation -162.952/10.2773/-4.99497
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc

@@ -1,0 +1,176 @@
+sound.reserve2dStereoChans 2/4/4
+sound.relaxHwReservations 0.5/0.5/0
+
+EnvironmentSound.load Sounds/GlobalAmbient.ssc
+
+ObjectTemplate.create AreaObject S_Ambient_Bridge_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Bridge01.ssc
+ObjectTemplate.triggerRadius 20
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Bridge_02
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Bridge01.ssc
+ObjectTemplate.triggerRadius 20
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Urban_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Urban01.ssc
+ObjectTemplate.triggerRadius 30
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Urban_02
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Urban01.ssc
+ObjectTemplate.triggerRadius 30
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Urban_03
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Urban03.ssc
+ObjectTemplate.triggerRadius 65
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Urban_04
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Urban01.ssc
+ObjectTemplate.triggerRadius 30
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Meadow_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Meadow01.ssc
+ObjectTemplate.triggerRadius 30
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Meadow_02
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Meadow02.ssc
+ObjectTemplate.triggerRadius 45
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Meadow_03
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Meadow03.ssc
+ObjectTemplate.triggerRadius 25
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Meadow_04
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Meadow04.ssc
+ObjectTemplate.triggerRadius 40
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Meadow_05
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Meadow05.ssc
+ObjectTemplate.triggerRadius 50
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+
+
+
+rem
+rem ***  ***
+rem
+Object.create s_ambient_bridge_01
+Object.absolutePosition 438.556/40.485/450.812
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_bridge_02
+Object.absolutePosition 574.409/41.144/591.584
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_urban_01
+Object.absolutePosition 523.082/39.763/607.442
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_urban_02
+Object.absolutePosition 667.431/39.38/599.364
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_urban_03
+Object.absolutePosition 689.332/38.814/371.556
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_urban_04
+Object.absolutePosition 494.233/27.246/424.888
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_meadow_01
+Object.absolutePosition 596.256/39.605/385.388
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambien_meadow_02
+Object.absolutePosition 685.921/53.39/499.754
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_meadow_03
+Object.absolutePosition 499.054/47.541/643.623
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_meadow_04
+Object.absolutePosition 482.923/42.362/939.045
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_meadow_05
+Object.absolutePosition 86.7441/42.778/267.864
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem

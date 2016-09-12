@@ -1,0 +1,150 @@
+rem
+rem ***  ***
+rem
+Object.create orchard_0_3
+Object.absolutePosition 212.044/16.88/204.041
+Object.rotation 11.063/0/0
+rem
+rem ***  ***
+rem
+Object.create orchard_1
+Object.absolutePosition 230.737/18.573/186.002
+Object.rotation 22.339/0/0
+rem
+rem ***  ***
+rem
+Object.create orchard_2
+Object.absolutePosition 216.563/17.678/195.946
+Object.rotation 59.448/0/0
+rem
+rem ***  ***
+rem
+Object.create allied_base_1_0
+Object.absolutePosition 186.76/24.7914/163.767
+Object.rotation 0.852946/0/0
+rem
+rem ***  ***
+rem
+Object.create allied_base_2_0
+Object.absolutePosition 169.079/24.8491/160.165
+Object.rotation 14.486/0/0
+rem
+rem ***  ***
+rem
+Object.create allied_base_3_0
+Object.absolutePosition 176.598/21.196/180.259
+Object.rotation -29.446/0/0
+rem
+rem ***  ***
+rem
+Object.create allied_base_4_0
+Object.absolutePosition 164.363/24.9911/149.942
+Object.rotation 84.958/0/0
+rem
+rem ***  ***
+rem
+Object.create guardpost_5_0
+Object.absolutePosition 300.456/17.8169/322.464
+Object.rotation -98.298/0/0
+rem
+rem ***  ***
+rem
+Object.create guardpost_6_0
+Object.absolutePosition 282.711/17.627/330.382
+Object.rotation 149.603/0/0
+rem
+rem ***  ***
+rem
+Object.create guardpost_7_0
+Object.absolutePosition 302.572/17.0905/309.674
+Object.rotation -111.001/0/0
+rem
+rem ***  ***
+rem
+Object.create guardpost_8_0
+Object.absolutePosition 279.957/17.281/329.698
+Object.rotation -113.087/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_1_0
+Object.absolutePosition 246.162/25.0776/370.808
+Object.rotation -168.455/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_2_0
+Object.absolutePosition 249.91/24.9947/367.098
+Object.rotation 73.76/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_3_0
+Object.absolutePosition 259.221/24.9788/388.048
+Object.rotation 168.511/0/0
+rem
+rem ***  ***
+rem
+Object.create road_block_2_0
+Object.absolutePosition 331.328/17.1748/265.737
+Object.rotation -140.481/0/0
+rem
+rem ***  ***
+rem
+Object.create road_block_3_0
+Object.absolutePosition 318.26/16.6628/270.142
+Object.rotation 129.751/0/0
+rem
+rem ***  ***
+rem
+Object.create road_block_4_0
+Object.absolutePosition 301.235/16.2938/231.345
+Object.rotation 94.712/0/0
+rem
+rem ***  ***
+rem
+Object.create road_block_5_0
+Object.absolutePosition 293.797/16.0405/214.816
+Object.rotation -11.232/0/0
+rem
+rem ***  ***
+rem
+Object.create road_block_6_0
+Object.absolutePosition 325.035/17.7117/221.033
+Object.rotation -16.508/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_4_0
+Object.absolutePosition 232.635/23.529/386.728
+Object.rotation -273.44/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_5_0
+Object.absolutePosition 239.074/24.8605/361.717
+Object.rotation -86.963/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_6_0
+Object.absolutePosition 240.47/24.9531/394.519
+Object.rotation 183.171/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_7_0
+Object.absolutePosition 271.698/24.8651/371.309
+Object.rotation 174.425/0/0
+rem
+rem ***  ***
+rem
+Object.create axis_base_8_0
+Object.absolutePosition 244.461/24.9045/386.062
+Object.rotation -167.215/0/0
+rem
+rem ***  ***
+rem
+Object.create road_block_7
+Object.absolutePosition 339.234/18.1464/248.898
+Object.rotation -161.741/0/0

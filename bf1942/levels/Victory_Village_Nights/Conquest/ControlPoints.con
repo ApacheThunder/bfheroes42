@@ -1,0 +1,23 @@
+Object.create allied_base
+Object.absolutePosition 181.233/24.517/157.002
+Object.rotation 95.625/0.0/0.0
+
+Object.create axis_base
+Object.absolutePosition 245.926/25.229/371.963
+Object.rotation 0.0/0.0/0.0
+
+Object.create church_square
+Object.absolutePosition 259.748/17.4/260.6
+Object.rotation 80/0.0/0.0
+
+Object.create guardpost
+Object.absolutePosition 270.031/16.03/304.161
+Object.rotation 0.0/0.0/0.0
+
+Object.create orchard
+Object.absolutePosition 230.441/16.838/209.47
+Object.rotation 0.0/0.0/0.0
+
+Object.create road_block
+Object.absolutePosition 321.937/17.399/237.696
+Object.rotation 0.0/0.0/0.0

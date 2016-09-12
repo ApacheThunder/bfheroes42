@@ -1,0 +1,87 @@
+if v_arg1 == host
+
+aiStrategy.createStrategy west
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 1
+aiStrategy.TimeLimit 200
+aiStrategy.setPrerequisite westPrereq
+aiStrategy.setStrategicObjectsModifier West         10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base          0.2 Hostile
+aiStrategy.setStrategicObjectsModifier West         10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base          0.2 Neutral
+aiStrategy.setStrategicObjectsModifier West          0.3 Owned
+aiStrategy.setStrategicObjectsModifier Centre        2.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  2.0
+
+aiStrategy.createStrategy east
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 1
+aiStrategy.TimeLimit 200
+aiStrategy.setPrerequisite eastPrereq
+aiStrategy.setStrategicObjectsModifier East         10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base          0.2 Hostile
+aiStrategy.setStrategicObjectsModifier East         10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base          0.2 Neutral
+aiStrategy.setStrategicObjectsModifier East          0.3 Owned
+aiStrategy.setStrategicObjectsModifier Centre        2.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  2.0
+
+aiStrategy.createStrategy north
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 1
+aiStrategy.TimeLimit 200
+aiStrategy.setPrerequisite northPrereq
+aiStrategy.setStrategicObjectsModifier North        10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base          0.2 Hostile
+aiStrategy.setStrategicObjectsModifier North        10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base          0.2 Neutral
+aiStrategy.setStrategicObjectsModifier North         4.0 Owned
+aiStrategy.setStrategicObjectsModifier Centre        2.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  2.0
+
+aiStrategy.createStrategy south
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 1
+aiStrategy.TimeLimit 200
+aiStrategy.setPrerequisite southPrereq
+aiStrategy.setStrategicObjectsModifier South        10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base          0.2 Hostile
+aiStrategy.setStrategicObjectsModifier South        10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base          0.2 Neutral
+aiStrategy.setStrategicObjectsModifier South         4.0 Owned
+aiStrategy.setStrategicObjectsModifier Centre        2.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  2.0
+
+aiStrategy.createStrategy wide
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 3
+aiStrategy.NumberOfDefences 0
+aiStrategy.TimeLimit 300
+aiStrategy.setPrerequisite widePrereq
+aiStrategy.setStrategicObjectsModifier Safe          0.2 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base          0.2 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint  2.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base          0.2 Neutral
+
+aiStrategy.createStrategy finalPush
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite finalPushPrereq
+
+aiStrategy.createStrategy breakOut
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 4
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite breakOutPrereq
+aiStrategy.setStrategicObjectsModifier Centre       0.2  Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 4.0  Hostile
+aiStrategy.setStrategicObjectsModifier Centre       0.2  Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint 4.0  Neutral
+
+endIf

@@ -1,0 +1,292 @@
+rem
+rem *** Night Mods ***
+rem
+ObjectTemplate.active bri_jeep_willysComplex
+ObjectTemplate.addTemplate bri_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active bri_jeep_willysSimple
+ObjectTemplate.addTemplate bri_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active ger_jeep_kubelwagenComplex
+ObjectTemplate.addTemplate ger_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active ger_jeep_kubelwagenSimple
+ObjectTemplate.addTemplate ger_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active Em_Rain
+ObjectTemplate.intensity CRD_NONE/125/0/0
+rem
+rem ***  ***
+rem
+ObjectTemplate.active Fx_Rain
+ObjectTemplate.timeToLive CRD_UNIFORM/0.7/0.8/0
+ObjectTemplate.sizeModifier 1/0.25/1
+rem
+rem *** Night Objects ***
+rem
+Object.create walllamp
+Object.absolutePosition 157.272/28.2554/157.642
+Object.Rotation 112.896/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 213.199/19.7941/198.912
+Object.Rotation 112.896/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 234.384/19.0905/217.881
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 248.304/19.1851/206.733
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 263.979/18.681/218.54
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 272.442/18.4478/234.447
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 300.652/18.9293/254.94
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 262.304/18.3448/302.287
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 268.364/18.8837/317.202
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 283.899/19.5284/206.755
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 329.829/20.3929/238.212
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 297.528/16.059/240.548
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 275.248/15.924/226.536
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 189.41/24.928/153.767
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 254.789/15.824/235.395
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 265.515/15.361/249.279
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 274.167/15.388/242.548
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 254.064/15.386/249.479
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 281.108/15.437/271.065
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 267.382/15.437/271.237
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 254.305/15.437/271.237
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 284.061/45.7/181.219
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 231.844/15.775/234.765
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 296.486/16.073/228.348
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 243.454/16.007/227.606
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 217.167/15.444/241.575
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 225.58/15.962/225.828
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 205.543/15.545/220.853
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 200.773/15.343/244.602
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 230.052/15.437/288.974
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 291.104/15.437/271.398
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 223.978/15.417/251.623
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 237.178/15.417/251.623
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 291.58/15.78/250.06
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 237.178/15.442/280.321
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 172.004/25.078/148.186
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 311.127/16.793/249.024
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_sound_fields
+Object.absolutePosition 322.816/17.1026/268.442
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_sound_fields
+Object.absolutePosition 339.31/13.4374/208.05
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_sound_fields
+Object.absolutePosition 245.715/17.1035/196.42
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_sound_fields
+Object.absolutePosition 179.099/24.3996/157.865
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_sound_fields
+Object.absolutePosition 248.28/25.1311/373.807
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc

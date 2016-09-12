@@ -1,0 +1,11 @@
+ObjectTemplate.create ObjectSpawner vv_16_tank
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setObjectTemplate 2 bri_jeep_willys
+ObjectTemplate.setObjectTemplate 1 ger_jeep_kubelwagen
+ObjectTemplate.minSpawnDelay 20
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 45
+ObjectTemplate.distance 35
+ObjectTemplate.damageWhenLost 10

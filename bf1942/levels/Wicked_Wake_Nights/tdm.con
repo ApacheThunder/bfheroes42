@@ -1,0 +1,17 @@
+Game.setNumberOfTickets 1 75
+Game.setNumberOfTickets 2 75
+
+run TDM/SpawnpointManagerSettings
+run TDM/SoldierSpawnTemplates
+run TDM/ObjectSpawnTemplates
+run TDM/ControlPointTemplates
+run TDM/SoldierSpawns
+
+if v_arg1 == host
+
+run TDM/ObjectSpawns
+run TDM/ControlPoints
+
+else
+
+endIf

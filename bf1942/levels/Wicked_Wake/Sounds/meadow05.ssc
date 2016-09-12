@@ -1,0 +1,17 @@
+newPatch
+
+load @ROOT/Sound/@RTD/wake_meadow_01.wav
+loop
+minDistance 50
+stereo
+priority -10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 50
+	param 1
+	param -1	
+endEffect

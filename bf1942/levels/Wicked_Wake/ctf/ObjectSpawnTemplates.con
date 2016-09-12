@@ -1,0 +1,92 @@
+ObjectTemplate.create ObjectSpawner AASpawner
+ObjectTemplate.setObjectTemplate 2 com_aa
+ObjectTemplate.setObjectTemplate 1 com_aa
+ObjectTemplate.setObjectTemplate 0 com_aa
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 60
+ObjectTemplate.Distance 60
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+
+ObjectTemplate.create ObjectSpawner TankSpawner
+ObjectTemplate.setObjectTemplate 2 bri_jeep_willys
+ObjectTemplate.setObjectTemplate 1 ger_tank_panzeriv
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 70
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 10
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner JeepSpawner
+ObjectTemplate.setObjectTemplate 2 bri_jeep_willys
+ObjectTemplate.setObjectTemplate 1 ger_jeep_kubelwagen
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner PlaneSpawner
+ObjectTemplate.setObjectTemplate 2 bri_plane_spitfire
+ObjectTemplate.setObjectTemplate 1 ger_plane_messerschmitt
+ObjectTemplate.MinSpawnDelay 40
+ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+
+ObjectTemplate.create ObjectSpawner RoyalTankSpawner
+ObjectTemplate.setObjectTemplate 2 bri_tank_sherman
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 70
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 10
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner NationalJeepSpawner
+ObjectTemplate.setObjectTemplate 1 ger_jeep_kubelwagen
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner helicopterspawner
+ObjectTemplate.setObjectTemplate 2 bri_helicopter_sikorsky
+ObjectTemplate.setObjectTemplate 1 ger_helicopter_flettner
+ObjectTemplate.minSpawnDelay 20
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 20
+ObjectTemplate.distance 20
+ObjectTemplate.damageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner helicopterspawnerAirfield
+ObjectTemplate.setObjectTemplate 2 bri_helicopter_sikorsky
+ObjectTemplate.setObjectTemplate 1 ger_helicopter_flettner
+ObjectTemplate.minSpawnDelay 50
+ObjectTemplate.maxSpawnDelay 60
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 20
+ObjectTemplate.distance 20
+ObjectTemplate.damageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
