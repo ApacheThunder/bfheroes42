@@ -1,0 +1,286 @@
+rem
+rem *** Init Map Extensions ***
+rem
+run Mods
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition 213.734/107.163/23.5866
+Object.rotation -8.84/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition 6.78135/72.1693/323.317
+Object.rotation -124.5/0/0
+rem
+rem ***  ***
+rem
+rem Object.create ambstat_Birds2
+rem Object.absolutePosition 167.409/82.8471/34.0285
+rem Object.rotation -61/-1.7/-31.43
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds2
+Object.absolutePosition 167.863/78.6405/55.1146
+Object.rotation 48.83/8.53/-31.43
+rem
+rem ***  ***
+rem
+Object.create Cape_TreeBranches
+Object.absolutePosition 40.152/16.0/53.8727
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Plants
+Object.absolutePosition 40.152/16.0/53.8727
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Distant
+Object.absolutePosition 40.152/16.0/53.8727
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Stairs01
+Object.absolutePosition 77.432/41.2001/96.8175
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Stairs02
+Object.absolutePosition 88.9773/44.8656/43.7058
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near01
+Object.absolutePosition 123.893/68.2383/51.9785
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near02
+Object.absolutePosition 79.8527/52.8925/127.868
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near03
+Object.absolutePosition -7.05912/31.8793/-58.1351
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near04
+Object.absolutePosition 6.40983/32.5954/7.02589
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near05
+Object.absolutePosition 151.67/82.504/29.0963
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near06
+Object.absolutePosition 85.6764/50.8096/27.4772
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near07
+Object.absolutePosition 118.632/69.7772/9.74597
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_Scenery_Near08
+Object.absolutePosition 23.0994/35.3255/111.125
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_01
+Object.absolutePosition -0.971584/35.8806/68.5797
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_02
+Object.absolutePosition 11.6312/36.1575/72.7638
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_03
+Object.absolutePosition 16.9731/41.3454/71.112
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_04
+Object.absolutePosition 28.5113/37.4271/75.8595
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_05
+Object.absolutePosition 38.7817/38.2369/82.1865
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_06
+Object.absolutePosition 48.1931/42.3961/69.0353
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_07
+Object.absolutePosition 60.8252/42.4284/66.2328
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_08
+Object.absolutePosition 67.1869/36.4782/41.4524
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_09
+Object.absolutePosition 58.6156/36.6418/44.895
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_10
+Object.absolutePosition 56.7486/37.9653/30.6415
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_11
+Object.absolutePosition 55.968/35.6215/18.9471
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_12
+Object.absolutePosition 44.2362/40.5131/23.4649
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_13
+Object.absolutePosition 28.0913/39.3782/34.5169
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_14
+Object.absolutePosition 34.5753/36.5837/35.4623
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_15
+Object.absolutePosition 39.7225/37.3555/45.5767
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_16
+Object.absolutePosition 40.1307/42.3525/54.4416
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_17
+Object.absolutePosition 35.6657/36.8059/61.5921
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_18
+Object.absolutePosition 11.9623/37.8368/57.7002
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create CapeStatics_19
+Object.absolutePosition 17.7477/36.7897/46.9737
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain
+Object.absolutePosition 40.152/16.0/53.8727
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_SkyDome
+Object.absolutePosition 40.152/16.0/53.8727
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL01
+Object.absolutePosition 10.6823/26.2031/14.2701
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL03
+Object.absolutePosition 35.4804/34.5676/91.5072
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL02
+Object.absolutePosition 83.7688/43.2677/29.5115
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_CombatZone01
+Object.absolutePosition 33.272/76.0288/79.5149
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_CombatZone02
+Object.absolutePosition 65.614/76.0288/47.1701
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_CombatZone03
+Object.absolutePosition 52.7669/76.0288/22.5422
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_CombatZone04
+Object.absolutePosition 27.9017/76.0288/36.3888
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_CombatZone05
+Object.absolutePosition 8.67187/76.0288/51.5315
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Cape_CombatZone06
+Object.absolutePosition 1.18952/76.0288/70.0261
+Object.rotation 0/0/0

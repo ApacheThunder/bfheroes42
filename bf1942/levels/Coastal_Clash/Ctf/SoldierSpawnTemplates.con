@@ -1,0 +1,275 @@
+ObjectTemplate.create SpawnPoint cc_16_cliffs_0_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cc_16_cliffs_1_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cc_16_cliffs_2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cc_16_cliffs_3_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cc_16_cliffs_4_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cc_16_cliffs_5_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cc_16_cliffs_6_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cc_16_backyard_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint cc_16_backyard_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint cc_16_backyard_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint cc_16_backyard_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint cc_16_backyard_0_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint cc_16_backyard_0_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint cc_16_national_hq_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint cc_16_national_hq_2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint cc_16_national_hq_2_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint cc_16_national_hq_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint cc_16_national_hq_0_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint cc_16_national_hq_0_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint cc_16_royal_hq_0_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint cc_16_royal_hq_1_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint cc_16_royal_hq_1_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint cc_16_royal_hq_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint cc_16_royal_hq_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 24
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_0_10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 25
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_0_11
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 26
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 27
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 30
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_7
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_lookout_9
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 34
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_0_11
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 35
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_0_12
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 36
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 37
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 38
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 39
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 40
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 41
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 42
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_7
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 43
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_8
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 44
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_9
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 45
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint cc_16_windmill_10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setSpawnId 46
+ObjectTemplate.setGroup 6

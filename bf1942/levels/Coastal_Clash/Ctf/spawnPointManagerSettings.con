@@ -1,0 +1,34 @@
+rem *** Bases ***
+
+spawnPointManager.group 1
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.groupEnableToChangeTeam 0
+
+spawnPointManager.group 2
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.groupEnableToChangeTeam 0
+
+
+rem *** The Rest ***
+
+spawnPointManager.group 3
+spawnPointManager.groupTeam 2
+spawnPointManager.groupEnableToChangeTeam 0
+spawnPointManager.groupIcon test1.tga
+
+spawnPointManager.group 4
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.groupEnableToChangeTeam 0
+
+spawnPointManager.group 5
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.groupEnableToChangeTeam 0
+
+spawnPointManager.group 6
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+spawnPointManager.groupEnableToChangeTeam 0

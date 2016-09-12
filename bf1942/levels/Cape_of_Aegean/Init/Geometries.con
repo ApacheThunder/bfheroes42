@@ -1,0 +1,120 @@
+rem
+rem *** Geometries ***
+rem
+
+GeometryTemplate.create StandardMesh CapeStatics_19_m1
+GeometryTemplate.file CapeStatics_19_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_18_m1
+GeometryTemplate.file CapeStatics_18_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_17_m1
+GeometryTemplate.file CapeStatics_17_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_16_m1
+GeometryTemplate.file CapeStatics_16_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_15_m1
+GeometryTemplate.file CapeStatics_15_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_14_m1
+GeometryTemplate.file CapeStatics_14_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_13_m1
+GeometryTemplate.file CapeStatics_13_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_12_m1
+GeometryTemplate.file CapeStatics_12_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_11_m1
+GeometryTemplate.file CapeStatics_11_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_10_m1
+GeometryTemplate.file CapeStatics_10_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_09_m1
+GeometryTemplate.file CapeStatics_09_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_08_m1
+GeometryTemplate.file CapeStatics_08_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_07_m1
+GeometryTemplate.file CapeStatics_07_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_06_m1
+GeometryTemplate.file CapeStatics_06_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_05_m1
+GeometryTemplate.file CapeStatics_05_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_04_m1
+GeometryTemplate.file CapeStatics_04_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_03_m1
+GeometryTemplate.file CapeStatics_03_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_02_m1
+GeometryTemplate.file CapeStatics_02_m1
+
+GeometryTemplate.create StandardMesh CapeStatics_01_m1
+GeometryTemplate.file CapeStatics_01_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Stairs01_m1
+GeometryTemplate.file Cape_Scenery_Stairs01_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Stairs02_m1
+GeometryTemplate.file Cape_Scenery_Stairs02_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near08_m1
+GeometryTemplate.file Cape_Scenery_Near08_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near07_m1
+GeometryTemplate.file Cape_Scenery_Near07_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near06_m1
+GeometryTemplate.file Cape_Scenery_Near06_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near05_m1
+GeometryTemplate.file Cape_Scenery_Near05_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near04_m1
+GeometryTemplate.file Cape_Scenery_Near04_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near03_m1
+GeometryTemplate.file Cape_Scenery_Near03_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near02_m1
+GeometryTemplate.file Cape_Scenery_Near02_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Near01_m1
+GeometryTemplate.file Cape_Scenery_Near01_m1
+
+GeometryTemplate.create StandardMesh Cape_Scenery_Distant_m1
+GeometryTemplate.file Cape_Scenery_Distant_m1
+
+GeometryTemplate.create StandardMesh Cape_Plants_m1
+GeometryTemplate.file Cape_Plants_m1
+
+GeometryTemplate.create StandardMesh Cape_TreeBranches_m1
+GeometryTemplate.file Cape_TreeBranches_m1
+
+GeometryTemplate.create StandardMesh Cape_CombatZone01_m1
+GeometryTemplate.file Cape_CombatZone01_m1
+
+GeometryTemplate.create StandardMesh Cape_CombatZone02_m1
+GeometryTemplate.file Cape_CombatZone02_m1
+
+GeometryTemplate.create StandardMesh Cape_CombatZone03_m1
+GeometryTemplate.file Cape_CombatZone03_m1
+
+GeometryTemplate.create StandardMesh Cape_CombatZone04_m1
+GeometryTemplate.file Cape_CombatZone04_m1
+
+GeometryTemplate.create StandardMesh Cape_CombatZone05_m1
+GeometryTemplate.file Cape_CombatZone05_m1
+
+GeometryTemplate.create StandardMesh Cape_CombatZone06_m1
+GeometryTemplate.file Cape_CombatZone06_m1
+
+GeometryTemplate.create StandardMesh CaptainShop_DeathBox_m1
+GeometryTemplate.file CaptainShop_DeathBox_m1

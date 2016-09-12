@@ -1,0 +1,25 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+ObjectTemplate.create ControlPoint KOTH_CP
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "King of the Hill"
+ObjectTemplate.radius 5
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 15
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.areaValue 100
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem ----------------------------------------------------
+ObjectTemplate.addTemplate Cape_FlagBillboard
+ObjectTemplate.setPosition 0/4.5/0
+ObjectTemplate.setTeamGeometry 0 Cape_FlagBillboard_NU_m1
+ObjectTemplate.setTeamGeometry 1 Cape_FlagBillboard_Red_m1
+ObjectTemplate.setTeamGeometry 2 Cape_FlagBillboard_Blue_m1

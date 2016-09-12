@@ -1,0 +1,48 @@
+rem ************************************************************
+rem *** Converted from Avatar Star by Apache Thunder. ***
+rem ************************************************************
+ShaderManager.setTextureParam envmap bf1942\levels\City_of_Aegean\Textures\EnvMap.rcm
+
+Game.setViewDistance 2048
+Game.spawnPlayers 1
+
+renderer.vertexFogEnable 1
+renderer.fogColorVec 0.848/0.766/0.945
+renderer.globalLodPercent 1
+renderer.globalAmbientColor 0.2
+renderer.ambientColor 0.2
+renderer.diffuseColor 0.4/0.3/0.2
+renderer.specularColor 0.4/0.3/0.2
+renderer.animatedMeshDiffuseFactor 0.5
+renderer.animatedMeshAmbient 0.25
+
+renderer.fogStart 512
+renderer.fogEnd 1024
+
+Game.setActiveCombatArea 0 0 110 110
+Game.damageForBeingOutSideWorld 300
+
+Game.setBeforeSpawnCameraPosition 1 60/67/-26
+Game.setBeforeSpawnCameraPosition 2 60/67/-26
+
+run Sounds
+
+run Init/Terrain
+run Init/Water
+run Init/SkyAndSun
+run Init/Geometries
+run Init/Objects
+
+game.setTeamSkin 1 german_male_soldier
+game.setKit 1 0 NA_Commando_Kit
+game.setKit 1 1 NA_Gunner_Kit_TNT
+game.setKit 1 2 NA_Gunner_Kit
+game.setKit 1 3 NA_Soldier_Kit
+game.setKit 1 4 NA_Soldier_Kit_TNT
+
+game.setTeamSkin 2 british_male_soldier
+game.setKit 2 0 RA_Commando_Kit
+game.setKit 2 1 RA_Gunner_Kit_TNT
+game.setKit 2 2 RA_Gunner_Kit
+game.setKit 2 3 RA_Soldier_Kit
+game.setKit 2 4 RA_Soldier_Kit_TNT

@@ -1,0 +1,240 @@
+rem
+rem ***  ***
+rem
+Object.create la_16_allied_hq_1
+Object.absolutePosition 390.001/42.624/634.779
+Object.rotation -122.297/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_allied_hq_2
+Object.absolutePosition 385.195/42.778/634.694
+Object.rotation -145.043/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_allied_hq_5
+Object.absolutePosition 367.32/42.64/636.258
+Object.rotation -152.729/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_allied_hq_6
+Object.absolutePosition 402.826/42.971/614.147
+Object.rotation -177.908/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_axis_hq_2
+Object.absolutePosition 484.222/32.071/168.468
+Object.rotation 4.80701/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_axis_hq_3
+Object.absolutePosition 495.542/32.237/174.982
+Object.rotation -20.279/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_axis_hq_4
+Object.absolutePosition 496.559/31.9569/186.262
+Object.rotation -35.724/0.453985/-0.25101
+rem
+rem ***  ***
+rem
+Object.create la_16_axis_hq_5
+Object.absolutePosition 489.547/32.215/196.776
+Object.rotation -174.56/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_axis_hq_6
+Object.absolutePosition 495.144/32.395/157.478
+Object.rotation -18.724/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_axis_hq_6_0
+Object.absolutePosition 466.736/31.449/195.179
+Object.rotation 137.786/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_1
+Object.absolutePosition 339.66/41.608/327.032
+Object.rotation -143.742/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_2
+Object.absolutePosition 347.908/41.32/328.815
+Object.rotation 143.28/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_3
+Object.absolutePosition 358.944/40.38/327.986
+Object.rotation 175.835/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_4
+Object.absolutePosition 369.903/36.304/329.873
+Object.rotation -171.946/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_6
+Object.absolutePosition 361.979/40.837/311.473
+Object.rotation -88.677/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_7
+Object.absolutePosition 356.48/41.9963/299.669
+Object.rotation -25.061/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_8
+Object.absolutePosition 346.733/42.3339/297.195
+Object.rotation -73.633/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_9
+Object.absolutePosition 359.147/40.859/309.734
+Object.rotation 105.938/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage_10
+Object.absolutePosition 328.406/41.917/324.083
+Object.rotation -167.656/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_ford_1
+Object.absolutePosition 342.296/32.223/520
+Object.rotation -144.933/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_ford_2
+Object.absolutePosition 366.378/32.959/503.658
+Object.rotation 175.274/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_ford_3
+Object.absolutePosition 303.644/32.372/514.718
+Object.rotation 126.197/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_ford_4
+Object.absolutePosition 356.833/33.12/507.873
+Object.rotation -115.877/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_ford_5
+Object.absolutePosition 391.238/42.878/615.698
+Object.rotation 120.508/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_ford_5_0
+Object.absolutePosition 397.495/41.995/628.348
+Object.rotation -141.826/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_island_villa_1
+Object.absolutePosition 624.664/34.345/160.634
+Object.rotation -25.785/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_island_villa_2
+Object.absolutePosition 615.879/34.517/167.404
+Object.rotation -6.98699/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_island_villa_3
+Object.absolutePosition 632.753/35.258/214.5
+Object.rotation -142.458/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_island_villa_4
+Object.absolutePosition 630.459/34.515/173.859
+Object.rotation -75.802/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_island_villa_5
+Object.absolutePosition 630.346/34.515/186.51
+Object.rotation 101.743/-3.23297e-005/-180
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_1
+Object.absolutePosition 429.808/28.991/322.692
+Object.rotation 35.398/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_2
+Object.absolutePosition 455.523/31.9718/307.255
+Object.rotation -19.404/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_3
+Object.absolutePosition 455.245/25.9969/362.303
+Object.rotation -130.56/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_4
+Object.absolutePosition 424.882/28.489/334.219
+Object.rotation -23.333/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_5
+Object.absolutePosition 453.843/25.9708/364.281
+Object.rotation -117.594/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_6
+Object.absolutePosition 427.018/28.515/331.951
+Object.rotation 108.18/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_7
+Object.absolutePosition 412.998/28.912/337.63
+Object.rotation 70.483/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_8
+Object.absolutePosition 394.612/31.23/367.217
+Object.rotation 142.092/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_9
+Object.absolutePosition 457.658/26.1428/350.129
+Object.rotation -139.267/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion_10
+Object.absolutePosition 441.997/26.66/365.65
+Object.rotation -131.478/0/0

@@ -1,0 +1,203 @@
+rem
+rem *** Objects ***
+rem
+
+ObjectTemplate.create SimpleObject CapeStatics_19
+ObjectTemplate.geometry CapeStatics_19_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_18
+ObjectTemplate.geometry CapeStatics_18_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_17
+ObjectTemplate.geometry CapeStatics_17_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_16
+ObjectTemplate.geometry CapeStatics_16_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_15
+ObjectTemplate.geometry CapeStatics_15_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_14
+ObjectTemplate.geometry CapeStatics_14_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_13
+ObjectTemplate.geometry CapeStatics_13_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_12
+ObjectTemplate.geometry CapeStatics_12_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_11
+ObjectTemplate.geometry CapeStatics_11_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_10
+ObjectTemplate.geometry CapeStatics_10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_09
+ObjectTemplate.geometry CapeStatics_09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_08
+ObjectTemplate.geometry CapeStatics_08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_07
+ObjectTemplate.geometry CapeStatics_07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_06
+ObjectTemplate.geometry CapeStatics_06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_05
+ObjectTemplate.geometry CapeStatics_05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_04
+ObjectTemplate.geometry CapeStatics_04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_03
+ObjectTemplate.geometry CapeStatics_03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_02
+ObjectTemplate.geometry CapeStatics_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CapeStatics_01
+ObjectTemplate.geometry CapeStatics_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Stairs01
+ObjectTemplate.geometry Cape_Scenery_Stairs01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Stairs02
+ObjectTemplate.geometry Cape_Scenery_Stairs02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near08
+ObjectTemplate.geometry Cape_Scenery_Near08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near07
+ObjectTemplate.geometry Cape_Scenery_Near07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near06
+ObjectTemplate.geometry Cape_Scenery_Near06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near05
+ObjectTemplate.geometry Cape_Scenery_Near05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near04
+ObjectTemplate.geometry Cape_Scenery_Near04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near03
+ObjectTemplate.geometry Cape_Scenery_Near03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near02
+ObjectTemplate.geometry Cape_Scenery_Near02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Near01
+ObjectTemplate.geometry Cape_Scenery_Near01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Scenery_Distant
+ObjectTemplate.geometry Cape_Scenery_Distant_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_Plants
+ObjectTemplate.geometry Cape_Plants_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_TreeBranches
+ObjectTemplate.geometry Cape_TreeBranches_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_CombatZone01
+ObjectTemplate.geometry Cape_CombatZone01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Cape_CombatZone02
+ObjectTemplate.geometry Cape_CombatZone02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Cape_CombatZone03
+ObjectTemplate.geometry Cape_CombatZone03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Cape_CombatZone04
+ObjectTemplate.geometry Cape_CombatZone04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Cape_CombatZone05
+ObjectTemplate.geometry Cape_CombatZone05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Cape_CombatZone06
+ObjectTemplate.geometry Cape_CombatZone06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create Obstacle CaptainShop_DeathBox
+ObjectTemplate.geometry CaptainShop_DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.damage 125
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.createInvisible 1

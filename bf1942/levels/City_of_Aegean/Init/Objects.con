@@ -1,0 +1,285 @@
+rem
+rem *** Objects ***
+rem
+
+ObjectTemplate.create SimpleObject City_TreeBranches
+ObjectTemplate.geometry City_TreeBranches_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Plants
+ObjectTemplate.geometry City_Plants_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_FlagPole
+ObjectTemplate.geometry City_FlagPole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery01
+ObjectTemplate.geometry City_Scenery01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery02
+ObjectTemplate.geometry City_Scenery02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery03
+ObjectTemplate.geometry City_Scenery03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery04
+ObjectTemplate.geometry City_Scenery04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery05
+ObjectTemplate.geometry City_Scenery05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery06
+ObjectTemplate.geometry City_Scenery06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery07
+ObjectTemplate.geometry City_Scenery07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery08
+ObjectTemplate.geometry City_Scenery08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery09
+ObjectTemplate.geometry City_Scenery09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Scenery10
+ObjectTemplate.geometry City_Scenery10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics01
+ObjectTemplate.geometry City_Statics01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics02
+ObjectTemplate.geometry City_Statics02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics03
+ObjectTemplate.geometry City_Statics03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics04
+ObjectTemplate.geometry City_Statics04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics05
+ObjectTemplate.geometry City_Statics05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics06
+ObjectTemplate.geometry City_Statics06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics07
+ObjectTemplate.geometry City_Statics07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics08
+ObjectTemplate.geometry City_Statics08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics09
+ObjectTemplate.geometry City_Statics09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics10
+ObjectTemplate.geometry City_Statics10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics11
+ObjectTemplate.geometry City_Statics11_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics12
+ObjectTemplate.geometry City_Statics12_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics13
+ObjectTemplate.geometry City_Statics13_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics14
+ObjectTemplate.geometry City_Statics14_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics15
+ObjectTemplate.geometry City_Statics15_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics16
+ObjectTemplate.geometry City_Statics16_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics17
+ObjectTemplate.geometry City_Statics17_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics18
+ObjectTemplate.geometry City_Statics18_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics19
+ObjectTemplate.geometry City_Statics19_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics20
+ObjectTemplate.geometry City_Statics20_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics21
+ObjectTemplate.geometry City_Statics21_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics22
+ObjectTemplate.geometry City_Statics22_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics23
+ObjectTemplate.geometry City_Statics23_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics24
+ObjectTemplate.geometry City_Statics24_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics25
+ObjectTemplate.geometry City_Statics25_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics26
+ObjectTemplate.geometry City_Statics26_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics27
+ObjectTemplate.geometry City_Statics27_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics28
+ObjectTemplate.geometry City_Statics28_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics29
+ObjectTemplate.geometry City_Statics29_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject City_Statics30
+ObjectTemplate.geometry City_Statics30_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject City_CombatZone01
+ObjectTemplate.geometry City_CombatZone01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone02
+ObjectTemplate.geometry City_CombatZone02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone03
+ObjectTemplate.geometry City_CombatZone03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone04
+ObjectTemplate.geometry City_CombatZone04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone05
+ObjectTemplate.geometry City_CombatZone05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone06
+ObjectTemplate.geometry City_CombatZone06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone07
+ObjectTemplate.geometry City_CombatZone07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone08
+ObjectTemplate.geometry City_CombatZone08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone09
+ObjectTemplate.geometry City_CombatZone09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject City_CombatZone10
+ObjectTemplate.geometry City_CombatZone10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+
+ObjectTemplate.create Obstacle CaptainShop_DeathBox
+ObjectTemplate.geometry CaptainShop_DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.damage 125
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.createInvisible 1

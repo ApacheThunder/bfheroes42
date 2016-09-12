@@ -1,0 +1,52 @@
+rem
+rem *** Captain Shop  ***
+rem
+Object.create Ger_CaptainShopBundle
+Object.absolutePosition 65.6667/54.6221/8.7403
+
+Object.create Bri_CaptainShopBundle
+Object.absolutePosition 46.1481/54.6221/100.26
+
+ObjectTemplate.active CaptainShop_Bri
+ObjectTemplate.removeTemplate 4
+ObjectTemplate.addTemplate CaptainShop_DeathBox
+
+ObjectTemplate.active CaptainShop_Ger
+ObjectTemplate.removeTemplate 4
+ObjectTemplate.addTemplate CaptainShop_DeathBox
+
+rem
+rem *** Disabled Vehicle Drops for this map ****
+rem
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active RA_VehicleChuteSpawner
+ObjectTemplate.team 0
+
+ObjectTemplate.active NA_VehicleChuteSpawner
+ObjectTemplate.team 0
+
+rem
+rem  *** Falling off map and into water results in instant death. ***
+rem
+
+ObjectTemplate.active german_male_soldier
+ObjectTemplate.hpLostWhileDamageFromWater 300
+ObjectTemplate.waterDamageDelay 0
+
+ObjectTemplate.active british_male_soldier
+ObjectTemplate.hpLostWhileDamageFromWater 300
+ObjectTemplate.waterDamageDelay 0
+
+ObjectTemplate.active RippinRocketSoldier
+ObjectTemplate.hpLostWhileDamageFromWater 300
+ObjectTemplate.waterDamageDelay 0
+
+ObjectTemplate.active TurboJetSoldier
+ObjectTemplate.hpLostWhileDamageFromWater 300
+ObjectTemplate.waterDamageDelay 0

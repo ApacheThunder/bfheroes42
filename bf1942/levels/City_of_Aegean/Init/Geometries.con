@@ -1,0 +1,167 @@
+rem
+rem *** Geometries ***
+rem
+
+GeometryTemplate.create StandardMesh City_TreeBranches_m1
+GeometryTemplate.file City_TreeBranches_m1
+
+GeometryTemplate.create StandardMesh City_Plants_m1
+GeometryTemplate.file City_Plants_m1
+
+GeometryTemplate.create StandardMesh City_FlagPole_m1
+GeometryTemplate.file City_FlagPole_m1
+
+GeometryTemplate.create StandardMesh City_Scenery01_m1
+GeometryTemplate.file City_Scenery01_m1
+
+GeometryTemplate.create StandardMesh City_Scenery02_m1
+GeometryTemplate.file City_Scenery02_m1
+
+GeometryTemplate.create StandardMesh City_Scenery03_m1
+GeometryTemplate.file City_Scenery03_m1
+
+GeometryTemplate.create StandardMesh City_Scenery04_m1
+GeometryTemplate.file City_Scenery04_m1
+
+GeometryTemplate.create StandardMesh City_Scenery05_m1
+GeometryTemplate.file City_Scenery05_m1
+
+GeometryTemplate.create StandardMesh City_Scenery06_m1
+GeometryTemplate.file City_Scenery06_m1
+
+GeometryTemplate.create StandardMesh City_Scenery07_m1
+GeometryTemplate.file City_Scenery07_m1
+
+GeometryTemplate.create StandardMesh City_Scenery08_m1
+GeometryTemplate.file City_Scenery08_m1
+
+GeometryTemplate.create StandardMesh City_Scenery09_m1
+GeometryTemplate.file City_Scenery09_m1
+
+GeometryTemplate.create StandardMesh City_Scenery10_m1
+GeometryTemplate.file City_Scenery10_m1
+
+GeometryTemplate.create StandardMesh City_Statics01_m1
+GeometryTemplate.file City_Statics01_m1
+
+GeometryTemplate.create StandardMesh City_Statics02_m1
+GeometryTemplate.file City_Statics02_m1
+
+GeometryTemplate.create StandardMesh City_Statics03_m1
+GeometryTemplate.file City_Statics03_m1
+
+GeometryTemplate.create StandardMesh City_Statics04_m1
+GeometryTemplate.file City_Statics04_m1
+
+GeometryTemplate.create StandardMesh City_Statics05_m1
+GeometryTemplate.file City_Statics05_m1
+
+GeometryTemplate.create StandardMesh City_Statics06_m1
+GeometryTemplate.file City_Statics06_m1
+
+GeometryTemplate.create StandardMesh City_Statics07_m1
+GeometryTemplate.file City_Statics07_m1
+
+GeometryTemplate.create StandardMesh City_Statics08_m1
+GeometryTemplate.file City_Statics08_m1
+
+GeometryTemplate.create StandardMesh City_Statics09_m1
+GeometryTemplate.file City_Statics09_m1
+
+GeometryTemplate.create StandardMesh City_Statics10_m1
+GeometryTemplate.file City_Statics10_m1
+
+GeometryTemplate.create StandardMesh City_Statics11_m1
+GeometryTemplate.file City_Statics11_m1
+
+GeometryTemplate.create StandardMesh City_Statics12_m1
+GeometryTemplate.file City_Statics12_m1
+
+GeometryTemplate.create StandardMesh City_Statics13_m1
+GeometryTemplate.file City_Statics13_m1
+
+GeometryTemplate.create StandardMesh City_Statics14_m1
+GeometryTemplate.file City_Statics14_m1
+
+GeometryTemplate.create StandardMesh City_Statics15_m1
+GeometryTemplate.file City_Statics15_m1
+
+GeometryTemplate.create StandardMesh City_Statics16_m1
+GeometryTemplate.file City_Statics16_m1
+
+GeometryTemplate.create StandardMesh City_Statics17_m1
+GeometryTemplate.file City_Statics17_m1
+
+GeometryTemplate.create StandardMesh City_Statics18_m1
+GeometryTemplate.file City_Statics18_m1
+
+GeometryTemplate.create StandardMesh City_Statics19_m1
+GeometryTemplate.file City_Statics19_m1
+
+GeometryTemplate.create StandardMesh City_Statics20_m1
+GeometryTemplate.file City_Statics20_m1
+
+GeometryTemplate.create StandardMesh City_Statics21_m1
+GeometryTemplate.file City_Statics21_m1
+
+GeometryTemplate.create StandardMesh City_Statics22_m1
+GeometryTemplate.file City_Statics22_m1
+
+GeometryTemplate.create StandardMesh City_Statics23_m1
+GeometryTemplate.file City_Statics23_m1
+
+GeometryTemplate.create StandardMesh City_Statics24_m1
+GeometryTemplate.file City_Statics24_m1
+
+GeometryTemplate.create StandardMesh City_Statics25_m1
+GeometryTemplate.file City_Statics25_m1
+
+GeometryTemplate.create StandardMesh City_Statics26_m1
+GeometryTemplate.file City_Statics26_m1
+
+GeometryTemplate.create StandardMesh City_Statics27_m1
+GeometryTemplate.file City_Statics27_m1
+
+GeometryTemplate.create StandardMesh City_Statics28_m1
+GeometryTemplate.file City_Statics28_m1
+
+GeometryTemplate.create StandardMesh City_Statics29_m1
+GeometryTemplate.file City_Statics29_m1
+
+GeometryTemplate.create StandardMesh City_Statics30_m1
+GeometryTemplate.file City_Statics30_m1
+
+
+GeometryTemplate.create StandardMesh City_CombatZone01_m1
+GeometryTemplate.file City_CombatZone01_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone02_m1
+GeometryTemplate.file City_CombatZone02_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone03_m1
+GeometryTemplate.file City_CombatZone03_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone04_m1
+GeometryTemplate.file City_CombatZone04_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone05_m1
+GeometryTemplate.file City_CombatZone05_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone06_m1
+GeometryTemplate.file City_CombatZone06_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone07_m1
+GeometryTemplate.file City_CombatZone07_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone08_m1
+GeometryTemplate.file City_CombatZone08_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone09_m1
+GeometryTemplate.file City_CombatZone09_m1
+
+GeometryTemplate.create StandardMesh City_CombatZone10_m1
+GeometryTemplate.file City_CombatZone10_m1
+
+
+GeometryTemplate.create StandardMesh CaptainShop_DeathBox_m1
+GeometryTemplate.file CaptainShop_DeathBox_m1

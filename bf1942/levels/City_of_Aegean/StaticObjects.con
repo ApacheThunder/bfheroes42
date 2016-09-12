@@ -1,0 +1,376 @@
+rem
+rem *** Init Map Extensions ***
+rem
+run Mods
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition -70/72/150
+Object.rotation -127.102/-3.28702/-16.5068
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition 79.1971/103.187/301.613
+Object.rotation -99.4741/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition 354.901/57.7923/-136.28
+Object.rotation 22.4858/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Skydome
+Object.absolutePosition 48.7874/0.0/49.6943
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Plants
+Object.absolutePosition 48.7874/6.10352e-006/49.6943
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery01
+Object.absolutePosition -0.530663/62.3738/110.423
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery02
+Object.absolutePosition 44.0754/90.2225/315.059
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery03
+Object.absolutePosition -60.781/71.7964/182.069
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery04
+Object.absolutePosition -160.779/84.5733/15.574
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery05
+Object.absolutePosition 19.2295/69.8001/-43.0571
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery06
+Object.absolutePosition 352.743/49.2058/-127.293
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery07
+Object.absolutePosition -192.117/91.4796/67.3814
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery08
+Object.absolutePosition -253.67/119.204/140.474
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery09
+Object.absolutePosition -167.107/103.97/238.152
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Scenery10
+Object.absolutePosition -136.798/83.3687/358.157
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics01
+Object.absolutePosition 47.5157/57.0266/109.1
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics02
+Object.absolutePosition 32.697/57.6773/98.8805
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics03
+Object.absolutePosition 68.5603/54.9419/95.9597
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics04
+Object.absolutePosition 36.352/53.1238/88.562
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics05
+Object.absolutePosition 54.3406/51.9402/84.681
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics06
+Object.absolutePosition 75.7298/51.2112/79.6441
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics07
+Object.absolutePosition 51.9106/52.7176/76.7456
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics08
+Object.absolutePosition 65.8168/51.8372/74.478
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics09
+Object.absolutePosition 33.4125/52.0415/76.7217
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics10
+Object.absolutePosition 53.1974/51.939/65.6448
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics11
+Object.absolutePosition 33.6967/55.9786/68.5125
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics12
+Object.absolutePosition 87.5665/52.5157/61.659
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics13
+Object.absolutePosition 25.192/54.0465/54.6491
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics14
+Object.absolutePosition 40.8137/57.7219/52.1911
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics15
+Object.absolutePosition 55.8207/53.3945/54.9944
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics16
+Object.absolutePosition 70.8363/54.4306/58.1285
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics17
+Object.absolutePosition 33.4532/53.7555/33.0112
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics18
+Object.absolutePosition 57.3075/52.3993/44.7727
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics19
+Object.absolutePosition 84.9486/53.0636/49.2977
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics20
+Object.absolutePosition 77.2028/55.088/38.5307
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics21
+Object.absolutePosition 92.966/51.1698/40.8813
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics22
+Object.absolutePosition 46.7058/52.1701/35.4706
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics23
+Object.absolutePosition 60.6802/52.3266/28.0521
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics24
+Object.absolutePosition 45.6397/53.6697/19.6347
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics25
+Object.absolutePosition 80.9624/52.9922/28.1143
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics26
+Object.absolutePosition 87.2295/52.4261/19.7622
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics27
+Object.absolutePosition 83.5897/55.9923/1.35479
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics28
+Object.absolutePosition 74.2476/53.9589/12.9142
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics29
+Object.absolutePosition 55.9105/55.2148/8.23676
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_Statics30
+Object.absolutePosition 64.0816/56.7202/-4.84866
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_TreeBranches
+Object.absolutePosition 48.7874/6.10352e-006/49.6943
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain
+Object.absolutePosition 48.7874/6.10352e-006/49.6943
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL05
+Object.absolutePosition 7.03736/44.0598/-72.2584
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL04
+Object.absolutePosition 28.9418/45.0825/-10.1126
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL03
+Object.absolutePosition 35.0894/39.6743/43.9123
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL02
+Object.absolutePosition 32.6884/47.1068/84.6584
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL01
+Object.absolutePosition 24.4789/48.1229/134.395
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone01
+Object.absolutePosition 67.7914/91.3193/90.1834
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone02
+Object.absolutePosition 36.6936/91.3193/97.8264
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone03
+Object.absolutePosition 30.8701/91.3193/76.4109
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone04
+Object.absolutePosition 78.2524/91.3193/58.3069
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone05
+Object.absolutePosition 80.9525/91.3193/32.9691
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone06
+Object.absolutePosition 74.7734/91.3193/11.4391
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone07
+Object.absolutePosition 56.6224/91.3193/7.42434
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone08
+Object.absolutePosition 42.5409/91.3193/25.3848
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone09
+Object.absolutePosition 33.1378/91.3193/51.3895
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create City_CombatZone10
+Object.absolutePosition 53.9919/91.3193/108.151
+Object.rotation 0/0/0

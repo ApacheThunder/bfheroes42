@@ -1,0 +1,82 @@
+if v_arg1 == host
+
+aiStrategicArea.create la_16_allied_hq 367/611 387/631 20
+aiStrategicArea.create la_16_axis_hq 475/152 485/182 20
+aiStrategicArea.create la_16_cragvillage 331/302 339/310 8
+aiStrategicArea.create la_16_ford 344/487 354/497 10
+aiStrategicArea.create la_16_island_villa 601/163 621/183 20
+aiStrategicArea.create la_16_mansion 431/340 439/348 8
+
+aiStrategicArea.setActive la_16_allied_hq
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.setOrderPosition Infantry 381/626.8
+AIStrategicArea.setOrderPosition Tank 388.29/626.67
+aiStrategicArea.setSide 2
+aiStrategicArea.vehicleSearchRadius 20
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive la_16_axis_hq
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.setOrderPosition Infantry 490.84/184.9
+AIStrategicArea.setOrderPosition Tank 487.63/185.94
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 28
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive la_16_cragvillage
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour la_16_allied_hq
+AIStrategicArea.addNeighbour la_16_island_villa
+AIStrategicArea.addNeighbour la_16_axis_hq
+AIStrategicArea.addNeighbour la_16_mansion
+AIStrategicArea.addNeighbour la_16_ford
+AIStrategicArea.setOrderPosition Infantry 325.97/295.67
+AIStrategicArea.setOrderPosition Tank 321.6/301.4
+aiStrategicArea.vehicleSearchRadius 23
+
+aiStrategicArea.setActive la_16_ford
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour la_16_allied_hq
+AIStrategicArea.addNeighbour la_16_mansion
+AIStrategicArea.addNeighbour la_16_island_villa
+AIStrategicArea.addNeighbour la_16_cragvillage
+AIStrategicArea.addNeighbour la_16_axis_hq
+AIStrategicArea.setOrderPosition Infantry 347/501.56
+AIStrategicArea.setOrderPosition Tank 347.15/493.74
+aiStrategicArea.setSide 2
+aiStrategicArea.vehicleSearchRadius 28
+
+aiStrategicArea.setActive la_16_island_villa
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour la_16_allied_hq
+AIStrategicArea.addNeighbour la_16_mansion
+AIStrategicArea.addNeighbour la_16_axis_hq
+AIStrategicArea.addNeighbour la_16_cragvillage
+AIStrategicArea.addNeighbour la_16_ford
+AIStrategicArea.setOrderPosition Infantry 622.4/186.48
+AIStrategicArea.setOrderPosition Tank 616/182.71
+AIStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 20
+
+aiStrategicArea.setActive la_16_mansion
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour la_16_allied_hq
+AIStrategicArea.addNeighbour la_16_island_villa
+AIStrategicArea.addNeighbour la_16_cragvillage
+AIStrategicArea.addNeighbour la_16_axis_hq
+AIStrategicArea.addNeighbour la_16_ford
+AIStrategicArea.setOrderPosition Infantry 438.6/343.16
+AIStrategicArea.setOrderPosition Tank 437.24/343.49
+aiStrategicArea.vehicleSearchRadius 23
+
+endIf

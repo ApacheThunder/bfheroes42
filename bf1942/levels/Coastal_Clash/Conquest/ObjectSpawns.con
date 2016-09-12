@@ -1,0 +1,59 @@
+Object.create CC_16_Jeep
+Object.absolutePosition 265.86/17.119/379.641
+Object.rotation -159.766/0.0/0.0
+Object.setTeam 1
+
+Object.create CC_16_Jeep
+Object.absolutePosition 255.305/17.006/373.718
+Object.rotation 96.782/0.0/0.0
+Object.setTeam 1
+
+Object.create CC_16_Jeep
+Object.absolutePosition 256.578/17.04/377.114
+Object.rotation 102.475/0.0/0.0
+Object.setTeam 1
+
+Object.create CC_16_Jeep
+Object.absolutePosition 267.243/16.365/85.733
+Object.rotation 24.715/0.818985/0.28116
+Object.setTeam 2
+
+Object.create CC_16_Jeep
+Object.absolutePosition 269.764/16.365/84.919
+Object.rotation 22.574/0.828986/0.250229
+Object.setTeam 2
+
+Object.create CC_16_Jeep
+Object.absolutePosition 276.994/16.365/87.245
+Object.rotation 14.722/0.855001/0.135621
+Object.setTeam 2
+
+Object.create CC_16_Jeep
+Object.absolutePosition 322.815/10.384/135.927
+Object.rotation -23.174/0.0/0.0
+Object.setOSId 3
+
+Object.create CC_16_Jeep
+Object.absolutePosition 311.796/10.111/136.469
+Object.rotation 30.961/0.0/0.0
+Object.setOSId 3
+
+Object.create CC_16_Jeep
+Object.absolutePosition 268.166/14.132/316.747
+Object.rotation -177.726/-1.241/0.651921
+Object.setOSId 4
+
+Object.create CC_16_Jeep
+Object.absolutePosition 246.431/13.115/326.848
+Object.rotation 120.732/-0.018/1.40193
+Object.setOSId 4
+
+Object.create CC_16_Jeep
+Object.absolutePosition 349.619/10.717/236.983
+Object.rotation -149.783/1.26701/0.716005
+Object.setOSId 6
+
+Object.create CC_16_Jeep
+Object.absolutePosition 346.569/10.897/226.526
+Object.rotation 6.81198/0.0/0.0
+Object.setOSId 6

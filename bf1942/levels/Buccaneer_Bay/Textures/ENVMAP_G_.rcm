@@ -1,0 +1,7 @@
+[CubeMap]
+PositiveX = bf1942\levels\Buccaneer_Bay\Textures\env_02.dds
+NegativeX = bf1942\levels\Buccaneer_Bay\Textures\env_04.dds
+PositiveY = bf1942\levels\Buccaneer_Bay\Textures\env_05.dds
+NegativeY = bf1942\levels\Buccaneer_Bay\Textures\env_06.dds
+PositiveZ = bf1942\levels\Buccaneer_Bay\Textures\env_01.dds
+NegativeZ = bf1942\levels\Buccaneer_Bay\Textures\env_03.dds

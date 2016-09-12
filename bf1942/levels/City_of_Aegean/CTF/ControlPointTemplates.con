@@ -1,0 +1,10 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+
+Object.create ctf_flagbase
+Object.absolutePosition 58.486/54.5402/100.665
+
+Object.create ctf_flagbase
+Object.absolutePosition 53.1015/54.5402/10.1689

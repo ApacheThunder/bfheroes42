@@ -1,0 +1,15 @@
+TextureManager.mipmaps 0
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file Cape_SkyDome_m1
+
+Sky.initSky
+sky.changeOfsSkyHeight 0
+sky.setRotAngle 0
+sky.sunLightDirectionVec -0.511/0.477/-0.715
+
+TextureManager.mipmaps 1
+
+ObjectTemplate.create SimpleObject Cape_SkyDome
+ObjectTemplate.geometry SkyBox
+ObjectTemplate.cullRadiusScale 5

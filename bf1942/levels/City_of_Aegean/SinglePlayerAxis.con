@@ -1,0 +1,23 @@
+run Init/Billboards
+
+run singleplayer/ControlPointTemplates
+run singleplayer/SpawnpointManagerSettings
+run singleplayer/SoldierSpawnTemplates
+run singleplayer/SoldierSpawns
+run singleplayer/ObjectSpawnTemplates
+run singleplayer/Bots
+
+Game.setNumberOfTickets 2 100
+Game.setNumberOfTickets 1 100
+Game.setTicketLostPerMin 2 20
+Game.setTicketLostPerMin 1 20
+
+if v_arg1 == host
+
+run ai
+
+run SinglePlayer/ObjectSpawns
+run singleplayer/ControlPoints
+
+game.timeToNextWave 6
+endIf

@@ -1,0 +1,5 @@
+rem
+rem ***  ***
+rem
+Object.create KOTH_CP
+Object.absolutePosition 40/33.6/54

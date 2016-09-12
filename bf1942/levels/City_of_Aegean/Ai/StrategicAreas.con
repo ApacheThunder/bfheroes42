@@ -1,0 +1,40 @@
+if v_arg1 == host
+
+aiStrategicArea.create RedFlag1 57.8/24 60/27 4
+aiStrategicArea.create RedFlag2 40.6/50.4 43/53 4
+aiStrategicArea.create BlueFlag1 49.2/82 52/85 4
+aiStrategicArea.create BlueFlag2 67.3/55.6 70/58 4
+
+aiStrategicArea.setActive RedFlag1
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag2
+aiStrategicArea.addNeighbour BlueFlag1
+aiStrategicArea.addNeighbour BlueFlag2
+aiStrategicArea.setOrderPosition Infantry 60/26
+aiStrategicArea.setOrderPosition Tank 60/26
+
+aiStrategicArea.setActive RedFlag2
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag1
+aiStrategicArea.addNeighbour BlueFlag1
+aiStrategicArea.addNeighbour BlueFlag2
+aiStrategicArea.setOrderPosition Infantry 43/52
+aiStrategicArea.setOrderPosition Tank 43/52
+
+aiStrategicArea.setActive BlueFlag1
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag1
+aiStrategicArea.addNeighbour RedFlag2
+aiStrategicArea.addNeighbour BlueFlag2
+aiStrategicArea.setOrderPosition Infantry 52/85
+aiStrategicArea.setOrderPosition Tank 52/85
+
+aiStrategicArea.setActive BlueFlag2
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag1
+aiStrategicArea.addNeighbour RedFlag2
+aiStrategicArea.addNeighbour BlueFlag1
+aiStrategicArea.setOrderPosition Infantry 69/58
+aiStrategicArea.setOrderPosition Tank 69/58
+
+endIf

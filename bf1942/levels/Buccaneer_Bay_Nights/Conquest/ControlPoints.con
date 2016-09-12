@@ -1,0 +1,36 @@
+rem
+rem ***  ***
+rem
+Object.create la_16_mansion
+Object.absolutePosition 439.147/27.789/347.94
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_island_villa
+Object.absolutePosition 621.347/35.305/182.99
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_ford
+Object.absolutePosition 353.607/33.374/497.345
+Object.rotation -92.64/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_cragvillage
+Object.absolutePosition 338.782/42.145/309.899
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_axis_hq
+Object.absolutePosition 485.04/32.162/181.906
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create la_16_allied_hq
+Object.absolutePosition 387.223/42.823/630.54
+Object.rotation 0/0/0

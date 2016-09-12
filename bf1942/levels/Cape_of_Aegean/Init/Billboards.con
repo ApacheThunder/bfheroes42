@@ -1,0 +1,36 @@
+GeometryTemplate.create TreeMesh Cape_FlagBillboard_NU_m1
+GeometryTemplate.file Cape_FlagBillboard_NU_m1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 0
+GeometryTemplate.billboardResolution 128/128/1
+GeometryTemplate.scale 1.5
+
+GeometryTemplate.create TreeMesh Cape_FlagBillboard_Red_m1
+GeometryTemplate.file Cape_FlagBillboard_Red_m1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 0
+GeometryTemplate.billboardResolution 128/128/1
+GeometryTemplate.scale 1.5
+
+GeometryTemplate.create TreeMesh Cape_FlagBillboard_Blue_m1
+GeometryTemplate.file Cape_FlagBillboard_Blue_m1
+GeometryTemplate.billboard 1
+GeometryTemplate.billboardDistance 0
+GeometryTemplate.billboardResolution 128/128/1
+GeometryTemplate.scale 1.5
+
+ObjectTemplate.create Bundle Cape_FlagBillboard
+ObjectTemplate.geometry Cape_FlagBillboard_NU_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_FlagBillboard_NU
+ObjectTemplate.geometry Cape_FlagBillboard_NU_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_FlagBillboard_Red
+ObjectTemplate.geometry Cape_FlagBillboard_Red_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Cape_FlagBillboard_Blue
+ObjectTemplate.geometry Cape_FlagBillboard_NU_m1
+ObjectTemplate.cullRadiusScale 5

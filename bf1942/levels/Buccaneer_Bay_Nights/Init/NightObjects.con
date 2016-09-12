@@ -1,0 +1,737 @@
+Object.create windowglow_01
+Object.absolutePosition 371.886/39.604/308.999
+Object.rotation -116.9/-0.5/0.0
+
+
+Object.create windowglow_05
+Object.absolutePosition 631.938/36.761/181.014
+Object.rotation -88.0/0.0/0.0
+
+
+Object.create windowglow_06
+Object.absolutePosition 634.693/42.332/179.092
+Object.rotation 177.2/0.0/0.0
+
+
+Object.create windowglow_06
+Object.absolutePosition 634.713/42.332/188.655
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 477.691/37.802/181.343
+Object.rotation 42.6/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 480.455/37.772/172.171
+Object.rotation 132.0/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 482.049/37.802/177.244
+Object.rotation 42.6/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 482.485/37.802/174.305
+Object.rotation 132.0/0.0/0.0
+
+
+Object.create windowglow_02
+Object.absolutePosition 334.222/41.602/264.056
+Object.rotation -0.300014/-6.7/2.19989
+
+
+Object.create windowglow_02
+Object.absolutePosition 338.04/41.8/264.126
+Object.rotation -0.199792/-5.2/2.30002
+
+
+Object.create windowglow_01
+Object.absolutePosition 341.334/44.277/290.55
+Object.rotation 52.7/-2.2/-5.30001
+
+
+Object.create windowglow_05
+Object.absolutePosition 330.898/43.835/297.354
+Object.rotation -117.3/0.0/1.59998
+
+
+Object.create windowglow_05
+Object.absolutePosition 330.542/43.856/297.999
+Object.rotation -117.3/0.0/1.59998
+
+
+Object.create windowglow_01
+Object.absolutePosition 320.68/47.698/316.922
+Object.rotation -118.2/-1.5/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 327.399/47.76/314.42
+Object.rotation 151.8/1.7/1.50011
+
+
+Object.create windowglow_01
+Object.absolutePosition 322.103/47.787/314.287
+Object.rotation -118.2/-1.5/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 324.78/47.783/313.097
+Object.rotation 151.8/1.7/1.50011
+
+
+Object.create windowglow_05
+Object.absolutePosition 337.935/44.046/319.239
+Object.rotation 156.7/1.60001/0.100871
+
+
+Object.create windowglow_02
+Object.absolutePosition 346.675/43.699/314.283
+Object.rotation -25.8/0.0/-3.50001
+
+
+Object.create windowglow_02
+Object.absolutePosition 347.609/43.787/308.891
+Object.rotation -115.0/-3.5/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 343.176/44.544/320.993
+Object.rotation 168.8/1.20001/1.89991
+
+
+Object.create windowglow_06
+Object.absolutePosition 338.694/49.697/322.324
+Object.rotation 64.3/0.0/0.0
+
+
+Object.create windowglow_03
+Object.absolutePosition 349.598/44.947/298.842
+Object.rotation -102.8/-1.9/-2.69994
+
+
+Object.create windowglow_03
+Object.absolutePosition 354.823/43.081/316.699
+Object.rotation -12.1/4.9/-1.79994
+
+
+Object.create windowglow_04
+Object.absolutePosition 361.029/45.015/318.044
+Object.rotation -13.1/6.60002/-1.90002
+
+
+Object.create windowglow_01
+Object.absolutePosition 337.652/44.043/287.686
+Object.rotation -127.9/2.19999/5.30001
+
+
+Object.create windowglow_02
+Object.absolutePosition 345.977/43.787/312.392
+Object.rotation -115.0/-3.5/0.0
+
+
+Object.create windowglow_03
+Object.absolutePosition 348.811/44.778/302.281
+Object.rotation -102.8/-1.9/-2.69994
+
+
+Object.create windowglow_03
+Object.absolutePosition 354.093/44.785/299.982
+Object.rotation 75.3/1.99998/2.60008
+
+
+Object.create windowglow_04
+Object.absolutePosition 348.527/46.731/305.169
+Object.rotation -102.8/-1.9/-2.69994
+
+
+Object.create windowglow_04
+Object.absolutePosition 359.584/46.13/313.144
+Object.rotation 174.5/-5.1/1.20008
+
+
+Object.create windowglow_04
+Object.absolutePosition 357.72/46.187/312.786
+Object.rotation 165.7/-4.9/1.99998
+
+
+Object.create windowglow_03
+Object.absolutePosition 359.4/43.426/313.02
+Object.rotation 165.2/-4.8/2.10003
+
+
+Object.create windowglow_02
+Object.absolutePosition 353.066/42.712/323.307
+Object.rotation 169.5/2.60002/3.40001
+
+
+Object.create windowglow_02
+Object.absolutePosition 355.974/42.723/328.638
+Object.rotation -10.3/-2.6/-3.39995
+
+
+Object.create windowglow_02
+Object.absolutePosition 358.005/42.473/325.296
+Object.rotation 79.3/3.40002/-2.6
+
+
+Object.create windowglow_01
+Object.absolutePosition 374.089/39.593/315.257
+Object.rotation 65.0/0.499997/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 342.219/44.432/325.601
+Object.rotation -9.09999/0.399996/-2.69994
+
+
+Object.create windowglow_01
+Object.absolutePosition 346.819/44.245/326.562
+Object.rotation -16.5/0.0999921/-2.69994
+
+
+Object.create windowglow_01
+Object.absolutePosition 325.077/47.551/322.61
+Object.rotation 57.9/3.1/0.799908
+
+
+Object.create windowglow_01
+Object.absolutePosition 322.333/47.553/323.85
+Object.rotation -27.1/3.10001/-2.69994
+
+
+Object.create windowglow_03
+Object.absolutePosition 312.545/43.11/330.763
+Object.rotation -124.9/-6.6/-3.99998
+
+
+Object.create windowglow_03
+Object.absolutePosition 313.791/43.326/328.287
+Object.rotation -125.0/-5.6/-3.99998
+
+
+Object.create windowglow_04
+Object.absolutePosition 318.658/45.902/329.817
+Object.rotation 54.9/3.60001/3.80004
+
+
+Object.create windowglow_04
+Object.absolutePosition 312.454/45.171/330.919
+Object.rotation -124.5/-3.6/-3.90003
+
+
+Object.create windowglow_04
+Object.absolutePosition 319.784/46.089/328.209
+Object.rotation 48.9/4.0/3.40001
+
+
+Object.create windowglow_03
+Object.absolutePosition 377.821/38.401/330.507
+Object.rotation 0.400074/-0.7/0.199792
+
+
+Object.create windowglow_03
+Object.absolutePosition 374.33/38.395/325.936
+Object.rotation 178.4/-0.9/-0.0989117
+
+
+Object.create windowglow_04
+Object.absolutePosition 379.22/41.12/328.235
+Object.rotation 88.8/2.29999/0.799908
+
+
+Object.create windowglow_03
+Object.absolutePosition 374.247/38.39/330.561
+Object.rotation -9.09999/0.9/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 376.116/39.563/311.014
+Object.rotation 65.0/0.499997/0.0
+
+
+Object.create windowglow_07
+Object.absolutePosition 325.063/49.168/307.878
+Object.rotation -116.0/0.0/0.0
+
+
+Object.create windowglow_07
+Object.absolutePosition 325.773/49.196/310.447
+Object.rotation -26.0/0.0/0.0
+
+
+Object.create windowglow_07
+Object.absolutePosition 328.557/49.009/301.077
+Object.rotation -116.0/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 334.391/44.728/304.081
+Object.rotation 61.4/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 330.793/44.883/311.062
+Object.rotation 61.4/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 333.272/35.005/421.686
+Object.rotation 12.8/0.300002/-0.400074
+
+
+Object.create windowglow_01
+Object.absolutePosition 327.755/35.063/418.022
+Object.rotation -170.4/-0.3/0.400074
+
+
+Object.create windowglow_01
+Object.absolutePosition 328.619/35.039/422.586
+Object.rotation 9.59999/0.300002/-0.400074
+
+
+Object.create windowglow_02
+Object.absolutePosition 335.356/34.166/509.471
+Object.rotation -93.7/1.0/-0.699975
+
+
+Object.create windowglow_02
+Object.absolutePosition 340.142/34.138/509.765
+Object.rotation 86.1/3.70001/-2.20007
+
+
+Object.create windowglow_02
+Object.absolutePosition 339.09/34.156/508.247
+Object.rotation 176.3/2.2/-1.00015
+
+
+Object.create windowglow_03
+Object.absolutePosition 288.924/35.355/505.622
+Object.rotation 89.2/0.0/0.0
+
+
+Object.create windowglow_03
+Object.absolutePosition 284.562/35.355/508.216
+Object.rotation -90.8/0.0/0.0
+
+
+Object.create windowglow_04
+Object.absolutePosition 286.79/38.102/513.247
+Object.rotation -0.799908/0.0/0.0
+
+
+Object.create windowglow_04
+Object.absolutePosition 289.27/38.094/508.2
+Object.rotation 89.2/0.0/0.0
+
+
+Object.create windowglow_03
+Object.absolutePosition 289.198/35.355/508.391
+Object.rotation 89.2/0.0/0.0
+
+
+Object.create windowglow_04
+Object.absolutePosition 289.243/38.102/510.143
+Object.rotation 89.2/0.0/0.0
+
+
+Object.create windowglow_02
+Object.absolutePosition 336.56/34.134/508.134
+Object.rotation 176.3/2.2/-1.00015
+
+
+Object.create windowglow_06
+Object.absolutePosition 387.892/50.627/616.163
+Object.rotation 89.8/0.0/0.0
+
+
+Object.create windowglow_05
+Object.absolutePosition 380.261/45.063/618.865
+Object.rotation 0.0/0.0/-0.699975
+
+
+Object.create windowglow_03
+Object.absolutePosition 369.851/59.61/802.339
+Object.rotation 135.7/0.0/0.0
+
+
+Object.create windowglow_03
+Object.absolutePosition 367.283/59.61/799.895
+Object.rotation 135.7/0.0/0.0
+
+
+Object.create windowglow_01
+Object.absolutePosition 347.782/44.366/322.002
+Object.rotation 168.8/1.20001/1.89991
+
+
+Object.create windowglow_02
+Object.absolutePosition 356.826/42.506/323.966
+Object.rotation 168.0/2.7/3.30002
+
+
+Object.create windowglow_03
+Object.absolutePosition 358.225/43.039/317.5
+Object.rotation -12.1/4.9/-1.79994
+
+
+Object.create windowglow_04
+Object.absolutePosition 355.822/46.252/312.355
+Object.rotation 165.7/-4.9/1.99998
+
+
+Object.create windowglow_04
+Object.absolutePosition 354.053/46.088/314.388
+Object.rotation -104.1/-2.0/-4.19997
+
+
+Object.create windowglow_04
+Object.absolutePosition 354.692/45.871/316.991
+Object.rotation -13.1/6.60002/-1.90002
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 385.693/36.652/308.652
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 340.879/40.439/282.164
+Object.rotation 0.0/-3.2/-0.799908
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 330.463/41.82/296.372
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 323.733/42.234/309.352
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 358.121/40.478/323.904
+Object.rotation 0.0/-4.7/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 335.639/42.169/302.507
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 340.15/42.011/294.75
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 308.4/40.371/333.318
+Object.rotation -0.0989117/3.1/7.90001
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 347.775/42.015/305.8
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 344.769/41.777/313.51
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 330.89/42.048/312.338
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 374.067/36.55/317.012
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 382.699/36.85/327.36
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 341.643/41.692/320.129
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 317.311/41.724/321.148
+Object.rotation 0.0/5.4/2.19998
+
+
+Object.create light_post_glow_01
+Object.absolutePosition 353.134/41.203/316.957
+Object.rotation 0.0/3.2/0.0
+
+
+Object.create windowglow_09
+Object.absolutePosition 330.728/44.44/297.639
+Object.rotation -117.3/0.0/1.59998
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 400.691/33.835/268.497
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 550.609/32.003/213.965
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 521.765/32.362/154.747
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 319.076/33.869/399.031
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 299.152/33.667/526.654
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 365.747/29.3/464.467
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 373.956/32.437/428.527
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 368.563/40.925/591.389
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 449.71/33.555/268.875
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 349.133/39.637/274.233
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 271.986/33.753/444.571
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 292.857/49.731/376.226
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 272.327/70.75/628.212
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 388.99/32.29/372.438
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 614.776/36.239/227.286
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create ambstat_sound_fields
+Object.absolutePosition 457.708/30.175/185.148
+Object.rotation 0.0/0.0/0.0
+
+Object.create e_dAmb_bats01
+Object.absolutePosition 573.258/31.323/179.427
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats02
+Object.absolutePosition 488.283/32.223/159.966
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl01
+Object.absolutePosition 609.822/34.614/212.383
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 438.12/31.038/289.085
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats03
+Object.absolutePosition 377.423/33.972/279.479
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl02
+Object.absolutePosition 352.215/32.358/345.014
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats04
+Object.absolutePosition 384.127/34.6/393.494
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl03
+Object.absolutePosition 275.339/29.606/420.072
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl04
+Object.absolutePosition 349.751/32.96/493.991
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 262.418/72.668/606.776
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 284.923/50.148/371.262
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl05
+Object.absolutePosition 314.735/32.025/510.901
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats05
+Object.absolutePosition 343.959/42.331/298.588
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats06
+Object.absolutePosition 411.448/35.192/265.132
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 433.771/27.789/343.586
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl06
+Object.absolutePosition 344.842/31.04/404.738
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 549.321/33.257/247.542
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats02
+Object.absolutePosition 359.655/42.128/620.22
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl01
+Object.absolutePosition 574.134/40.132/170.38
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats01
+Object.absolutePosition 496.416/37.58/155.797
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl03
+Object.absolutePosition 604.368/40.614/211.233
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 461.094/36.936/306.8
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats04
+Object.absolutePosition 367.586/41.647/282.884
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl04
+Object.absolutePosition 364.819/40.398/346.713
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats06
+Object.absolutePosition 388.509/40.454/386.659
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl02
+Object.absolutePosition 281.651/39.73/409.368
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl01
+Object.absolutePosition 346.066/40.808/491.496
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 243.639/76.734/617.752
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 277.574/53.947/386.197
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl06
+Object.absolutePosition 301.825/39.728/516.211
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats02
+Object.absolutePosition 346.926/49.418/293.778
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats02
+Object.absolutePosition 418.891/42.037/270.223
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 432.927/26.205/381.749
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_Owl05
+Object.absolutePosition 339.541/39.119/401.006
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_wolf
+Object.absolutePosition 547.392/38.396/267.192
+Object.rotation 0.0/0.0/0.0
+
+
+Object.create e_dAmb_bats03
+Object.absolutePosition 358.115/48.109/613.146
+Object.rotation 0.0/0.0/0.0

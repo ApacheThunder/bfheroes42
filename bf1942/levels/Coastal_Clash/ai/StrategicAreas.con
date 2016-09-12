@@ -1,0 +1,72 @@
+if v_arg1 == host
+
+aiStrategicArea.create cc_16_royal_hq 245/63 265/83 20
+aiStrategicArea.create cc_16_backyard 319/128.5 329/138.5 10
+aiStrategicArea.create cc_16_windmill 325/223 337/235.5 12
+aiStrategicArea.create cc_16_lookout 263/217 273/227 10
+aiStrategicArea.create cc_16_national_hq 240/366 260/386 20
+aiStrategicArea.create cc_16_cliffs 245/310 255/320 10
+
+aiStrategicArea.setActive cc_16_royal_hq
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 266.47/82.71
+AIStrategicArea.setOrderPosition Tank 264.79/85.55
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive cc_16_backyard
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour cc_16_windmill
+AIStrategicArea.addNeighbour cc_16_lookout
+AIStrategicArea.addNeighbour cc_16_national_hq
+AIStrategicArea.addNeighbour cc_16_royal_hq
+AIStrategicArea.addNeighbour cc_16_cliffs
+AIStrategicArea.setOrderPosition Infantry 331.41/140.28
+AIStrategicArea.setOrderPosition Tank 322.69/142.04
+aiStrategicArea.setSide 2
+
+aiStrategicArea.setActive cc_16_windmill
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour cc_16_lookout
+AIStrategicArea.addNeighbour cc_16_national_hq
+AIStrategicArea.addNeighbour cc_16_royal_hq
+AIStrategicArea.addNeighbour cc_16_cliffs
+AIStrategicArea.addNeighbour cc_16_backyard
+AIStrategicArea.setOrderPosition Infantry 335.96/235.42
+AIStrategicArea.setOrderPosition Tank 343.11/233.86
+
+aiStrategicArea.setActive cc_16_lookout
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour cc_16_windmill
+AIStrategicArea.addNeighbour cc_16_national_hq
+AIStrategicArea.addNeighbour cc_16_royal_hq
+AIStrategicArea.addNeighbour cc_16_cliffs
+AIStrategicArea.addNeighbour cc_16_backyard
+AIStrategicArea.setOrderPosition Infantry 270.81/227.58
+AIStrategicArea.setOrderPosition Tank 270/235.06
+
+aiStrategicArea.setActive cc_16_national_hq
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 260.5/377.77
+AIStrategicArea.setOrderPosition Tank 264.42/376.05
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive cc_16_cliffs
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour cc_16_windmill
+AIStrategicArea.addNeighbour cc_16_lookout
+AIStrategicArea.addNeighbour cc_16_national_hq
+AIStrategicArea.addNeighbour cc_16_royal_hq
+AIStrategicArea.addNeighbour cc_16_backyard
+AIStrategicArea.setOrderPosition Infantry 257.2/318.29
+AIStrategicArea.setOrderPosition Tank 249.77/323.19
+aiStrategicArea.setSide 1
+
+endIf

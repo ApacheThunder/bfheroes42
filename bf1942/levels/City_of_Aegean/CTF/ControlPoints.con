@@ -1,0 +1,9 @@
+rem
+rem ***  ***
+rem
+
+Object.create RAbase
+Object.absolutePosition 58.486/54.5402/100.665
+
+Object.create NAbase
+Object.absolutePosition 53.1015/54.5402/10.1689
