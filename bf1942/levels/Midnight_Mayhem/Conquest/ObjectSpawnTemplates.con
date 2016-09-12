@@ -1,0 +1,42 @@
+ObjectTemplate.create ObjectSpawner the_rocket_spawn
+ObjectTemplate.setObjectTemplate 0 hoth_rocket_PCO
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 40
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+beginrem
+ObjectTemplate.create ObjectSpawner TurboJetRippenRocket_KitSpawner1
+ObjectTemplate.setObjectTemplate 2 RA_Gunner_Kit_RippinRocket
+ObjectTemplate.setObjectTemplate 1 NA_Gunner_Kit_TurboJet
+ObjectTemplate.distance 10
+ObjectTemplate.TimeToLive 0
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.MaxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner TurboJetRippenRocket_KitSpawner2
+ObjectTemplate.setObjectTemplate 2 RA_Soldier_Kit_RippinRocket
+ObjectTemplate.setObjectTemplate 1 NA_Soldier_Kit_TurboJet
+ObjectTemplate.distance 10
+ObjectTemplate.TimeToLive 10
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.MaxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner TurboJetRippenRocket_KitSpawner3
+ObjectTemplate.setObjectTemplate 2 RA_Commando_Kit_RippinRocket
+ObjectTemplate.setObjectTemplate 1 NA_Commando_Kit_TurboJet
+ObjectTemplate.distance 10
+ObjectTemplate.TimeToLive 10
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.MaxNrOfObjectSpawned 2
+endrem

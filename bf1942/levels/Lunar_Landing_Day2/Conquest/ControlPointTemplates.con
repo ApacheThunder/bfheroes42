@@ -1,0 +1,173 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+ObjectTemplate.create ControlPoint rocket_outpost2
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Southern Outpost"
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.radius 12
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 50
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate flag_neutralSilent_m1
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+ObjectTemplate.setTeamGeometry 0 cq_stationaryneutral_moon_m1
+ObjectTemplate.setTeamGeometry 1 cq_stationarynational_moon_m1
+ObjectTemplate.setTeamGeometry 2 cq_stationaryroyal_moon_m1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate cq_stationary_invisible_moon
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+
+ObjectTemplate.create ControlPoint royals_wasteland
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Royals WasteLand"
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.radius 1
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate flag_neutralSilent_m1
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+ObjectTemplate.setTeamGeometry 0 cq_stationaryneutral_moon_m1
+ObjectTemplate.setTeamGeometry 1 cq_stationarynational_moon_m1
+ObjectTemplate.setTeamGeometry 2 cq_stationaryroyal_moon_m1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate cq_stationary_invisible_moon
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+
+ObjectTemplate.create ControlPoint moon_rocks_outpost
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Moon Rocks Outpost"
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.radius 1
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate flag_neutralSilent_m1
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+ObjectTemplate.setTeamGeometry 0 cq_stationaryneutral_moon_m1
+ObjectTemplate.setTeamGeometry 1 cq_stationarynational_moon_m1
+ObjectTemplate.setTeamGeometry 2 cq_stationaryroyal_moon_m1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate cq_stationary_invisible_moon
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+
+ObjectTemplate.create ControlPoint wastelands_outpost1
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Diesel Outpost"
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate flag_neutralSilent_m1
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+ObjectTemplate.setTeamGeometry 0 cq_stationaryneutral_moon_m1
+ObjectTemplate.setTeamGeometry 1 cq_stationarynational_moon_m1
+ObjectTemplate.setTeamGeometry 2 cq_stationaryroyal_moon_m1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate cq_stationary_invisible_moon
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+
+ObjectTemplate.create ControlPoint rocket_outpost1
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Northern Outpost"
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.radius 12
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 50
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate flag_neutralSilent_m1
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+ObjectTemplate.setTeamGeometry 0 cq_stationaryneutral_moon_m1
+ObjectTemplate.setTeamGeometry 1 cq_stationarynational_moon_m1
+ObjectTemplate.setTeamGeometry 2 cq_stationaryroyal_moon_m1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate cq_stationary_invisible_moon
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+
+ObjectTemplate.create ControlPoint moon_crator
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Moon Crator"
+ObjectTemplate.geometry ctf_flagbase_moon_m1
+ObjectTemplate.radius 15
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 50
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem -------------------------------------------------
+ObjectTemplate.addTemplate flag_neutralSilent_m1
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------
+ObjectTemplate.setTeamGeometry 0 cq_stationaryneutral_moon_m1
+ObjectTemplate.setTeamGeometry 1 cq_stationarynational_moon_m1
+ObjectTemplate.setTeamGeometry 2 cq_stationaryroyal_moon_m1
+rem -------------------------------------------------
+ObjectTemplate.addTemplate cq_stationary_invisible_moon
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------------------

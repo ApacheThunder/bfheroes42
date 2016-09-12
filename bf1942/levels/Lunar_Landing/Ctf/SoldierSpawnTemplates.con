@@ -1,0 +1,31 @@
+ObjectTemplate.create SpawnPoint royalspawn_03
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint royalspawn_04
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint royalspawn_01
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint royalspawn_02
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint nationalspawn_01
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint nationalspawn_02
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint nationalspawn_03
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint nationalspawn_04
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 2

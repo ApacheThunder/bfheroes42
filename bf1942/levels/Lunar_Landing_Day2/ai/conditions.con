@@ -1,0 +1,7 @@
+rem *** Axis Attack ***
+aiStrategy.createConstantCondition AxisAttackCond Crisp EqualGreater Enemy ControlPoint 0
+aiStrategy.setConditionStrength Required
+
+rem *** Allied Attack ***
+aiStrategy.createConstantCondition AlliedAttackCond Crisp EqualGreater Enemy ControlPoint 0
+aiStrategy.setConditionStrength Required

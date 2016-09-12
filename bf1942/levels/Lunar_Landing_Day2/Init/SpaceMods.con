@@ -1,0 +1,87 @@
+rem
+rem  *** Space objects from digger tanks merged with PCO tanks ***
+rem
+ObjectTemplate.active bri_jeep_willys
+ObjectTemplate.mass 50000
+ObjectTemplate.centerOfMassOffset 0/-1.4/0
+
+rem ObjectTemplate.active bri_jeep_willysEngine
+rem ObjectTemplate.setTorque 5
+rem ObjectTemplate.setDifferential 4
+
+
+ObjectTemplate.active bri_tank_sherman
+ObjectTemplate.drag 10
+ObjectTemplate.mass 100000
+
+ObjectTemplate.active bri_tank_Engine
+ObjectTemplate.setTorque 4
+ObjectTemplate.setDifferential 2.8
+
+ObjectTemplate.active bri_tank_complex
+ObjectTemplate.addTemplate digger_royal_hullparts
+
+ObjectTemplate.active bri_tank_turret
+ObjectTemplate.removeTemplate  bri_tank_passenger
+ObjectTemplate.addTemplate digger_royal_turretparts
+
+ObjectTemplate.active bri_tank_wreck
+ObjectTemplate.geometry digger_royal_wreck_m1
+
+
+
+ObjectTemplate.active ger_jeep_kubelwagen
+ObjectTemplate.mass 50000
+ObjectTemplate.centerOfMassOffset 0/-1.4/0
+
+rem ObjectTemplate.active ger_jeep_kubelwagenEngine
+rem ObjectTemplate.setTorque 5
+rem ObjectTemplate.setDifferential 4
+
+
+ObjectTemplate.active ger_tank_panzeriv
+ObjectTemplate.drag 10
+ObjectTemplate.mass 100000
+
+ObjectTemplate.active ger_tank_Engine
+ObjectTemplate.setTorque 4
+ObjectTemplate.setDifferential 2.8
+
+ObjectTemplate.active ger_tank_complex
+ObjectTemplate.addTemplate digger_national_hullparts
+
+ObjectTemplate.active ger_tank_turret
+ObjectTemplate.removeTemplate ger_tank_passenger
+ObjectTemplate.addTemplate digger_national_turretparts
+
+ObjectTemplate.active ger_tank_wreck
+ObjectTemplate.geometry digger_national_wreck_m1
+
+
+rem
+rem  *** Reduced speed/mass of TNT to prevent jeep/tank tossing ***
+rem
+
+ObjectTemplate.active COM_TNT
+ObjectTemplate.velocity 4.5
+
+ObjectTemplate.active TNT_Projectile
+ObjectTemplate.mass 0.1
+
+
+rem
+rem  *** Reduced explosion force to prevent excessive vehicle tossing ***
+rem
+
+ObjectTemplate.active TankProjectile
+ObjectTemplate.explosionForce 9
+
+ObjectTemplate.active KegProjectile
+ObjectTemplate.explosionForce 8
+
+ObjectTemplate.active TroopTrap_Royals
+ObjectTemplate.forceOnExplosion 12
+
+ObjectTemplate.active TroopTrap_Nationals
+ObjectTemplate.forceOnExplosion 12
+

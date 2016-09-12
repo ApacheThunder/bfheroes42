@@ -1,0 +1,33 @@
+rem
+rem  *** Captain Shop Mods ***
+rem
+rem  *** Removes Rocket Pack Kit spawns since they conflict ***
+rem  *** with default rocket packs setup in map's Init.con  ***
+
+
+ObjectTemplate.active CaptainShop_Kits_Bri
+ObjectTemplate.removeTemplate 1
+ObjectTemplate.removeTemplate 2
+ObjectTemplate.removeTemplate 3
+
+ObjectTemplate.active CaptainShop_Kits_Ger
+ObjectTemplate.removeTemplate 1
+ObjectTemplate.removeTemplate 2
+ObjectTemplate.removeTemplate 3
+
+
+rem
+rem *** Disabled Vehicle Drops for this map ****
+rem
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active RA_VehicleChuteSpawner
+ObjectTemplate.team 0
+
+ObjectTemplate.active NA_VehicleChuteSpawner
+ObjectTemplate.team 0

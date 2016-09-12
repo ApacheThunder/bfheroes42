@@ -1,0 +1,119 @@
+if v_arg1 == host
+
+aiSettings.createVehicleGroup land
+aiSettings.createVehicleGroup infantry
+aiSettings.createVehicleGroup any
+
+aiSettings.addVehicleToVehicleGroup 0  land
+aiSettings.addVehicleToVehicleGroup 1  any
+aiSettings.addVehicleToVehicleGroup 2  any
+aiSettings.addVehicleToVehicleGroup 3  infantry
+aiSettings.addVehicleToVehicleGroup 4  any
+aiSettings.addVehicleToVehicleGroup 5  land
+aiSettings.addVehicleToVehicleGroup 6  land
+aiSettings.addVehicleToVehicleGroup 7  any
+aiSettings.addVehicleToVehicleGroup 8  any
+aiSettings.addVehicleToVehicleGroup 9  any
+aiSettings.addVehicleToVehicleGroup 10 any
+aiSettings.addVehicleToVehicleGroup 11 any
+aiSettings.addVehicleToVehicleGroup 12 any
+aiSettings.addVehicleToVehicleGroup 13 any
+aiSettings.addVehicleToVehicleGroup 14 land
+
+aiStrategicArea.createNewCategory land
+
+rem *** Create strategic areas ***
+aiStrategicArea.create moon_rocks_outpost 150/486 170/506 20 land
+aiStrategicArea.create rocket_outpost1 218/536 230/548 12 land
+aiStrategicArea.create rocket_outpost2 215/421.5 227/433.5 12 land
+aiStrategicArea.create royals_wasteland 641/416 661/436 20 land
+aiStrategicArea.create wastelands_outpost1 597/682 607/692 10 land
+aiStrategicArea.create moon_crator 448/243 463/258 15 land
+
+
+aiStrategicArea.setActive moon_rocks_outpost
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+aiStrategicArea.addNeighbour rocket_outpost1
+aiStrategicArea.addNeighbour rocket_outpost2
+aiStrategicArea.addNeighbour royals_wasteland
+aiStrategicArea.addNeighbour wastelands_outpost1
+aiStrategicArea.addNeighbour moon_crator
+aiStrategicArea.setOrderPosition Infantry 170/506
+aiStrategicArea.setOrderPosition Tank 170/506
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 80.0
+
+aiStrategicArea.setActive rocket_outpost1
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+aiStrategicArea.addNeighbour moon_rocks_outpost
+aiStrategicArea.addNeighbour rocket_outpost2
+aiStrategicArea.addNeighbour royals_wasteland
+aiStrategicArea.addNeighbour wastelands_outpost1
+aiStrategicArea.addNeighbour moon_crator
+aiStrategicArea.setOrderPosition Infantry 230/548
+aiStrategicArea.setOrderPosition Tank 230/548
+aiStrategicArea.vehicleSearchRadius 80.0
+
+aiStrategicArea.setActive rocket_outpost2
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour moon_rocks_outpost
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+aiStrategicArea.addNeighbour rocket_outpost1
+aiStrategicArea.addNeighbour royals_wasteland
+aiStrategicArea.addNeighbour wastelands_outpost1
+aiStrategicArea.addNeighbour moon_crator
+aiStrategicArea.setOrderPosition Infantry 227/434
+aiStrategicArea.setOrderPosition Tank 227/434
+aiStrategicArea.vehicleSearchRadius 80.0
+
+aiStrategicArea.setActive royals_wasteland
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+aiStrategicArea.addNeighbour moon_rocks_outpost
+aiStrategicArea.addNeighbour rocket_outpost1
+aiStrategicArea.addNeighbour rocket_outpost2
+aiStrategicArea.addNeighbour wastelands_outpost1
+aiStrategicArea.addNeighbour moon_crator
+aiStrategicArea.setOrderPosition Infantry 661/436
+aiStrategicArea.setOrderPosition Tank 661/436
+aiStrategicArea.setSide 2
+aiStrategicArea.vehicleSearchRadius 80.0
+
+aiStrategicArea.setActive wastelands_outpost1
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour moon_rocks_outpost
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+aiStrategicArea.addNeighbour rocket_outpost1
+aiStrategicArea.addNeighbour rocket_outpost2
+aiStrategicArea.addNeighbour royals_wasteland
+aiStrategicArea.addNeighbour moon_crator
+aiStrategicArea.setOrderPosition Infantry 607/692
+aiStrategicArea.setOrderPosition Tank 607/692
+aiStrategicArea.vehicleSearchRadius 80.0
+
+aiStrategicArea.setActive moon_crator
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addNeighbour moon_rocks_outpost
+aiStrategicArea.addNeighbour rocket_outpost1
+aiStrategicArea.addNeighbour rocket_outpost2
+aiStrategicArea.addNeighbour royals_wasteland
+aiStrategicArea.addNeighbour wastelands_outpost1
+aiStrategicArea.setOrderPosition Infantry 463/258
+aiStrategicArea.vehicleSearchRadius 80.0
+
+endIf

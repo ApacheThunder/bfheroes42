@@ -1,0 +1,18 @@
+rem
+rem ***  ***
+rem
+Object.create the_rocket
+Object.absolutePosition 113.48/10.54/128.198
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create national_para
+Object.absolutePosition 115.142/11.9718/213.75
+Object.rotation -7/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base
+Object.absolutePosition 115.657/12.74/34.2912
+Object.rotation -13.649/0/0

@@ -1,0 +1,9 @@
+rem
+rem ***  ***
+rem
+Object.create hoth_rocket
+Object.absolutePosition 113.48/10.47/128.198
+Object.rotation 0/-90/90
+rem
+rem ***  ***
+rem

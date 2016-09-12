@@ -1,0 +1,403 @@
+sound.reserve2dStereoChans 2/4/4
+sound.relaxHwReservations 0.5/0.5/0
+
+EnvironmentSound.load Sounds/GlobalAmbient.ssc
+
+
+rem
+rem *** Ambient Object Templates ***
+rem
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_Wastelands
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_Wastelands.ssc
+ObjectTemplate.triggerRadius 660
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_Royal_Base
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_Royal_Base.ssc
+ObjectTemplate.triggerRadius 50
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_National_Base
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_National_Base.ssc
+ObjectTemplate.triggerRadius 50
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines.ssc
+ObjectTemplate.triggerRadius 20
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines2.ssc
+ObjectTemplate.triggerRadius 15
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines3
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines2.ssc
+ObjectTemplate.triggerRadius 15
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines4
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines4.ssc
+ObjectTemplate.triggerRadius 10
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines5
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines4.ssc
+ObjectTemplate.triggerRadius 10
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines6
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines7
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines8
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines9
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines4.ssc
+ObjectTemplate.triggerRadius 10
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines10
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines11
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines12
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines13
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines13.ssc
+ObjectTemplate.triggerRadius 7
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines14
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines14.ssc
+ObjectTemplate.triggerRadius 6
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines15
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines16
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines17
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines18
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines13.ssc
+ObjectTemplate.triggerRadius 7
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines19
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines14.ssc
+ObjectTemplate.triggerRadius 6
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines20
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines14.ssc
+ObjectTemplate.triggerRadius 6
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines21
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines6.ssc
+ObjectTemplate.triggerRadius 5
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines22
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines14.ssc
+ObjectTemplate.triggerRadius 6
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines23
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines13.ssc
+ObjectTemplate.triggerRadius 7
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines24
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines24.ssc
+ObjectTemplate.triggerRadius 8
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines25
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines13.ssc
+ObjectTemplate.triggerRadius 7
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Lunar_DeepRavines26
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Lunar_DeepRavines26.ssc
+ObjectTemplate.triggerRadius 15
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+
+rem
+rem *** Ambient Objects ***
+rem
+Object.create s_ambient_lunar_wastelands
+Object.absolutePosition 1024/95/512
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines26
+Object.absolutePosition 258.851/88.558/421.198
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_battleground3
+Object.absolutePosition 179.541/92.561/519.99
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_battleground2
+Object.absolutePosition 175.57/92.662/467.55
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_battleground
+Object.absolutePosition 178.661/94.211/493.978
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines25
+Object.absolutePosition 255.16/84.233/504.26
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines24
+Object.absolutePosition 239.576/87.729/485.351
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines23
+Object.absolutePosition 258.572/76.239/528.58
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines22
+Object.absolutePosition 247.202/76.433/523.339
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines21
+Object.absolutePosition 238.672/78.773/520.925
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines20
+Object.absolutePosition 229.065/81.855/521.892
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines19
+Object.absolutePosition 219.598/83.218/524.174
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines18
+Object.absolutePosition 208.893/83.481/529.946
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines17
+Object.absolutePosition 199.819/84.006/523.306
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines16
+Object.absolutePosition 199.421/85.501/514.248
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines15
+Object.absolutePosition 203.803/85.729/506.471
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines14
+Object.absolutePosition 211.326/88.561/500.563
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines13
+Object.absolutePosition 215.973/88.169/491.055
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines12
+Object.absolutePosition 214.58/87.814/481.497
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines11
+Object.absolutePosition 207.58/86.758/476.069
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines10
+Object.absolutePosition 200.244/86.66/471.525
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines9
+Object.absolutePosition 254.433/78.131/454.256
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines8
+Object.absolutePosition 241.126/78.675/457.617
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines7
+Object.absolutePosition 233.809/80.583/462.654
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines6
+Object.absolutePosition 225.61/83.905/462.333
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines5
+Object.absolutePosition 212.653/86.115/458.182
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines4
+Object.absolutePosition 197.609/86.36/457.823
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines3
+Object.absolutePosition 212.6/94.359/400.249
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines2
+Object.absolutePosition 241.566/88.572/578.255
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_deepravines
+Object.absolutePosition 207.26/91.694/578.236
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_national_base
+Object.absolutePosition 229.606/89.898/582.863
+rem
+rem ***  ***
+rem
+Object.create s_ambient_lunar_royal_base
+Object.absolutePosition 226.255/93.47/404.731

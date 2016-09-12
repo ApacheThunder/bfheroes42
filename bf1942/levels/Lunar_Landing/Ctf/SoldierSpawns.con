@@ -1,0 +1,48 @@
+rem
+rem ***  ***
+rem
+Object.create royalspawn_01
+Object.absolutePosition 216.355/86.7748/430.758
+Object.rotation 64/0/0
+rem
+rem ***  ***
+rem
+Object.create royalspawn_02
+Object.absolutePosition 260.404/88.5562/415.515
+Object.Rotation -27/0/0
+rem
+rem ***  ***
+rem
+Object.create royalspawn_03
+Object.absolutePosition 224.148/93.5145/404.564
+Object.rotation -75/0/0
+rem
+rem ***  ***
+rem
+Object.create royalspawn_04
+Object.absolutePosition 208.772/93.5154/400.177
+Object.rotation 21/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalspawn_01
+Object.absolutePosition 220.166/89.5161/556.496
+Object.rotation -189/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalspawn_02
+Object.absolutePosition 243.267/88.1461/548.119
+Object.rotation -140/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalspawn_03
+Object.absolutePosition 243.326/88.5715/582.424
+Object.rotation -105/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalspawn_04
+Object.absolutePosition 203.778/91.7182/573.08
+Object.rotation -19/0/0

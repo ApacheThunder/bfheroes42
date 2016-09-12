@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/moon_trench.wav
+loop
+minDistance 6
+priority 2
+stereo
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2.5
+	param 6
+	param 1
+	param -1	
+endEffect

@@ -1,0 +1,36 @@
+rem
+rem ***  ***
+rem
+Object.create moon_rocks_outpost
+Object.absolutePosition 170.373/92.0855/505.703
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_outpost1
+Object.absolutePosition 229.689/89.3285/548.193
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_outpost2
+Object.absolutePosition 226.952/86.7492/433.56
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create royals_wasteland
+Object.absolutePosition 661.439/67.6975/436.241
+Object.rotation 56/0/0
+rem
+rem ***  ***
+rem
+Object.create wastelands_outpost1
+Object.absolutePosition 607.437/68.3748/692.463
+Object.rotation 34/25/0
+rem
+rem ***  ***
+rem
+Object.create moon_crator
+Object.absolutePosition 462.609/54.6341/257.872
+Object.rotation 0/0/0

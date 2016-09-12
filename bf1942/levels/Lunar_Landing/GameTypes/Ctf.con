@@ -1,0 +1,34 @@
+run Ctf/SpawnpointManagerSettings
+
+run Ctf/SoldierSpawnTemplates
+run Ctf/SoldierSpawns
+
+run Ctf/ObjectSpawnTemplates
+run Ctf/ControlPointTemplates
+
+run Ctf/ObjectSpawns v_arg1
+run Ctf/ControlPoints v_arg1
+	
+
+if v_arg1 == host
+
+Object.create RAbase_Moon
+Object.absolutePosition 226.941/86.808/433.545
+Object.rotation -179.934/0/0
+
+Object.create NAbase_Moon
+Object.absolutePosition 229.687/89.387/548.237
+Object.rotation -0.782/0/0
+
+else
+
+Object.create ctf_flagbase_moon
+Object.absolutePosition 226.941/86.808/433.545
+Object.rotation -179.934/0/0
+
+Object.create ctf_flagbase_moon
+Object.absolutePosition 229.687/89.387/548.237
+Object.rotation -0.782/0/0
+
+endIf
+

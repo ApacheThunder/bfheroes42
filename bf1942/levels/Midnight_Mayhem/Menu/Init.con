@@ -1,0 +1,35 @@
+Game.setLocalized 1
+
+game.setAlliedCampaign "The Royals must launch the rocket before the Nationals!"
+game.setAlliedHints "Capture the Rocket!"
+game.setAlliedObjectives "Capture and hold the Rocket untill it launches."
+game.setAlliedSkirmish " "
+
+game.setAxisCampaign "The Nationals mustlaunch the rocket before the Royals!"
+game.setAxisHints "Capture the Rocket!"
+game.setAlliedObjectives "Capture and hold the Rocket untill it launches."
+game.setAxisSkirmish " "
+
+game.setAlliedDebriefingMajorVictory "The Royals launched the rocket!"
+game.setAlliedDebriefingMinorVictory "The Royals launched the rocket!"
+game.setAlliedDebriefingMajorDefeat "The Royals failed to launch the rocket!"
+game.setAlliedDebriefingMinorDefeat "The Royals failed to launch the rocket!"
+
+
+game.setObjectiveBriefing "Launch the rocket before the enemy does!"
+game.setObjectiveAlliedVictory "The Royals launched the rocket!"
+game.setObjectiveAlliedDefeat "The Royals failed to launch the rocket!"
+game.setObjectiveAxisVictory "The Nationals launched the rocket!"
+game.setObjectiveAxisDefeat "The Nationals failed to launch the rocket!"
+
+game.setAxisDebriefingMajorVictory "The Nationals launched the rocket!"
+game.setAxisDebriefingMinorVictory "The Nationals launched the rocket!"
+game.setAxisDebriefingMajorDefeat "The Nationals failed to launch the rocket!"
+game.setAxisDebriefingMinorDefeat "The Nationals failed to launch the rocket!"
+
+rem ** Multiplayer Briefing **
+game.setMultiplayerBriefingObjectives "Welcome Heroes!"
+game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_ASSAULT_MAP
+
+game.setMapId "bfheroes"
+game.setServerInfoIcon "../../texture/serverinfo.dds"

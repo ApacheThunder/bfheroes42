@@ -1,0 +1,28 @@
+rem *** Axis Attack ***
+aiStrategy.createStrategy AxisAttack
+aiStrategy.Aggression 1
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite AxisAttackPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  5.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  3.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Base  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Base  3.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base  3.0 Hostile
+
+
+rem *** Allied Attack ***
+aiStrategy.createStrategy AlliedAttack
+aiStrategy.Aggression 1
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite AlliedAttackPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  5.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  3.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Base  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Base  3.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base  3.0 Hostile

@@ -1,0 +1,118 @@
+rem
+rem ***  ***
+rem
+Object.create wastelands01
+Object.absolutePosition 665.347/67.6975/432.577
+rem
+rem ***  ***
+rem
+Object.create wastelands02
+Object.absolutePosition 674.744/68.0302/452.554
+Object.rotation -142/0/0
+rem
+rem ***  ***
+rem
+Object.create wastelands03
+Object.absolutePosition 692.294/67.6975/433.697
+Object.rotation -55/0/0
+rem
+rem ***  ***
+rem
+Object.create wastelandsoutpost01
+Object.absolutePosition 612.303/68.1104/690.53
+rem
+rem ***  ***
+rem
+Object.create wastelandsoutpost01
+Object.absolutePosition 629.694/67.6975/681.098
+Object.rotation -82/0/0
+rem
+rem ***  ***
+rem
+Object.create wastelandsoutpost03
+Object.absolutePosition 602.325/67.7034/699.611
+Object.rotation -53/0/0
+rem
+rem ***  ***
+rem
+Object.create mooncrator01
+Object.absolutePosition 447.248/69.4213/217.046
+Object.rotation -61/0/0
+rem
+rem ***  ***
+rem
+Object.create mooncrator02
+Object.absolutePosition 466.9/54.6341/259.046
+Object.rotation -46/0/0
+rem
+rem ***  ***
+rem
+Object.create mooncrator03
+Object.absolutePosition 449.828/54.6341/252.258
+Object.rotation -22/0/0
+rem
+rem ***  ***
+rem
+Object.create mooncrator04
+Object.absolutePosition 480.642/55.9274/240.324
+Object.rotation -39/0/0
+rem
+rem ***  ***
+rem
+Object.create rocketoutpost01
+Object.absolutePosition 201.976/93.5352/404.037
+Object.rotation 86/0/0
+rem
+rem ***  ***
+rem
+Object.create rocketoutpost02
+Object.absolutePosition 218.652/86.7748/431.62
+Object.rotation 68/0/0
+rem
+rem ***  ***
+rem
+Object.create rocketoutpost03
+Object.absolutePosition 261.568/88.5562/416.636
+Object.rotation -29/0/0
+rem
+rem ***  ***
+rem
+Object.create rocketoutpost1_01
+Object.absolutePosition 203.052/92.0562/578.009
+Object.rotation 102/0/0
+rem
+rem ***  ***
+rem
+Object.create rocketoutpost1_02
+Object.absolutePosition 245.125/88.5715/582.223
+Object.rotation -119/0/0
+rem
+rem ***  ***
+rem
+Object.create rocketoutpost1_03
+Object.absolutePosition 221.573/89.3852/554.945
+Object.rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create moonrocks01
+Object.absolutePosition 169.451/92.2526/501.704
+Object.rotation 49/0/0
+Object.setOSId 112
+Object.setTeam 132916720
+rem
+rem ***  ***
+rem
+Object.create moonrocks02
+Object.absolutePosition 172.39/92.4874/518.687
+Object.rotation 174/0/0
+Object.setOSId 1812598203
+Object.setTeam 132918604
+rem
+rem ***  ***
+rem
+Object.create moonrocks03
+Object.absolutePosition 167.271/92.8497/479.087
+Object.rotation 59/0/0
+Object.setOSId 112
+Object.setTeam 1245346145

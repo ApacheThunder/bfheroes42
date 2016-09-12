@@ -1,0 +1,150 @@
+Rem
+Rem PreCache Objects
+Rem
+
+Object.active __BF_NONE__
+Object.create BRI_GrenadeSpam
+Object.delete
+Object.create ExplosiveKeg
+Object.delete
+Object.create explosivetrap_bri
+Object.delete
+Object.create explosivetrap_ger
+Object.delete
+Object.create GER_GrenadeSpam
+Object.delete
+Object.create bri_aa_stinger
+Object.delete
+Object.create BRI_AT_PIAT
+Object.delete
+Object.create bri_at_rifle
+Object.delete
+Object.create BRI_MG_BC2
+Object.delete
+Object.create BRI_MG_Lewis
+Object.delete
+Object.create bri_smg_bc2
+Object.delete
+Object.create BRI_SMG_Thompson
+Object.delete
+Object.create COM_TNT
+Object.delete
+Object.create ger_aa_strela
+Object.delete
+Object.create GER_AT_PanzerFaust
+Object.delete
+Object.create ger_at_rifle
+Object.delete
+Object.create GER_MG_BC2
+Object.delete
+Object.create GER_MG_MG40
+Object.delete
+Object.create ger_smg_bc2
+Object.delete
+Object.create GER_SMG_MP40
+Object.delete
+Object.create GrenadeAllies
+Object.delete
+Object.create GrenadeAxis
+Object.delete
+Object.create MedPack
+Object.delete
+Object.create RepairPack
+Object.delete
+Object.create CaptainShop_Bri
+Object.delete
+Object.create CaptainShop_Ger
+Object.delete
+Object.create NA_Commando_Kit_Panzerhunter
+Object.delete
+Object.create NA_Gunner_Kit_AntiAir
+Object.delete
+Object.create NA_Gunner_Kit_MiniTank
+Object.delete
+Object.create NA_Soldier_Kit_AK47
+Object.delete
+Object.create CaptainShopEntry_Bri
+Object.delete
+Object.create CaptainShopEntry_Ger
+Object.delete
+Object.create CaptainShopEntry2_Bri
+Object.delete
+Object.create CaptainShopEntry2_Ger
+Object.delete
+Object.create CaptainShopExit_Bri
+Object.delete
+Object.create CaptainShopExit_Ger
+Object.delete
+Object.create CaptainShopExit2_Ger
+Object.delete
+Object.create CaptainShopExit2_Bri
+Object.delete
+Object.create RA_Commando_Kit_MK1
+Object.delete
+Object.create RA_Gunner_Kit_AntiAir
+Object.delete
+Object.create RA_Gunner_Kit_MiniTank
+Object.delete
+Object.create RA_Soldier_Kit_M16
+Object.delete
+Object.create RA_Commando_Kit_RippinRocket_CS
+Object.delete
+Object.create RA_Gunner_Kit_RippinRocket_CS
+Object.delete
+Object.create RA_Soldier_Kit_RippinRocket_CS
+Object.delete
+Object.create NA_Commando_Kit_TurboJet_CS
+Object.delete
+Object.create NA_Gunner_Kit_TurboJet_CS
+Object.delete
+Object.create NA_Soldier_Kit_TurboJet_CS
+Object.delete
+Object.create NA_Commando_Kit
+Object.delete
+Object.create NA_Gunner_Kit
+Object.delete
+Object.create NA_Gunner_Kit_TNT
+Object.delete
+Object.create NA_Soldier_Kit
+Object.delete
+Object.create NA_Soldier_Kit_TNT
+Object.delete
+Object.create RA_Commando_Kit
+Object.delete
+Object.create RA_Gunner_Kit
+Object.delete
+Object.create RA_Gunner_Kit_TNT
+Object.delete
+Object.create RA_Soldier_Kit
+Object.delete
+Object.create RA_Soldier_Kit_TNT
+Object.delete
+Object.create MultiPlayerFreeCamera
+Object.delete
+Object.create british_male_soldier
+Object.delete
+Object.create german_male_soldier
+Object.delete
+Object.create bri_target_dummy
+Object.delete
+Object.create ger_target_dummy
+Object.delete
+Object.create bri_target_dummy_Static
+Object.delete
+Object.create ger_target_dummy_Static
+Object.delete
+Object.create bri_miniTankKeg
+Object.delete
+Object.create ger_miniTankKeg
+Object.delete
+Object.create SoccerKick
+Object.delete
+Object.create COM_BALL
+Object.delete
+Object.create National_Para
+Object.delete
+Object.create The_Rocket
+Object.delete
+Object.create Royal_Base
+Object.delete
+Object.active __BF_NONE__

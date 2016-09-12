@@ -1,0 +1,8 @@
+rem
+rem  *** If the two islands are too close together, their outer rotating islands cause lag. ***
+rem
+ObjectTemplate.active CaptainShop_Bri
+ObjectTemplate.removeTemplate 4
+
+ObjectTemplate.active CaptainShop_Ger
+ObjectTemplate.removeTemplate 4

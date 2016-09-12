@@ -1,0 +1,7 @@
+rem *** Axis Attack ***
+aiStrategy.createPrerequisite AxisAttackPrereq
+aiStrategy.addCondition AxisAttackCond    10.0
+
+rem *** Allied Attack ***
+aiStrategy.createPrerequisite AlliedAttackPrereq
+aiStrategy.addCondition AlliedAttackCond    10.0

@@ -1,0 +1,24 @@
+rem
+rem  *** Space objects from digger tanks merged with PCO tanks ***
+rem
+
+ObjectTemplate.active bri_tank_sherman
+ObjectTemplate.addTemplate digger_royal_hullparts
+
+ObjectTemplate.active bri_tank_turret
+ObjectTemplate.delete bri_tank_passenger
+ObjectTemplate.addTemplate digger_royal_turretparts
+
+ObjectTemplate.active bri_tank_wreck
+ObjectTemplate.geometry digger_royal_wreck_m1
+
+
+ObjectTemplate.active ger_tank_panzeriv
+ObjectTemplate.addTemplate digger_national_hullparts
+
+ObjectTemplate.active ger_tank_turret
+ObjectTemplate.delete ger_tank_passenger
+ObjectTemplate.addTemplate digger_national_turretparts
+
+ObjectTemplate.active ger_tank_wreck
+ObjectTemplate.geometry digger_national_wreck_m1

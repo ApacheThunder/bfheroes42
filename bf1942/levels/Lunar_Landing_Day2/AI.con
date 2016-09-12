@@ -1,0 +1,54 @@
+if v_arg1 == host
+
+rem ************** LEVEL SPECIFIC AI SETTINGS ***************************
+aiSettings.setWorldMapSize 1024 1024
+aiSettings.setViewDistance 512
+aiSettings.setInformationGridDimension 32
+
+rem ********************** START THE AI *********************************
+rem *** Init AI using current settings ****
+ai.init 2
+
+rem aiSettings.lodEnable 1
+
+rem *** init Botmanager ***
+AIBotManager.setLodLevelTicks 6 6 6
+AIBotManager.setLodLevelPriority 3 3 3
+AIBotManager.setPlannedDecisionMakingThreshold 0.5 0.5 0.5
+AIBotManager.setUnplannedDecisionMakingThreshold 0.3 0.4 0.4
+AIBotManager.setDecisionMakingInterleave 2 2
+AIBotManager.setSensingQuotient 1 1
+AIBotManager.setSystemQuotient 40 40 20
+
+rem *** Strategic map dimension, MUST BE DONE BEFORE CREATING SAI! ***
+ai.saiMapXDimension 64
+ai.saiMapYDimension 64
+
+rem *** Create Strategic AI ***
+ai.createSAI
+
+rem *** Bot statistic ***
+ai.botStatisticUpdateSpeed 3
+
+rem *** Enabled or disabled bot debug stats here ***
+ai.saiEnable 1
+game.showAIstats 0
+ai.showBotStats 1
+ai.showStrategicAreas 1
+
+endIf
+
+run AIPathFinding.con v_arg1
+run ai/StrategicAreas.con v_arg1
+run ai/Conditions.con v_arg1
+run ai/Prerequisites.con v_arg1
+run ai/Strategies.con v_arg1
+
+
+rem *** Add strategies ***
+if v_arg1 == host
+
+ai.addSAIStrategy 1 AxisAttack
+ai.addSAIStrategy 2 AlliedAttack
+
+endIf
