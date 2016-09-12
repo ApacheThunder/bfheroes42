@@ -1,0 +1,72 @@
+ObjectTemplate.create SpawnPoint royal_base_3
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint church_1
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint church_2
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint church_3
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint church_4
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint royals_base_2
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint outpost_1
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint church_5
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint outpost_2
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint outpost_3
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint national_base_1
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint national_base_2
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint national_base_3
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint plantation_1
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint plantation_2
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint plantation_3
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint plantation_4
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint royal_base_1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+

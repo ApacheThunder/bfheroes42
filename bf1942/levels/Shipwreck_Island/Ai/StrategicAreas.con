@@ -1,0 +1,77 @@
+if v_arg1 == host
+
+aiSettings.createVehicleGroup land
+aiSettings.createVehicleGroup infantry
+aiSettings.createVehicleGroup any
+
+aiSettings.addVehicleToVehicleGroup 0  land
+aiSettings.addVehicleToVehicleGroup 1  any
+aiSettings.addVehicleToVehicleGroup 2  any
+aiSettings.addVehicleToVehicleGroup 3  infantry
+aiSettings.addVehicleToVehicleGroup 4  any
+aiSettings.addVehicleToVehicleGroup 5  land
+aiSettings.addVehicleToVehicleGroup 6  land
+aiSettings.addVehicleToVehicleGroup 7  any
+aiSettings.addVehicleToVehicleGroup 8  any
+aiSettings.addVehicleToVehicleGroup 9  any
+aiSettings.addVehicleToVehicleGroup 10 any
+aiSettings.addVehicleToVehicleGroup 11 any
+aiSettings.addVehicleToVehicleGroup 12 any
+aiSettings.addVehicleToVehicleGroup 13 any
+aiSettings.addVehicleToVehicleGroup 14 land
+aiSettings.addVehicleToVehicleGroup 15 any
+aiSettings.addVehicleToVehicleGroup 16 any
+aiSettings.addVehicleToVehicleGroup 17 any
+
+aiStrategicArea.createNewCategory land
+
+aiStrategicArea.create RedFlag1 77.2/119.9 85.2/127.9 8 land
+aiStrategicArea.create RedFlag2 107.8/115.5 115.8/123.5 8 land
+aiStrategicArea.create BlueFlag1 169.8/119.6 177.8/127.6 8 land
+aiStrategicArea.create BlueFlag2 139.1/115.4 147.1/123.4 8 land
+
+aiStrategicArea.setActive RedFlag1
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag2
+aiStrategicArea.addNeighbour BlueFlag1
+aiStrategicArea.addNeighbour BlueFlag2
+aiStrategicArea.setOrderPosition Infantry 81/124
+aiStrategicArea.setOrderPosition Tank 81/124
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+
+aiStrategicArea.setActive RedFlag2
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag1
+aiStrategicArea.addNeighbour BlueFlag1
+aiStrategicArea.addNeighbour BlueFlag2
+aiStrategicArea.setOrderPosition Infantry 112/120
+aiStrategicArea.setOrderPosition Tank 112/120
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+
+aiStrategicArea.setActive BlueFlag1
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag1
+aiStrategicArea.addNeighbour RedFlag2
+aiStrategicArea.addNeighbour BlueFlag2
+aiStrategicArea.setOrderPosition Infantry 174/124
+aiStrategicArea.setOrderPosition Tank 174/124
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+
+aiStrategicArea.setActive BlueFlag2
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour RedFlag1
+aiStrategicArea.addNeighbour RedFlag2
+aiStrategicArea.addNeighbour BlueFlag1
+aiStrategicArea.setOrderPosition Infantry 143/119
+aiStrategicArea.setOrderPosition Tank 143/119
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+
+endIf

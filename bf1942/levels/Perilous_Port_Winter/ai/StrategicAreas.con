@@ -1,0 +1,52 @@
+if v_arg1 == host
+
+aiStrategicArea.create west_cpname_16_pp_royalbase 159/149 169/159 10
+aiStrategicArea.create west_cpname_16_pp_nationalbase 233/364 243/374 10
+aiStrategicArea.create west_cpname_16_pp_boat 247/244 252/249 5
+aiStrategicArea.create west_cpname_16_pp_fountain 207/176 217/186 10
+aiStrategicArea.create west_cpname_16_pp_park 211/291 219/299 8
+
+
+aiStrategicArea.setActive west_cpname_16_pp_royalbase
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 169.2/159.4
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive west_cpname_16_pp_nationalbase
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 243.2/373.9
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive west_cpname_16_pp_boat
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour west_cpname_16_pp_royalbase
+AIStrategicArea.addNeighbour west_cpname_16_pp_nationalbase
+AIStrategicArea.addNeighbour west_cpname_16_pp_fountain
+AIStrategicArea.addNeighbour west_cpname_16_pp_park
+AIStrategicArea.setOrderPosition Infantry 252.2/248.8
+
+aiStrategicArea.setActive west_cpname_16_pp_fountain
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour west_cpname_16_pp_royalbase
+AIStrategicArea.addNeighbour west_cpname_16_pp_nationalbase
+AIStrategicArea.addNeighbour west_cpname_16_pp_boat
+AIStrategicArea.addNeighbour west_cpname_16_pp_park
+AIStrategicArea.setOrderPosition Infantry 217.3/186.3
+
+aiStrategicArea.setActive west_cpname_16_pp_park
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour west_cpname_16_pp_royalbase
+AIStrategicArea.addNeighbour west_cpname_16_pp_nationalbase
+AIStrategicArea.addNeighbour west_cpname_16_pp_boat
+AIStrategicArea.addNeighbour west_cpname_16_pp_fountain
+AIStrategicArea.setOrderPosition Infantry 219.1/299.3
+
+
+endIf

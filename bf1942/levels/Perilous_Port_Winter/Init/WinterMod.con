@@ -1,0 +1,64 @@
+ObjectTemplate.active church
+ObjectTemplate.addTemplate snow_church
+
+ObjectTemplate.active monasteryback
+ObjectTemplate.addTemplate snow_monasteryback
+
+ObjectTemplate.active monasteryfront
+ObjectTemplate.addTemplate snow_monasteryfront
+
+ObjectTemplate.active shed_e_01
+ObjectTemplate.addTemplate snow_shed_e_01
+
+ObjectTemplate.active shed_e_02
+ObjectTemplate.addTemplate snow_shed_e_02
+
+ObjectTemplate.active shed_e_03
+ObjectTemplate.addTemplate snow_shed_e_03
+
+ObjectTemplate.active townhousemedium_e_01
+ObjectTemplate.addTemplate snow_townhousemedium_e_01
+
+ObjectTemplate.active townhousemedium_e_02
+ObjectTemplate.addTemplate snow_townhousemedium_e_02
+
+ObjectTemplate.active townhousemedium_e_03
+ObjectTemplate.addTemplate snow_townhousemedium_e_03
+
+ObjectTemplate.active townhousemedium_e_03_storefront_01
+ObjectTemplate.addTemplate snow_townhousemedium_e_03
+
+ObjectTemplate.active townhousemedium_storefront03
+ObjectTemplate.addTemplate snow_townhousemedium_e_03
+
+ObjectTemplate.active townhousemedium_e_03_terrace
+ObjectTemplate.addTemplate snow_townhousemedium_e_03_terrace
+
+ObjectTemplate.active townhousesmall_e_01
+ObjectTemplate.addTemplate snow_townhousesmall_e_01
+
+ObjectTemplate.active townhousesmall_e_02
+ObjectTemplate.addTemplate snow_townhousesmall_e_02
+
+ObjectTemplate.active townhousesmall_e_03
+ObjectTemplate.addTemplate snow_townhousesmall_e_03
+
+ObjectTemplate.active windmill
+ObjectTemplate.addTemplate snow_windmill
+
+
+rem
+rem *** Disabled Vehicle Drops for this map ****
+rem
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active RA_VehicleChuteSpawner
+ObjectTemplate.team 0
+
+ObjectTemplate.active NA_VehicleChuteSpawner
+ObjectTemplate.team 0

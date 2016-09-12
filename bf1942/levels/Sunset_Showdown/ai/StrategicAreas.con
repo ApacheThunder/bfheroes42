@@ -1,0 +1,63 @@
+if v_arg1 == host
+
+aiStrategicArea.create royal_invasion 423.5/835 443.5/855 20
+aiStrategicArea.create national_base 692/319.5 712/339.5 20
+aiStrategicArea.create outpost 512/272 524/284 12
+aiStrategicArea.create plantation 537/665 552/680 15
+aiStrategicArea.create church_hill 493/471 509/487 16
+
+aiStrategicArea.setActive royal_invasion
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.setOrderPosition Infantry 417.6/842.3
+AIStrategicArea.setOrderPosition Tank 419/847
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive national_base
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour outpost
+AIStrategicArea.addNeighbour plantation
+AIStrategicArea.addNeighbour royal_invasion
+AIStrategicArea.addNeighbour church_hill
+AIStrategicArea.setOrderPosition Infantry 726.4/347.2
+AIStrategicArea.setOrderPosition Tank 719.7/345.224
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive outpost
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour plantation
+AIStrategicArea.addNeighbour national_base
+AIStrategicArea.addNeighbour royal_invasion
+AIStrategicArea.addNeighbour church_hill
+AIStrategicArea.setOrderPosition Infantry 521.5/282.55
+AIStrategicArea.setOrderPosition Tank 520.8/277.5
+
+aiStrategicArea.setActive plantation
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour outpost
+AIStrategicArea.addNeighbour national_base
+AIStrategicArea.addNeighbour royal_invasion
+AIStrategicArea.addNeighbour church_hill
+AIStrategicArea.setOrderPosition Infantry 557.6/680.3
+AIStrategicArea.setOrderPosition Tank 548/686
+
+aiStrategicArea.setActive church_hill
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour outpost
+AIStrategicArea.addNeighbour plantation
+AIStrategicArea.addNeighbour national_base
+AIStrategicArea.addNeighbour royal_invasion
+AIStrategicArea.setOrderPosition Infantry 508.2/482.9
+AIStrategicArea.setOrderPosition Tank 508.8/491.2
+
+endIf

@@ -1,0 +1,55 @@
+rem
+rem ***  ***
+rem
+Object.create royal_base_1
+Object.absolutePosition 106.202/12.6484/30.7674
+Object.setOSId -150926250
+Object.setTeam 12142980
+rem
+rem ***  ***
+rem
+Object.create royal_base_2
+Object.absolutePosition 126.696/12.6929/35.8809
+Object.rotation -73/0/0
+Object.setOSId 1275731355
+Object.setTeam 13447180
+rem
+rem ***  ***
+rem
+Object.create royal_base_3
+Object.absolutePosition 106.107/12.7386/39.276
+Object.rotation 171/0/0
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create national_para_1
+Object.absolutePosition 105.166/12.1069/207.838
+Object.rotation 164/0/0
+Object.setOSId -1240850921
+Object.setTeam 13458092
+rem
+rem ***  ***
+rem
+Object.create national_para_2
+Object.absolutePosition 106.326/12.1069/215.568
+Object.rotation 97/0/0
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create national_para_3
+Object.absolutePosition 124.213/12.1021/211.568
+Object.rotation -89/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create national_para_4
+Object.absolutePosition 95.8613/12.0454/200.958
+Object.rotation 97/0/0
+Object.setOSId 0
+Object.setTeam 0

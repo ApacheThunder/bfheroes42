@@ -1,0 +1,119 @@
+rem
+rem ***  ***
+rem
+Object.create parkspawn_01
+Object.absolutePosition 225.617/15.36/300.171
+Object.rotation -55/0/0
+rem
+rem ***  ***
+rem
+Object.create parkspawn_01
+Object.absolutePosition 217.94/15.36/308.547
+Object.rotation 207/0/0
+rem
+rem ***  ***
+rem
+Object.create parkspawn_01
+Object.absolutePosition 236.859/16.3805/304.523
+Object.rotation -57/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_01
+Object.absolutePosition 246.355/24.85/381.679
+Object.rotation -119/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_02
+Object.absolutePosition 233.413/25.5387/375.087
+Object.rotation 48/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_03
+Object.absolutePosition 244.237/25.0986/358.602
+rem
+rem ***  ***
+rem
+Object.create unationalbasespawn_04
+Object.absolutePosition 236.387/30.3221/344.418
+Object.rotation -15/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_05
+Object.absolutePosition 222.212/19.5033/380.379
+Object.rotation -171/0/0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_01
+Object.absolutePosition 255.631/15.31/254.332
+Object.rotation 50/0/0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_02
+Object.absolutePosition 251.536/15.36/241.595
+Object.rotation 89/0/0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_03
+Object.absolutePosition 272.754/16.1354/247.696
+Object.rotation 89/0/0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_04
+Object.absolutePosition 242.613/15.0026/254.632
+Object.rotation -111/0/0
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_01
+Object.absolutePosition 220.58/16.645/182.057
+Object.rotation -47/0/0
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_02
+Object.absolutePosition 219.454/16.8171/190.716
+Object.rotation 238/0/0
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_03
+Object.absolutePosition 206.722/17.0212/187.031
+Object.rotation 101/0/0
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_04
+Object.absolutePosition 218.713/20.0249/159.6
+Object.rotation -18/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_01
+Object.absolutePosition 174.785/21.12/160.428
+Object.rotation 29/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_02
+Object.absolutePosition 163.796/21.463/166.41
+Object.rotation 146/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_03
+Object.absolutePosition 165.487/22.6708/179.247
+Object.rotation 100/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_04
+Object.absolutePosition 175.209/21.2361/145.642
+Object.rotation 28/0/0

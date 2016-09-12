@@ -1,0 +1,70 @@
+rem ************************************************************
+rem *** Converted from Battlefield Heroes by Apache Thunder. ***
+rem ************************************************************
+ShaderManager.setTextureParam envmap bf1942\levels\Perilous_Port_Winter\Textures\ENVMAP_G_.rcm
+textureManager.alternativePath texture/winter
+
+Game.setViewDistance 150
+Game.spawnPlayers 1
+
+renderer.vertexFogEnable 1
+renderer.fogColorVec 0.953/0.957/0.953
+renderer.globalLodPercent 1
+renderer.globalAmbientColor 0.3
+renderer.ambientColor 0.3
+renderer.diffuseColor 0.2
+renderer.specularColor 0.2/0.3/0.3
+renderer.animatedMeshAmbient 0.25
+
+renderer.fogStart -50
+renderer.fogEnd 150
+
+
+Game.setActiveCombatArea 0 0 512 512
+Game.damageForBeingOutSideWorld 300
+
+Game.setBeforeSpawnCameraPosition 1 187.87/26.9/229.39
+Game.setBeforeSpawnCameraPosition 2 187.87/26.9/229.39
+
+run Sounds
+run Init/Terrain
+run Init/SkyAndSun
+
+
+game.setTeamSkin 1 german_male_soldier
+game.setKit 1 0 NA_Commando_Kit
+game.setKit 1 1 NA_Gunner_Kit_TNT
+game.setKit 1 2 NA_Gunner_Kit
+game.setKit 1 3 NA_Soldier_Kit
+game.setKit 1 4 NA_Soldier_Kit_TNT
+
+game.setTeamSkin 2 british_male_soldier
+game.setKit 2 0 RA_Commando_Kit
+game.setKit 2 1 RA_Gunner_Kit_TNT
+game.setKit 2 2 RA_Gunner_Kit
+game.setKit 2 3 RA_Soldier_Kit
+game.setKit 2 4 RA_Soldier_Kit_TNT
+
+
+water.specularEnable 1
+water.texLayer1 texture/WaterLayer1
+water.texLayer2 texture/WaterLayer2
+water.normalMap texture/WaterBump_01
+water.scrollDirectionNormalMap 1/1
+water.scrollDirection1 0/-1
+water.scrollDirection2 -1/0
+water.scrollLayer1 0.02
+water.scrollLayer2 0.02
+water.scrollNormalMap 0.01
+water.specularStreakFactor 1.45
+water.tileLayer1 0.25
+water.tileLayer2 0.25
+water.tileNormalMap 0.25
+water.lightDirection -0.209/0.739/0.639
+water.specularColor 0.672/0.691/0.852
+rem water.deepColor 0.848/0.875/0.957
+water.deepColor 0.9/1/1
+water.shallowColor 1/1/1
+water.waterAlphaDepth 0.25
+water.waterColorDepth 7
+water.waterShallowAlpha 0.75

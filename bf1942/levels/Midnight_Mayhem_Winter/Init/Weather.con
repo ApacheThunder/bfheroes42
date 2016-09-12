@@ -1,0 +1,12 @@
+rem
+rem *** Weather Data Base  ***
+rem
+Object.create SnowStorm1024
+Object.absolutePosition -256/0/-256
+Object.rotation 0/0/0
+rem
+rem *** Clouds ***
+rem
+rem Object.create clouds_mm
+rem Object.absolutePosition -1024/45/-1024
+rem Object.Rotation 0/0/0

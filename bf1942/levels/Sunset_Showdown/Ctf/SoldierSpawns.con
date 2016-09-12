@@ -1,0 +1,107 @@
+rem
+rem ***  ***
+rem
+Object.create royal_base_1
+Object.absolutePosition 418.56/92.6923/831.651
+Object.rotation 150/0/0
+rem
+rem ***  ***
+rem
+Object.create royals_base_2
+Object.absolutePosition 443.512/90.7822/847.981
+Object.rotation 175.8/0/0
+rem
+rem ***  ***
+rem
+Object.create national_base_1
+Object.absolutePosition 709.47/102.356/350.869
+Object.rotation 130/0/0
+rem
+rem ***  ***
+rem
+Object.create national_base_2
+Object.absolutePosition 731.46/103.015/337.933
+Object.rotation -15/0/0
+rem
+rem ***  ***
+rem
+Object.create church_1
+Object.absolutePosition 555.071/105.981/455.234
+Object.rotation -61/0/0
+rem
+rem ***  ***
+rem
+Object.create church_2
+Object.absolutePosition 555.66/105.923/480.856
+Object.rotation -195/0/0
+rem
+rem ***  ***
+rem
+Object.create church_3
+Object.absolutePosition 518.556/109.617/449.326
+Object.rotation 134/0/0
+rem
+rem ***  ***
+rem
+Object.create church_4
+Object.absolutePosition 508.087/109.493/483.005
+Object.rotation -20/0/0
+rem
+rem ***  ***
+rem
+Object.create church_5
+Object.absolutePosition 522.193/109.407/500.188
+Object.rotation 41/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_3
+Object.absolutePosition 457.293/90.1377/858.586
+Object.rotation 139/0/0
+rem
+rem ***  ***
+rem
+Object.create plantation_1
+Object.absolutePosition 557.503/97.3657/709.33
+Object.rotation -93/0/0
+rem
+rem ***  ***
+rem
+Object.create plantation_2
+Object.absolutePosition 570.773/98.1018/709.156
+Object.rotation 129/0/0
+rem
+rem ***  ***
+rem
+Object.create plantation_3
+Object.absolutePosition 566.96/97.9623/759.21
+Object.rotation 149/0/0
+rem
+rem ***  ***
+rem
+Object.create plantation_4
+Object.absolutePosition 562.098/97.934/670.775
+Object.rotation -130/0/0
+rem
+rem ***  ***
+rem
+Object.create outpost_1
+Object.absolutePosition 524.984/105.727/288.291
+Object.rotation 124/0/0
+rem
+rem ***  ***
+rem
+Object.create outpost_2
+Object.absolutePosition 550.431/107.807/242.99
+Object.rotation -34/0/0
+rem
+rem ***  ***
+rem
+Object.create outpost_3
+Object.absolutePosition 581.015/109.3/250.357
+Object.rotation -22/0/0
+rem
+rem ***  ***
+rem
+Object.create national_base_3
+Object.absolutePosition 721.188/102.748/328.697

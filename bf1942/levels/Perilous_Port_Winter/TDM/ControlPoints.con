@@ -1,0 +1,27 @@
+rem
+rem ***  ***
+rem
+Object.create west_cpname_16_pp_fountain
+Object.absolutePosition 217.388/19.419/186.365
+rem
+rem ***  ***
+rem
+Object.create west_cpname_16_pp_boat
+Object.absolutePosition 252.286/16.058/248.8
+Object.rotation -84.701/8/-7
+rem
+rem ***  ***
+rem
+Object.create west_cpname_16_pp_nationalbase
+Object.absolutePosition 243.225/24.896/373.921
+rem
+rem ***  ***
+rem
+Object.create west_cpname_16_pp_park
+Object.absolutePosition 219.107/15.647/299.344
+rem
+rem ***  ***
+rem
+Object.create west_cpname_16_pp_royalbase
+Object.absolutePosition 169.213/21.1363/159.438
+Object.rotation 14.625/0/0

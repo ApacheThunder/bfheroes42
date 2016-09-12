@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/rr_graveyard_01.wav
+loop
+minDistance 30
+priority 2
+stereo
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 30
+	param 1
+	param -1	
+endEffect

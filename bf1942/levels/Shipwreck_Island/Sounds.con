@@ -1,0 +1,44 @@
+sound.reserve2dStereoChans 2/4/4
+sound.relaxHwReservations 0.5/0.5/0
+
+EnvironmentSound.load Sounds/GlobalAmbient.ssc
+
+ObjectTemplate.create AreaObject S_Ambient_Meadow_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Meadow01.ssc
+ObjectTemplate.triggerRadius 25
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Bridge_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Bridge01.ssc
+ObjectTemplate.triggerRadius 20
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+ObjectTemplate.create AreaObject S_Ambient_Urban_01
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Urban01.ssc
+ObjectTemplate.triggerRadius 25
+ObjectTemplate.addLinePoint 1/1
+ObjectTemplate.addLinePoint 1/-1
+ObjectTemplate.addLinePoint -1/-1
+ObjectTemplate.addLinePoint -1/1
+
+
+Object.create S_Ambient_Meadow_01
+Object.absolutePosition 208/46/132
+
+Object.create S_Ambient_Meadow_01
+Object.absolutePosition 50/46/133
+
+Object.create S_Ambient_Bridge_01
+Object.absolutePosition 128/56/147
+
+Object.create S_Ambient_Urban_01
+Object.absolutePosition 128/52/96

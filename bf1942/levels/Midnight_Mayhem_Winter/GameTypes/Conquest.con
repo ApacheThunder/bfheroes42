@@ -1,0 +1,29 @@
+Game.setNumberOfTickets 1 100
+Game.setNumberOfTickets 2 100
+Game.setTicketLostPerMin 1 60
+Game.setTicketLostPerMin 2 60
+
+run Conquest/SpawnpointManagerSettings
+run Conquest/SoldierSpawnTemplates
+run Conquest/ObjectSpawnTemplates
+run Conquest/ControlPointTemplates
+run Conquest/SoldierSpawns
+
+if v_arg1 == host
+
+run Conquest/ObjectSpawns
+run Conquest/ControlPoints
+
+else
+
+endIf
+
+rem
+rem ***  ***
+rem
+Object.create hoth_rocket
+Object.absolutePosition 113.48/10.47/128.198
+Object.rotation 0/-90/90
+rem
+rem ***  ***
+rem

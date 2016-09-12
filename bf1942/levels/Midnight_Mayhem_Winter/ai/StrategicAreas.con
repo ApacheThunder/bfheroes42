@@ -1,0 +1,94 @@
+if v_arg1 == host
+
+rem *** Create vehicle groups ***
+aiSettings.createVehicleGroup land
+aiSettings.createVehicleGroup infantry
+aiSettings.createVehicleGroup any
+
+rem *** Add vehicles to the groups ***
+aiSettings.addVehicleToVehicleGroup 0  land
+aiSettings.addVehicleToVehicleGroup 1  any
+aiSettings.addVehicleToVehicleGroup 2  any
+aiSettings.addVehicleToVehicleGroup 3  infantry
+aiSettings.addVehicleToVehicleGroup 4  any
+aiSettings.addVehicleToVehicleGroup 5  land
+aiSettings.addVehicleToVehicleGroup 6  land
+aiSettings.addVehicleToVehicleGroup 7  any
+aiSettings.addVehicleToVehicleGroup 8  any
+aiSettings.addVehicleToVehicleGroup 9  any
+aiSettings.addVehicleToVehicleGroup 10 any
+aiSettings.addVehicleToVehicleGroup 11 any
+aiSettings.addVehicleToVehicleGroup 12 any
+aiSettings.addVehicleToVehicleGroup 13 any
+aiSettings.addVehicleToVehicleGroup 14 land
+aiSettings.addVehicleToVehicleGroup 15 any
+aiSettings.addVehicleToVehicleGroup 16 any
+aiSettings.addVehicleToVehicleGroup 17 any
+
+rem *** Create categories ***
+aiStrategicArea.createNewCategory land
+
+rem *** Create strategic areas ***
+aiStrategicArea.create the_rocket 106.8/121.5 113.5/128.2 10 land
+aiStrategicArea.create National_Base 114.4/213.1 115.1/213.8 20 land
+aiStrategicArea.create Royal_Base 115/33.6 115.7/34.3 20 land
+aiStrategicArea.create West_CP 137.6/116.3 144.3/123 10 land
+aiStrategicArea.create East_CP 64.4/113.8 71.1/120.5 10 land
+
+aiStrategicArea.setActive National_Base
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour the_rocket
+aiStrategicArea.addNeighbour West_CP
+aiStrategicArea.addNeighbour East_CP
+aiStrategicArea.setOrderPosition Infantry 115/214
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive Royal_Base
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour the_rocket
+aiStrategicArea.addNeighbour West_CP
+aiStrategicArea.addNeighbour East_CP
+aiStrategicArea.setOrderPosition Infantry 116/34
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+
+aiStrategicArea.setActive the_rocket
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour National_Base
+aiStrategicArea.addNeighbour Royal_Base
+aiStrategicArea.addNeighbour West_CP
+aiStrategicArea.addNeighbour East_CP
+aiStrategicArea.setOrderPosition Infantry 114/128
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+
+aiStrategicArea.setActive West_CP
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour the_rocket
+aiStrategicArea.addNeighbour East_CP
+aiStrategicArea.setOrderPosition Infantry 144/123
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+
+aiStrategicArea.setActive East_CP
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addNeighbour the_rocket
+aiStrategicArea.addNeighbour West_CP
+aiStrategicArea.setOrderPosition Infantry 71/120
+aiStrategicArea.addAllowedVehicleGroup land
+aiStrategicArea.addAllowedVehicleGroup infantry
+aiStrategicArea.addAllowedVehicleGroup any
+
+endIf

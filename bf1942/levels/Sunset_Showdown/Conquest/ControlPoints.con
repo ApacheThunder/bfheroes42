@@ -1,0 +1,28 @@
+rem
+rem ***  ***
+rem
+Object.create outpost
+Object.absolutePosition 523.789/105.978/284.213
+Object.rotation 59.935/0/0
+rem
+rem ***  ***
+rem
+Object.create plantation
+Object.absolutePosition 551.918/97.649/680.188
+Object.rotation -176.714/0/0
+rem
+rem ***  ***
+rem
+Object.create national_base
+Object.absolutePosition 712.41/102.026/339.589
+rem
+rem ***  ***
+rem
+Object.create royal_invasion
+Object.absolutePosition 443.569/90.2197/855.362
+rem
+rem ***  ***
+rem
+Object.create church_hill
+Object.absolutePosition 508.715/109.658/487.211
+Object.rotation 2.663/0/0

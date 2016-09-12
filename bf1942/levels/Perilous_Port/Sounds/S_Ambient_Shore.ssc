@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/rr_shore_01.wav
+loop
+minDistance 50
+priority 1
+stereo
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 40
+	param 50
+	param 1
+	param -1	
+endEffect

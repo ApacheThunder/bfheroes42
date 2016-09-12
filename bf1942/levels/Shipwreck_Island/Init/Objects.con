@@ -1,0 +1,323 @@
+rem
+rem *** Objects ***
+rem
+
+ObjectTemplate.create SimpleObject Undergrowth
+ObjectTemplate.geometry Undergrowth_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Scenery_Props
+ObjectTemplate.geometry Shipwreck_Scenery_Props_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Scenery_Rocks
+ObjectTemplate.geometry Shipwreck_Scenery_Rocks_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Scenery_Ship
+ObjectTemplate.geometry Shipwreck_Scenery_Ship_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Scenery_TreeTrunks
+ObjectTemplate.geometry Shipwreck_Scenery_TreeTrunks_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeBranches
+ObjectTemplate.geometry Shipwreck_TreeBranches_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_ShipWreck
+ObjectTemplate.geometry Shipwreck_ShipWreck_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk01
+ObjectTemplate.geometry Shipwreck_TreeTrunk01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk02
+ObjectTemplate.geometry Shipwreck_TreeTrunk02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk03
+ObjectTemplate.geometry Shipwreck_TreeTrunk03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk04
+ObjectTemplate.geometry Shipwreck_TreeTrunk04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk05
+ObjectTemplate.geometry Shipwreck_TreeTrunk05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk06
+ObjectTemplate.geometry Shipwreck_TreeTrunk06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk07
+ObjectTemplate.geometry Shipwreck_TreeTrunk07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk08
+ObjectTemplate.geometry Shipwreck_TreeTrunk08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk09
+ObjectTemplate.geometry Shipwreck_TreeTrunk09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk10
+ObjectTemplate.geometry Shipwreck_TreeTrunk10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_TreeTrunk11
+ObjectTemplate.geometry Shipwreck_TreeTrunk11_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics01
+ObjectTemplate.geometry Shipwreck_Statics01_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics02
+ObjectTemplate.geometry Shipwreck_Statics02_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics03
+ObjectTemplate.geometry Shipwreck_Statics03_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics04
+ObjectTemplate.geometry Shipwreck_Statics04_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics05
+ObjectTemplate.geometry Shipwreck_Statics05_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics06
+ObjectTemplate.geometry Shipwreck_Statics06_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics07
+ObjectTemplate.geometry Shipwreck_Statics07_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics08
+ObjectTemplate.geometry Shipwreck_Statics08_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics09
+ObjectTemplate.geometry Shipwreck_Statics09_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics10
+ObjectTemplate.geometry Shipwreck_Statics10_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics11
+ObjectTemplate.geometry Shipwreck_Statics11_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics12
+ObjectTemplate.geometry Shipwreck_Statics12_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics13
+ObjectTemplate.geometry Shipwreck_Statics13_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics14
+ObjectTemplate.geometry Shipwreck_Statics14_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics15
+ObjectTemplate.geometry Shipwreck_Statics15_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics16
+ObjectTemplate.geometry Shipwreck_Statics16_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics17
+ObjectTemplate.geometry Shipwreck_Statics17_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics18
+ObjectTemplate.geometry Shipwreck_Statics18_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics19
+ObjectTemplate.geometry Shipwreck_Statics19_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics20
+ObjectTemplate.geometry Shipwreck_Statics20_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics21
+ObjectTemplate.geometry Shipwreck_Statics21_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics22
+ObjectTemplate.geometry Shipwreck_Statics22_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics23
+ObjectTemplate.geometry Shipwreck_Statics23_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics24
+ObjectTemplate.geometry Shipwreck_Statics24_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics25
+ObjectTemplate.geometry Shipwreck_Statics25_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics26
+ObjectTemplate.geometry Shipwreck_Statics26_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics27
+ObjectTemplate.geometry Shipwreck_Statics27_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_Statics28
+ObjectTemplate.geometry Shipwreck_Statics28_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone01
+ObjectTemplate.geometry Shipwreck_CombatZone01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone02
+ObjectTemplate.geometry Shipwreck_CombatZone02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone03
+ObjectTemplate.geometry Shipwreck_CombatZone03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone04
+ObjectTemplate.geometry Shipwreck_CombatZone04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone05
+ObjectTemplate.geometry Shipwreck_CombatZone05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone06
+ObjectTemplate.geometry Shipwreck_CombatZone06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone07
+ObjectTemplate.geometry Shipwreck_CombatZone07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone08
+ObjectTemplate.geometry Shipwreck_CombatZone08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone09
+ObjectTemplate.geometry Shipwreck_CombatZone09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Shipwreck_CombatZone10
+ObjectTemplate.geometry Shipwreck_CombatZone10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create Obstacle CaptainShop_DeathBox
+ObjectTemplate.geometry CaptainShop_DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.damage 125
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.createInvisible 1

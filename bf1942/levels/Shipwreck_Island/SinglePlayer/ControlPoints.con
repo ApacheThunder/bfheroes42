@@ -1,0 +1,24 @@
+rem
+rem ***  ***
+rem
+Object.create RedFlag1
+Object.absolutePosition 81.2027/46.9923/123.908
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedFlag2
+Object.absolutePosition 111.892/48.9253/119.55
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag1
+Object.absolutePosition 173.8/47.1285/123.646
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag2
+Object.absolutePosition 143.111/48.9488/119.489
+Object.rotation 0.0/0.0/0.0

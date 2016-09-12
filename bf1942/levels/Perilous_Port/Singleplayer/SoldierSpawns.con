@@ -1,0 +1,159 @@
+rem
+rem ***  ***
+rem
+Object.create parkspawn_01
+Object.absolutePosition 225.718/15.36/300.283
+Object.rotation -55/0/0
+Object.setOSId -1409218592
+Object.setTeam 143859840
+rem
+rem ***  ***
+rem
+Object.create parkspawn_01
+Object.absolutePosition 218.229/15.36/308.68
+Object.rotation 207/0/0
+Object.setOSId 112
+Object.setTeam 32836
+rem
+rem ***  ***
+rem
+Object.create parkspawn_01
+Object.absolutePosition 236.149/16.2593/304.407
+Object.rotation -57/0/0
+Object.setOSId 112
+Object.setTeam 145136938
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_01
+Object.absolutePosition 246.614/24.85/381.262
+Object.rotation -119/0/0
+Object.setOSId -1089861273
+Object.setTeam 143859840
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_02
+Object.absolutePosition 234.561/25.3999/376.202
+Object.rotation 48/0/0
+Object.setOSId -569765709
+Object.setTeam 145139164
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_03
+Object.absolutePosition 243.338/25.1153/356.357
+Object.setOSId 65
+Object.setTeam 1968439397
+rem
+rem ***  ***
+rem
+Object.create unationalbasespawn_04
+Object.absolutePosition 236.378/30.3181/344.643
+Object.rotation -15/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_05
+Object.absolutePosition 222.212/19.5033/380.379
+Object.rotation -171/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_01
+Object.absolutePosition 255.631/15.31/254.332
+Object.rotation 50/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_02
+Object.absolutePosition 251.536/15.36/241.595
+Object.rotation 89/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_03
+Object.absolutePosition 257.251/16.2653/241.076
+Object.rotation 89/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create boatspawn_04
+Object.absolutePosition 242.213/15.6041/254.561
+Object.rotation -111/0/0
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_01
+Object.absolutePosition 220.58/16.645/182.057
+Object.rotation -47/0/0
+Object.setOSId 0
+Object.setTeam 2711408
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_02
+Object.absolutePosition 219.875/16.6228/190.754
+Object.rotation 238/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_03
+Object.absolutePosition 206.576/16.984/187.944
+Object.rotation 101/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create fountainspawn_04
+Object.absolutePosition 218.713/20.0249/159.6
+Object.rotation -18/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_01
+Object.absolutePosition 174.785/21.12/160.428
+Object.rotation 29/0/0
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_02
+Object.absolutePosition 163.796/21.463/166.41
+Object.rotation 146/0/0
+Object.setOSId 1711936794
+Object.setTeam 143859840
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_03
+Object.absolutePosition 165.487/22.6708/179.247
+Object.rotation 100/0/0
+Object.setOSId -838199732
+Object.setTeam 145160236
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_04
+Object.absolutePosition 175.209/21.2361/145.642
+Object.rotation 28/0/0
+Object.setOSId 65
+Object.setTeam 0

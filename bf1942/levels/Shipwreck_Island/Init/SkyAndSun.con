@@ -1,0 +1,15 @@
+TextureManager.mipmaps 0
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file Shipwreck_SkyDome_m1
+
+Sky.initSky
+sky.changeOfsSkyHeight 0
+sky.setRotAngle 0
+sky.sunLightDirectionVec -0.378/0.208/0.902
+
+TextureManager.mipmaps 1
+
+ObjectTemplate.create SimpleObject Shipwreck_SkyDome
+ObjectTemplate.geometry Skybox
+ObjectTemplate.cullRadiusScale 5

@@ -1,0 +1,10 @@
+ObjectTemplate.create ObjectSpawner the_rocket_spawn
+ObjectTemplate.setObjectTemplate 0 hoth_rocket
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 40
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1

@@ -1,0 +1,47 @@
+if v_arg1 == host
+aiTemplate.active Soldier
+aiTemplate.addType ITNaval
+
+aiSettings.setWorldMapSize 1024 1024
+aiSettings.setViewDistance 100
+aiSettings.setInformationGridDimension 32
+
+ai.init 2
+
+AIBotManager.setLodLevelTicks 6 6 6
+AIBotManager.setLodLevelPriority 6 4 2
+AIBotManager.setPlannedDecisionMakingThreshold 0.5 1.0 3.0
+AIBotManager.setUnplannedDecisionMakingThreshold 0.3 0.8 2.0
+AIBotManager.setDecisionMakingInterleave 2 2
+AIBotManager.setSensingQuotient 2 1
+AIBotManager.setSystemQuotient 30 40 30
+
+ai.saiMapXDimension 64
+ai.saiMapYDimension 64
+
+ai.createSAI
+
+ai.saiEnable 1
+game.showAIstats 0
+
+ai.botStatisticUpdateSpeed 3
+
+endif
+
+run AIPathFinding.con v_arg1
+
+run ai/StrategicAreas v_arg1
+run ai/conditions v_arg1
+run ai/prerequisites v_arg1
+run ai/Strategies v_arg1
+
+if v_arg1 == host
+
+ai.addSAIStrategy 1 TeamAAttack
+ai.addSAIStrategy 1 TeamADefend
+ai.addSAIStrategy 1 TeamARepulse
+ai.addSAIStrategy 2 TeamBAttack
+ai.addSAIStrategy 2 TeamBDefend
+ai.addSAIStrategy 2 TeamBRepulse
+
+endif

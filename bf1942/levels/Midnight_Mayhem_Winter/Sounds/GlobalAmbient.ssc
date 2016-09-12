@@ -1,0 +1,6 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Ambience_LV01_Night_Winter.wav
+priority -10
+loop
+dopplerOff
+volume 0.6

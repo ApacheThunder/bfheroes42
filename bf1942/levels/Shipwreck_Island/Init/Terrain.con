@@ -1,0 +1,108 @@
+GeometryTemplate.create PatchTerrain patchGeometry
+GeometryTemplate.file bf1942\levels\Shipwreck_Island\HeightMap
+GeometryTemplate.materialMap bf1942\levels\Shipwreck_Island\MaterialMap
+GeometryTemplate.materialSize 512
+GeometryTemplate.targetTriCount 512
+GeometryTemplate.worldSize 256
+GeometryTemplate.yScale 1
+GeometryTemplate.texBaseName bf1942\levels\Shipwreck_Island\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\Shipwreck_Island\Textures\Detail
+GeometryTemplate.waterLevel 26
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 1024
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry PatchGeometry
+ObjectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+
+Console.worldSize 256
+
+Terrain.ShadowAmbient 70/70/70
+Terrain.ShadowBorderFadeTime 0.01
+Terrain.ShadowSamplingCullY 48
+
+
+GeometryTemplate.create StandardMesh Terrain_m1
+GeometryTemplate.file Terrain_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL01_m1
+GeometryTemplate.file Terrain_COL01_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL02_m1
+GeometryTemplate.file Terrain_COL02_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL03_m1
+GeometryTemplate.file Terrain_COL03_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL04_m1
+GeometryTemplate.file Terrain_COL04_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL05_m1
+GeometryTemplate.file Terrain_COL05_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL06_m1
+GeometryTemplate.file Terrain_COL06_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL07_m1
+GeometryTemplate.file Terrain_COL07_m1
+
+GeometryTemplate.create StandardMesh Terrain_COL08_m1
+GeometryTemplate.file Terrain_COL08_m1
+
+
+ObjectTemplate.create SimpleObject Terrain
+ObjectTemplate.geometry Terrain_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL01
+ObjectTemplate.geometry Terrain_COL01_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL02
+ObjectTemplate.geometry Terrain_COL02_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL03
+ObjectTemplate.geometry Terrain_COL03_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL04
+ObjectTemplate.geometry Terrain_COL04_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL05
+ObjectTemplate.geometry Terrain_COL05_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL06
+ObjectTemplate.geometry Terrain_COL06_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL07
+ObjectTemplate.geometry Terrain_COL07_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Terrain_COL08
+ObjectTemplate.geometry Terrain_COL08_m1
+ObjectTemplate.aiTemplate ShipwreckAI
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5

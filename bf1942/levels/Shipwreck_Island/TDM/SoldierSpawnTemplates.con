@@ -1,0 +1,23 @@
+ObjectTemplate.create SpawnPoint RedBaseSpawn01
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint RedBaseSpawn02
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint RedBaseSpawn03
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint BlueBaseSpawn01
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint BlueBaseSpawn02
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint BlueBaseSpawn03
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 2

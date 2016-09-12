@@ -1,0 +1,108 @@
+sound.reserve2dStereoChans 2/4/4
+sound.relaxHwReservations 0.5/0.5/0
+
+EnvironmentSound.load Sounds/GlobalAmbient.ssc
+
+
+rem *** Ambient Object Templates ***
+ObjectTemplate.create AreaObject S_Ambient_Graveyard
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 25
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Graveyard.ssc
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+
+ObjectTemplate.create AreaObject S_Ambient_Graveyard_2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 65
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Graveyard_02.ssc
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Waterfall_2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 15
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Waterfall_2.ssc
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_AmbientShore
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 50
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Shore.ssc
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Shore_02
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 130
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Shore_02.ssc
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Shore_03
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 50
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Shore_03.ssc
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+ObjectTemplate.create AreaObject S_Ambient_Shore_04
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 60
+ObjectTemplate.loadSoundScript Sounds/S_Ambient_Shore_04.ssc
+ObjectTemplate.addLinePoint 0.1/0.1
+ObjectTemplate.addLinePoint -0.1/0.1
+ObjectTemplate.addLinePoint 0.1/-0.1
+
+
+rem *** Ambient Objects ***
+rem
+rem ***  ***
+rem
+Object.create s_ambient_shore_04
+Object.absolutePosition 153.559/14.4863/261.688
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_shore_03
+Object.absolutePosition 151.145/14.5286/324.236
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_shore_02
+Object.absolutePosition 59.693/14.5/137.182
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambientshore
+Object.absolutePosition 169.857/14.5/384.14
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_waterfall_2
+Object.absolutePosition 247.392/15.358/249.208
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_graveyard_2
+Object.absolutePosition 212.139/18.8126/183.639
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create s_ambient_graveyard
+Object.absolutePosition 267.411/17.3079/278.635
+Object.Rotation 0/0/0

@@ -1,0 +1,14 @@
+spawnPointManager.group 1
+spawnPointManager.groupTeam 2
+
+spawnPointManager.group 2
+spawnPointManager.groupTeam 1
+
+spawnPointManager.group 3
+spawnPointManager.groupTeam 0
+
+spawnPointManager.group 4
+spawnPointManager.groupTeam 0
+
+spawnPointManager.group 5
+spawnPointManager.groupTeam 0

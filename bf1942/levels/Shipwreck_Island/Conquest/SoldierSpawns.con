@@ -1,0 +1,108 @@
+rem
+rem ***  ***
+rem
+Object.create RedBaseSpawn01
+Object.absolutePosition 57.8515/44.6603/132.149
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedBaseSpawn02
+Object.absolutePosition 64.8208/44.9222/144.619
+Object.rotation 71.3508/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedBaseSpawn03
+Object.absolutePosition 55.0124/43.8324/146.39
+Object.rotation 173.348/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedFlag1Spawn01
+Object.absolutePosition 83.4388/47.1823/133.299
+Object.rotation 173.348/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedFlag1Spawn02
+Object.absolutePosition 74.8511/47.0152/116.872
+Object.rotation -23.4144/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedFlag1Spawn03
+Object.absolutePosition 75.2723/47.4894/109.532
+Object.rotation 136.321/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedFlag2Spawn01
+Object.absolutePosition 117.427/48.8098/132.885
+Object.rotation 57.0058/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedFlag2Spawn02
+Object.absolutePosition 121.375/49.8477/111.483
+Object.rotation -61.0928/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create RedFlag2Spawn03
+Object.absolutePosition 106.241/49.5763/109.907
+Object.rotation 61.3346/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag2Spawn01
+Object.absolutePosition 142.969/48.7478/133.819
+Object.rotation 61.3346/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag2Spawn02
+Object.absolutePosition 130.203/49.8815/115.76
+Object.rotation 61.3346/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag2Spawn03
+Object.absolutePosition 138.51/49.3566/125.149
+Object.rotation 143.711/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag1Spawn01
+Object.absolutePosition 168.005/47.4386/132.671
+Object.rotation 128.217/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag1Spawn02
+Object.absolutePosition 172.577/47.9949/116.195
+Object.rotation -27.0318/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueFlag1Spawn03
+Object.absolutePosition 161.039/48.5831/121.243
+Object.rotation 81.1145/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueBaseSpawn01
+Object.absolutePosition 208.017/43.6463/130.137
+Object.rotation -123.005/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueBaseSpawn02
+Object.absolutePosition 191.875/44.7509/143.455
+Object.rotation 151.632/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create BlueBaseSpawn03
+Object.absolutePosition 200.875/44.9303/117.312
+Object.rotation -12.9743/0.0/0.0

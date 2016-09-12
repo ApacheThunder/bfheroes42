@@ -1,0 +1,7 @@
+newPatch
+load @ROOT/Sound/@RTD/RR_Global_01.wav
+stereo
+loop
+minDistance 300000
+priority -10
+dopplerOff

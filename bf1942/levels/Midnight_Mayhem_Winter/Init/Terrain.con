@@ -1,0 +1,32 @@
+GeometryTemplate.create patchTerrain patchGeometry
+GeometryTemplate.file bf1942\levels\Midnight_Mayhem_Winter\Heightmap
+GeometryTemplate.materialMap bf1942\levels\Midnight_Mayhem_Winter\Materialmap
+GeometryTemplate.materialSize 256
+GeometryTemplate.targetTriCount 512
+GeometryTemplate.worldSize 256
+GeometryTemplate.yScale 0.234375
+GeometryTemplate.texBaseName bf1942\levels\Midnight_Mayhem_Winter\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\Midnight_Mayhem_Winter\Textures\Detail
+GeometryTemplate.detailTexScale 0.2
+GeometryTemplate.waterLevel 6
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 256
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry patchGeometry
+ObjectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 512
+
+Terrain.ShadowAmbient 55/55/55
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 45
+
+shadow.shadowColor 0.2

@@ -1,0 +1,490 @@
+rem
+rem *** Init Map Extensions ***
+rem
+run Mods
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_Skydome
+Object.absolutePosition 128.0/24.5/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_ShipWreck
+Object.absolutePosition 125.981/63.5808/163.951
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics01
+Object.absolutePosition 107.18/47.9871/141.559
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics02
+Object.absolutePosition 136.25/49.0401/138.505
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics03
+Object.absolutePosition 203.003/44.9873/144.193
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics04
+Object.absolutePosition 208.723/44.268/118.854
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics05
+Object.absolutePosition 188.895/48.5871/107.026
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics06
+Object.absolutePosition 196.731/47.9206/116.088
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics07
+Object.absolutePosition 190.319/49.8455/126.841
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics08
+Object.absolutePosition 185.855/51.9226/137.568
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics09
+Object.absolutePosition 176.123/53.9182/111.819
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics10
+Object.absolutePosition 164.973/50.9101/132.39
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics11
+Object.absolutePosition 158.009/51.0659/121.124
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics12
+Object.absolutePosition 149.967/49.8655/99.5477
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics13
+Object.absolutePosition 146.693/53.972/109.305
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics14
+Object.absolutePosition 140.555/52.7809/129.906
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics15
+Object.absolutePosition 127.166/51.4237/121.834
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics16
+Object.absolutePosition 127.884/59.0354/109.302
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics17
+Object.absolutePosition 114.486/51.3601/98.9448
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics18
+Object.absolutePosition 101.83/52.7557/109.963
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics19
+Object.absolutePosition 109.453/48.9563/120.374
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics20
+Object.absolutePosition 115.359/53.3165/129.579
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics21
+Object.absolutePosition 94.7038/49.8465/121.873
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics22
+Object.absolutePosition 87.2944/49.9393/133.226
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics23
+Object.absolutePosition 76.3718/53.7381/114.432
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics24
+Object.absolutePosition 65.2609/50.5249/133.892
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics25
+Object.absolutePosition 60.0932/46.9087/120.511
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics26
+Object.absolutePosition 75.0997/47.0473/149.064
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics27
+Object.absolutePosition 47.8362/44.2401/142.225
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Statics28
+Object.absolutePosition 41.9363/43.774/121.641
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk01
+Object.absolutePosition 76.3516/49.0951/151.751
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk02
+Object.absolutePosition 210.957/46.8597/144.329
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk03
+Object.absolutePosition 172.337/49.6482/142.937
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk04
+Object.absolutePosition 161.147/52.2293/105.22
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk05
+Object.absolutePosition 152.719/53.739/93.1327
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk06
+Object.absolutePosition 128.722/51.1296/133.138
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk07
+Object.absolutePosition 110.517/52.9329/104.599
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk08
+Object.absolutePosition 96.9065/51.1998/130.716
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk09
+Object.absolutePosition 89.7517/51.8958/104.834
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk10
+Object.absolutePosition 59.9888/49.185/115.449
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_TreeTrunk11
+Object.absolutePosition 120.341/53.428/99.4142
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ShipWreck_Scenery_Props
+Object.absolutePosition 128.0/32.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_Scenery_Rocks
+Object.absolutePosition 128.0/32.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_Scenery_Ship
+Object.absolutePosition 129.983/61.7333/53.003
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_Scenery_TreeTrunks
+Object.absolutePosition 128.0/32.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_TreeBranches
+Object.absolutePosition 128.0/32.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain
+Object.absolutePosition 128.0/32.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL01
+Object.absolutePosition 22.0621/39.5102/200.094
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL02
+Object.absolutePosition 68.6065/39.4253/44.7988
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL03
+Object.absolutePosition 55.1762/44.1744/130.776
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL04
+Object.absolutePosition 200.495/45.1795/124.364
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL05
+Object.absolutePosition 141.469/45.9103/111.305
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL06
+Object.absolutePosition 220.377/38.6786/89.7417
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL07
+Object.absolutePosition 225.744/40.9632/177.824
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL08
+Object.absolutePosition 88.7846/45.0874/116.95
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Undergrowth
+Object.absolutePosition 128.0/32.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Water
+Object.absolutePosition 128/32.1/128
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create WaterShadows
+Object.absolutePosition 128/32.14/128
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_fireflies
+Object.absolutePosition 50.7592/43.8662/132.751
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_spores
+Object.absolutePosition 110.494/49.1127/119.078
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_ChimnySmoke
+Object.absolutePosition 63.4257/56.4379/136.04
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition 227.505/71.3268/-96.146
+Object.rotation 43.5439/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_fireflies
+Object.absolutePosition 206.486/43.4673/130.411
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_spores
+Object.absolutePosition 160.538/49.1127/106.239
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_spores
+Object.absolutePosition 110.27/48.3471/134.913
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_ChimnySmoke
+Object.absolutePosition 110.696/57.7669/130.463
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_ChimnySmoke
+Object.absolutePosition 142.506/56.9449/130.263
+Object.rotation 0.0/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition 273.805/82.1093/315.268
+Object.rotation -105.637/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition -14.3256/98.9933/325.704
+Object.rotation -154.575/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition -95.7503/76.3912/-7.666
+Object.rotation 117.24/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_Birds
+Object.absolutePosition 152.958/101.156/-105.188
+Object.rotation 43.5439/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone01
+Object.absolutePosition 128.844/72.8652/144.333
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone02
+Object.absolutePosition 168.946/72.8652/145.127
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone03
+Object.absolutePosition 203.004/72.8652/146.043
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone04
+Object.absolutePosition 209.294/72.8652/126.433
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone05
+Object.absolutePosition 176.114/72.8652/104.886
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone06
+Object.absolutePosition 118.105/72.8652/99.0331
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone07
+Object.absolutePosition 64.7157/72.8652/109.717
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone08
+Object.absolutePosition 48.4344/72.8652/136.363
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone09
+Object.absolutePosition 78.0351/72.8652/146.268
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Shipwreck_CombatZone10
+Object.absolutePosition 104.845/72.8652/139.174
+Object.rotation 0/0/0

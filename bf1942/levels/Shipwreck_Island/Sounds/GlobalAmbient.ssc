@@ -1,0 +1,7 @@
+newPatch
+load @ROOT/Sound/@RTD/wake_shore_01.wav
+loop
+minDistance 300000
+priority -10
+dopplerOff
+volume 0.458

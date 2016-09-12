@@ -1,0 +1,44 @@
+console.useRelativePaths 0
+
+GeometryTemplate.create SimpleGeom SkyBox
+GeometryTemplate.shader SkyShader/Material0
+GeometryTemplate.scale 0
+GeometryTemplate.tesselation 2/2
+GeometryTemplate.type Sphere
+GeometryTemplate.color 0/0/0
+
+sky.initSky
+
+GeometryTemplate.create StandardMesh cloud
+GeometryTemplate.file cloud6
+
+Sky.addCloud
+Cloud.setName cloud_0
+Cloud.setSrcBlend BMSourceAlphaSaturate
+Cloud.setDstBlend BMInvSourceAlpha
+Cloud.setTexScale	0.6
+Cloud.setSpeed 0.005 -0.0060
+Cloud.setHeight 1256
+
+Sky.addCloud
+Cloud.setName cloud_1
+Cloud.setSrcBlend BMSourceAlphaSaturate
+Cloud.setDstBlend BMInvSourceAlpha
+Cloud.setTexScale	1
+Cloud.setSpeed 0.001 -0.0010
+Cloud.setHeight 2167
+
+include Objects/LensFlares/Lenz2.inc
+
+Object.create TSun2
+Object.isSaveable 0
+Object.name sun
+
+Sky.setCloudFog 0
+Sky.changeOfsCloudHeight 2500
+Sky.changeOfsCloudDist 333
+
+Sky.setSun sun
+sky.sunLightDirectionVec -0.842249/0.443948/0.305821
+
+console.useRelativePaths 1

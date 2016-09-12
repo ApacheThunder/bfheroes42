@@ -1,0 +1,27 @@
+water.specularEnable 0
+water.texLayer1 texture/alpha
+water.texLayer2 texture/alpha
+water.normalMap texture/alpha
+water.scrollDirection1 0/0
+water.specularColor 0/0/0
+water.scrollLayer1 0
+water.tileLayer1 0
+water.lightDirection 0/0/0
+water.color 0/0/0
+water.deepColor 0/0/0
+
+GeometryTemplate.create StandardMesh Water_m1
+GeometryTemplate.file Water_m1
+
+GeometryTemplate.create StandardMesh WaterShadows_m1
+GeometryTemplate.file WaterShadows_m1
+GeometryTemplate.alphaLodDistance 2048
+
+
+ObjectTemplate.create SimpleObject Water
+ObjectTemplate.geometry Water_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject WaterShadows
+ObjectTemplate.geometry WaterShadows_m1
+ObjectTemplate.cullRadiusScale 5

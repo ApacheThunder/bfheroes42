@@ -1,0 +1,177 @@
+rem
+rem *** Geometries ***
+rem
+
+GeometryTemplate.create StandardMesh Shipwreck_FlagPole_m1
+GeometryTemplate.file Shipwreck_FlagPole_m1
+
+GeometryTemplate.create StandardMesh Undergrowth_m1
+GeometryTemplate.file Undergrowth_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Scenery_Rocks_m1
+GeometryTemplate.file Shipwreck_Scenery_Rocks_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Scenery_Props_m1
+GeometryTemplate.file Shipwreck_Scenery_Props_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Scenery_Ship_m1
+GeometryTemplate.file Shipwreck_Scenery_Ship_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Scenery_TreeTrunks_m1
+GeometryTemplate.file Shipwreck_Scenery_TreeTrunks_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeBranches_m1
+GeometryTemplate.file Shipwreck_TreeBranches_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_ShipWreck_m1
+GeometryTemplate.file Shipwreck_ShipWreck_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk01_m1
+GeometryTemplate.file Shipwreck_TreeTrunk01_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk02_m1
+GeometryTemplate.file Shipwreck_TreeTrunk02_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk03_m1
+GeometryTemplate.file Shipwreck_TreeTrunk03_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk04_m1
+GeometryTemplate.file Shipwreck_TreeTrunk04_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk05_m1
+GeometryTemplate.file Shipwreck_TreeTrunk05_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk06_m1
+GeometryTemplate.file Shipwreck_TreeTrunk06_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk07_m1
+GeometryTemplate.file Shipwreck_TreeTrunk07_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk08_m1
+GeometryTemplate.file Shipwreck_TreeTrunk08_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk09_m1
+GeometryTemplate.file Shipwreck_TreeTrunk09_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk10_m1
+GeometryTemplate.file Shipwreck_TreeTrunk10_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_TreeTrunk11_m1
+GeometryTemplate.file Shipwreck_TreeTrunk11_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics01_m1
+GeometryTemplate.file Shipwreck_Statics01_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics02_m1
+GeometryTemplate.file Shipwreck_Statics02_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics03_m1
+GeometryTemplate.file Shipwreck_Statics03_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics04_m1
+GeometryTemplate.file Shipwreck_Statics04_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics05_m1
+GeometryTemplate.file Shipwreck_Statics05_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics06_m1
+GeometryTemplate.file Shipwreck_Statics06_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics07_m1
+GeometryTemplate.file Shipwreck_Statics07_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics08_m1
+GeometryTemplate.file Shipwreck_Statics08_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics09_m1
+GeometryTemplate.file Shipwreck_Statics09_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics10_m1
+GeometryTemplate.file Shipwreck_Statics10_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics11_m1
+GeometryTemplate.file Shipwreck_Statics11_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics12_m1
+GeometryTemplate.file Shipwreck_Statics12_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics13_m1
+GeometryTemplate.file Shipwreck_Statics13_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics14_m1
+GeometryTemplate.file Shipwreck_Statics14_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics15_m1
+GeometryTemplate.file Shipwreck_Statics15_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics16_m1
+GeometryTemplate.file Shipwreck_Statics16_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics17_m1
+GeometryTemplate.file Shipwreck_Statics17_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics18_m1
+GeometryTemplate.file Shipwreck_Statics18_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics19_m1
+GeometryTemplate.file Shipwreck_Statics19_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics20_m1
+GeometryTemplate.file Shipwreck_Statics20_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics21_m1
+GeometryTemplate.file Shipwreck_Statics21_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics22_m1
+GeometryTemplate.file Shipwreck_Statics22_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics23_m1
+GeometryTemplate.file Shipwreck_Statics23_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics24_m1
+GeometryTemplate.file Shipwreck_Statics24_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics25_m1
+GeometryTemplate.file Shipwreck_Statics25_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics26_m1
+GeometryTemplate.file Shipwreck_Statics26_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics27_m1
+GeometryTemplate.file Shipwreck_Statics27_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_Statics28_m1
+GeometryTemplate.file Shipwreck_Statics28_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone01_m1
+GeometryTemplate.file Shipwreck_CombatZone01_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone02_m1
+GeometryTemplate.file Shipwreck_CombatZone02_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone03_m1
+GeometryTemplate.file Shipwreck_CombatZone03_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone04_m1
+GeometryTemplate.file Shipwreck_CombatZone04_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone05_m1
+GeometryTemplate.file Shipwreck_CombatZone05_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone06_m1
+GeometryTemplate.file Shipwreck_CombatZone06_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone07_m1
+GeometryTemplate.file Shipwreck_CombatZone07_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone08_m1
+GeometryTemplate.file Shipwreck_CombatZone08_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone09_m1
+GeometryTemplate.file Shipwreck_CombatZone09_m1
+
+GeometryTemplate.create StandardMesh Shipwreck_CombatZone10_m1
+GeometryTemplate.file Shipwreck_CombatZone10_m1
+
+GeometryTemplate.create StandardMesh CaptainShop_DeathBox_m1
+GeometryTemplate.file CaptainShop_DeathBox_m1
