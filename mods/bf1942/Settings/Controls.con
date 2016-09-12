@@ -1,0 +1,5 @@
+rem ** Spenser **
+run Profiles/Spenser/Controls/Common.con
+run Profiles/Spenser/Controls/Infantry.con
+run Profiles/Spenser/Controls/Land.con
+run Profiles/Spenser/Controls/Air.con

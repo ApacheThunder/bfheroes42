@@ -1,0 +1,7 @@
+renderer.setFullScreen 0
+renderer.fieldOfView 1
+renderer.globalLodRadius 1
+renderer.globalLodRadiusScaleFactor 5
+renderer.allowAllRefreshRates 1
+console.showStats 0
+lensflare.enable 1

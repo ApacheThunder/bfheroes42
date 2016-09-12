@@ -1,0 +1,14 @@
+rem *** Saved Filters ***
+game.setServerFilter ""
+game.setPlayersFilter ""
+game.setPingFilter ""
+game.setGameTypeFilter ""
+game.setMapFilter ""
+game.setNonPasswordOnlyFilter 0
+game.setDedicatedOnlyFilter 0
+game.setNonEmptyOnlyFilter 0
+game.setFavoritesOnlyFilter 0
+game.setPureOnlyFilter 0
+game.setOfficialStatsOnlyFilter 0
+game.setPunkbusterOnlyFilter 0
+game.setCustomGameFilter "FILTER_ALL"

@@ -1,0 +1,12 @@
+game.CustomGameName BF1942
+game.addModPath Mods/bf1942/
+
+game.setCustomGameVersion 1.61
+game.setCustomGameUrl "http://www.battlefield1942.com"
+
+Game.setMenuMusicFilename "music/slaughter4.bik"
+Game.setLoadMusicFilename "music/vehicle4.bik"
+Game.setWinMusicFilename "music/vehicle3.bik"
+Game.setLoseMusicFilename "music/menu.bik"
+Game.setCampaignLoseMusicFilename "music/theme2.bik"
+Game.setDebriefingMusicFilename "music/briefing.bik"

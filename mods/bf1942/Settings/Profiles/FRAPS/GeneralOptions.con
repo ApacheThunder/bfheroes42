@@ -1,0 +1,23 @@
+rem *** Generated ***
+
+game.setPlayerName "-=WCK=-Apache Thunder"
+game.setConnection 4
+game.setToolTip 0
+game.setRadioToolTip 1
+game.setCrossHairColor 255.000000 255.000000 0.000000
+game.setStaticMinimap 1
+game.setMinimapTransparency 20
+game.setSkirmishPercentageOfBots 310
+game.setSkirmishPercentageOfCpu 25
+game.setCampaignPercentageOfBots 200
+game.setCampaignPercentageOfCpu 20
+game.setDefaultIp "192.168.2.200" 14567
+game.setRadioToolTipColor 0.700000 0.700000 0.700000
+chat.setChatMessageSize 4
+chat.setGameInfoMessageSize 2
+chat.setKillMessageSize 3
+chat.setOldChatListStyle 0
+chat.setOldChatListHistory 8
+chat.setIgnoreRadioText 0
+chat.setIgnoreRadioAudio 0
+chat.setTimeUntilMessageRemoved 5.000000

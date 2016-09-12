@@ -1,0 +1,13 @@
+rem *** SinglePlayerSettings ***
+
+Game.setSkirmishAiSkill 4
+Game.setSkirmishBotRatio 4
+Game.setSkirmishNrOfLives 4
+Game.setSkirmishTeam 2
+Game.setSavedSkirmishMap Berlin
+Game.setSkirmishDifficulty 1
+
+Game.setCampaignAiSkill 4
+Game.setCampaignBotRatio 4
+Game.setCampaignNrOfLives 1
+Game.setCampaignDifficulty 1
