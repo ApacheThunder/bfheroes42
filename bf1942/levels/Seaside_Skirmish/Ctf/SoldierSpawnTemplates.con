@@ -1,0 +1,444 @@
+ObjectTemplate.create SpawnPoint ss_16_farm_0_4
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_0_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_1]
+
+ObjectTemplate.create SpawnPoint ss_16_farm_2
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_3_0]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_9
+ObjectTemplate.setSpawnId 41
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_9
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_10]
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_1_0
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_1_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_2_0]
+
+ObjectTemplate.create SpawnPoint ss_16_farm_5_0
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_5_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_6]
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_2_0
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_0_7]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_5
+ObjectTemplate.setSpawnId 53
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_6_0]
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_3_0
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_3_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_4_0]
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_0_3
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_4_0
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_4_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_1_0]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_0_7
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_0_7
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_0_8]
+
+ObjectTemplate.create SpawnPoint ss_16_farm_6
+ObjectTemplate.setSpawnId 34
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_7]
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_0_4
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Hillside_farm_1]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_1_0
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_1_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_2_0]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_0_8
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_0_8
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_1]
+
+ObjectTemplate.create SpawnPoint ss_16_farm_7
+ObjectTemplate.setSpawnId 35
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_7
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_8]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_8
+ObjectTemplate.setSpawnId 56
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_8
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_1
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 4
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Hillside_farm_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Hillside_farm_2]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_2_0
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_3_0]
+
+ObjectTemplate.create SpawnPoint ss_16_farm_8
+ObjectTemplate.setSpawnId 36
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_8
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_5]
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_6_0
+ObjectTemplate.setSpawnId 38
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_6_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_7_0]
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_2
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 4
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Hillside_farm_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_0_3]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_3_0
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_3_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_4_0]
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_7_0
+ObjectTemplate.setSpawnId 39
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_7_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_8]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_4_0
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_4_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_1_0]
+
+ObjectTemplate.create SpawnPoint ss_16_village_0_2
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_0_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_0_3]
+
+ObjectTemplate.create SpawnPoint ss_16_village_1_1
+ObjectTemplate.setSpawnId 25
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_1_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_1_2]
+
+ObjectTemplate.create SpawnPoint ss_16_village_2_0
+ObjectTemplate.setSpawnId 27
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_3_0]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_1
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_2]
+
+ObjectTemplate.create SpawnPoint ss_16_village_0_3
+ObjectTemplate.setSpawnId 24
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_0_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_1_1]
+
+ObjectTemplate.create SpawnPoint ss_16_village_1_2
+ObjectTemplate.setSpawnId 26
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_1_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_2_0]
+
+ObjectTemplate.create SpawnPoint ss_16_village_3_0
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_3_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_0_4]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_2
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_3]
+
+ObjectTemplate.create SpawnPoint ss_16_village_0_4
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_0_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_4_0]
+
+ObjectTemplate.create SpawnPoint ss_16_village_4_0
+ObjectTemplate.setSpawnId 30
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_4_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_5]
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_5
+ObjectTemplate.setSpawnId 37
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Allied_HQ_6_0]
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_5
+ObjectTemplate.setSpawnId 49
+ObjectTemplate.setGroup 4
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Hillside_farm_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Hillside_farm_6]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_6_0
+ObjectTemplate.setSpawnId 54
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_6_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_7_0]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_3
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_4]
+
+ObjectTemplate.create SpawnPoint ss_16_village_10
+ObjectTemplate.setSpawnId 46
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_11]
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_6
+ObjectTemplate.setSpawnId 50
+ObjectTemplate.setGroup 4
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Hillside_farm_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Hillside_farm_7]
+
+ObjectTemplate.create SpawnPoint ss_16_axis_hq_7_0
+ObjectTemplate.setSpawnId 55
+ObjectTemplate.setGroup 2
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Axis_HQ_7_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_8]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_4
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_0_2]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_10
+ObjectTemplate.setSpawnId 42
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_11]
+
+ObjectTemplate.create SpawnPoint ss_16_village_9
+ObjectTemplate.setSpawnId 45
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_9
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_10]
+
+ObjectTemplate.create SpawnPoint ss_16_village_11
+ObjectTemplate.setSpawnId 47
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_11
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_12]
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_7
+ObjectTemplate.setSpawnId 51
+ObjectTemplate.setGroup 4
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Hillside_farm_7
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Hillside_farm_8]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_5
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_6]
+
+ObjectTemplate.create SpawnPoint ss_16_allied_hq_8
+ObjectTemplate.setSpawnId 40
+ObjectTemplate.setGroup 1
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Allied_HQ_8
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_9]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_11
+ObjectTemplate.setSpawnId 43
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_11
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Lighthouse_12]
+
+ObjectTemplate.create SpawnPoint ss_16_village_12
+ObjectTemplate.setSpawnId 48
+ObjectTemplate.setGroup 6
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Village_12
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Hillside_farm_5]
+
+ObjectTemplate.create SpawnPoint ss_16_hillside_farm_8
+ObjectTemplate.setSpawnId 52
+ObjectTemplate.setGroup 4
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Hillside_farm_8
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Axis_HQ_5]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_6
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_5_0]
+
+ObjectTemplate.create SpawnPoint ss_16_lighthouse_12
+ObjectTemplate.setSpawnId 44
+ObjectTemplate.setGroup 5
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Lighthouse_12
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Village_9]
+
+ObjectTemplate.create SpawnPoint ss_16_farm_0_3
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_0_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_0_4]
+
+ObjectTemplate.create SpawnPoint ss_16_farm_1
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 3
+rem ObjectTemplate.activeSafe SpawnPoint SS_16_Farm_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+rem [SpawnPointTemplate: SS_16_Farm_2]
+

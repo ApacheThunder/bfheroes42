@@ -1,0 +1,27 @@
+if v_arg1 == host
+
+rem * Team 1 Attack *
+aiStrategy.createConstantCondition TeamAACond Crisp EqualGreater Enemy ControlPoint 0
+aiStrategy.setConditionStrength Required
+
+rem * Team 1 Defend *
+aiStrategy.createConstantCondition TeamABCond Crisp EqualSmaller Friendly UnitConstant 0
+aiStrategy.setConditionStrength Required
+
+rem * Team 1 Repulse *
+aiStrategy.createConstantCondition TeamACCond Crisp EqualSmaller Friendly UnitConstant 0
+aiStrategy.setConditionStrength Required
+
+rem * Team 2 Attack *
+aiStrategy.createConstantCondition TeamBACond Crisp EqualGreater Enemy ControlPoint 0
+aiStrategy.setConditionStrength Required
+
+rem * Team 2 Defend *
+aiStrategy.createConstantCondition TeamBBCond Crisp EqualSmaller Friendly UnitConstant 0
+aiStrategy.setConditionStrength Required
+
+rem * Team 2 Repulse *
+aiStrategy.createConstantCondition TeamBCCond Crisp EqualSmaller Friendly UnitConstant 0
+aiStrategy.setConditionStrength Required
+
+endIf

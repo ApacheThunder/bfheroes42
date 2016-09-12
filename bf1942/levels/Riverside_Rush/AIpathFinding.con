@@ -1,0 +1,15 @@
+if v_arg1 == host
+
+ai.addSearchMap Tank0 0 0 30 1.0 0.3 2.5 0
+ai.addSearchType Tank 0 0
+ai.setSmoothing 0 20
+
+ai.addSearchMap Infantry1 0 1.5 40 0.1 0.4 2.0 1
+ai.addSearchType Infantry 1 0
+ai.setSmoothing 1 10
+
+ai.loadMaps
+
+endif
+
+

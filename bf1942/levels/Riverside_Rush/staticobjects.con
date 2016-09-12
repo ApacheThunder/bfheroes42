@@ -1,0 +1,3791 @@
+rem
+rem *** Init Map Addons ***
+rem
+include Init/Undergrowth.con
+include Init/Mods.con
+rem
+rem *** CaptainShop ***
+rem
+Object.create bri_captainshopbundle
+Object.absolutePosition 332.497/26.9111/158.649
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ger_captainshopbundle
+Object.absolutePosition 154.535/27.3164/346.972
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_chimnysmoke
+Object.absolutePosition 225.807/33.48/262.857
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_chimnysmoke
+Object.absolutePosition 279.516/35.415/286.82
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_chimnysmoke
+Object.absolutePosition 217.575/33.261/213.825
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_chimnysmoke
+Object.absolutePosition 241.438/33.144/288.985
+Object.Rotation 179.8/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_chimnysmoke
+Object.absolutePosition 274.447/34.226/178.467
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_fireflies
+Object.absolutePosition 241.638/24.965/193.006
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_fireflies
+Object.absolutePosition 205.87/23.502/316.482
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_fireflies
+Object.absolutePosition 227.424/22.75/283.104
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 287.701/19/222.712
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 232.742/19/230.554
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 203.445/19/298.085
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_seawakeedge
+Object.absolutePosition 245.13/19/299.014
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create basket_01_empty
+Object.absolutePosition 262.923/24.197/177.547
+Object.Rotation 0.500068/5.49999/-1.69996
+rem
+rem ***  ***
+rem
+Object.create basket_01_empty
+Object.absolutePosition 225.847/23.323/283.704
+Object.Rotation -1/-63.3/1
+rem
+rem ***  ***
+rem
+Object.create basket_01_empty
+Object.absolutePosition 240.892/23.126/274.618
+Object.Rotation -1/-63.9/1
+rem
+rem ***  ***
+rem
+Object.create basket_01_empty
+Object.absolutePosition 242.15/22.74/274.972
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create basket_01_empty
+Object.absolutePosition 204.599/24.273/316.478
+Object.Rotation -31.7/-1.19869e-007/-21.1
+rem
+rem ***  ***
+rem
+Object.create basket_01_empty
+Object.absolutePosition 263.039/24.368/175.407
+Object.Rotation 0.699975/11.6/179.799
+rem
+rem ***  ***
+rem
+Object.create basket_01_grain
+Object.absolutePosition 224.794/23.073/283.272
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create basket_01_grain
+Object.absolutePosition 251.141/22.915/284.82
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create basket_01_grain
+Object.absolutePosition 223.815/23.049/282.413
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create basket_01_grain
+Object.absolutePosition 241.022/22.786/275.657
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create cable_8m
+Object.absolutePosition 291.422/30.083/269.367
+Object.Rotation 37.8/0.800011/2.00008
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 193.071/28.189/343.758
+Object.Rotation 116.1/3.5/-4.69999
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 298.896/26.884/243.207
+Object.Rotation -0.799908/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 298.55/26.884/227.233
+Object.Rotation 3.00003/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 293.131/26.884/213.384
+Object.Rotation 37.4/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 264.663/28.359/325.599
+Object.Rotation 178/8.10001/-3.40001
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 172.998/29.455/383.131
+Object.Rotation 131.1/-2.8/-1.39998
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 254.443/25.518/297.294
+Object.Rotation 178.3/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 193.881/26.693/202.51
+Object.Rotation 93.9/3/-6.79999
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 281.166/25.234/271.118
+Object.Rotation -89.4/4.49999/-3.10003
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 283.034/27.028/200.958
+Object.Rotation 40.3/0.300009/-1.10003
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 184.738/28.962/354.641
+Object.Rotation 166.6/1.99999/-0.300014
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 181.036/29.527/370.202
+Object.Rotation 166.6/1.99999/-0.300014
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 296.638/26.521/258.406
+Object.Rotation -17/2.89999/-0.900269
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 270.579/26.931/192.503
+Object.Rotation 69.6/-1.4/-1.39998
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 256.009/27.165/193.45
+Object.Rotation 114.7/2.69999/-1.29996
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 241.688/27.108/199.708
+Object.Rotation 112.6/-3/-1.29996
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 225.915/26.7/203.017
+Object.Rotation 89.9/-0.8/-6.00002
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 209.986/26.42/202.404
+Object.Rotation 86/-1.2/-5.89997
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 181.031/29.204/209.432
+Object.Rotation 140.5/14.3/0.599705
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 255.875/25.278/281.491
+Object.Rotation 171.4/1.30001/-0.799908
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 259.93/26.375/310.992
+Object.Rotation -138.4/5.5/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_02
+Object.absolutePosition 256.55/21.578/272.353
+Object.Rotation -89.5/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_02
+Object.absolutePosition 294.1/22.603/266.888
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_cluster_01
+Object.absolutePosition 150.643/30.395/389.445
+Object.Rotation 94.8/3/-1.90002
+rem
+rem ***  ***
+rem
+Object.create cablepole_cluster_01
+Object.absolutePosition 248.223/28.953/335.984
+Object.Rotation 102.2/-3.1/-0.0989117
+rem
+rem ***  ***
+rem
+Object.create cablepole_cluster_01
+Object.absolutePosition 120.581/30.987/383.11
+Object.Rotation 61.5/-0.7/-3.20002
+rem
+rem ***  ***
+rem
+Object.create cablepole_cluster_01
+Object.absolutePosition 92.485/30.601/367.878
+Object.Rotation 61.5/-0.7/-3.20002
+rem
+rem ***  ***
+rem
+Object.create cablepole_cluster_01
+Object.absolutePosition 216.425/28.089/339.404
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 218.44/26.883/217.446
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 278.239/26.218/289.192
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 277.199/24.849/276.471
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 308.489/19.643/271.08
+Object.Rotation 44.5/7.60001/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 289.234/25.118/282.509
+Object.Rotation -4.50002/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 222.807/19.683/224.758
+Object.Rotation -28.8/-1.42249e-007/90
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 224.104/19.6/224.557
+Object.Rotation 6.29999/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 278.239/25.113/289.192
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 278.535/25.077/210.698
+Object.Rotation -0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 278.535/23.983/210.698
+Object.Rotation -90.4/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 216.179/23.965/311.168
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 267.071/25.277/279.147
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 267.071/25.277/280.273
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 309.375/20.198/290.929
+Object.Rotation 44.5/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 308.92/20.062/292.11
+Object.Rotation 44.5/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 293.611/24.146/226.835
+Object.Rotation 76.2/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 220.804/23.952/312.786
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_02
+Object.absolutePosition 227.432/23.265/213.413
+Object.Rotation -97.4/1.3/-1.39998
+rem
+rem ***  ***
+rem
+Object.create crate_02
+Object.absolutePosition 327.593/29.369/184.979
+Object.Rotation -128.9/3.79999/2.30002
+rem
+rem ***  ***
+rem
+Object.create crate_02
+Object.absolutePosition 227.39/22.798/213.34
+Object.Rotation -89.4/1.49999/-1.19992
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 277.335/25.144/289.13
+Object.Rotation 0/0/60.8
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 289.249/25.93/282.732
+Object.Rotation 171.7/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 223.97/23.495/258.285
+Object.Rotation -30.7/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 266.794/26.038/279.16
+Object.Rotation 90.3/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 221.342/26.598/219.076
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 220.416/26.598/219.076
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 222.262/26.598/219.076
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 266.798/26.038/280.123
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 266.333/25.865/282.248
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 238.542/23.114/230.013
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 152.71/28.637/333.684
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 160.88/28.719/348.916
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 165.819/28.798/325.193
+Object.Rotation 90/0/-1.99998
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 269.476/25.333/160.709
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 252.163/23.148/237.686
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 212.588/23.661/218.944
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 170.859/28.729/348.947
+Object.Rotation -90.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 183.576/28.715/318.995
+Object.Rotation -0.199792/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 238.638/23.519/291.021
+Object.Rotation -89.8/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 247.606/23.811/273.853
+Object.Rotation 88.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 234.892/23.647/286.112
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 191.021/28.753/340.057
+Object.Rotation 139.2/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 326.561/27.582/143.215
+Object.Rotation 50.6/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 200.007/23.833/207.111
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 198.301/23.815/209.282
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 228.944/23.467/218.767
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 275.921/25.875/274.272
+Object.Rotation 91.1/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 172.601/28.67/338.987
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 184.583/28.271/347.702
+Object.Rotation -39.8/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 211.692/23.925/267.752
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 213.367/23.902/265.791
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 188.486/28.731/342.995
+Object.Rotation 139.2/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 331.768/27.953/177.509
+Object.Rotation -89.6/-0.3/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 152.542/28.658/347.201
+Object.Rotation -175.5/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 203.058/24.125/271.393
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 249.481/23.806/272.223
+Object.Rotation 178.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 271.195/25.299/152.597
+Object.Rotation 88.9/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 277.675/25.04/175.474
+Object.Rotation -89.1/1.89999/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 289.086/25.195/262.076
+Object.Rotation -179.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 226.739/24.451/284.393
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 301.971/25.098/210.997
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 190.09/24.142/270.539
+Object.Rotation -91.6/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 333.699/27.971/173.217
+Object.Rotation -3.20002/0/-0.300014
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 289.161/25.167/267.922
+Object.Rotation -179.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 201.767/24.115/277.325
+Object.Rotation 90.6/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 320.781/27.963/170.805
+Object.Rotation -88.2/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 261.744/23.26/221.348
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 239.542/23.793/273.963
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 261.744/23.26/229.291
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 174.087/28.784/321.506
+Object.Rotation 179.8/0.700013/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 321.451/27.536/143.631
+Object.Rotation 109/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 307.465/27.536/150.229
+Object.Rotation 134.8/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 292.76/25.199/259.794
+Object.Rotation 90.6/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 185.927/24.112/266.722
+Object.Rotation 178.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 270.007/25.859/274.405
+Object.Rotation 91.1/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 172.582/28.66/344.912
+Object.Rotation -0.199792/-0.7/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 313.96/27.536/146.215
+Object.Rotation 109/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 191.049/24.249/277.263
+Object.Rotation 88.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 303.693/25.134/206.838
+Object.Rotation 0/-0.3/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 202.522/23.796/218.886
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 245.583/23.762/255.965
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 198.274/23.814/215.174
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 186.212/23.931/255.766
+Object.Rotation 178.4/0.599991/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 242.241/23.111/221.776
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 315.096/27.898/167.686
+Object.Rotation -154.8/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 264.317/24.986/186.6
+Object.Rotation 179.8/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 190.186/28.856/327.307
+Object.Rotation 85.3/0/-0.699975
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 333.164/27.612/155.695
+Object.Rotation 15.1/0.0999926/-0.300014
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 210.313/23.657/218.963
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 194.516/28.849/327.66
+Object.Rotation 85.3/0/-0.699975
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 261.763/23.221/233.602
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 329.403/27.954/177.491
+Object.Rotation -89.6/-0.3/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 273.351/25.166/152.731
+Object.Rotation 1.99998/0/1.90002
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 264.455/24.964/182.46
+Object.Rotation 1.99998/0/1.90002
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 246.383/23.039/221.868
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 202.095/23.809/207.122
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 186.345/23.818/251.412
+Object.Rotation 178.4/0.599991/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 231.219/23.424/218.748
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 299.77/25/211.132
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 174.102/28.723/317.162
+Object.Rotation 179.8/0.700013/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 195.403/24.227/277.396
+Object.Rotation 88.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 186.061/24.104/262.368
+Object.Rotation 178.4/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 243.905/23.154/237.742
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 296.795/25.182/259.794
+Object.Rotation 90.6/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 243.318/23.793/274.074
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 183.147/28.182/349.411
+Object.Rotation -39.2/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 204.995/24.083/277.281
+Object.Rotation 90.6/0.800006/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 236.429/23.587/291.116
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 249.359/23.757/256.076
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 313.246/27.892/163.755
+Object.Rotation -154.8/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 334.164/27.671/159.627
+Object.Rotation 15.1/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 275.384/24.962/175.608
+Object.Rotation 1.99998/0/1.90002
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 224.426/24.364/284.452
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 200.919/24.18/271.363
+Object.Rotation -91.5/-0.8/0.100871
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 183.56/28.773/321.287
+Object.Rotation -0.199792/-0.7/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 328.226/27.602/144.596
+Object.Rotation 50.6/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 288.83/23.777/218.445
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 288.827/23.777/233.718
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 214.853/22.607/262.894
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 176.349/22.678/276.007
+Object.Rotation 90/2.2/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 299.095/23.774/233.208
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 234.352/22.833/287.777
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 195.071/23.49/276.729
+Object.Rotation 90/2.20001/-1.29996
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 185.559/23.404/271.003
+Object.Rotation 90/2.2/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 224.569/22.823/210.421
+Object.Rotation 0.199792/-1.7/-0.199792
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 252.506/23.329/213.769
+Object.Rotation 0.199792/-1.7/-0.199792
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 249.099/22.9/229.57
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 214.944/22.769/210.457
+Object.Rotation 0.199792/-1.7/2.10003
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 262.299/23.918/197.532
+Object.Rotation -18/-0.5/1.69996
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 274.878/23.816/182.479
+Object.Rotation 0.199792/2.70001/-0.199792
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 288.548/23.722/271.839
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 174.79/27.39/318.674
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 182.721/27.379/318.519
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 281.091/23.946/273.335
+Object.Rotation 0/0/-0.300014
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 229.068/22.607/272.985
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 194.689/23.318/270.835
+Object.Rotation 90/2.20001/-1.29996
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 252.051/22.63/285.211
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 206.238/22.544/223.447
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 241.854/22.619/261.713
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 242.874/22.607/273.351
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 215.652/23.454/297.667
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 183.433/28.077/228.318
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 229.818/22.544/223.447
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 235.884/22.618/281.979
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 249.904/22.45/250.178
+Object.Rotation 0/-3.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 248.715/22.615/269.066
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 210.001/22.611/250.149
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 298.858/23.738/286.133
+Object.Rotation 0/-3.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 230.162/22.449/250.188
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 219.26/22.607/239.377
+Object.Rotation 0/0/-1.69996
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 299.238/23.777/218.011
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 274.98/22.574/250.412
+Object.Rotation 0/0/4.19997
+rem
+rem ***  ***
+rem
+Object.create maketstand_01
+Object.absolutePosition 221.587/24.329/281.075
+Object.Rotation 177.4/0/0
+rem
+rem ***  ***
+rem
+Object.create maketstand_01
+Object.absolutePosition 238.591/24.047/275.666
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create maketstand_01
+Object.absolutePosition 214.167/24.049/270.882
+Object.Rotation 78.9/0/0
+rem
+rem ***  ***
+rem
+Object.create maketstand_01
+Object.absolutePosition 251.437/24.04/274.87
+Object.Rotation 84.3/0/0
+rem
+rem ***  ***
+rem
+Object.create maketstand_01
+Object.absolutePosition 247.906/24.047/276.224
+Object.Rotation 2.70001/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_01
+Object.absolutePosition 187.959/29.701/278.78
+Object.Rotation -78.4/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_01
+Object.absolutePosition 245.386/30.886/208.861
+Object.Rotation -78.4/-0.3/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_01
+Object.absolutePosition 228.619/31.044/185.951
+Object.Rotation -78.4/4.6/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_01
+Object.absolutePosition 259.222/30.02/190.092
+Object.Rotation -78.4/4.6/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 270.577/31.875/158.529
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 277.321/32.016/272.876
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 294.69/31.573/191.417
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 279.721/31.811/167.56
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 288.117/31.485/268.804
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 291.375/32.306/282.712
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 281.99/31.566/206.391
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 170.487/32.21/229.875
+Object.Rotation 64.3/9.5/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 298.312/29.691/322.687
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 225.923/30.619/368.242
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 243.793/30.818/327.867
+Object.Rotation 79/0/-11.2
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 214.898/29.609/181.652
+Object.Rotation 33.1/8.99999/-1.6001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 239.833/28.093/223.758
+Object.Rotation 101.7/-8.3/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 154.658/31.908/353.094
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 236.098/31.136/179.109
+Object.Rotation 33.1/8.99999/-1.6001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 206.863/28.227/262.441
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 282.615/28.339/247.121
+Object.Rotation 178.6/0/-8.39999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 331.278/31.306/140.515
+Object.Rotation -1.99998/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 195.209/27.642/234.522
+Object.Rotation 111.6/1.4/3.29996
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 337.605/31.57/148.106
+Object.Rotation 156/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 120.236/37.697/352.543
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 266.123/28.394/212.756
+Object.Rotation 156/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 175.209/27.557/273.745
+Object.Rotation 88.2/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 291.18/30.127/338.315
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 171.185/32.258/213.275
+Object.Rotation 0.100871/0/0.400074
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 276.348/29.869/320.128
+Object.Rotation 141.9/8.1/-6.30002
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 92.064/30.907/282.731
+Object.Rotation -132.4/-3.8/1.00015
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 236.586/27.996/292.065
+Object.Rotation -98.7/8.29999/-1.10003
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 300.545/29.018/209.175
+Object.Rotation 90/0/3.40001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 287.424/34.375/160.337
+Object.Rotation 0/-3.6/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 321.282/31.189/145.774
+Object.Rotation 25.2/-8.60001/-3.50001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 232.611/27.583/268.117
+Object.Rotation 178.6/0/-8.39999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 257.575/28.159/219.383
+Object.Rotation 156/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 239.179/29.819/195.613
+Object.Rotation 0.599705/9.30002/8.9
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 319.76/31.722/163.599
+Object.Rotation -36.4/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 173.24/27.811/281.228
+Object.Rotation -91.8/5.5/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 223.751/29.923/177.043
+Object.Rotation 146.4/5.80001/-2.29993
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 171.704/32.395/200.749
+Object.Rotation 74.6/-0.400001/-6.19998
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 348.395/26.277/283.94
+Object.Rotation 93.3/-2.8/-6.49999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 81.856/33.233/153.294
+Object.Rotation -132.4/-3.8/1.00015
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 195.616/29.441/292.395
+Object.Rotation -48.4/-1.3/-3.69999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 395.541/41.559/197.637
+Object.Rotation 25.2/-8.60001/-3.50001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 315.988/34.246/179.51
+Object.Rotation 62.2/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 350.466/34.589/110.016
+Object.Rotation 25.2/-8.60001/-3.50001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 201.712/27.607/213.679
+Object.Rotation 133.1/-2/8.8
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 331.264/32.021/176.166
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 347.528/30.953/179.575
+Object.Rotation 133.1/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 254.02/27.571/239.884
+Object.Rotation 156/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 255.428/29.342/183.681
+Object.Rotation -106.5/-8/0.499677
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 287.692/29.151/175.138
+Object.Rotation -94.1/3.8/-9.60001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 289.903/28.753/262.461
+Object.Rotation 178.6/0/-8.39999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_03
+Object.absolutePosition 181.572/30.449/400.027
+Object.Rotation 0.19881/-14.9/-5.99999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_03
+Object.absolutePosition 172.803/30.517/400.437
+Object.Rotation 103.1/9.4/-13
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_03
+Object.absolutePosition 259.138/27.902/255.966
+Object.Rotation -24.5/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_03
+Object.absolutePosition 374.951/28.573/256.31
+Object.Rotation 27.7/5.09999/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_03
+Object.absolutePosition 220.693/30.516/374.616
+Object.Rotation -180/10.2/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_03
+Object.absolutePosition 202.045/30.22/256.604
+Object.Rotation -1.80005/-6.4/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au
+Object.absolutePosition 263.31/31.956/334.018
+Object.Rotation -139.1/0/5.1
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au
+Object.absolutePosition 242.221/31.036/347.358
+Object.Rotation -139.1/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au
+Object.absolutePosition 185.275/27.662/256.627
+Object.Rotation -18.5/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au
+Object.absolutePosition 177.482/31.861/354.063
+Object.Rotation -5.5/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 389.559/36.676/324.602
+Object.Rotation -0.699975/5.5/-5.19999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 360.189/35.613/62.744
+Object.Rotation -0.0989117/-6.4/2.19998
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 58.158/33.569/374.632
+Object.Rotation 62.8/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 187.566/28.007/172.049
+Object.Rotation -0.0989117/-6.4/-1.99998
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 206.697/33.627/350.822
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 342.142/29.103/338.2
+Object.Rotation -0.699975/5.5/7.09998
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 229.987/40.742/413.643
+Object.Rotation 0/0/-7.70001
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 152.761/28.727/310.388
+Object.Rotation -13.8/-5.2/-5.99999
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 285.001/36.043/56.535
+Object.Rotation 19.5/-6.8/-0.100871
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 89.549/29.783/203.348
+Object.Rotation 62.8/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 40.516/36.542/229.528
+Object.Rotation 62.8/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 199.944/28.862/316.836
+Object.Rotation 0/-8.7/-4.60002
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 80.364/31.872/261.211
+Object.Rotation 62.8/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 12.884/30.932/296.536
+Object.Rotation 62.8/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 230.135/32.814/87.566
+Object.Rotation -0.0989117/-6.4/-1.99998
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 277.59/24.831/201.634
+Object.Rotation 98.1/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 227.161/23.619/260.694
+Object.Rotation -179.7/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 226.765/23.614/277.532
+Object.Rotation -178.9/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 204.071/24.002/272.375
+Object.Rotation 94.5/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 244.876/23.619/254.462
+Object.Rotation -14/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 231.156/23.619/249.275
+Object.Rotation -80.5/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 316.424/27.666/168.552
+Object.Rotation -153/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 169.599/28.963/326.427
+Object.Rotation 83.8/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 295.925/24.732/291.977
+Object.Rotation 175.8/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 276.249/24.936/182.509
+Object.Rotation 90/-4.9/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_02
+Object.absolutePosition 209.122/24.047/312.139
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 267.412/25.81/325.755
+Object.Rotation 73.5/-5.5/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 226.358/25.953/343.343
+Object.Rotation 179.2/1.5/-5.30001
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 267.73/25.711/322.934
+Object.Rotation 134.2/-2.7/-4.8
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 177.469/28.17/349.452
+Object.Rotation 174.9/-8.8/-0.400074
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 199.615/24.374/180.531
+Object.Rotation 27.4/-1.1/1.20008
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 231.496/24.662/201.396
+Object.Rotation -180/-3.9/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 285.726/24.396/195.715
+Object.Rotation 110.5/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 318.58/27.206/149.444
+Object.Rotation 122.4/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 214.571/23.241/261.729
+Object.Rotation -180/-3.9/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 237.62/23.246/231.913
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_05
+Object.absolutePosition 323.549/27.37/169.565
+Object.Rotation 82.1/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_06
+Object.absolutePosition 213.406/24.091/296.914
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_07
+Object.absolutePosition 308.014/26.917/157.943
+Object.Rotation -40.8/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_07
+Object.absolutePosition 292.975/24.226/226.036
+Object.Rotation -72.4/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_07
+Object.absolutePosition 216.87/24.063/316.028
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_01
+Object.absolutePosition 303.095/21.038/282
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 174/20.256/297
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 186/21.3/297
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 304.005/21.405/267.023
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 288.006/20.256/219
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 278/20.256/233
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 169/20.256/236
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 235/20.256/230
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 171/20.256/292
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 171/20.256/284
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 275/20.256/238
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 299/21.407/216
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 156/21.3/269
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 280/20.256/219
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 262/20.256/249
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 208/20.256/249
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 272/20.256/219
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 267/20.256/240
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 288.979/21.407/230.046
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 275/20.256/246
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 267/21.407/300
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 299/21.407/224
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 299/21.407/232
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 270/20.256/249
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 235/20.256/238
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 235/20.256/222
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 307/21.407/316
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 286/20.256/233
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 255/21.3/300
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 303.996/21.407/296.993
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 267/21.407/308
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 255/21.3/308
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 215/20.256/238
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 267/20.256/224
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 220/20.256/235
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 201/20.256/234
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 215/20.256/246
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 288.979/21.407/222.046
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 225/20.256/238
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 201/20.256/226
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 304/21.407/311
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 267/20.256/232
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 159/21.3/274
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 148/21.3/269
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 225/20.256/246
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 206/21.3/297
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 186/20.256/239
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 299/21.407/252
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 218/20.256/223
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 250/20.256/243
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 242/20.256/249
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 284/21.407/311
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 171/20.256/264
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 187.999/20.256/249
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 174/21.3/311
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 206/21.3/311
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 284/21.407/297
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 238/21.3/297
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 159/21.3/294
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_long
+Object.absolutePosition 238/21.3/311
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 184.45/28.165/216.255
+Object.Rotation 170/4.1/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 306.988/23.77/310.825
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 281.707/24.275/150.361
+Object.Rotation 90.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 185.352/26.85/208.359
+Object.Rotation 170.4/11.1/-0.199792
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 183.774/28.448/224.21
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 184.693/27.626/212.333
+Object.Rotation 176.4/7.59999/0.500068
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 298.803/23.952/228.356
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 289.189/23.952/226.077
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 289.189/23.952/233.828
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 289.189/23.952/230.084
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 298.803/23.952/220.355
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 298.811/23.989/236.418
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 183.774/28.448/228.183
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 298.803/23.952/232.354
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 303.092/23.77/310.825
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 298.803/23.952/224.311
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 289.189/23.952/218.252
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 273.838/23.879/310.861
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 281.881/23.879/310.823
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 299.042/23.82/310.839
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 293.766/24.231/150.294
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 276.083/23.879/296.864
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 284.126/23.879/296.826
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 292.159/23.879/296.787
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 299.048/23.966/261.969
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 299.048/23.966/253.908
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 266.782/23.805/306.183
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 255.206/23.805/305.996
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 285.735/24.231/150.294
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 289.915/23.879/310.784
+Object.Rotation -89.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 296.222/23.881/296.793
+Object.Rotation -179.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 306.991/23.797/315.001
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 299.059/23.965/249.929
+Object.Rotation -86.5/-2/-2.90003
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 255.182/23.766/302
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 289.168/23.948/222.594
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 183.774/28.421/220.193
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 277.647/24.31/150.395
+Object.Rotation -179.3/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 266.758/23.766/302.187
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 293.978/23.881/310.79
+Object.Rotation -179.7/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 298.817/23.948/216.295
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_sign_01
+Object.absolutePosition 182.965/24.595/276.758
+Object.Rotation 111.4/3.00002/-3.10003
+rem
+rem ***  ***
+rem
+Object.create road_sign_01
+Object.absolutePosition 231.823/23.664/255.233
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_sign_01
+Object.absolutePosition 256.834/23.544/272.358
+Object.Rotation 110.7/0/5.5
+rem
+rem ***  ***
+rem
+Object.create road_sign_02
+Object.absolutePosition 254.549/24.842/310.201
+Object.Rotation 91/0/0
+rem
+rem ***  ***
+rem
+Object.create road_sign_02
+Object.absolutePosition 234.621/25.285/202.884
+Object.Rotation 0/0/2.70001
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 210.955/27.698/353.254
+Object.Rotation 95.7/23.6/-6.99998
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 243.93/20.371/162.805
+Object.Rotation 95.3/1.5/-5.4
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 338.977/18.542/285.11
+Object.Rotation -40.9/9.40002/18.3
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 233.086/16.39/155.505
+Object.Rotation -176.5/6.60002/-169.9
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 385.234/25.181/272.489
+Object.Rotation -176.5/6.60001/-19.5
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 120.779/32.836/351.122
+Object.Rotation 120.2/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 249.402/22.358/229.17
+Object.Rotation 98.2/2.50001/-6.40003
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 238.301/25.07/178.999
+Object.Rotation -177.1/-0.2/2.70001
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 316.063/18.302/309.585
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 200.188/18.656/145.152
+Object.Rotation -62.2/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 311.389/18.221/260.839
+Object.Rotation -143.5/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 308.623/18.468/251.657
+Object.Rotation 109.7/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 244.866/23.921/207.376
+Object.Rotation -173.1/-10.1/99.3
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 312.939/29.195/177.995
+Object.Rotation 1/-60.8/1
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 206.652/22.941/181.611
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 180.973/27.739/350.563
+Object.Rotation 14.5/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 324.368/29.283/181.819
+Object.Rotation -84.3/1.09998/8.8
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 230.823/23.126/214.885
+Object.Rotation -82.2/0.800014/-2.39996
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 181.195/27.818/319.456
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 176.661/27.789/316.512
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 326.511/29.896/186.629
+Object.Rotation -180/4.90002/-1.59998
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 328.931/29.596/184.848
+Object.Rotation -89.9/1.6/8.90002
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 311.052/26.86/158.704
+Object.Rotation 124.6/-2/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 288.384/24.703/278.836
+Object.Rotation -87.3/0/4.50002
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 274.91/24.022/189.072
+Object.Rotation 94.4/0/2.80002
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 268.525/24.77/287.675
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 224.694/23.078/255.704
+Object.Rotation -7.60001/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 218.444/25.047/313.485
+Object.Rotation -87.6/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 309.192/28.252/155.522
+Object.Rotation 131.1/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 184.822/29.609/324.146
+Object.Rotation -88.3/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 205.895/25.233/313.538
+Object.Rotation 0.199792/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 286.923/25.438/198.547
+Object.Rotation -69.1/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 290.983/25.581/269.771
+Object.Rotation 90/0/-1.20008
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 217.54/24.239/237.537
+Object.Rotation 0/-1.2/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 304.455/25.258/313.492
+Object.Rotation -90/0/1.20008
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 279.248/25.978/274.979
+Object.Rotation 0/-1.2/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 154.357/29.091/343.492
+Object.Rotation 179.2/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 275.771/25.618/152.445
+Object.Rotation 90.4/0/-1.99998
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 242.729/25.307/317.28
+Object.Rotation -87.8/0/2.49998
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 225.159/26.591/182.827
+Object.Rotation 61.6/-3.1/2.89996
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 285.237/24.682/241.257
+Object.Rotation 0.400074/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 265.016/25.488/201.644
+Object.Rotation -0.600031/0/-0.100871
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 316.02/28.168/150.884
+Object.Rotation 129.4/0.300008/-1.90002
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 206.898/25.078/284.564
+Object.Rotation 5.19999/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 185.799/29.211/343.867
+Object.Rotation -39.4/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 243.78/26.428/197.928
+Object.Rotation 130.7/0/0.100871
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 185.127/25.037/278.396
+Object.Rotation 89.1/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 323.54/29.602/178.31
+Object.Rotation 179.7/1.69999/-0.999951
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 264.205/24.26/262.915
+Object.Rotation 37.7/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 177.648/27.095/346.566
+Object.Rotation 32.4/-4.13327e-007/90
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 215.73/23.02/236.115
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 179.978/27.922/349.243
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 215.595/19.285/228.336
+Object.Rotation -30.2/5.5357e-007/60.3
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 302.622/24.007/315.387
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 301.946/24.007/315.701
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 223.252/23.01/220.137
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 178.489/28.081/347.736
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 272.051/20.797/299.946
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 212.486/20.631/299.911
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 302.008/20.684/260.296
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 232.085/19.66/228.055
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 272.1/19.651/243.933
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 224.638/20.631/299.907
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 227.899/19.673/243.946
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 249.938/20.696/299.911
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 168.1/19.638/282.151
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 212.1/19.646/243.944
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 168.1/19.638/270
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 203.9/19.66/228.056
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 269.885/19.65/224.067
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create stonebridge_large
+Object.absolutePosition 345.06/27.639/93
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create stonebridge_large
+Object.absolutePosition 178.773/24.013/303.283
+Object.Rotation 0/-5/0
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 178.693/28.273/230.91
+Object.Rotation 179.4/0/0.600031
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 173.585/28.296/226.191
+Object.Rotation 89.4/-0.2/0.400074
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 252.065/26.819/336.667
+Object.Rotation -150.6/0.999984/0.500068
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 268.349/25.203/328.024
+Object.Rotation 1.39998/-0.8/-2.70001
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 282.678/25.359/327.672
+Object.Rotation 1.39998/-0.8/1.10003
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 289.222/25.467/331.834
+Object.Rotation -64.2/0.699999/-0.799908
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 260.022/26.104/331.34
+Object.Rotation -137.9/0.800006/8.10002
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 243.122/26.123/339.95
+Object.Rotation -167.4/0.300022/-7.79999
+rem
+rem ***  ***
+rem
+Object.create storesign_01
+Object.absolutePosition 225.241/26.137/258.347
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create storesign_02
+Object.absolutePosition 241.247/26.818/261.934
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create storesign_03
+Object.absolutePosition 219.403/26.971/267.199
+Object.Rotation 0/-1.9/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01
+Object.absolutePosition 220.811/27.302/262.82
+Object.Rotation 0.999951/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01
+Object.absolutePosition 284.433/29.523/286.797
+Object.Rotation -179/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01
+Object.absolutePosition 246.414/27.253/289.079
+Object.Rotation -179.7/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01
+Object.absolutePosition 269.472/28.335/178.387
+Object.Rotation 0.500068/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01
+Object.absolutePosition 252.563/27.262/264.75
+Object.Rotation -89/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_storefront01
+Object.absolutePosition 246.811/24.302/287.046
+Object.Rotation -179.7/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_02
+Object.absolutePosition 193.976/32.677/333.792
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_02
+Object.absolutePosition 293.014/28.853/242.756
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_02
+Object.absolutePosition 208.702/28.275/274.615
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_02
+Object.absolutePosition 232.112/28.03/279.333
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_03
+Object.absolutePosition 219.255/28.438/288.561
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_03
+Object.absolutePosition 219.814/27.601/213.916
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_storefront03
+Object.absolutePosition 236.68/27.862/258.193
+Object.Rotation -178.7/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_03_terrace
+Object.absolutePosition 218.138/25.424/287.934
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_03_terrace
+Object.absolutePosition 220.901/23.797/214.778
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_01
+Object.absolutePosition 269.497/25.96/258.816
+Object.Rotation 35.7/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_01
+Object.absolutePosition 245.888/28.187/188.546
+Object.Rotation 40.7/1.49999/0.699975
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_01
+Object.absolutePosition 367.516/27.012/262.365
+Object.Rotation -69.1/0.199992/-1.59998
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_01
+Object.absolutePosition 166.707/31.836/344.036
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_01
+Object.absolutePosition 98.913/27.952/202.701
+Object.Rotation 54.2/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_01
+Object.absolutePosition 250.117/27.189/317.798
+Object.Rotation 95.9/0.100003/-1.09985
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 289.873/34.584/65.066
+Object.Rotation 0.899834/-1.8/3.30002
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 230.711/27.349/190.739
+Object.Rotation -92.6/1.45863e-007/-3.30002
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 178.311/25.358/264.424
+Object.Rotation 22.7/-0.5/1.10003
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 236.283/28.518/342.417
+Object.Rotation 176.9/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 302.946/26.732/195.458
+Object.Rotation -74.7/0/1.90002
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 89.618/27.052/270.276
+Object.Rotation 103/-0.1/1.29996
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 225.304/26.345/323.969
+Object.Rotation -9.49999/-4/1.80005
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 213.72/25.525/195.123
+Object.Rotation 88.7/0/1.49998
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 332.584/28.259/164.42
+Object.Rotation -90.4/0.400003/1.49998
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 280.777/26.588/335.99
+Object.Rotation -174.4/-1.5/-0.100871
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 176.794/29.464/221.671
+Object.Rotation 89.6/-0.4/-1.49998
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 156.252/28.752/327.362
+Object.Rotation 0.500068/1.49998/0.400074
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 271.911/25.248/203.09
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create vine_wall_01
+Object.absolutePosition 214.763/24.134/215.133
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create vine_wall_01
+Object.absolutePosition 299.1/25.335/242.534
+Object.Rotation -0.199792/0/0
+rem
+rem ***  ***
+rem
+Object.create vine_wall_01
+Object.absolutePosition 218.221/24.201/259.066
+Object.Rotation 89.8/0/0
+rem
+rem ***  ***
+rem
+Object.create vine_wall_01
+Object.absolutePosition 227.141/24.134/216.047
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 270.245/24.628/168.233
+Object.Rotation 114.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 208.036/24.055/315.417
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 280.097/24.384/196.637
+Object.Rotation 114.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 263.881/23.167/253.513
+Object.Rotation 179.8/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 230.477/24.416/201.902
+Object.Rotation 0/5.5/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 219.478/23.055/238.249
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 305.863/22.133/276.876
+Object.Rotation -133.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 241.266/23.168/290.457
+Object.Rotation 177.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 285.952/25.116/290.824
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 288.394/26.204/290.824
+Object.Rotation -129/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 245.822/23.055/274.557
+Object.Rotation 179.8/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 241.981/23.055/255.195
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 229.152/24.938/194.53
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 213.254/23.055/266.317
+Object.Rotation 63/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 248.527/23.059/269.645
+Object.Rotation 179.8/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 216.389/23.055/239.554
+Object.Rotation 85.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 286.772/26.204/290.824
+Object.Rotation 98.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 288.394/25.116/290.824
+Object.Rotation 114.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 287.581/26.204/290.824
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 287.581/25.116/290.824
+Object.Rotation 175.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 270.017/24.634/169.047
+Object.Rotation 114.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 212.447/23.055/266.353
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 236.214/23.062/282.535
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 286.772/25.116/290.824
+Object.Rotation -131.1/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 210.931/23.073/268.171
+Object.Rotation -149.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 263.497/24.35/202.89
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_bucket_01
+Object.absolutePosition 213.842/22.682/268.859
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 219.928/22.977/240.15
+Object.Rotation 72.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 230.404/23.68/272.719
+Object.Rotation 89.5/1.3/-76
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 294.603/24.272/226.581
+Object.Rotation 1/90/1
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 204.77/23.973/316.57
+Object.Rotation 144.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 264.054/25.016/204.332
+Object.Rotation 177.5/1.7/-89.8
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 270.384/24.54/211.39
+Object.Rotation 90/-2.7/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 287.091/24.345/248.233
+Object.Rotation 147.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 284.642/24.323/251.376
+Object.Rotation 137.2/-1.3/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 265.99/24.674/195.678
+Object.Rotation -90.6/0.9/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 281.669/24.138/253.872
+Object.Rotation 122/-3.1/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 288.423/24.656/202.831
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 282.577/24.705/196.41
+Object.Rotation -94.4/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 263.945/24.684/197.562
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 264.543/24.742/205.481
+Object.Rotation 0/0/2.70001
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 288.337/24.562/209.449
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 274.404/23.712/257.774
+Object.Rotation 111.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 266.403/24.309/211.39
+Object.Rotation 90/-2.7/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 86.384/26.794/278.059
+Object.Rotation 14.1/1.6/0.400074
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 212.432/25.417/182.826
+Object.Rotation -90.9/0/-1.69996
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 256.421/23.593/257.89
+Object.Rotation -0.199792/0.199988/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 208.292/25.291/186.668
+Object.Rotation -0.900051/1.70001/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 284.266/24.506/211.401
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 260.514/23.623/253.988
+Object.Rotation -90.2/0/-0.199792
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 232.365/24.991/198.492
+Object.Rotation 179.1/-4/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 260.004/25.109/182.312
+Object.Rotation -90.8/-1.9/-2.59993
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 252.168/25.335/183.042
+Object.Rotation -78.6/-1.3/-3.00003
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 208.166/25.054/194.637
+Object.Rotation -0.900051/1.70001/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 276.289/24.506/211.401
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 228.219/24.516/202.288
+Object.Rotation 89/-2/1.69996
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 268.742/25.272/279.402
+Object.Rotation 0/0/-114.6
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 324.784/30.011/186.109
+Object.Rotation 89/-27.6/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 280.542/24.78/196.259
+Object.Rotation -4.40002/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 278.867/24.201/209.023
+Object.Rotation 178.1/-56.8/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 268.744/25.286/278.843
+Object.Rotation -90/65.4/179.972
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 248.177/25.592/183.814
+Object.Rotation -78.6/-1.9/-3.00003
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 278.55/24.201/209.012
+Object.Rotation 178.1/-56.8/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 288.35/24.506/207.429
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 263.95/24.765/199.603
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 276.336/23.712/256.997
+Object.Rotation 111.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 288.197/24.345/246.47
+Object.Rotation 147.9/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 232.447/25.4/194.458
+Object.Rotation 179.1/-4.9/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 263.264/24.711/176.218
+Object.Rotation 0/0/-24.9
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 87.343/26.764/281.989
+Object.Rotation -165.9/-2.5/-0.400074
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 268.744/25.286/279.024
+Object.Rotation 180/0/114.6
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 268.739/25.273/279.217
+Object.Rotation 90/-65.4/-179.96
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 288.418/24.679/200.79
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 264.54/24.693/207.484
+Object.Rotation -180/0/-2.70001
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 288.192/20.477/216.901
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 256.413/23.663/261.945
+Object.Rotation -90.2/0/-0.199792
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 288.192/20.477/216.373
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 208.077/24.977/198.681
+Object.Rotation 179.1/-2.6/0
+rem
+rem ***  ***
+rem
+Object.create wooden_gate
+Object.absolutePosition 235.738/24.791/278.123
+Object.Rotation 122.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_gate
+Object.absolutePosition 294.2/25.598/246.516
+Object.Rotation 26.6/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_stairs_01
+Object.absolutePosition 189.169/25.668/229.682
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_stairs_01
+Object.absolutePosition 319.109/26.832/185.171
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 297.065/24.2/238.733
+Object.Rotation -91.2/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 170.034/23.04/238.126
+Object.Rotation 149/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 264.719/24.27/197.771
+Object.Rotation -178.5/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 288.609/24.184/195.84
+Object.Rotation 131/-0.399995/-88.5
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 262.817/24.541/181.662
+Object.Rotation -84.1/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 260.749/23.122/232.178
+Object.Rotation -1.90002/-0.2/3.79999
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 239.459/23.072/228.468
+Object.Rotation -180/0/-3.40001

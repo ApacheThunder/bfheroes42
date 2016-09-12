@@ -1,0 +1,135 @@
+if v_arg1 == host
+rem * Team1 *
+
+aiStrategy.createStrategy TeamAAttack
+aiStrategy.Aggression 1
+aiStrategy.NumberOfAttacks 3
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite TeamAAReq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  20.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  8.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Remote  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Remote  2.0 Neutral
+aiStrategy.setStrategicObjectsModifier Remote  6.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Flank  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Flank 15.0 Neutral
+aiStrategy.setStrategicObjectsModifier Flank  15.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Route  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Route  20.0 Neutral
+aiStrategy.setStrategicObjectsModifier Route  10.0 Hostile
+
+
+aiStrategy.createStrategy TeamADefend
+aiStrategy.Aggression 0.1
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite TeamABReq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  7.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Remote  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Remote  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Remote  7.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Base  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Base  3.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base  3.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Route  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Route  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Route  6.0 Hostile
+
+
+aiStrategy.createStrategy TeamARepulse
+aiStrategy.Aggression 1
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite TeamACReq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  16.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Flank  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Flank 5.0 Neutral
+aiStrategy.setStrategicObjectsModifier Flank  15.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Base  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Base  3.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base  3.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Route  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Route  2.0 Neutral
+aiStrategy.setStrategicObjectsModifier Route  10.0 Hostile
+
+rem * Team2 *
+aiStrategy.createStrategy TeamBAttack
+aiStrategy.Aggression 1
+aiStrategy.NumberOfAttacks 3
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite TeamBAReq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  20.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  8.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Remote  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Remote  2.0 Neutral
+aiStrategy.setStrategicObjectsModifier Remote  6.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Flank  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Flank 15.0 Neutral
+aiStrategy.setStrategicObjectsModifier Flank  15.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Route  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Route  20.0 Neutral
+aiStrategy.setStrategicObjectsModifier Route  10.0 Hostile
+
+
+aiStrategy.createStrategy TeamBDefend
+aiStrategy.Aggression 0.1
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite TeamBBReq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  7.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Remote  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Remote  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Remote  7.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Base  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Base  3.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base  3.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Route  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Route  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier Route  6.0 Hostile
+
+
+aiStrategy.createStrategy TeamBRepulse
+aiStrategy.Aggression 1
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite TeamBCReq
+aiStrategy.setStrategicObjectsModifier ControlPoint  1.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint  10.0 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint  16.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Flank  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Flank 5.0 Neutral
+aiStrategy.setStrategicObjectsModifier Flank  15.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Base  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Base  3.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base  3.0 Hostile
+
+aiStrategy.setStrategicObjectsModifier Route  1.0 Owned
+aiStrategy.setStrategicObjectsModifier Route  2.0 Neutral
+aiStrategy.setStrategicObjectsModifier Route  10.0 Hostile
+
+endIf

@@ -1,0 +1,32 @@
+GeometryTemplate.create patchTerrain patchGeometry
+GeometryTemplate.file bf1942\levels\Seaside_Skirmish_Nights\Heightmap
+GeometryTemplate.materialMap bf1942\levels\Seaside_Skirmish_Nights\Materialmap
+GeometryTemplate.materialSize 1024
+GeometryTemplate.targetTriCount 4096
+GeometryTemplate.worldSize 2048
+GeometryTemplate.yScale 0.781
+GeometryTemplate.texBaseName bf1942\levels\Seaside_Skirmish_Nights\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\Seaside_Skirmish_Nights\Textures\Detail
+GeometryTemplate.detailTexScale 0.2
+GeometryTemplate.waterLevel 99
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 512
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry patchGeometry
+ObjectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 1024
+
+Terrain.shadowAmbient 77/89/219
+Terrain.shadowBorderFadeTime 0.075
+Terrain.shadowSamplingCullY 10
+
+shadow.shadowColor 0.301/0.348/0.855

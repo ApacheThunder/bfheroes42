@@ -1,0 +1,64 @@
+if v_arg1 == host
+
+aiStrategicArea.create royal_hq 302.5/135 322.5/155 20
+aiStrategicArea.create national_hq 160/316 180/336 20
+aiStrategicArea.create boulevard 220/205 229/214 9
+aiStrategicArea.create market 266/179 276/189 10
+aiStrategicArea.create square 210/267 219/276 9
+aiStrategicArea.create toll_house 279/269 290/280 11
+
+aiStrategicArea.setActive royal_hq
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 330.1/156.3
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive national_hq
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 163.9/333.3
+aiStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive boulevard
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour royal_hq
+AIStrategicArea.addNeighbour national_hq
+AIStrategicArea.addNeighbour market
+AIStrategicArea.addNeighbour square
+AIStrategicArea.addNeighbour toll_house
+AIStrategicArea.setOrderPosition Infantry 230.2/208.6
+
+aiStrategicArea.setActive market
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour royal_hq
+AIStrategicArea.addNeighbour national_hq
+AIStrategicArea.addNeighbour boulevard
+AIStrategicArea.addNeighbour square
+AIStrategicArea.addNeighbour toll_house
+AIStrategicArea.setOrderPosition Infantry 276.3/185.8
+
+aiStrategicArea.setActive square
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour royal_hq
+AIStrategicArea.addNeighbour national_hq
+AIStrategicArea.addNeighbour boulevard
+AIStrategicArea.addNeighbour market
+AIStrategicArea.addNeighbour toll_house
+AIStrategicArea.setOrderPosition Infantry 218.8/273.8
+
+aiStrategicArea.setActive toll_house
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour royal_hq
+AIStrategicArea.addNeighbour national_hq
+AIStrategicArea.addNeighbour boulevard
+AIStrategicArea.addNeighbour market
+AIStrategicArea.addNeighbour square
+AIStrategicArea.setOrderPosition Infantry 286/279.7
+
+endIf

@@ -1,0 +1,32 @@
+rem
+rem ***  ***
+rem
+Object.create ss_16_lighthouse
+Object.absolutePosition 498.092/137.254/369.505
+rem
+rem ***  ***
+rem
+Object.create ss_16_axis_hq
+Object.absolutePosition 235.189/147.312/730.133
+rem
+rem ***  ***
+rem
+Object.create ss_16_allied_hq
+Object.absolutePosition 936.45/131.391/343.233
+rem
+rem ***  ***
+rem
+Object.create ss_16_village
+Object.absolutePosition 558.091/132.325/441.251
+rem
+rem ***  ***
+rem
+Object.create ss_16_hillside_farm
+Object.absolutePosition 381.036/147.862/582.935
+Object.rotation 45.112/0/0
+rem
+rem ***  ***
+rem
+Object.create ss_16_farm
+Object.absolutePosition 758.628/127.828/376.133
+Object.rotation 23.503/0/0

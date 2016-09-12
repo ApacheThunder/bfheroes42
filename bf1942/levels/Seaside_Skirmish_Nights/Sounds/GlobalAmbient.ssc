@@ -1,0 +1,8 @@
+newPatch
+load @ROOT/Sound/@RTD/west_sfx_ambience_lv01_night.wav
+stereo
+loop
+minDistance 300000
+priority -10
+dopplerOff
+volume .6

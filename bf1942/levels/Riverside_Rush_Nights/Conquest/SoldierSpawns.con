@@ -1,0 +1,144 @@
+rem ***  
+Object.create toll_house_axis4_0
+Object.absolutePosition 280.289/23.662/295.808
+Object.rotation -155.341/0.0/0.0
+
+rem ***  
+Object.create toll_house_axis3_0
+Object.absolutePosition 273.096/21.394/300.574
+Object.rotation -114.283/0.0/0.0
+
+rem ***  
+Object.create toll_house_axis2_0
+Object.absolutePosition 285.226/24.386/292.392
+Object.rotation 90.996/0.0/0.0
+
+rem ***  
+Object.create toll_house_axis1_0
+Object.absolutePosition 305.834/21.638/292.403
+Object.rotation 178.322/0.0/0.0
+
+rem ***  
+Object.create square_4
+Object.absolutePosition 237.173/23.507/295.297
+Object.rotation -147.362/0.0/0.0
+
+rem ***  
+Object.create square_3
+Object.absolutePosition 227.139/23.191/288.158
+Object.rotation 74.114/0.0/0.0
+
+rem ***  
+Object.create square_2
+Object.absolutePosition 186.653/24.002/281.8
+Object.rotation 126.126/0.0/0.0
+
+rem ***  
+Object.create square_1
+Object.absolutePosition 215.911/23.601/297.384
+Object.rotation -143.047/0.0/0.0
+
+rem ***  
+Object.create royal_hq_7
+Object.absolutePosition 325.697/26.878/169.763
+Object.rotation 0.28324/0.0/0.0
+
+rem ***  
+Object.create royal_hq_6
+Object.absolutePosition 334.457/26.157/137.637
+Object.rotation -4.80799/0.0/0.0
+
+rem ***  
+Object.create royal_hq_4
+Object.absolutePosition 339.916/26.679/145.328
+Object.rotation -78.9/0.0/0.0
+
+rem ***  
+Object.create royal_hq_3
+Object.absolutePosition 328.865/26.754/163.28
+Object.rotation -6.39399/0.0/0.0
+
+rem ***  
+Object.create royal_hq_2
+Object.absolutePosition 329.863/26.31/140.731
+Object.rotation -7.014/0.0/0.0
+
+rem ***  
+Object.create royal_hq_1
+Object.absolutePosition 334.722/26.472/150.043
+Object.rotation -71.422/0.0/0.0
+
+rem ***  
+Object.create national_hq_7
+Object.absolutePosition 197.468/27.048/333.992
+Object.rotation 89.447/0.0/0.0
+
+rem ***  
+Object.create national_hq_6
+Object.absolutePosition 173.785/28.082/332.342
+Object.rotation 146.579/0.0/0.0
+
+rem ***  
+Object.create national_hq_5
+Object.absolutePosition 200.534/26.856/338.594
+Object.rotation 131.678/0.0/0.0
+
+rem ***  
+Object.create national_hq_3_0
+Object.absolutePosition 203.523/26.62/329.92
+Object.rotation 91.145/0.0/0.0
+
+rem ***  
+Object.create national_hq_2_0
+Object.absolutePosition 169.768/28.039/330.898
+Object.rotation 129.567/0.0/0.0
+
+rem ***  
+Object.create national_hq_1_0
+Object.absolutePosition 175.936/27.81/323.848
+Object.rotation 143.798/0.0/0.0
+
+rem ***  
+Object.create market_allies_04_0
+Object.absolutePosition 306.025/24.091/192.512
+Object.rotation 15.947/0.0/0.0
+
+rem ***  
+Object.create market_allies_04
+Object.absolutePosition 312.447/23.678/186.002
+Object.rotation -63.951/0.0/0.0
+
+rem ***  
+Object.create market_allies_03
+Object.absolutePosition 265.611/23.541/167.581
+Object.rotation -3.38298/0.0/0.0
+
+rem ***  
+Object.create market_allies02
+Object.absolutePosition 279.605/23.66/155.627
+Object.rotation -28.45/0.0/0.0
+
+rem ***  
+Object.create market_allies01
+Object.absolutePosition 272.495/23.727/156.292
+Object.rotation 17.226/0.0/0.0
+
+rem ***  
+Object.create boulevard_allies3_0
+Object.absolutePosition 235.936/25.907/181.004
+Object.rotation -5.645/0.0/0.0
+
+rem ***  
+Object.create boulevard_allies2_0
+Object.absolutePosition 212.627/24.402/177.989
+Object.rotation 50.285/0.0/0.0
+
+rem ***  
+Object.create boulevard_allies1_0
+Object.absolutePosition 233.049/25.352/184.081
+Object.rotation 28.47/0.0/0.0
+
+rem ***  
+Object.create boulevard_allies
+Object.absolutePosition 224.578/24.772/175.868
+Object.rotation 40.013/0.0/0.0

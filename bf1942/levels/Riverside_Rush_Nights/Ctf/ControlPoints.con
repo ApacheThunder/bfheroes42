@@ -1,0 +1,27 @@
+if v_arg1 == host
+
+Object.create royal_hq
+Object.absolutePosition 322.5/26.5/154.8
+Object.rotation 0/0/0
+
+Object.create national_hq
+Object.absolutePosition 180.27/28/335.9
+Object.rotation 0/0/0
+
+Object.create boulevard
+Object.absolutePosition 229.257/22.759/214.088
+Object.rotation -95.778/0.0/0.0
+
+Object.create market
+Object.absolutePosition 275.885/23.826/189.312
+Object.rotation 0.0/0.0/0.0
+
+Object.create square
+Object.absolutePosition 218.686/22.792/276.175
+Object.rotation 0.0/0.0/0.0
+
+Object.create toll_house
+Object.absolutePosition 289.347/24.726/279.771
+Object.rotation 113.187/0.0/0.0
+
+endIf

@@ -1,0 +1,24 @@
+rem
+rem *** Damn ladders won't work. Removed and left in this file for reference. ***
+rem
+Object.create quaypart_ladder
+Object.absolutePosition 298.817/19.458/298.325
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_ladder
+Object.absolutePosition 294.535/19.4732/309.672
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_ladder
+Object.absolutePosition 300.31/19.4593/248.464
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_ladder
+Object.absolutePosition 300.325/19.4799/237.715
+Object.Rotation -90/0/0

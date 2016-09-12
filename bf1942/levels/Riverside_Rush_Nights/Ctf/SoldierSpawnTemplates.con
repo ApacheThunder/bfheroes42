@@ -1,0 +1,203 @@
+ObjectTemplate.create SpawnPoint royal_hq_1
+ObjectTemplate.activeSafe SpawnPoint royal_hq_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setSpawnId 1
+
+
+ObjectTemplate.create SpawnPoint royal_hq_2
+ObjectTemplate.activeSafe SpawnPoint royal_hq_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setSpawnId 2
+
+ObjectTemplate.create SpawnPoint royal_hq_3
+ObjectTemplate.activeSafe SpawnPoint royal_hq_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setSpawnId 3
+
+ObjectTemplate.create SpawnPoint royal_hq_4
+ObjectTemplate.activeSafe SpawnPoint royal_hq_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setSpawnId 4
+
+ObjectTemplate.create SpawnPoint royal_hq_6
+ObjectTemplate.activeSafe SpawnPoint royal_hq_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setSpawnId 5
+
+ObjectTemplate.create SpawnPoint royal_hq_7
+ObjectTemplate.activeSafe SpawnPoint royal_hq_7
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setSpawnId 6
+
+ObjectTemplate.create SpawnPoint national_hq_2_0
+ObjectTemplate.activeSafe SpawnPoint national_hq_2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setSpawnId 7
+
+ObjectTemplate.create SpawnPoint national_hq_3_0
+ObjectTemplate.activeSafe SpawnPoint national_hq_3_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setSpawnId 8
+
+ObjectTemplate.create SpawnPoint national_hq_1_0
+ObjectTemplate.activeSafe SpawnPoint national_hq_1_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setSpawnId 9
+
+ObjectTemplate.create SpawnPoint national_hq_5
+ObjectTemplate.activeSafe SpawnPoint national_hq_5
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setSpawnId 10
+
+ObjectTemplate.create SpawnPoint national_hq_6
+ObjectTemplate.activeSafe SpawnPoint national_hq_6
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setSpawnId 11
+
+ObjectTemplate.create SpawnPoint national_hq_7
+ObjectTemplate.activeSafe SpawnPoint national_hq_7
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 2
+ObjectTemplate.setSpawnId 12
+
+ObjectTemplate.create SpawnPoint market_allies01
+ObjectTemplate.activeSafe SpawnPoint market_allies01
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setSpawnId 13
+
+ObjectTemplate.create SpawnPoint market_allies02
+ObjectTemplate.activeSafe SpawnPoint market_allies02
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setSpawnId 14
+
+ObjectTemplate.create SpawnPoint market_allies_03
+ObjectTemplate.activeSafe SpawnPoint market_allies_03
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setSpawnId 15
+
+ObjectTemplate.create SpawnPoint market_allies_04
+ObjectTemplate.activeSafe SpawnPoint market_allies_04
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setSpawnId 16
+
+ObjectTemplate.create SpawnPoint market_allies_04_0
+ObjectTemplate.activeSafe SpawnPoint market_allies_04_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 3
+ObjectTemplate.setSpawnId 17
+
+ObjectTemplate.create SpawnPoint boulevard_allies1_0
+ObjectTemplate.activeSafe SpawnPoint boulevard_allies1_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 4
+ObjectTemplate.setSpawnId 18
+
+ObjectTemplate.create SpawnPoint boulevard_allies2_0
+ObjectTemplate.activeSafe SpawnPoint boulevard_allies2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 4
+ObjectTemplate.setSpawnId 19
+
+ObjectTemplate.create SpawnPoint boulevard_allies3_0
+ObjectTemplate.activeSafe SpawnPoint boulevard_allies3_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 4
+ObjectTemplate.setSpawnId 20
+
+ObjectTemplate.create SpawnPoint boulevard_allies
+ObjectTemplate.activeSafe SpawnPoint boulevard_allies
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 4
+ObjectTemplate.setSpawnId 21
+
+ObjectTemplate.create SpawnPoint toll_house_axis1_0
+ObjectTemplate.activeSafe SpawnPoint toll_house_axis1_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 5
+ObjectTemplate.setSpawnId 22
+
+ObjectTemplate.create SpawnPoint toll_house_axis2_0
+ObjectTemplate.activeSafe SpawnPoint toll_house_axis2_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 5
+ObjectTemplate.setSpawnId 23
+
+ObjectTemplate.create SpawnPoint toll_house_axis3_0
+ObjectTemplate.activeSafe SpawnPoint toll_house_axis3_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 5
+ObjectTemplate.setSpawnId 24
+
+ObjectTemplate.create SpawnPoint toll_house_axis4_0
+ObjectTemplate.activeSafe SpawnPoint toll_house_axis4_0
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 5
+ObjectTemplate.setSpawnId 25
+
+ObjectTemplate.create SpawnPoint square_1
+ObjectTemplate.activeSafe SpawnPoint square_1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 6
+ObjectTemplate.setSpawnId 26
+
+ObjectTemplate.create SpawnPoint square_2
+ObjectTemplate.activeSafe SpawnPoint square_2
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 6
+ObjectTemplate.setSpawnId 27
+
+ObjectTemplate.create SpawnPoint square_3
+ObjectTemplate.activeSafe SpawnPoint square_3
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 6
+ObjectTemplate.setSpawnId 28
+
+ObjectTemplate.create SpawnPoint square_4
+ObjectTemplate.activeSafe SpawnPoint square_4
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 6
+ObjectTemplate.setSpawnId 29

@@ -1,0 +1,311 @@
+rem
+rem *** Night Mods ***
+rem
+ObjectTemplate.active bri_jeep_willysComplex
+ObjectTemplate.addTemplate bri_jeep_headlights
+rem
+rem  ***  ***
+rem
+ObjectTemplate.active bri_jeep_willysSimple
+ObjectTemplate.addTemplate bri_jeep_headlights
+rem
+rem  ***  ***
+rem
+ObjectTemplate.active ger_jeep_kubelwagenComplex
+ObjectTemplate.addTemplate ger_jeep_headlights
+rem
+rem  ***  ***
+rem
+ObjectTemplate.active ger_jeep_kubelwagenSimple
+ObjectTemplate.addTemplate ger_jeep_headlights
+rem
+rem ***  ***
+rem
+ObjectTemplate.active Em_Rain
+ObjectTemplate.intensity CRD_NONE/175/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/90/110/0
+rem
+rem ***  ***
+rem
+ObjectTemplate.active Fx_Rain
+ObjectTemplate.timeToLive CRD_UNIFORM/0.4/0.5/0
+ObjectTemplate.sizeModifier 1/0.25/1
+rem
+rem *** Night Objects ***
+rem
+Object.create walllamp
+Object.absolutePosition 246.599/27.75/184.455
+Object.rotation 0/0/0
+rem
+rem  ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 272.443/26.77/174.496
+Object.rotation 0/0/0
+rem
+rem  ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 270.563/25.43/254.82
+Object.rotation 0/0/0
+rem
+rem  ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 281.497/27.87/290.713
+Object.rotation 0/0/0
+rem
+rem  ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 247.176/26.61/314.899
+Object.rotation 0/0/0
+rem
+rem  ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 234.259/28.74/345.112
+Object.rotation 0/0/0
+rem
+rem  ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 169.33/31.32/347.233
+Object.rotation 0/0/0
+rem
+rem  ***  ***
+rem
+Object.create walllamp
+Object.absolutePosition 178.957/25.58/261.124
+Object.rotation 0/0/0
+rem 
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 288.83/23.777/218.445
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 288.827/23.777/233.718
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 214.853/22.607/262.894
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 176.349/22.678/276.007
+Object.Rotation 90/2.2/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 299.095/23.774/233.208
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 234.352/22.833/287.777
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 195.071/23.49/276.729
+Object.Rotation 90/2.20001/-1.29996
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 185.559/23.404/271.003
+Object.Rotation 90/2.2/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 224.569/22.823/210.421
+Object.Rotation 0.199792/-1.7/-0.199792
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 252.506/23.329/213.769
+Object.Rotation 0.199792/-1.7/-0.199792
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 249.099/22.9/229.57
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 214.944/22.769/210.457
+Object.Rotation 0.199792/-1.7/2.10003
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 262.299/23.918/197.532
+Object.Rotation -18/-0.5/1.69996
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 274.878/23.816/182.479
+Object.Rotation 0.199792/2.70001/-0.199792
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 288.548/23.722/271.839
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 174.79/27.39/318.674
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 182.721/27.379/318.519
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 281.091/23.946/273.335
+Object.Rotation 0/0/-0.300014
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 229.068/22.607/272.985
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 194.689/23.318/270.835
+Object.Rotation 90/2.20001/-1.29996
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 252.051/22.63/285.211
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 206.238/22.544/223.447
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 241.854/22.619/261.713
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 242.874/22.607/273.351
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 215.652/23.454/297.667
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 183.433/28.077/228.318
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 229.818/22.544/223.447
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 235.884/22.618/281.979
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 249.904/22.45/250.178
+Object.Rotation 0/-3.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 248.715/22.615/269.066
+Object.Rotation 0/-0.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 210.001/22.611/250.149
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 298.858/23.738/286.133
+Object.Rotation 0/-3.5/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 230.162/22.449/250.188
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 219.26/22.607/239.377
+Object.Rotation 0/0/-1.69996
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 299.238/23.777/218.011
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_glow_01
+Object.absolutePosition 274.98/22.574/250.412
+Object.Rotation 0/0/4.19997
+rem
+rem *** Disabled Vehicle Drops for this map ****
+rem
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDropDisabled.ssc
+
+ObjectTemplate.active RA_VehicleChuteSpawner
+ObjectTemplate.team 0
+
+ObjectTemplate.active NA_VehicleChuteSpawner
+ObjectTemplate.team 0

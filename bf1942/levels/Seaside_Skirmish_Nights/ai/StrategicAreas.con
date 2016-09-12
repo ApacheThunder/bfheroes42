@@ -1,0 +1,76 @@
+if v_arg1 == host
+
+aiStrategicArea.create ss_16_allied_hq 916/323 936.4/343 20
+aiStrategicArea.create ss_16_farm 758.6/368 758.6/376 8
+aiStrategicArea.create ss_16_lighthouse 490/361.5 498/369.5 10
+aiStrategicArea.create ss_16_axis_hq 215/710 235/730 20
+aiStrategicArea.create ss_16_village 553/430 561.7/438.6 8
+aiStrategicArea.create ss_16_hillside_farm 373/575 381/583 8
+
+aiStrategicArea.setActive ss_16_allied_hq
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.setOrderPosition Infantry 933.4/343.4
+AIStrategicArea.setOrderPosition Tank 933/343.8
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive ss_16_axis_hq
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.setOrderPosition Infantry 239.8/720.1
+AIStrategicArea.setOrderPosition Tank 235/715.5
+AIStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive ss_16_farm
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour ss_16_lighthouse
+AIStrategicArea.addNeighbour ss_16_axis_hq
+AIStrategicArea.addNeighbour ss_16_allied_hq
+AIStrategicArea.addNeighbour ss_16_village
+AIStrategicArea.addNeighbour ss_16_hillside_farm
+AIStrategicArea.setOrderPosition Infantry 756.7/375.8
+AIStrategicArea.setOrderPosition Tank 762.5/371.9
+aiStrategicArea.setSide 2
+
+aiStrategicArea.setActive ss_16_hillside_farm
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AiStrategicArea.addObjectTypeFlag AirSpawner
+AIStrategicArea.addNeighbour ss_16_lighthouse
+AIStrategicArea.addNeighbour ss_16_axis_hq
+AIStrategicArea.addNeighbour ss_16_allied_hq
+AIStrategicArea.addNeighbour ss_16_village
+AIStrategicArea.addNeighbour ss_16_farm
+AIStrategicArea.setOrderPosition Infantry 384.1/582.6
+AIStrategicArea.setOrderPosition Tank 376.6/584.5
+aiStrategicArea.setSide 1
+
+aiStrategicArea.setActive ss_16_lighthouse
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour ss_16_axis_hq
+AIStrategicArea.addNeighbour ss_16_allied_hq
+AIStrategicArea.addNeighbour ss_16_village
+AIStrategicArea.addNeighbour ss_16_hillside_farm
+AIStrategicArea.addNeighbour ss_16_farm
+AIStrategicArea.setOrderPosition Infantry 498.8/371.2
+AIStrategicArea.setOrderPosition Tank 502.8/364.8
+
+aiStrategicArea.setActive ss_16_village
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour ss_16_lighthouse
+AIStrategicArea.addNeighbour ss_16_axis_hq
+AIStrategicArea.addNeighbour ss_16_allied_hq
+AIStrategicArea.addNeighbour ss_16_hillside_farm
+AIStrategicArea.addNeighbour ss_16_farm
+AIStrategicArea.setOrderPosition Infantry 556.2/444.1
+AIStrategicArea.setOrderPosition Tank 561/439
+
+endif

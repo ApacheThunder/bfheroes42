@@ -1,0 +1,124 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+ObjectTemplate.create ControlPoint ss_16_allied_hq
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Royals HQ"
+ObjectTemplate.radius 0
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.loseControlWhenNotClose 0
+
+ObjectTemplate.create ControlPoint ss_16_axis_hq
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "National HQ"
+ObjectTemplate.radius 0
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 15
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.loseControlWhenNotClose 0
+
+
+ObjectTemplate.create ControlPoint ss_16_farm
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Farm"
+ObjectTemplate.radius 5
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 15
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem --------------------------------------
+ObjectTemplate.addTemplate S_flag_ra_Start
+
+ObjectTemplate.create ControlPoint ss_16_hillside_farm
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Hillside Farm"
+ObjectTemplate.radius 5
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 15
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+rem --------------------------------------
+ObjectTemplate.addTemplate S_flag_na_Start
+
+ObjectTemplate.create ControlPoint ss_16_lighthouse
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Lighthouse"
+ObjectTemplate.radius 7
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 15
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint ss_16_village
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Village"
+ObjectTemplate.radius 6
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 15
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
