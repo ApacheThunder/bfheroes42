@@ -27,7 +27,8 @@ ObjectTemplate.addRootSpeed 0
 ObjectTemplate.minDamage 0.7
 ObjectTemplate.distToStartLoseDamage 45
 ObjectTemplate.distToMinDamage 75
-ObjectTemplate.velocity 600
+rem ObjectTemplate.velocity 600
+ObjectTemplate.velocity 500
 ObjectTemplate.setHasRecoilForce 0
 ObjectTemplate.setFireDev 2 0.2 0.04
 ObjectTemplate.setDevMod 1 0.4 0.3

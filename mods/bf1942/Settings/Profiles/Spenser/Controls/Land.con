@@ -5,7 +5,7 @@ ControlMap.create LandSeaPlayerInputControlMap
 ControlMap.addKeysToAxisMapping c_PIThrottle IDFKeyboard IDKey_W IDKey_S
 ControlMap.addButtonsToAxisMapping c_PIThrottle IDFGameController_0 IDButton_0 IDButton_1 1
 ControlMap.addKeysToAxisMapping c_PIYaw IDFKeyboard IDKey_D IDKey_A
-ControlMap.addAxisToAxisMapping c_PIYaw IDFGameController_0 IDAxis_0 1 1
+ControlMap.addAxisToAxisMapping c_PIYaw IDFGameController_0 IDAxis_0 0 1
 ControlMap.addKeysToAxisMapping c_PIPitch IDFKeyboard IDKey_ArrowUp IDKey_ArrowDown
 ControlMap.addButtonToTriggerMapping c_PIAltFire IDFMouse IDButton_1 c_CMPushAndHold
 ControlMap.addButtonToTriggerMapping c_PIAltFire IDFGameController_0 IDButton_5 c_CMPushAndHold 1

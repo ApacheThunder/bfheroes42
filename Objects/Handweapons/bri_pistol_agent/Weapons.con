@@ -13,3 +13,8 @@ ObjectTemplate.stopAtEndEffect 1
 ObjectTemplate.material 4012
 ObjectTemplate.tracerScaler 100
 ObjectTemplate.noFFSound 1
+rem ----Added ability to trigger TroopTrap/Keg------------
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 15
+ObjectTemplate.maxHitPoints 15
+ObjectTemplate.mass 350

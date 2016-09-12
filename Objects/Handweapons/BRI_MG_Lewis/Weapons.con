@@ -16,3 +16,8 @@ ObjectTemplate.tracerScaler 100
 ObjectTemplate.distToStartLoseDamage 40
 ObjectTemplate.distToMinDamage 80
 ObjectTemplate.noFFSound 1
+rem ----Added ability to trigger TroopTrap/Keg------------
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 15
+ObjectTemplate.maxHitPoints 15
+ObjectTemplate.mass 350

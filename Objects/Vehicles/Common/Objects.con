@@ -93,7 +93,8 @@ ObjectTemplate.rightAngleMultilplier 0
 ObjectTemplate.hasDynamicShadow 1
 
 ObjectTemplate.create Camera JeepCamera
-ObjectTemplate.setMinRotation -110/-40/0
+ObjectTemplate.outsideHudOffset 0/2/-7
+ObjectTemplate.setMinRotation -110/-25/0
 ObjectTemplate.setMaxRotation 110/10/0
 ObjectTemplate.setPivotPosition 0/0.25/0.3
 ObjectTemplate.setMaxSpeed 90/90/0

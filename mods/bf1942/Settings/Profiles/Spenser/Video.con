@@ -1,6 +1,6 @@
 rem *** Generated ***
 
-game.setGameDisplayMode 1280 960 32 0
+game.setGameDisplayMode 1920 1080 32 69
 game.setDetailTexture 5
 game.setShadows 1
 game.setEnvironmentMapping 1

@@ -18,7 +18,8 @@ ObjectTemplate.dieAfterColl 0
 ObjectTemplate.radius 4.5
 ObjectTemplate.forceOnExplosion 5
 ObjectTemplate.damageType 1
-ObjectTemplate.mass 800
+rem ObjectTemplate.mass 800
+ObjectTemplate.mass 300
 ObjectTemplate.material 188
 ObjectTemplate.material2 204
 ObjectTemplate.damageType 1

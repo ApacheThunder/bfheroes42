@@ -56,6 +56,7 @@ ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTScoutCar
 ObjectTemplate.setToolTipType  TTScoutCar
+ObjectTemplate.setVehicleIcon "Empty.tga"
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
 ObjectTemplate.hasRestrictedExit 1
 

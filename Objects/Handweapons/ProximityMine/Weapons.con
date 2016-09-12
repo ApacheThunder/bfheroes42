@@ -16,7 +16,8 @@ ObjectTemplate.timeToLive CRD_NONE/420/0/0
 ObjectTemplate.dieAfterColl 0
 ObjectTemplate.radius 8
 ObjectTemplate.explosionForce 50
-ObjectTemplate.explodeNearEnemyDistance 3.5
+rem ObjectTemplate.explodeNearEnemyDistance 3.5
+ObjectTemplate.explodeNearEnemyDistance 2
 ObjectTemplate.proximityFusePrimer 3
 ObjectTemplate.hasOnTimeEffect 1
 ObjectTemplate.useMMOnEndEffect 1

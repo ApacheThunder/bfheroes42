@@ -45,7 +45,7 @@ include RandomCustomization.inc
 rem ----------------------------------------------------------
 if v_arg1 == host
 ObjectTemplate.addTemplate SoldierMineTrigger
-ObjectTemplate.setPosition 0/2/0
+rem ObjectTemplate.setPosition 0/2/0
 else
 endIf
 

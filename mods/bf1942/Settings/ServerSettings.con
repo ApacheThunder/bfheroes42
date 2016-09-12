@@ -1,4 +1,4 @@
-game.serverName "P6T-ASUS-BEAST"
+game.serverName "BEASTMACHINE"
 game.serverDedicated 0
 game.serverGameTime 60
 game.serverMaxPlayers 32
@@ -46,4 +46,4 @@ game.serverEventLogging 0
 game.serverEventLogCompression 0
 game.objectiveAttackerTicketsMod 200
 game.serverPunkBuster 0
-game.serverUnpureMods "bf242, bfheroes, dcunauthorized, desertcombat"
+game.serverUnpureMods "bf242, bfheroes"

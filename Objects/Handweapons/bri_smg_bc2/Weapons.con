@@ -18,3 +18,8 @@ ObjectTemplate.distToMinDamage 80
 ObjectTemplate.noFFSound 1
 rem -------- Armor Piercing -----------
 ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+rem ----Added ability to trigger TroopTrap/Keg------------
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 15
+ObjectTemplate.maxHitPoints 15
+ObjectTemplate.mass 350

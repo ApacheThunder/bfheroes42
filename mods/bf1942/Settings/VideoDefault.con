@@ -1,4 +1,4 @@
-renderer.setFullScreen 0
+renderer.setFullScreen 1
 renderer.fieldOfView 1
 renderer.globalLodRadius 1
 renderer.globalLodRadiusScaleFactor 5

@@ -29,7 +29,8 @@ ObjectTemplate.addRootSpeed 0
 ObjectTemplate.minDamage 0.7
 ObjectTemplate.distToStartLoseDamage 50
 ObjectTemplate.distToMinDamage 85
-ObjectTemplate.velocity 600
+rem ObjectTemplate.velocity 600
+ObjectTemplate.velocity 500
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 0
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.5/0

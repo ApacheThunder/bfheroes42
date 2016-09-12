@@ -27,6 +27,8 @@ ObjectTemplate.noFFSound 1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.hitPoints 10
 ObjectTemplate.maxHitpoints 10
+ObjectTemplate.explodeNearEnemyDistance 0.8
+ObjectTemplate.proximityFusePrimer 0.05
 rem --------------------------------------
 ObjectTemplate.addTemplate e_TNT_Sparky 
 ObjectTemplate.setPosition 0.008/-0.132/-0.429

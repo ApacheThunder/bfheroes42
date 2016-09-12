@@ -21,5 +21,10 @@ ObjectTemplate.material 226
 ObjectTemplate.material2 200
 ObjectTemplate.radius 9
 ObjectTemplate.forceOnExplosion 80
+rem ----Added ability to trigger TroopTrap/Keg------------
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitPoints 15
+ObjectTemplate.maxHitPoints 15
+ObjectTemplate.mass 350
 rem -----------------------------------------------
 ObjectTemplate.startEffectTemplate e_ATRocketTrail
