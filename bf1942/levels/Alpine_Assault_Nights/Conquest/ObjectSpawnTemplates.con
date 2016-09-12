@@ -1,0 +1,44 @@
+ObjectTemplate.create ObjectSpawner loggingcamptankspawner
+ObjectTemplate.setObjectTemplate 2 bri_tank_sherman
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 40
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 25
+ObjectTemplate.DamageWhenLost 15
+
+ObjectTemplate.create ObjectSpawner clifftankspawner
+ObjectTemplate.setObjectTemplate 1 ger_tank_panzeriv
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner tankspawner
+ObjectTemplate.setObjectTemplate 2 bri_tank_sherman
+ObjectTemplate.setObjectTemplate 1 ger_tank_panzeriv
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jeepspawner
+ObjectTemplate.setObjectTemplate 2 bri_jeep_willys
+ObjectTemplate.setObjectTemplate 1 ger_jeep_kubelwagen
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+

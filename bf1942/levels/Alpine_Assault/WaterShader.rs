@@ -1,0 +1,1 @@
+subshader "WaterElala" "StandardMesh/Default" { alphaTestRef 1; }

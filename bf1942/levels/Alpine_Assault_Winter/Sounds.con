@@ -1,0 +1,41 @@
+sound.reserve2dStereoChans 2/4/4
+sound.relaxHwReservations 0.5/0.5/0
+
+EnvironmentSound.load Sounds/GlobalAmbient.ssc
+
+ObjectTemplate.create AreaObject ambStat_Sound_Creek_AA
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 30
+ObjectTemplate.loadSoundScript Sounds/Creek.ssc
+ObjectTemplate.addLinePoint 0/0
+ObjectTemplate.addLinePoint 7.14/29.02
+ObjectTemplate.addLinePoint 3.27/70.65
+ObjectTemplate.addLinePoint 11.84/91.06
+ObjectTemplate.addLinePoint -5.96/114.08
+ObjectTemplate.addLinePoint -104.04/407.53
+ObjectTemplate.addLinePoint -105.99/374.17
+ObjectTemplate.addLinePoint -113.78/342.1
+ObjectTemplate.addLinePoint -118.28/316.57
+ObjectTemplate.addLinePoint -131.55/29.386
+ObjectTemplate.addLinePoint -137.99/274.51
+ObjectTemplate.addLinePoint -135.13/242.82
+ObjectTemplate.addLinePoint -118.66/225.2
+ObjectTemplate.addLinePoint -102.27/202.66
+ObjectTemplate.addLinePoint -77.60/178.47
+ObjectTemplate.addLinePoint -39.42/142.41
+ObjectTemplate.addLinePoint -60.53/157.56
+ObjectTemplate.addLinePoint -39.42/142.41
+ObjectTemplate.addLinePoint -77.60/178.47
+ObjectTemplate.addLinePoint -102.27/202.66
+ObjectTemplate.addLinePoint -118.66/225.2
+ObjectTemplate.addLinePoint -135.13/242.82
+ObjectTemplate.addLinePoint -137.99/274.51
+ObjectTemplate.addLinePoint -131.55/29.386
+ObjectTemplate.addLinePoint -118.28/316.57
+ObjectTemplate.addLinePoint -113.78/342.1
+ObjectTemplate.addLinePoint -105.99/374.17
+ObjectTemplate.addLinePoint -104.04/407.53
+ObjectTemplate.addLinePoint -5.96/114.08
+ObjectTemplate.addLinePoint 11.84/91.06
+ObjectTemplate.addLinePoint 3.27/70.65
+ObjectTemplate.addLinePoint 7.14/29.02

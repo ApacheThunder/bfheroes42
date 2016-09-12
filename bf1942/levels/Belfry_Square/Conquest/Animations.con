@@ -1,0 +1,67 @@
+rem *** Custom Animated Flags (if added via con files for game mode instead of in staticobjects.con file) ***
+rem *** must have their animation states loaded from a con file loaded in via one of the game mode con ***
+rem *** files. Conquest.con file for example. ***
+
+
+AnimationStateMachine.createState Belfry_Flag_Idle
+AnimationStateMachine.addAnimation Animations/Belfry_Flag_Idle.baf 1 1
+AnimationStateMachine.setMorphFactor 1
+AnimationStateMachine.set3pAnimationSpeed Belfry_Flag_Idle 0.1
+
+
+
+GeometryTemplate.create StandardMesh CP_Circle_NU_m1
+GeometryTemplate.file CP_Circle_NU_m1
+GeometryTemplate.alphaLodDistance 1024
+
+GeometryTemplate.create StandardMesh CP_Circle_Red_m1
+GeometryTemplate.file CP_Circle_Red_m1
+GeometryTemplate.alphaLodDistance 1024
+
+GeometryTemplate.create StandardMesh CP_Circle_Blue_m1
+GeometryTemplate.file CP_Circle_Blue_m1
+GeometryTemplate.alphaLodDistance 1024
+
+
+ObjectTemplate.create SimpleObject CP_Circle_Nu
+ObjectTemplate.geometry CP_Circle_Nu_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CP_Circle_Red
+ObjectTemplate.geometry CP_Circle_Red_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject CP_Circle_Blue
+ObjectTemplate.geometry CP_Circle_Blue_m1
+ObjectTemplate.cullRadiusScale 5
+
+
+
+ObjectTemplate.create AnimatedBundle Belfry_Flag_NU_m1
+ObjectTemplate.geometry Belfry_Flag_NU_m1
+ObjectTemplate.createSkeleton Animations/Belfry_Flag.ske
+ObjectTemplate.setAnimationState Belfry_Flag_Idle
+ObjectTemplate.cullRadiusScale 5
+rem --------------------------------------------------
+rem ObjectTemplate.addTemplate CP_Circle_Nu
+rem ObjectTemplate.setPosition 1.46/-10.87/0.804
+
+ObjectTemplate.create AnimatedBundle Belfry_Flag_Red_m1
+ObjectTemplate.geometry Belfry_Flag_Red_m1
+ObjectTemplate.createSkeleton Animations/Belfry_Flag.ske
+ObjectTemplate.setAnimationState Belfry_Flag_Idle
+rem ObjectTemplate.loadSoundScript Sounds/flag.ssc
+rem ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.cullRadiusScale 5
+rem --------------------------------------------------
+rem ObjectTemplate.addTemplate CP_Circle_Red
+rem ObjectTemplate.setPosition 1.46/-10.87/0.804
+
+ObjectTemplate.create AnimatedBundle Belfry_Flag_Blue_m1
+ObjectTemplate.geometry Belfry_Flag_Blue_m1
+ObjectTemplate.createSkeleton Animations/Belfry_Flag.ske
+ObjectTemplate.setAnimationState Belfry_Flag_Idle
+ObjectTemplate.cullRadiusScale 5
+rem --------------------------------------------------
+rem ObjectTemplate.addTemplate CP_Circle_Blue
+rem ObjectTemplate.setPosition 1.46/-10.87/0.804

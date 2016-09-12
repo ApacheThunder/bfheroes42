@@ -1,0 +1,266 @@
+rem
+rem *** Objects ***
+rem
+
+ObjectTemplate.create SimpleObject Undergrowth
+ObjectTemplate.geometry Undergrowth_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_Scenery_Rocks
+ObjectTemplate.geometry Belfry_Scenery_Rocks_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_Scenery_Props
+ObjectTemplate.geometry Belfry_Scenery_Props_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_Scenery_Terrain
+ObjectTemplate.geometry Belfry_Scenery_Terrain_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_Scenery_TreeBranches
+ObjectTemplate.geometry Belfry_Scenery_TreeBranches_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_Scenery_TreeTrunks
+ObjectTemplate.geometry Belfry_Scenery_TreeTrunks_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_TreeBranches
+ObjectTemplate.geometry Belfry_TreeBranches_m1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_TreeTrunk1
+ObjectTemplate.geometry Belfry_TreeTrunk1_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_TreeTrunk2
+ObjectTemplate.geometry Belfry_TreeTrunk2_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_TreeTrunk3
+ObjectTemplate.geometry Belfry_TreeTrunk3_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_TreeTrunk4
+ObjectTemplate.geometry Belfry_TreeTrunk4_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_TreeTrunk5
+ObjectTemplate.geometry Belfry_TreeTrunk5_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject Belfry_TreeTrunk6
+ObjectTemplate.geometry Belfry_TreeTrunk6_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_01
+ObjectTemplate.geometry BelfryStatics_01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_02
+ObjectTemplate.geometry BelfryStatics_02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_03
+ObjectTemplate.geometry BelfryStatics_03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_04
+ObjectTemplate.geometry BelfryStatics_04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_05
+ObjectTemplate.geometry BelfryStatics_05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_06
+ObjectTemplate.geometry BelfryStatics_06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_07
+ObjectTemplate.geometry BelfryStatics_07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_08
+ObjectTemplate.geometry BelfryStatics_08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_09
+ObjectTemplate.geometry BelfryStatics_09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_10
+ObjectTemplate.geometry BelfryStatics_10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_11
+ObjectTemplate.geometry BelfryStatics_11_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_12
+ObjectTemplate.geometry BelfryStatics_12_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_13
+ObjectTemplate.geometry BelfryStatics_13_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_14
+ObjectTemplate.geometry BelfryStatics_14_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_15
+ObjectTemplate.geometry BelfryStatics_15_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_16
+ObjectTemplate.geometry BelfryStatics_16_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_17
+ObjectTemplate.geometry BelfryStatics_17_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_18
+ObjectTemplate.geometry BelfryStatics_18_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_19
+ObjectTemplate.geometry BelfryStatics_19_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_20
+ObjectTemplate.geometry BelfryStatics_20_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_21
+ObjectTemplate.geometry BelfryStatics_21_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_22
+ObjectTemplate.geometry BelfryStatics_22_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_23
+ObjectTemplate.geometry BelfryStatics_23_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_24
+ObjectTemplate.geometry BelfryStatics_24_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+ObjectTemplate.create SimpleObject BelfryStatics_25
+ObjectTemplate.geometry BelfryStatics_25_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone01
+ObjectTemplate.geometry Belfry_CombatZone01_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone02
+ObjectTemplate.geometry Belfry_CombatZone02_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone03
+ObjectTemplate.geometry Belfry_CombatZone03_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone04
+ObjectTemplate.geometry Belfry_CombatZone04_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone05
+ObjectTemplate.geometry Belfry_CombatZone05_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone06
+ObjectTemplate.geometry Belfry_CombatZone06_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone07
+ObjectTemplate.geometry Belfry_CombatZone07_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone08
+ObjectTemplate.geometry Belfry_CombatZone08_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone09
+ObjectTemplate.geometry Belfry_CombatZone09_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone10
+ObjectTemplate.geometry Belfry_CombatZone10_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone11
+ObjectTemplate.geometry Belfry_CombatZone11_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create SimpleObject Belfry_CombatZone12
+ObjectTemplate.geometry Belfry_CombatZone12_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+
+ObjectTemplate.create Obstacle CaptainShop_DeathBox
+ObjectTemplate.geometry CaptainShop_DeathBox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.damage 125
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.createInvisible 1

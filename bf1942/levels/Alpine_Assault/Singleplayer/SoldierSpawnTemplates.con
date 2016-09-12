@@ -1,0 +1,131 @@
+ObjectTemplate.create SpawnPoint logging_camp_05
+ObjectTemplate.setSpawnId 34
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint woodcamp_03
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint logging_camp_06
+ObjectTemplate.setSpawnId 35
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint woodcamp_04
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint woodcamp_05
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint woodcamp_06
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint woodcamp_07
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint watermill_01
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint watermill_02
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint royal_base_01
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint watermill_04
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint royal_base_02
+ObjectTemplate.setSpawnId 24
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint royal_base_03
+ObjectTemplate.setSpawnId 25
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint watermill_06
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint the_cliff_01
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint National_Base_01
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint National_Base_02
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint National_Base_03
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint royal_base_04
+ObjectTemplate.setSpawnId 26
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint royal_base_05
+ObjectTemplate.setSpawnId 27
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint the_cliff_03
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint national_base_04
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint logging_camp_01
+ObjectTemplate.setSpawnId 30
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint royal_base_06
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint the_cliff_04
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint logging_camp_02
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint royal_base_07
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint the_cliff_05
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint logging_camp_03
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint woodcamp_01
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint the_cliff_06
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint logging_camp_04
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint woodcamp_02
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 4

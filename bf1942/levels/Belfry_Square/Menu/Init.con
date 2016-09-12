@@ -1,0 +1,28 @@
+Game.setLocalized 1
+
+game.setAlliedCampaign "The Royals must defeat the Nationals!"
+game.setAlliedHints "Capture their flags!"
+game.setAlliedObjectives "Capture and hold flags while killing the Nationals."
+game.setAlliedSkirmish " "
+
+game.setAxisCampaign "The Nationals must defeat the Royals!"
+game.setAxisHints "Capture their flags!"
+game.setAxisObjectives "Capture and hold flags while killing the Royals."
+game.setAxisSkirmish " "
+
+game.setAlliedDebriefingMajorVictory "The Royals crushed the Nationals!"
+game.setAlliedDebriefingMinorVictory "The Royals achieved a minor victory!"
+game.setAlliedDebriefingMajorDefeat "The Royals were crushed by the Nationals!"
+game.setAlliedDebriefingMinorDefeat "The Royals suffered a minor defeat!"
+
+game.setAxisDebriefingMajorVictory "The Nationals defeated the Royals!"
+game.setAxisDebriefingMinorVictory "The Nationals achieved a minor victory!"
+game.setAxisDebriefingMajorDefeat "The Nationals were crushed by the Royals!"
+game.setAxisDebriefingMinorDefeat "The Nationals suffered a minor defeat!"
+
+rem ** Multiplayer Briefing **
+game.setMultiplayerBriefingObjectives "Welcome Heroes!"
+game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
+
+game.setMapId "bfheroes"
+game.setServerInfoIcon ../../bf1942/levels/Belfry_Square/Menu/serverInfo.tga

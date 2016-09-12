@@ -1,0 +1,35 @@
+rem
+rem ***  ***
+rem
+Object.create 16_cp_watermill
+Object.absolutePosition 458.848/34.754/409.115
+Object.rotation -132.995/0/0
+rem
+rem ***  ***
+rem
+Object.create 16_cp_wood_camp
+Object.absolutePosition 392.55/37.069/354.327
+Object.rotation 151.597/0/0
+rem
+rem ***  ***
+rem
+Object.create 16_cp_the_cliff
+Object.absolutePosition 316.859/34.578/467.149
+Object.rotation 21.418/0/0
+rem
+rem ***  ***
+rem
+Object.create 16_cp_logging_camp
+Object.absolutePosition 512.699/38.893/277.969
+Object.rotation 110.244/0/0
+rem
+rem ***  ***
+rem
+Object.create 16_cp_national_base
+Object.absolutePosition 384.713/39.842/598.876
+Object.rotation 115.956/0/0
+rem
+rem ***  ***
+rem
+Object.create 16_cp_royal_base
+Object.absolutePosition 665.99/46.645/359.149

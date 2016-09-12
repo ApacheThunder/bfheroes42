@@ -1,0 +1,18 @@
+TextureManager.mipmaps 0
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file Belfry_Skydome_CS_m1
+
+GeometryTemplate.create StandardMesh Belfry_SkyDome_m1
+GeometryTemplate.file Belfry_SkyDome_m1
+
+ObjectTemplate.create SimpleObject Belfry_SkyDome
+ObjectTemplate.geometry Belfry_SkyDome_m1
+ObjectTemplate.cullRadiusScale 5
+
+Sky.initSky
+sky.changeOfsSkyHeight 0
+sky.setRotAngle 0
+sky.sunLightDirectionVec 0.314/0.5/-0.806
+
+TextureManager.mipmaps 1

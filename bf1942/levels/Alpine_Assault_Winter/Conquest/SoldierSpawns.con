@@ -1,0 +1,210 @@
+rem
+rem ***  ***
+rem
+Object.create national_base_01
+Object.absolutePosition 364.181/39.421/618.048
+Object.rotation 134/0/0
+rem
+rem ***  ***
+rem
+Object.create national_base_02
+Object.absolutePosition 354.863/39.4424/606.035
+Object.rotation 88/0/0
+rem
+rem ***  ***
+rem
+Object.create national_base_03
+Object.absolutePosition 383.516/39.4723/617.008
+Object.rotation -139/0/0
+rem
+rem ***  ***
+rem
+Object.create national_base_04
+Object.absolutePosition 387.253/39.5887/600.95
+Object.rotation -22/0/0
+rem
+rem ***  ***
+rem
+Object.create the_cliff_01
+Object.absolutePosition 282.741/34.9893/491.215
+Object.rotation -145/0/0
+rem
+rem ***  ***
+rem
+Object.create the_cliff_01
+Object.absolutePosition 270.074/34.9851/472.018
+Object.rotation 31/0/0
+rem
+rem ***  ***
+rem
+Object.create the_cliff_03
+Object.absolutePosition 312.654/34.1103/463.198
+Object.rotation 31/0/0
+rem
+rem ***  ***
+rem
+Object.create the_cliff_04
+Object.absolutePosition 326.708/34.348/470.022
+Object.rotation -41/0/0
+rem
+rem ***  ***
+rem
+Object.create the_cliff_05
+Object.absolutePosition 314.485/39.199/439.185
+Object.rotation 103/0/0
+rem
+rem ***  ***
+rem
+Object.create the_cliff_06
+Object.absolutePosition 333.643/32.9424/449.913
+Object.rotation 146/0/0
+rem
+rem ***  ***
+rem
+Object.create woodcamp_01
+Object.absolutePosition 396.52/36.8316/352.757
+Object.rotation 26/0/0
+rem
+rem ***  ***
+rem
+Object.create woodcamp_02
+Object.absolutePosition 408/38.9297/364.938
+Object.rotation 64/0/0
+rem
+rem ***  ***
+rem
+Object.create woodcamp_03
+Object.absolutePosition 398.849/37.8843/367.64
+Object.rotation -25/0/0
+rem
+rem ***  ***
+rem
+Object.create woodcamp_04
+Object.absolutePosition 383.685/43.492/366.383
+Object.rotation 97/0/0
+rem
+rem ***  ***
+rem
+Object.create woodcamp_05
+Object.absolutePosition 395.995/45.4734/336.533
+Object.rotation 48/0/0
+rem
+rem ***  ***
+rem
+Object.create woodcamp_06
+Object.absolutePosition 335.477/44.8193/290.17
+Object.rotation 70/0/0
+rem
+rem ***  ***
+rem
+Object.create woodcamp_07
+Object.absolutePosition 363.665/48.6293/312.573
+Object.rotation 54/0/0
+rem
+rem ***  ***
+rem
+Object.create watermill_01
+Object.absolutePosition 457.402/34.6913/396.32
+Object.rotation -56/0/0
+rem
+rem ***  ***
+rem
+Object.create watermill_02
+Object.absolutePosition 425.141/34.7159/396.489
+Object.rotation 85/0/0
+rem
+rem ***  ***
+rem
+Object.create watermill_03
+Object.absolutePosition 437.153/34.7327/411.68
+Object.rotation -97/0/0
+rem
+rem ***  ***
+rem
+Object.create watermill_04
+Object.absolutePosition 475.57/33.8102/442.952
+Object.rotation -84/0/0
+rem
+rem ***  ***
+rem
+Object.create watermill_06
+Object.absolutePosition 453.277/39.9612/426.37
+Object.rotation 148/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_01
+Object.absolutePosition 688.673/46.4257/368.253
+Object.rotation -119/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_02
+Object.absolutePosition 677.595/46.5304/352.27
+Object.rotation -5/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_03
+Object.absolutePosition 683.318/46.4257/377.244
+Object.rotation -123/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_04
+Object.absolutePosition 663.571/46.4216/372.792
+Object.rotation 144/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_05
+Object.absolutePosition 614.532/43.1765/321.186
+Object.rotation -54/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_06
+Object.absolutePosition 630.347/46.6462/344.406
+Object.rotation -81/0/0
+rem
+rem ***  ***
+rem
+Object.create royal_base_07
+Object.absolutePosition 622.388/47.0002/361.499
+Object.rotation -157/0/0
+rem
+rem ***  ***
+rem
+Object.create logging_camp_01
+Object.absolutePosition 517.84/38.6114/268.443
+Object.rotation 56/0/0
+rem
+rem ***  ***
+rem
+Object.create logging_camp_02
+Object.absolutePosition 531.763/38.6114/267.942
+Object.rotation -73/0/0
+rem
+rem ***  ***
+rem
+Object.create logging_camp_03
+Object.absolutePosition 523.682/38.5618/276.314
+Object.rotation -38/0/0
+rem
+rem ***  ***
+rem
+Object.create logging_camp_04
+Object.absolutePosition 499.883/41.7715/294.815
+Object.rotation -9.00001/0/0
+rem
+rem ***  ***
+rem
+Object.create logging_camp_05
+Object.absolutePosition 500.458/38.6612/278.976
+Object.rotation 18/0/0
+rem
+rem ***  ***
+rem
+Object.create logging_camp_06
+Object.absolutePosition 496.613/37.9839/248.639
+Object.rotation -17/0/0

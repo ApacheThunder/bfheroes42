@@ -1,0 +1,27 @@
+if v_arg1 == host
+
+rem * Team1Attack *
+aiStrategy.createPrerequisite TeamAAReq
+aiStrategy.addCondition TeamAACond    10.0
+
+rem * Team1Defend *
+aiStrategy.createPrerequisite TeamABReq
+aiStrategy.addCondition TeamABCond    15.0
+
+rem * Team1Repulse *
+aiStrategy.createPrerequisite TeamACReq
+aiStrategy.addCondition TeamACCond    20.0
+
+rem * Team2Attack *
+aiStrategy.createPrerequisite TeamBAReq
+aiStrategy.addCondition TeamBACond    10.0
+
+rem * Team2Defend *
+aiStrategy.createPrerequisite TeamBBReq
+aiStrategy.addCondition TeamBBCond    15.0
+
+rem * Team2Repulse *
+aiStrategy.createPrerequisite TeamBCReq
+aiStrategy.addCondition TeamBCCond    20.0
+
+endIf

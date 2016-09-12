@@ -1,0 +1,31 @@
+GeometryTemplate.create patchTerrain patchGeometry
+GeometryTemplate.file bf1942\levels\Alpine_Assault_Nights\HeightMap
+GeometryTemplate.materialMap bf1942\levels\Alpine_Assault_Nights\MaterialMap
+GeometryTemplate.materialSize 512
+GeometryTemplate.targetTriCount 8192
+GeometryTemplate.worldSize 1024
+GeometryTemplate.yScale 0.273438
+GeometryTemplate.texBaseName bf1942\levels\Alpine_Assault_Nights\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\Alpine_Assault_Nights\Textures\Detail
+GeometryTemplate.waterLevel 29.7
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 512
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry patchGeometry
+ObjectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 1024
+
+Terrain.ShadowAmbient 56/56/65
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 80
+
+shadow.shadowColor 0.148/0.148/0.172

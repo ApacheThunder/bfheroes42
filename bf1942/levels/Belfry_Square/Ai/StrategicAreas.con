@@ -1,0 +1,12 @@
+if v_arg1 == host
+
+159.7/161.3
+
+aiStrategicArea.create KOTH_CP 157.7/159.7 161.7/163.3 4
+
+aiStrategicArea.setActive KOTH_CP
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.setOrderPosition Infantry 162/162
+aiStrategicArea.setOrderPosition Tank 162/162
+
+endIf

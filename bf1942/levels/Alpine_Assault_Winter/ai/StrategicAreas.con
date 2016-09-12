@@ -1,0 +1,76 @@
+aiStrategicArea.create 16_cp_royal_base 646/339 666/359 20
+aiStrategicArea.create 16_cp_watermill 442.126/393 458.8/409 16
+aiStrategicArea.create 16_cp_wood_camp 382.5/344.3 392.5/354.3 10
+aiStrategicArea.create 16_cp_the_cliff 309.42/459.42 324.58/474.58 16
+aiStrategicArea.create 16_cp_logging_camp 496.7/262 512.7/278 16
+aiStrategicArea.create 16_cp_national_base 365/579 385/599 20
+
+
+aiStrategicArea.setActive 16_cp_royal_base
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 664.9/354.4
+AIStrategicArea.setOrderPosition Tank 663.3/362.9
+aiStrategicArea.setSide 2
+aiStrategicArea.vehicleSearchRadius 50
+
+
+aiStrategicArea.setActive 16_cp_watermill
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_wood_camp
+AIStrategicArea.addNeighbour 16_cp_the_cliff
+AIStrategicArea.addNeighbour 16_cp_logging_camp
+AIStrategicArea.addNeighbour 16_cp_national_base
+AIStrategicArea.addNeighbour 16_cp_royal_base
+AIStrategicArea.setOrderPosition Infantry 455.2/402
+AIStrategicArea.setOrderPosition Tank 472.6/396.6
+aiStrategicArea.vehicleSearchRadius 10
+
+
+aiStrategicArea.setActive 16_cp_wood_camp
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_watermill
+AIStrategicArea.addNeighbour 16_cp_the_cliff
+AIStrategicArea.addNeighbour 16_cp_logging_camp
+AIStrategicArea.addNeighbour 16_cp_national_base
+AIStrategicArea.addNeighbour 16_cp_royal_base
+AIStrategicArea.setOrderPosition Infantry 404.7/357
+AIStrategicArea.setOrderPosition Tank 418.8/347.6
+aiStrategicArea.vehicleSearchRadius 75
+
+
+aiStrategicArea.setActive 16_cp_the_cliff
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_watermill
+AIStrategicArea.addNeighbour 16_cp_wood_camp
+AIStrategicArea.addNeighbour 16_cp_logging_camp
+AIStrategicArea.addNeighbour 16_cp_national_base
+AIStrategicArea.addNeighbour 16_cp_royal_base
+AIStrategicArea.setOrderPosition Infantry 313.1/464.8
+AIStrategicArea.setOrderPosition Tank 322/466
+aiStrategicArea.vehicleSearchRadius 75
+
+
+aiStrategicArea.setActive 16_cp_logging_camp
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour 16_cp_watermill
+AIStrategicArea.addNeighbour 16_cp_wood_camp
+AIStrategicArea.addNeighbour 16_cp_the_cliff
+AIStrategicArea.addNeighbour 16_cp_national_base
+AIStrategicArea.addNeighbour 16_cp_royal_base
+AIStrategicArea.setOrderPosition Infantry 510.8/276.3
+AIStrategicArea.setOrderPosition Tank 522.4/284.3
+aiStrategicArea.vehicleSearchRadius 50
+
+
+aiStrategicArea.setActive 16_cp_national_base
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 381.6/600
+AIStrategicArea.setOrderPosition Tank 381.5/601.4
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 50

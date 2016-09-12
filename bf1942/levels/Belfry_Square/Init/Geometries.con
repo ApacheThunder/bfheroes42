@@ -1,0 +1,170 @@
+rem
+rem *** Geometries ***
+rem
+
+GeometryTemplate.create AnimatedMesh Belfry_flag_NU_m1
+GeometryTemplate.setSkin Animations/Belfry_Flag.skn
+GeometryTemplate.file Belfry_Flag_NU_m1
+
+GeometryTemplate.create AnimatedMesh Belfry_flag_Red_m1
+GeometryTemplate.setSkin Animations/Belfry_Flag.skn
+GeometryTemplate.file Belfry_Flag_m1
+rem GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create AnimatedMesh Belfry_flag_Blue_m1
+GeometryTemplate.setSkin Animations/Belfry_Flag.skn
+GeometryTemplate.file Belfry_Flag_Blue_m1
+
+
+GeometryTemplate.create StandardMesh Undergrowth_m1
+GeometryTemplate.file Undergrowth_m1
+
+GeometryTemplate.create StandardMesh Belfry_Scenery_Rocks_m1
+GeometryTemplate.file Belfry_Scenery_Rocks_m1
+
+GeometryTemplate.create StandardMesh Belfry_Scenery_Props_m1
+GeometryTemplate.file Belfry_Scenery_Props_m1
+
+GeometryTemplate.create StandardMesh Belfry_Scenery_Terrain_m1
+GeometryTemplate.file Belfry_Scenery_Terrain_m1
+
+GeometryTemplate.create StandardMesh Belfry_Scenery_TreeBranches_m1
+GeometryTemplate.file Belfry_Scenery_TreeBranches_m1
+
+GeometryTemplate.create StandardMesh Belfry_Scenery_TreeTrunks_m1
+GeometryTemplate.file Belfry_Scenery_TreeTrunks_m1
+
+GeometryTemplate.create StandardMesh Belfry_TreeBranches_m1
+GeometryTemplate.file Belfry_TreeBranches_m1
+
+GeometryTemplate.create StandardMesh Belfry_TreeTrunk1_m1
+GeometryTemplate.file Belfry_TreeTrunk1_m1
+
+GeometryTemplate.create StandardMesh Belfry_TreeTrunk2_m1
+GeometryTemplate.file Belfry_TreeTrunk2_m1
+
+GeometryTemplate.create StandardMesh Belfry_TreeTrunk3_m1
+GeometryTemplate.file Belfry_TreeTrunk3_m1
+
+GeometryTemplate.create StandardMesh Belfry_TreeTrunk4_m1
+GeometryTemplate.file Belfry_TreeTrunk4_m1
+
+GeometryTemplate.create StandardMesh Belfry_TreeTrunk5_m1
+GeometryTemplate.file Belfry_TreeTrunk5_m1
+
+GeometryTemplate.create StandardMesh Belfry_TreeTrunk6_m1
+GeometryTemplate.file Belfry_TreeTrunk6_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_01_m1
+GeometryTemplate.file BelfryStatics_01_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_02_m1
+GeometryTemplate.file BelfryStatics_02_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_03_m1
+GeometryTemplate.file BelfryStatics_03_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_04_m1
+GeometryTemplate.file BelfryStatics_04_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_05_m1
+GeometryTemplate.file BelfryStatics_05_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_06_m1
+GeometryTemplate.file BelfryStatics_06_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_07_m1
+GeometryTemplate.file BelfryStatics_07_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_08_m1
+GeometryTemplate.file BelfryStatics_08_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_09_m1
+GeometryTemplate.file BelfryStatics_09_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_10_m1
+GeometryTemplate.file BelfryStatics_10_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_11_m1
+GeometryTemplate.file BelfryStatics_11_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_12_m1
+GeometryTemplate.file BelfryStatics_12_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_13_m1
+GeometryTemplate.file BelfryStatics_13_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_14_m1
+GeometryTemplate.file BelfryStatics_14_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_15_m1
+GeometryTemplate.file BelfryStatics_15_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_16_m1
+GeometryTemplate.file BelfryStatics_16_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_17_m1
+GeometryTemplate.file BelfryStatics_17_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_18_m1
+GeometryTemplate.file BelfryStatics_18_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_19_m1
+GeometryTemplate.file BelfryStatics_19_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_20_m1
+GeometryTemplate.file BelfryStatics_20_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_21_m1
+GeometryTemplate.file BelfryStatics_21_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_22_m1
+GeometryTemplate.file BelfryStatics_22_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_23_m1
+GeometryTemplate.file BelfryStatics_23_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_24_m1
+GeometryTemplate.file BelfryStatics_24_m1
+
+GeometryTemplate.create StandardMesh BelfryStatics_25_m1
+GeometryTemplate.file BelfryStatics_25_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone01_m1
+GeometryTemplate.file Belfry_CombatZone01_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone02_m1
+GeometryTemplate.file Belfry_CombatZone02_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone03_m1
+GeometryTemplate.file Belfry_CombatZone03_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone04_m1
+GeometryTemplate.file Belfry_CombatZone04_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone05_m1
+GeometryTemplate.file Belfry_CombatZone05_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone06_m1
+GeometryTemplate.file Belfry_CombatZone06_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone07_m1
+GeometryTemplate.file Belfry_CombatZone07_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone08_m1
+GeometryTemplate.file Belfry_CombatZone08_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone09_m1
+GeometryTemplate.file Belfry_CombatZone09_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone10_m1
+GeometryTemplate.file Belfry_CombatZone10_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone11_m1
+GeometryTemplate.file Belfry_CombatZone11_m1
+
+GeometryTemplate.create StandardMesh Belfry_CombatZone12_m1
+GeometryTemplate.file Belfry_CombatZone12_m1
+
+GeometryTemplate.create StandardMesh CaptainShop_DeathBox_m1
+GeometryTemplate.file CaptainShop_DeathBox_m1

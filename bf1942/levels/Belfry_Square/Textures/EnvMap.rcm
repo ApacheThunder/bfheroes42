@@ -1,0 +1,7 @@
+[CubeMap]
+PositiveX = bf1942/levels/Belfry_Square/Textures/env_LF.dds
+NegativeX = bf1942/levels/Belfry_Square/Textures/env_RT.dds
+PositiveY = bf1942/levels/Belfry_Square/Textures/env_UP.dds
+NegativeY = bf1942/levels/Belfry_Square/Textures/env_DN.dds
+PositiveZ = bf1942/levels/Belfry_Square/Textures/env_FR.dds
+NegativeZ = bf1942/levels/Belfry_Square/Textures/env_BK.dds

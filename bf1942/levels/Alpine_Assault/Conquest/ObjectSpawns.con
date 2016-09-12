@@ -1,0 +1,161 @@
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 333.825/44.125/319.742
+Object.rotation -53.248/-0.916/-0.683855
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 338.107/44.823/287.213
+Object.rotation 41.557/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 471.14/34.211/455.155
+Object.rotation 44.96/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 354.691/39.435/610.826
+Object.rotation 137.267/2.95501/3.19402
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 367.354/39.422/620.404
+Object.rotation 138.757/3.51301/1.599
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 381.948/39.473/618.722
+Object.rotation -132.618/-3.204/2.94404
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 384.558/39.473/615.615
+Object.rotation -134.278/-3.117/3.03499
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 358.498/39.444/602.353
+Object.rotation 48.302/3.25198/-2.89198
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 361.823/39.434/598.836
+Object.rotation 47.253/3.198/-2.95101
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create clifftankspawner
+Object.absolutePosition 361.664/39.422/615.719
+Object.rotation 136.193/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 277.967/34.984/485.28
+Object.rotation 116.733/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 326.171/32.411/435.844
+Object.rotation 100.958/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 274.446/34.984/479.714
+Object.rotation 114.342/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 511.472/38.62/267.857
+Object.rotation -121.945/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 526.658/38.462/277.612
+Object.rotation -31.945/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 521.173/38.596/274.327
+Object.rotation -29.475/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create loggingcamptankspawner
+Object.absolutePosition 667.715/46.426/374.288
+Object.rotation 168.219/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 682.209/46.426/373.567
+Object.rotation -108.88/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 616.45/43.246/323.472
+Object.rotation -66.521/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 684.752/46.426/358.955
+Object.rotation -98.207/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 682.389/46.426/351.023
+Object.rotation -91.418/5.243/0.941908
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 683.697/46.426/365.468
+Object.rotation -107.605/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 612.608/43.178/318.287
+Object.rotation -60.14/0/0
+Object.setOSId 1

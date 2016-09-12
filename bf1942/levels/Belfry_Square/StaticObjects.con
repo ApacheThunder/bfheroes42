@@ -1,0 +1,418 @@
+rem
+rem *** Init Map Extensions ***
+rem
+run Mods
+rem
+rem ***  ***
+rem
+Object.create Belfry_Scenery_Props
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_SkyDome
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL02
+Object.absolutePosition 181.375/258.63/184.361
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL03
+Object.absolutePosition 133.887/258.956/183.036
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL04
+Object.absolutePosition 133.881/258.289/138.737
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Terrain_COL01
+Object.absolutePosition 181.165/254.764/139.341
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Undergrowth
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_01
+Object.absolutePosition 125.0/260.068/159.589
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_02
+Object.absolutePosition 121.29/261.214/186.249
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_03
+Object.absolutePosition 127.486/259.364/199.525
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_04
+Object.absolutePosition 155.576/259.313/199.112
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_05
+Object.absolutePosition 138.59/271.885/186.217
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_06
+Object.absolutePosition 175.591/259.292/193.964
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_07
+Object.absolutePosition 201.569/258.416/190.573
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_08
+Object.absolutePosition 188.006/261.331/175.689
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_09
+Object.absolutePosition 168.245/263.035/177.897
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_10
+Object.absolutePosition 154.628/260.701/179.813
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+rem Object.create Water
+rem Object.absolutePosition 189.919/248.376/123.262
+rem Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_11
+Object.absolutePosition 199.95/259.772/157.276
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_12
+Object.absolutePosition 179.133/262.35/156.858
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_13
+Object.absolutePosition 183.557/259.761/139.032
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_14
+Object.absolutePosition 179.43/260.274/142.996
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_15
+Object.absolutePosition 173.898/259.639/125.634
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_16
+Object.absolutePosition 166.031/261.056/140.75
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_17
+Object.absolutePosition 155.097/260.313/142.144
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_18
+Object.absolutePosition 152.743/260.896/125.594
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_19
+Object.absolutePosition 132.278/259.318/125.601
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_20
+Object.absolutePosition 135.467/263.174/142.46
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_21
+Object.absolutePosition 159.683/262.48/161.31
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_22
+Object.absolutePosition 135.986/263.329/171.074
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_23
+Object.absolutePosition 139.769/263.159/156.877
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_24
+Object.absolutePosition 118.631/258.32/140.54
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create BelfryStatics_25
+Object.absolutePosition 116.201/259.518/153.291
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_TreeTrunk6
+Object.absolutePosition 143.595/258.779/124.198
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_TreeTrunk5
+Object.absolutePosition 119.15/260.363/142.411
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_TreeTrunk4
+Object.absolutePosition 125.106/259.679/166.838
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_TreeTrunk3
+Object.absolutePosition 149.429/259.798/203.518
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_TreeTrunk2
+Object.absolutePosition 187.121/260.633/185.303
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_TreeTrunk1
+Object.absolutePosition 155.17/259.467/142.032
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_TreeBranches
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_Scenery_TreeTrunks
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_Scenery_TreeBranches
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_Scenery_Terrain
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_Scenery_Rocks
+Object.absolutePosition 128.0/256.0/128.0
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone01
+Object.absolutePosition 199.509/293.798/177.785
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone02
+Object.absolutePosition 141.349/293.798/200.213
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone03
+Object.absolutePosition 197.538/293.798/150.549
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone04
+Object.absolutePosition 122.686/293.798/191.6
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone05
+Object.absolutePosition 166.939/293.798/121.456
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone06
+Object.absolutePosition 116.574/293.798/160.653
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone07
+Object.absolutePosition 122.586/293.798/134.652
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone08
+Object.absolutePosition 143.023/293.798/121.098
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone09
+Object.absolutePosition 179.993/293.798/126.749
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone10
+Object.absolutePosition 189.194/293.798/136.012
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone11
+Object.absolutePosition 198.64/293.798/151.038
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create Belfry_CombatZone12
+Object.absolutePosition 180.409/293.798/194.5
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_spores
+Object.absolutePosition 151.309/257/192.424
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_fireflies
+Object.absolutePosition 164.273/257/130.234
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_fireflies
+Object.absolutePosition 198.709/257/184.952
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_spores
+Object.absolutePosition 113.826/257/155.992
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_ChimnySmoke
+Object.absolutePosition 161.515/262.213/198.98
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_ChimnySmoke 
+Object.absolutePosition 104.657/264.297/138.906
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_ChimnySmoke 
+Object.absolutePosition 173.669/262.558/123.172
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_ChimnySmoke 
+Object.absolutePosition 181.776/268.044/155.802
+Object.rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_birds
+Object.absolutePosition 140.27/310.0/32.34
+Object.rotation 57.33/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_birds
+Object.absolutePosition 184.069/300.0/34.3247
+Object.rotation 54.6666/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_birds
+Object.absolutePosition 294.585/300.0/162.184
+Object.rotation -25.881/0.0/0.0
+rem
+rem ***  ***
+rem
+Object.create ambstat_birds
+Object.absolutePosition 294.428/310.0/104.187
+Object.rotation 3.96842/0.0/0.0
