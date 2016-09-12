@@ -1,0 +1,14 @@
+game.setCustomGameName bfheroes
+game.addModPath Mods/bf1942/
+game.addModPath Mods/bfheroes/
+
+game.setCustomGameVersion 5.0
+game.setCustomGameUrl "http://www.bfmods.com//"
+game.setCustomGameInfo "Mod created by Apache Thunder."
+
+game.setMenuMusicFilename "music/slaughter4.bik"
+game.setLoadMusicFilename "music/vehicle4.bik"
+game.setWinMusicFilename "music/vehicle3.bik"
+game.setLoseMusicFilename "music/menu.bik"
+game.setCampaignLoseMusicFilename "music/theme2.bik"
+game.setDebriefingMusicFilename "music/briefing.bik"
