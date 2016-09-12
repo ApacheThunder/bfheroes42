@@ -1,0 +1,55 @@
+GeometryTemplate.create patchTerrain SimulationGrid
+GeometryTemplate.file bf1942\levels\Grid\Heightmap
+GeometryTemplate.materialMap bf1942\levels\Grid\Materialmap
+GeometryTemplate.materialSize 1024
+GeometryTemplate.targetTriCount 4096
+GeometryTemplate.worldSize 4096
+GeometryTemplate.yScale 0.6
+GeometryTemplate.texBaseName bf1942\levels\Grid\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\Grid\Textures\Detail
+GeometryTemplate.detailTexScale 1
+GeometryTemplate.waterLevel 30.7193
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 2048
+
+rem
+rem  *** Alternate for Singleplayer with AI Infantry Pathmaps made visible. ***
+rem
+GeometryTemplate.create patchTerrain SimulationGridOverlay
+GeometryTemplate.file bf1942\levels\Grid\Heightmap
+GeometryTemplate.materialMap bf1942\levels\Grid\Materialmap
+GeometryTemplate.materialSize 1024
+GeometryTemplate.targetTriCount 4096
+GeometryTemplate.worldSize 4096
+GeometryTemplate.yScale 0.6
+GeometryTemplate.texBaseName bf1942\levels\Grid\Textures\SP\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\Grid\Textures\Detail
+GeometryTemplate.detailTexScale 1
+GeometryTemplate.waterLevel 30.7193
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 2048
+
+ObjectTemplate.create SimpleObject GRID
+ObjectTemplate.geometry SimulationGrid
+ObjectTemplate.createNotInGrid 1
+
+ObjectTemplate.create SimpleObject GRIDSP
+ObjectTemplate.geometry SimulationGridOverlay
+ObjectTemplate.createNotInGrid 1
+
+rem
+rem *** Terrain Spawned on a per game-mode basis ***
+rem
+
+
+Console.worldSize 2048
+
+Terrain.ShadowAmbient 90/90/90
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 8
+
+shadow.shadowColor 1/0/0

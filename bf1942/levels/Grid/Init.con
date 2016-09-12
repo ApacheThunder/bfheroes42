@@ -1,0 +1,56 @@
+ShaderManager.setTextureParam envmap bf1942\levels\Grid\Textures\GridMap.rcm
+ShaderManager.setDefaultShaderSolidColor 0.5
+
+Game.viewDistance 1512
+Game.spawnPlayers 1
+
+renderer.vertexFogEnable 1
+renderer.globalLodPercent 1
+renderer.fogColorVec 0/0/0
+renderer.animatedMeshAmbient 0.4
+renderer.globalAmbientColor 0.17
+renderer.ambientColor 0.22
+renderer.diffuseColor 0.4
+renderer.specularColor 0.8
+
+renderer.fogStart 1024
+renderer.fogEnd 1512
+renderer.mipMapBias -12
+
+Game.damageForBeingOutSideWorld 120
+
+Game.setBeforeSpawnCameraPosition 1 1030/50/1030
+Game.setBeforeSpawnCameraPosition 2 1030/50/1030
+
+Game.setActiveCombatArea 0 0 2048 2048
+
+run Sounds
+run Init/Terrain
+run Init/SkyAndSun
+
+game.setTeamSkin 1 german_male_soldier
+game.setKit 1 0 NA_Commando_Kit
+game.setKit 1 1 NA_Gunner_Kit_TNT
+game.setKit 1 2 NA_Gunner_Kit_MiniTank
+game.setKit 1 3 NA_Soldier_Kit
+game.setKit 1 4 NA_Soldier_Kit_TNT
+
+game.setTeamSkin 2 british_male_soldier
+game.setKit 2 0 RA_Commando_Kit
+game.setKit 2 1 RA_Gunner_Kit_TNT
+game.setKit 2 2 RA_Gunner_Kit_MiniTank
+game.setKit 2 3 RA_Soldier_Kit
+game.setKit 2 4 RA_Soldier_Kit_TNT
+
+water.addBlendEnable 1
+water.specularEnable 0
+water.texLayer1 texture/WaterGrid
+water.texLayer2 texture/WaterGrid
+water.normalMap texture/noTexture
+water.scrollDirection1 -0.1/-0.1
+water.scrollDirection2 0.1/0.1
+water.specularColor 0/0/0
+water.scrollLayer1 0.03
+water.tileLayer1 0.50
+water.color 0.8
+water.deepColor 0.6

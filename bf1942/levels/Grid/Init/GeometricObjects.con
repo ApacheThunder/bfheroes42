@@ -1,0 +1,1723 @@
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1637.19/33/1558.91
+Object.Rotation 10.5798/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1564.42/33/1627.64
+Object.Rotation 172.991/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1672.62/33/1465.18
+Object.Rotation 197.084/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1675.36/33/1651.77
+Object.Rotation 14.6667/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1738.41/33/1552.96
+Object.Rotation 355.386/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1551.79/33/1504.05
+Object.Rotation 166.366/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1580.08/33/1406.77
+Object.Rotation 324.261/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1778.09/33/1648.55
+Object.Rotation 101.459/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1603.63/33/1725.77
+Object.Rotation 82.4194/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1771.72/33/1451.57
+Object.Rotation 333.182/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1465.5/33/1580.99
+Object.Rotation 152.82/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1711.29/33/1746.5
+Object.Rotation 23.6755/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1474.67/33/1435.6
+Object.Rotation 334.292/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1482.33/33/1691.87
+Object.Rotation 58.4363/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1842.25/33/1554.78
+Object.Rotation 101.624/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1673.98/33/1354.59
+Object.Rotation 257.454/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1399.73/33/1504.1
+Object.Rotation 235.492/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1784.77/33/1350.21
+Object.Rotation 94.1858/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1582.73/33/1304.56
+Object.Rotation 23.3459/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1543.62/33/1806.84
+Object.Rotation 233.646/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1812.48/33/1758.06
+Object.Rotation 32.5854/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1884.56/33/1655.09
+Object.Rotation 221.001/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1884.68/33/1459.77
+Object.Rotation 117.213/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1385.84/33/1651.35
+Object.Rotation 71.6528/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1476.69/33/1328.49
+Object.Rotation 139.329/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1748.28/33/1085.75
+Object.Rotation 125.969/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1846.14/33/1106.8
+Object.Rotation 36.2219/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1756.3/33/985.87
+Object.Rotation 195.513/0/0
+
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1675.34/33/1155.03
+Object.Rotation 326.865/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1649.61/33/1057.28
+Object.Rotation 179.429/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1783.74/33/1193.56
+Object.Rotation 123.234/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1857/33/995.649
+Object.Rotation 227.021/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1655.25/33/944.297
+Object.Rotation 287.051/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1568.72/33/1125.02
+Object.Rotation 155.984/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1704.61/33/1266.24
+Object.Rotation 96.1304/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1885.28/33/1211.85
+Object.Rotation 294.049/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1945.91/33/1068.27
+Object.Rotation 229.438/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1567.4/33/997.635
+Object.Rotation 355.485/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1796.52/33/890.309
+Object.Rotation 305.233/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1597.81/33/1233.24
+Object.Rotation 53.5474/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1809.08/33/1293.33
+Object.Rotation 163.235/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1909.9/33/909.946
+Object.Rotation 290.182/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1702.59/33/839.036
+Object.Rotation 222.187/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1994.9/33/1163.25
+Object.Rotation 344.312/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1988.18/33/974.807
+Object.Rotation 24.104/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1479.51/33/1064.57
+Object.Rotation 339.818/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1603.75/33/855.554
+Object.Rotation 16.3477/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1730.87/33/1363.11
+Object.Rotation 94.5923/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1495.79/33/1202.81
+Object.Rotation 282.953/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1916.91/33/1307.91
+Object.Rotation 31.8164/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1853.85/33/289.004
+Object.Rotation 166.08/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1808.95/33/378.467
+Object.Rotation 6.53687/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1846.91/33/188.845
+Object.Rotation 288.512/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1951.55/33/265.464
+Object.Rotation 52.6575/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1909.35/33/373.388
+Object.Rotation 13.3044/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1747.99/33/272.117
+Object.Rotation 107.15/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1942.59/33/155.749
+Object.Rotation 102.338/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1748.64/33/159.953
+Object.Rotation 325.063/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 2012.04/33/349.607
+Object.Rotation 314.572/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1703.54/33/371.997
+Object.Rotation 8.31665/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1863.92/33/467.522
+Object.Rotation 48.9221/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1849.04/33/88.4585
+Object.Rotation 241.6/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1753.27/33/467.752
+Object.Rotation 138.933/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1651.54/33/236.924
+Object.Rotation 53.4924/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1979.18/33/466.89
+Object.Rotation 77.2119/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 2035/33/112.519
+Object.Rotation 225.824/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1604.82/33/336.953
+Object.Rotation 272.955/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1951.97/33/54.2818
+Object.Rotation 357.045/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1649.68/33/131.426
+Object.Rotation 158.511/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1758.84/33/38.4045
+Object.Rotation 80.4748/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1631.36/33/442.154
+Object.Rotation 297.059/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1823.67/33/559.232
+Object.Rotation 330.919/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1319.56/33/236.678
+Object.Rotation 94.1968/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1330.58/33/137.186
+Object.Rotation 217.837/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1418.51/33/220.874
+Object.Rotation 91.615/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1219.72/33/246.279
+Object.Rotation 68.6316/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1335.66/33/336.993
+Object.Rotation 14.8315/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1222.25/33/138.545
+Object.Rotation 323.536/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1438.19/33/323.992
+Object.Rotation 306.639/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1228.02/33/354.492
+Object.Rotation 85.5505/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1438.45/33/119.962
+Object.Rotation 74.6851/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1135.45/33/192.244
+Object.Rotation 149.293/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1295.61/33/43.3537
+Object.Rotation 224.418/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1137.45/33/310.234
+Object.Rotation 327.964/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1398.63/33/417.008
+Object.Rotation 11.5576/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1519.91/33/241.519
+Object.Rotation 195.37/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1297.04/33/443.76
+Object.Rotation 210.267/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1395.88/33/25.4357
+Object.Rotation 329.216/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1192.95/33/40.0034
+Object.Rotation 353.221/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1149.94/33/418.43
+Object.Rotation 242.095/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1506.76/33/401.182
+Object.Rotation 359.923/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1554.71/33/147.162
+Object.Rotation 166.19/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1103.25/33/89.7288
+Object.Rotation 129.485/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1503.63/33/39.1378
+Object.Rotation 358.121/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1044.92/33/258.473
+Object.Rotation 214.058/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1579.98/33/330.814
+Object.Rotation 50.1196/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1371.07/49/516.282
+Object.Rotation 29.2456/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 414.88/33/350.169
+Object.Rotation 31.1023/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 371.32/33/260.045
+Object.Rotation 91.2964/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 514.349/33/338.095
+Object.Rotation 235.931/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 330.944/33/405.258
+Object.Rotation 237.502/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 461.088/33/440.54
+Object.Rotation 15.238/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 470.64/33/234.066
+Object.Rotation 74.0149/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 275.831/33/321.373
+Object.Rotation 293.478/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 387.208/33/510.195
+Object.Rotation 181.593/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 570.882/33/430.351
+Object.Rotation 0.65918/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 571.819/33/248.668
+Object.Rotation 138.428/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 280.114/33/214.677
+Object.Rotation 96.7566/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 383.141/33/159.896
+Object.Rotation 271.143/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 224.663/33/412.928
+Object.Rotation 340.818/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 491.089/33/538.325
+Object.Rotation 25.8838/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 281.748/33/510.376
+Object.Rotation 200.665/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 626.081/33/343.566
+Object.Rotation 125.706/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 515.17/33/141.959
+Object.Rotation 359.495/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 179.62/33/291.336
+Object.Rotation 20.5774/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 413.648/33/607.273
+Object.Rotation 15.8313/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 601.288/33/531.431
+Object.Rotation 316.198/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 277.598/33/113.264
+Object.Rotation 112.786/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 677.014/33/432.329
+Object.Rotation 247.863/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 615.439/33/156.639
+Object.Rotation 133.121/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 441.277/33/68.8974
+Object.Rotation 245.709/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 683.394/33/256.121
+Object.Rotation 36.2/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 392.693/33/1128.8
+Object.Rotation 242.051/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 335.842/33/1211.19
+Object.Rotation 108.424/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 486.898/33/1162.93
+Object.Rotation 119.575/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 433.027/33/1036.86
+Object.Rotation 193.667/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 295.38/33/1098.91
+Object.Rotation 349.662/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 429.338/33/1252.07
+Object.Rotation 88.2751/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 527.214/33/1071.29
+Object.Rotation 135.483/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 327.129/33/995.891
+Object.Rotation 92.395/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 226.53/33/1173.62
+Object.Rotation 304.2/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 347.978/33/1312.23
+Object.Rotation 143.13/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 540.161/33/1252.69
+Object.Rotation 41.0889/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 500.271/33/961.974
+Object.Rotation 30.7507/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 211.062/33/1042.94
+Object.Rotation 5.74585/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 592.934/33/1149.45
+Object.Rotation 175.375/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 240.751/33/1275.64
+Object.Rotation 51.9543/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 412.758/33/912.323
+Object.Rotation 275.251/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 446.679/33/1350.63
+Object.Rotation 112.225/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 608.921/33/1012.53
+Object.Rotation 157.928/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 235.655/33/939.307
+Object.Rotation 28.4216/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 127.566/33/1114.6
+Object.Rotation 145.558/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 141.424/33/1232.71
+Object.Rotation 49.5703/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 642.904/33/1240
+Object.Rotation 225.648/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 549.866/33/1353.98
+Object.Rotation 298.279/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 307.544/33/863.207
+Object.Rotation 18.3472/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 266.022/33/1382.99
+Object.Rotation 206.851/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 810.451/33/1494.21
+Object.Rotation 224.418/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 823.713/33/1395
+Object.Rotation 214.563/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 710.885/33/1506.32
+Object.Rotation 3.58154/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 817.172/33/1594.79
+Object.Rotation 178.044/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 909.829/33/1474.07
+Object.Rotation 13.4253/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 717.572/33/1401.97
+Object.Rotation 245.083/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 923.731/33/1580.33
+Object.Rotation 166.113/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 707.611/33/1607.77
+Object.Rotation 300.3/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 920.842/33/1365.19
+Object.Rotation 101.569/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 766.094/33/1308.23
+Object.Rotation 326.547/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 619.207/33/1455.6
+Object.Rotation 236.426/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 872.305/33/1680.73
+Object.Rotation 215.167/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1008.32/33/1497.7
+Object.Rotation 147.426/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 768.91/33/1701.8
+Object.Rotation 66.5332/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 608.848/33/1561.71
+Object.Rotation 285.48/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 872.28/33/1275.69
+Object.Rotation 226.835/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 630.454/33/1352.8
+Object.Rotation 236.766/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 980.068/33/1664.16
+Object.Rotation 127.364/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1027.47/33/1389.17
+Object.Rotation 246.874/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 624.598/33/1674.03
+Object.Rotation 212.783/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1057/33/1590.29
+Object.Rotation 304.596/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 994.76/35/1290.78
+Object.Rotation 264.353/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 693.619/33/1236.67
+Object.Rotation 261.277/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 522.238/33/1483.6
+Object.Rotation 204.51/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 842.348/33/1783.87
+Object.Rotation 322.174/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1142.25/33/1624.22
+Object.Rotation 84.5727/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1087.47/33/1540.45
+Object.Rotation 255.421/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1242.44/33/1628.9
+Object.Rotation 42.9456/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1045.21/33/1651.86
+Object.Rotation 239.601/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1149.53/33/1725.36
+Object.Rotation 297.477/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1194.84/33/1532.54
+Object.Rotation 53.7122/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1267.25/33/1729.77
+Object.Rotation 6.93237/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1044.45/33/1756.25
+Object.Rotation 96.1304/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 986.588/33/1566.26
+Object.Rotation 322.723/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1297.65/33/1541.39
+Object.Rotation 344.872/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1137.45/33/1441.69
+Object.Rotation 103.799/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1023.17/33/1463.28
+Object.Rotation 41.2537/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1872.98/33/1926.41
+Object.Rotation 61.853/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1826.71/33/1837.64
+Object.Rotation 212.498/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1947.18/33/1993.74
+Object.Rotation 109.545/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1773.72/33/1940.82
+Object.Rotation 230.24/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1939.45/33/1851.03
+Object.Rotation 90.3735/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1844.8/33/2029.84
+Object.Rotation 285.436/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 2023.54/33/1919.91
+Object.Rotation 85.0781/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1744.45/33/2038.74
+Object.Rotation 120.465/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1721.84/33/1845.14
+Object.Rotation 78.6731/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1901.59/33/1755.48
+Object.Rotation 174.606/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 369.249/33/1880.61
+Object.Rotation 237.799/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 381.565/33/1980.15
+Object.Rotation 70.0818/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 467.781/33/1858.42
+Object.Rotation 97.8992/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 392.188/33/1779.99
+Object.Rotation 4.57031/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 285.473/33/1941.55
+Object.Rotation 280.151/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 493.516/33/1956.1
+Object.Rotation 280.69/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 306.795/33/1726.16
+Object.Rotation 289.72/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 198.134/33/1888.59
+Object.Rotation 60.6555/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 491.515/33/1752.48
+Object.Rotation 0.406494/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 122.604/33/1882.04
+Object.Rotation 18.7207/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 153.291/33/1977.31
+Object.Rotation 276.394/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 175.108/33/1796.46
+Object.Rotation 325.811/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 29.5278/33/1919.94
+Object.Rotation 139.417/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 48.6294/33/1813.71
+Object.Rotation 304.003/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 51.576/33/2025.74
+Object.Rotation 147.711/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 90.1025/33/1721.7
+Object.Rotation 48.5046/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 254.706/33/1995.9
+Object.Rotation 3.82324/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 284.903/33/1808.94
+Object.Rotation 98.3826/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 239.048/33/1572.25
+Object.Rotation 63.2043/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 315.169/33/1637.26
+Object.Rotation 95.8118/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 326.931/33/1524.13
+Object.Rotation 354.298/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 146.362/33/1610.58
+Object.Rotation 178.857/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 161.175/33/1508.1
+Object.Rotation 323.811/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 223.499/33/1681.25
+Object.Rotation 219.485/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 249.651/33/1460.66
+Object.Rotation 242.172/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 408.676/33/1587.39
+Object.Rotation 119.191/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 684.02/33/1871.24
+Object.Rotation 336.346/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 783.968/33/1865.73
+Object.Rotation 89.1101/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 596.193/33/1919.47
+Object.Rotation 259.673/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 698.466/33/1970.59
+Object.Rotation 14.0515/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 617.295/33/1795.95
+Object.Rotation 295.477/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 724.78/33/1779.04
+Object.Rotation 47.0984/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 808.692/33/1963
+Object.Rotation 52.2839/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 525.114/33/1835.84
+Object.Rotation 26.3672/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1008.69/33/1916.46
+Object.Rotation 82.8479/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 920.059/33/1869.94
+Object.Rotation 339.609/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1011.63/33/2016.62
+Object.Rotation 344.312/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1086.76/33/1853.34
+Object.Rotation 350.288/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1107.57/33/1951.18
+Object.Rotation 61.1389/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 915.577/33/1978.34
+Object.Rotation 353.529/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 994.738/33/1802.82
+Object.Rotation 64.7534/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1110/33/2040
+Object.Rotation 226.165/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1234.42/33/1912.36
+Object.Rotation 13.623/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1259.11/33/2009.36
+Object.Rotation 224.879/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1333.6/33/1898.11
+Object.Rotation 52.0862/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1188.26/33/1822.75
+Object.Rotation 110.039/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1133.26/33/1909.5
+Object.Rotation 24.4116/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1155.81/33/2011.47
+Object.Rotation 231.042/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1292.33/33/1796.19
+Object.Rotation 104.227/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1365.47/33/1994.19
+Object.Rotation 329.81/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1528.43/33/1940.54
+Object.Rotation 44.8901/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1507.9/33/2038.51
+Object.Rotation 199.742/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1614.83/33/1991.48
+Object.Rotation 297.158/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1535.77/33/1840.21
+Object.Rotation 348.552/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1433.79/33/1905.55
+Object.Rotation 229.384/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1630.43/33/1892.63
+Object.Rotation 105.458/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1412.59/33/2006.9
+Object.Rotation 176.572/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 344.503/33/730.757
+Object.Rotation 300.707/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 392.685/33/818.497
+Object.Rotation 164.015/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 427.773/33/675.025
+Object.Rotation 180.769/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 248.162/33/702.859
+Object.Rotation 136.593/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 292.048/33/816.363
+Object.Rotation 348.596/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 318.037/33/629.872
+Object.Rotation 217.804/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 481.335/33/765.199
+Object.Rotation 88.1653/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 191.715/33/794.628
+Object.Rotation 36.0242/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1038.12/33/1175.09
+Object.Rotation 331.216/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1053.42/33/1274.01
+Object.Rotation 233.745/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 946.311/33/1134.96
+Object.Rotation 351.475/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1089.8/33/1088.43
+Object.Rotation 319.999/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1137.48/33/1193.78
+Object.Rotation 254.476/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1172.58/32.8125/950.148
+Object.Rotation 152.26/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 942.237/32.8125/743.402
+Object.Rotation 77.6953/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 929.869/32.8125/975.206
+Object.Rotation 88.5498/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1111.67/32.8125/925.432
+Object.Rotation 302.003/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1228.99/32.8125/891.561
+Object.Rotation 281.14/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1366.7/48.5531/712.549
+Object.Rotation 352.529/0/0
+rem
+rem ***  ***
+rem
+Object.create cone_spawner
+Object.absolutePosition 1387.41/32.8125/740.042
+Object.Rotation 90.022/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1413.27/32.8125/724.172
+Object.Rotation 188.514/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1315.15/32.8125/853.617
+Object.Rotation 322.361/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1234.92/47.3484/911.591
+Object.Rotation 126.046/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1232.95/47.3484/923.947
+Object.Rotation 119.52/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1241.17/47.3484/937.461
+Object.Rotation 244.841/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1239.86/47.3484/921.606
+Object.Rotation 93.6035/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1318.63/47.5875/934.093
+Object.Rotation 227.351/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1307.75/47.5875/930.641
+Object.Rotation 263.419/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1306.02/47.5875/917.733
+Object.Rotation 231.108/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1317.78/47.5875/922.787
+Object.Rotation 77.0251/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1312.62/47.5875/907.565
+Object.Rotation 102.404/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1301.11/32.8125/1001.22
+Object.Rotation 46.4612/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 944.051/32.8125/994.425
+Object.Rotation 244.962/0/0
+rem
+rem ***  ***
+rem
+Object.create sphere_spawner
+Object.absolutePosition 1136.67/32.8125/783.581
+Object.Rotation 183.746/0/0
+rem
+rem ***  ***
+rem
+Object.create cube
+Object.absolutePosition 988.031/41.6813/932.05
+Object.Rotation 305.618/0/0
+rem
+rem ***  ***
+rem
+Object.create cube_spawner
+Object.absolutePosition 1002.49/42.116/1045
+Object.Rotation 296.499/0/0

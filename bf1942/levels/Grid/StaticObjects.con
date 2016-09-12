@@ -1,0 +1,1526 @@
+em
+rem *** Init Map Mods ***
+rem
+include Init/Mods.con
+include Init/GeometricObjects.con
+Include Init/GridEffects.con
+rem
+rem *** Captain Shop ***
+rem
+Object.create bri_captainshopbundle
+Object.absolutePosition 1058.19/33.2654/1355.89
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ger_captainshopbundle
+Object.absolutePosition 1342.46/48.8753/629.831
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create backdrop_boat_anchor
+Object.absolutePosition 1011.43/31.0896/997.484
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create barn_01
+Object.absolutePosition 947.013/32.8125/1026.97
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create basket_01_empty
+Object.absolutePosition 971.893/33.0431/1023.94
+Object.Rotation 112.896/0/0
+rem
+rem ***  ***
+rem
+Object.create basket_01_grain
+Object.absolutePosition 968.178/33.0699/1024.13
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bench_01
+Object.absolutePosition 979.801/33.2707/1023.71
+Object.Rotation 220.463/0/0
+rem
+rem ***  ***
+rem
+Object.create boat_lcvp_static
+Object.absolutePosition 988/31.8439/1024
+Object.Rotation 268.31/-18.3/-1.4941e-006
+rem
+rem ***  ***
+rem
+Object.create boat_trap
+Object.absolutePosition 996/33.8742/1004
+Object.Rotation 221.32/0/0
+rem
+rem ***  ***
+rem
+Object.create boatwreck
+Object.absolutePosition 1020/35.4454/1020
+Object.Rotation 245.874/0/0
+rem
+rem ***  ***
+rem
+Object.create boatwreck_night
+Object.absolutePosition 1068/35.3791/1024
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create broken_castletower_01
+Object.absolutePosition 1068/32.8125/996
+Object.Rotation 76.7944/0/0
+rem
+rem ***  ***
+rem
+Object.create bunker
+Object.absolutePosition 1048/29.5871/960
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create buoy_01
+Object.absolutePosition 1000/30.797/1016
+Object.Rotation 256.509/0/0
+rem
+rem ***  ***
+rem
+Object.create cable_16m
+Object.absolutePosition 1032/35.7021/1024
+Object.Rotation 12/0/0
+rem
+rem ***  ***
+rem
+Object.create cable_8m
+Object.absolutePosition 1044/34.5747/1016
+Object.Rotation -90/-24/35
+rem
+rem ***  ***
+rem
+Object.create cable_flags_10m
+Object.absolutePosition 1036/35.4471/996
+Object.Rotation 62/0/-35
+rem
+rem ***  ***
+rem
+Object.create cable_flags_16m
+Object.absolutePosition 1040/39.1212/1032
+Object.Rotation 51.7/0/59.2
+rem
+rem ***  ***
+rem
+Object.create cablepole_01
+Object.absolutePosition 952/33.8497/1020
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_02
+Object.absolutePosition 948/32.5124/1012
+Object.Rotation -98/0/0
+rem
+rem ***  ***
+rem
+Object.create cablepole_cluster_01
+Object.absolutePosition 1032/36.2455/964
+Object.Rotation 122/0/0
+rem
+rem ***  ***
+rem
+Object.create castle_arcwall_01
+Object.absolutePosition 944/35.9239/992
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create castle_banner_01
+Object.absolutePosition 1032/34.4431/1024
+Object.Rotation 11.5/0/0
+rem
+rem ***  ***
+rem
+Object.create castle_banner_02
+Object.absolutePosition 928/33.8842/988
+Object.Rotation 177/-42.8/0
+rem
+rem ***  ***
+rem
+Object.create castle_banner_03
+Object.absolutePosition 960/34.1497/1000
+Object.Rotation 0/-38/0
+rem
+rem ***  ***
+rem
+Object.create castle_cornerstone
+Object.absolutePosition 968/34.1598/996
+Object.Rotation 10.3/-30.9/-1.09999
+rem
+rem ***  ***
+rem
+Object.create castle_gatewall_01
+Object.absolutePosition 988/37.4743/952
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create castle_stoneslabs_01
+Object.absolutePosition 996/33.245/956
+Object.Rotation 68/0/0
+rem
+rem ***  ***
+rem
+Object.create castle_top_broken
+Object.absolutePosition 1008/35.0519/964
+Object.Rotation 0/0/112
+rem
+rem ***  ***
+rem
+Object.create castlebrokenwall_01
+Object.absolutePosition 1004/37.2211/932
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create castledoor_01
+Object.absolutePosition 1403.43/39.3542/707.989
+Object.Rotation 90/-19.8/0
+rem
+rem ***  ***
+rem
+Object.create castleinnerwall_01
+Object.absolutePosition 1004/31.9925/952
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create castlestairs_01
+Object.absolutePosition 988/36.9145/900
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create castletop_01
+Object.absolutePosition 1028/40.9619/924
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create castletower_01
+Object.absolutePosition 1000/38.5729/900
+Object.Rotation 145/0/0
+rem
+rem ***  ***
+rem
+Object.create castlewall_long_01
+Object.absolutePosition 996/30.804/876
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create castlewall_longinside_01
+Object.absolutePosition 1016/37.1507/908
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create castlewall_secretpassage_01
+Object.absolutePosition 968/32.5652/972
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create church
+Object.absolutePosition 1096/39.0084/924
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_01
+Object.absolutePosition 996/41.1218/856
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_02
+Object.absolutePosition 1000/33.0209/884
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create crate_03
+Object.absolutePosition 1012/32.9689/892
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create creek_01
+Object.absolutePosition 1244/37.9597/864
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create digger_national_01
+Object.absolutePosition 1292/48.5593/700
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create digger_national_cog
+Object.absolutePosition 1288/48.5448/704
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create digger_national_plate
+Object.absolutePosition 1288/48.5494/696
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create digger_national_trackpiece
+Object.absolutePosition 1292/48.5665/692
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create digger_royal
+Object.absolutePosition 1352/49.5467/720
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create drawbridge
+Object.absolutePosition 1364/48.3969/728
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create eyes_01
+Object.absolutePosition 1368/48.4196/724
+Object.Rotation -90/-90/0
+rem
+rem ***  ***
+rem
+Object.create fallenleafs_yellow_m1
+Object.absolutePosition 1368/48.4551/740
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create farmhouse_01
+Object.absolutePosition 1360/48.3282/744
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create fishingboat_e_01
+Object.absolutePosition 1244/35.3007/580
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create fishingboat_e_02
+Object.absolutePosition 1240/35.4933/608
+Object.Rotation 324.163/0/0
+rem
+rem ***  ***
+rem
+Object.create fogplane
+Object.absolutePosition 1096/21.9968/324
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create fountain_01
+Object.absolutePosition 1340/50.0309/656
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create fountain_02
+Object.absolutePosition 1356/49.7946/652
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create gangway_01
+Object.absolutePosition 1328/49.6478/664
+Object.Rotation 0/90/0
+rem
+rem ***  ***
+rem
+Object.create garage01
+Object.absolutePosition 1380/48.3779/692
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ghost_sitting_01
+Object.absolutePosition 980/33.2559/1024
+Object.Rotation -146/0/0
+rem
+rem ***  ***
+rem
+Object.create guardtower_e_01
+Object.absolutePosition 1212/38.7672/776
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create haystack01
+Object.absolutePosition 1260/33.5281/808
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_16m
+Object.absolutePosition 1224/34.3966/824
+Object.Rotation 55.8875/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_4m
+Object.absolutePosition 1232/34.3824/828
+Object.Rotation 103.843/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m
+Object.absolutePosition 1236/34.4277/824
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_8m_arch
+Object.absolutePosition 1244/34.3773/820
+Object.Rotation 71.7737/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_endpiece
+Object.absolutePosition 1236/34.4785/828
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create highbrickwall_inverted_8m
+Object.absolutePosition 1244/34.4542/828
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create lantern_01
+Object.absolutePosition 1240/33.1692/832
+Object.Rotation -92/0/0
+rem
+rem ***  ***
+rem
+Object.create lantern_02
+Object.absolutePosition 1248/33.2461/832
+Object.Rotation 320/0/0
+rem
+rem ***  ***
+rem
+Object.create light_post_01
+Object.absolutePosition 1216/32.7772/796
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create lighthouse_e_01
+Object.absolutePosition 1200/49.2197/824
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create log_cover
+Object.absolutePosition 1196/33.0483/856
+Object.Rotation 325.778/0/0
+rem
+rem ***  ***
+rem
+Object.create log_pinetree_01
+Object.absolutePosition 1188/33.2308/860
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create maketstand_01
+Object.absolutePosition 1196/34.3025/844
+Object.Rotation -145/0/0
+rem
+rem ***  ***
+rem
+Object.create medievalhouse_01
+Object.absolutePosition 1168/34.3489/784
+Object.Rotation 217.046/0/0
+rem
+rem ***  ***
+rem
+Object.create medievalhouse_02
+Object.absolutePosition 1168/37.2123/800
+Object.Rotation 277.394/0/0
+rem
+rem ***  ***
+rem
+Object.create medievalhouse_03
+Object.absolutePosition 1176/37.2765/816
+Object.Rotation 54.8987/0/0
+rem
+rem ***  ***
+rem
+Object.create medievalhouse_04
+Object.absolutePosition 1192/38.8154/792
+Object.Rotation 303.761/0/0
+rem
+rem ***  ***
+rem
+Object.create medievalhouse_05
+Object.absolutePosition 1196/35.6188/812
+Object.Rotation 102.03/0/0
+rem
+rem ***  ***
+rem
+Object.create medievalhouse_secondfloor_01
+Object.absolutePosition 1168.06/40.3912/784.265
+Object.Rotation 217.046/0/0
+rem
+rem ***  ***
+rem
+Object.create mediumgrass_green_m1
+Object.absolutePosition 1204/32.8125/807
+Object.Rotation 305/0/0
+rem
+rem ***  ***
+rem
+Object.create monastery_sign
+Object.absolutePosition 1207.95/33.3179/812.344
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create monasteryback
+Object.absolutePosition 1132/40.9825/848
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create monasteryfront
+Object.absolutePosition 1132/41.484/884
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mountains_01
+Object.absolutePosition 1676/45.3197/792
+Object.Rotation -41/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_01
+Object.absolutePosition 1368/54.2565/668
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_02
+Object.absolutePosition 1380/56.4111/672
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_cypress_cluster_01
+Object.absolutePosition 1372/56.4504/656
+Object.Rotation 259.827/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_hedge01
+Object.absolutePosition 1348/48.5662/632
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_hedge01_end
+Object.absolutePosition 1344/48.5894/640
+Object.Rotation 79.9915/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_hedgerow
+Object.absolutePosition 1364/53.4398/600
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_03
+Object.absolutePosition 1328/53.7285/628
+Object.Rotation 138.197/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_04
+Object.absolutePosition 1332/53.7174/640
+Object.Rotation 128.99/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au
+Object.absolutePosition 1380/53.7568/624
+Object.Rotation 75.7068/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_02
+Object.absolutePosition 1376/53.6676/580
+Object.Rotation 132.155/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_au_03
+Object.absolutePosition 1364/53.7142/564
+Object.Rotation 51.416/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_01
+Object.absolutePosition 1344/53.6366/536
+Object.Rotation 152.82/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_02
+Object.absolutePosition 1372/53.5915/544
+Object.Rotation 76.1023/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_03
+Object.absolutePosition 1328/53.7009/560
+Object.Rotation 28.5864/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_04
+Object.absolutePosition 1340/53.5627/576
+Object.Rotation 329.656/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au
+Object.absolutePosition 1368/53.5863/520
+Object.Rotation 74.2786/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_leaftree_cluster_au_03
+Object.absolutePosition 1388/53.5753/516
+Object.Rotation 26.6089/0/0
+rem
+rem ***  ***
+rem
+Object.create mt_mediumbush_01
+Object.absolutePosition 1380/48.5704/692
+Object.Rotation 121.794/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalstent_01
+Object.absolutePosition 1388/48.5037/712
+Object.Rotation 67.4561/0/0
+rem
+rem ***  ***
+rem
+Object.create outhouse_e_01
+Object.absolutePosition 1312/49.8923/664
+Object.Rotation 173.683/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_01
+Object.absolutePosition 1304/53.7579/632
+Object.Rotation 94.823/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_02
+Object.absolutePosition 1292/56.6208/624
+Object.Rotation 303.629/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_03
+Object.absolutePosition 1280/42.1719/600
+Object.Rotation 25.3784/0/0
+rem
+rem ***  ***
+rem
+Object.create palmtree_cluster_01
+Object.absolutePosition 1300/53.9834/660
+Object.Rotation 280.931/0/0
+rem
+rem ***  ***
+rem
+Object.create pinetree_forrestbackdrop_01
+Object.absolutePosition 1328/59.6165/516
+Object.Rotation 35.9912/0/0
+rem
+rem ***  ***
+rem
+Object.create pinetree_forrestbackdrop_02
+Object.absolutePosition 1360/58.5934/468
+Object.Rotation 153.325/0/0
+rem
+rem ***  ***
+rem
+Object.create pp_icesheet
+Object.absolutePosition 668/21.274/764
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_01
+Object.absolutePosition 1188/42.8636/752
+Object.Rotation 112.896/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_02
+Object.absolutePosition 1180/42.3417/756
+Object.Rotation 220.463/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_03
+Object.absolutePosition 1188/42.4235/740
+Object.Rotation 307.31/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_04
+Object.absolutePosition 1176/42.5117/740
+Object.Rotation 221.32/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_05
+Object.absolutePosition 1172/42.2448/752
+Object.Rotation 245.874/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_06
+Object.absolutePosition 1180/42.3261/736
+Object.Rotation 181.868/0/0
+rem
+rem ***  ***
+rem
+Object.create prop_cluster_07
+Object.absolutePosition 1184/42.2774/728
+Object.Rotation 76.7944/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_01
+Object.absolutePosition 1204/34.1711/732
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_02
+Object.absolutePosition 1216/34.6803/708
+Object.Rotation 90/-34.5/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_03
+Object.absolutePosition 1204/33.9595/704
+Object.Rotation 180/-31/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_04
+Object.absolutePosition 1228/32.6361/752
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create quaypart_ladder
+Object.absolutePosition 1218.11/33.7113/704.387
+Object.Rotation -90/33/0
+rem
+rem ***  ***
+rem
+Object.create radar_tower
+Object.absolutePosition 1152/41.7807/764
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_28m_bent
+Object.absolutePosition 1220/33.2913/616
+Object.Rotation -150/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_4m
+Object.absolutePosition 1208/33.3096/628
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_end_piece
+Object.absolutePosition 1204/33.2495/628
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create road_sign_01
+Object.absolutePosition 1212/34.3641/624
+Object.Rotation 256.509/0/0
+rem
+rem ***  ***
+rem
+Object.create road_post_8m
+Object.absolutePosition 1212/33.2957/628
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create road_sign_02
+Object.absolutePosition 1228/34.5572/632
+Object.Rotation 324.163/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_frontpanel
+Object.absolutePosition 1208/32.8907/616
+Object.Rotation 55.8875/-157.4/0
+rem
+rem ***  ***
+rem
+Object.create rocket_frontpanel_01
+Object.absolutePosition 1216/32.7737/608
+Object.Rotation 103.843/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_national_home
+Object.absolutePosition 1192/38.2128/592
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create lighthouse_ladder_e_01
+Object.absolutePosition 1186.28/45.9548/592.012
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_royal_home
+Object.absolutePosition 1184/41.7578/692
+Object.Rotation 71.7737/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_sidepanel
+Object.absolutePosition 1188/41.8085/700
+Object.Rotation 8.9209/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_sidepanel_01
+Object.absolutePosition 1188/41.7444/708
+Object.Rotation 325.778/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_sidepanel_02
+Object.absolutePosition 1184/41.7641/704
+Object.Rotation 217.046/0/0
+rem
+rem ***  ***
+rem
+Object.create lighthouse_ladder_e_01
+Object.absolutePosition 995.615/42.2708/899.536
+Object.rotation 84.5/-1/0
+rem
+rem ***  ***
+rem
+Object.create rocket_smallpanel
+Object.absolutePosition 1196/37.9391/600
+Object.Rotation 277/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_smallpanel_01
+Object.absolutePosition 1192/37.9485/600
+Object.Rotation 54.8987/0/0
+rem
+rem ***  ***
+rem
+Object.create rocket_smallpanel_02
+Object.absolutePosition 1196/37.9219/596
+Object.Rotation 303.761/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_large
+Object.absolutePosition 1188/38.7849/624
+Object.Rotation 102.03/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_medium
+Object.absolutePosition 1140/32.9211/600
+Object.Rotation 305.717/0/0
+rem
+rem ***  ***
+rem
+Object.create rockpile_small
+Object.absolutePosition 1060/33.1485/632
+Object.Rotation 259.827/0/0
+rem
+rem ***  ***
+rem
+Object.create rubblepile_01
+Object.absolutePosition 1248/33.8905/736
+Object.Rotation 79.9915/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinblock_01
+Object.absolutePosition 1236/33.1907/736
+Object.Rotation 138.197/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinblock_ramp_01
+Object.absolutePosition 1228/32.7863/732
+Object.Rotation 128.99/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_arch_high
+Object.absolutePosition 1248/35.8815/700
+Object.Rotation 75.7068/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_arch_low
+Object.absolutePosition 1240/35.955/700
+Object.Rotation 132.155/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_ground_8m
+Object.absolutePosition 1228/33.6467/688
+Object.Rotation 51.416/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_high_8m
+Object.absolutePosition 1216/34.6381/688
+Object.Rotation 152.82/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_low_4m
+Object.absolutePosition 1224/33.3956/680
+Object.Rotation 76.1023/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_medium_4m
+Object.absolutePosition 1248/34.8734/692
+Object.Rotation 28.5864/0/0
+rem
+rem ***  ***
+rem
+Object.create ruinedwall_medium_8m
+Object.absolutePosition 1244/34.7509/684
+Object.Rotation 329.656/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_4m
+Object.absolutePosition 1260/33.3516/688
+Object.Rotation 74.2786/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_lshape_4m
+Object.absolutePosition 1260/33.3007/716
+Object.Rotation 26.6089/0/0
+rem
+rem ***  ***
+rem
+Object.create sandbags_ushape
+Object.absolutePosition 1244/33.2819/716
+Object.Rotation 121.794/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_01
+Object.absolutePosition 1240/34.8523/1124
+Object.Rotation 67.4561/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_02
+Object.absolutePosition 1280/35.2242/1100
+Object.Rotation 173.683/0/0
+rem
+rem ***  ***
+rem
+Object.create shed_e_03
+Object.absolutePosition 1224/34.6908/1092
+Object.Rotation 94.823/0/0
+rem
+rem ***  ***
+rem
+Object.create shutter_black
+Object.absolutePosition 1224/33.3377/1096
+Object.Rotation 303.629/0/0
+rem
+rem ***  ***
+rem
+Object.create shutter_brown
+Object.absolutePosition 1220/33.3155/1100
+Object.Rotation 25.3784/0/0
+rem
+rem ***  ***
+rem
+Object.create shutter_green
+Object.absolutePosition 1220/33.3309/1092
+Object.Rotation 280.931/0/0
+rem
+rem ***  ***
+rem
+Object.create shutter_red
+Object.absolutePosition 1216/33.347/1096
+Object.Rotation 35.9912/0/0
+rem
+rem ***  ***
+rem
+Object.create snowdrift_large_01
+Object.absolutePosition 1232/31.6039/1056
+Object.Rotation 179.325/0/0
+rem
+rem ***  ***
+rem
+Object.create snowdrift_medium_01
+Object.absolutePosition 1048.03/32.9107/952.464
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create snowdrift_small_01
+Object.absolutePosition 1054.86/32.7511/1017.11
+Object.Rotation -0.383267/0/0
+rem
+rem ***  ***
+rem
+Object.create space_antenna_01
+Object.absolutePosition 1216/32.7901/1056
+Object.Rotation 118.081/0/0
+rem
+rem ***  ***
+rem
+Object.create space_crate_01
+Object.absolutePosition 1212/32.7887/1052
+Object.Rotation 10.5798/0/0
+rem
+rem ***  ***
+rem
+Object.create space_diesel_station_01
+Object.absolutePosition 1256/32.8083/1052
+Object.Rotation 309.683/0/0
+rem
+rem ***  ***
+rem
+Object.create space_light_03
+Object.absolutePosition 1248/32.4029/1072
+Object.Rotation 146.865/0/0
+rem
+rem ***  ***
+rem
+Object.create space_metal_plate
+Object.absolutePosition 1252/32.8145/1068
+Object.Rotation 218.99/0/0
+rem
+rem ***  ***
+rem
+Object.create space_oxygen_station
+Object.absolutePosition 1272/32.8075/1080
+Object.Rotation 30.1135/0/0
+rem
+rem ***  ***
+rem
+Object.create space_pipes
+Object.absolutePosition 1284/32.8125/1088
+Object.Rotation 38.6829/0/0
+rem
+rem ***  ***
+rem
+Object.create space_radardish
+Object.absolutePosition 1236/32.6407/1108
+Object.Rotation 53.6023/0/0
+rem
+rem ***  ***
+rem
+Object.create space_rock_giant
+Object.absolutePosition 1336/32.591/1064
+Object.Rotation 287.622/0/0
+rem
+rem ***  ***
+rem
+Object.create space_wire_holder_small
+Object.absolutePosition 1316/32.7943/1060
+Object.Rotation 247.456/0/0
+rem
+rem ***  ***
+rem
+Object.create statue_01
+Object.absolutePosition 1308/35.8021/1056
+Object.Rotation 187.69/0/0
+rem
+rem ***  ***
+rem
+Object.create steel_barrel_01
+Object.absolutePosition 1300/33.2869/1068
+Object.Rotation 351.42/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_01
+Object.absolutePosition 1412/33.1619/700
+Object.Rotation 316.022/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_01_x7
+Object.absolutePosition 1408/35.6241/708
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create pinetree_01
+Object.absolutePosition 1360/61.3665/576
+Object.Rotation 167.706/0/0
+rem
+rem ***  ***
+rem
+Object.create pinetree_02
+Object.absolutePosition 1384/61.5155/592
+Object.Rotation 29.1577/0/0
+rem
+rem ***  ***
+rem
+Object.create stump_pinetree_01
+Object.absolutePosition 1388/49.5538/612
+Object.Rotation 243.369/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_02
+Object.absolutePosition 1404/35.0909/760
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create stone_stairs_03
+Object.absolutePosition 1316/33.0941/744
+Object.Rotation 350.883/0/0
+rem
+rem ***  ***
+rem
+Object.create stonebridge_balcony
+Object.absolutePosition 1384/45.9305/744
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create church_ladder_e_01
+Object.absolutePosition 1404.02/44.4388/753.259
+Object.Rotation 180/15.6/0
+rem
+rem ***  ***
+rem
+Object.create stonebridge_large
+Object.absolutePosition 1270.2/46.3161/540.164
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create stonebridge_small
+Object.absolutePosition 1432/32.2484/746
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create stonewall_16m
+Object.absolutePosition 1444/33.304/736
+Object.Rotation 237.272/0/0
+rem
+rem ***  ***
+rem
+Object.create stonewall_32m
+Object.absolutePosition 1448/33.2825/740
+Object.Rotation 239.414/0/0
+rem
+rem ***  ***
+rem
+Object.create stonewall_8m
+Object.absolutePosition 1448/32.7453/724
+Object.Rotation 38.7048/0/0
+rem
+rem ***  ***
+rem
+Object.create storesign_01
+Object.absolutePosition 832.033/34.4751/662.07
+Object.Rotation 0/-26/0
+rem
+rem ***  ***
+rem
+Object.create storesign_02
+Object.absolutePosition 829.641/34.3917/662.015
+Object.Rotation 0/-22.8/0
+rem
+rem ***  ***
+rem
+Object.create storesign_03
+Object.absolutePosition 827.908/34.598/662.104
+Object.Rotation 0/-23/0
+rem
+rem ***  ***
+rem
+Object.create storesign_04
+Object.absolutePosition 825.122/34.9606/661.273
+Object.Rotation 0/-36.4/0
+rem
+rem ***  ***
+rem
+Object.create suspensionbridge
+Object.absolutePosition 952/35.7072/636
+Object.Rotation 76/0/3.3
+rem
+rem ***  ***
+rem
+Object.create tallgrass_yellow_m1
+Object.absolutePosition 840/32.8125/668
+Object.Rotation 123.728/0/0
+rem
+rem ***  ***
+rem
+Object.create tanktrap_01
+Object.absolutePosition 836/33.3473/676
+Object.Rotation 42.8687/0/0
+rem
+rem ***  ***
+rem
+Object.create telephone_light
+Object.absolutePosition 1360.22/53.8708/576.348
+Object.Rotation 61/0/0
+rem
+rem ***  ***
+rem
+Object.create telephone_post_01
+Object.absolutePosition 820/35.5125/664
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create telephone_cable_16m
+Object.absolutePosition 819.077/35.9678/656.531
+Object.Rotation 90/0/-18
+rem
+rem ***  ***
+rem
+Object.create telephone_cable_8m
+Object.absolutePosition 820.876/36.0511/660.997
+Object.Rotation 90/0/-37
+rem
+rem ***  ***
+rem
+Object.create tombstone_01
+Object.absolutePosition 816/33.2452/664
+Object.Rotation 116.147/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01
+Object.absolutePosition 832/39.2846/652
+Object.Rotation 81.7383/-13/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_01_storefront_01
+Object.absolutePosition 834.505/36.8972/652.742
+Object.Rotation 81.7383/-13/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_02
+Object.absolutePosition 830/38.29/688
+Object.Rotation 310.759/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_03
+Object.absolutePosition 855.472/37.8841/676.739
+Object.Rotation 68.0603/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_03_storefront_01
+Object.absolutePosition 878.409/37.8222/641.827
+Object.Rotation 57.7661/0/-19
+rem
+rem ***  ***
+rem
+Object.create townhousemedium_e_03_terrace
+Object.absolutePosition 856.725/34.9143/676.031
+Object.Rotation 68.0603/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_01
+Object.absolutePosition 880/36.3182/680
+Object.Rotation 339.807/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_02
+Object.absolutePosition 797.652/36.3713/654.941
+Object.Rotation 132.155/-16/21
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 784/34.3296/676
+Object.Rotation 243.666/0/0
+rem
+rem ***  ***
+rem
+Object.create townhousesmall_e_03
+Object.absolutePosition 820/34.3437/708
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create trench_cover
+Object.absolutePosition 1056/33.5258/1276
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create trench_floor_plank
+Object.absolutePosition 1052/32.8223/1284
+Object.Rotation 291.61/0/0
+rem
+rem ***  ***
+rem
+Object.create trench01_a
+Object.absolutePosition 1012/32.8994/1284
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create trench01_b
+Object.absolutePosition 984/32.7486/1320
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create trench01_c
+Object.absolutePosition 1032.03/34.9491/963.744
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create trench01_d
+Object.absolutePosition 1066.88/33.2517/960.876
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create trench01_e
+Object.absolutePosition 988/30.7654/1244
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create vine_01
+Object.absolutePosition 983.866/36.9778/1250.85
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create vine_wall_01
+Object.absolutePosition 1017.12/33.7786/1272.91
+Object.Rotation -20/0/25
+rem
+rem ***  ***
+rem
+Object.create vine_wall_02
+Object.absolutePosition 1019.71/33.0966/1274.97
+Object.Rotation 155/0/17
+rem
+rem ***  ***
+rem
+Object.create wallfloor_01
+Object.absolutePosition 987.99/36.241/1253.35
+Object.Rotation 0/-8.4/0
+rem
+rem ***  ***
+rem
+Object.create warehousemedium_e_01
+Object.absolutePosition 1008/36.831/1192
+Object.Rotation 90.5713/0/0
+rem
+rem ***  ***
+rem
+Object.create watermill_e
+Object.absolutePosition 1276.81/38.1115/761.873
+Object.Rotation -53/0/0
+rem
+rem ***  ***
+rem
+Object.create web
+Object.absolutePosition 1276/34.9997/776
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create webnet
+Object.absolutePosition 1282.58/35.4783/770.549
+Object.Rotation 351.487/0/0
+rem
+rem ***  ***
+rem
+Object.create windmill
+Object.absolutePosition 1048/44.5181/1328
+Object.Rotation 175.397/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_barrel_01
+Object.absolutePosition 1008/36.2334/1272
+Object.Rotation 10.3271/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_bridge_02
+Object.absolutePosition 1084/30.2527/1300
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_bucket_01
+Object.absolutePosition 1076/32.9707/1320
+Object.Rotation 121.421/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_cart_01
+Object.absolutePosition 1064/33.2541/1304
+Object.Rotation 120.487/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_4m
+Object.absolutePosition 1060/33.4867/1292
+Object.Rotation 337.794/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_8m
+Object.absolutePosition 1056/33.482/1296
+Object.Rotation 304.038/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence_endpiece
+Object.absolutePosition 1052.65/33.9833/1298.23
+Object.Rotation 304.038/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_4m
+Object.absolutePosition 1064/33.3842/1296
+Object.Rotation 72.219/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_8m
+Object.absolutePosition 1064/33.2143/1292
+Object.Rotation 149.961/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_broken
+Object.absolutePosition 1060/33.3015/1300
+Object.Rotation 45/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_fence2_endpiece
+Object.absolutePosition 1061.93/33.3303/1295.5
+Object.Rotation 149.961/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_gate
+Object.absolutePosition 825.269/35.0432/689.355
+Object.Rotation 40.3528/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_stairs_01
+Object.absolutePosition 1056/35.9711/1332
+Object.Rotation 52/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_stairs_02
+Object.absolutePosition 1048/35.1274/1320
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create wooden_trashbin_01
+Object.absolutePosition 1048/33.3447/1312
+Object.Rotation 15.271/0/0
+rem
+rem ***  ***
+rem
+Object.create flagpole
+Object.absolutePosition 1244/33.1123/716
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create testSpawner
+Object.absolutePosition 999.051/54.5059/900.056
+Object.rotation -90/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create TestSpawner
+Object.absolutePosition 979.801/33.2707/1023.71
+Object.rotation 220.463/0/0
+Object.setTeam 1
+rem
+rem  ***  ***
+rem
+Object.create GreenWoodSpawner
+Object.absolutePosition 1630/34/1813
+Object.rotation 45/0/0

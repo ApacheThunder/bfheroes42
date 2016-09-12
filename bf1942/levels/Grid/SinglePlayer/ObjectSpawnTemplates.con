@@ -1,0 +1,124 @@
+ObjectTemplate.create ObjectSpawner AstraSpawner
+ObjectTemplate.setObjectTemplate 0 Astra
+ObjectTemplate.spawnDelay 25
+ObjectTemplate.spawnDelayAtStart 0
+ObjectTemplate.timeToLive 45
+ObjectTemplate.distance 40
+ObjectTemplate.radius 30
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 8
+ObjectTemplate.setTeam 0
+
+ObjectTemplate.create ObjectSpawner aaspawner
+ObjectTemplate.setObjectTemplate 2 com_aa
+ObjectTemplate.setObjectTemplate 1 com_aa
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner targetdummyspawner
+ObjectTemplate.setObjectTemplate 2 bri_target_dummy
+ObjectTemplate.setObjectTemplate 1 ger_target_dummy
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner lvcpspawner
+ObjectTemplate.setObjectTemplate 2 bri_boat_lcvp
+ObjectTemplate.setObjectTemplate 1 ger_boat_lcvp
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner statmgspawner
+ObjectTemplate.setObjectTemplate 2 bri_mg_stationary
+ObjectTemplate.setObjectTemplate 1 ger_mg_stationary
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner boatspawner
+ObjectTemplate.setObjectTemplate 2 bri_boat_elin
+ObjectTemplate.setObjectTemplate 1 ger_boat_slingan
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner minitankspawner
+ObjectTemplate.setObjectTemplate 2 bri_minitank
+ObjectTemplate.setObjectTemplate 1 ger_minitank
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner helicopterspawner
+ObjectTemplate.setObjectTemplate 2 bri_helicopter_sikorsky
+ObjectTemplate.setObjectTemplate 1 ger_helicopter_flettner
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 40
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 20
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.radius 25
+
+ObjectTemplate.create ObjectSpawner tankspawner
+ObjectTemplate.setObjectTemplate 2 bri_tank_sherman
+ObjectTemplate.setObjectTemplate 1 ger_tank_panzeriv
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.radius 20
+
+ObjectTemplate.create ObjectSpawner jeepspawner
+ObjectTemplate.setObjectTemplate 2 bri_jeep_willys
+ObjectTemplate.setObjectTemplate 1 ger_jeep_kubelwagen
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.radius 20
+
+ObjectTemplate.create ObjectSpawner planespawner
+ObjectTemplate.setObjectTemplate 2 bri_plane_spitfire
+ObjectTemplate.setObjectTemplate 1 ger_plane_messerschmitt
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.radius 25
+
+
+
+Object.create GRIDSP
+Object.setName GRID

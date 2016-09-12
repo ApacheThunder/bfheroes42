@@ -1,0 +1,62 @@
+if v_arg1 == host
+
+
+aiStrategicArea.create royalbridgebase 1095/1313 1083/1301 12
+aiStrategicArea.create sector4 826/662 836/672 5
+aiStrategicArea.create sector3 1256/1068 1276/1088 20
+aiStrategicArea.create sector2 1160/779 1180/799 20
+aiStrategicArea.create sector1 1028/964 1049/985 20
+
+aiStrategicArea.setActive royalbridgebase
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour sector1
+AIStrategicArea.addNeighbour sector2
+AIStrategicArea.addNeighbour sector3
+AIStrategicArea.setOrderPosition Infantry 1084/1306
+AIStrategicArea.setOrderPosition Tank 1084/1306
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive sector4
+AIStrategicArea.addNeighbour sector3
+AIStrategicArea.addNeighbour sector2
+AIStrategicArea.addNeighbour sector1
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 844/673
+AIStrategicArea.setOrderPosition Tank 844/673
+AIStrategicArea.setSide 1
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive sector3
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour sector1
+AIStrategicArea.addNeighbour sector2
+AIStrategicArea.addNeighbour sector4
+AIStrategicArea.addNeighbour royalbridgebase
+AIStrategicArea.setOrderPosition Infantry 1279/1093
+AIStrategicArea.setOrderPosition Tank 1284/1076
+
+aiStrategicArea.setActive sector2
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour sector1
+AIStrategicArea.addNeighbour sector3
+AIStrategicArea.addNeighbour sector4
+AIStrategicArea.addNeighbour royalbridgebase
+AIStrategicArea.setOrderPosition Infantry 1183/805
+AIStrategicArea.setOrderPosition Tank 1183/805
+
+aiStrategicArea.setActive sector1
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addNeighbour royalbridgebase
+AIStrategicArea.addNeighbour sector2
+AIStrategicArea.addNeighbour sector3
+AIStrategicArea.addNeighbour sector4
+AIStrategicArea.setOrderPosition Infantry 1048/986
+AIStrategicArea.setOrderPosition Tank 1050/983
+
+endif

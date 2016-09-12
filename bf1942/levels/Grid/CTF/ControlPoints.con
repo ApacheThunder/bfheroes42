@@ -1,0 +1,31 @@
+rem
+rem ***  ***
+rem
+Object.create royalbridgebase
+Object.absolutePosition 1083.73/32.604/1300.57
+rem
+rem ***  ***
+rem
+Object.create sector1
+Object.absolutePosition 1031/32.9039/963.003
+Object.rotation -19/0/0
+rem
+rem ***  ***
+rem
+Object.create sector2
+Object.absolutePosition 1179.84/33.2944/798.855
+rem
+rem ***  ***
+rem
+Object.create sector3
+Object.absolutePosition 1276/33.2311/1088
+rem
+rem ***  ***
+rem
+Object.create sector4
+Object.absolutePosition 836/33.0767/672
+rem
+rem ***  ***
+rem
+Object.create nationalplatformbase
+Object.absolutePosition 1403.86/48.6917/744.037

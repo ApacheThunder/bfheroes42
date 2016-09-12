@@ -1,0 +1,155 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+
+ObjectTemplate.create ControlPoint royalbridgebase
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Royal Base"
+ObjectTemplate.radius 12
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+rem ----------------------------------------
+ObjectTemplate.addTemplate S_flag_ra_Start
+
+ObjectTemplate.create ControlPoint nationalplatformbase
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "National Base"
+ObjectTemplate.radius 8
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+rem ----------------------------------------
+ObjectTemplate.addTemplate S_flag_ra_Start
+
+
+ObjectTemplate.create ControlPoint sector4
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Sector 4"
+ObjectTemplate.radius 20
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint sector3
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Sector 3"
+ObjectTemplate.radius 20
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint sector2
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Sector 2"
+ObjectTemplate.radius 20
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint sector1
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Sector 1"
+ObjectTemplate.radius 11
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1

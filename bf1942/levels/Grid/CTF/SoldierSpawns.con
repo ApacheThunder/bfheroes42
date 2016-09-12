@@ -1,0 +1,134 @@
+rem
+rem ***  ***
+rem
+Object.create rabridge_01
+Object.absolutePosition 1064.82/32.8125/1321.61
+Object.rotation -153/0/0
+rem
+rem ***  ***
+rem
+Object.create rabridge_02
+Object.absolutePosition 1083.45/32.9223/1291.19
+Object.rotation 136/0/0
+rem
+rem ***  ***
+rem
+Object.create rabridge_03
+Object.absolutePosition 1029.79/32.8125/1331.34
+Object.rotation -191/0/0
+rem
+rem ***  ***
+rem
+Object.create sector1spawn_01
+Object.absolutePosition 1027.44/32.8125/956.848
+Object.rotation 114/0/0
+rem
+rem ***  ***
+rem
+Object.create sector1spawn_02
+Object.absolutePosition 1066.63/32.8125/963.039
+Object.rotation -97/0/0
+rem
+rem ***  ***
+rem
+Object.create sector1spawn_03
+Object.absolutePosition 1028.66/32.8125/998.349
+Object.rotation -84/0/0
+rem
+rem ***  ***
+rem
+Object.create sector1spawn_04
+Object.absolutePosition 975.597/32.8125/915.358
+Object.rotation 47/0/0
+rem
+rem ***  ***
+rem
+Object.create sector2spawn_01
+Object.absolutePosition 1190.86/32.8125/802.162
+Object.rotation 44/0/0
+rem
+rem ***  ***
+rem
+Object.create sector2spawn_02
+Object.absolutePosition 1211.96/41.4811/776.093
+Object.rotation 4/0/0
+rem
+rem ***  ***
+rem
+Object.create sector2spawn_03
+Object.absolutePosition 1140/32.8125/844
+Object.rotation 135/0/0
+rem
+rem ***  ***
+rem
+Object.create sector2spawn_04
+Object.absolutePosition 1148/41.8125/764
+Object.rotation -108/0/0
+rem
+rem ***  ***
+rem
+Object.create sector3spawn_01
+Object.absolutePosition 1280/32.8125/1076
+Object.rotation -80/0/0
+rem
+rem ***  ***
+rem
+Object.create sector3spawn_02
+Object.absolutePosition 1240/32.8125/1116
+Object.rotation -157/0/0
+rem
+rem ***  ***
+rem
+Object.create sector3spawn_03
+Object.absolutePosition 1216/32.8125/1072
+Object.rotation -129/0/0
+rem
+rem ***  ***
+rem
+Object.create sector4spawn_01
+Object.absolutePosition 848/32.8125/672
+Object.rotation -94/0/0
+rem
+rem ***  ***
+rem
+Object.create sector4spawn_02
+Object.absolutePosition 792/32.8125/668
+Object.rotation 37/0/0
+rem
+rem ***  ***
+rem
+Object.create sector4spawn_03
+Object.absolutePosition 834.09/36.6125/651.469
+Object.rotation -11/0/0
+rem
+rem ***  ***
+rem
+Object.create nataionalbasespawn_01
+Object.absolutePosition 1373.34/48.5531/684.648
+Object.rotation -57/0/0
+Object.setOSId 198240
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create nataionalbasespawn_02
+Object.absolutePosition 1248.33/48.9984/547.155
+Object.rotation 124/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create nataionalbasespawn_03
+Object.absolutePosition 1404.38/38.6556/707.889
+Object.rotation 92/0/0
+Object.setOSId 112
+Object.setTeam 108009984
+rem
+rem ***  ***
+rem
+Object.create nataionalbasespawn_04
+Object.absolutePosition 1380/32.8125/764
+Object.rotation 23/0/0
+Object.setOSId 108008844
+Object.setTeam 35434604

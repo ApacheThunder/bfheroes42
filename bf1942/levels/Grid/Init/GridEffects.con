@@ -1,0 +1,203 @@
+rem
+rem *** Off Grid **
+rem
+Object.create ambstat_OffGridShooter
+Object.absolutePosition 0/32.8125/0
+Object.create ambstat_OffGridShooter2
+Object.absolutePosition 2048/33.1641/2048
+Object.rotation -180/0/0
+Object.create ambstat_OffGridShooter2
+Object.absolutePosition 0/33.1641/2048
+Object.rotation 90/0/0
+Object.create ambstat_OffGridShooter2
+Object.absolutePosition 0/33.1641/0
+Object.create ambstat_OffGridShooter2
+Object.absolutePosition 2048/33.1641/0
+Object.rotation -90/0/0
+rem
+rem *** X-Axis  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/0
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 128/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 256/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 384/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 512/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 640/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 768/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 896/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1024/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1152/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1280/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1408/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1536/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1664/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1792/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 1920/32.8125/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 2048/32.8125/0
+rem
+rem *** Y-Axis  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/128
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/256
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/384
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/512
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/640
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/768
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/896
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1024
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1152
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1280
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1408
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1536
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1664
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1792
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/1920
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create ambstat_GridLineShooter
+Object.absolutePosition 0/32.8125/2048
+Object.rotation 90/0/0

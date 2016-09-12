@@ -1,0 +1,43 @@
+TextureManager.mipmaps 0
+console.useRelativePaths 0
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file GRID
+
+Sky.initSky
+
+GeometryTemplate.create StandardMesh Cloud
+GeometryTemplate.file CloudGrid
+
+Sky.addCloud
+Cloud.setName TopGrid
+Cloud.setSrcBlend BMSourceAlpha
+Cloud.setDstBlend BMZero
+Cloud.setTexScale	4
+Cloud.setSpeed 0.01 0.02
+Cloud.setHeight 7100
+
+Sky.addCloud
+Cloud.setName BottomGrid
+Cloud.setSrcBlend BMSourceAlpha
+Cloud.setDstBlend BMZero
+Cloud.setTexScale	8
+Cloud.setSpeed 0 0.010
+Cloud.setHeight 3100
+
+include Objects/LensFlares/Lenz.inc
+
+Object.create TSun
+Object.isSaveable 0
+Object.name sun
+
+ObjectTemplate.setflarefadeall 0.1
+ObjectTemplate.setcoronafadeall 0.3
+
+Sky.setSun sun
+sky.changeOfsSkyHeight 512
+sky.setRotAngle -85
+sky.sunLightDirectionVec -0.636705/0.767543/0.0740596
+
+console.useRelativePaths 1
+TextureManager.mipmaps 1

@@ -1,0 +1,13 @@
+ObjectTemplate.active guardtower_e_01
+ObjectTemplate.addTemplate guardtower_ladder_01
+ObjectTemplate.setPosition 0/-1.555/-2.262
+ObjectTemplate.setRotation 0/0/-2.262
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
+
+ObjectTemplate.active light_post_01
+ObjectTemplate.addTemplate light_post_glow_01
