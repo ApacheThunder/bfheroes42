@@ -1,0 +1,21 @@
+run Ctf/SpawnpointManagerSettings
+
+run Ctf/SoldierSpawnTemplates
+run Ctf/SoldierSpawns
+
+run Ctf/ObjectSpawnTemplates
+run Ctf/ControlPointTemplates
+
+if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+	run Ctf/ObjectSpawns
+	run Ctf/ControlPoints
+rem ----------------------------------------------------------------------------
+else
+
+rem ----- Join
+rem ----------------------------------------------------------------------------
+rem ----------------------------------------------------------------------------
+endIf
+

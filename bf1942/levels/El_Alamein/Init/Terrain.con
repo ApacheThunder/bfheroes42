@@ -1,0 +1,35 @@
+rem 
+rem **** Initialize Terrain *****
+rem
+GeometryTemplate.create PatchTerrain patchGeometry
+GeometryTemplate.file bf1942\levels\El_Alamein\Heightmap
+GeometryTemplate.materialMap bf1942\levels\El_Alamein\Materialmap
+GeometryTemplate.materialSize 512
+GeometryTemplate.targetTriCount 4096
+GeometryTemplate.worldSize 2048
+GeometryTemplate.yScale 0.64
+GeometryTemplate.texBaseName bf1942\levels\El_Alamein\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\El_Alamein\Textures\Detail
+GeometryTemplate.waterLevel 12
+GeometryTemplate.waterTexName texture/WaterLayer2
+GeometryTemplate.waveHeight 0
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.waveScale 0.01
+GeometryTemplate.lodDistance 1024
+
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry patchGeometry
+
+Object.create terrainObject
+Object.setName track
+
+Console.worldSize 2048
+
+Terrain.ShadowAmbient 92/120/130
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 8
+
+shadow.shadowColor 0.359/0.469/0.508

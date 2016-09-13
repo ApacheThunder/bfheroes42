@@ -1,0 +1,28 @@
+if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+rem *** Create Prerequisites ***
+
+
+rem *** El ALamein ***
+
+aiStrategy.createPrerequisite flankPrereq
+aiStrategy.addCondition flankCond     5.0
+rem aiStrategy.addCondition timeCond     -0.005
+
+aiStrategy.createPrerequisite broadPrereq
+aiStrategy.addCondition broadCond     5.0
+rem aiStrategy.addCondition timeCond     -0.005
+
+aiStrategy.createPrerequisite breakOutPrereq
+aiStrategy.addCondition oneCPCond        15.0
+aiStrategy.addCondition fourEnemyCPCond  15.0
+
+aiStrategy.createPrerequisite cleanUpPrereq
+aiStrategy.addCondition dominatingCond   5.0
+aiStrategy.addCondition noEnemyBaseCond  5.0
+
+
+rem ----------------------------------------------------------------------------
+endIf

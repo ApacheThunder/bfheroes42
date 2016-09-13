@@ -1,0 +1,208 @@
+rem
+rem ***  ***
+rem
+Object.create aaspawner
+Object.absolutePosition 407.054/33.1446/468.715
+Object.rotation 49.736/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create royaltankspawner
+Object.absolutePosition 451.503/22.9709/481.959
+Object.rotation -139.194/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create beachjeepspawner
+Object.absolutePosition 586.924/13.0214/535.395
+Object.rotation -134.76/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create aaspawner
+Object.absolutePosition 522.524/33.8142/479.373
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create helicopterspawner
+Object.absolutePosition 703.664/28.8103/227.735
+Object.rotation 0.598071/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create nationalplanespawner
+Object.absolutePosition 424.347/36.5719/60.5626
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create nationaltankspawner
+Object.absolutePosition 444.891/36.8704/71.0866
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 479.053/36.1809/75.5056
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 462.369/36.1437/75.7936
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 401.806/33.0306/459.644
+Object.rotation 126.18/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create helicopterspawner
+Object.absolutePosition 636.494/30.2357/455.706
+Object.rotation -140.969/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create boatspawner
+Object.absolutePosition 617.314/10.0252/823.575
+Object.rotation -162.514/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create boatspawner
+Object.absolutePosition 527.164/10.0252/790.735
+Object.rotation -180/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create boatspawner
+Object.absolutePosition 432.01/10.0252/787.455
+Object.rotation -180/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create boatspawner
+Object.absolutePosition 302.889/10.0252/790.645
+Object.rotation 144.921/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 640.134/27.9583/289.62
+Object.rotation -180/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 676.484/28.3732/265.272
+Object.rotation -90/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create nationaltankspawner
+Object.absolutePosition 454.788/36.8828/90.0786
+Object.rotation 90/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 612.624/30.8025/193.333
+Object.setOSId 7
+rem
+rem ***  ***
+rem
+Object.create aaspawner
+Object.absolutePosition 470.505/35.6315/84.4706
+Object.rotation -3.60201/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create aaspawner
+Object.absolutePosition 678.374/27.9523/283.36
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create beachtankspawner
+Object.absolutePosition 365.04/12.8675/574.435
+Object.rotation 90.081/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create jeepspawner
+Object.absolutePosition 454.868/36.1802/99.2196
+Object.rotation 90/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create boatspawner
+Object.absolutePosition 477.585/10.0252/788.865
+Object.rotation -180/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create captainshop_ii_spawner
+Object.absolutePosition 408.482/15.2573/989.428
+Object.rotation 8.32429e-006/0/0
+Object.setOSId 8
+rem
+rem ***  ***
+rem
+Object.create captainshopentryspawnerbri_inland
+Object.absolutePosition 369.5/12.5/573.731
+Object.setOSId 8
+rem
+rem ***  ***
+rem
+Object.create captainshopexitspawnerbri_inland
+Object.absolutePosition 407.016/15.403/983.533
+Object.setOSId 8
+rem
+rem ***  ***
+rem
+Object.create stationarymgspawner
+Object.absolutePosition 489.301/33.3575/481.709
+Object.rotation 32/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create stationarymgspawner
+Object.absolutePosition 478.051/33.3877/481.051
+Object.rotation -34/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create stationarymgspawner
+Object.absolutePosition 555.722/33.8169/481.76
+Object.rotation -34/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create stationarymgspawner
+Object.absolutePosition 566.862/33.8274/481.764
+Object.rotation 32/0/0
+Object.setOSId 4

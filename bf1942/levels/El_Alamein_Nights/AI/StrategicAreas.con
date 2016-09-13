@@ -1,0 +1,99 @@
+if v_arg1 == host
+
+aiStrategicArea.create AlliedAirfield 769/386 781/423 20
+aiStrategicArea.create AlliedBase 826/346 851/396 50
+aiStrategicArea.create AxisAirfield 143.25/581 162/618.5 20
+aiStrategicArea.create AxisBase 186.5/574 224/624 50
+aiStrategicArea.create SouthMountainpass 383/434 403/454 50
+aiStrategicArea.create easternbase 655/667 680/692 200
+aiStrategicArea.create NorthMountainPass 426/722 446/742 50
+aiStrategicArea.create SouthBase 440/280 455/297.5 175
+aiStrategicArea.create NorthBase 422.5/890 432.5/905 175
+
+aiStrategicArea.setActive AlliedAirfield
+AIStrategicArea.addNeighbour easternbase
+AIStrategicArea.addNeighbour SouthMountainpass
+AIStrategicArea.addNeighbour AlliedBase
+AIStrategicArea.addNeighbour AlliedAirfield
+aiStrategicArea.addObjectTypeFlag AirField
+aiStrategicArea.addObjectTypeFlag Close
+aiStrategicArea.addObjectTypeFlag Centre
+AIStrategicArea.setOrderPosition Tank 781/423
+AIStrategicArea.setOrderPosition Infantry 781/423
+aiStrategicArea.setSide 2
+
+aiStrategicArea.setActive AlliedBase
+AIStrategicArea.addNeighbour easternbase
+aiStrategicArea.addObjectTypeFlag Base
+AIStrategicArea.setOrderPosition Tank 851/396
+AIStrategicArea.setOrderPosition Infantry 851/396
+aiStrategicArea.setSide 2
+aiStrategicArea.vehicleSearchRadius 95
+aiStrategicArea.setTakeable 1 0
+
+aiStrategicArea.setActive AxisAirfield
+AIStrategicArea.addNeighbour AxisBase
+aiStrategicArea.addObjectTypeFlag Close
+aiStrategicArea.addObjectTypeFlag AirField
+AIStrategicArea.setOrderPosition Tank 162/618.5
+AIStrategicArea.setOrderPosition Infantry 162/618.5
+aiStrategicArea.setSide 1
+
+aiStrategicArea.setActive AxisBase
+AIStrategicArea.addNeighbour AxisAirfield
+AIStrategicArea.addNeighbour NorthMountainPass
+AIStrategicArea.addNeighbour SouthMountainpass
+aiStrategicArea.addObjectTypeFlag Base
+AIStrategicArea.setOrderPosition Tank 224/624
+AIStrategicArea.setOrderPosition Infantry 224/624
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 98
+aiStrategicArea.setTakeable 2 0
+
+aiStrategicArea.setActive SouthMountainpass
+AIStrategicArea.addNeighbour easternbase
+AIStrategicArea.addNeighbour AxisBase
+AIStrategicArea.addNeighbour AlliedAirfield
+AIStrategicArea.addNeighbour SouthBase
+aiStrategicArea.addObjectTypeFlag Flank
+aiStrategicArea.addObjectTypeFlag ChokePoint
+AIStrategicArea.setOrderPosition Tank 393/444
+AIStrategicArea.setOrderPosition Infantry 393/444
+
+aiStrategicArea.setActive easternbase
+AIStrategicArea.addNeighbour NorthBase
+AIStrategicArea.addNeighbour NorthMountainPass
+AIStrategicArea.addNeighbour SouthMountainpass
+AIStrategicArea.addNeighbour AlliedAirfield
+AIStrategicArea.addNeighbour AlliedBase
+aiStrategicArea.addObjectTypeFlag StrongPoint
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addObjectTypeFlag Centre
+AIStrategicArea.setOrderPosition Tank 680/692
+AIStrategicArea.setOrderPosition Infantry 680/692
+
+aiStrategicArea.setActive NorthMountainPass
+AIStrategicArea.addNeighbour easternbase
+AIStrategicArea.addNeighbour AxisBase
+AIStrategicArea.addNeighbour NorthBase
+aiStrategicArea.addObjectTypeFlag Flank
+aiStrategicArea.addObjectTypeFlag ChokePoint
+AIStrategicArea.setOrderPosition Tank 436/732
+AIStrategicArea.setOrderPosition Infantry 436/732
+
+aiStrategicArea.setActive SouthBase
+AIStrategicArea.addNeighbour SouthMountainpass
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addObjectTypeFlag Flank
+AIStrategicArea.setOrderPosition Tank 460/300
+AIStrategicArea.setOrderPosition Infantry 460/300
+
+aiStrategicArea.setActive NorthBase
+aiStrategicArea.addObjectTypeFlag ControlPoint
+aiStrategicArea.addObjectTypeFlag Flank
+AIStrategicArea.addNeighbour NorthMountainPass
+AIStrategicArea.addNeighbour easternbase
+AIStrategicArea.setOrderPosition Tank 432.5/905
+AIStrategicArea.setOrderPosition Infantry 432.5/905
+
+endIf

@@ -1,0 +1,26 @@
+run Ctf/SpawnpointManagerSettings
+
+run Ctf/SoldierSpawnTemplates
+run Ctf/SoldierSpawns
+
+run Ctf/ObjectSpawnTemplates
+run Ctf/ControlPointTemplates
+
+
+if v_arg1 == host
+
+Object.create RAbase
+Object.absolutePosition 1694.08/60/804.904
+
+Object.create NAbase
+Object.absolutePosition 451.573/40.2/1271.61
+
+else
+
+Object.create FlagPole
+Object.absolutePosition 1694.08/60/804.904
+
+Object.create FlagPole
+Object.absolutePosition 451.573/40.2/1271.61
+
+endIf

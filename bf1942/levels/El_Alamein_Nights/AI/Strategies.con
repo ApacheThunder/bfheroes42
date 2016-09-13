@@ -1,0 +1,62 @@
+if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+rem *** Create Strategies ***
+
+
+rem *** El Alamein ***
+
+aiStrategy.createStrategy flank
+aiStrategy.Aggression 0.65
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 1
+aiStrategy.TimeLimit 400
+aiStrategy.setPrerequisite flankPrereq
+aiStrategy.setStrategicObjectsModifier Centre 2.0 Owned
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+aiStrategy.setStrategicObjectsModifier Flank  5.0 Hostile
+aiStrategy.setStrategicObjectsModifier Flank  5.0 Neutral
+aiStrategy.setStrategicObjectsModifier Centre 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 0.5 Neutral
+aiStrategy.setStrategicObjectsModifier Front 10.0 Owned
+aiStrategy.setStrategicObjectsModifier Safe   0.25 Owned
+
+aiStrategy.createStrategy broad
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 3
+aiStrategy.NumberOfDefences 0
+aiStrategy.TimeLimit 400
+aiStrategy.setPrerequisite broadPrereq
+aiStrategy.setStrategicObjectsModifier Base         0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Close        0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Base         0.5 Neutral
+aiStrategy.setStrategicObjectsModifier Close        0.5 Neutral
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+aiStrategy.setStrategicObjectsModifier ChokePoint   5.0 
+aiStrategy.setStrategicObjectsModifier Safe         0.25 Owned
+
+aiStrategy.createStrategy breakOut
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite breakOutPrereq
+aiStrategy.setStrategicObjectsModifier Base         0.25 Hostile
+aiStrategy.setStrategicObjectsModifier Close        0.25 Hostile
+aiStrategy.setStrategicObjectsModifier Base         0.25 Neutral
+aiStrategy.setStrategicObjectsModifier Close        0.25 Neutral
+aiStrategy.setStrategicObjectsModifier ChokePoint   3.0 
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+aiStrategy.setStrategicObjectsModifier Flank  10.0
+
+aiStrategy.createStrategy cleanUp
+aiStrategy.Aggression 0.75
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite cleanUpPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 2.0
+aiStrategy.setStrategicObjectsModifier Safe   0.5 Owned
+
+
+rem ----------------------------------------------------------------------------
+endIf

@@ -1,0 +1,196 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_NATIONAL_BASE
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "National HQ"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 17
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.areaValue 10
+ObjectTemplate.timeToGetControl 5
+ObjectTemplate.timeToLoseControl 30
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+rem ----------------------------------------
+ObjectTemplate.addTemplate S_flag_na_Start
+
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_BEACH
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Royal Beach"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 8
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 8
+ObjectTemplate.objectSpawnerId 8
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 5
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+rem ----------------------------------------
+ObjectTemplate.addTemplate S_flag_ra_Start
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_ROYALBASE
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Royals HQ"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 0
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 15
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 1
+rem ----------------------------------------
+ObjectTemplate.addTemplate S_flag_ra_Start
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_WEST_BUNKER
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "West Bunker"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 10
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.areaValue 10
+ObjectTemplate.timeToGetControl 5
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_EAST_BUNKER
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "East Bunker"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 10
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.areaValue 10
+ObjectTemplate.timeToGetControl 5
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_CROSSROAD
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Crossroad"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 12
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.areaValue 15
+ObjectTemplate.timeToGetControl 8
+ObjectTemplate.timeToLoseControl 8
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_FARM
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Farm"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 14
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.areaValue 25
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1
+
+ObjectTemplate.create ControlPoint CPNAME_DDAY_16_GUARDPOST
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Guardpost"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.radius 12
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 7
+ObjectTemplate.objectSpawnerId 7
+ObjectTemplate.areaValue 40
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagpole_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/6/0
+ObjectTemplate.setTeamGeometry 0 flag_neutral_m1
+ObjectTemplate.setTeamGeometry 1 flag_na_m1
+ObjectTemplate.setTeamGeometry 2 flag_ra_m1

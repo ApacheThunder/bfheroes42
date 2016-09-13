@@ -1,0 +1,8 @@
+newPatch
+load @ROOT/Sound/@RTD/West_SFX_Ambience_LV01_Generic.wav
+stereo
+loop
+minDistance 300000
+priority -10
+dopplerOff
+volume 1

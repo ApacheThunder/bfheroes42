@@ -1,0 +1,134 @@
+rem
+rem ***  ***
+rem
+Object.create royalbase_01
+Object.absolutePosition 873.236/50.2109/395.627
+Object.rotation -75/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbase_02
+Object.absolutePosition 842.458/50.04/367.657
+Object.rotation -5/0/0
+Object.setOSId 5114474
+Object.setTeam 178229324
+rem
+rem ***  ***
+rem
+Object.create royalairfield_01
+Object.absolutePosition 775.384/31.21/387.387
+Object.rotation -69/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbase_04
+Object.absolutePosition 830.195/50.14/419.273
+Object.rotation 111/0/0
+rem
+rem ***  ***
+rem
+Object.create royalairfield_02
+Object.absolutePosition 755.666/31.21/410.826
+Object.rotation 156/0/0
+rem
+rem ***  ***
+rem
+Object.create royalairfield_03
+Object.absolutePosition 759.996/31.5425/437.511
+Object.rotation 182/0/0
+rem
+rem ***  ***
+rem
+Object.create east_01
+Object.absolutePosition 680.044/35.6011/696.376
+Object.rotation 162/0/0
+rem
+rem ***  ***
+rem
+Object.create east_02
+Object.absolutePosition 673.583/35.55/685.714
+Object.rotation 208/0/0
+rem
+rem ***  ***
+rem
+Object.create east_03
+Object.absolutePosition 675.454/36.182/698.463
+Object.rotation -46/0/0
+rem
+rem ***  ***
+rem
+Object.create north_01
+Object.absolutePosition 439.988/42.1202/913.17
+Object.rotation 30/0/0
+rem
+rem ***  ***
+rem
+Object.create north_02
+Object.absolutePosition 432.574/42.2051/902.171
+Object.rotation 41/0/0
+rem
+rem ***  ***
+rem
+Object.create north_03
+Object.absolutePosition 428.289/46.1878/886.588
+Object.rotation 124/0/0
+rem
+rem ***  ***
+rem
+Object.create south_01
+Object.absolutePosition 445.559/77.987/287.743
+Object.rotation 170/0/0
+rem
+rem ***  ***
+rem
+Object.create south_02
+Object.absolutePosition 445.937/77.8516/294.026
+Object.rotation 79/0/0
+rem
+rem ***  ***
+rem
+Object.create south_03
+Object.absolutePosition 466.876/78.1062/283.713
+Object.rotation 42/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbase_01
+Object.absolutePosition 249.49/31.21/616.276
+Object.rotation 276/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbase_02
+Object.absolutePosition 207.828/31.21/596.789
+Object.rotation 41/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbase_03
+Object.absolutePosition 218.76/31.21/649.197
+Object.rotation 150/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalairfield_01
+Object.absolutePosition 160.865/31.21/669.989
+Object.rotation 78/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalairfield_02
+Object.absolutePosition 148.654/31.21/652.016
+Object.rotation 140/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalairfield_03
+Object.absolutePosition 187.608/31.21/652.855
+Object.rotation -151/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalairfield_04
+Object.absolutePosition 170.712/31.5457/629.394
+Object.rotation 27.4/0/0

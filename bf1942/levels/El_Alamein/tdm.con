@@ -1,0 +1,12 @@
+run tdm/SpawnpointManagerSettings
+
+run tdm/SoldierSpawnTemplates
+run tdm/SoldierSpawns
+
+run tdm/ObjectSpawnTemplates
+run tdm/ControlPointTemplates
+
+run tdm/ObjectSpawns v_arg1
+run tdm/ControlPoints v_arg1
+
+

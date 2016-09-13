@@ -1,0 +1,32 @@
+Game.setLocalized 1
+
+rem ** Allied Briefing **
+game.setAlliedCampaign BRIEFING_ALLIED_CAMPAIGN_ELALAMEIN
+game.setAlliedHints BRIEFING_ALLIED_HINTS_ELALAMEIN
+game.setAlliedObjectives BRIEFING_ALLIED_OBJECTIVES_ELALAMEIN
+game.setAlliedSkirmish BRIEFING_ALLIED_SKIRMISH_ELALAMEIN
+
+rem ** Axis Briefing **
+game.setAxisCampaign BRIEFING_AXIS_CAMPAIGN_ELALAMEIN
+game.setAxisHints BRIEFING_AXIS_HINTS_ELALAMEIN
+game.setAxisObjectives BRIEFING_AXIS_OBJECTIVES_ELALAMEIN
+game.setAxisSkirmish BRIEFING_AXIS_SKIRMISH_ELALAMEIN
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory DEBRIEFING_ALLIED_MAJOR_VICTORY_ELALAMEIN
+game.setAlliedDebriefingMinorVictory DEBRIEFING_ALLIED_MINOR_VICTORY_ELALAMEIN
+game.setAlliedDebriefingMajorDefeat DEBRIEFING_ALLIED_MAJOR_DEFEAT_ELALAMEIN
+game.setAlliedDebriefingMinorDefeat DEBRIEFING_ALLIED_MINOR_DEFEAT_ELALAMEIN
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory DEBRIEFING_AXIS_MAJOR_VICTORY_ELALAMEIN
+game.setAxisDebriefingMinorVictory DEBRIEFING_AXIS_MINOR_VICTORY_ELALAMEIN
+game.setAxisDebriefingMajorDefeat DEBRIEFING_AXIS_MAJOR_DEFEAT_ELALAMEIN
+game.setAxisDebriefingMinorDefeat DEBRIEFING_AXIS_MINOR_DEFEAT_ELALAMEIN
+
+rem ** Multiplayer Briefing **
+game.setMultiplayerBriefingObjectives "Welcome Heroes!"
+game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
+
+game.setMapId "bfheroes"
+game.setServerInfoIcon "../../texture/serverinfo.dds"

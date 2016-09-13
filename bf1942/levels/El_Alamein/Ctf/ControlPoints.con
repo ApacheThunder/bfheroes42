@@ -1,0 +1,25 @@
+rem
+rem ***  ***
+rem
+Object.create southopenbase
+Object.absolutePosition 452.883/77.8355/291.358
+rem
+rem ***  ***
+rem
+Object.create northopenbase
+Object.absolutePosition 437/41.6706/907.99
+rem
+rem ***  ***
+rem
+Object.create eastopenbase
+Object.absolutePosition 671.95/35.3532/690.015
+rem
+rem ***  ***
+rem
+Object.create alliesbase
+Object.absolutePosition 847.04/49.9919/402.452
+rem
+rem ***  ***
+rem
+Object.create axisbase
+Object.absolutePosition 225.786/31.1423/635.805

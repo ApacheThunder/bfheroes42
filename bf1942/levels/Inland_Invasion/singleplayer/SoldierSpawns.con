@@ -1,0 +1,273 @@
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_01
+Object.absolutePosition 483.152/35.7727/83.4239
+Object.rotation -70/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_02
+Object.absolutePosition 454.624/35.7727/94.5597
+Object.rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_03
+Object.absolutePosition 460.789/35.7727/70.317
+Object.rotation 46/0/0
+rem
+rem ***  ***
+rem
+Object.create nationalbasespawn_04
+Object.absolutePosition 490.989/35.7727/112.921
+Object.rotation 17/0/0
+rem
+rem ***  ***
+rem
+Object.create guardpostspawn_01
+Object.absolutePosition 617.978/30.3284/190.873
+Object.rotation -13/0/0
+rem
+rem ***  ***
+rem
+Object.create guardpostspawn_02
+Object.absolutePosition 586.808/30.2823/200.832
+Object.rotation -29/0/0
+rem
+rem ***  ***
+rem
+Object.create guardpostspawn_03
+Object.absolutePosition 547.341/28.8319/200.695
+Object.rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create farmspawn_01
+Object.absolutePosition 643.779/27.9663/291.364
+Object.rotation -147/0/0
+rem
+rem ***  ***
+rem
+Object.create farmspawn_02
+Object.absolutePosition 675.547/27.9663/269.978
+Object.rotation -135/0/0
+rem
+rem ***  ***
+rem
+Object.create farmspawn_03
+Object.absolutePosition 702.298/27.9663/218.096
+Object.rotation 7/0/0
+rem
+rem ***  ***
+rem
+Object.create farmspawn_04
+Object.absolutePosition 628.549/27.9663/261.998
+Object.rotation -20/0/0
+rem
+rem ***  ***
+rem
+Object.create crossroadspawn_01
+Object.absolutePosition 601.284/27.8036/350.994
+Object.rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create crossroadspawn_02
+Object.absolutePosition 583.635/27.8847/353.209
+Object.rotation 121/0/0
+rem
+rem ***  ***
+rem
+Object.create crossroadspawn_03
+Object.absolutePosition 606.519/29.3445/362.442
+Object.rotation -143/0/0
+rem
+rem ***  ***
+rem
+Object.create crossroadspawn_04
+Object.absolutePosition 598.201/35.3199/323.916
+Object.rotation -18/0/0
+rem
+rem ***  ***
+rem
+Object.create eastbunkerspawn_01
+Object.absolutePosition 555.523/33.9603/451.522
+Object.rotation -19/0/0
+rem
+rem ***  ***
+rem
+Object.create eastbunkerspawn_02
+Object.absolutePosition 558.621/32.5368/474.503
+Object.rotation 47/0/0
+rem
+rem ***  ***
+rem
+Object.create eastbunkerspawn_03
+Object.absolutePosition 608.407/29.6853/454.856
+rem
+rem ***  ***
+rem
+Object.create eastbunkerspawn_04
+Object.absolutePosition 550.391/33.3799/464.552
+Object.rotation 143/0/0
+rem
+rem ***  ***
+rem
+Object.create westbunkerspawn_01
+Object.absolutePosition 491.056/33.9691/449.238
+Object.rotation -50/0/0
+rem
+rem ***  ***
+rem
+Object.create westbunkerspawn_02
+Object.absolutePosition 487.101/32.0603/473.701
+Object.rotation -52/0/0
+rem
+rem ***  ***
+rem
+Object.create westbunkerspawn_03
+Object.absolutePosition 473.871/33.6735/452.234
+Object.rotation 87/0/0
+rem
+rem ***  ***
+rem
+Object.create westbunkerspawn_04
+Object.absolutePosition 409.586/32.2729/451.816
+Object.rotation 89/0/0
+rem
+rem ***  ***
+rem
+Object.create royalboatsspawn_01
+Object.absolutePosition 405/105/640
+Object.rotation 162/0/0
+rem
+rem ***  ***
+rem
+Object.create royalboatsspawn_05
+Object.absolutePosition 529/104/640.035
+Object.rotation -157/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_human_1
+Object.absolutePosition 409.953/12.5347/558.962
+Object.rotation 201/0/0
+
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_human_2
+Object.absolutePosition 463.216/11.5336/549.735
+Object.rotation -163/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_human_3
+Object.absolutePosition 587.824/12.1748/547.484
+Object.rotation 150/0/0
+rem
+rem ***  ***
+rem
+Object.create royalbasespawn_human_4
+Object.absolutePosition 361.052/12.6443/581.232
+Object.rotation -211/0/0
+rem
+rem ***  ***
+rem
+Object.create westbunkerspawn_mg1
+Object.absolutePosition 489.301/33.3575/481.709
+Object.rotation 32/0/0
+rem
+rem ***  ***
+rem
+Object.create westbunkerspawn_mg2
+Object.absolutePosition 478.051/33.3877/481.051
+Object.rotation -34/0/0
+rem
+rem ***  ***
+rem
+Object.create eastbunkerspawn_mg1
+Object.absolutePosition 555.722/33.8169/481.76
+Object.rotation -34/0/0
+rem
+rem ***  ***
+rem
+Object.create eastbunkerspawn_mg2
+Object.absolutePosition 566.862/33.8274/481.764
+Object.rotation 32/0/0
+
+
+rem ***
+rem Additional spawners
+rem ***
+
+rem
+rem ***  ***
+rem
+Object.create beachspawn1
+Object.absolutePosition 406.695/13.4405/539.122
+Object.rotation 150/0/0
+
+rem
+rem ***  ***
+rem
+Object.create beachspawn2
+Object.absolutePosition 471.055/12.5945/529.341
+Object.rotation 150/0/0
+
+rem
+rem ***  ***
+rem
+Object.create beachspawn3
+Object.absolutePosition 537.867/11.4537/543.462
+Object.rotation 150/0/0
+
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn
+Object.absolutePosition 560.265/129.1289/205.503
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn1
+Object.absolutePosition 654.666/128.0992/274.726
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn2
+Object.absolutePosition 593.109/127.6363/353.287
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn3
+Object.absolutePosition 516.282/130.3151/250.779
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn4
+Object.absolutePosition 671.853/128.1418/215.667
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn5
+Object.absolutePosition 517.754/137.8833/344.145
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn7
+Object.absolutePosition 623.916/129.5007/444.659
+
+rem
+rem ***  ***
+rem
+Object.create paraspawn8
+Object.absolutePosition 437.548/130.0732/415.635

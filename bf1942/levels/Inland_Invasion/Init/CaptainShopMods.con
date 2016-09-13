@@ -1,0 +1,22 @@
+ObjectTemplate.active CaptainShopEntry_Bri
+ObjectTemplate.setSoldierExitLocation 37.425/4.5/410.437 0/0/0
+ObjectTemplate.removeTemplate 1
+ObjectTemplate.removeTemplate 2
+ObjectTemplate.addTemplate CaptainShopEntry
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition 37.425/4.1/409.802
+
+ObjectTemplate.active CaptainShopExit_Bri
+ObjectTemplate.setSoldierExitLocation -37.425/0.1/-408 0/0/0
+ObjectTemplate.removeTemplate 1
+ObjectTemplate.removeTemplate 2
+ObjectTemplate.addTemplate CaptainShopEntry
+ObjectTemplate.addTemplate CaptainShopCamera
+ObjectTemplate.setPosition -37.425/0.1/-409.802
+ObjectTemplate.setRotation 90/0/0
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc

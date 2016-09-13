@@ -1,0 +1,147 @@
+aiSettings.createVehicleGroup land
+aiSettings.createVehicleGroup infantry
+aiSettings.createVehicleGroup any
+aiSettings.createVehicleGroup sea
+
+aiSettings.addVehicleToVehicleGroup 0  land
+aiSettings.addVehicleToVehicleGroup 1  any
+aiSettings.addVehicleToVehicleGroup 2  sea
+aiSettings.addVehicleToVehicleGroup 3  infantry
+aiSettings.addVehicleToVehicleGroup 4  any
+aiSettings.addVehicleToVehicleGroup 5  land
+aiSettings.addVehicleToVehicleGroup 6  land
+aiSettings.addVehicleToVehicleGroup 7  any
+aiSettings.addVehicleToVehicleGroup 8  any
+aiSettings.addVehicleToVehicleGroup 9  any
+aiSettings.addVehicleToVehicleGroup 10 any
+aiSettings.addVehicleToVehicleGroup 11 any
+aiSettings.addVehicleToVehicleGroup 12 sea
+aiSettings.addVehicleToVehicleGroup 13 any
+aiSettings.addVehicleToVehicleGroup 14 land
+
+aiStrategicArea.createNewCategory land
+aiStrategicArea.createNewCategory sea
+
+rem aiStrategicArea.create cpname_dday_16_royalbase 351/536 371/556 20 land
+aiStrategicArea.create cpname_dday_16_crossroad 582/344 596/354 60 land
+aiStrategicArea.create cpname_dday_16_east_bunker 554/454 562/462 100 land
+aiStrategicArea.create cpname_dday_16_farm 646/274 660/290 50 land
+aiStrategicArea.create cpname_dday_16_guardpost 644/272 654/282 70 land
+aiStrategicArea.create cpname_dday_16_national_base 467/94 479/111 80 land
+aiStrategicArea.create cpname_dday_16_west_bunker 480/456.5 489/468.5 100 land
+
+beginrem
+aiStrategicArea.setActive cpname_dday_16_royalbase
+AIStrategicArea.addNeighbour cpname_dday_16_crossroad
+AIStrategicArea.addNeighbour cpname_dday_16_east_bunker
+AIStrategicArea.addNeighbour cpname_dday_16_farm
+AIStrategicArea.addNeighbour cpname_dday_16_guardpost
+AIStrategicArea.addNeighbour cpname_dday_16_national_base
+AIStrategicArea.addNeighbour cpname_dday_16_west_bunker
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.setOrderPosition Infantry 370.6/556.4
+AIStrategicArea.setOrderPosition Tank 370.6/556.4
+aiStrategicArea.setSide 2
+aiStrategicArea.setTakeable 1 0
+aiStrategicArea.vehicleSearchRadius 150.0
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+endrem
+
+aiStrategicArea.setActive cpname_dday_16_crossroad
+aiStrategicArea.addObjectTypeFlag Base
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_dday_16_east_bunker
+AIStrategicArea.addNeighbour cpname_dday_16_farm
+AIStrategicArea.addNeighbour cpname_dday_16_guardpost
+AIStrategicArea.addNeighbour cpname_dday_16_national_base
+rem AIStrategicArea.addNeighbour cpname_dday_16_royalbase
+AIStrategicArea.addNeighbour cpname_dday_16_west_bunker
+AIStrategicArea.setOrderPosition Infantry 592/348.4
+AIStrategicArea.setOrderPosition Tank 592/348.4
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 25
+
+aiStrategicArea.setActive cpname_dday_16_east_bunker
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addNeighbour cpname_dday_16_crossroad
+AIStrategicArea.addNeighbour cpname_dday_16_farm
+AIStrategicArea.addNeighbour cpname_dday_16_guardpost
+AIStrategicArea.addNeighbour cpname_dday_16_national_base
+rem AIStrategicArea.addNeighbour cpname_dday_16_royalbase
+AIStrategicArea.addNeighbour cpname_dday_16_west_bunker
+AIStrategicArea.setOrderPosition Infantry 558/458
+aiStrategicArea.vehicleSearchRadius 25
+
+aiStrategicArea.setActive cpname_dday_16_farm
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_dday_16_crossroad
+AIStrategicArea.addNeighbour cpname_dday_16_east_bunker
+AIStrategicArea.addNeighbour cpname_dday_16_guardpost
+AIStrategicArea.addNeighbour cpname_dday_16_national_base
+rem AIStrategicArea.addNeighbour cpname_dday_16_royalbase
+AIStrategicArea.addNeighbour cpname_dday_16_west_bunker
+AIStrategicArea.setOrderPosition Infantry 646.6/274.4
+AIStrategicArea.setOrderPosition Tank 646.6/274.4
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 25
+
+aiStrategicArea.setActive cpname_dday_16_guardpost
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_dday_16_crossroad
+AIStrategicArea.addNeighbour cpname_dday_16_east_bunker
+AIStrategicArea.addNeighbour cpname_dday_16_farm
+AIStrategicArea.addNeighbour cpname_dday_16_national_base
+rem AIStrategicArea.addNeighbour cpname_dday_16_royalbase
+AIStrategicArea.addNeighbour cpname_dday_16_west_bunker
+AIStrategicArea.setOrderPosition Infantry 574.1/204.1
+AIStrategicArea.setOrderPosition Tank 574.1/204.1
+aiStrategicArea.setSide 1
+
+aiStrategicArea.setActive cpname_dday_16_national_base
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_dday_16_crossroad
+AIStrategicArea.addNeighbour cpname_dday_16_east_bunker
+AIStrategicArea.addNeighbour cpname_dday_16_farm
+AIStrategicArea.addNeighbour cpname_dday_16_guardpost
+rem AIStrategicArea.addNeighbour cpname_dday_16_royalbase
+AIStrategicArea.addNeighbour cpname_dday_16_west_bunker
+AIStrategicArea.setOrderPosition Infantry 473.8/101.1
+AIStrategicArea.setOrderPosition Tank 473.8/101.1
+aiStrategicArea.setSide 1
+aiStrategicArea.vehicleSearchRadius 75
+
+aiStrategicArea.setActive cpname_dday_16_west_bunker
+aiStrategicArea.addObjectTypeFlag Route
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.addAllowedVehicleGroup infantry
+AIStrategicArea.addAllowedVehicleGroup land
+AIStrategicArea.addAllowedVehicleGroup any
+AIStrategicArea.addNeighbour cpname_dday_16_crossroad
+AIStrategicArea.addNeighbour cpname_dday_16_east_bunker
+AIStrategicArea.addNeighbour cpname_dday_16_farm
+AIStrategicArea.addNeighbour cpname_dday_16_guardpost
+AIStrategicArea.addNeighbour cpname_dday_16_national_base
+rem AIStrategicArea.addNeighbour cpname_dday_16_royalbase
+AIStrategicArea.setOrderPosition Infantry 484/32
+AIStrategicArea.setOrderPosition Tank 484/32
+aiStrategicArea.vehicleSearchRadius 25

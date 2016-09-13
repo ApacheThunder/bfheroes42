@@ -1,0 +1,40 @@
+rem
+rem ***  ***
+rem
+Object.create cpname_dday_16_crossroad
+Object.absolutePosition 592.056/27.3525/348.489
+rem
+rem ***  ***
+rem
+Object.create cpname_dday_16_east_bunker
+Object.absolutePosition 558.265/33.4678/458.584
+rem
+rem ***  ***
+rem
+Object.create cpname_dday_16_farm
+Object.absolutePosition 645.637/28.0617/274.47
+rem
+rem ***  ***
+rem
+Object.create cpname_dday_16_guardpost
+Object.absolutePosition 574.124/31.213/204.189
+rem
+rem ***  ***
+rem
+Object.create cpname_dday_16_national_base
+Object.absolutePosition 473.817/35.8263/101.101
+rem
+rem ***  ***
+rem
+Object.create cpname_dday_16_royalbase
+Object.absolutePosition 487.016/11.3426/1008.32
+rem
+rem ***  ***
+rem
+Object.create cpname_dday_16_west_bunker
+Object.absolutePosition 484.131/32/462.505
+rem
+rem *** Beach flag to spawn CaptainShop ***
+rem
+Object.create cpname_dday_16_beach
+Object.absolutePosition 370.662/12.0617/556.467

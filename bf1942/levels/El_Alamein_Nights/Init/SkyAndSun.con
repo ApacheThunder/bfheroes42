@@ -1,0 +1,49 @@
+TextureManager.mipmaps 0
+console.useRelativePaths 0
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file skydome_royalrumble_m1
+
+Sky.initSky
+
+GeometryTemplate.create StandardMesh Cloud
+GeometryTemplate.file ../bf1942/levels/El_Alamein_Nights/standardMesh/cloud
+
+rem
+rem  *** Use BMZero blending for night maps ***
+rem
+sky.addCloud
+Cloud.setName HighLevelClouds
+Cloud.setSrcBlend BMZero
+Cloud.setDstBlend BMInvSourceAlpha
+Cloud.setTexScale 2
+Cloud.setSpeed 0.01 0.02
+Cloud.setHeight 6000
+
+sky.addCloud
+Cloud.setName LowLevelClouds
+Cloud.setSrcBlend BMZero
+Cloud.setDstBlend BMInvSourceAlpha
+Cloud.setTexScale 8
+Cloud.setSpeed 0 0.01
+Cloud.setHeight 3000
+
+sky.setCloudFog 0
+
+include Objects/LensFlares/Lenz5_noCorona.inc
+
+Object.create TSun5
+Object.name sun
+Object.setName sun
+Object.isSaveable 0
+
+ObjectTemplate.setFlareFadeAll 0.1
+ObjectTemplate.setCoronaFadeAll 0.3
+
+sky.changeOfsSkyHeight 64
+sky.setRotAngle 7
+sky.sunLightDirectionVec -0.777786/0.468666/0.418808
+Sky.setSun sun
+
+console.useRelativePaths 1
+TextureManager.mipmaps 1

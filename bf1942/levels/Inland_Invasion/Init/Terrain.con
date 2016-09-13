@@ -1,0 +1,32 @@
+GeometryTemplate.create patchTerrain patchGeometry
+GeometryTemplate.file bf1942\levels\Inland_Invasion\Heightmap
+GeometryTemplate.materialMap bf1942\levels\Inland_Invasion\Materialmap
+GeometryTemplate.materialSize 1024
+GeometryTemplate.targetTriCount 4096
+GeometryTemplate.worldSize 2048
+rem GeometryTemplate.yScale 0.78125
+GeometryTemplate.yScale 0.390625
+GeometryTemplate.texBaseName bf1942\levels\Inland_Invasion\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\Inland_Invasion\Textures\Detail
+GeometryTemplate.waterLevel 11.5
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 1024
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry patchGeometry
+ObjectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 1024
+
+Terrain.ShadowAmbient 92/120/130
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 8
+
+shadow.shadowColor 0.359/0.469/0.508

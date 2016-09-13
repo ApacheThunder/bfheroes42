@@ -1,0 +1,200 @@
+ObjectTemplate.create SpawnPoint crossroadspawn_04
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint eastbunkerspawn_04
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint nationalbasespawn_01
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint nationalbasespawn_02
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint nationalbasespawn_03
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint nationalbasespawn_04
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint royalbasespawn_human_1
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 8
+
+ObjectTemplate.create SpawnPoint royalboatsspawn_01
+ObjectTemplate.setSpawnId 24
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint royalbasespawn_human_2
+ObjectTemplate.setSpawnId 30
+ObjectTemplate.setGroup 8
+
+ObjectTemplate.create SpawnPoint royalbasespawn_human_3
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 8
+
+ObjectTemplate.create SpawnPoint royalbasespawn_human_4
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 8
+
+ObjectTemplate.create SpawnPoint royalboatsspawn_05
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint guardpostspawn_01
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 7
+
+ObjectTemplate.create SpawnPoint westbunkerspawn_01
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint guardpostspawn_02
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 7
+
+ObjectTemplate.create SpawnPoint farmspawn_01
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint westbunkerspawn_02
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint guardpostspawn_03
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 7
+
+ObjectTemplate.create SpawnPoint farmspawn_02
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint crossroadspawn_01
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint eastbunkerspawn_01
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint westbunkerspawn_03
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint farmspawn_03
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint crossroadspawn_02
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint eastbunkerspawn_02
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint westbunkerspawn_04
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint farmspawn_04
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint crossroadspawn_03
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint eastbunkerspawn_03
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint westbunkerspawn_mg1
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 3
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setEnterOnSpawn 1
+
+ObjectTemplate.create SpawnPoint westbunkerspawn_mg2
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 3
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setEnterOnSpawn 1
+
+
+ObjectTemplate.create SpawnPoint eastbunkerspawn_mg1
+ObjectTemplate.setSpawnId 34
+ObjectTemplate.setGroup 4
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setEnterOnSpawn 1
+
+ObjectTemplate.create SpawnPoint eastbunkerspawn_mg2
+ObjectTemplate.setSpawnId 35
+ObjectTemplate.setGroup 4
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setEnterOnSpawn 1
+
+rem
+rem ***  ***
+rem
+rem  Extra beach spawners
+rem
+rem ***  ***
+rem
+
+ObjectTemplate.create SpawnPoint beachspawn1
+ObjectTemplate.setSpawnId 36
+ObjectTemplate.setGroup 8
+
+ObjectTemplate.create SpawnPoint beachspawn2
+ObjectTemplate.setSpawnId 37
+ObjectTemplate.setGroup 8
+
+ObjectTemplate.create SpawnPoint beachspawn3
+ObjectTemplate.setSpawnId 38
+ObjectTemplate.setGroup 8
+
+rem
+rem ***  ***
+rem
+rem  para spawners
+rem
+rem ***  ***
+rem
+
+ObjectTemplate.create SpawnPoint paraspawn2
+ObjectTemplate.setSpawnId 44
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint paraspawn
+ObjectTemplate.setSpawnId 42
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint paraspawn1
+ObjectTemplate.setSpawnId 43
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint paraspawn5
+ObjectTemplate.setSpawnId 47
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint paraspawn4
+ObjectTemplate.setSpawnId 46
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint paraspawn3
+ObjectTemplate.setSpawnId 45
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint paraspawn7
+ObjectTemplate.setSpawnId 48
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint paraspawn8
+ObjectTemplate.setSpawnId 49
+ObjectTemplate.setGroup 2

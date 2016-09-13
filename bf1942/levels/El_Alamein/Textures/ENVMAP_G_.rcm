@@ -1,0 +1,8 @@
+[CubeMap]
+PositiveX = bf1942\levels\El_Alamein\Textures\env_Elala_04.dds
+NegativeX = bf1942\levels\El_Alamein\Textures\env_Elala_02.dds
+PositiveY = bf1942\levels\El_Alamein\Textures\env_Elala_05.dds
+NegativeY = bf1942\levels\El_Alamein\Textures\env_Elala_06.dds
+PositiveZ = bf1942\levels\El_Alamein\Textures\env_Elala_03.dds
+NegativeZ = bf1942\levels\El_Alamein\Textures\env_Elala_01.dds
+

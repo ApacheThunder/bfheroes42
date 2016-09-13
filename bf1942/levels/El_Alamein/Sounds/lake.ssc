@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/Wake_Urban_01.wav
+loop
+minDistance 3
+volume 0.6
+priority -10
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 8
+	param 27
+	param 1
+	param -1	
+endEffect

@@ -1,0 +1,69 @@
+if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+rem ************** LEVEL SPECIFIC AI SETTINGS ***************************
+
+aiSettings.setWorldMapSize 2048 2048
+aiSettings.setViewDistance 256
+aiSettings.setInformationGridDimension 32
+
+rem ********************** START THE AI *********************************
+
+rem *** Init AI using current settings ****
+ai.init 2
+
+rem *** init Botmanager ***
+AIBotManager.setLodLevelTicks 6 6 6
+AIBotManager.setLodLevelPriority 3 3 3
+AIBotManager.setPlannedDecisionMakingThreshold 0.5 0.5 0.5
+AIBotManager.setUnplannedDecisionMakingThreshold 0.3 0.4 0.4
+AIBotManager.setDecisionMakingInterleave 2 2
+AIBotManager.setSensingQuotient 1 1
+AIBotManager.setSystemQuotient 40 40 20
+
+rem *** Strategic map dimension, MUST BE DONE BEFORE CREATING SAI! ***
+ai.saiMapXDimension 64
+ai.saiMapYDimension 64
+
+rem *** Create Strategic AI ***
+ai.createSAI
+
+rem *** Enabled or disabled as default ***
+ai.saiEnable 1
+game.showAIstats 0
+
+rem *** Bot statistic ***
+ai.botStatisticUpdateSpeed 3
+
+rem ----------------------------------------------------------------------------
+endIf
+
+
+run AIPathFinding.con v_arg1
+
+rem *** Create strategically important areas ***
+run ai/StrategicAreas v_arg1
+
+rem *** Set strategies for each side ***
+run ai/conditions.con v_arg1
+run ai/prerequisites.con v_arg1
+run ai/Strategies.con v_arg1
+
+
+if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+ai.addSAIStrategy 1 broad
+ai.addSAIStrategy 1 flank
+ai.addSAIStrategy 1 breakOut
+ai.addSAIStrategy 1 cleanUp
+
+ai.addSAIStrategy 2 broad
+ai.addSAIStrategy 2 flank
+ai.addSAIStrategy 2 breakOut
+ai.addSAIStrategy 2 cleanUp
+
+rem ----------------------------------------------------------------------------
+endIf

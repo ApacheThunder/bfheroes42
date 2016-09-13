@@ -1,0 +1,47 @@
+if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+rem *** Create Conditions ***
+
+rem *** El Alamein ***
+
+
+rem ** common **
+
+aiStrategy.createConstantCondition timeCond Fuzzy EqualSmaller Friendly StartTime 200
+aiStrategy.setConditionStrength AdvisoryNegative
+aiStrategy.setIsAbortCondition 1
+
+rem ** flank **
+
+aiStrategy.createConstantCondition flankCond Crisp EqualGreater Enemy Front 2
+aiStrategy.setConditionStrength Required
+
+
+rem ** broad **
+
+aiStrategy.createConstantCondition broadCond Crisp EqualGreater Enemy Front 1
+aiStrategy.setConditionStrength Required
+
+
+rem ** breakOut **
+
+aiStrategy.createConstantCondition oneCPCond Crisp EqualSmaller Friendly ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition fourEnemyCPCond Crisp EqualGreater Enemy ControlPoint 4
+aiStrategy.setConditionStrength Required
+
+
+rem ** cleanUp **
+
+aiStrategy.createConstantCondition noEnemyBaseCond Crisp Equal Enemy Base 0
+aiStrategy.setConditionStrength Required
+
+aiStrategy.createConstantCondition dominatingCond Crisp EqualSmaller Enemy ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+
+rem ----------------------------------------------------------------------------
+endIf

@@ -1,0 +1,56 @@
+TextureManager.mipmaps 0
+
+console.useRelativePaths 0
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file ../bf1942/levels/El_Alamein/standardMesh/sky
+
+Sky.initSky
+
+rem
+rem *** Cloud Geometry is always defined after the initSky command! ***
+rem
+
+GeometryTemplate.create StandardMesh Cloud
+GeometryTemplate.file ../bf1942/levels/El_Alamein/standardMesh/cloud
+
+Sky.addCloud
+Cloud.setName Cloud0
+Cloud.setSrcBlend BMSourceAlpha
+Cloud.setDstBlend BMInvSourceAlpha
+Cloud.setTexScale	3
+Cloud.setSpeed 0.01 -0.02
+Cloud.setHeight 500
+Cloud.texture cloudDust1
+
+Sky.addCloud
+Cloud.setName Cloud1
+Cloud.setSrcBlend BMSourceAlpha
+Cloud.setDstBlend BMInvSourceAlpha
+Cloud.setTexScale	2
+Cloud.setSpeed 0.03 -0.02
+Cloud.setHeight 1000
+Cloud.texture cloudDust1
+
+Sky.setCloudFog 0.83/0.73/0.58
+
+include Objects/LensFlares/Lenz.inc
+
+Object.create TSun
+Object.setName sun
+
+ObjectTemplate.setflarefadeall 0.1
+ObjectTemplate.setcoronafadeall 0.3
+
+Sky.setSun sun
+sky.sunLightDirectionVec -0.656864/0.892713/-0.360772
+Sky.setRotAngle -160
+sky.changeOfsSkyHeight 0
+
+Object.active sun
+Object.setOcclusionQuadWidthHeight 5 5
+
+
+console.useRelativePaths 1
+
+TextureManager.mipmaps 1

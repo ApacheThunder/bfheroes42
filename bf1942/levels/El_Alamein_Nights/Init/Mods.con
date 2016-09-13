@@ -1,0 +1,25 @@
+ObjectTemplate.active guardtower_e_01
+ObjectTemplate.addTemplate guardtower_ladder_01
+ObjectTemplate.setPosition 0/-1.555/-2.262
+ObjectTemplate.setRotation 0/0/2.38
+
+
+ObjectTemplate.active bri_jeep_willysComplex
+ObjectTemplate.addTemplate bri_jeep_headlights
+
+ObjectTemplate.active bri_jeep_willysSimple
+ObjectTemplate.addTemplate bri_jeep_headlights
+
+
+ObjectTemplate.active ger_jeep_kubelwagenComplex
+ObjectTemplate.addTemplate ger_jeep_headlights
+
+ObjectTemplate.active ger_jeep_kubelwagenSimple
+ObjectTemplate.addTemplate ger_jeep_headlights
+
+
+ObjectTemplate.active bri_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
+
+ObjectTemplate.active ger_vehicledrop
+ObjectTemplate.loadSoundScript ../Sounds/VehicleDrop.ssc
