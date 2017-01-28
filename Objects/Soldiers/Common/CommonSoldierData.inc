@@ -61,8 +61,8 @@ ObjectTemplate.aiTemplate Soldier
 ObjectTemplate.addTemplate SoldierCamera
 ObjectTemplate.setIsFirstPersonPart 2
 
-ObjectTemplate.addTemplate SoldierEntry
-ObjectTemplate.setIsFirstPersonPart 0
+rem ObjectTemplate.addTemplate SoldierEntry
+rem ObjectTemplate.setIsFirstPersonPart 0
 
 ObjectTemplate.addTemplate Parachute
 ObjectTemplate.setIsFirstPersonPart 0
