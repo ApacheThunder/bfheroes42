@@ -1,4 +1,4 @@
-ObjectTemplate.create PlayerControlObject ger_boat_slinganC
+ObjectTemplate.create PlayerControlObject ger_boat_slingan
 ObjectTemplate.setNetworkableInfo NationalBoatInfo
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.drag 0.35
