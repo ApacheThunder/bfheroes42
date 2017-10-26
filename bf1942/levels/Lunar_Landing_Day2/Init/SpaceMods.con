@@ -22,7 +22,7 @@ ObjectTemplate.active bri_tank_complex
 ObjectTemplate.addTemplate digger_royal_hullparts
 
 ObjectTemplate.active bri_tank_turret
-ObjectTemplate.removeTemplate  bri_tank_passenger
+ObjectTemplate.removeTemplate bri_tank_passenger
 ObjectTemplate.addTemplate digger_royal_turretparts
 
 ObjectTemplate.active bri_tank_wreck

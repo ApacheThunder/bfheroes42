@@ -2,7 +2,7 @@ game.setCustomGameName bfheroes
 game.addModPath Mods/bf1942/
 game.addModPath Mods/bfheroes/
 
-game.setCustomGameVersion 5.0
+game.setCustomGameVersion 5.3F
 game.setCustomGameUrl "http://www.bfmods.com//"
 game.setCustomGameInfo "Mod created by Apache Thunder."
 

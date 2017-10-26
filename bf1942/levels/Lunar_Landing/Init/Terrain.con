@@ -12,7 +12,7 @@ GeometryTemplate.detailTexName bf1942\levels\Lunar_Landing\Textures\Detail
 GeometryTemplate.detailTexScale 0.488281
 GeometryTemplate.waterLevel 0
 GeometryTemplate.seaFloorLevel 0
-GeometryTemplate.lodDistance 1024
+GeometryTemplate.lodDistance 450
 
 ObjectTemplate.create SimpleObject terrainObject
 ObjectTemplate.geometry patchGeometry

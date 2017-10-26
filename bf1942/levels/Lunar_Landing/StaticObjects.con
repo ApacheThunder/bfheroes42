@@ -1,4 +1,3 @@
-beginRem
 rem
 rem *** Captain Shop Mods ***
 rem
@@ -15,7 +14,6 @@ rem
 Object.create ger_captainshopbundle
 Object.absolutePosition 202.505/92.0531/572.995
 Object.Rotation 0/0/0
-endRem
 rem
 rem ***  ***
 rem

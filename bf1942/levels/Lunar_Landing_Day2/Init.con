@@ -12,7 +12,7 @@ ShaderManager.setTextureParam envmap bf1942\levels\Lunar_Landing_Day2\Textures\E
 
 textureManager.alternativePath ../../bf1942/levels/Lunar_Landing_Day2/Texture
 
-Game.setViewDistance 1024
+Game.setViewDistance 750
 Game.spawnPlayers 1
 
 renderer.vertexFogEnable 1
