@@ -2,7 +2,7 @@ rem *** Royals ***
 
 rem *** bri_c_waistback001_arsroll001 ***
 ObjectTemplate.create SimpleObject bri_WaistItem1
-ObjectTemplate.geometry bri_m_waistback001_m1
+ObjectTemplate.geometry bri_m_waistback001_arsroll001_m1
 ObjectTemplate.hasDynamicShadow 1
 
 rem *** bri_c_waistright004_machete001 ***

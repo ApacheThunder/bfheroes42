@@ -363,6 +363,8 @@ Object.Rotation 31.9/0/0
 rem
 rem ***  ***
 rem
+rem *** Not yet ported ***
+beginrem
 Object.create ambstat_sporesfalling
 Object.absolutePosition 450.481/129.609/466.973
 Object.Rotation 0/0/0
@@ -402,6 +404,7 @@ rem
 Object.create ambstat_sporesfalling
 Object.absolutePosition 826.76/127.1/349.869
 Object.Rotation 0/0/0
+endRem
 rem
 rem ***  ***
 rem

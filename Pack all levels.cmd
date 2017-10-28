@@ -14,6 +14,10 @@ Echo Packing Alpine Assault Winter...
 bf1942_r +makeArchive Bf1942\levels\Alpine_Assault_Winter 1 1
 Move Bf1942\levels\Alpine_Assault_Winter.rfa C:
 Echo.
+Echo Packing Belfry Square...
+bf1942_r +makeArchive Bf1942\levels\Belfry_Square 1 1
+Move Bf1942\levels\Belfry_Square.rfa C:
+Echo.
 Echo Packing Buccaneer Bay...
 bf1942_r +makeArchive Bf1942\levels\Buccaneer_Bay 1 1
 Move Bf1942\levels\Buccaneer_Bay.rfa C:
@@ -21,6 +25,14 @@ Echo.
 Echo Packing Buccaneer Bay Nights...
 bf1942_r +makeArchive Bf1942\levels\Buccaneer_Bay_Nights 1 1
 Move Bf1942\levels\Buccaneer_Bay_Nights.rfa C:
+Echo.
+Echo Packing Cape of Aegean...
+bf1942_r +makeArchive Bf1942\levels\Cape_of_Aegean 1 1
+Move Bf1942\levels\Cape_of_Aegean.rfa C:
+Echo.
+Echo Packing City of Aegean...
+bf1942_r +makeArchive Bf1942\levels\City_of_Aegean 1 1
+Move Bf1942\levels\City_of_Aegean.rfa C:
 Echo.
 Echo Packing Coastal Clash...
 bf1942_r +makeArchive Bf1942\levels\Coastal_Clash 1 1
@@ -97,6 +109,10 @@ Echo.
 Echo Packing Seaside Skirmish Nights...
 bf1942_r +makeArchive Bf1942\levels\Seaside_Skirmish_Nights 1 1
 Move Bf1942\levels\Seaside_Skirmish_Nights.rfa C:
+Echo.
+Echo Packing Shipwreck Island...
+bf1942_r +makeArchive Bf1942\levels\Shipwreck_Island 1 1
+Move Bf1942\levels\Shipwreck_Island.rfa C:
 Echo.
 Echo Packing Sunset Showdown...
 bf1942_r +makeArchive Bf1942\levels\Sunset_showdown 1 1
