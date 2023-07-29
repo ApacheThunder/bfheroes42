@@ -1,0 +1,16 @@
+newPatch
+load @ROOT/Sound/@RTD/WEST_DOOM_SkeletonDeath_3p.wav
+minDistance 10
+dopplerOff
+volume 1
+priority 11
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 30
+	param 1
+	param -1
+endEffect

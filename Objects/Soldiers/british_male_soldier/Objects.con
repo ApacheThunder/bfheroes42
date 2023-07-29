@@ -36,9 +36,55 @@ include RandomCustomization.inc
 rem ----------------------------------------------------------
 if v_arg1 == host
 ObjectTemplate.addTemplate SoldierMineTrigger
-rem ObjectTemplate.setPosition 0/2/0
 else
 endIf
+
+ObjectTemplate.create BFSoldier british_male_soldier_doom
+ObjectTemplate.createSkeleton animations/BFSoldier.ske
+rem ----------------------------------------------------------
+ObjectTemplate.addArmorEffect 0 e_scrap_soldier_doom 0/0.4/0
+ObjectTemplate.addArmorEffect -1 e_scrap_soldier_doom 0/0.4/0
+ObjectTemplate.noCollisionAsDestroyed 1
+rem ----------------------------------------------------------
+include ../Common/CommonSoldierData.inc
+ObjectTemplate.timeToLiveAfterDeath 0.1
+game.addLanguageRunTimeDirectory English
+include ../Common/Sounds/SoldierSound.inc
+rem ----------------------------------------------------------
+ObjectTemplate.setSoldierStandingIcon "Ingame/westXPBarFrameRoyal.tga"
+ObjectTemplate.setSoldierCrouchIcon "Ingame/westXPBarFrameRoyal.tga"
+ObjectTemplate.setSoldierProneIcon "Ingame/westXPBarFrameRoyal.tga"
+rem ----------------------------------------------------------
+ObjectTemplate.setMinimapIcon "flag_royal.tga"
+ObjectTemplate.setControlPointIcon "conp_royal.tga"
+ObjectTemplate.setTicketIcon "flag_ticket_royal.tga"
+ObjectTemplate.setTeamFlagIcon "Icon_flag_royal.tga"
+ObjectTemplate.setRadioLanguage "English"
+rem ----------------------------------------------------------
+ObjectTemplate.addTemplate british_male_soldier_3pBody
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate british_male_soldier_1pBody
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.setRandomGeometries 2
+ObjectTemplate.addTemplate british_male_soldier_3p_L_hand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.addTemplate british_male_soldier_3p_R_hand
+ObjectTemplate.setIsFirstPersonPart 0
+ObjectTemplate.addTemplate british_male_soldier_1p_L_hand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.addTemplate british_male_soldier_1p_R_hand
+ObjectTemplate.setIsFirstPersonPart 1
+ObjectTemplate.addTemplate british_male_soldier_head
+ObjectTemplate.setIsFirstPersonPart 0
+rem ------------------------Items------------------------------
+include RandomCustomization.inc
+rem ----------------------------------------------------------
+if v_arg1 == host
+ObjectTemplate.addTemplate SoldierMineTrigger
+else
+endIf
+
 
 
 ObjectTemplate.create SimpleObject british_male_soldier_3pbody1

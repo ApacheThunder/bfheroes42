@@ -1,0 +1,110 @@
+ObjectTemplate.create EffectBundle e_scrap_soldier_doom
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/e_scrap_soldier_doom.ssc
+rem -------------------------------------
+beginRem
+ObjectTemplate.addTemplate e_emote_bri_horse_Clouds
+ObjectTemplate.setPosition 0/0.08984/-0.560966
+ObjectTemplate.addTemplate Em_emote_bri_horse_Smoke
+ObjectTemplate.setPosition 0/-0.273261/0.580763
+ObjectTemplate.addTemplate Em_emote_bri_horse_Smoke_2nd
+ObjectTemplate.setPosition 0/-0.053985/0.0533107
+ObjectTemplate.addTemplate e_emote_bri_horse_Clouds_2nd
+ObjectTemplate.setPosition 0/0.23647/-0.8926
+endRem
+rem -------------------------------------
+ObjectTemplate.addTemplate em_national_skeleton_arm_l
+ObjectTemplate.setPosition -0.4267/0.100549/-0.0782522
+ObjectTemplate.addTemplate em_national_skeleton_arm_r
+ObjectTemplate.setPosition 0.426182/0.106182/-0.0803809
+ObjectTemplate.addTemplate em_national_skeleton_leg_l
+ObjectTemplate.setPosition -0.0971069/-0.562864/-0.0136914
+ObjectTemplate.addTemplate em_national_skeleton_leg_r
+ObjectTemplate.setPosition 0.0992371/-0.556595/-0.0136914
+ObjectTemplate.addTemplate em_national_skeleton_pelvis
+ObjectTemplate.setPosition 4.80652e-005/-0.0678873/-0.0127461
+ObjectTemplate.addTemplate em_national_skeleton_torso
+ObjectTemplate.setPosition 3.24249e-005/0.213416/-0.0302894
+ObjectTemplate.addTemplate em_nationalskull
+ObjectTemplate.setPosition 0/0.595507/-0.0220561
+ObjectTemplate.addTemplate Em_GibbSmokeSmoke_doom
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+
+
+ObjectTemplate.create Emitter Em_GibbSmokeSmoke_doom
+ObjectTemplate.template Fx_GibbSmokeSmoke_doom
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 0.2
+ObjectTemplate.timeToLive CRD_NONE/0.4/0/0
+ObjectTemplate.intensity CRD_NONE/11/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+ObjectTemplate.create SpriteParticle Fx_GibbSmokeSmoke_doom
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1.5/0
+ObjectTemplate.size CRD_UNIFORM/4/5/0
+ObjectTemplate.sizeOverTime 0/0.299997|100/0.89996
+ObjectTemplate.gravityModifierOverTime 0/0.100009|100/1
+ObjectTemplate.texture e_muzs2_I
+ObjectTemplate.initRotation CRD_NONE/1/0/0
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/255|100/255/255/255/0
+
+
+
+ObjectTemplate.create Emitter em_nationalskull
+ObjectTemplate.template fx_nationalskull
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_national_skeleton_torso
+ObjectTemplate.template fx_national_skeleton_torso
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_national_skeleton_arm_l
+ObjectTemplate.template fx_national_skeleton_arm_l
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_national_skeleton_arm_r
+ObjectTemplate.template fx_national_skeleton_arm_r
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_national_skeleton_leg_l
+ObjectTemplate.template fx_national_skeleton_leg_l
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_national_skeleton_leg_r
+ObjectTemplate.template fx_national_skeleton_leg_r
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Emitter em_national_skeleton_pelvis
+ObjectTemplate.template fx_national_skeleton_pelvis
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 256
+ObjectTemplate.intensity CRD_NONE/2/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0

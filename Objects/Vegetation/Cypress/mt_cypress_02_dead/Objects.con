@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject mt_cypress_02_dead
+ObjectTemplate.geometry mt_cypress_02_dead_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects

@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh mt_cypress_cluster_01_dead_m1
+GeometryTemplate.file mt_cypress_cluster_01_dead_m1
+GeometryTemplate.setLodDistance 1 60

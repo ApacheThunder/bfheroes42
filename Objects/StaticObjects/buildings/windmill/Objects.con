@@ -10,6 +10,13 @@ ObjectTemplate.setPosition -0.915349/9.48764/4.80234
 ObjectTemplate.setRotation 0/0/-22
 ObjectTemplate.addTemplate DeathBox_Windmill
 
+ObjectTemplate.create Bundle windmill_doom
+ObjectTemplate.geometry windmill_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+rem -------------------------------------
+ObjectTemplate.addTemplate DeathBox_Windmill
+
 ObjectTemplate.create RotationalBundle windmillblades
 ObjectTemplate.geometry windmillblades_m1
 ObjectTemplate.loadSoundScript Windmill.ssc
@@ -25,7 +32,20 @@ ObjectTemplate.geometry DeathBox_Windmill_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.createInvisible 1
 ObjectTemplate.damage 300
-rem ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+
+ObjectTemplate.create SimpleObject windmillblades_doom
+ObjectTemplate.geometry windmillblades_doom_m1
+ObjectTemplate.loadSoundScript Woodcreek.ssc
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
+
+ObjectTemplate.create SimpleObject windmillblades_fragment
+ObjectTemplate.geometry windmillblades_fragment_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.addToCollisionGroup c_CGStaticObjects
 
 
 ObjectTemplate.create SimpleObject snow_windmill

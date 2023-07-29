@@ -1,6 +1,6 @@
 game.setCustomGameName bfheroes
-game.addModPath Mods/bf1942/
 game.addModPath Mods/bfheroes/
+game.addModPath Mods/bf1942/
 
 game.setCustomGameVersion 5.3F
 game.setCustomGameUrl "http://www.bfmods.com//"

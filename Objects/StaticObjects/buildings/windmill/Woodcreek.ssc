@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/Woodcreek.wav
+loop
+minDistance 15
+priority 1
+volume 1
+dopplerOff
+
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 30
+	param 1
+	param -1	
+endEffect

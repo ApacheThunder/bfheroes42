@@ -4,6 +4,13 @@ GeometryTemplate.file windmill_m1
 GeometryTemplate.create StandardMesh windmillblades_m1
 GeometryTemplate.file windmillblades_m1
 
+GeometryTemplate.create StandardMesh windmillblades_doom_m1
+GeometryTemplate.file windmillblades_doom_m1
+
+GeometryTemplate.create StandardMesh windmillblades_fragment_m1
+GeometryTemplate.file windmillblades_fragment_m1
+
+
 GeometryTemplate.create StandardMesh DeathBox_Windmill_m1
 GeometryTemplate.file Invisible/DeathBox_Windmill_m1
 

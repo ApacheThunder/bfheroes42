@@ -1,0 +1,27 @@
+GeometryTemplate.create StandardMesh p_nationalskull_m1
+GeometryTemplate.file p_nationalskull_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh p_national_skeleton_arm_l_m1
+GeometryTemplate.file p_national_skeleton_arm_l_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh p_national_skeleton_arm_r_m1
+GeometryTemplate.file p_national_skeleton_arm_r_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh p_national_skeleton_leg_l_m1
+GeometryTemplate.file p_national_skeleton_leg_l_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh p_national_skeleton_leg_r_m1
+GeometryTemplate.file p_national_skeleton_leg_r_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh p_national_skeleton_pelvis_m1
+GeometryTemplate.file p_national_skeleton_pelvis_m1
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh p_national_skeleton_torso_m1
+GeometryTemplate.file p_national_skeleton_torso_m1
+GeometryTemplate.hasDynamicShadow 1
